@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fest Wizard · Schedule</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+
+  <header class="sched-header">
+    <div class="header__brand">
+      <div class="header__title">FestWiz</div>
+      <div class="page-toggle">
+        <a href="/" class="page-toggle__half page-toggle__artist" id="sched-back-link">Artists</a>
+        <a href="/schedule.html" class="page-toggle__half page-toggle__schedule active">Schedule</a>
+      </div>
+    </div>
+    <nav class="sched-view-nav" id="sched-view-nav">
+      <button class="view-btn" data-view="nownext">Now</button>
+      <button class="view-btn active" data-view="grid">Grid</button>
+      <button class="view-btn" data-view="timeline">Cloud</button>
+    </nav>
+    <div class="sched-controls" id="sched-controls">
+      <div class="sched-drawer-label">Show</div>
+      <div class="theme-toggle-3" id="btn-rated-only">
+        <button class="theme-seg" data-filter="all">All</button>
+        <button class="theme-seg" data-filter="rated">Rated</button>
+        <button class="theme-seg" data-filter="top">3+</button>
+      </div>
+      <div class="sched-drawer-label">Admission</div>
+      <div class="theme-toggle-3" id="btn-admission-filter">
+        <button class="theme-seg" data-admission="badge">Badge</button>
+        <button class="theme-seg" data-admission="cover">Paid</button>
+        <button class="theme-seg" data-admission="free">Free</button>
+      </div>
+      <div class="sched-drawer-label">Theme</div>
+      <div class="theme-toggle-3" id="btn-theme">
+        <button class="theme-seg" data-theme="system">Auto</button>
+        <button class="theme-seg" data-theme="light">&#9788;</button>
+        <button class="theme-seg" data-theme="dark">&#9790;</button>
+      </div>
+      <button class="view-btn view-btn--manage" data-view="manage">+ Shows</button>
+    </div>
+    <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+  <div class="hamburger-backdrop" id="hamburger-backdrop"></div>
+
+  <div class="sched-day-bar" id="sched-day-bar">
+    <!-- Day tabs injected by JS -->
+  </div>
+
+  <main class="sched-main" id="sched-main">
+    <section class="sched-view sched-view--hidden" id="view-nownext"></section>
+    <section class="sched-view sched-view--hidden" id="view-timeline"></section>
+    <section class="sched-view" id="view-grid">
+      <div class="sched-loading">Loading schedule…</div>
+    </section>
+    <section class="sched-view sched-view--hidden" id="view-manage"></section>
+  </main>
+
+  <!-- SHOW DETAIL MODAL -->
+  <div class="modal-overlay" id="modal-show-detail">
+    <div class="modal sched-detail-modal">
+      <div class="sched-detail-artist" id="detail-artist"></div>
+      <div class="sched-detail-meta" id="detail-meta"></div>
+      <div class="sched-detail-showcase" id="detail-showcase"></div>
+      <div class="sched-detail-rating" id="detail-rating"></div>
+      <div class="sched-detail-link" id="detail-link"></div>
+      <div class="sched-detail-other" id="detail-other-shows"></div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-close-detail">Close</button>
+        <button class="btn btn--danger" id="btn-delete-show" style="display:none">Remove Show</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADD SHOW MODAL -->
+  <div class="modal-overlay" id="modal-add-show">
+    <div class="modal">
+      <div class="modal__title">Add Show</div>
+      <div class="form-group">
+        <label>Artist Name *</label>
+        <input type="text" id="add-show-artist" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label>Venue *</label>
+        <input type="text" id="add-show-venue" list="venue-datalist" autocomplete="off">
+        <datalist id="venue-datalist"></datalist>
+      </div>
+      <div class="form-group">
+        <label>Day *</label>
+        <select id="add-show-day"></select>
+      </div>
+      <div class="form-group">
+        <label id="add-show-start-label">Start Time * (e.g. 9:30 PM or 21:30)</label>
+        <input type="text" id="add-show-start" placeholder="9:30 PM">
+      </div>
+      <div class="form-group">
+        <label>End Time (optional)</label>
+        <input type="text" id="add-show-end" placeholder="10:15 PM">
+      </div>
+      <div class="form-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="add-show-no-set-time">
+          No set time announced — start time above is the event start, used for grid placement only
+        </label>
+      </div>
+      <div class="form-group">
+        <label>Showcase / Event Name (optional)</label>
+        <input type="text" id="add-show-showcase" placeholder="e.g. Emo Nite Day Party">
+      </div>
+      <div class="form-group">
+        <label>Website URL (optional — shown as link in popup)</label>
+        <input type="url" id="add-show-website" placeholder="https://...">
+      </div>
+      <div class="form-group">
+        <label>Admission</label>
+        <select id="add-show-admission">
+          <option value="free">Free</option>
+          <option value="cover">Cover</option>
+          <option value="badge">Badge/Wristband</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Source</label>
+        <select id="add-show-source">
+          <option value="user">User-Submitted</option>
+          <option value="official">Official</option>
+        </select>
+      </div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-cancel-add-show">Cancel</button>
+        <button class="btn btn--accent" id="btn-save-add-show">Add Show</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CSV IMPORT MODAL -->
+  <div class="modal-overlay" id="modal-import-csv">
+    <div class="modal">
+      <div class="modal__title">Import Schedule CSV</div>
+      <p class="sched-import-info">
+        Export a single day tab from your Google Sheet as CSV
+        (File → Download → CSV), then select it here.<br><br>
+        <strong>Which day does this CSV represent?</strong>
+      </p>
+      <div class="form-group">
+        <label>Day *</label>
+        <select id="import-csv-day"></select>
+      </div>
+      <div class="form-group">
+        <label>CSV File *</label>
+        <input type="file" id="import-csv-file" accept=".csv">
+      </div>
+      <div class="sched-import-preview" id="import-preview"></div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-cancel-import">Cancel</button>
+        <button class="btn btn--accent" id="btn-confirm-import" disabled>Import</button>
+      </div>
+    </div>
+  </div>
+
+  <input type="file" id="csv-file-input" accept=".csv" style="display:none">
+
+  <script src="schedule.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fest Wizard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__brand">
+      <div class="header__title">FestWiz</div>
+      <div class="page-toggle">
+        <a href="/" class="page-toggle__half page-toggle__artist active">Artists</a>
+        <a href="/schedule.html" class="page-toggle__half page-toggle__schedule" id="btn-schedule">Schedule</a>
+      </div>
+    </div>
+    <button class="hamburger-btn" id="artist-hamburger-btn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="header__stats">
+      <div>Rated: <span class="header__stat-value" id="stat-rated">0</span> / <span id="stat-total">0</span></div>
+      <div>Unrated: <span class="header__stat-value" id="stat-remaining">0</span></div>
+      <div>Showing: <span class="header__stat-value" id="stat-showing">0</span></div>
+    </div>
+    <div class="artist-controls">
+      <button class="btn" id="btn-add-artist">+ Add Artist</button>
+      <button class="btn" id="btn-genre-tiers">Genre Tiers</button>
+      <button class="btn" id="btn-subgenre-tiers">Subgenre Tiers</button>
+      <button class="btn" id="btn-export">Export</button>
+      <button class="btn" id="btn-import">Import</button>
+      <button class="btn" id="btn-share">Share</button>
+      <div class="theme-toggle-3" id="btn-theme">
+        <button class="theme-seg" data-theme="system">Auto</button>
+        <button class="theme-seg" data-theme="light">&#9788;</button>
+        <button class="theme-seg" data-theme="dark">&#9790;</button>
+      </div>
+    </div>
+  </header>
+  <div class="artist-drawer-backdrop" id="artist-drawer-backdrop"></div>
+
+  <!-- LAYOUT -->
+  <div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar__section">
+        <div class="sidebar__heading">Search</div>
+        <input type="text" class="search-input" id="search-input" placeholder="Search artists...">
+      </div>
+
+      <div class="sidebar__section">
+        <div class="sidebar__heading">Show</div>
+        <div class="filter-group" id="filter-rated">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="unrated">Unrated</button>
+          <button class="filter-btn" data-filter="rated">Rated</button>
+          <button class="filter-btn" data-filter="3+">3+4 Only</button>
+        </div>
+      </div>
+
+      <div class="sidebar__section">
+        <div class="sidebar__heading">Source</div>
+        <div class="filter-group" id="filter-source">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="official">Official</button>
+          <button class="filter-btn" data-filter="unofficial">Unofficial</button>
+          <button class="filter-btn" data-filter="user">User-Submitted</button>
+        </div>
+      </div>
+
+      <div class="sidebar__section">
+        <div class="sidebar__heading">Sort</div>
+        <div class="filter-group" id="filter-sort">
+          <button class="filter-btn active" data-sort="name">Name</button>
+          <button class="filter-btn" data-sort="genre">Genre</button>
+          <button class="filter-btn" data-sort="subgenre">Subgenre</button>
+          <button class="filter-btn" data-sort="rating">Rating</button>
+          <button class="filter-btn" data-sort="country">Country</button>
+        </div>
+      </div>
+
+      <div class="sidebar__section">
+        <div class="sidebar__heading sidebar__heading--toggle" id="toggle-genres">Genres <span class="sidebar__arrow">&#9660;</span></div>
+        <ul class="genre-list" id="genre-list"></ul>
+      </div>
+
+      <div class="sidebar__section">
+        <div class="sidebar__heading sidebar__heading--toggle" id="toggle-subgenres">Subgenres <span class="sidebar__arrow">&#9660;</span></div>
+        <ul class="genre-list" id="subgenre-list"></ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main" id="main-content">
+      <div class="loading" id="loading">Loading artists.json...</div>
+    </main>
+  </div>
+
+  <!-- ADD ARTIST MODAL -->
+  <div class="modal-overlay" id="modal-add-artist">
+    <div class="modal">
+      <div class="modal__title">Add Artist</div>
+      <div class="form-group">
+        <label>Artist Name *</label>
+        <input type="text" id="add-name" required>
+      </div>
+      <div class="form-group">
+        <label>Genre</label>
+        <input type="text" id="add-genre" placeholder="e.g. Rock">
+      </div>
+      <div class="form-group">
+        <label>Subgenre</label>
+        <input type="text" id="add-subgenre" placeholder="e.g. Post-Punk">
+      </div>
+      <div class="form-group">
+        <label>Location</label>
+        <input type="text" id="add-location" placeholder="e.g. Austin, TX">
+      </div>
+      <div class="form-group">
+        <label>Description</label>
+        <textarea id="add-description" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Bandcamp URL</label>
+        <input type="url" id="add-bandcamp" placeholder="https://...bandcamp.com">
+      </div>
+      <div class="form-group">
+        <label>YouTube URL</label>
+        <input type="url" id="add-youtube" placeholder="https://youtube.com/...">
+      </div>
+      <div class="form-group">
+        <label>Apple Music URL</label>
+        <input type="url" id="add-apple-music" placeholder="https://music.apple.com/...">
+      </div>
+      <div class="form-group">
+        <label>SoundCloud URL</label>
+        <input type="url" id="add-soundcloud" placeholder="https://soundcloud.com/...">
+      </div>
+      <div class="form-group">
+        <label>Spotify URL</label>
+        <input type="url" id="add-spotify" placeholder="https://open.spotify.com/...">
+      </div>
+      <div class="form-group">
+        <label>Website URL</label>
+        <input type="url" id="add-website" placeholder="https://...">
+      </div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-cancel-add">Cancel</button>
+        <button class="btn btn--accent" id="btn-save-add">Add Artist</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GENRE TIERS MODAL -->
+  <div class="modal-overlay" id="modal-genre-tiers">
+    <div class="modal" style="width: 600px">
+      <div class="modal__title">Set Genre Priority Tiers</div>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+        Assign priority tiers to focus your listening. High = review first, Skip = hide entirely.
+      </p>
+      <div id="genre-tier-list"></div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-close-tiers">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SUBGENRE TIERS MODAL -->
+  <div class="modal-overlay" id="modal-subgenre-tiers">
+    <div class="modal" style="width: 600px">
+      <div class="modal__title">Set Subgenre Priority Tiers</div>
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+        Assign priority tiers to subgenres. High = review first, Skip = hide entirely.
+      </p>
+      <div id="subgenre-tier-list"></div>
+      <div class="modal__actions">
+        <button class="btn" id="btn-close-subgenre-tiers">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPORT CHOICE MODAL -->
+  <div class="modal-overlay" id="modal-export-choice">
+    <div class="modal">
+      <div class="modal__title">Export</div>
+      <div class="modal__actions" style="flex-direction: column; gap: 10px; align-items: stretch;">
+        <button class="btn btn--accent" id="btn-export-shortlist">Shortlist (CSV) — highest-rated artists for sharing</button>
+        <button class="btn" id="btn-export-all">Full Backup (JSON) — all ratings &amp; notes</button>
+        <button class="btn" id="btn-cancel-export">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden file input for import -->
+  <input type="file" id="import-file-input" accept=".json" style="display: none">
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+</body>
+</html>

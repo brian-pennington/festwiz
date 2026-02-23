@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ---- FestWiz local-only files ----
+
+# Dev server & build scripts
+server.py
+build_dist.sh
+build_unofficial.py
+
+# Dev directories
+scraper/
+data/
+dist/
+stable/
+input/
+
+# Claude AI context
+.claude/
+
+# Dev/reference files
+artists_sample.json
+removed_artists.json
+PROJECT.md
+
+# Screenshots & reference images
+artist-page.jpg
+screenshot.png
+
+# CSV inputs
+*.csv
+
+# macOS
+.DS_Store

@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Sharkwork",
+    "genre": "Electronic",
+    "subgenre": "Drum & Bass",
+    "location": "WI, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sharkwork.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "WI",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Downhill2k01",
+    "genre": "Electronic",
+    "subgenre": "Drum & Bass",
+    "location": "Dallas/Fort Worth, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://downhill.bandcamp.com",
+      "soundcloud": "https://soundcloud.com/downhill_from_here",
+      "spotify": "https://open.spotify.com/artist/0xBBjvYwXtW0k90kDx9JLs?si=MCMH2dQzRqGNVAgFoqWlHg&nd=1&dlsi=76cb7d85daed4f47"
+    },
+    "source": "unofficial",
+    "city": "Dallas/Fort Worth",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Assorted Potions",
+    "genre": "Electronic",
+    "subgenre": "Dungeon Synth",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://assortedpotions.bandcamp.com",
+      "youtube": "https://www.youtube.com/watch?v=fwLb-AjRx1s&t=2s"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Worldbuilder",
+    "genre": "Electronic",
+    "subgenre": "Dungeon Synth, Drum & Bass",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://worldbuilder.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Galaxy Gardens",
+    "genre": "Electronic",
+    "subgenre": "Drum & Bass",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Stealth Archer",
+    "genre": "Electronic",
+    "subgenre": "Dungeon Synth",
+    "location": "Dallas/Fort Worth, TX, USA",
+    "description": "Rarely-ambient Dungeon Synth / VGM, pulling in styles and influence from [gestures vaguely]. Ponder: meta-retrofuturist hauntological dumbassery.\n\nAnti-NS, anti-AI, pro-LGBT, pro-P2P. Take what you must, pay for what you can.\n\nEternal hails to all fellow DIY musicians and artists of any medium.\n\nHail Texas Dungeon Synth!",
+    "links": {
+      "bandcamp": "https://stealtharcher.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Dallas/Fort Worth",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  }
+]
