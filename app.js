@@ -102,7 +102,7 @@
     soundcloud: 'SoundCloud',
     spotify: 'Spotify',
     website: 'Website',
-    sxsw: 'SXSW',
+    sxsw: 'Official',
   };
 
   // ---- DATA LOADING ----
