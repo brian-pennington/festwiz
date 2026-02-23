@@ -101,5 +101,219 @@
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
+  },
+  {
+    "name": "Osees",
+    "genre": "Punk",
+    "subgenre": "Psychedelic",
+    "location": "Los Angeles, CA, USA",
+    "description": "Psych-punk psychic warrior, ear worm-farmer, and possessor of many stamped passport pages John Dwyer does not let up. His group Oh Sees (aka Thee Oh Sees, OCS, The Oh Sees, etc) have transmogrified to fit many a moment - from hushed druggy folk to groovy demonic pop chants to science fictional krautrock expanse and beyond - to suit his omnivorous whims.",
+    "links": {
+      "bandcamp": "https://ohsees.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Holy Wave",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "Holy Wave is an experimental dream-pop band originally from El Paso, Texas. After seeing a life-altering performance by My Bloody Valentine in 2008, the band moved to Austin to pursue their own vision of Texas psych, their sweet melodies dyed in carefully constructed noise.",
+    "links": {
+      "bandcamp": "https://holywave.bandcamp.com",
+      "spotify": "https://open.spotify.com/artist/0Cx9SrMKbfrkHvnqJLHq6b?go=1&sp_cid=509bbd10-b1b0-44f0-8192-40b4ca1bab02&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=f013b650a0d04f61"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Tear Dungeon",
+    "genre": "Punk",
+    "subgenre": "Garage punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://teardungeon.bandcamp.com/album/gory-hole"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Amplified Heat",
+    "genre": "Rock",
+    "subgenre": "Stoner",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://amplifiedheat.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "American Sharks",
+    "genre": "Punk",
+    "subgenre": "Stoner",
+    "location": "Austin, TX, USA",
+    "description": "American Sharks is a three-piece band hailing from Austin, TX. Their punk-metal hybrid sound blends pop hooks with blasting- yer-face riffs resulting in something akin to if Weezer went Stoner Rock.",
+    "links": {
+      "bandcamp": "https://americansharks.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Kind Keith",
+    "genre": "R&B",
+    "subgenre": "Neo Soul",
+    "location": "Austin, TX, USA",
+    "description": "keyboardist, songwriter, fan of pokemon",
+    "links": {
+      "bandcamp": "https://kindkeith.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/2YtOZ1zmZrIQV4Exx9W8af?si=6lbRL1g-SZGXrgPYf4IbYg&nd=1&dlsi=fda72e760ca04cf4"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ori\u00f3n Garc\u00eda",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Bad Lovers",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "G\u00f6teborg, Sweden",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=4tLLO3fuWq0"
+    },
+    "source": "unofficial",
+    "city": "G\u00f6teborg",
+    "country": "Sweden",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ulovei",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "King Louie",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Surfbort",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Queen Serene",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Prehuman",
+    "genre": "Rock",
+    "subgenre": "Grunge",
+    "location": "Austin, TX, USA",
+    "description": "Alternative grunge rock from ATX",
+    "links": {
+      "bandcamp": "https://prehumanatx.bandcamp.com",
+      "youtube": "https://www.youtube.com/watch?v=gAFt_K2N7a4"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
   }
 ]
