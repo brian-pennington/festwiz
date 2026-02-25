@@ -2061,21 +2061,26 @@ body.light .update-log {
   max-height: 80vh;
   display: flex;
   flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  padding-left: 174px; /* 150px strip + 24px gap */
 }
-.modal--tutorial::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 150px;
-  background-image: url('fest-wiz-trans.png');
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
+
+@media (min-width: 600px) {
+  .modal--tutorial {
+    position: relative;
+    overflow: hidden;
+    padding-left: 174px; /* 150px strip + 24px gap */
+  }
+  .modal--tutorial::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background-image: url('fest-wiz-trans.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
 }
 .tutorial-body {
   overflow-y: auto;
