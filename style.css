@@ -78,8 +78,10 @@ body.light {
   --nav-bg: #0f3934;
 }
 
-body.light .header__title {
-  color: #a8c4e8;
+.site-logo {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 body.light .header__stats {
@@ -134,11 +136,10 @@ body {
 }
 
 .header__title {
-  font-size: 20px;
-  font-weight: 800;
-  color: var(--nav-accent);
   cursor: pointer;
   user-select: none;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
 }
 
@@ -513,10 +514,6 @@ body {
   .header .header__brand {
     flex: 1;
     gap: 8px;
-  }
-
-  .header .header__title {
-    font-size: 14px;
   }
 
   .header .page-toggle__half {
@@ -1269,9 +1266,6 @@ body.light .update-log {
   }
   .sched-header .header__brand {
     gap: 6px;
-  }
-  .sched-header .header__title {
-    font-size: 14px;
   }
   .sched-header .page-toggle__half {
     font-size: 11px;
