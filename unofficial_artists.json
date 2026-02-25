@@ -208,7 +208,7 @@
   },
   {
     "name": "Ori\u00f3n Garc\u00eda",
-    "genre": "Unknown",
+    "genre": "DJ",
     "subgenre": "",
     "location": "Austin, TX, USA",
     "description": "",
@@ -225,23 +225,25 @@
     "name": "Bad Lovers",
     "genre": "Rock",
     "subgenre": "Garage",
-    "location": "G\u00f6teborg, Sweden",
+    "location": "Austin, TX, USA",
     "description": "",
     "links": {
-      "youtube": "https://www.youtube.com/watch?v=4tLLO3fuWq0"
+      "bandcamp": "https://thebadlovers.bandcamp.com",
+      "youtube": "https://www.youtube.com/watch?v=OdM8Vl7z7Jw",
+      "apple_music": "https://music.apple.com/us/artist/the-bad-lovers/597503326"
     },
     "source": "unofficial",
-    "city": "G\u00f6teborg",
-    "country": "Sweden",
-    "state": "",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
   },
   {
     "name": "Ulovei",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "DJ",
+    "subgenre": "Cumbia",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {},
@@ -255,7 +257,7 @@
   },
   {
     "name": "King Louie",
-    "genre": "Unknown",
+    "genre": "DJ",
     "subgenre": "",
     "location": "Austin, TX, USA",
     "description": "",
@@ -285,11 +287,16 @@
   },
   {
     "name": "Queen Serene",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
     "description": "",
-    "links": {},
+    "links": {
+      "bandcamp": "https://queensereneofficial.bandcamp.com/",
+      "apple_music": "https://music.apple.com/us/artist/queen-serene/1584927699",
+      "soundcloud": "https://soundcloud.com/queensereneofficial",
+      "spotify": "https://open.spotify.com/artist/72rl9KndePSlbN6Y32Li0f"
+    },
     "source": "unofficial",
     "city": "Austin",
     "country": "USA",
@@ -310,6 +317,45 @@
     },
     "source": "unofficial",
     "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Datura",
+    "genre": "Jazz",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCSugb3-jPM_CjyWoGHlRVBQ",
+      "apple_music": "https://music.apple.com/us/artist/datura/1634212641",
+      "spotify": "https://open.spotify.com/artist/6bwyvptlP3Xyw9potQARq8?si=To8_RxWISC-bcQ2nQsP4zg&nd=1&dlsi=16dfdd35bed74be7",
+      "website": "https://www.daturamusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Raynes",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Hosuton, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/raynes/1444818016",
+      "spotify": "https://open.spotify.com/artist/3srupAODFNn7Dx4ZUg4uqM?si=GkDsXmvtQfOljcTvWC2nSA&nd=1&dlsi=20aeea505c9b4a20",
+      "website": "https://www.raynesmusic.com"
+    },
+    "source": "unofficial",
+    "city": "Hosuton",
     "country": "USA",
     "state": "TX",
     "entity_id": null,
