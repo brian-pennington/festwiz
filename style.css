@@ -174,10 +174,8 @@ body {
   background: var(--nav-accent);
   color: #fff;
 }
-.page-toggle__artist:not(.active) {
-  filter: drop-shadow(1px 0 0 var(--nav-accent)) drop-shadow(-1px 0 0 var(--nav-accent)) drop-shadow(0 1px 0 var(--nav-accent)) drop-shadow(0 -1px 0 var(--nav-accent));
-}
-.page-toggle__artist:not(.active):hover { background: rgba(187,18,77,0.35); }
+.page-toggle__artist:not(.active) { background: rgba(187,18,77,0.35); }
+.page-toggle__artist:not(.active):hover { background: rgba(187,18,77,0.5); }
 
 /* Schedule side — turquoise */
 .page-toggle__schedule {
