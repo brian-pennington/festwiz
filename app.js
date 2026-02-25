@@ -1192,8 +1192,7 @@
     const closeBtn = document.getElementById('btn-close-tutorial');
     const helpBtn  = document.getElementById('btn-help');
 
-    function close() {
-      modal.classList.remove('visible');
+    function markSeen() {
       localStorage.setItem('fw_tutorial_seen', '1');
       // First-time users: mark all current announcements as seen so they
       // don't immediately get an announcement popup after the tutorial.
@@ -1201,7 +1200,20 @@
         localStorage.setItem('fw_announcement_seen', announcements[0].id);
       }
     }
-    closeBtn.addEventListener('click', close);
+
+    function close() {
+      modal.classList.remove('visible');
+      markSeen();
+    }
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.add('zapping');
+      setTimeout(() => {
+        modal.classList.remove('visible', 'zapping');
+        markSeen();
+      }, 700);
+    });
+
     modal.addEventListener('click', e => { if (e.target === modal) close(); });
     helpBtn.addEventListener('click', () => modal.classList.add('visible'));
 
