@@ -161,34 +161,36 @@ body {
   white-space: nowrap;
 }
 
-/* Artist side — crimson */
+/* Artist/Rate side — crimson */
 .page-toggle__artist {
-  border: 2px solid var(--nav-accent);
-  border-right: none;
-  border-radius: 999px 0 0 999px;
+  clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+  border: none;
+  border-radius: 0;
+  padding: 3px 22px 3px 14px;
   color: var(--nav-accent);
-  background: transparent;
+  background: rgba(187,18,77,0.18);
 }
 .page-toggle__artist.active {
   background: var(--nav-accent);
   color: #fff;
 }
-.page-toggle__artist:not(.active):hover { background: var(--nav-accent-alpha); }
-
+.page-toggle__artist:not(.active):hover { background: rgba(187,18,77,0.35); }
 
 /* Schedule side — turquoise */
 .page-toggle__schedule {
-  border: 2px solid #00bcd4;
-  border-left: none;
-  border-radius: 0 999px 999px 0;
+  clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+  border: none;
+  border-radius: 0;
+  padding: 3px 14px 3px 22px;
+  margin-left: -10px;
   color: #00bcd4;
-  background: transparent;
+  background: rgba(0,188,212,0.15);
 }
 .page-toggle__schedule.active {
   background: #00bcd4;
   color: #000;
 }
-.page-toggle__schedule:not(.active):hover { background: rgba(0,188,212,0.12); }
+.page-toggle__schedule:not(.active):hover { background: rgba(0,188,212,0.3); }
 
 .header__stats {
   display: flex;
