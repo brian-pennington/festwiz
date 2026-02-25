@@ -1415,7 +1415,9 @@
 
   function setupAbout() {
     const overlay = document.getElementById('modal-about');
-    document.getElementById('btn-about').addEventListener('click', () => overlay.classList.add('visible'));
+    const open = () => overlay.classList.add('visible');
+    document.getElementById('btn-about').addEventListener('click', open);
+    document.getElementById('btn-about-drawer').addEventListener('click', open);
     document.getElementById('btn-close-about').addEventListener('click', () => overlay.classList.remove('visible'));
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('visible'); });
   }

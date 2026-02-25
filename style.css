@@ -309,6 +309,29 @@ body {
   width: 100%;
   text-align: center;
 }
+.artist-controls__drawer-nav {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 4px;
+}
+.artist-controls__drawer-nav-btn {
+  width: 100%;
+  text-align: center;
+}
+.sched-drawer-nav-btn {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+.sched-drawer-label--nav {
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+  padding-top: 0;
+}
 
 .sidebar__heading {
   font-size: 11px;
@@ -562,6 +585,10 @@ body {
     font-size: 13px;
     text-align: center;
     box-sizing: border-box;
+  }
+
+  .artist-controls__drawer-nav {
+    display: flex;
   }
 
   /* Theme toggle stretches full width in drawer */
@@ -1368,6 +1395,10 @@ body.light .update-log {
     font-size: 13px;
     text-align: center;
     margin-top: 8px;
+  }
+
+  .sched-drawer-nav-btn {
+    display: block;
   }
 
   /* Compact time-navigation banner on small screens */

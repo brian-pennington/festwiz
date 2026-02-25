@@ -1214,10 +1214,10 @@
   function setupAbout() {
     const modal    = document.getElementById('modal-about');
     const closeBtn = document.getElementById('btn-close-about');
-    const openBtn  = document.getElementById('btn-about');
     closeBtn.addEventListener('click', () => modal.classList.remove('visible'));
     modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('visible'); });
-    openBtn.addEventListener('click', () => modal.classList.add('visible'));
+    document.getElementById('btn-about').addEventListener('click', () => modal.classList.add('visible'));
+    document.getElementById('btn-about-drawer').addEventListener('click', () => modal.classList.add('visible'));
   }
 
   // ---- TUTORIAL ----
