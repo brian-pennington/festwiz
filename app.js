@@ -568,9 +568,10 @@
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         const newRating = parseInt(btn.dataset.rating);
+        const isToggleOff = ratings[key] === newRating;
 
         // Toggle off if clicking the same rating
-        if (ratings[key] === newRating) {
+        if (isToggleOff) {
           delete ratings[key];
         } else {
           ratings[key] = newRating;
@@ -579,6 +580,14 @@
         saveRatings();
         updateCardStyle(card, key);
         updateStats();
+
+        // Celebratory flash for 3 (Psyched) or 4 (Hell Yeah)
+        if (!isToggleOff && newRating >= 3) {
+          card.classList.remove('artist-card--celebrate-3', 'artist-card--celebrate-4');
+          void card.offsetWidth; // restart animation if same rating clicked again
+          card.classList.add(`artist-card--celebrate-${newRating}`);
+          setTimeout(() => card.classList.remove(`artist-card--celebrate-${newRating}`), 520);
+        }
       });
     });
 
