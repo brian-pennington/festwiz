@@ -534,7 +534,6 @@ body {
     padding: 6px 12px;
     row-gap: 4px;
     align-items: center;
-    background-size: 80px auto;
   }
 
   /* Brand takes remaining row-1 space; hamburger aligns to right */
