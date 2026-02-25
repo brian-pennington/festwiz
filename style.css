@@ -82,6 +82,10 @@ body.light {
   height: 28px;
   width: auto;
   display: block;
+  transition: opacity 0.15s ease;
+}
+.header__title:hover .site-logo {
+  opacity: 0.65;
 }
 
 body.light .header__stats {
@@ -1241,6 +1245,7 @@ body.light .update-log {
   border: 1px solid #1e5e54;
   border-radius: 4px;
   color: #a8c4e8;
+  font-size: 13px;
   padding: 4px 10px;
 }
 .view-btn--manage:hover {
