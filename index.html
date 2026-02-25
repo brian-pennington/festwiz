@@ -197,6 +197,68 @@
     </div>
   </div>
 
+  <!-- ANNOUNCEMENT MODAL -->
+  <div class="modal-overlay" id="modal-announcements">
+    <div class="modal">
+      <div class="ann-header">
+        <span class="ann-date" id="ann-date"></span>
+        <span class="ann-counter" id="ann-counter"></span>
+      </div>
+      <div class="modal__title" id="ann-title"></div>
+      <div class="ann-body" id="ann-body"></div>
+      <div class="ann-nav">
+        <button class="btn ann-nav-btn" id="ann-prev">← Newer</button>
+        <button class="btn ann-nav-btn" id="ann-next">Older →</button>
+      </div>
+      <div class="modal__actions">
+        <button class="btn btn--accent" id="ann-close">Got it</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TUTORIAL MODAL -->
+  <div class="modal-overlay" id="modal-tutorial">
+    <div class="modal modal--tutorial">
+      <div class="modal__title">Welcome to FestWiz</div>
+      <div class="tutorial-body">
+        <h3>Rating Artists</h3>
+        <p>Use the 1–4 buttons on each artist card to rate acts you're interested in seeing.</p>
+        <ul>
+          <li><strong>1</strong> — Skip</li>
+          <li><strong>2</strong> — Maybe</li>
+          <li><strong>3</strong> — Interested</li>
+          <li><strong>4</strong> — Must-see</li>
+        </ul>
+        <p>Tap an artist's name to open the detail view, where you can add notes and access streaming links.</p>
+
+        <h3>Genre &amp; Subgenre Tiers</h3>
+        <p>Use <strong>Genre Tiers</strong> and <strong>Subgenre Tiers</strong> to prioritize your listening queue. Set a genre to <em>High</em> to review those artists first, or <em>Skip</em> to hide them from view entirely.</p>
+
+        <h3>Schedule</h3>
+        <p>Switch to the <strong>Schedule</strong> page to see all shows on a grid organized by venue and time slot. Tap any show to see details and update your rating. Filter by rated status or admission type (Free, Paid, Badge).</p>
+
+        <h3>Sharing Your Ratings</h3>
+        <p>Hit <strong>Share</strong> to generate a URL containing your ratings. Send it to a friend — when they open the link they'll be prompted to import your ratings and can see how your picks compare.</p>
+
+        <h3>Exporting</h3>
+        <p>The <strong>Export</strong> button gives you two options:</p>
+        <ul>
+          <li><strong>Shortlist (CSV)</strong> — your 3+ rated artists with links, easy to share with anyone</li>
+          <li><strong>Full Backup (JSON)</strong> — all ratings, notes, and tiers for safekeeping or moving to a new device</li>
+        </ul>
+
+        <h3>Adding Shows</h3>
+        <p>On the Schedule page, use <strong>+ Shows</strong> to manually add unofficial showcases or day parties not in the official lineup.</p>
+      </div>
+      <div class="modal__actions">
+        <button class="btn btn--accent" id="btn-close-tutorial">Got it</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HELP FAB -->
+  <button class="help-fab" id="btn-help" aria-label="Help">?</button>
+
   <!-- Hidden file input for import -->
   <input type="file" id="import-file-input" accept=".json" style="display: none">
 

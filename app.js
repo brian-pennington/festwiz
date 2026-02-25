@@ -1145,6 +1145,71 @@
     });
   }
 
+  // ---- ANNOUNCEMENTS ----
+  function setupAnnouncements(announcements) {
+    if (!announcements || announcements.length === 0) return;
+
+    const modal    = document.getElementById('modal-announcements');
+    const titleEl  = document.getElementById('ann-title');
+    const dateEl   = document.getElementById('ann-date');
+    const bodyEl   = document.getElementById('ann-body');
+    const counter  = document.getElementById('ann-counter');
+    const prevBtn  = document.getElementById('ann-prev');
+    const nextBtn  = document.getElementById('ann-next');
+    const closeBtn = document.getElementById('ann-close');
+    let idx = 0;
+
+    function render(i) {
+      idx = i;
+      const ann = announcements[i];
+      titleEl.textContent = ann.title || '';
+      dateEl.textContent  = ann.date  || '';
+      bodyEl.innerHTML    = ann.body  || '';
+      counter.textContent = `${i + 1} / ${announcements.length}`;
+      prevBtn.disabled    = i === 0;
+      nextBtn.disabled    = i === announcements.length - 1;
+    }
+
+    prevBtn.addEventListener('click', () => { if (idx > 0) render(idx - 1); });
+    nextBtn.addEventListener('click', () => { if (idx < announcements.length - 1) render(idx + 1); });
+
+    function close() {
+      modal.classList.remove('visible');
+      localStorage.setItem('fw_announcement_seen', announcements[0].id);
+    }
+    closeBtn.addEventListener('click', close);
+    modal.addEventListener('click', e => { if (e.target === modal) close(); });
+
+    if (localStorage.getItem('fw_announcement_seen') !== announcements[0].id) {
+      render(0);
+      modal.classList.add('visible');
+    }
+  }
+
+  // ---- TUTORIAL ----
+  function setupTutorial(announcements) {
+    const modal    = document.getElementById('modal-tutorial');
+    const closeBtn = document.getElementById('btn-close-tutorial');
+    const helpBtn  = document.getElementById('btn-help');
+
+    function close() {
+      modal.classList.remove('visible');
+      localStorage.setItem('fw_tutorial_seen', '1');
+      // First-time users: mark all current announcements as seen so they
+      // don't immediately get an announcement popup after the tutorial.
+      if (announcements && announcements.length > 0 && !localStorage.getItem('fw_announcement_seen')) {
+        localStorage.setItem('fw_announcement_seen', announcements[0].id);
+      }
+    }
+    closeBtn.addEventListener('click', close);
+    modal.addEventListener('click', e => { if (e.target === modal) close(); });
+    helpBtn.addEventListener('click', () => modal.classList.add('visible'));
+
+    if (!localStorage.getItem('fw_tutorial_seen')) {
+      modal.classList.add('visible');
+    }
+  }
+
   // ---- INIT ----
   async function init() {
     loadFromLocalStorage();
@@ -1159,6 +1224,11 @@
     setupSubgenreTiers();
     setupExportImport();
     setupShare();
+    const announcements = await fetch('announcements.json').then(r => r.json()).catch(() => []);
+    setupTutorial(announcements);
+    if (localStorage.getItem('fw_tutorial_seen')) {
+      setupAnnouncements(announcements);
+    }
     loadArtists();
   }
 
