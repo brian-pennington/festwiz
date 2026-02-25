@@ -2104,6 +2104,9 @@ body.light .update-log {
 .tutorial-body p  { margin: 0 0 8px; }
 .tutorial-body ul { margin: 0 0 8px; padding-left: 20px; }
 .tutorial-body li { margin-bottom: 3px; }
+.tutorial-body a:link,
+.tutorial-body a:visited { color: var(--accent); }
+.tutorial-body a:hover   { color: var(--accent-hover); }
 
 #btn-close-tutorial {
   transition: box-shadow 0.2s, background 0.2s;
