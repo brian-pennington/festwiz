@@ -388,7 +388,11 @@
     if (filtered.length === 0) {
       const empty = document.createElement('div');
       empty.className = 'loading';
-      empty.textContent = 'No artists match the current filters.';
+      if (currentFilters.source === 'user') {
+        empty.innerHTML = 'You haven\'t submitted any artists. Click <strong>+Add Artist</strong> to add.';
+      } else {
+        empty.textContent = 'No artists match the current filters.';
+      }
       main.appendChild(empty);
       document.getElementById('stat-showing').textContent = '0';
       return;
