@@ -2,7 +2,7 @@
  * Bump CACHE_NAME after each artists.json / shows.json data push to force refresh.
  */
 
-const CACHE_NAME = 'sxsw-v54';
+const CACHE_NAME = 'sxsw-v55';
 
 const PRECACHE = [
   '/',
@@ -22,6 +22,7 @@ const PRECACHE = [
   '/icon-192.png',
   '/icon-512.png',
   '/fest-wiz-trans.png',
+  '/collage-2-color.png',
 ];
 
 self.addEventListener('install', event => {

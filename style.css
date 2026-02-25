@@ -114,7 +114,7 @@ body {
 
 /* ---- HEADER (stays dark in both modes) ---- */
 .header {
-  background: url('fest-wiz-trans.png') left 0 bottom -30px / 150px auto no-repeat, var(--nav-bg);
+  background: linear-gradient(rgba(15,57,52,0.65), rgba(15,57,52,0.65)), url('collage-2-color.png') center / cover no-repeat;
   border-bottom: 3px solid var(--nav-accent);
   padding: 9px 20px;
   display: flex;
@@ -1063,7 +1063,7 @@ body.light .update-log {
   gap: 12px;
   padding: 0 20px;
   height: 52px;
-  background: url('fest-wiz-trans.png') left 0 bottom -30px / 150px auto no-repeat, var(--nav-bg);
+  background: linear-gradient(rgba(15,57,52,0.65), rgba(15,57,52,0.65)), url('collage-2-color.png') center / cover no-repeat;
   border-bottom: 3px solid var(--nav-accent);
   overflow: hidden;
 }
