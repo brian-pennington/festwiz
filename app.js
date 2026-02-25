@@ -1184,6 +1184,11 @@
       render(0);
       modal.classList.add('visible');
     }
+
+    const updatesBtn = document.getElementById('btn-updates');
+    if (updatesBtn) {
+      updatesBtn.addEventListener('click', () => { render(0); modal.classList.add('visible'); });
+    }
   }
 
   // ---- ABOUT ----

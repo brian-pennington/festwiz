@@ -292,6 +292,15 @@ body {
 .sidebar__section {
   margin-bottom: 20px;
 }
+.sidebar__section--tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sidebar-tier-btn {
+  width: 100%;
+  text-align: center;
+}
 
 .sidebar__heading {
   font-size: 11px;
