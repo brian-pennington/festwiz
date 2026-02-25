@@ -1186,6 +1186,16 @@
     }
   }
 
+  // ---- ABOUT ----
+  function setupAbout() {
+    const modal    = document.getElementById('modal-about');
+    const closeBtn = document.getElementById('btn-close-about');
+    const openBtn  = document.getElementById('btn-about');
+    closeBtn.addEventListener('click', () => modal.classList.remove('visible'));
+    modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('visible'); });
+    openBtn.addEventListener('click', () => modal.classList.add('visible'));
+  }
+
   // ---- TUTORIAL ----
   function setupTutorial(announcements) {
     const modal    = document.getElementById('modal-tutorial');
@@ -1236,6 +1246,7 @@
     setupSubgenreTiers();
     setupExportImport();
     setupShare();
+    setupAbout();
     const announcements = await fetch('announcements.json').then(r => r.json()).catch(() => []);
     setupTutorial(announcements);
     if (localStorage.getItem('fw_tutorial_seen')) {

@@ -2,7 +2,7 @@
  * Bump CACHE_NAME after each artists.json / shows.json data push to force refresh.
  */
 
-const CACHE_NAME = 'sxsw-v53';
+const CACHE_NAME = 'sxsw-v54';
 
 const PRECACHE = [
   '/',
