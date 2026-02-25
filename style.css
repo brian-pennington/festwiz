@@ -2035,7 +2035,13 @@ body.light .update-log {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+}
+.ann-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 .ann-date    { font-size: 12px; color: var(--text-muted); }
 .ann-counter { font-size: 12px; color: var(--text-muted); }
@@ -2047,7 +2053,6 @@ body.light .update-log {
 }
 .ann-body p { margin: 0 0 10px; }
 .ann-body p:last-child { margin-bottom: 0; }
-.ann-nav { display: flex; gap: 8px; margin-bottom: 12px; }
 .ann-nav-btn:disabled { opacity: 0.35; cursor: default; }
 
 /* ── Tutorial modal ──────────────────────────────────────────────────────── */

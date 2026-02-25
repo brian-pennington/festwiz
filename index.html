@@ -201,17 +201,17 @@
   <div class="modal-overlay" id="modal-announcements">
     <div class="modal">
       <div class="ann-header">
-        <span class="ann-date" id="ann-date"></span>
-        <span class="ann-counter" id="ann-counter"></span>
+        <button class="btn ann-nav-btn" id="ann-prev">← Newer</button>
+        <div class="ann-meta">
+          <span class="ann-date" id="ann-date"></span>
+          <span class="ann-counter" id="ann-counter"></span>
+        </div>
+        <button class="btn ann-nav-btn" id="ann-next">Older →</button>
       </div>
       <div class="modal__title" id="ann-title"></div>
       <div class="ann-body" id="ann-body"></div>
-      <div class="ann-nav">
-        <button class="btn ann-nav-btn" id="ann-prev">← Newer</button>
-        <button class="btn ann-nav-btn" id="ann-next">Older →</button>
-      </div>
       <div class="modal__actions">
-        <button class="btn btn--accent" id="ann-close">Got it</button>
+        <button class="btn btn--accent" id="ann-close">Close</button>
       </div>
     </div>
   </div>
