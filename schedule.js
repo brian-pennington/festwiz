@@ -1416,9 +1416,13 @@
   function setupAbout() {
     const overlay = document.getElementById('modal-about');
     const open = () => overlay.classList.add('visible');
+    const zap  = () => {
+      overlay.classList.add('zapping');
+      setTimeout(() => overlay.classList.remove('visible', 'zapping'), 700);
+    };
     document.getElementById('btn-about').addEventListener('click', open);
     document.getElementById('btn-about-drawer').addEventListener('click', open);
-    document.getElementById('btn-close-about').addEventListener('click', () => overlay.classList.remove('visible'));
+    document.getElementById('btn-close-about').addEventListener('click', zap);
     overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('visible'); });
   }
 

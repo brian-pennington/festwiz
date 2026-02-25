@@ -1212,12 +1212,16 @@
 
   // ---- ABOUT ----
   function setupAbout() {
-    const modal    = document.getElementById('modal-about');
-    const closeBtn = document.getElementById('btn-close-about');
-    closeBtn.addEventListener('click', () => modal.classList.remove('visible'));
+    const modal = document.getElementById('modal-about');
+    const open  = () => modal.classList.add('visible');
+    const zap   = () => {
+      modal.classList.add('zapping');
+      setTimeout(() => modal.classList.remove('visible', 'zapping'), 700);
+    };
+    document.getElementById('btn-about').addEventListener('click', open);
+    document.getElementById('btn-about-drawer').addEventListener('click', open);
+    document.getElementById('btn-close-about').addEventListener('click', zap);
     modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('visible'); });
-    document.getElementById('btn-about').addEventListener('click', () => modal.classList.add('visible'));
-    document.getElementById('btn-about-drawer').addEventListener('click', () => modal.classList.add('visible'));
   }
 
   // ---- TUTORIAL ----
