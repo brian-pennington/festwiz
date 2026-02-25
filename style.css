@@ -543,9 +543,13 @@ body {
     gap: 8px;
   }
 
+  .site-logo {
+    height: 22px;
+  }
+
   .header .page-toggle__half {
-    font-size: 11px;
-    padding: 3px 8px;
+    font-size: 14px;
+    padding: 4px 11px;
   }
 
   /* Stats wrap to row 2, spread across full width */
@@ -1340,8 +1344,8 @@ body.light .update-log {
     gap: 6px;
   }
   .sched-header .page-toggle__half {
-    font-size: 11px;
-    padding: 3px 6px;
+    font-size: 14px;
+    padding: 4px 11px;
   }
   .sched-view-nav .view-btn {
     font-size: 11px;
