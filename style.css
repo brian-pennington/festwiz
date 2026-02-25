@@ -1158,7 +1158,7 @@ body.light .update-log {
   display: flex;
   justify-content: center;
   overflow-x: auto;
-  background: #122a52;
+  background: #0f3934;
   border-bottom: 2px solid var(--border);
   padding: 0 8px;
   gap: 2px;
