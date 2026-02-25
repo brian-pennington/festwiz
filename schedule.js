@@ -1,4 +1,4 @@
-/* Fest Wizard — schedule.js */
+/* FestWiz — schedule.js */
 (function () {
   'use strict';
 

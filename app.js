@@ -1,5 +1,5 @@
 /**
- * Fest Wizard
+ * FestWiz
  * Web app for filtering, sampling, and rating festival artists.
  */
 

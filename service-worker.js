@@ -1,8 +1,8 @@
-/* Fest Wizard Service Worker — cache-first strategy
+/* FestWiz Service Worker — cache-first strategy
  * Bump CACHE_NAME after each artists.json / shows.json data push to force refresh.
  */
 
-const CACHE_NAME = 'sxsw-v72';
+const CACHE_NAME = 'sxsw-v73';
 
 const PRECACHE = [
   '/',
