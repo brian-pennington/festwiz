@@ -2057,7 +2057,26 @@ body.light .update-log {
 
 /* ── Tutorial modal ──────────────────────────────────────────────────────── */
 
-.modal--tutorial { max-height: 80vh; display: flex; flex-direction: column; }
+.modal--tutorial {
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding-left: 74px; /* 50px strip + 24px gap */
+}
+.modal--tutorial::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background-image: url('fest-wiz-trans.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
 .tutorial-body {
   overflow-y: auto;
   flex: 1;
