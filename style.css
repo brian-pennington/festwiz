@@ -2063,7 +2063,7 @@ body.light .update-log {
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  padding-left: 124px; /* 100px strip + 24px gap */
+  padding-left: 174px; /* 150px strip + 24px gap */
 }
 .modal--tutorial::before {
   content: '';
@@ -2071,7 +2071,7 @@ body.light .update-log {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 100px;
+  width: 150px;
   background-image: url('fest-wiz-trans.png');
   background-size: auto 100%;
   background-repeat: no-repeat;
