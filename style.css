@@ -2117,10 +2117,12 @@ body.light .update-log {
 .tutorial-body a:visited { color: var(--accent); }
 .tutorial-body a:hover   { color: var(--accent-hover); }
 
-#btn-close-tutorial {
+#btn-close-tutorial,
+#ann-close {
   transition: box-shadow 0.2s, background 0.2s;
 }
-#btn-close-tutorial:hover {
+#btn-close-tutorial:hover,
+#ann-close:hover {
   box-shadow: 0 0 8px 2px rgba(255,230,0,0.7), 0 0 2px 1px rgba(255,255,150,0.9);
   background: #e8b800;
   color: #000;

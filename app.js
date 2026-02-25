@@ -1177,7 +1177,13 @@
       modal.classList.remove('visible');
       localStorage.setItem('fw_announcement_seen', announcements[0].id);
     }
-    closeBtn.addEventListener('click', close);
+    closeBtn.addEventListener('click', () => {
+      modal.classList.add('zapping');
+      setTimeout(() => {
+        modal.classList.remove('visible', 'zapping');
+        localStorage.setItem('fw_announcement_seen', announcements[0].id);
+      }, 700);
+    });
     modal.addEventListener('click', e => { if (e.target === modal) close(); });
 
     if (localStorage.getItem('fw_announcement_seen') !== announcements[0].id) {
