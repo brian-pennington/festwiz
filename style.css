@@ -546,6 +546,11 @@ body {
     height: 22px;
   }
 
+  /* Center toggle in the space between logo and hamburger */
+  .header .page-toggle {
+    margin: 0 auto;
+  }
+
   .header .page-toggle__half {
     font-size: 14px;
     padding: 4px 11px;
