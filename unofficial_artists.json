@@ -361,5 +361,570 @@
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
+  },
+  {
+    "name": "BRUCE",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "you're home alone in the shower; you're singing \"all by myself\" by celine dion at the top of your lungs while ice cold water prickles your skin into that of a chicken. from somewhere that seems far away, a stadium full of people throw flowers at your feet and chant your name. your name is BRUCE.\n\nBRUCE is an art rock project. BRUCE got ready for sunday school all by herself.   less",
+    "links": {
+      "bandcamp": "https://bruceisforlovers.bandcamp.com/album/must-love-teeth"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Team Trust",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Austin, TX, USA",
+    "description": "Team Trust wants you to join the team. This three piece art rock band believes in curiosity, courage, and confidence. Formed in 2023, the group has been delivering melodic, dissonant, grooving, clunking, driving, sputtering songs to the tune of uniting people against the scourge of hyper-individualism. Team Trust is set to release their debut album this fall.",
+    "links": {
+      "bandcamp": "https://teamtrust.bandcamp.com/",
+      "soundcloud": "https://soundcloud.com/golddoorknobs"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "\u00c9gaux Sells",
+    "genre": "Electronic",
+    "subgenre": "Synthpop",
+    "location": "Austin, TX, USA",
+    "description": "\u00c9gaux\n| (e\u2022go) |\nnoun, plural,\n1.equals\n\nVibrantly bleak pop experiment",
+    "links": {
+      "bandcamp": "https://egauxsells.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Free Hazme",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UC9mpOOhpjS20kHIIM-60dMw"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Shared Walls",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sharedwalls.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Fried Awake",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://friedawake.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Lazy Comet",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://lazycometband.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Bad Acid",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://bad-acid.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Celestina Gravely",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "Alternative indie rock from Austin, TX",
+    "links": {
+      "bandcamp": "https://celestinagravely.bandcamp.com/",
+      "soundcloud": "https://soundcloud.com/celestina-gravely"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "DEDNAMEZ",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "San Marcos, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/dednamez-ep/1866170805"
+    },
+    "source": "unofficial",
+    "city": "San Marcos",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Burning Low",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=PeWGtRe-i54",
+      "apple_music": "https://music.apple.com/us/album/slither/1834879525?i=1834879526",
+      "soundcloud": "https://soundcloud.com/burning-low-990486882",
+      "spotify": "https://open.spotify.com/track/1fmj1T56IMgf5mXO9vWsop?si=ZHEn4tgkQ0eFgxvfKpZYUA&utm_medium=share&utm_source=linktree&nd=1&dlsi=3bec2723a6c54dd5"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Mikky and the Doom",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "When Mikky steps onto the stage in her 9 inch heels, she gives the people what they want: a larger than life rockstar and thunderous vocals to boot. The members, a nebulous and ever-expanding roster of Austin\u2019s best rockers, add an extra glitter of drama when they take the stage alongside her. Together, the band\u2019s raw, eccentric performance and campy pageantry transport audiences back in time as Mikky & The Doom brings the glam back to rock. With catchy anthems, sleazy bass lines, and unmatched physicality, they know how to set fire to any crowd and leave an ear worm in your head. For those who are nostalgic for the golden era of rock \u2018n roll but relish the spectacle of modern pop, Mikky & The Doom is the act to follow.",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=UCFMAyPX1bQ",
+      "apple_music": "https://music.apple.com/us/artist/mikky-the-doom/1741144766",
+      "spotify": "https://open.spotify.com/artist/6KplCqN00CJPa4VUVfGWhc?si=n6DDLfvATc6onsoHfLRXVw"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Wavy Eye",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://wavyeye.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jane",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Philo",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6xsevLJKKlzJQV5hQfFee4?si=uEF3_h2zSRSYJidv2fZ3sg&utm_source=ig&utm_medium=social&utm_content=link_in_bio&nd=1&dlsi=bf2d9495279c4b2d"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Mars Gold",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Gracie & Rachel",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "New York, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://gracieandrachel.bandcamp.com/",
+      "youtube": "https://www.youtube.com/GracieandRachel",
+      "apple_music": "https://music.apple.com/us/album/leaving-home-is-going-home-single/1859720063",
+      "spotify": "https://open.spotify.com/album/0Ffyv8Uwo7rgz1c8ap3LL4"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Babybaby_explores",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Providence, RI, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://babybabyexplores.bandcamp.com/",
+      "website": "https://babybabyexplores.com/"
+    },
+    "source": "unofficial",
+    "city": "Providence",
+    "country": "USA",
+    "state": "RI",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Porcelain",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=2ATMaH2PXPQ&src=Linkfire&lId=c21c44ef-3306-46b2-ba1b-7d6dab6864c8&cId=d3d58fd7-4c47-11e6-9fd0-066c3e7a8751&utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+      "apple_music": "https://music.apple.com/us/album/harmony/1812632103?i=1812632104",
+      "soundcloud": "https://soundcloud.com/porcelain-983594493/harmony",
+      "spotify": "https://open.spotify.com/track/0UKWEt85QT2BjsDgbGxd4D?go=1&nd=1&dlsi=be3a19964dbc4f35"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Snailmate",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Phoenix, AZ, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=k18OibpfnfY",
+      "apple_music": "https://music.apple.com/us/album/decompose-in-your-basement/1770851722?i=1770851723&at=1000lHKX&ct=linktree_http&itsct=lt_m&itscg=30200&ls=1",
+      "spotify": "https://open.spotify.com/track/1fcUFfYtlGakYuDP7xRhQx?si=_aK7UUn4RQ6n8Qjgn_DttA&utm_medium=share&utm_source=linktree&nd=1&dlsi=adb66b23685d4bcb"
+    },
+    "source": "unofficial",
+    "city": "Phoenix",
+    "country": "USA",
+    "state": "AZ",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Kev Bev",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://kevbevmusic.bandcamp.com",
+      "website": "https://www.kevbevmusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Swimwear Department",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Houston, TX, USA",
+    "description": "dance-punk about swimming pools and shopping malls",
+    "links": {
+      "bandcamp": "https://swimweardepartment.bandcamp.com/music",
+      "youtube": "https://www.youtube.com/channel/UCmKG78J3LpBJjUGeSczrbkw",
+      "apple_music": "https://music.apple.com/us/artist/swimwear-department/1412803985",
+      "soundcloud": "https://soundcloud.com/swimweardepartment",
+      "spotify": "https://open.spotify.com/artist/3azMQJObOMUPUEDBX8cyVD?si=RhVnZGldSzu4CnwOW8J0sw&nd=1&dlsi=4b61642b797b4431",
+      "website": "https://www.swimweardepartment.band/"
+    },
+    "source": "unofficial",
+    "city": "Houston",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Tele Novella",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Austin, TX, USA",
+    "description": "Tele Novella is a project out of Lockhart, Texas--a small town lost in time---where their classic and sincere pop songwriting is slowly processed through a loner medieval-tonk machine and then captured on cassette 8-track. Their latest record, Poet's Tooth, steers the duo\u2019s whimsical western-tinted balladry in fascinating new directions. It's out now on Kill Rock Stars.",
+    "links": {
+      "bandcamp": "https://telenovella.bandcamp.com",
+      "youtube": "https://www.youtube.com/playlist?list=PL6KwzgIePF4BuaOzmCOyxkQWadVYx7aP0",
+      "spotify": "https://open.spotify.com/artist/3yxZJMBn5A2OMEGO7Tvg72?si=vmYlcckvS1uMfWwhgSkpDg&nd=1&dlsi=993051c2ee4a42e2",
+      "website": "https://www.telenovella.world/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Evan Autin",
+    "genre": "Rock",
+    "subgenre": "Blues",
+    "location": "Austin, TX, USA",
+    "description": "\ud83c\udfb8Funky Southern Blues Rocker",
+    "links": {
+      "youtube": "https://music.apple.com/us/album/tex-ouisiana-line-single/1871224155?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_m",
+      "apple_music": "https://music.apple.com/us/album/tex-ouisiana-line-single/1871224155?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_m",
+      "spotify": "https://open.spotify.com/track/1ui0waAJNDhTB1o354UyXA"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Blush Fantasy",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=boxVytsrzwA",
+      "apple_music": "https://music.apple.com/us/album/double-feature-single/1849523379",
+      "spotify": "https://open.spotify.com/album/457lB6RXDeKOkEeD3vElxP?si=lUwPQi45SfKyZG8JoGB_kw&utm_source=ig&utm_medium=social&utm_content=link_in_bio&nd=1&dlsi=cf4faa5a88224765"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Flight by Nothing",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@flightbynothing",
+      "apple_music": "https://music.apple.com/us/artist/flight-by-nothing/1434997058",
+      "spotify": "https://open.spotify.com/artist/5XwjzW8s0SN5OxWYwP8eXj?si=EjpRpKEIRVm5xSR033PDhw&nd=1&dlsi=bc8f72a2d3564cfd"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dogs with Hats",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@dogswithhats",
+      "spotify": "https://open.spotify.com/artist/3VoI90WYVnsTbaKnObyX5T",
+      "website": "https://dogswithhatsband.com"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "INOHA",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@inoha_band",
+      "apple_music": "https://music.apple.com/us/artist/inoha/1655983242",
+      "spotify": "https://open.spotify.com/artist/0uoN6ea8SXzhV7WxyrvT1h?autoplay=true",
+      "website": "https://inoha.band/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Pretoria",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kKYQOxf8vrRvYw_irKmZSCTizw8azErCA",
+      "apple_music": "https://music.apple.com/us/album/if-were-pretending/1817487646",
+      "spotify": "https://open.spotify.com/album/4vk6UjPyCURdL1avljSYSO?si=1&nd=1&dlsi=b97a1267e507400e",
+      "website": "https://pretoriamusic.com"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Trashy Annie",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=-VNranwTqmo",
+      "apple_music": "https://music.apple.com/us/album/luv-u-luv-u-back-single/1600526184",
+      "spotify": "https://open.spotify.com/artist/1NE5iw2eDd0kgUlO23m1GV?si=ETkqn6BBRt2xr448qtHu4Q&nd=1&dlsi=e87f2549686e4102",
+      "website": "https://www.trashyannie.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sixteen Deluxe",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "Sixteen Deluxe is a psychedelic noise-pop band from Austin. Led by frontwoman Carrie Clark & guitarist/producer Chris \"Frenchie\" Smith, the band was active from 1994 to 2000, releasing 3 full-length albums, 3 7\"'s, and 2 EP's on indie and major labels. They reunited in 2010, put out a 7\" of new songs in 2015, and continue to play and record together only after consulting an arcane cosmic calendar.",
+    "links": {
+      "bandcamp": "https://sixteendeluxe.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
   }
 ]
