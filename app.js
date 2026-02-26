@@ -392,6 +392,13 @@
         empty.innerHTML = 'You haven\'t submitted any artists. Click <strong>+Add Artist</strong> to add.';
       } else {
         empty.textContent = 'No artists match the current filters.';
+        const filterParts = describeActiveFilters();
+        if (filterParts.length > 0) {
+          const filtersLine = document.createElement('div');
+          filtersLine.className = 'empty-state-filters';
+          filtersLine.textContent = 'Current filters: ' + filterParts.join(' · ');
+          empty.appendChild(filtersLine);
+        }
       }
       main.appendChild(empty);
       document.getElementById('stat-showing').textContent = '0';
@@ -987,6 +994,20 @@
     a.download = filename;
     a.click();
     URL.revokeObjectURL(url);
+  }
+
+  // ---- FILTER DESCRIPTION ----
+  function describeActiveFilters() {
+    const parts = [];
+    if (currentFilters.search) parts.push(`Search: "${currentFilters.search}"`);
+    if (currentFilters.rated === 'unrated')   parts.push('Unrated only');
+    else if (currentFilters.rated === 'rated') parts.push('Rated only');
+    else if (currentFilters.rated === '3+')    parts.push('Rated 3+');
+    if (currentFilters.source === 'official')   parts.push('Official artists');
+    else if (currentFilters.source === 'unofficial') parts.push('Unofficial artists');
+    if (currentFilters.genre)    parts.push(`Genre: ${currentFilters.genre}`);
+    if (currentFilters.subgenre) parts.push(`Subgenre: ${currentFilters.subgenre}`);
+    return parts;
   }
 
   // ---- HELPERS ----
