@@ -94,7 +94,7 @@
   }
 
   // ---- LINK DISPLAY ORDER ----
-  const LINK_ORDER = ['bandcamp', 'youtube', 'apple_music', 'soundcloud', 'spotify', 'website', 'sxsw'];
+  const LINK_ORDER = ['bandcamp', 'youtube', 'apple_music', 'soundcloud', 'spotify', 'website', 'official'];
   const LINK_LABELS = {
     bandcamp: 'Bandcamp',
     youtube: 'YouTube',
@@ -102,7 +102,7 @@
     soundcloud: 'SoundCloud',
     spotify: 'Spotify',
     website: 'Website',
-    sxsw: 'Official',
+    official: 'Official',
   };
 
   // ---- DATA LOADING ----
@@ -512,7 +512,7 @@
     // Build links HTML — include SXSW detail page link if available
     const linksObj = { ...(artist.links || {}) };
     if (artist.detail_url) {
-      linksObj.sxsw = artist.detail_url;
+      linksObj.official = artist.detail_url;
     }
     let linksHtml = '';
     for (const type of LINK_ORDER) {
@@ -894,7 +894,7 @@
         .filter(a => (ratings[artistKey(a)] || 0) >= 3)
         .map(a => {
           const linksObj = { ...(a.links || {}) };
-          if (a.detail_url) linksObj.sxsw = a.detail_url;
+          if (a.detail_url) linksObj.official = a.detail_url;
           let url = '';
           for (const type of LINK_ORDER) {
             if (linksObj[type]) { url = linksObj[type]; break; }

@@ -932,7 +932,7 @@
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       a.className = 'btn btn--outline detail-link-btn';
-      a.textContent = 'SxSW Page \u2197';
+      a.textContent = 'Official Page \u2197';
       linkEl.appendChild(a);
     } else if (show.website) {
       const a = document.createElement('a');

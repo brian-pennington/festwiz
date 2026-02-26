@@ -1,4 +1,3 @@
-/* SXSW 2026 Artist Sampling Tool */
 
 /* ---- DARK THEME (default) ---- */
 :root {
@@ -893,12 +892,12 @@ body {
 }
 .music-link--website:hover { background: var(--border); }
 
-.music-link--sxsw {
+.music-link--official {
   color: #f5c518;
   border-color: #f5c51844;
   background: #f5c51810;
 }
-.music-link--sxsw:hover { background: #f5c51830; }
+.music-link--official:hover { background: #f5c51830; }
 
 /* Light mode link adjustments */
 body.light .music-link--bandcamp { background: #1da0c318; }
