@@ -1301,7 +1301,7 @@ body.light .day-tab--pre.active {
 }
 
 /* Night mode: regular tabs light blue so bonus/pre tabs read as visibly muted by contrast */
-body:not(.light) .day-tab { color: #c8dff8; }
+body:not(.light) .day-tab { color: #7a9dcc; }
 body:not(.light) .day-tab:hover { color: var(--text); }
 body:not(.light) .day-tab--bonus,
 body:not(.light) .day-tab--pre { color: var(--text-muted); }
