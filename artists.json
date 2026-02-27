@@ -1,796 +1,139 @@
 [
   {
-    "name": "Ace Park",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Hip-Hop / Rap",
+    "name": "Blessing Jolie",
+    "genre": "Pop",
+    "subgenre": "Alternative",
     "city": "Houston",
     "country": "United States",
     "state": "TX",
-    "entity_id": 2265472,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2265472",
-    "thumbnail_url": "https://images.sxsw.com/VTRNu0j80G74K5wHNtRmJKp9xRI=/450x450/images.sxsw.com/178/5888489b-0886-5f22-30d5-9b6a3a3b42ba/artist-73012",
-    "announcement_date": "2026-02-26",
+    "entity_id": 2258350,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2258350",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-27",
     "source": "official",
-    "description": "Ace Park is a native of the Southside of Houston. South Park, to be specific, where he gets the second part of his name from. He draws inspiration from Southern, Hip Hop greats such as Lil Wayne and Curren$y all the way to the likes of Kendrick Lamar coming out of the West Coast with a slight influence of traditional Hip Hop, boom-bap sound. Based off of the criteria of some of Ace’s favorite artist, the driving force for Ace to write and create music is making people feel good, promote positive messaging mixed with the reality of growing up in black communities. With that type of inspiration, Ace has built his image and musical style around being lyrically exceptional, while being one of the best dressed doing it. That same influence helped him build his brand and develop a line of merchandise that represents his ideology and where he comes from. I have continued to write and create music all year round with a concept of consistency therefore the listeners can join the journey of growth and development. In a city full of street warriors and homegrown gangsters, Ace Park is the street poet who gives an introspective perspective on Houston culture, lifestyle, and music.",
+    "description": "",
     "links": {
-      "apple_music": "https://music.apple.com/us/album/h-tine-95/1801600716?i=1801600719",
-      "instagram": "https://www.instagram.com/1ace.park/?hl=en",
-      "spotify": "https://open.spotify.com/track/30mqaqy7PIFrZgOKxG6c5E?si=538216c3d38e4826",
-      "tiktok": "https://www.tiktok.com/@1acepark",
-      "website": "https://elevation-required.com/",
-      "youtube": "https://youtu.be/4k_vLtWhIkA?si=Z0LDHvh6gUyqFYUb"
+      "apple_music": "https://music.apple.com/us/artist/blessing-jolie/1609129295",
+      "instagram": "https://www.instagram.com/blessingjolie?igsh=MTk0czRrOWt0enZqYQ%3D%3D&utm_source=qr",
+      "spotify": "https://open.spotify.com/artist/57bDO2vmzu955G1W6EsYth?si=sAhOfckdRmGGLhyQ7BEw9A",
+      "tiktok": "https://www.tiktok.com/@blessingjolie1?_r=1&_t=ZP-93QwniCwBod",
+      "twitter": "https://x.com/blessingjolie?s=21",
+      "youtube": "https://youtu.be/UAmi9dOdf_A?si=lsUiwV6WlSGQ4wAw",
+      "website": "https://sxswsydney.com/"
     },
     "events": [
       {
-        "event_id": "MS64618",
+        "event_id": "MS64754",
         "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
+        "venue": "Central Presbyterian Church",
+        "venue_id": "V0175",
         "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "00:00",
-        "end_time": "00:15",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "21:00",
+        "end_time": "21:40",
         "presented_by": null
       }
     ],
     "location": "HOUSTON, TX"
   },
   {
-    "name": "Apex Martin",
-    "genre": "Dance",
-    "subgenre": "House / Techno",
-    "city": "Houston",
+    "name": "Eric McEntee",
+    "genre": "Folk",
+    "subgenre": "Americana",
+    "city": "Los Angeles",
     "country": "United States",
-    "state": "TX",
-    "entity_id": 2270255,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2270255",
+    "state": "CA",
+    "entity_id": 2271829,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2271829",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/apex-martin/1354623923",
-      "instagram": "https://www.instagram.com/apexmartin/",
-      "soundcloud": "https://soundcloud.com/apex-martin",
-      "spotify": "https://open.spotify.com/artist/6DcdyoaAmWtdusCIC3iJdR?si=_XnD13y7RMym3u8v4CTMBA",
-      "twitter": "https://x.com/apexmartin?s=21",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "ASHMAR.",
-    "genre": "DJ",
-    "subgenre": "World",
-    "city": "Austin",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2255671,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2255671",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/ashmar.ca?igsh=MW5oMmhzZWdpdnN6ZQ%3D%3D&utm_source=qr",
-      "youtube": "https://youtu.be/KVU4Lq0IIIc?si=J-EPZ5oL57ipl5HM",
-      "website": "https://sxswsydney.com/"
+      "apple_music": "https://music.apple.com/us/artist/eric-mcentee/1706156171",
+      "bandcamp": "https://ericmcentee.bandcamp.com",
+      "instagram": "https://www.instagram.com/ericjmcentee/",
+      "soundcloud": "https://soundcloud.com/ericmcentee",
+      "spotify": "https://open.spotify.com/artist/1bUcNo5RZtVzBDATua2Xxz?si=7iGiFpLEQxeWpR0SPPP7Mw",
+      "tiktok": "https://www.tiktok.com/@ericjmcentee",
+      "twitter": "https://x.com/songsofmcentee",
+      "website": "https://ericmcentee.com",
+      "youtube": "https://youtu.be/Kdkq17bthBU?si=b08h5jdSj4IF4HO4"
     },
     "events": [
       {
-        "event_id": "MS64388",
+        "event_id": "MS64855",
         "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "22:00",
+        "venue": "Central Presbyterian Church",
+        "venue_id": "V0175",
+        "parent_venue": "",
+        "age_policy": "All Ages",
+        "day": "2026-03-12",
+        "start_time": "23:00",
         "end_time": "23:40",
         "presented_by": null
-      },
-      {
-        "event_id": "MS64258",
-        "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "presented_by": "Take A Break"
       }
     ],
-    "location": "AUSTIN, TX"
+    "location": "LOS ANGELES, CA"
   },
   {
-    "name": "Chino Pacas",
+    "name": "Fuerza Regida",
     "genre": "Latin",
     "subgenre": "Regional Mexican",
-    "city": "Apaseo el Alto",
-    "country": "Mexico",
-    "state": "GUA",
-    "entity_id": 2270988,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2270988",
+    "city": "San Bernardino",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2271831,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2271831",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
-      "apple_music": "https://music.apple.com/am/artist/chino-pacas/1666295765",
-      "instagram": "https://www.instagram.com/chinito_pacas/?hl=en",
-      "spotify": "https://open.spotify.com/artist/2rmkQLzj0k4nZdQehOUByO?si=42HdlnJ_RAWFi6_P32S6Sg",
-      "tiktok": "https://www.tiktok.com/@chinito_pacass?lang=en",
-      "youtube": "https://youtu.be/CTGxf_3VrUQ?si=xzGxz7bHsYMJjtSg",
+      "instagram": "https://www.instagram.com/fuerzaregida/",
+      "spotify": "https://open.spotify.com/artist/0ys2OFYzWYB5hRDLCsBqxt?si=HdyXD8ecQhi7DqkX6wdB6g",
+      "tiktok": "https://www.tiktok.com/@fuerzaregida?lang=en",
+      "youtube": "https://youtu.be/A2Ro1OkjY8U?si=yMyTwntluvJ9cCwk",
       "website": "https://sxswsydney.com/"
     },
     "events": [
       {
-        "event_id": "MS64848",
+        "event_id": "MS64857",
         "event_type": "showcase",
         "venue": "Austin City Limits Live at the Moody Theater",
         "venue_id": "V0162",
         "parent_venue": "",
         "age_policy": "All Ages",
         "day": "2026-03-13",
-        "start_time": "21:35",
-        "end_time": "22:20",
+        "start_time": "22:55",
+        "end_time": "00:00",
         "presented_by": null
       }
     ],
-    "location": "APASEO EL ALTO, GUA, MEXICO"
+    "location": "SAN BERNARDINO, CA"
   },
   {
-    "name": "The Chopstars",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "R & B",
-    "city": "Houston",
+    "name": "Helios",
+    "genre": "Latin",
+    "subgenre": "Cumbia",
+    "city": "Austin",
     "country": "United States",
     "state": "TX",
-    "entity_id": 2242069,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2242069",
+    "entity_id": 2271832,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2271832",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
-      "spotify": "https://open.spotify.com/artist/1flnYYrdMqrzdi6XarXuJW",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS63549",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "20:00",
-        "end_time": "20:15",
-        "presented_by": null
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "D Chrome Foster",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Hip-Hop / Rap",
-    "city": "Brooklyn",
-    "country": "United States",
-    "state": "NY",
-    "entity_id": 2256573,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2256573",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "With a voice that blends classic soul’s raw emotion with the edge of modern hip-hop, D’Chrome Foster is carving out a unique lane in today’s Hip-Hop/R&B scene. Raised in Brooklyn, NY, his sound reflects the spirit of ’90s hip-hop while exploring themes of love, resilience, and self-discovery.\n\nBorn Serge R. Thony, Foster honed his craft battling on New York’s Lower East Side at venues like The Pyramid’s “End of the Weak.” Inspired by icons such as Harry Belafonte and Michael Jackson, he developed a style that feels both timeless and deeply personal. His early theater work earned praise from The New York Times, calling him “young, cocky and ready to take over the world.”\n\nClassically trained at Esper Studio, he later earned his MFA from Rutgers University’s Mason Gross School of the Arts. Foster has appeared in off-Broadway productions including Ethel Sings, In Bed with Roy Cohn, and Kansas City Swing, along with television roles and national commercials.\n\nHis singles “January” and “L.O.V.E.” have gained thousands of streams and social media traction. With new releases Right Now and Gang, D’Chrome continues to evolve—delivering music rooted in authenticity, healing, and soul.",
-    "links": {
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64334",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "20:15",
-        "end_time": "20:25",
-        "presented_by": null
-      }
-    ],
-    "location": "BROOKLYN, NY"
-  },
-  {
-    "name": "DeShaunJay",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "R & B",
-    "city": "Bolton",
-    "country": "United States",
-    "state": "NC",
-    "entity_id": 2249186,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2249186",
-    "thumbnail_url": "https://images.sxsw.com/QwpQRAPxpPLDpQp70JhiKPrOc-A=/450x450/images.sxsw.com/178/7fca6440-4765-5d78-20a9-718bea514bf2/artist-76174",
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "DeShaunJay is a rising star in the music industry and a talented artist who hails from Bolton, NC but now calls San Antonio, TX home. His love for music began at a very young age, and he has been honing his craft ever since. DeShaun made a name for himself in 2014 when he founded the Flourish Gang; from which he's released several successful projects, including the highly anticipated Phone Calls 4 which dropped in early 2023. In 2021 he was elected as Brand Ambassador for MVP Vibes. Under new management and partnerships with Chopstars/COREDJ's DJ Hollygrove and Set Da Tone Records. DeShaunJay is traveling and performing across the country and different festivals. Check his socials for weekly #FlourishFriday videos/freestyles. For bookings/collaborations contact Joshua Thompson thenamesjboi@gmail.com",
-    "links": {
-      "apple_music": "https://music.apple.com/us/album/home-run/1860362210?i=1860362216",
-      "instagram": "https://www.instagram.com/deshaunjayfrvr?igsh=MWp6ZTRsZmltd2gybQ%3D%3D",
-      "spotify": "https://open.spotify.com/track/0hxRd1bf074H9BzrvWxaIx?si=b38badd3db7f475c",
-      "tiktok": "https://www.tiktok.com/@deshaunjay?lang=en",
-      "twitter": "https://x.com/deshaunjayfrvr",
-      "website": "https://deshaunjay.bandzoogle.com"
-    },
-    "events": [
-      {
-        "event_id": "MS63903",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "23:00",
-        "end_time": "23:15",
-        "presented_by": null
-      }
-    ],
-    "location": "BOLTON, NC"
-  },
-  {
-    "name": "Disko Cowboy",
-    "genre": "DJ",
-    "subgenre": "Disco",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2253751,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2253751",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/disko-cowboy/1721643795",
-      "bandcamp": "https://diskocowboy.bandcamp.com/music",
-      "instagram": "https://www.instagram.com/diskocowboy",
-      "spotify": "https://open.spotify.com/artist/74oX0NocVrrkOf0Mtir1wB",
-      "tiktok": "https://www.tiktok.com/@diskocowboy",
-      "website": "https://www.diskocowboy.com"
-    },
-    "events": [
-      {
-        "event_id": "MS64169",
-        "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "00:00",
-        "end_time": "01:00",
-        "presented_by": "Take A Break"
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "DJ Kimblee",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Hip-Hop / Rap",
-    "city": "Abilene",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2267090,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2267090",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/djkimblee?igsh=MTJsYmNwaWgweHBwdA%3D%3D&utm_source=qr",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64679",
-        "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "presented_by": null
-      }
-    ],
-    "location": "ABILENE, TX"
-  },
-  {
-    "name": "DragonnQueen",
-    "genre": "DJ",
-    "subgenre": "Reggaeton",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2249090,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2249090",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/dragonnqueen?igsh=MXhjdjY5cWZ1cWlqMA%3D%3D&utm_source=qr",
-      "website": "https://sxswsydney.com/"
+      "bandcamp": "https://thedjhelios.bandcamp.com",
+      "instagram": "https://www.instagram.com/thedjhelios",
+      "tiktok": "https://www.tiktok.com/@thedjhelios",
+      "website": "https://www.thedjhelios.com/"
     },
     "events": [],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "GMSE KING SAVAGE",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Southern Hip-Hop",
-    "city": "Austin",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2247444,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2247444",
-    "thumbnail_url": "https://images.sxsw.com/wTVEj_606wf_Dcp0bSNEyT68uaY=/450x450/images.sxsw.com/178/99f0193f-7ce2-0d4a-9c06-6f36ec212e05/artist-76069",
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/gmse-king-savage/1598389679",
-      "instagram": "https://www.instagram.com/gmsekingsavage",
-      "soundcloud": "https://soundcloud.com/kingsavageofficialse",
-      "spotify": "https://open.spotify.com/artist/6Wvza5j7bXNEr1XPhU7Bra",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS63810",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "23:20",
-        "end_time": "23:35",
-        "presented_by": null
-      }
-    ],
     "location": "AUSTIN, TX"
-  },
-  {
-    "name": "Hiroko Yamamura",
-    "genre": "DJ",
-    "subgenre": "House / Techno",
-    "city": "Chicago",
-    "country": "United States",
-    "state": "IL",
-    "entity_id": 2269385,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2269385",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/hiroko-yamamura/1161050416",
-      "instagram": "https://www.instagram.com/hiroko__yamamura",
-      "soundcloud": "https://soundcloud.com/hiroko-yamamura-1",
-      "spotify": "https://open.spotify.com/artist/347AUBBUISCJzRHH3nv7EK?si=RxYyGZfFQZakHnULkNforA",
-      "twitter": "https://x.com/biobooster",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64785",
-        "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "00:00",
-        "end_time": "01:30",
-        "presented_by": null
-      }
-    ],
-    "location": "CHICAGO, IL"
-  },
-  {
-    "name": "Hot Donna",
-    "genre": "DJ",
-    "subgenre": "Disco",
-    "city": "Austin",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2255436,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2255436",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/dj.hotdonna?igsh=MWFpd211cWtkdGRvbA%3D%3D&utm_source=qr",
-      "tiktok": "https://www.tiktok.com/@djhotdonna?_r=1&_t=ZT-93nRGlPFTiw",
-      "youtube": "https://youtu.be/Yco1c8UEgDw",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64239",
-        "event_type": "showcase",
-        "venue": "Coconut Club Rooftop",
-        "venue_id": "V1890",
-        "parent_venue": "Coconut Club",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "presented_by": "Take A Break"
-      }
-    ],
-    "location": "AUSTIN, TX"
-  },
-  {
-    "name": "Jack Freeman",
-    "genre": "R & B",
-    "subgenre": "Soul",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2258514,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2258514",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/jack-freeman/218157427",
-      "instagram": "https://www.instagram.com/iamjackfreeman",
-      "spotify": "https://open.spotify.com/artist/0sQ5GaIilKYSsvYlXSgEcl",
-      "tiktok": "https://www.tiktok.com/@iamjackfreeman",
-      "twitter": "https://www.x.com/jackfreemanjr",
-      "website": "https://www.imjackfreman.com",
-      "youtube": "https://youtu.be/oZ2zujZdCzk?si=8-xr65Uan8dBx6M0"
-    },
-    "events": [
-      {
-        "event_id": "MS64434",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "23:40",
-        "end_time": "23:55",
-        "presented_by": null
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "Juni Cortez",
-    "genre": "DJ",
-    "subgenre": "House / Techno",
-    "city": "Austin",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2267096,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2267096",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/juni.want.house",
-      "soundcloud": "https://soundcloud.com/stinkypacman",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64685",
-        "event_type": "showcase",
-        "venue": "Kingdom",
-        "venue_id": "V0599",
-        "parent_venue": "",
-        "age_policy": "18+",
-        "day": "2026-03-12",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "presented_by": "Gas Station FM "
-      }
-    ],
-    "location": "AUSTIN, TX"
-  },
-  {
-    "name": "OG Ron C",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "R & B",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2242070,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2242070",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS63550",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "01:35",
-        "end_time": "02:00",
-        "presented_by": null
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "Shiv",
-    "genre": "DJ",
-    "subgenre": "Electronic",
-    "city": "Cypress",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2255897,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2255897",
-    "thumbnail_url": "https://images.sxsw.com/sleTXXCw7HDopmMochhszsNSMJA=/450x450/images.sxsw.com/178/8b2c71e7-cd69-c39d-bf69-9fce01d5b0d9/artist-76371",
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "Shiv, an Austin-based artist aims to push the envelope of the scene by blurring the lines between what’s commercial and underground. Shiv has no boundaries when it comes to sound, you may hear him spin anything from Lofi House to Trap all within the same set. His funky mixing style and unpredictability will keep you emerged and on your toes. In the last couple years he has made himself known through projects such as Gas Station FM, Anything Goes & CHVRCH. Through these projects he hopes to give back to the community that has shown him so much love. Expect to see original music, new sets and projects from Shiv moving forward.",
-    "links": {
-      "instagram": "https://www.instagram.com/saintshivv/",
-      "soundcloud": "https://soundcloud.com/shivdj",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64276",
-        "event_type": "showcase",
-        "venue": "Kingdom",
-        "venue_id": "V0599",
-        "parent_venue": "",
-        "age_policy": "18+",
-        "day": "2026-03-12",
-        "start_time": "23:00",
-        "end_time": "00:00",
-        "presented_by": "Gas Station FM "
-      }
-    ],
-    "location": "CYPRESS, TX"
-  },
-  {
-    "name": "St.Augustine",
-    "genre": "Pop",
-    "subgenre": "Indie Pop",
-    "city": "Boston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2270260,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2270260",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64808",
-        "event_type": "showcase",
-        "venue": "Continental Club",
-        "venue_id": "V0178",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "01:00",
-        "end_time": "01:50",
-        "presented_by": null
-      }
-    ],
-    "location": "BOSTON, TX"
-  },
-  {
-    "name": "Sunnitharapper",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "None",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2262565,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2262565",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "Sunnitharapper is a Houston-based rapper with confidence you can feel the second she walks in the room. Born in Los Angeles and raised in Missouri City, Texas, she started taking music seriously in high school not because it was trendy, but because it felt natural. She’s had early exposure to the industry through development experiences connected to Mathew Knowles, but her real growth came from figuring it out herself. Trial, error, independent releases, long studio nights all of it shaped her sound. Her music is bold, fun, and direct. It’s about feeling good, looking good, standing on business, and not shrinking for anyone. She doesn’t try to be overly lyrical for validation or overly commercial for approval she makes records that match her personality: confident, feminine, and unapologetic. With a growing streaming presence and consistent visuals, Sunnitharapper is building her brand the organic way by showing up, staying consistent, and connecting with people who genuinely rock with her energy. She’s not chasing trends. She’s building longevity.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/sunnitharapper/1600220144",
-      "instagram": "https://www.instagram.com/sunnitharapper?igsh=MWo5ZWx0cmdia3ozcg==",
-      "spotify": "https://open.spotify.com/artist/2KpLGbnpFTj3QUUSlB2mQO?si=o12LJ7QdTKWs",
-      "tiktok": "https://www.tiktok.com/@sunnitharapper?_r=1&_t=ZT-943MiQkesWM",
-      "twitter": "https://x.com/sunnitharapper?s=21",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64509",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "00:40",
-        "end_time": "00:55",
-        "presented_by": null
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "Trey Kams",
-    "genre": "DJ",
-    "subgenre": "Electronic",
-    "city": "Los Angeles",
-    "country": "United States",
-    "state": "CA",
-    "entity_id": 2269095,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2269095",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/treykams",
-      "soundcloud": "https://soundcloud.com/treykams",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64768",
-        "event_type": "showcase",
-        "venue": "Coconut Club",
-        "venue_id": "V1888",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "presented_by": "Take A Break"
-      }
-    ],
-    "location": "LOS ANGELES, CA"
-  },
-  {
-    "name": "XOY",
-    "genre": "DJ",
-    "subgenre": "Electronic",
-    "city": "Houston",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2255898,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2255898",
-    "thumbnail_url": "https://images.sxsw.com/JS3yreSMbw7WOFpHSYFppMrn3jM=/450x450/images.sxsw.com/178/1b29b128-7463-298d-02e9-43f8a1a02d7e/artist-76369",
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "XOY is a Houston born multi-hyphenated Creative & Club Titan sharing the bill with iconic international artists such as RuPaul, Zack Fox, Horsegiirl, LSDXOXO, Chippy Non Stop, and the list goes on. Coming off of her festival debut at Seismic Dance Event in Austin Texas, XOY stopped by to fuel up, get cunt, and shake the walls! Fully representing the Transfemme DJ stereotype, this kick heavy set is sure to satisfy your desire for authentic hot southern club tones with a playful feminine drive. With her finger in the a** of the Texas underground electronic music scene, XOY shows why she is urgently sought after by so many; pushing club culture forward through the lens of black queer advocacy, undeniable talent, and soul throbbing DJ sets.",
-    "links": {
-      "instagram": "https://www.instagram.com/xoyish?igsh=dGp4ODZydzJhM202&utm_source=qr",
-      "soundcloud": "https://on.soundcloud.com/vVA8eyeVnWAygEWKEK",
-      "youtube": "https://youtu.be/sCGSDqGlKTE?si=C-zaXAkx34wthBi1",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64277",
-        "event_type": "showcase",
-        "venue": "Kingdom",
-        "venue_id": "V0599",
-        "parent_venue": "",
-        "age_policy": "18+",
-        "day": "2026-03-12",
-        "start_time": "00:00",
-        "end_time": "01:00",
-        "presented_by": "Gas Station FM "
-      }
-    ],
-    "location": "HOUSTON, TX"
-  },
-  {
-    "name": "Yndent",
-    "genre": "Electronic",
-    "subgenre": "House / Techno",
-    "city": "Dallas",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2270298,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2270298",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "",
-    "links": {
-      "instagram": "https://www.instagram.com/yndented",
-      "soundcloud": "https://soundcloud.com/yndent",
-      "spotify": "https://open.spotify.com/artist/3AMHUX0fM1HGF1yxmflNXY",
-      "website": "https://www.yndentmusic.com"
-    },
-    "events": [
-      {
-        "event_id": "MS64814",
-        "event_type": "showcase",
-        "venue": "Coconut Club",
-        "venue_id": "V1888",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "22:00",
-        "end_time": "23:00",
-        "presented_by": "Take A Break"
-      }
-    ],
-    "location": "DALLAS, TX"
-  },
-  {
-    "name": "Zak Blaine",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Southern Hip-Hop",
-    "city": "Hopkinsville",
-    "country": "United States",
-    "state": "KY",
-    "entity_id": 2247443,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2247443",
-    "thumbnail_url": "https://images.sxsw.com/zbOUiwoZdmuDaiP1BxCi2mGcKtw=/450x450/images.sxsw.com/178/1f2407a0-5f31-70b8-cb6a-94f5a1026df1/artist-76070",
-    "announcement_date": "2026-02-26",
-    "source": "official",
-    "description": "Zak Blaine is a melodic hip-hop and R&B artist making late-night music rooted in mood and honesty. His songs live in the gray area between wanting someone and pulling away.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/zak-blaine/1718348488",
-      "instagram": "https://www.instagram.com/zak.blaine?igsh=ejF4aTg5NHBuNXg1&utm_source=qr",
-      "spotify": "https://open.spotify.com/artist/7ETfiJZtGM9RkfucOvVxrR",
-      "tiktok": "https://www.tiktok.com/@zak.blaine?_r=1&_t=ZT-92wNCLvggwv",
-      "youtube": "https://youtube.com/@zak.blaine?si=Y0-Zyu4pyExh0Ad-",
-      "website": "https://sxswsydney.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS63809",
-        "event_type": "showcase",
-        "venue": "Riviere",
-        "venue_id": "V2460",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "21:15",
-        "end_time": "21:30",
-        "presented_by": null
-      }
-    ],
-    "location": "HOPKINSVILLE, KY"
   },
   {
     "name": "0 Miles Per Hour",
@@ -1027,6 +370,43 @@
     "events_raw": [],
     "location": "HOUSTON, TX",
     "events": []
+  },
+  {
+    "name": "Ace Park",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2265472,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2265472",
+    "thumbnail_url": "https://images.sxsw.com/VTRNu0j80G74K5wHNtRmJKp9xRI=/450x450/images.sxsw.com/178/5888489b-0886-5f22-30d5-9b6a3a3b42ba/artist-73012",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "Ace Park is a native of the Southside of Houston. South Park, to be specific, where he gets the second part of his name from. He draws inspiration from Southern, Hip Hop greats such as Lil Wayne and Curren$y all the way to the likes of Kendrick Lamar coming out of the West Coast with a slight influence of traditional Hip Hop, boom-bap sound. Based off of the criteria of some of Ace’s favorite artist, the driving force for Ace to write and create music is making people feel good, promote positive messaging mixed with the reality of growing up in black communities. With that type of inspiration, Ace has built his image and musical style around being lyrically exceptional, while being one of the best dressed doing it. That same influence helped him build his brand and develop a line of merchandise that represents his ideology and where he comes from. I have continued to write and create music all year round with a concept of consistency therefore the listeners can join the journey of growth and development. In a city full of street warriors and homegrown gangsters, Ace Park is the street poet who gives an introspective perspective on Houston culture, lifestyle, and music.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/h-tine-95/1801600716?i=1801600719",
+      "instagram": "https://www.instagram.com/1ace.park/?hl=en",
+      "spotify": "https://open.spotify.com/track/30mqaqy7PIFrZgOKxG6c5E?si=538216c3d38e4826",
+      "tiktok": "https://www.tiktok.com/@1acepark",
+      "website": "https://elevation-required.com/",
+      "youtube": "https://youtu.be/4k_vLtWhIkA?si=Z0LDHvh6gUyqFYUb"
+    },
+    "events": [
+      {
+        "event_id": "MS64618",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "00:00",
+        "end_time": "00:15",
+        "presented_by": null
+      }
+    ],
+    "location": "HOUSTON, TX"
   },
   {
     "name": "Adrian Activo",
@@ -1934,7 +1314,7 @@
     "state": null,
     "entity_id": 2240284,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240284",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/3wNVaSGtElkMKKhWkaozWKUc0iw=/450x450/images.sxsw.com/178/f78be2d5-db1c-3f0e-7c5d-20c51ff48097/artist-75187",
     "announcement_date": "2026-02-11",
     "source": "official",
     "description": "As a bassist, vocalist, and composer, my journey as a music creator has been shaped by my rich cultural heritage and passion for blending traditional jazz with contemporary influences. I grew up in the suburbs of Paris, born to parents of Senegalese, Gambian, and Malian descent. This background continues to inspire my artistry, which merges the sounds of jazz legends like Betty Carter and Wayne Shorter with the soulful rhythms of artists such as D’Angelo and Stevie Wonder.\n\nSince moving to London at 18 to study double bass at Trinity Laban Conservatoire of Music and Dance, I have built a strong live track record, performing at renowned festivals and venues including the EFG London Jazz Festival, Jazz Café, Cheltenham Jazz Festival, We Out Here, Brick Lane Jazz Festival, and Pizza Express Soho. These experiences have been pivotal in building my fanbase and establishing my presence in the UK. Internationally I have performed at the Montreux Jazz Festival and countries around the world including France, Poland , South Korea and more.",
@@ -2448,6 +1828,30 @@
     "events": []
   },
   {
+    "name": "Apex Martin",
+    "genre": "Dance",
+    "subgenre": "House / Techno",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2270255,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270255",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/apex-martin/1354623923",
+      "instagram": "https://www.instagram.com/apexmartin/",
+      "soundcloud": "https://soundcloud.com/apex-martin",
+      "spotify": "https://open.spotify.com/artist/6DcdyoaAmWtdusCIC3iJdR?si=_XnD13y7RMym3u8v4CTMBA",
+      "twitter": "https://x.com/apexmartin?s=21",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Armanii",
     "genre": "Reggae",
     "subgenre": "Dub / Dancehall",
@@ -2581,6 +1985,52 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "ASHMAR.",
+    "genre": "DJ",
+    "subgenre": "World",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2255671,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2255671",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/ashmar.ca?igsh=MW5oMmhzZWdpdnN6ZQ%3D%3D&utm_source=qr",
+      "youtube": "https://youtu.be/KVU4Lq0IIIc?si=J-EPZ5oL57ipl5HM",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64388",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "22:00",
+        "end_time": "23:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64258",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "presented_by": "Take A Break"
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Astralorp",
@@ -5298,6 +4748,76 @@
     "location": "AUSTIN, TX"
   },
   {
+    "name": "Chino Pacas",
+    "genre": "Latin",
+    "subgenre": "Regional Mexican",
+    "city": "Apaseo el Alto",
+    "country": "Mexico",
+    "state": "GUA",
+    "entity_id": 2270988,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270988",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/am/artist/chino-pacas/1666295765",
+      "instagram": "https://www.instagram.com/chinito_pacas/?hl=en",
+      "spotify": "https://open.spotify.com/artist/2rmkQLzj0k4nZdQehOUByO?si=42HdlnJ_RAWFi6_P32S6Sg",
+      "tiktok": "https://www.tiktok.com/@chinito_pacass?lang=en",
+      "youtube": "https://youtu.be/CTGxf_3VrUQ?si=xzGxz7bHsYMJjtSg",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64848",
+        "event_type": "showcase",
+        "venue": "Austin City Limits Live at the Moody Theater",
+        "venue_id": "V0162",
+        "parent_venue": "",
+        "age_policy": "All Ages",
+        "day": "2026-03-13",
+        "start_time": "21:35",
+        "end_time": "22:20",
+        "presented_by": null
+      }
+    ],
+    "location": "APASEO EL ALTO, GUA, MEXICO"
+  },
+  {
+    "name": "The Chopstars",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "R & B",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2242069,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2242069",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/1flnYYrdMqrzdi6XarXuJW",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS63549",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "20:00",
+        "end_time": "20:15",
+        "presented_by": null
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Chuck Prophet and His Cumbia Shoes",
     "genre": "Americana",
     "subgenre": "Cumbia",
@@ -5777,6 +5297,38 @@
       }
     ],
     "location": "LOS ANGELES, CA"
+  },
+  {
+    "name": "D Chrome Foster",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Brooklyn",
+    "country": "United States",
+    "state": "NY",
+    "entity_id": 2256573,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2256573",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "With a voice that blends classic soul’s raw emotion with the edge of modern hip-hop, D’Chrome Foster is carving out a unique lane in today’s Hip-Hop/R&B scene. Raised in Brooklyn, NY, his sound reflects the spirit of ’90s hip-hop while exploring themes of love, resilience, and self-discovery.\n\nBorn Serge R. Thony, Foster honed his craft battling on New York’s Lower East Side at venues like The Pyramid’s “End of the Weak.” Inspired by icons such as Harry Belafonte and Michael Jackson, he developed a style that feels both timeless and deeply personal. His early theater work earned praise from The New York Times, calling him “young, cocky and ready to take over the world.”\n\nClassically trained at Esper Studio, he later earned his MFA from Rutgers University’s Mason Gross School of the Arts. Foster has appeared in off-Broadway productions including Ethel Sings, In Bed with Roy Cohn, and Kansas City Swing, along with television roles and national commercials.\n\nHis singles “January” and “L.O.V.E.” have gained thousands of streams and social media traction. With new releases Right Now and Gang, D’Chrome continues to evolve—delivering music rooted in authenticity, healing, and soul.",
+    "links": {
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64334",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "20:15",
+        "end_time": "20:25",
+        "presented_by": null
+      }
+    ],
+    "location": "BROOKLYN, NY"
   },
   {
     "name": "D2BLEE",
@@ -6354,6 +5906,43 @@
     ]
   },
   {
+    "name": "DeShaunJay",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "R & B",
+    "city": "Bolton",
+    "country": "United States",
+    "state": "NC",
+    "entity_id": 2249186,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2249186",
+    "thumbnail_url": "https://images.sxsw.com/QwpQRAPxpPLDpQp70JhiKPrOc-A=/450x450/images.sxsw.com/178/7fca6440-4765-5d78-20a9-718bea514bf2/artist-76174",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "DeShaunJay is a rising star in the music industry and a talented artist who hails from Bolton, NC but now calls San Antonio, TX home. His love for music began at a very young age, and he has been honing his craft ever since. DeShaun made a name for himself in 2014 when he founded the Flourish Gang; from which he's released several successful projects, including the highly anticipated Phone Calls 4 which dropped in early 2023. In 2021 he was elected as Brand Ambassador for MVP Vibes. Under new management and partnerships with Chopstars/COREDJ's DJ Hollygrove and Set Da Tone Records. DeShaunJay is traveling and performing across the country and different festivals. Check his socials for weekly #FlourishFriday videos/freestyles. For bookings/collaborations contact Joshua Thompson thenamesjboi@gmail.com",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/home-run/1860362210?i=1860362216",
+      "instagram": "https://www.instagram.com/deshaunjayfrvr?igsh=MWp6ZTRsZmltd2gybQ%3D%3D",
+      "spotify": "https://open.spotify.com/track/0hxRd1bf074H9BzrvWxaIx?si=b38badd3db7f475c",
+      "tiktok": "https://www.tiktok.com/@deshaunjay?lang=en",
+      "twitter": "https://x.com/deshaunjayfrvr",
+      "website": "https://deshaunjay.bandzoogle.com"
+    },
+    "events": [
+      {
+        "event_id": "MS63903",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "23:00",
+        "end_time": "23:15",
+        "presented_by": null
+      }
+    ],
+    "location": "BOLTON, NC"
+  },
+  {
     "name": "Desmond Jones",
     "genre": "Rock",
     "subgenre": "Jam",
@@ -6659,6 +6248,43 @@
     "events_raw": [],
     "location": "MEXICO CITY, MEXICO",
     "events": []
+  },
+  {
+    "name": "Disko Cowboy",
+    "genre": "DJ",
+    "subgenre": "Disco",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2253751,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2253751",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/disko-cowboy/1721643795",
+      "bandcamp": "https://diskocowboy.bandcamp.com/music",
+      "instagram": "https://www.instagram.com/diskocowboy",
+      "spotify": "https://open.spotify.com/artist/74oX0NocVrrkOf0Mtir1wB",
+      "tiktok": "https://www.tiktok.com/@diskocowboy",
+      "website": "https://www.diskocowboy.com"
+    },
+    "events": [
+      {
+        "event_id": "MS64169",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "presented_by": "Take A Break"
+      }
+    ],
+    "location": "HOUSTON, TX"
   },
   {
     "name": "Dizzy Fae",
@@ -7163,6 +6789,39 @@
     "location": "SOCAL, CA"
   },
   {
+    "name": "DJ Kimblee",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Abilene",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2267090,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2267090",
+    "thumbnail_url": "https://images.sxsw.com/Z7RStONeNffG5Af06SYCO7wN7qE=/450x450/images.sxsw.com/178/c61e8c2d-c74e-51d0-232d-ce5fabc8588a/artist-76492",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/djkimblee?igsh=MTJsYmNwaWgweHBwdA%3D%3D&utm_source=qr",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64679",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "presented_by": null
+      }
+    ],
+    "location": "ABILENE, TX"
+  },
+  {
     "name": "DJ Napalm",
     "genre": "DJ",
     "subgenre": "Hip-Hop / Rap",
@@ -7491,6 +7150,26 @@
         "presented_by": "Corson Agency"
       }
     ]
+  },
+  {
+    "name": "DragonnQueen",
+    "genre": "DJ",
+    "subgenre": "Reggaeton",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2249090,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2249090",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/dragonnqueen?igsh=MXhjdjY5cWZ1cWlqMA%3D%3D&utm_source=qr",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [],
+    "location": "HOUSTON, TX"
   },
   {
     "name": "Dramos",
@@ -8784,39 +8463,6 @@
     "events": []
   },
   {
-    "name": "Fine",
-    "genre": "Singer-Songwriter",
-    "subgenre": "Progressive",
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "state": null,
-    "entity_id": 2240059,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2240059",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-09",
-    "source": "official",
-    "description": "Fine is a Copenhagen-based singer-songwriter and producer whose music blends samples, acoustic and electric instruments into a groovy and ethereal crossover sound, both familiar and dreamlike.\n\nHer debut album, Rocky Top Ballads (2024), turns experiments into songs by cutting and layering band improvisations. Bringing them together with melodies and voice. The album features loose-wristed-head-bobbing drums, a wide range of guitar sounds, bass riffs, reverb-soaked atmospheres, and real sound recordings — all woven together with Fine's distinctive voice and lyrics.\n\nLive, Fine reshapes her hypnotic sound together with her band: Lola Hammerich on guitar (Baby in Vain), Andreas Murga on bass (Gorgeous), and Mads Muurholm on drums.\n\nStarting early, Fine began her career over a decade ago with the Danish electronic trio Chinah, releasing three albums. She has since co-written for New Jeans with Erika de Casier and Smerz, attended Clarissa Connelly’s Kanonschoir, and collaborated with Astrid Sonne under the moniker Coined.",
-    "links": {
-      "spotify": "https://open.spotify.com/artist/2356dfnXmbn9pH0xE2sYQ5"
-    },
-    "events_raw": [],
-    "location": "COPENHAGEN, DENMARK",
-    "events": [
-      {
-        "event_id": "MS63674",
-        "event_type": "showcase",
-        "venue": "Swan Dive Patio",
-        "venue_id": "V0282",
-        "parent_venue": "Swan Dive",
-        "age_policy": "21+",
-        "day": "2026-03-16",
-        "start_time": "23:30",
-        "end_time": "00:00",
-        "presented_by": null
-      }
-    ]
-  },
-  {
     "name": "Fine Food Market",
     "genre": "Folk",
     "subgenre": "Americana",
@@ -9654,6 +9300,42 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "GMSE KING SAVAGE",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Southern Hip-Hop",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2247444,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2247444",
+    "thumbnail_url": "https://images.sxsw.com/wTVEj_606wf_Dcp0bSNEyT68uaY=/450x450/images.sxsw.com/178/99f0193f-7ce2-0d4a-9c06-6f36ec212e05/artist-76069",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/gmse-king-savage/1598389679",
+      "instagram": "https://www.instagram.com/gmsekingsavage",
+      "soundcloud": "https://soundcloud.com/kingsavageofficialse",
+      "spotify": "https://open.spotify.com/artist/6Wvza5j7bXNEr1XPhU7Bra",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS63810",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "23:20",
+        "end_time": "23:35",
+        "presented_by": null
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Gogol Bordello",
@@ -10651,6 +10333,43 @@
     "events": []
   },
   {
+    "name": "Hiroko Yamamura",
+    "genre": "DJ",
+    "subgenre": "House / Techno",
+    "city": "Chicago",
+    "country": "United States",
+    "state": "IL",
+    "entity_id": 2269385,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2269385",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/hiroko-yamamura/1161050416",
+      "instagram": "https://www.instagram.com/hiroko__yamamura",
+      "soundcloud": "https://soundcloud.com/hiroko-yamamura-1",
+      "spotify": "https://open.spotify.com/artist/347AUBBUISCJzRHH3nv7EK?si=RxYyGZfFQZakHnULkNforA",
+      "twitter": "https://x.com/biobooster",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64785",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "00:00",
+        "end_time": "01:30",
+        "presented_by": null
+      }
+    ],
+    "location": "CHICAGO, IL"
+  },
+  {
     "name": "His Lordship",
     "genre": "Rock",
     "subgenre": "Punk",
@@ -10975,6 +10694,41 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "Hot Donna",
+    "genre": "DJ",
+    "subgenre": "Disco",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2255436,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2255436",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/dj.hotdonna?igsh=MWFpd211cWtkdGRvbA%3D%3D&utm_source=qr",
+      "tiktok": "https://www.tiktok.com/@djhotdonna?_r=1&_t=ZT-93nRGlPFTiw",
+      "youtube": "https://youtu.be/Yco1c8UEgDw",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64239",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "presented_by": "Take A Break"
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Hot Garbage",
@@ -11713,6 +11467,44 @@
     "events": []
   },
   {
+    "name": "Jack Freeman",
+    "genre": "R & B",
+    "subgenre": "Soul",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2258514,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2258514",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/jack-freeman/218157427",
+      "instagram": "https://www.instagram.com/iamjackfreeman",
+      "spotify": "https://open.spotify.com/artist/0sQ5GaIilKYSsvYlXSgEcl",
+      "tiktok": "https://www.tiktok.com/@iamjackfreeman",
+      "twitter": "https://www.x.com/jackfreemanjr",
+      "website": "https://www.imjackfreman.com",
+      "youtube": "https://youtu.be/oZ2zujZdCzk?si=8-xr65Uan8dBx6M0"
+    },
+    "events": [
+      {
+        "event_id": "MS64434",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "23:40",
+        "end_time": "23:55",
+        "presented_by": null
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Jack Powers",
     "genre": "Pop",
     "subgenre": "Synthpop",
@@ -12250,7 +12042,7 @@
     "state": null,
     "entity_id": 2240282,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240282",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/HNMF_FdskJO1nizJaYGRjO_yACU=/450x450/images.sxsw.com/178/854df6e9-ab58-d411-8dab-6cd7dc439992/artist-75311",
     "announcement_date": "2026-01-13",
     "source": "official",
     "description": "As a close-knit family made up of music promoters, DJs, label owners and festival organisers, they’ve been regenerating jazz and jazz-influenced music culture since their 2003 conception.\nJRF has cooked up a session that brings the spirit of the jazz & club culture they hail from.\n\nTHE DJs\nTop Rock and Adam Rock - Founders of Jazz re:freshed",
@@ -13123,6 +12915,40 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "Juni Cortez",
+    "genre": "DJ",
+    "subgenre": "House / Techno",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2267096,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2267096",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/juni.want.house",
+      "soundcloud": "https://soundcloud.com/stinkypacman",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64685",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "presented_by": "Gas Station FM "
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Junior H",
@@ -14987,7 +14813,7 @@
     "entity_id": 2249825,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249825",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
@@ -18740,6 +18566,39 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "OG Ron C",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "R & B",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2242070,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2242070",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/2LQF8AgyQUgLfquM92Rx8N",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS63550",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "01:35",
+        "end_time": "02:00",
+        "presented_by": null
+      }
+    ],
+    "location": "HOUSTON, TX"
   },
   {
     "name": "OKAN",
@@ -22512,6 +22371,40 @@
     ]
   },
   {
+    "name": "Shiv",
+    "genre": "DJ",
+    "subgenre": "Electronic",
+    "city": "Cypress",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2255897,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2255897",
+    "thumbnail_url": "https://images.sxsw.com/sleTXXCw7HDopmMochhszsNSMJA=/450x450/images.sxsw.com/178/8b2c71e7-cd69-c39d-bf69-9fce01d5b0d9/artist-76371",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "Shiv, an Austin-based artist aims to push the envelope of the scene by blurring the lines between what’s commercial and underground. Shiv has no boundaries when it comes to sound, you may hear him spin anything from Lofi House to Trap all within the same set. His funky mixing style and unpredictability will keep you emerged and on your toes. In the last couple years he has made himself known through projects such as Gas Station FM, Anything Goes & CHVRCH. Through these projects he hopes to give back to the community that has shown him so much love. Expect to see original music, new sets and projects from Shiv moving forward.",
+    "links": {
+      "instagram": "https://www.instagram.com/saintshivv/",
+      "soundcloud": "https://soundcloud.com/shivdj",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64276",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "23:00",
+        "end_time": "00:00",
+        "presented_by": "Gas Station FM "
+      }
+    ],
+    "location": "CYPRESS, TX"
+  },
+  {
     "name": "SHO",
     "genre": "Hip-Hop / Rap",
     "subgenre": "R & B",
@@ -23790,6 +23683,38 @@
     ]
   },
   {
+    "name": "St.Augustine",
+    "genre": "Pop",
+    "subgenre": "Indie Pop",
+    "city": "Boston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2270260,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270260",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64808",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "01:00",
+        "end_time": "01:50",
+        "presented_by": null
+      }
+    ],
+    "location": "BOSTON, TX"
+  },
+  {
     "name": "Stalefish",
     "genre": "Rock",
     "subgenre": "Indie Pop",
@@ -24186,6 +24111,43 @@
         "presented_by": "POP Montreal"
       }
     ]
+  },
+  {
+    "name": "Sunnitharapper",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "None",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2262565,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2262565",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "Sunnitharapper is a Houston-based rapper with confidence you can feel the second she walks in the room. Born in Los Angeles and raised in Missouri City, Texas, she started taking music seriously in high school not because it was trendy, but because it felt natural. She’s had early exposure to the industry through development experiences connected to Mathew Knowles, but her real growth came from figuring it out herself. Trial, error, independent releases, long studio nights all of it shaped her sound. Her music is bold, fun, and direct. It’s about feeling good, looking good, standing on business, and not shrinking for anyone. She doesn’t try to be overly lyrical for validation or overly commercial for approval she makes records that match her personality: confident, feminine, and unapologetic. With a growing streaming presence and consistent visuals, Sunnitharapper is building her brand the organic way by showing up, staying consistent, and connecting with people who genuinely rock with her energy. She’s not chasing trends. She’s building longevity.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/sunnitharapper/1600220144",
+      "instagram": "https://www.instagram.com/sunnitharapper?igsh=MWo5ZWx0cmdia3ozcg==",
+      "spotify": "https://open.spotify.com/artist/2KpLGbnpFTj3QUUSlB2mQO?si=o12LJ7QdTKWs",
+      "tiktok": "https://www.tiktok.com/@sunnitharapper?_r=1&_t=ZT-943MiQkesWM",
+      "twitter": "https://x.com/sunnitharapper?s=21",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64509",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "00:40",
+        "end_time": "00:55",
+        "presented_by": null
+      }
+    ],
+    "location": "HOUSTON, TX"
   },
   {
     "name": "Sunshine Spazz",
@@ -25112,6 +25074,40 @@
     "events_raw": [],
     "location": "COPENHAGEN, DENMARK",
     "events": []
+  },
+  {
+    "name": "Trey Kams",
+    "genre": "DJ",
+    "subgenre": "Electronic",
+    "city": "Los Angeles",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2269095,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2269095",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/treykams",
+      "soundcloud": "https://soundcloud.com/treykams",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64768",
+        "event_type": "showcase",
+        "venue": "Coconut Club",
+        "venue_id": "V1888",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "presented_by": "Take A Break"
+      }
+    ],
+    "location": "LOS ANGELES, CA"
   },
   {
     "name": "TRIM",
@@ -26649,6 +26645,41 @@
     "events": []
   },
   {
+    "name": "XOY",
+    "genre": "DJ",
+    "subgenre": "Electronic",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2255898,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2255898",
+    "thumbnail_url": "https://images.sxsw.com/JS3yreSMbw7WOFpHSYFppMrn3jM=/450x450/images.sxsw.com/178/1b29b128-7463-298d-02e9-43f8a1a02d7e/artist-76369",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "XOY is a Houston born multi-hyphenated Creative & Club Titan sharing the bill with iconic international artists such as RuPaul, Zack Fox, Horsegiirl, LSDXOXO, Chippy Non Stop, and the list goes on. Coming off of her festival debut at Seismic Dance Event in Austin Texas, XOY stopped by to fuel up, get cunt, and shake the walls! Fully representing the Transfemme DJ stereotype, this kick heavy set is sure to satisfy your desire for authentic hot southern club tones with a playful feminine drive. With her finger in the a** of the Texas underground electronic music scene, XOY shows why she is urgently sought after by so many; pushing club culture forward through the lens of black queer advocacy, undeniable talent, and soul throbbing DJ sets.",
+    "links": {
+      "instagram": "https://www.instagram.com/xoyish?igsh=dGp4ODZydzJhM202&utm_source=qr",
+      "soundcloud": "https://on.soundcloud.com/vVA8eyeVnWAygEWKEK",
+      "youtube": "https://youtu.be/sCGSDqGlKTE?si=C-zaXAkx34wthBi1",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS64277",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "presented_by": "Gas Station FM "
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "XRAREST",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Trap",
@@ -26836,6 +26867,41 @@
       }
     ],
     "location": "AUSTIN, TEXAS, TX"
+  },
+  {
+    "name": "Yndent",
+    "genre": "Electronic",
+    "subgenre": "House / Techno",
+    "city": "Dallas",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2270298,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270298",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/yndented",
+      "soundcloud": "https://soundcloud.com/yndent",
+      "spotify": "https://open.spotify.com/artist/3AMHUX0fM1HGF1yxmflNXY",
+      "website": "https://www.yndentmusic.com"
+    },
+    "events": [
+      {
+        "event_id": "MS64814",
+        "event_type": "showcase",
+        "venue": "Coconut Club",
+        "venue_id": "V1888",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "presented_by": "Take A Break"
+      }
+    ],
+    "location": "DALLAS, TX"
   },
   {
     "name": "Yng Naz",
@@ -27127,6 +27193,43 @@
       }
     ],
     "location": "WATERBURY, CT"
+  },
+  {
+    "name": "Zak Blaine",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Southern Hip-Hop",
+    "city": "Hopkinsville",
+    "country": "United States",
+    "state": "KY",
+    "entity_id": 2247443,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2247443",
+    "thumbnail_url": "https://images.sxsw.com/zbOUiwoZdmuDaiP1BxCi2mGcKtw=/450x450/images.sxsw.com/178/1f2407a0-5f31-70b8-cb6a-94f5a1026df1/artist-76070",
+    "announcement_date": "2026-02-26",
+    "source": "official",
+    "description": "Zak Blaine is a melodic hip-hop and R&B artist making late-night music rooted in mood and honesty. His songs live in the gray area between wanting someone and pulling away.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/zak-blaine/1718348488",
+      "instagram": "https://www.instagram.com/zak.blaine?igsh=ejF4aTg5NHBuNXg1&utm_source=qr",
+      "spotify": "https://open.spotify.com/artist/7ETfiJZtGM9RkfucOvVxrR",
+      "tiktok": "https://www.tiktok.com/@zak.blaine?_r=1&_t=ZT-92wNCLvggwv",
+      "youtube": "https://youtube.com/@zak.blaine?si=Y0-Zyu4pyExh0Ad-",
+      "website": "https://sxswsydney.com/"
+    },
+    "events": [
+      {
+        "event_id": "MS63809",
+        "event_type": "showcase",
+        "venue": "Riviere",
+        "venue_id": "V2460",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "21:15",
+        "end_time": "21:30",
+        "presented_by": null
+      }
+    ],
+    "location": "HOPKINSVILLE, KY"
   },
   {
     "name": "ZAMAERA",
