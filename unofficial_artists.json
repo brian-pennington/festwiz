@@ -14,7 +14,8 @@
     "state": "WI",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Downhill2k01",
@@ -33,7 +34,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Assorted Potions",
@@ -51,7 +53,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Worldbuilder",
@@ -68,7 +71,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Galaxy Gardens",
@@ -83,7 +87,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Stealth Archer",
@@ -100,7 +105,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Osees",
@@ -117,7 +123,8 @@
     "state": "CA",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Holy Wave",
@@ -135,7 +142,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Tear Dungeon",
@@ -152,7 +160,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Amplified Heat",
@@ -169,7 +178,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "American Sharks",
@@ -186,7 +196,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Kind Keith",
@@ -204,7 +215,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Ori\u00f3n Garc\u00eda",
@@ -219,7 +231,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Bad Lovers",
@@ -238,7 +251,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Ulovei",
@@ -253,7 +267,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "King Louie",
@@ -268,7 +283,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Surfbort",
@@ -283,7 +299,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Queen Serene",
@@ -303,7 +320,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Prehuman",
@@ -321,7 +339,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Datura",
@@ -341,7 +360,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Raynes",
@@ -360,7 +380,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "BRUCE",
@@ -377,7 +398,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Team Trust",
@@ -395,7 +417,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "\u00c9gaux Sells",
@@ -412,7 +435,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Free Hazme",
@@ -429,7 +453,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Shared Walls",
@@ -446,7 +471,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Fried Awake",
@@ -463,7 +489,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Lazy Comet",
@@ -480,7 +507,8 @@
     "state": "IL",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Bad Acid",
@@ -497,7 +525,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Celestina Gravely",
@@ -515,7 +544,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "DEDNAMEZ",
@@ -532,7 +562,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Burning Low",
@@ -552,7 +583,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Mikky and the Doom",
@@ -571,7 +603,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Wavy Eye",
@@ -588,7 +621,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Jane",
@@ -603,7 +637,8 @@
     "state": "",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Philo",
@@ -620,7 +655,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Mars Gold",
@@ -635,7 +671,8 @@
     "state": "",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Gracie & Rachel",
@@ -655,7 +692,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Babybaby_explores",
@@ -673,7 +711,8 @@
     "state": "RI",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Porcelain",
@@ -693,7 +732,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Snailmate",
@@ -712,7 +752,8 @@
     "state": "AZ",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Kev Bev",
@@ -730,7 +771,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Swimwear Department",
@@ -752,7 +794,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Tele Novella",
@@ -772,7 +815,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Evan Autin",
@@ -791,7 +835,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Blush Fantasy",
@@ -810,7 +855,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Flight by Nothing",
@@ -829,7 +875,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Dogs with Hats",
@@ -848,7 +895,8 @@
     "state": "IL",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "INOHA",
@@ -868,7 +916,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Pretoria",
@@ -888,7 +937,8 @@
     "state": "IL",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Trashy Annie",
@@ -908,7 +958,8 @@
     "state": "",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   },
   {
     "name": "Sixteen Deluxe",
@@ -925,6 +976,7 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "event_url": ""
   }
 ]
