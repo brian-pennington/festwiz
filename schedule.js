@@ -4,6 +4,9 @@
 
   // ── State ──────────────────────────────────────────────────────────────────
 
+  const FESTIVAL_FIRST_DAY = '2026-03-10';
+  const FESTIVAL_LAST_DAY  = '2026-03-18';
+
   let allShows = [];        // raw shows.json array + unofficial shows from localStorage
   let venueOrder = {};      // venues.json: { "2026-03-10": [...], aliases: {...} }
   let venueAliases = {};   // full name → display name
@@ -214,9 +217,29 @@
     const todayIso = new Date().toISOString().slice(0, 10);
     selectedDay = days.includes(todayIso) ? todayIso : days[0];
 
+    const hasPre   = days[0] < FESTIVAL_FIRST_DAY;
+    let addedPreDivider   = false;
+    let addedBonusDivider = false;
+
     for (const day of days) {
+      // Divider between pre-festival and festival days
+      if (hasPre && !addedPreDivider && day >= FESTIVAL_FIRST_DAY) {
+        bar.appendChild(makeDayDivider());
+        addedPreDivider = true;
+      }
+      // Divider between festival and post-festival days
+      if (!addedBonusDivider && day > FESTIVAL_LAST_DAY) {
+        bar.appendChild(makeDayDivider());
+        addedBonusDivider = true;
+      }
+
+      const isBonus = day > FESTIVAL_LAST_DAY;
+      const isPre   = day < FESTIVAL_FIRST_DAY;
+
       const btn = document.createElement('button');
       btn.className = 'day-tab' + (day === selectedDay ? ' active' : '');
+      if (isBonus) btn.classList.add('day-tab--bonus');
+      if (isPre)   btn.classList.add('day-tab--pre');
       btn.dataset.day = day;
       btn.textContent = formatDayLabel(day);
       btn.addEventListener('click', () => {
@@ -231,10 +254,27 @@
         }
         document.querySelectorAll('.day-tab').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
+        updatePostFestivalBanner();
         renderCurrentView();
       });
       bar.appendChild(btn);
     }
+
+    updatePostFestivalBanner();
+  }
+
+  function makeDayDivider() {
+    const sep = document.createElement('span');
+    sep.className = 'day-tab-divider';
+    sep.textContent = '///';
+    sep.setAttribute('aria-hidden', 'true');
+    return sep;
+  }
+
+  function updatePostFestivalBanner() {
+    const banner = document.getElementById('post-festival-banner');
+    if (!banner) return;
+    banner.hidden = !selectedDay || selectedDay <= FESTIVAL_LAST_DAY;
   }
 
   function populateDaySelects() {
