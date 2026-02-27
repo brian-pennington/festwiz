@@ -682,31 +682,12 @@
       lookup[v][slotKey].push(show);
     }
 
-    // No-set-time shows: distribute evenly across slots from start_time to end_time.
-    // Group by venue + start_time so multiple showcases at the same venue stay separate.
-    const noSetGroups = {};
+    // No-set-time shows per venue (all pills go in one rowspan cell)
+    const noSetByVenue = {};
     for (const show of noSetShows) {
-      const key = show.venue + '|' + show.start_time;
-      if (!noSetGroups[key]) noSetGroups[key] = { venue: show.venue, shows: [] };
-      noSetGroups[key].shows.push(show);
-    }
-    for (const { venue: v, shows: vShows } of Object.values(noSetGroups)) {
-      if (!lookup[v]) lookup[v] = {};
-      const startMin = minutesFromDayStart(vShows[0].start_time);
-      const endTimes = vShows.map(s => s.end_time).filter(Boolean).sort();
-      const endMin = endTimes.length
-        ? minutesFromDayStart(endTimes[endTimes.length - 1])
-        : startMin + 240; // assume 4 h if no end_time
-      const numSlots = Math.max(1, Math.round((endMin - startMin) / 30));
-      vShows.forEach((show, i) => {
-        const offsetSlots = Math.floor(i * numSlots / vShows.length);
-        const totalMin = startMin + offsetSlots * 30;
-        const h = (DAY_START_HOUR + Math.floor(totalMin / 60)) % 24;
-        const m = totalMin % 60;
-        const slotKey = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
-        if (!lookup[v][slotKey]) lookup[v][slotKey] = [];
-        lookup[v][slotKey].push(show);
-      });
+      const v = show.venue;
+      if (!noSetByVenue[v]) noSetByVenue[v] = [];
+      noSetByVenue[v].push(show);
     }
 
     // Generate 30-min slots from 9:00 AM to 2:00 AM
@@ -715,6 +696,32 @@
       const hh = h % 24;
       slots.push(`${String(hh).padStart(2, '0')}:00`);
       slots.push(`${String(hh).padStart(2, '0')}:30`);
+    }
+
+    // Find the slot where each venue's no-set-time cell will be placed
+    const lastSlotPerVenue = {};
+    for (const v of venues) {
+      for (const slot of slots) {
+        if (lookup[v][slot] && lookup[v][slot].length > 0) lastSlotPerVenue[v] = slot;
+      }
+      // Venue has only no-set-time shows — start at their event start_time
+      if (!lastSlotPerVenue[v] && noSetByVenue[v] && noSetByVenue[v].length > 0) {
+        const fallback = nearestSlot(noSetByVenue[v][0].start_time);
+        lastSlotPerVenue[v] = slots.includes(fallback) ? fallback : slots[0];
+      }
+    }
+
+    // Calculate rowspan for each no-set-time cell:
+    // span from placement slot to end_time (or assume 4 h if unknown)
+    const noSetRowspans = {};
+    for (const v of venues) {
+      if (!noSetByVenue[v]) continue;
+      const startSlot = lastSlotPerVenue[v];
+      if (!startSlot) continue;
+      const endTime = noSetByVenue[v].map(s => s.end_time).filter(Boolean).sort().pop();
+      const startMin = minutesFromDayStart(startSlot);
+      const endMin   = endTime ? minutesFromDayStart(endTime) : startMin + 240;
+      noSetRowspans[v] = Math.max(4, Math.round((endMin - startMin) / 30));
     }
 
     const wrap = document.createElement('div');
@@ -739,6 +746,10 @@
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
+    // Track remaining rowspan rows to skip per venue
+    const activeRowspans = {};
+    for (const v of venues) activeRowspans[v] = 0;
+
     // Body
     const tbody = document.createElement('tbody');
     for (const slot of slots) {
@@ -756,6 +767,12 @@
       tr.appendChild(timeTd);
 
       for (const v of venues) {
+        // Skip cells covered by an earlier rowspan
+        if (activeRowspans[v] > 0) {
+          activeRowspans[v]--;
+          continue;
+        }
+
         const td = document.createElement('td');
         td.className = 'grid-cell';
         td.dataset.venue = v;
@@ -763,6 +780,19 @@
         for (const show of cellShows) {
           td.appendChild(createGridPill(show));
         }
+
+        // No-set-time cell: apply rowspan so it expands vertically
+        if (slot === lastSlotPerVenue[v] && noSetByVenue[v] && noSetByVenue[v].length > 0) {
+          const rowspan = noSetRowspans[v] || 4;
+          td.rowSpan = rowspan;
+          activeRowspans[v] = rowspan - 1;
+          for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
+          const noTimeHdr = document.createElement('div');
+          noTimeHdr.className = 'grid-no-set-time-header';
+          noTimeHdr.textContent = '(No Set Times)';
+          td.appendChild(noTimeHdr);
+        }
+
         tr.appendChild(td);
       }
       tbody.appendChild(tr);
