@@ -345,8 +345,8 @@
   },
   {
     "name": "Raynes",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Hosuton, TX, USA",
     "description": "",
     "links": {
@@ -416,8 +416,8 @@
   },
   {
     "name": "Free Hazme",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "",
+    "genre": "DJ",
+    "subgenre": "Hip-Hop / Rap",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -451,7 +451,7 @@
   {
     "name": "Fried Awake",
     "genre": "Rock",
-    "subgenre": "",
+    "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -468,7 +468,7 @@
   {
     "name": "Lazy Comet",
     "genre": "Rock",
-    "subgenre": "",
+    "subgenre": "Indie Rock",
     "location": "Chicago, IL, USA",
     "description": "",
     "links": {
@@ -519,8 +519,8 @@
   },
   {
     "name": "DEDNAMEZ",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Punk",
     "location": "San Marcos, TX, USA",
     "description": "",
     "links": {
@@ -556,8 +556,8 @@
   },
   {
     "name": "Mikky and the Doom",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "When Mikky steps onto the stage in her 9 inch heels, she gives the people what they want: a larger than life rockstar and thunderous vocals to boot. The members, a nebulous and ever-expanding roster of Austin\u2019s best rockers, add an extra glitter of drama when they take the stage alongside her. Together, the band\u2019s raw, eccentric performance and campy pageantry transport audiences back in time as Mikky & The Doom brings the glam back to rock. With catchy anthems, sleazy bass lines, and unmatched physicality, they know how to set fire to any crowd and leave an ear worm in your head. For those who are nostalgic for the golden era of rock \u2018n roll but relish the spectacle of modern pop, Mikky & The Doom is the act to follow.",
     "links": {
@@ -575,8 +575,8 @@
   },
   {
     "name": "Wavy Eye",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Grunge",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -639,8 +639,8 @@
   },
   {
     "name": "Gracie & Rachel",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Folk",
+    "subgenre": "Orchestral",
     "location": "New York, NY, USA",
     "description": "",
     "links": {
@@ -659,8 +659,8 @@
   },
   {
     "name": "Babybaby_explores",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Experimental",
     "location": "Providence, RI, USA",
     "description": "",
     "links": {
@@ -678,7 +678,7 @@
   {
     "name": "Porcelain",
     "genre": "Rock",
-    "subgenre": "",
+    "subgenre": "Emo",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -697,8 +697,8 @@
   },
   {
     "name": "Snailmate",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Hip Hop / Rap",
+    "subgenre": "Electronic",
     "location": "Phoenix, AZ, USA",
     "description": "",
     "links": {
@@ -716,8 +716,8 @@
   },
   {
     "name": "Kev Bev",
-    "genre": "Rock",
-    "subgenre": "",
+    "genre": "R&B",
+    "subgenre": "Neo Soul",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -795,8 +795,8 @@
   },
   {
     "name": "Blush Fantasy",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "New Wave",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -814,8 +814,8 @@
   },
   {
     "name": "Flight by Nothing",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Neo Soul",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -872,8 +872,8 @@
   },
   {
     "name": "Pretoria",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
     "location": "Chicago, IL, USA",
     "description": "",
     "links": {
@@ -921,6 +921,1268 @@
     },
     "source": "unofficial",
     "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Soundcult",
+    "genre": "Electronic",
+    "subgenre": "Experimental",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "website": "https://www.instagram.com/soundcultband/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Benko",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://benko1.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Moonkill",
+    "genre": "Metal",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://moonkill.bandcamp.com",
+      "website": "https://moonkillband.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Bantom Woods",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://bantomwoods.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Midnight Papers",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Houston, TX, USA",
+    "description": "The Midnight Papers is a two-piece garage rock/protopunk band in Houston, Texas. Their debut album was chosen as one of Houston Chronicle's New Music Releases You Need to Hear in 2025.",
+    "links": {
+      "bandcamp": "https://themidnightpapers.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Houston",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ari & the Artifacts",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "Introspective indie rock \ud83d\ude0c and pensive power pop \ud83d\udc40 from the heart (of Texas) \ud83d\udcaf. Debut single \u201cGetting Grown\u201d out now!",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/ari-and-the-artifacts/1855311737"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Coatie Pop",
+    "genre": "Electronic",
+    "subgenre": "Post-Punk",
+    "location": "New York, NY, USA",
+    "description": "coatie pop is a post punk trip hop grunge rave duo based in NYC",
+    "links": {
+      "bandcamp": "https://coatiepop.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Normal Bias",
+    "genre": "Electronic",
+    "subgenre": "EBM",
+    "location": "New York, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://synthicide.bandcamp.com/album/normal-bias"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ces Cadaveres",
+    "genre": "Electronic",
+    "subgenre": "Darkwave",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://cescadaveres.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Sow",
+    "genre": "Electronic",
+    "subgenre": "EBM",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://thesow.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "\u00bfLa Pregunta?",
+    "genre": "Electronic",
+    "subgenre": "EBM",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://lapregunta.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Wetsuit",
+    "genre": "Rock",
+    "subgenre": "Dream Pop",
+    "location": "Brooklyn, NY, USA",
+    "description": "brooklyn-based, water-based indie rock.",
+    "links": {
+      "bandcamp": "https://wetsuitnyc.bandcamp.com/",
+      "website": "https://wetsuitnyc.com/"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "High Waisted",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "New York, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://highwaisted.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Amnesia",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Isadora Lilly",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/id-like-to-see-you-try-feat-isadora-lilly-single/1781513589"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Caleb Seboldt",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/youre-gonna-wanna-close-your-eyes-for-this/1839441512"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Bill Cody",
+    "genre": "Unknown",
+    "subgenre": "Alt Country",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=X62m9I-Xvkk",
+      "website": "https://www.billcodymusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Meredith \"Scottie\" Welborn",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "Singer, Guitarist, Songstress. Alt-Everything.",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCa09jdljZKesWjSMrC1JkeQ"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jawgut",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Mitts",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "San Antonio, TX, USA",
+    "description": "Mitts is a Texas-based songwriter, quietly writing songs under the stairs while the rest of the house sleeps. Most mornings start before dawn in a small closet-turned-studio, where songs come together, through an old Tascam into his DAW. Drawing from indie rock, Americana, and an overactive inner monologue, the music blends specificity with humor, offering a crooked grin to life\u2019s heavier moments.",
+    "links": {
+      "bandcamp": "https://mittsmitts.bandcamp.com/",
+      "youtube": "https://www.youtube.com/watch?v=bcIy5O-3fd8",
+      "website": "https://jackmitts.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dalla Terra",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCFWF5W_g8vYvI8_0skOhGOA",
+      "website": "https://www.dallaterraband.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Lee Trent",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Nashville, TN, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/the-dashboard-incident-feat-inner-view-single/1773533832",
+      "spotify": "https://open.spotify.com/album/6F7b0pHORuHoMO5QnR9n3M?referral=labelaffiliate&utm_source=1101lCmdnqeU&utm_medium=Indie_Distrokid&utm_campaign=labelaffiliate"
+    },
+    "source": "unofficial",
+    "city": "Nashville",
+    "country": "USA",
+    "state": "TN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Kim Simpson",
+    "genre": "Folk",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "Kim Simpson is a singer-songwriter, guitarist, author and radio host who lives in Austin, Texas.",
+    "links": {
+      "bandcamp": "https://kimsimpson.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Nathan Felix & the Dirty Rotten Boys",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=KCGzDWlyVZ0",
+      "apple_music": "https://music.apple.com/us/artist/nathan-felix/692749048",
+      "website": "https://electrochestral.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dead Canyon Family Reunion",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://thedeadcanyonfamilyreunion.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Whale",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/7o2iHLnlnWJxQDbl0L1NEn?go=1&sp_cid=509bbd10-b1b0-44f0-8192-40b4ca1bab02&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=81640d38f497442b"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "LCLS",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://lcls.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Calico Sky",
+    "genre": "Unknown",
+    "subgenre": "Synth Pop",
+    "location": "Austin, TX, USA",
+    "description": "Calico Sky is the electropop project of brothers Jonathan and Joel. Before diving deep into the synthwave vibes of '80s-inspired tech noir, the Texas twins collaborated with artists from all over the map\u2014from Austin art-rock royalty \u2026And You Will Know Us by the Trail of Dead to the electronic pioneer and producer Moby.\n\nIt was in the neon-lit alleys of Los Angeles where they honed their craft, playing in Hollywood\u2019s storied dive bars while crystallizing the sounds that would become Calico Sky.\n\nAfter years of working in L.A., and homesick for Texas, Jon and Joel moved back to Austin. Fueled by the city\u2019s endless creative energy and love for its deep-rooted live music scene, the twins of Calico Sky invite listeners on a sonic journey where nostalgia meets futurism, and old-school melodies collide with a new wave of sound.\n\n\"Get offline and come to a show. We'll buy you a Lone Star.\"",
+    "links": {
+      "youtube": "https://www.youtube.com/user/CalicoSkyBand",
+      "apple_music": "https://music.apple.com/us/artist/calico-sky/1522865896",
+      "spotify": "https://open.spotify.com/artist/7C7mWjq9DdaftJOSBNrU9Z?si=ovXL6KxlRzO5m11peCnmXA&nd=1&dlsi=7b06acebe8f44c22",
+      "website": "https://calico-sky.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Moving Panoramas",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "Moving Panoramas make boot gaze dream rock, led by songwriter, Leslie Sisson.",
+    "links": {
+      "bandcamp": "https://movingpanoramas.bandcamp.com/",
+      "youtube": "https://www.youtube.com/@movingpanoramas2895",
+      "spotify": "https://open.spotify.com/artist/0TqX2rBkqzE41hGn69qi3o?si=dT3nvUqMSAemU6YtXdWaRQ&utm_medium=share&utm_source=linktree&nd=1&dlsi=647213aa64f04aba",
+      "website": "https://movingpanoramas.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Elegant Tiger",
+    "genre": "Electronic",
+    "subgenre": "Synth Pop",
+    "location": "Austin, TX, USA",
+    "description": "Formerly known as the Austin, TX alt-rock act, Shapescenes, Elegant Tiger is an evolution in the sonic maximalism of Chase Anderson, Mark Son, and Justin Babineaux. The group has expanded to include Joe Miles on keys, guitar, and vocals.",
+    "links": {
+      "bandcamp": "https://eleganttiger.bandcamp.com/",
+      "apple_music": "https://music.apple.com/ca/artist/elegant-tiger/1721415042",
+      "spotify": "https://open.spotify.com/artist/7CqKsN4xFuShAvERIi0JrW",
+      "website": "https://eleganttiger.band/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Avae",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Dallas, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@avae",
+      "apple_music": "https://music.apple.com/us/album/edge-of-eminence-ep-single/1805294650",
+      "spotify": "https://open.spotify.com/album/475dzdiiMMrWZkQqy3a8Ck?si=rdF9SEeEQYyQR5R812yIuw&nd=1&dlsi=a27412d56ca24120",
+      "website": "https://www.avaemusic.com"
+    },
+    "source": "unofficial",
+    "city": "Dallas",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "JunkBunny",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "Combining hardcore hooks with a reverence for early 2000s pop-punk, JunkBunny\u2019s sound is anthemically massive while still retaining emotional resonance. Compromised of Mac Johnson (Guitar/Vocals), Isaac Moore (Drums), and Dylan Dreiling (Bass), the Austin-based trio released their debut album Starting Over on May 3rd. Balancing gigs at gritty dive bars with amphitheaters alongside legendary acts like ZZ Top and Jon Bon Jovi, JunkBunny\u2019s emergence has been as swift and visceral as the sounds they continue laboring over in an underground Austin Studio.",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCypqM7fcl65vgsCbZ405hMg",
+      "apple_music": "https://music.apple.com/us/artist/junkbunny/1479870809",
+      "spotify": "https://open.spotify.com/artist/2UdPcvUuTpvrq7flh94PaE",
+      "website": "https://www.junkbunny.rocks/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Denim Haircut",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@denimhaircut1327",
+      "apple_music": "https://music.apple.com/us/album/denim-haircut-ep/1544421636",
+      "spotify": "https://open.spotify.com/album/1heJSjA17SBfRt08ddbMcn?si=Xf-UM09aRp2CFXTZUt9V1A&nd=1&dlsi=cc9990f969624349"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Multimagic",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Cincinnati, OH, USA",
+    "description": "Multimagic is an American indie pop band led by songwriters & producers Coran Stetter and James Ruehlman. After a manic episode & hospitalization, Stetter began rebuilding his life through music. Ruehlman joined, & together they transformed their personal struggles and anti-capitalist perspective into Manic Daze, their acclaimed debut album. New single \u201cHeart\u201d arrives May 16,",
+    "links": {
+      "bandcamp": "https://multimagic.bandcamp.com",
+      "spotify": "https://open.spotify.com/album/5yQ75NXVJQhXYRhqbCXyVg?si=IG_W2NekRUWBdXXBc2w-0A&nd=1&dlsi=77577abf4a27404f",
+      "website": "https://www.multimagicmusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Cincinnati",
+    "country": "USA",
+    "state": "OH",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Doak Hensley",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "https://doakhensley.bandcamp.com",
+    "links": {
+      "website": "https://www.doakhensley.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Linnea's Garden",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Boston, MA, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Boston",
+    "country": "USA",
+    "state": "MA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "How Tragic",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ohmyhowtragic.bandcamp.com",
+      "youtube": "https://www.youtube.com/channel/UCsZgipBS67HlgF3LOFCr2Mw",
+      "spotify": "https://open.spotify.com/artist/4zhZLm7gShmebNoVsgoajH",
+      "website": "https://www.howtragic.com/"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jesus Christ II",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/track/4fYWQcRpayvZsc7sdAehQs?si=la8tzWvcT2StAD2NCVHTnw"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "PHO",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Mummies",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "San Mateo, CA, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/the-mummies/1507105493",
+      "website": "http://www.themummies.com/"
+    },
+    "source": "unofficial",
+    "city": "San Mateo",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Didjits",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Mattoon, IL, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/didjits/2820951",
+      "spotify": "https://open.spotify.com/artist/5IxSVG89GTeEzSOyXtV2uf",
+      "website": "https://www.thedidjits.com/"
+    },
+    "source": "unofficial",
+    "city": "Mattoon",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Rocket from the Crypt",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "San Diego, CA, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/rocket-from-the-crypt/2822245",
+      "spotify": "https://open.spotify.com/artist/5GOJQ1HSMGp1rEnOhBeH1h"
+    },
+    "source": "unofficial",
+    "city": "San Diego",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "HoneyBunny",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://honeybunnysatx.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The In & Outlaws",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Lonely Horse",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Los Juanos",
+    "genre": "Rock",
+    "subgenre": "Cumbia",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://losjuanos.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Hickoids",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://hickoids.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Garrett T. Capps & NASA Country",
+    "genre": "Americana",
+    "subgenre": "Psychedelic",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://garretttcapps.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Girl in a Coma",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@GIACofficial",
+      "apple_music": "https://music.apple.com/us/artist/girl-in-a-coma/252488650",
+      "spotify": "https://open.spotify.com/artist/02M8jBQuaOCfPKFgsMhLS0?si=KAJZdzyvQhmuVSRmTSBgrg&nd=1&dlsi=0e8b84ffd9c943e7",
+      "website": "https://girlinacomamusic.com/"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Bershy",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://bershy.bandcamp.com/",
+      "youtube": "https://www.youtube.com/@bershymusic",
+      "apple_music": "https://music.apple.com/us/song/radio/1640300200",
+      "spotify": "https://open.spotify.com/album/3rcJwEH6EyPPEiqsrABR4k?si=cGcIjC46SoC3BOXtbj_X4w&nd=1&dlsi=c8e12f42e5004d8c"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Spirit Ghost",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://spiritghost.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jack Oblivian & the Sheiks",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Memphis, TN, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://jackoblivian1.bandcamp.com/album/lost-weekend"
+    },
+    "source": "unofficial",
+    "city": "Memphis",
+    "country": "USA",
+    "state": "TN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Black Mercy",
+    "genre": "Rock",
+    "subgenre": "Hardcore",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://blackmercy.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Owling",
+    "genre": "Metal",
+    "subgenre": "Stoner",
+    "location": "Los Angeles, CA, USA",
+    "description": "the OWLiNG is a heavy, melodic duo from Hollywood blending doom, cinematic riffs, and \u201990s alt-metal into a dark, riff-driven sound.",
+    "links": {
+      "bandcamp": "https://theowling.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Carriers",
+    "genre": "Americana",
+    "subgenre": "Alternative",
+    "location": "Cincinnati, OH, USA",
+    "description": "Led by Curt Kiser, Carriers is Cincinnati\u2019s best-kept secret, blending heartland rock with dreamy, introspective Americana. With a devoted local following and support from indie heavyweights, Carriers is ready to take the national stage.\n\n\u201cHallucinatory heartland rock\u2026dreamy, Dylan-esque.\u201d",
+    "links": {
+      "bandcamp": "https://carrierstheband.bandcamp.com",
+      "spotify": "https://open.spotify.com/artist/03Y6dXzmx4DFtBblTZpAw4?si=9ip2g0NAQIWXLqk0ceDaRA&nd=1&dlsi=92cb66206d524bbb",
+      "website": "https://carrierstheband.com"
+    },
+    "source": "unofficial",
+    "city": "Cincinnati",
+    "country": "USA",
+    "state": "OH",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jonny Tex",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Boston, MA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://jonnytex.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Boston",
+    "country": "USA",
+    "state": "MA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Language",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://languageatx.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ewe",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Upper Reality",
+    "genre": "R&B",
+    "subgenre": "Neo Soul",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://upperreality.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dose Rose",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/dose-rose/1537858008",
+      "spotify": "https://open.spotify.com/playlist/0r3j8z9RNfPoTXE6pK2ZRB?si=QRTVgiyqQI21L3r5IosFRQ"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Lost Millions",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "The Lost Millions, from Austin, Texas, consists of Matt Westfield on vocals, Heath McBurnett on bass, and Scott Bettersworth on drums. Heavy grooves, fast attack, and swimming melodies, the trio delivers powerful rock n' roll. With their unique sound and electrifying stage presence, The Lost Millions have quickly become one of the most sought-after bands in the Austin music scene.",
+    "links": {
+      "bandcamp": "https://thelostmillions.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Stardust Vinyl",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/stardust-vinyl/1747772402",
+      "spotify": "https://open.spotify.com/artist/3TBKUkg45EGJvigc3OzNEm?si=fIpvodUXSPue7NiPhmEBkA&nd=1&dlsi=08838811e989477b",
+      "website": "https://stardustvinyl.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Gun Cat",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/gun-cat/1846169252",
+      "spotify": "https://open.spotify.com/artist/5A0rNdKZSjwfbwIt9ty4Ah?si=Os-XEQFOQui1r2CMDhFfOw&nd=1&dlsi=04ed737497b0401a"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Turbo Goth",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "New York, NY, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/quarantine-dreams-single/1509144772",
+      "spotify": "https://open.spotify.com/album/13VWgcvuH7jnCusyYIBkCZ",
+      "website": "https://www.turbogoth.com"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Social Dissonance",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://socialdisso.bandcamp.com",
+      "youtube": "https://www.youtube.com/channel/UCexREpD98fT-9SQVZO1YmUA/videos",
+      "apple_music": "https://music.apple.com/us/artist/social-dissonance/1654321031",
+      "spotify": "https://open.spotify.com/artist/3QdyYCm24rYz2bE45nLZQr?si=2U_VjAlKTsai-00hKD0llg"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Mourning After",
+    "genre": "Rock",
+    "subgenre": "Grunge",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://mourningafterhq.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Joe with the Notes",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=nslHUX2_z3Q"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Happy Phantom",
+    "genre": "Rock",
+    "subgenre": "Darkwave",
+    "location": "Dallas, TX, USA",
+    "description": "Happy Phantom is a Post Punk, alternative Rock, band formed by front man, singer/song writer, and multi instrumentalist Jackie Legos.\n\nVocals/Guitars: Jackie Legos,\nKeyboards/Synth: Austin Hayse\nBass Guitars: Dave Ainsworth\n\nAdditional guest musicians:\nPercussion: Colby Sias\nBass Guitar: Phillip Sozansky\nGuitars: Brendan Ladan\nDrums: Zack Bigalow",
+    "links": {
+      "bandcamp": "https://happyphantommusic.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Dallas",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Weird Wolves",
+    "genre": "Rock",
+    "subgenre": "Darkwave",
+    "location": "Austin, TX, USA",
+    "description": "A blend of darkwave, electro-rock, and synth-pop\n\nFormed in 2018 by Raphael Colantonio, acclaimed video game creator (Arkane Studios) known for designing immersive video games like Prey and Dishonored.\n\nWeird Wolves has evolved into a full band\n\nCurrent band members include Celestina Gravely and Zeph Rexx. Past band members include Ava Gore and Ben Post.",
+    "links": {
+      "bandcamp": "https://weirdwolvesmusic.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Death of the Last Beautiful Jaguar",
+    "genre": "Electronic",
+    "subgenre": "Darkwave",
+    "location": "Houston, TX, USA",
+    "description": "Death of the Last Beautiful Jaguar is the solo project of Houston based artist Anthony Torres",
+    "links": {
+      "bandcamp": "https://deathofthelastbeautifuljaguar.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Houston",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dread Risks",
+    "genre": "Metal",
+    "subgenre": "EBM",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://dreadrisks.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "In a Darkened Room",
+    "genre": "Rock",
+    "subgenre": "Darkwave",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://inadarkenedroom.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
     "country": "USA",
     "state": "TX",
     "entity_id": null,
