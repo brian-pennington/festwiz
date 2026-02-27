@@ -1300,8 +1300,9 @@ body.light .day-tab--pre.active {
   border-bottom-color: #00bcd4;
 }
 
-/* Night mode: regular tabs bright so bonus/pre tabs read as visibly muted by contrast */
-body:not(.light) .day-tab { color: var(--text); }
+/* Night mode: regular tabs light blue so bonus/pre tabs read as visibly muted by contrast */
+body:not(.light) .day-tab { color: #c8dff8; }
+body:not(.light) .day-tab:hover { color: var(--text); }
 body:not(.light) .day-tab--bonus,
 body:not(.light) .day-tab--pre { color: var(--text-muted); }
 body:not(.light) .day-tab--bonus:hover,
