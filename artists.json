@@ -8260,7 +8260,44 @@
       "tiktok": "https://www.tiktok.com/@myfamousfriend",
       "website": "https://famousfriend.com/"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64630",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "13:50",
+        "end_time": "14:20",
+        "presented_by": "SXSW DAY PARTY:"
+      },
+      {
+        "event_id": "MS64504",
+        "event_type": "showcase",
+        "venue": "Radio Day Stage @ Downright Austin Backyard",
+        "venue_id": "V2391",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "13:00",
+        "end_time": "13:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64138",
+        "event_type": "showcase",
+        "venue": "Elysium",
+        "venue_id": "V0182",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": null
+      }
+    ],
     "location": "LOS ANGELES, CA"
   },
   {
@@ -10232,8 +10269,32 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-12",
-        "start_time": "20:00",
-        "end_time": "20:30",
+        "start_time": "22:40",
+        "end_time": "23:10",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64779",
+        "event_type": "showcase",
+        "venue": "The 13th Floor",
+        "venue_id": "V2123",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "01:00",
+        "end_time": "01:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64615",
+        "event_type": "showcase",
+        "venue": "Elysium",
+        "venue_id": "V0182",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "22:00",
+        "end_time": "22:40",
         "presented_by": null
       }
     ]
@@ -11527,7 +11588,32 @@
     },
     "events_raw": [],
     "location": "NEW YORK, NY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64350",
+        "event_type": "showcase",
+        "venue": "Elysium",
+        "venue_id": "V0182",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63454",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "01:00",
+        "end_time": "01:30",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Jacki Daniels",
@@ -25578,7 +25664,44 @@
     },
     "events_raw": [],
     "location": "MEXICO CITY, MEXICO",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64717",
+        "event_type": "showcase",
+        "venue": "Elysium",
+        "venue_id": "V0182",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63439",
+        "event_type": "showcase",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Vinilious Records"
+      },
+      {
+        "event_id": "MS63220",
+        "event_type": "showcase",
+        "venue": "Las Perlas",
+        "venue_id": "V1464",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": null,
+        "end_time": null,
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Vanita Leo",

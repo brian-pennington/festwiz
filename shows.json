@@ -1644,6 +1644,42 @@
     "notes": ""
   },
   {
+    "id": "official_famous_friendvalhalla2026_03_1313_50",
+    "artist_name": "Famous Friend",
+    "entity_id": 2253286,
+    "venue": "Valhalla",
+    "day": "2026-03-13",
+    "start_time": "13:50",
+    "end_time": "14:20",
+    "source": "official",
+    "showcase": "SXSW DAY PARTY:",
+    "notes": ""
+  },
+  {
+    "id": "official_famous_friendradio_day_stage___downright_austin_backyard2026",
+    "artist_name": "Famous Friend",
+    "entity_id": 2253286,
+    "venue": "Radio Day Stage @ Downright Austin Backyard",
+    "day": "2026-03-14",
+    "start_time": "13:00",
+    "end_time": "13:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_famous_friendelysium2026_03_1821_00",
+    "artist_name": "Famous Friend",
+    "entity_id": 2253286,
+    "venue": "Elysium",
+    "day": "2026-03-18",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_father_romarthe_creek_and_the_cave2026_03_1822_50",
     "artist_name": "Father Romar",
     "entity_id": 2249513,
@@ -2081,8 +2117,32 @@
     "entity_id": 2248080,
     "venue": "British Music Embassy @ Palm Door on Sixth",
     "day": "2026-03-12",
-    "start_time": "20:00",
-    "end_time": "20:30",
+    "start_time": "22:40",
+    "end_time": "23:10",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_the_haunted_youththe_13th_floor2026_03_1501_00",
+    "artist_name": "The Haunted Youth",
+    "entity_id": 2248080,
+    "venue": "The 13th Floor",
+    "day": "2026-03-15",
+    "start_time": "01:00",
+    "end_time": "01:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_the_haunted_youthelysium2026_03_1822_00",
+    "artist_name": "The Haunted Youth",
+    "entity_id": 2248080,
+    "venue": "Elysium",
+    "day": "2026-03-18",
+    "start_time": "22:00",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -2359,6 +2419,30 @@
     "day": "2026-03-12",
     "start_time": "23:40",
     "end_time": "23:55",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_jack_powerselysium2026_03_1800_00",
+    "artist_name": "Jack Powers",
+    "entity_id": 2241118,
+    "venue": "Elysium",
+    "day": "2026-03-18",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_jack_powersswan_dive_patio2026_03_1701_00",
+    "artist_name": "Jack Powers",
+    "entity_id": 2241118,
+    "venue": "Swan Dive Patio",
+    "day": "2026-03-17",
+    "start_time": "01:00",
+    "end_time": "01:30",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -5277,6 +5361,30 @@
     "end_time": "23:10",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
+    "notes": ""
+  },
+  {
+    "id": "official_valsianelysium2026_03_1823_00",
+    "artist_name": "Valsian",
+    "entity_id": 2238984,
+    "venue": "Elysium",
+    "day": "2026-03-18",
+    "start_time": "23:00",
+    "end_time": "23:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_valsianshangri_la2026_03_1521_00",
+    "artist_name": "Valsian",
+    "entity_id": 2238984,
+    "venue": "Shangri-La",
+    "day": "2026-03-15",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "source": "official",
+    "showcase": "Vinilious Records",
     "notes": ""
   },
   {
