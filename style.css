@@ -1300,6 +1300,18 @@ body.light .day-tab--pre.active {
   border-bottom-color: #00bcd4;
 }
 
+/* Night mode: regular tabs bright so bonus/pre tabs read as visibly muted by contrast */
+body:not(.light) .day-tab { color: var(--text); }
+body:not(.light) .day-tab--bonus,
+body:not(.light) .day-tab--pre { color: var(--text-muted); }
+body:not(.light) .day-tab--bonus:hover,
+body:not(.light) .day-tab--pre:hover { color: #00bcd4; }
+body:not(.light) .day-tab--bonus.active,
+body:not(.light) .day-tab--pre.active {
+  color: #00bcd4;
+  border-bottom-color: #00bcd4;
+}
+
 /* Day divider /// between festival sections */
 .day-tab-divider {
   display: flex;
