@@ -117,15 +117,24 @@
       const data = await artistsResp.json();
       allArtists = Array.isArray(data) ? data : [];
 
-      // Merge developer-curated unofficial artists from static file
+      // Merge developer-curated unofficial artists from static file.
+      // If an unofficial artist now has an official record, merge their links in
+      // rather than adding a duplicate entry. Official data wins for all other fields.
       if (unofficialResp.ok) {
         const uData = await unofficialResp.json();
         if (Array.isArray(uData)) {
           for (const ua of uData) {
-            const exists = allArtists.some(
-              a => a.name.toLowerCase() === ua.name.toLowerCase() && a.source === 'unofficial'
+            const officialMatch = allArtists.find(
+              a => a.name.toLowerCase() === ua.name.toLowerCase()
             );
-            if (!exists) allArtists.push(ua);
+            if (officialMatch) {
+              officialMatch.links = officialMatch.links || {};
+              for (const [type, url] of Object.entries(ua.links || {})) {
+                if (url && !officialMatch.links[type]) officialMatch.links[type] = url;
+              }
+            } else {
+              allArtists.push(ua);
+            }
           }
         }
       }
@@ -143,10 +152,25 @@
     // Merge user-submitted artists from localStorage state
     for (const ua of userArtists) {
       const exists = allArtists.some(
-        a => a.name.toLowerCase() === ua.name.toLowerCase() && a.source === 'unofficial'
+        a => a.name.toLowerCase() === ua.name.toLowerCase()
       );
       if (!exists) allArtists.push(ua);
     }
+
+    // Migrate ratings from name_key → eid_key for artists that were unofficial
+    // when rated but have since been added to the official SXSW lineup.
+    let ratingsMigrated = false;
+    for (const a of allArtists) {
+      if (!a.entity_id) continue;
+      const eidKey = 'eid_' + a.entity_id;
+      const nameKey = 'name_' + a.name.toLowerCase().replace(/[^a-z0-9]/g, '_');
+      if (!ratings[eidKey] && ratings[nameKey]) {
+        ratings[eidKey] = ratings[nameKey];
+        delete ratings[nameKey];
+        ratingsMigrated = true;
+      }
+    }
+    if (ratingsMigrated) saveToLocalStorage();
 
     document.getElementById('loading').style.display = 'none';
     buildGenreList();
