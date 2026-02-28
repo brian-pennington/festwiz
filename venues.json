@@ -7,6 +7,17 @@
     "British Music Embassy @ Palm Door on Sixth": "Palm Door",
     "British Music Embassy @ Palm Door on Sixth Patio": "Palm Door Patio"
   },
+  "clusters": [
+    ["Hotel Vegas", "Hotel Vegas Inside", "Hotel Vegas Patio", "Hotel Vegas at Volstead", "Volstead"],
+    ["Mohawk Indoor", "Mohawk Outdoor"],
+    ["Swan Dive", "Swan Dive Patio"],
+    ["British Music Embassy @ Palm Door on Sixth", "British Music Embassy @ Palm Door on Sixth Patio"],
+    ["Global Stage @ Downright Austin Backyard", "Radio Day Stage @ Downright Austin Backyard"],
+    ["HowMuch?! Studios In", "HowMuch?! Studios Out"],
+    ["Neon Grotto", "Neon Grotto Rooftop"],
+    ["Coconut Club", "Coconut Club Rooftop"],
+    ["Radio East", "Radio/East"]
+  ],
   "2026-03-10": [
     "Hotel Vegas Patio",
     "Hotel Vegas Inside",

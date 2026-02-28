@@ -665,6 +665,54 @@
     return result;
   }
 
+  // ── Grid venue ordering ─────────────────────────────────────────────────────
+  // Groups venues by cluster (related spaces stay adjacent), then sorts groups
+  // by the highest rating the user has given any show at that venue/cluster today.
+  // Result: 4-star venues first, then 3-star, 2-star, 1-star, unrated.
+
+  function getOrderedVenuesForDay(dayShows) {
+    const venueSet = new Set(dayShows.map(s => s.venue));
+    const clusterDefs = venueOrder.clusters || [];
+
+    // Build venue → cluster lookup (keyed by first cluster member)
+    const venueToClusterKey = {};
+    const clusterByKey = {};
+    for (const cluster of clusterDefs) {
+      const key = cluster[0];
+      clusterByKey[key] = cluster;
+      for (const v of cluster) venueToClusterKey[v] = key;
+    }
+
+    // Max rating per venue for today's shows
+    const venueMaxRating = {};
+    for (const show of dayShows) {
+      const r = getRating(show);
+      if (r > (venueMaxRating[show.venue] || 0)) venueMaxRating[show.venue] = r;
+    }
+
+    // Build groups: each is { venues: [...], maxRating: N }
+    const processed = new Set();
+    const groups = [];
+
+    for (const v of [...venueSet].sort()) {
+      if (processed.has(v)) continue;
+      const clusterKey = venueToClusterKey[v];
+      if (clusterKey) {
+        const members = (clusterByKey[clusterKey] || [v]).filter(m => venueSet.has(m));
+        const maxRating = Math.max(0, ...members.map(m => venueMaxRating[m] || 0));
+        groups.push({ venues: members, maxRating });
+        members.forEach(m => processed.add(m));
+      } else {
+        groups.push({ venues: [v], maxRating: venueMaxRating[v] || 0 });
+        processed.add(v);
+      }
+    }
+
+    // Stable sort: highest max rating first, ties keep alphabetical order
+    groups.sort((a, b) => b.maxRating - a.maxRating);
+    return groups.flatMap(g => g.venues);
+  }
+
   // ── Grid view ──────────────────────────────────────────────────────────────
 
   function renderGrid() {
@@ -683,7 +731,7 @@
       return;
     }
 
-    const venues = venueOrder[selectedDay] || [...new Set(shows.map(s => s.venue))].sort();
+    const venues = getOrderedVenuesForDay(shows);
 
     // Separate timed shows from no-set-time shows
     const timedShows  = shows.filter(s => !s.no_set_time);
