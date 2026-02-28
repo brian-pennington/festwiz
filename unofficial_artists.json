@@ -56,7 +56,7 @@
   {
     "name": "Worldbuilder",
     "genre": "Electronic",
-    "subgenre": "Dungeon Synth, Drum & Bass",
+    "subgenre": "Drum & Bass",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -485,7 +485,7 @@
   {
     "name": "Bad Acid",
     "genre": "Rock",
-    "subgenre": "Punk",
+    "subgenre": "Stoner",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -2183,6 +2183,193 @@
     },
     "source": "unofficial",
     "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jet Cemetary",
+    "genre": "Electronic",
+    "subgenre": "Synthpop",
+    "location": "Austin, TX, USA",
+    "description": "Austin, TX, duo TaSzlin Tr\u00e9buchet (Fuck Money) and Lars Wolfshield (Wolfshield Records) come together in Jet Cemetery, an Electronic project exploring ethereal textures and dystopian soundscapes with probing, poignant vocals.",
+    "links": {
+      "bandcamp": "https://jetcemetery.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Violet Mindfield",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Pomona, CA, USA",
+    "description": "The Violet Mindfield is a four piece, 60's inspired, American, Garage/Surf/Psych/Bedroom/Acid Folk/Lo-fi/among other things/Rock'n Roll band, based in and around the Inland Empire of Southern California. The group consists of John Duran (lead vocals/guitar), Harry Parr (drums/backing vocals), Sean Mcbreen (bass) and Clifton Weaver (organ/harmonica/percussion/guitar).",
+    "links": {
+      "bandcamp": "https://thevioletmindfield.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Pomona",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Hikes",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "Hikes is a band of friends from Austin, Tx. Inspired by nature, and driven to meld their love of heavy, technical rock with folk",
+    "links": {
+      "bandcamp": "https://hikes.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Club Coma",
+    "genre": "Electronic",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "C L U B C O M A, New Austin based experimental group comprised of Scott Martin, Aaron Perez and Geoff Earle pulls together an exciting, genre-bending sound that lives somewhere between Rock n Roll, Experimental Pop, and mid-aughts French touch.",
+    "links": {
+      "bandcamp": "https://clubcoma.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Nervous",
+    "genre": "Rock",
+    "subgenre": "Emo",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://nervoustx.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Daphne Tunes",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Austin, TX, USA",
+    "description": "sunday morning tunes from the blue heart of tx.",
+    "links": {
+      "bandcamp": "https://daphne.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "New Strangers",
+    "genre": "Rock",
+    "subgenre": "Post-punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://newstrangers1.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Paper Sister",
+    "genre": "Rock",
+    "subgenre": "Dream Pop",
+    "location": "Austin, TX, USA",
+    "description": "Dream pop alt post shoegaze band from Austin, Texas.",
+    "links": {
+      "bandcamp": "https://papersister.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "French Film",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://frenchfilm.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Living Set",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Austin, TX, USA",
+    "description": "Living Set is an Austin-based band blending post- punk tension, new wave melody, and indie rock intimacy. Made up of seasoned musicians\u2014Quin Galavis (The Dead Space, solo), Lex Trevino, Annecy Liddell (Knife in the Water), and Matt Hammer (The Strange Boys, Black Joe Lewis, OBN III\u2019s)\u2014the band delivers songs that are reflective, rhythm-forward, and emotionally grounded.",
+    "links": {
+      "bandcamp": "https://livingset.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Lovely Sparrows",
+    "genre": "Folk",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "Jones\u2019s lyrics vividly animate spectral rodeo clowns, accidental tourists, and the vanished frontier.\n\nTheir third LP moves through liminal spaces and objects out of time, building songs from secret codes and inside jokes.\n\nIn the quiet after it ends, I Still Picture You Running seems to keep moving\u2014music chasing its own echo across the wide field of memory, haunted and humane.",
+    "links": {
+      "bandcamp": "https://thelovelysparrows.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
     "country": "USA",
     "state": "TX",
     "entity_id": null,
