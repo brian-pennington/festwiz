@@ -11,6 +11,7 @@
   let venueOrder = {};      // venues.json: { "2026-03-10": [...], aliases: {...} }
   let venueAliases = {};   // full name → display name
   let ratings = {};         // from localStorage sxsw2026_state (read-only on this page)
+  let artistEntityIdMap = {}; // artist name (lowercase) → entity_id, for rating key resolution
   let selectedDay = null;   // "2026-03-10"
   let selectedView = 'grid';
   let showFilter = 'all'; // 'all' | 'rated' | 'top'
@@ -33,10 +34,15 @@
 
   function escAttr(s) { return escHtml(s); }
 
-  // Matches app.js: eid_NNNN for official artists, name_slug for unofficial
+  // Matches app.js: eid_NNNN for official artists, name_slug for unofficial.
+  // For unofficial shows (entity_id null), fall back to artistEntityIdMap so that
+  // official artists playing unofficial showcases still match their stored rating.
   function showRatingKey(show) {
     if (show.entity_id) return 'eid_' + show.entity_id;
-    return 'name_' + (show.artist_name || '').toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const name = (show.artist_name || '').toLowerCase();
+    const eid = artistEntityIdMap[name];
+    if (eid) return 'eid_' + eid;
+    return 'name_' + name.replace(/[^a-z0-9]/g, '_');
   }
 
   function getRating(show) {
@@ -148,13 +154,25 @@
 
   async function loadAll() {
     try {
-      const [showsRes, unofficialShowsRes, venuesRes] = await Promise.all([
+      const [showsRes, unofficialShowsRes, venuesRes, artistsRes] = await Promise.all([
         fetch('shows.json'),
         fetch('unofficial_shows.json'),
         fetch('venues.json'),
+        fetch('artists.json'),
       ]);
       allShows = await showsRes.json();
       venueOrder = await venuesRes.json();
+
+      // Build name→entity_id map so unofficial shows of official artists
+      // resolve to the same rating key as on the artist rating page.
+      if (artistsRes.ok) {
+        const artistsData = await artistsRes.json();
+        for (const a of artistsData) {
+          if (a.entity_id && a.name) {
+            artistEntityIdMap[a.name.toLowerCase()] = a.entity_id;
+          }
+        }
+      }
       venueAliases = venueOrder.aliases || {};
 
       // Merge developer-curated unofficial shows from static file
