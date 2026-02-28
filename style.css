@@ -1783,8 +1783,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   box-sizing: border-box;
   pointer-events: none;
 }
-.showcase-box--badge { border: 2px solid rgba(183,28,28,0.65); background: rgba(183,28,28,0.07); }
-.showcase-box--cover { border: 2px solid rgba(220,100,80,0.65);  background: rgba(220,100,80,0.07); }
+.showcase-box--badge { border: 2px solid rgba(187,18,77,0.65);  background: rgba(187,18,77,0.07); }
+.showcase-box--cover { border: 2px solid rgba(220,120,50,0.65);  background: rgba(220,120,50,0.07); }
 .showcase-box--free  { border: 2px solid rgba(0,188,212,0.65);   background: rgba(0,188,212,0.07); }
 
 .showcase-box-label {
@@ -1904,8 +1904,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   margin-left: 4px;
   vertical-align: middle;
 }
-.grid-showcase-admission--badge { background: rgba(183,28,28,0.35);  color: #ffcdd2; }
-.grid-showcase-admission--cover { background: rgba(220,100,80,0.35);  color: #ffccbc; }
+.grid-showcase-admission--badge { background: rgba(187,18,77,0.35);   color: #ffcdd2; }
+.grid-showcase-admission--cover { background: rgba(220,120,50,0.35);   color: #ffe0b2; }
 .grid-showcase-admission--free  { background: rgba(0,188,212,0.35);   color: #b2ebf2; }
 
 .grid-no-set-time-header {
@@ -1926,8 +1926,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   display: inline-block;
   margin-top: 2px;
 }
-.grid-show-admission--badge { background: rgba(183,28,28,0.35);  color: #ffcdd2; }
-.grid-show-admission--cover { background: rgba(220,100,80,0.35);  color: #ffccbc; }
+.grid-show-admission--badge { background: rgba(187,18,77,0.35);   color: #ffcdd2; }
+.grid-show-admission--cover { background: rgba(220,120,50,0.35);   color: #ffe0b2; }
 .grid-show-admission--free  { background: rgba(0,188,212,0.35);   color: #b2ebf2; }
 
 .nownext-admission {
@@ -1935,8 +1935,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   font-weight: 600;
   margin-top: 3px;
 }
-.nownext-admission--badge { color: #ef9a9a; }
-.nownext-admission--cover { color: #ffab91; }
+.nownext-admission--badge { color: #f48fb1; }
+.nownext-admission--cover { color: #ffcc80; }
 .nownext-admission--free  { color: #80deea; }
 
 .detail-admission {
@@ -1950,8 +1950,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   margin-left: 4px;
   vertical-align: middle;
 }
-.detail-admission--badge { background: rgba(183,28,28,0.35);  color: #ffcdd2; }
-.detail-admission--cover { background: rgba(220,100,80,0.35);  color: #ffccbc; }
+.detail-admission--badge { background: rgba(187,18,77,0.35);   color: #ffcdd2; }
+.detail-admission--cover { background: rgba(220,120,50,0.35);   color: #ffe0b2; }
 .detail-admission--free  { background: rgba(0,188,212,0.35);   color: #b2ebf2; }
 
 /* ── Manage / import view ────────────────────────────────────────────────── */
