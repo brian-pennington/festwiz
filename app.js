@@ -558,7 +558,7 @@
       : artist.source === 'user' ? 'user'
       : 'official';
     const badgeLabel = artist.source === 'unofficial' ? 'Unofficial'
-      : artist.source === 'user' ? 'User-Submitted'
+      : artist.source === 'user' ? 'User Added'
       : 'Official';
     const badge = `<span class="artist-card__badge artist-card__badge--${badgeClass}">${badgeLabel}</span>`;
 
