@@ -13,6 +13,7 @@
   let genreTiers = {};          // { genre: 'high'|'medium'|'low'|'hide' }
   let subgenreTiers = {};       // { subgenre: 'high'|'medium'|'low'|'hide' }
   let userArtists = [];         // User-submitted artists (added via form)
+  let allUnofficialShows = [];  // Unofficial shows from unofficial_shows.json
   let currentFilters = {
     search: '',
     rated: 'all',       // all | unrated | rated | 3+
@@ -109,9 +110,10 @@
   async function loadArtists() {
     try {
       const ts = '?_=' + Date.now();
-      const [artistsResp, unofficialResp] = await Promise.all([
+      const [artistsResp, unofficialResp, unofficialShowsResp] = await Promise.all([
         fetch('artists.json' + ts),
         fetch('unofficial_artists.json' + ts),
+        fetch('unofficial_shows.json' + ts),
       ]);
       if (!artistsResp.ok) throw new Error(`HTTP ${artistsResp.status}`);
       const data = await artistsResp.json();
@@ -147,6 +149,12 @@
         '" && python3 -m http.server 8000</code><br><br>' +
         'Then open <a href="http://localhost:8000" style="color:var(--accent)">http://localhost:8000</a>';
       document.getElementById('loading').style.display = 'block';
+    }
+
+    // Load unofficial shows for the artist detail modal
+    if (unofficialShowsResp.ok) {
+      const usData = await unofficialShowsResp.json();
+      if (Array.isArray(usData)) allUnofficialShows = usData;
     }
 
     // Merge user-submitted artists from localStorage state
@@ -624,6 +632,12 @@
           setTimeout(() => card.classList.remove(`artist-card--celebrate-${newRating}`), 520);
         }
       });
+    });
+
+    // Open detail modal on card click (not on interactive elements)
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('.rating-btn, .notes-input, .music-link, a, button')) return;
+      openArtistDetail(artist);
     });
 
     return card;
@@ -1305,6 +1319,105 @@
     }
   }
 
+  // ---- ARTIST DETAIL MODAL ----
+  const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+  function formatShowDay(d) {
+    const [y, m, day] = d.split('-').map(Number);
+    const dt = new Date(y, m - 1, day);
+    return `${DAY_NAMES[dt.getDay()]} ${m}/${day}`;
+  }
+
+  function formatShowTime(t) {
+    if (!t) return '';
+    const [h, min] = t.split(':').map(Number);
+    const ampm = h >= 12 ? 'pm' : 'am';
+    const h12 = h % 12 || 12;
+    return `${h12}:${String(min).padStart(2, '0')}${ampm}`;
+  }
+
+  function openArtistDetail(artist) {
+    const modal = document.getElementById('modal-artist-detail');
+
+    // Badge
+    const badgeClass = artist.source === 'unofficial' ? 'unofficial'
+      : artist.source === 'user' ? 'user' : 'official';
+    const badgeLabel = artist.source === 'unofficial' ? 'Unofficial'
+      : artist.source === 'user' ? 'User Added' : 'Official';
+    document.getElementById('artist-detail-badge').innerHTML =
+      `<span class="artist-card__badge artist-card__badge--${badgeClass}">${badgeLabel}</span>`;
+
+    // Name
+    document.getElementById('artist-detail-name').textContent = artist.name;
+
+    // Meta
+    const genreDisplay = [artist.genre, artist.subgenre].filter(Boolean).join(' / ');
+    const location = artist.location || [artist.city, artist.state, artist.country].filter(Boolean).join(', ');
+    document.getElementById('artist-detail-meta').textContent =
+      [genreDisplay, location].filter(Boolean).join(' · ');
+
+    // Full description
+    const descEl = document.getElementById('artist-detail-desc');
+    descEl.textContent = artist.description || '';
+    descEl.style.display = artist.description ? '' : 'none';
+
+    // Links
+    const linksObj = { ...(artist.links || {}) };
+    if (artist.detail_url) linksObj.official = artist.detail_url;
+    let linksHtml = '';
+    for (const type of LINK_ORDER) {
+      if (linksObj[type]) {
+        const label = LINK_LABELS[type] || type;
+        linksHtml += `<a href="${escAttr(linksObj[type])}" target="_blank" rel="noopener" class="music-link music-link--${type}">${label}</a>`;
+      }
+    }
+    document.getElementById('artist-detail-links').innerHTML = linksHtml;
+
+    // Shows — official events from artist object + unofficial shows by name match
+    const officialShows = (artist.events || []).map(s => ({ ...s, _type: 'official' }));
+    const unofficialShows = allUnofficialShows
+      .filter(s => s.artist_name.toLowerCase() === artist.name.toLowerCase())
+      .map(s => ({ ...s, _type: 'unofficial' }));
+    const allShows = [...officialShows, ...unofficialShows]
+      .sort((a, b) => ((a.day || '') + (a.start_time || '')).localeCompare((b.day || '') + (b.start_time || '')));
+
+    const showsEl = document.getElementById('artist-detail-shows');
+    if (allShows.length === 0) {
+      showsEl.innerHTML = '<div class="artist-detail__no-shows">No shows listed yet</div>';
+    } else {
+      let html = '<div class="artist-detail__shows-heading">Shows</div>';
+      for (const s of allShows) {
+        const day = formatShowDay(s.day);
+        const time = s.no_set_time ? 'time TBA' : (s.start_time ? formatShowTime(s.start_time) : '');
+        const showcase = s.presented_by || s.showcase || '';
+        const admission = s.admission || s.age_policy || '';
+        html += `
+          <div class="artist-detail__show">
+            <div class="artist-detail__show-when">${escHtml(day)}${time ? ' · ' + escHtml(time) : ''}</div>
+            <div class="artist-detail__show-venue">${escHtml(s.venue || '')}</div>
+            ${showcase ? `<div class="artist-detail__show-showcase">${escHtml(showcase)}</div>` : ''}
+            <div class="artist-detail__show-badges">
+              <span class="artist-detail__show-type artist-detail__show-type--${s._type}">${s._type === 'official' ? 'Official' : 'Unofficial'}</span>
+              ${admission ? `<span class="artist-detail__show-admission">${escHtml(admission)}</span>` : ''}
+            </div>
+          </div>`;
+      }
+      showsEl.innerHTML = html;
+    }
+
+    modal.classList.add('visible');
+  }
+
+  function setupArtistDetailModal() {
+    const modal = document.getElementById('modal-artist-detail');
+    document.getElementById('btn-close-artist-detail').addEventListener('click', () => {
+      modal.classList.remove('visible');
+    });
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.classList.remove('visible');
+    });
+  }
+
   // ---- INIT ----
   async function init() {
     loadFromLocalStorage();
@@ -1320,6 +1433,7 @@
     setupExportImport();
     setupShare();
     setupAbout();
+    setupArtistDetailModal();
     const announcements = await fetch('announcements.json').then(r => r.json()).catch(() => []);
     setupTutorial(announcements);
     if (localStorage.getItem('fw_tutorial_seen')) {
