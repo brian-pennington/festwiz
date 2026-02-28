@@ -45,7 +45,32 @@
       "tiktok": "https://www.tiktok.com/@2byg_?lang=en",
       "website": "https://www.2bygmusic.com"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64519",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "22:30",
+        "end_time": "22:45",
+        "presented_by": "Kaash Paige & Friends"
+      },
+      {
+        "event_id": "MS64377",
+        "event_type": "showcase",
+        "venue": "Marlow",
+        "venue_id": "V2194",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "23:00",
+        "end_time": "23:20",
+        "presented_by": "RnB Forever"
+      }
+    ],
     "location": "FORT WORTH, TX"
   },
   {
@@ -74,6 +99,18 @@
     "location": "BRISBANE, AUSTRALIA",
     "events": [
       {
+        "event_id": "MS63295",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "00:10",
+        "end_time": "00:40",
+        "presented_by": "Tuezgayz "
+      },
+      {
         "event_id": "MS64260",
         "event_type": "showcase",
         "venue": "Kingdom",
@@ -83,7 +120,7 @@
         "day": "2026-03-14",
         "start_time": "23:00",
         "end_time": "23:30",
-        "presented_by": null
+        "presented_by": "DJ_Dave"
       },
       {
         "event_id": "MS64250",
@@ -95,18 +132,6 @@
         "day": "2026-03-16",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
-      },
-      {
-        "event_id": "MS63295",
-        "event_type": "showcase",
-        "venue": "Swan Dive Patio",
-        "venue_id": "V0282",
-        "parent_venue": "Swan Dive",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "00:10",
-        "end_time": "00:40",
         "presented_by": null
       }
     ]
@@ -184,7 +209,7 @@
         "day": "2026-03-15",
         "start_time": "20:50",
         "end_time": "21:30",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -213,7 +238,7 @@
         "day": "2026-03-14",
         "start_time": "20:35",
         "end_time": "21:15",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ],
     "location": "DALLAS, TX"
@@ -365,7 +390,7 @@
         "day": "2026-03-14",
         "start_time": "22:30",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ]
   },
@@ -428,7 +453,7 @@
         "day": "2026-03-16",
         "start_time": "17:20",
         "end_time": "18:00",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       },
       {
         "event_id": "MS64051",
@@ -440,7 +465,7 @@
         "day": "2026-03-13",
         "start_time": "14:00",
         "end_time": "14:40",
-        "presented_by": null
+        "presented_by": "KCRW"
       },
       {
         "event_id": "MS63749",
@@ -452,7 +477,7 @@
         "day": "2026-03-15",
         "start_time": "23:20",
         "end_time": "23:50",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63222",
@@ -482,6 +507,7 @@
     "source": "official",
     "description": "Formed in 2020, Bristol’s melodic alt-indie four-piece Adult Leisure have fast become one of the UK’s most promising new bands. After making an instant impact with debut single ‘Things You Don’t Know Yet’ and acclaimed EPs ‘The Weekend Ritual’ and ‘Present State of Joy and Grief’, championed by BBC Radio 1, Under The Radar Magazine, Wonderland Magazine, The Telegraph, Jake Gosling and RTE, the band now arrive with their debut album ‘The Things You Don’t Know Yet’, released on October 3rd 2025.\n\nFeaturing standout singles ‘The Rules’, ‘Boy Grows Old’ and ‘See Her’ (both featuring John Waugh of The 1975), the album showcases their signature blend of cinematic alt-indie and heartfelt lyricism. Supported by BBC Radio 6, The Line of Best Fit, and Spotify editorial playlists, Adult Leisure continue their rise with a headline UK tour and festival dates across Norway, Sweden, the Netherlands (VestRock), France (SuperSonic Paris) and New York (New Colossus Festival).",
     "links": {
+      "apple_music": "https://music.apple.com/gb/song/kiss-me-like-you-miss-her/1828554400",
       "bandcamp": "https://adultleisure.bandcamp.com",
       "facebook": "https://www.facebook.com/adultleisure",
       "instagram": "https://www.instagram.com/adultleisureband",
@@ -490,7 +516,32 @@
       "twitter": "https://x.com/adultleisureuk",
       "youtube": "https://www.youtube.com/watch?v=XIXZFxl56qo"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64866",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "22:30",
+        "end_time": "23:00",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64493",
+        "event_type": "showcase",
+        "venue": "Marlow",
+        "venue_id": "V2194",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "presented_by": null
+      }
+    ],
     "location": "BRISTOL, UNITED KINGDOM, ENGLAND"
   },
   {
@@ -517,7 +568,32 @@
     },
     "events_raw": [],
     "location": "BERLIN, GERMANY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64920",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63389",
+        "event_type": "showcase",
+        "venue": "Low Down Lounge",
+        "venue_id": "V1168",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Agent 007\"",
@@ -612,7 +688,7 @@
         "day": "2026-03-14",
         "start_time": "20:30",
         "end_time": "21:30",
-        "presented_by": null
+        "presented_by": "Berlin Partner"
       }
     ]
   },
@@ -723,6 +799,18 @@
     "location": "DETROIT, MI",
     "events": [
       {
+        "event_id": "MS63666",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "20:55",
+        "end_time": "21:25",
+        "presented_by": "Make Out Music "
+      },
+      {
         "event_id": "MS64734",
         "event_type": "showcase",
         "venue": "Seven Spirits",
@@ -730,8 +818,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "23:40",
-        "end_time": "00:10",
+        "start_time": "19:30",
+        "end_time": "20:00",
         "presented_by": null
       },
       {
@@ -744,19 +832,7 @@
         "day": "2026-03-16",
         "start_time": "23:00",
         "end_time": "23:35",
-        "presented_by": null
-      },
-      {
-        "event_id": "MS63666",
-        "event_type": "showcase",
-        "venue": "Wanderlust Wine Co.",
-        "venue_id": "V0900",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-17",
-        "start_time": "20:55",
-        "end_time": "21:25",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -1023,7 +1099,32 @@
     },
     "events_raw": [],
     "location": "KYIV, UKRAINE",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64273",
+        "event_type": "showcase",
+        "venue": "Speakeasy",
+        "venue_id": "V0226",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "European Union & German Music Export"
+      },
+      {
+        "event_id": "MS63757",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "19:00",
+        "end_time": "19:30",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Alkyone",
@@ -1112,7 +1213,7 @@
         "day": "2026-03-12",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -1299,7 +1400,7 @@
         "day": "2026-03-13",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -1400,7 +1501,7 @@
         "day": "2026-03-13",
         "start_time": "21:10",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       }
     ]
   },
@@ -1435,7 +1536,7 @@
         "day": "2026-03-17",
         "start_time": "15:45",
         "end_time": "16:15",
-        "presented_by": null
+        "presented_by": "Future Arts and Culture"
       },
       {
         "event_id": "MS63939",
@@ -1497,7 +1598,7 @@
         "day": "2026-03-17",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -1534,7 +1635,7 @@
         "day": "2026-03-13",
         "start_time": "21:30",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       }
     ],
     "location": "AUSTIN, TX"
@@ -1649,7 +1750,7 @@
         "day": "2026-03-14",
         "start_time": "21:05",
         "end_time": "21:25",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       },
       {
         "event_id": "MS63678",
@@ -1737,7 +1838,7 @@
         "day": "2026-03-16",
         "start_time": "16:00",
         "end_time": "16:30",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       },
       {
         "event_id": "MS64651",
@@ -1749,7 +1850,7 @@
         "day": "2026-03-18",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "Chris Hawkins Presents"
       },
       {
         "event_id": "MS63314",
@@ -1787,7 +1888,32 @@
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64380",
+        "event_type": "showcase",
+        "venue": "Zilker Brewing",
+        "venue_id": "V1281",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "22:00",
+        "end_time": "22:30",
+        "presented_by": "UTOPiA Sessions"
+      },
+      {
+        "event_id": "MS63496",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "20:15",
+        "end_time": "21:00",
+        "presented_by": "Mint Talent Group"
+      }
+    ]
   },
   {
     "name": "Angela Autumn",
@@ -1850,7 +1976,7 @@
         "day": "2026-03-16",
         "start_time": "22:00",
         "end_time": "22:30",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       }
     ]
   },
@@ -1879,6 +2005,18 @@
     "location": "AUSTIN, TX",
     "events": [
       {
+        "event_id": "MS64628",
+        "event_type": "showcase",
+        "venue": "The 13th Floor",
+        "venue_id": "V2123",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "00:00",
+        "end_time": "00:45",
+        "presented_by": "High Road Touring"
+      },
+      {
         "event_id": "MS63648",
         "event_type": "showcase",
         "venue": "Shangri-La",
@@ -1900,7 +2038,7 @@
         "day": "2026-03-14",
         "start_time": "22:50",
         "end_time": "23:20",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       }
     ]
   },
@@ -1938,7 +2076,7 @@
         "day": "2026-03-14",
         "start_time": "23:00",
         "end_time": "00:45",
-        "presented_by": null
+        "presented_by": "Berlin Partner"
       }
     ]
   },
@@ -1980,7 +2118,7 @@
         "day": "2026-03-13",
         "start_time": "23:40",
         "end_time": "00:10",
-        "presented_by": null
+        "presented_by": "The Luna Collective x Bright Antenna Records"
       }
     ]
   },
@@ -2007,15 +2145,15 @@
     "location": "AUSTIN, TX",
     "events": [
       {
-        "event_id": "MS64496",
+        "event_id": "MS64728",
         "event_type": "showcase",
-        "venue": "Seven Spirits",
-        "venue_id": "V2390",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
         "parent_venue": "",
         "age_policy": null,
-        "day": "2026-03-18",
-        "start_time": "21:10",
-        "end_time": "21:40",
+        "day": "2026-03-14",
+        "start_time": "16:00",
+        "end_time": "16:40",
         "presented_by": null
       },
       {
@@ -2028,7 +2166,7 @@
         "day": "2026-03-16",
         "start_time": "19:20",
         "end_time": "19:55",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -2071,7 +2209,7 @@
         "day": "2026-03-17",
         "start_time": "22:25",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Taco Tuesday"
       }
     ]
   },
@@ -2126,7 +2264,7 @@
         "day": "2026-03-16",
         "start_time": "00:35",
         "end_time": "01:00",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       }
     ],
     "location": "KINGSTON, JAMAICA"
@@ -2207,6 +2345,18 @@
     "location": "BRIGHTON, UNITED KINGDOM, ENGLAND",
     "events": [
       {
+        "event_id": "MS63635",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth",
+        "venue_id": "V0209",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:20",
+        "end_time": "21:50",
+        "presented_by": "BBC Introducing"
+      },
+      {
         "event_id": "MS64222",
         "event_type": "showcase",
         "venue": "Seven Grand",
@@ -2217,18 +2367,6 @@
         "start_time": "23:20",
         "end_time": "23:50",
         "presented_by": "One Fiinix Live"
-      },
-      {
-        "event_id": "MS63635",
-        "event_type": "showcase",
-        "venue": "British Music Embassy @ Palm Door on Sixth",
-        "venue_id": "V0209",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "21:20",
-        "end_time": "21:50",
-        "presented_by": null
       }
     ]
   },
@@ -2260,7 +2398,7 @@
         "day": "2026-03-17",
         "start_time": "22:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "hiroko__yamamura"
       },
       {
         "event_id": "MS64258",
@@ -2436,6 +2574,31 @@
     ]
   },
   {
+    "name": "Austin Ashtin",
+    "genre": "Dance",
+    "subgenre": "Electronic",
+    "city": "Denver",
+    "country": "United States",
+    "state": "CO",
+    "entity_id": 2272024,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272024",
+    "thumbnail_url": "https://images.sxsw.com/o4tfP6MjzrfdmuqhxaMLMhgB0Ic=/450x450/images.sxsw.com/178/5b00eca6-373e-6d73-a8fa-9c0f76aa0ff6/artist-76568",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "Austin Ashtin might look like he’s about to headline Coachella, but don’t be fooled—he’s not famous (yet). Spring 2026 marks Austin Ashtin’s first major-label release on FISHER’s Catch & Release, signaling the start of what’s expected to be a breakout year. His mixes make people forget about their exes or text them (don't text them... actually yes do text them). Built on equal parts chaos and heart-throbbing releases, his sound lives somewhere between emotional damage and peak-time euphoria. Whether it’s 2am in a packed club or a rooftop at sunset, Austin Ashtin is quickly becoming the name people hear once and don’t forget.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/want-it-back-single/1808933622",
+      "website": "https://www.bandsintown.com/a/15569946-austin-ashtin?came_from=250&utm_medium=web&utm_source=artist_event_page&utm_campaign=artist&noindex=1",
+      "facebook": "https://www.facebook.com/AustinAshtinMusic/",
+      "instagram": "https://www.instagram.com/austinashtinmusic/",
+      "soundcloud": "https://soundcloud.com/austinashtin",
+      "spotify": "https://open.spotify.com/album/3zwnNZQk1gsCR9I9q9sdt9?si=LXTzAU9qTpKwubC5AosHNg",
+      "tiktok": "https://www.tiktok.com/@austinashtinmusic"
+    },
+    "events": [],
+    "location": "DENVER, CO"
+  },
+  {
     "name": "Avanti Patel",
     "genre": "Classical",
     "subgenre": "Folk",
@@ -2457,7 +2620,32 @@
     },
     "events_raw": [],
     "location": "MUMBAI, INDIA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63923",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "22:20",
+        "end_time": "22:50",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63463",
+        "event_type": "showcase",
+        "venue": "Central Presbyterian Church",
+        "venue_id": "V0175",
+        "parent_venue": "",
+        "age_policy": "All Ages",
+        "day": "2026-03-15",
+        "start_time": "20:40",
+        "end_time": "21:15",
+        "presented_by": "Pastorale"
+      }
+    ]
   },
   {
     "name": "Avery Cochrane",
@@ -2490,7 +2678,7 @@
         "day": "2026-03-13",
         "start_time": "21:40",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "The Luna Collective x Bright Antenna Records"
       }
     ],
     "location": "SEATTLE, WA"
@@ -2520,7 +2708,44 @@
     },
     "events_raw": [],
     "location": "GLASGOW, UNITED KINGDOM, SCOTLAND",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63928",
+        "event_type": "showcase",
+        "venue": "Marlow",
+        "venue_id": "V2194",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "22:30",
+        "end_time": "23:10",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63884",
+        "event_type": "showcase",
+        "venue": "Zilker Brewing",
+        "venue_id": "V1281",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "21:10",
+        "end_time": "21:40",
+        "presented_by": "UTOPiA Sessions"
+      },
+      {
+        "event_id": "MS63269",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:20",
+        "end_time": "23:00",
+        "presented_by": "Wide Days Scotland"
+      }
+    ]
   },
   {
     "name": "Babatunde Hip Hopera",
@@ -2588,7 +2813,7 @@
         "day": "2026-03-17",
         "start_time": "23:45",
         "end_time": "00:00",
-        "presented_by": null
+        "presented_by": "Taco Tuesday"
       }
     ]
   },
@@ -2791,6 +3016,7 @@
     "source": "official",
     "description": "",
     "links": {
+      "apple_music": "https://music.apple.com/us/song/til-it-bites/1824558585",
       "instagram": "https://instagram.com/barb_barb_barb",
       "soundcloud": "https://soundcloud.com/barb_barb_barb",
       "spotify": "https://open.spotify.com/track/23urr029YEbX9pNTfYKo5s?si=f4a26250007e4f9b",
@@ -2839,11 +3065,11 @@
     "thumbnail_url": null,
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "Based in Austin, TX, BARTLY is a soul-Americana singer-songwriter whose powerful voice and honest songwriting reflect a life spent on the move. Drawing inspiration from artists like Chris Stapleton, Marcus King, and Bruno Mars, BARTLY delivers a fresh, modern take on soul and Americana.\nHis growing list of accomplishments includes representing Jack Daniel’s on Willie Nelson’s ranch for Luck Reunion’s Look West festival, Also YETI for F1 weeekend, performing at Antone’s to a packed 200+ crowd opening for The Mammoths, and appearing at Utopia Fest with artists like Sir Woman, Butcher Brown, and Ghostland Observatory. He has been featured twice on FOX7 Good Morning Austin, performed on the Main Stage at the historic Pecan Street Festival, and hosted the official Stubb’s afterparty for Saint Motel.\n\nBARTLY is set to appear on the 2026 season of American Idol, premiering this January—continuing his rise as one of Austin’s most promising new voices.",
+    "description": "BARTLY is an Austin-based soul-Americana artist whose commanding vocals and emotionally resonant songwriting position him at the forefront of Texas’s next wave of breakout talent. Blending the raw storytelling of Americana with the polish and groove of modern soul — infused with a contemporary indie-rock edge — he draws comparisons to Chris Stapleton, Marcus King, Leon Bridges, and Bruno Mars while carving out a sound distinctly his own.\n\nA recent American Idol Golden Ticket winner, BARTLY is rapidly expanding his national footprint. He has represented Jack Daniel’s at Willie Nelson’s ranch during Luck Reunion’s Look West festival, and partnered with YETI during Formula 1 weekend. His festival appearances include Utopia Fest alongside Sir Woman, Butcher Brown, and Ghostland Observatory, the Main Stage at the historic Pecan Street Festival, and this year’s SXSW. He has been featured twice on FOX7’s Good Morning Austin and is set to perform at Rodeo Austin.\n\nWith high-profile brand partnerships, major Texas stages, and national television exposure converging, BARTLY is establishing himself as one of Austin’s most compelling and market-ready emerging artists.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/bartly/1773618527",
+      "apple_music": "https://music.apple.com/us/album/nothing-more/1789482227?i=1789482439%20https://music.apple.com/us/album/nothing-more/1789482227?i=1789482439",
       "instagram": "https://www.instagram.com/_bartly_/?hl=en",
-      "spotify": "https://open.spotify.com/artist/7tUObrwBgZDmJOmZ0or6D2",
+      "spotify": "https://open.spotify.com/track/42RtZhUnvRlNRFdA4g3pEu?si=AfdjiGNLTnOx2LovE9pUiw%20https://open.spotify.com/track/42RtZhUnvRlNRFdA4g3pEu?si=AfdjiGNLTnOx2LovE9pUiw",
       "tiktok": "https://www.tiktok.com/@bartlymusic?is_from_webapp=1&sender_device=pc",
       "twitter": "https://x.com/_bartly_",
       "website": "https://www.djbartly.com/"
@@ -2861,7 +3087,7 @@
         "day": "2026-03-13",
         "start_time": "20:20",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       }
     ]
   },
@@ -2941,7 +3167,32 @@
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64729",
+        "event_type": "showcase",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "16:00",
+        "end_time": "16:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64154",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "21:15",
+        "end_time": "22:00",
+        "presented_by": "Mint Talent Group"
+      }
+    ]
   },
   {
     "name": "BBY KODIE",
@@ -3088,7 +3339,7 @@
         "day": "2026-03-16",
         "start_time": "15:20",
         "end_time": "15:50",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       }
     ]
   },
@@ -3236,7 +3487,7 @@
         "day": "2026-03-14",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -3273,7 +3524,7 @@
         "day": "2026-03-15",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Traffic Music Group"
       }
     ]
   },
@@ -3314,7 +3565,7 @@
         "day": "2026-03-12",
         "start_time": "22:00",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -3413,7 +3664,7 @@
         "day": "2026-03-16",
         "start_time": "21:35",
         "end_time": "21:45",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       },
       {
         "event_id": "MS64081",
@@ -3457,7 +3708,7 @@
         "day": "2026-03-14",
         "start_time": "22:55",
         "end_time": "00:00",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ]
   },
@@ -3484,7 +3735,20 @@
     },
     "events_raw": [],
     "location": "CALGARY, AB, CANADA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64259",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "20:30",
+        "end_time": "21:00",
+        "presented_by": "HOT TAKES"
+      }
+    ]
   },
   {
     "name": "Bikini Beach",
@@ -3568,7 +3832,7 @@
         "day": "2026-03-17",
         "start_time": "00:05",
         "end_time": "00:20",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "NEW ORLEANS, LA"
@@ -3601,7 +3865,32 @@
     },
     "events_raw": [],
     "location": "PERTH, UNITED KINGDOM, SCOTLAND",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63927",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+        "venue_id": "V0272",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "22:00",
+        "end_time": "22:30",
+        "presented_by": "Chris Hawkins Presents"
+      },
+      {
+        "event_id": "MS63315",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "20:20",
+        "end_time": "21:00",
+        "presented_by": "Wide Days Scotland"
+      }
+    ]
   },
   {
     "name": "Blakchyl",
@@ -4116,7 +4405,7 @@
         "day": "2026-03-14",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       }
     ]
   },
@@ -4156,7 +4445,7 @@
         "day": "2026-03-12",
         "start_time": "23:20",
         "end_time": "23:50",
-        "presented_by": null
+        "presented_by": "British Music Embassy"
       },
       {
         "event_id": "MS63230",
@@ -4310,6 +4599,23 @@
     "events": []
   },
   {
+    "name": "Bryan-Michael Cox",
+    "genre": "R & B",
+    "subgenre": "R & B",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2272711,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272711",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-28",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Bubba Lucky",
     "genre": "Rock",
     "subgenre": "Country",
@@ -4413,6 +4719,18 @@
       "youtube": "https://www.youtube.com/watch?v=bUrGHm7pAaU"
     },
     "events": [
+      {
+        "event_id": "MS64821",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "21:40",
+        "end_time": "22:10",
+        "presented_by": null
+      },
       {
         "event_id": "MS64490",
         "event_type": "showcase",
@@ -4970,7 +5288,7 @@
         "day": "2026-03-16",
         "start_time": "23:10",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       },
       {
         "event_id": "MS63415",
@@ -5158,7 +5476,7 @@
         "day": "2026-03-17",
         "start_time": "22:00",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -5258,7 +5576,44 @@
     },
     "events_raw": [],
     "location": "BELFAST, IRELAND",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63156",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth",
+        "venue_id": "V0209",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": "BBC Introducing"
+      },
+      {
+        "event_id": "MS64413",
+        "event_type": "showcase",
+        "venue": "Radio Day Stage @ Downright Austin Backyard",
+        "venue_id": "V2391",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "16:00",
+        "end_time": "16:45",
+        "presented_by": "BBC Introducing"
+      },
+      {
+        "event_id": "MS63806",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "22:15",
+        "end_time": "23:00",
+        "presented_by": "Mint Talent Group"
+      }
+    ]
   },
   {
     "name": "Chase McDaniel",
@@ -5344,7 +5699,7 @@
         "day": "2026-03-16",
         "start_time": "19:55",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ],
     "location": "LOS ANGELES, CA"
@@ -5415,7 +5770,32 @@
     },
     "events_raw": [],
     "location": "MONTREAL, QC, CANADA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63919",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Liift & Friends"
+      },
+      {
+        "event_id": "MS63414",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "20:50",
+        "end_time": "21:20",
+        "presented_by": "One Fiinix Live"
+      }
+    ]
   },
   {
     "name": "Chief Cleopatra",
@@ -5431,12 +5811,38 @@
     "source": "official",
     "description": "Jalesa Jessie, Chief Cleopatra is an Austin-based Soul Rock singer and songwriter known for her \"non-genre-denominational\" sound that blends rock, soul, gospel, and funk. Originally from Corsicana, Texas, she began her musical path as a drummer in her school’s marching band before moving to Austin in 2017 to pursue a career as a frontwoman.\n\nShe gained significant attention following her 2019 debut EP, Lesa x Lenny Vol.1, and was named KUTX Artist of the Month in February 2022. Her 2022 EP, Luna, was produced by Walker Lukens and released via Park The Van Records, earning comparisons to artists like Santigold.\n\nA six-time official SXSW artist, she has opened for notable acts including The Wailers, Girl Talk, and Adrian Quesada of Black Pumas. Cleo became a member of the Recording Academy in 2022 and her 2023 single \"Weekend Warrior\" was in consideration for four Grammy nominations.\n\nHer music is often described as \"genre-bending,\" featuring register-spanning vocals and a strong visual aesthetic that includes ornamental fashion. She cites Tina Turner as a primary inspiration for her energy and presence. Cleo is currently unsigned.",
     "links": {
+      "apple_music": "https://music.apple.com/us/album/nine-inch-nail/1667639478?i=1667639483",
       "instagram": "https://instagram.com/chiefcleopatra?igshid=OGQ5ZDc2ODk2ZA==",
       "spotify": "https://open.spotify.com/track/4HL35X4rOlBFx15FKw1BWa?si=scBinx5cQU27bnZD_99VHw",
       "tiktok": "https://www.tiktok.com/@chiefcleo?_t=ZP-8zjIvfx6QL0&_r=1",
       "youtube": "https://youtu.be/uL6ZvCUGSIk?si=EOzvpxOoo5lYsaAY"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64867",
+        "event_type": "showcase",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64065",
+        "event_type": "showcase",
+        "venue": "Lefty’s Brick Bar",
+        "venue_id": "V1902",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "21:50",
+        "end_time": "22:10",
+        "presented_by": "KAZI:R&B and Soul Showcase"
+      }
+    ],
     "location": "AUSTIN, TX"
   },
   {
@@ -5470,7 +5876,7 @@
         "day": "2026-03-13",
         "start_time": "21:35",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ],
     "location": "APASEO EL ALTO, GUA, MEXICO"
@@ -5631,7 +6037,7 @@
         "day": "2026-03-13",
         "start_time": "20:35",
         "end_time": "21:15",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ],
     "location": "SALINAS, CA"
@@ -5791,7 +6197,7 @@
         "day": "2026-03-14",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       },
       {
         "event_id": "MS63267",
@@ -5803,7 +6209,7 @@
         "day": "2026-03-12",
         "start_time": "22:00",
         "end_time": "22:30",
-        "presented_by": null
+        "presented_by": "British Music Embassy"
       }
     ]
   },
@@ -5821,6 +6227,7 @@
     "source": "official",
     "description": "",
     "links": {
+      "apple_music": "https://music.apple.com/ca/artist/cootie-catcher/1634413144",
       "instagram": "https://www.instagram.com/cootiecatcher69/?hl=en",
       "spotify": "https://open.spotify.com/artist/46ufOtURSipSKdxoz8KZzu?si=hxUR1UjSSdCtBjXZuW8Shw",
       "twitter": "https://x.com/cootiecatcherto/",
@@ -5915,7 +6322,7 @@
         "day": "2026-03-16",
         "start_time": "23:55",
         "end_time": "00:30",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -5996,7 +6403,7 @@
     "entity_id": 2242615,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242615",
     "thumbnail_url": "https://images.sxsw.com/IYgoVmRSI4pwXTMuYGCNoU5Sm6M=/450x450/images.sxsw.com/178/7c710935-62cc-9ed4-06c1-f11b799a99a0/artist-74117",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-02-19",
     "source": "official",
     "description": "Formed in the heart of Dallas but born on the highway, Cure for Paranoia came together during a “doomsday road trip” intended to be their last. Having recently been diagnosed with bipolar paranoid schizophrenia, frontman Cameron McCloud found clarity in a hot-boxed rental car; making music with collaborators Jay Analog and Tomahawk Jonez gave him peace of mind. “He said, ‘this is my cure for paranoia.’ Instantly, everyone’s eyes lit up,” a pivotal realization that cemented the group’s moniker. When the predicted earth-shattering meteor failed to hit, inspiration struck instead. As Jonez recalls, “On the way from Amarillo to Colorado Springs, like eight songs got written.”\n\nSince then, Cure for Paranoia has shared bills with icons ranging from George Clinton & Parliament Funkadelic and Nas to Ludacris and Leon Bridges. Their resume includes stops at SXSW, Fortress Festival, and the NPR Tiny Desk Contest \"On The Road\" Tour, solidifying their status as festival favorites. While keen to distance themselves from standard regional production, they cultivated a signature \"Trippy Soul infused hip hop\" sound—a blend prioritized on their anchor project, the Work of A.R.T. EP.",
     "links": {
@@ -6042,7 +6449,7 @@
         "day": "2026-03-14",
         "start_time": "21:00",
         "end_time": "22:00",
-        "presented_by": null
+        "presented_by": "DJ_Dave"
       }
     ],
     "location": "LOS ANGELES, CA"
@@ -6056,7 +6463,7 @@
     "state": "NY",
     "entity_id": 2256573,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2256573",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/gVU3tXHDyPz_Vfkx0gI5OmjCr8Y=/450x450/images.sxsw.com/178/8b2815cb-590c-3926-6dd4-558d94faaeb2/artist-76312",
     "announcement_date": "2026-02-26",
     "source": "official",
     "description": "With a voice that blends classic soul’s raw emotion with the edge of modern hip-hop, D’Chrome Foster is carving out a unique lane in today’s Hip-Hop/R&B scene. Raised in Brooklyn, NY, his sound reflects the spirit of ’90s hip-hop while exploring themes of love, resilience, and self-discovery.\n\nBorn Serge R. Thony, Foster honed his craft battling on New York’s Lower East Side at venues like The Pyramid’s “End of the Weak.” Inspired by icons such as Harry Belafonte and Michael Jackson, he developed a style that feels both timeless and deeply personal. His early theater work earned praise from The New York Times, calling him “young, cocky and ready to take over the world.”\n\nClassically trained at Esper Studio, he later earned his MFA from Rutgers University’s Mason Gross School of the Arts. Foster has appeared in off-Broadway productions including Ethel Sings, In Bed with Roy Cohn, and Kansas City Swing, along with television roles and national commercials.\n\nHis singles “January” and “L.O.V.E.” have gained thousands of streams and social media traction. With new releases Right Now and Gang, D’Chrome continues to evolve—delivering music rooted in authenticity, healing, and soul.",
@@ -6138,7 +6545,20 @@
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63417",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Dallas Tetnus",
@@ -6559,7 +6979,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -6648,7 +7068,7 @@
         "day": "2026-03-13",
         "start_time": "22:50",
         "end_time": "23:20",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       },
       {
         "event_id": "MS63820",
@@ -6660,7 +7080,7 @@
         "day": "2026-03-17",
         "start_time": "19:15",
         "end_time": "19:45",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       },
       {
         "event_id": "MS63326",
@@ -6672,7 +7092,7 @@
         "day": "2026-03-16",
         "start_time": "21:30",
         "end_time": "22:00",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       }
     ]
   },
@@ -6784,7 +7204,7 @@
         "day": "2026-03-14",
         "start_time": "20:20",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       }
     ]
   },
@@ -7040,7 +7460,7 @@
     "entity_id": 2240283,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240283",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-24",
     "source": "official",
     "description": "Psychedelic Punk in Spanish. Forced Jazz meditation.",
     "links": {
@@ -7144,6 +7564,23 @@
     "events": []
   },
   {
+    "name": "DJ 4Bratzzz",
+    "genre": "DJ",
+    "subgenre": "R & B",
+    "city": "Laredo",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2257086,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2257086",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [],
+    "location": "LAREDO, TX"
+  },
+  {
     "name": "DJ AG",
     "genre": "DJ",
     "subgenre": "None",
@@ -7175,7 +7612,7 @@
         "day": "2026-03-16",
         "start_time": "19:00",
         "end_time": "20:00",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       },
       {
         "event_id": "MS63387",
@@ -7338,7 +7775,7 @@
         "day": "2026-03-17",
         "start_time": "19:50",
         "end_time": "20:05",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ]
   },
@@ -7436,6 +7873,39 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "DJ DMoney",
+    "genre": "DJ",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2265833,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2265833",
+    "thumbnail_url": "https://images.sxsw.com/Ws44bsbMPlgK0uIUyEaOLlc3pVM=/450x450/images.sxsw.com/178/e3e8d9db-8e6b-6e8e-3c5b-f508242916b8/artist-76374",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "DJ DMoney is an Austin-based open-format DJ known for delivering high-energy, crowd-focused sets that blend Hip-Hop, R&B, throwbacks, and feel-good party anthems. With nearly a decade of experience behind the decks, he has built a reputation for reading rooms effortlessly and creating memorable moments across festivals, conventions, nightlife, and major brand events. His performance résumé spans stadiums, universities, lounges, and national-level activations. Whether soundtracking a packed party or a curated cultural experience, DJ DMoney’s style is defined by clean mixing, musical versatility, and an undeniable ability to move a crowd.",
+    "links": {
+      "instagram": "https://instagram.com/dmoneyindabuilding",
+      "tiktok": "https://tiktok.com/@dmoneyindabuilding"
+    },
+    "events": [
+      {
+        "event_id": "MS64648",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "DJ EXILE",
@@ -7623,7 +8093,7 @@
         "day": "2026-03-17",
         "start_time": "01:30",
         "end_time": "02:00",
-        "presented_by": null
+        "presented_by": "Taco Tuesday"
       }
     ]
   },
@@ -7725,7 +8195,19 @@
         "day": "2026-03-17",
         "start_time": "21:00",
         "end_time": "22:00",
-        "presented_by": null
+        "presented_by": "hiroko__yamamura"
+      },
+      {
+        "event_id": "MS64906",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "20:00",
+        "end_time": "00:00",
+        "presented_by": "BSF Official Showcase"
       }
     ],
     "location": "ABILENE, TX"
@@ -7883,7 +8365,7 @@
         "day": "2026-03-15",
         "start_time": "23:10",
         "end_time": "23:45",
-        "presented_by": null
+        "presented_by": "Pastorale"
       }
     ]
   },
@@ -8014,11 +8496,12 @@
     "state": "TX",
     "entity_id": 2248291,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2248291",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/6QilO4eG-A8hNwl2wDpILRz0Y2I=/450x450/images.sxsw.com/178/8ce0678b-6aa0-d989-b399-e838a033ed76/artist-76143",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "Dr Dak is a groove-driven DJ and curator rooted in rhythm, movement, and collective energy. Refusing to be confined to a single genre, his sets weave disco, jazz, funk, and soul with forward-leaning electronic sounds, guided by mood, melody, and the feel of the room. His musical perspective is shaped by a deep, cross-generational listening background, spanning classic vocalists to experimental electronic artists.\n\nAs the founder of Floppy Disko, Dr Dak brings an intentional, community-first ethos to every dance floor. His performances are focused on creating inclusive, safe, and elevated spaces where music serves as a shared language—inviting connection, expression, and celebration through sound.",
     "links": {
+      "bandcamp": "https://floppydisko.bandcamp.com/",
       "instagram": "https://www.instagram.com/drdakmusic/",
       "soundcloud": "https://soundcloud.com/floppy_disko",
       "youtube": "https://www.youtube.com/watch?v=kpZ1AWluuKc"
@@ -8026,6 +8509,18 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
+      {
+        "event_id": "MS64912",
+        "event_type": "showcase",
+        "venue": "Neon Grotto Rooftop",
+        "venue_id": "V2071",
+        "parent_venue": "Neon Grotto",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "presented_by": "Floppy Disko"
+      },
       {
         "event_id": "MS63853",
         "event_type": "showcase",
@@ -8036,7 +8531,7 @@
         "day": "2026-03-15",
         "start_time": "00:30",
         "end_time": "02:00",
-        "presented_by": null
+        "presented_by": "Floppy Disko"
       }
     ]
   },
@@ -8097,7 +8592,32 @@
     "links": {
       "instagram": "https://www.instagram.com/dragonnqueen?igsh=MXhjdjY5cWZ1cWlqMA%3D%3D&utm_source=qr"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64737",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "01:00",
+        "end_time": "02:00",
+        "presented_by": "Gas Station FM "
+      },
+      {
+        "event_id": "MS63889",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas Patio",
+        "venue_id": "V0263",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": null
+      }
+    ],
     "location": "HOUSTON, TX"
   },
   {
@@ -8270,7 +8790,7 @@
         "day": "2026-03-17",
         "start_time": "01:00",
         "end_time": "01:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ],
     "location": "AUSTIN, TX"
@@ -8310,7 +8830,7 @@
         "day": "2026-03-18",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -8412,7 +8932,7 @@
         "day": "2026-03-15",
         "start_time": "22:00",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Traffic Music Group"
       }
     ]
   },
@@ -8472,6 +8992,18 @@
     },
     "events": [
       {
+        "event_id": "MS64904",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "22:30",
+        "end_time": "22:50",
+        "presented_by": "HOT TAKES"
+      },
+      {
         "event_id": "MS64030",
         "event_type": "showcase",
         "venue": "Taco n Maiz",
@@ -8481,7 +9013,7 @@
         "day": "2026-03-17",
         "start_time": "20:50",
         "end_time": "21:00",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "KANO, KN, NIGERIA"
@@ -8521,7 +9053,7 @@
         "day": "2026-03-14",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       }
     ]
   },
@@ -8539,10 +9071,11 @@
     "source": "official",
     "description": "EddieAngel is part of a new wave of Chicano R&B artists reshaping the sound of alternative soul in Austin and beyond. Fronted by singer-songwriter Angel Estrada, the project has steadily built momentum through emotionally grounded songwriting and a growing local fanbase.\n\nHis 2024 debut EP Love Bomb and follow-up single “Spell” introduced his dreamy and nostalgic storytelling, while 2025’s “Holding On” (ft. Tobias Lund) surpassed over 100K streams and secured playlist support. Now, EddieAngel launches a new era with his latest single “PAYASO”. As the foundation for forthcoming EP Chicano Blues, 'PAYASO' sets the tone for an EP that fuses Mexican heritage with R&B, soul, and rock, positioning EddieAngel as a rising voice in Chicano and alternative R&B spaces.",
     "links": {
-      "apple_music": "https://music.apple.com/us/album/holding-on-single/1824886089",
+      "apple_music": "https://music.apple.com/us/album/payaso/1873938095?i=1873938096",
       "bandcamp": "https://eddieangel-luv.bandcamp.com",
       "instagram": "https://www.instagram.com/eddieangel.luv/",
       "soundcloud": "https://soundcloud.com/angel-boy-644933897",
+      "spotify": "https://open.spotify.com/album/2PSmgBK7h8sUc0nWDMdTWy?si=cYvbQeoKQbW_crY3_lHppA",
       "tiktok": "https://www.tiktok.com/@eddieangel.luv",
       "website": "https://linktr.ee/eddieangel.luv",
       "youtube": "https://www.youtube.com/watch?v=h5ivZ8p9LXM"
@@ -8558,7 +9091,7 @@
         "day": "2026-03-15",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ],
     "location": "AUSTIN, TX"
@@ -8596,7 +9129,7 @@
         "day": "2026-03-14",
         "start_time": "01:20",
         "end_time": "01:50",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ],
     "location": "SACRAMENTO, CA"
@@ -8659,7 +9192,7 @@
         "day": "2026-03-16",
         "start_time": "22:05",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -8696,7 +9229,7 @@
         "day": "2026-03-14",
         "start_time": "00:10",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ]
   },
@@ -8771,7 +9304,7 @@
         "day": "2026-03-16",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -9063,10 +9596,10 @@
     "state": "CA",
     "entity_id": 2271829,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2271829",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/pTvdDJ7zlLUKhKF1FjdLycmHVtA=/450x450/images.sxsw.com/178/f48536af-ac86-976b-b0c2-2586cd94c9b4/artist-76476",
     "announcement_date": "2026-02-27",
     "source": "official",
-    "description": "",
+    "description": "California singer-songwriter Eric McEntee is a modern-day troubadour, a soul of the open road who pens songs like the (#23) Viral 50 charting I'm Not Bothered By The Rain; which he wrote busking in Paris, that often evoke this sense of wanderlust, carrying on in the American roots music tradition by blending diverse influences of folk, country, soul and jazz. True to the roots of his sound he has recorded and collaborated with members of Bob Dylan, Mavis Staples and Spoon and the Grammy winning producer's behind Daptone records.\nIn McEntee one can hear echoes of his forebears: the California folk and country rock cosmos of The Byrds and The Flying Burrito Brothers, the psychedelic folk of Rodriguez, the baroque-pop of Nilsson, 60's Greenwich Village folk eminences Fred Neil and Karen Dalton, a laid back soulful delivery inspired by Labi Siffre, Alan Toussaint and Bill Withers; all are the characteristic patchwork that is hand sewn into the world of his songwriting with an uncanny, timeless effect. This timelessness in McEntee's music, is not merely looking forward or looking back but a natural repose in the songs that stays grounded to the moment, whenever you find them.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/eric-mcentee/1706156171",
       "bandcamp": "https://ericmcentee.bandcamp.com",
@@ -9153,7 +9686,7 @@
         "day": "2026-03-18",
         "start_time": "22:00",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -9169,14 +9702,17 @@
     "thumbnail_url": null,
     "announcement_date": "2026-02-23",
     "source": "official",
-    "description": "",
+    "description": "EyeQ is an inspirational force of nature who consistently enraptures audiences across the US and internationally with his passionate live performances and powerful lyrics. Merging his wide assortment of musical influences and loves of VGM, anime, jazz, lo fi, love and life into one powerhouse performance, EyeQ has developed his own national reputation as an esteemed hip hop artist, winning awards and dominating main stages and after parties for some of the most important pop culture conventions in the United States.\n\nAlongside his performances, EyeQ has actively worked to coordinate events for numerous conventions and organizations around the US, most notably the Library of Congress. He is the founder of Bytes and Beats and a co founding member of the Nerdy People of Color Collective, where he has worked for over a decade to advocate for and create spaces for marginalized groups in nerd and geek communities across the country.",
     "links": {
       "apple_music": "https://music.apple.com/ca/album/gettin-lucky/1236577504?i=1236577506",
+      "bandcamp": "https://eyeq.bandcamp.com/",
+      "facebook": "https://www.facebook.com/MusicEyeQ",
       "instagram": "https://www.instagram.com/iammusiceyeq/",
       "soundcloud": "https://soundcloud.com/musiceyeq",
-      "spotify": "https://open.spotify.com/artist/07mNPmU0AwlRDCZYNm7UTJ?si=twCWGP9RTimJpx_kfzlgwA",
+      "spotify": "https://open.spotify.com/track/2AcvTL15fy37MzVqEuJiEg?si=e52d76985e7c45d9",
       "tiktok": "https://www.tiktok.com/@musiceyeq",
-      "twitter": "https://x.com/MusicEyeQ"
+      "twitter": "https://x.com/MusicEyeQ",
+      "youtube": "https://youtube.com/shorts/51qBGjchRVM"
     },
     "events": [
       {
@@ -9189,7 +9725,7 @@
         "day": "2026-03-17",
         "start_time": "00:30",
         "end_time": "00:55",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ],
     "location": "DALLAS, TX"
@@ -9229,7 +9765,7 @@
         "day": "2026-03-13",
         "start_time": "19:45",
         "end_time": "19:55",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       }
     ],
     "location": "AUSTIN, TX"
@@ -9292,7 +9828,7 @@
         "day": "2026-03-16",
         "start_time": "14:00",
         "end_time": "14:30",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       },
       {
         "event_id": "MS64629",
@@ -9364,7 +9900,7 @@
         "day": "2026-03-14",
         "start_time": "13:00",
         "end_time": "13:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS64138",
@@ -9447,7 +9983,7 @@
         "day": "2026-03-14",
         "start_time": "20:20",
         "end_time": "20:35",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ],
     "location": "LA HABANA, CUBA"
@@ -9489,7 +10025,7 @@
         "day": "2026-03-16",
         "start_time": "23:35",
         "end_time": "00:10",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS64266",
@@ -9501,7 +10037,7 @@
         "day": "2026-03-13",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63259",
@@ -9513,7 +10049,7 @@
         "day": "2026-03-15",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Overseas Transmission"
       }
     ]
   },
@@ -9587,7 +10123,7 @@
         "day": "2026-03-18",
         "start_time": "22:00",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Music Box ATX"
       }
     ]
   },
@@ -9636,7 +10172,7 @@
         "day": "2026-03-16",
         "start_time": "00:50",
         "end_time": "01:25",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -9666,6 +10202,18 @@
     "events_raw": [],
     "location": "MONTREAL, QC, CANADA",
     "events": [
+      {
+        "event_id": "MS64901",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": null
+      },
       {
         "event_id": "MS63980",
         "event_type": "showcase",
@@ -10048,7 +10596,7 @@
         "day": "2026-03-17",
         "start_time": "23:00",
         "end_time": "23:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -10087,6 +10635,7 @@
     "source": "official",
     "description": "",
     "links": {
+      "apple_music": "https://music.apple.com/us/artist/fuerza-regida/1275690475",
       "instagram": "https://www.instagram.com/fuerzaregida/",
       "spotify": "https://open.spotify.com/artist/0ys2OFYzWYB5hRDLCsBqxt?si=HdyXD8ecQhi7DqkX6wdB6g",
       "tiktok": "https://www.tiktok.com/@fuerzaregida?lang=en",
@@ -10103,7 +10652,7 @@
         "day": "2026-03-13",
         "start_time": "22:55",
         "end_time": "00:00",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ],
     "location": "SAN BERNARDINO, CA"
@@ -10458,7 +11007,7 @@
         "day": "2026-03-14",
         "start_time": "12:00",
         "end_time": "12:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS64289",
@@ -10470,7 +11019,7 @@
         "day": "2026-03-17",
         "start_time": "20:05",
         "end_time": "20:35",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       },
       {
         "event_id": "MS64183",
@@ -10494,7 +11043,7 @@
         "day": "2026-03-16",
         "start_time": "21:10",
         "end_time": "21:45",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -10660,7 +11209,7 @@
         "day": "2026-03-16",
         "start_time": "23:55",
         "end_time": "00:30",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS64011",
@@ -10837,6 +11386,18 @@
     "location": "ROUND ROCK, TX",
     "events": [
       {
+        "event_id": "MS64725",
+        "event_type": "showcase",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-13",
+        "start_time": "15:00",
+        "end_time": "15:40",
+        "presented_by": null
+      },
+      {
         "event_id": "MS64505",
         "event_type": "showcase",
         "venue": "Radio Day Stage @ Downright Austin Backyard",
@@ -10846,7 +11407,7 @@
         "day": "2026-03-14",
         "start_time": "14:00",
         "end_time": "14:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS63814",
@@ -10909,7 +11470,7 @@
         "day": "2026-03-15",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       },
       {
         "event_id": "MS63612",
@@ -10958,7 +11519,7 @@
         "day": "2026-03-12",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -11010,7 +11571,7 @@
         "day": "2026-03-14",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -11109,6 +11670,18 @@
     "events_raw": [],
     "location": "ATHENS, GA",
     "events": [
+      {
+        "event_id": "MS64916",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "00:10",
+        "end_time": "00:40",
+        "presented_by": null
+      },
       {
         "event_id": "MS63552",
         "event_type": "showcase",
@@ -11209,7 +11782,7 @@
         "day": "2026-03-16",
         "start_time": "20:15",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS63872",
@@ -11233,7 +11806,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -11317,10 +11890,10 @@
     "state": "TX",
     "entity_id": 2241037,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2241037",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/UgQTGw-QVCq-2G0-eTaAiREtqRo=/450x450/images.sxsw.com/178/282ecab6-3157-8ffb-f78d-7f6fc31e2aa7/artist-75817",
     "announcement_date": "2026-01-13",
     "source": "official",
-    "description": "Austin, Texas’ Gummy Fang began it’s third year as a band with a self titled debut album featuring jangly, uptempo indie pop earworms plus softer, more introspective moments with rich textural flourishes.\n\nSinger, guitarist, and songwriter Willow Braun pens infectious love songs which are accompanied by winding, classical inspired bass counterpoint by Fructose, and nuanced, in the pocket, jazz inspired drumming from Nicky Christmas.",
+    "description": "Austin, Texas’ Gummy Fang released their self titled debut album in July of 2025 featuring jangly, uptempo indie pop anthems and textural introspective ballads. The Austin Chronicle named it their 7th favorite local album of the year and nominated the band for Best New Act at the annual Austin Music Award. Gummy Fang is known for their cheery onstage charm, heartfelt crooning, intricate countermelodies on bass, and drumming that combines jazz vocabulary with a meaty rock pulse.\n\nSinger, guitarist, and songwriter Willow Braun pens infectious love songs which are accompanied by winding, classical inspired bass counterpoint by Fructose, and nuanced, in the pocket, jazz inspired drumming from Nicky Christmas.",
     "links": {
       "instagram": "https://www.instagram.com/gummy.fang",
       "spotify": "https://open.spotify.com/artist/5HteCWo7220rXzFgtXTx4K?si=ymPAZYVhTz2ZoJugHL4wVA"
@@ -11328,18 +11901,6 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
-      {
-        "event_id": "MS64127",
-        "event_type": "showcase",
-        "venue": "Lefty’s Brick Bar",
-        "venue_id": "V1902",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-12",
-        "start_time": "19:00",
-        "end_time": "19:40",
-        "presented_by": null
-      },
       {
         "event_id": "MS63440",
         "event_type": "showcase",
@@ -11350,7 +11911,19 @@
         "day": "2026-03-18",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Music Box ATX"
+      },
+      {
+        "event_id": "MS64127",
+        "event_type": "showcase",
+        "venue": "Lefty’s Brick Bar",
+        "venue_id": "V1902",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "19:00",
+        "end_time": "19:40",
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -11423,7 +11996,7 @@
         "day": "2026-03-18",
         "start_time": "17:00",
         "end_time": "17:30",
-        "presented_by": null
+        "presented_by": "KOOP Radio + KLKT"
       },
       {
         "event_id": "MS63236",
@@ -11435,7 +12008,7 @@
         "day": "2026-03-18",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Music Box ATX"
       }
     ]
   },
@@ -11529,7 +12102,7 @@
         "day": "2026-03-12",
         "start_time": "21:20",
         "end_time": "21:50",
-        "presented_by": null
+        "presented_by": "[PIAS]"
       }
     ]
   },
@@ -11606,6 +12179,30 @@
     ]
   },
   {
+    "name": "Hana Eid",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "city": "Nashville",
+    "country": "United States",
+    "state": "TN",
+    "entity_id": 2238770,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2238770",
+    "thumbnail_url": "https://images.sxsw.com/gJ8kwhLqCKjB76jsHCZl_4XxDoE=/450x450/images.sxsw.com/178/ec04aba2-29da-257c-cab0-4fde5c29b560/artist-74478",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "Hana Eid writes songs that feel like “the love letters you’re too afraid to send.” Combining confessional lyricism with raw vocal performances and earworm melodies, her indie-rock songs tell stories that feel like they’ve been pulled from the depths of listeners’ minds.\n\nHer debut album, \"Trains Running Backwards,\" was written amidst this personal metamorphosis, chronicling her deepest thoughts about her identity and interpersonal relationships. To produce the record, she tapped in Noah Weinman, aka folk-rock cult favorite Runnner (excluding “Bet”, prod. Josef Kuhn). Fresh off the success of co-producing Gigi Perez’s hit “Sailor Song”, Noah was the perfect fit to bring her vision of unfiltered emotion to life. The album combines elements of indie rock, folk, and shoegaze into a sonic palette that stands completely on its own.\n\nShe shares, “what I have found, particularly in the creation of this record, is that love is the most powerful and exotic force on earth. We learn and grow so much through connection. & then we scrap it & start again.”",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/bet-single/1818872258",
+      "bandcamp": "https://hanaeid.bandcamp.com/",
+      "instagram": "https://www.instagram.com/hanaeeid/?hl=en",
+      "soundcloud": "https://soundcloud.com/haneid16",
+      "tiktok": "https://www.tiktok.com/@hanaeeid?lang=en",
+      "youtube": "https://www.youtube.com/watch?v=lr6VaoevJJk"
+    },
+    "events": [],
+    "location": "NASHVILLE, TN"
+  },
+  {
     "name": "Hana Lili",
     "genre": "Pop",
     "subgenre": "Rock",
@@ -11642,7 +12239,7 @@
         "day": "2026-03-16",
         "start_time": "16:40",
         "end_time": "17:10",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       },
       {
         "event_id": "MS63371",
@@ -11808,7 +12405,7 @@
         "day": "2026-03-15",
         "start_time": "01:00",
         "end_time": "01:40",
-        "presented_by": null
+        "presented_by": "Overseas Transmission"
       },
       {
         "event_id": "MS64615",
@@ -11832,7 +12429,7 @@
         "day": "2026-03-12",
         "start_time": "22:40",
         "end_time": "23:10",
-        "presented_by": null
+        "presented_by": "[PIAS]"
       }
     ]
   },
@@ -11870,7 +12467,7 @@
         "day": "2026-03-15",
         "start_time": "21:50",
         "end_time": "22:30",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -11911,7 +12508,7 @@
         "day": "2026-03-15",
         "start_time": "14:20",
         "end_time": "14:50",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       },
       {
         "event_id": "MS63167",
@@ -11998,7 +12595,7 @@
         "day": "2026-03-15",
         "start_time": "22:00",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Overseas Transmission"
       }
     ]
   },
@@ -12033,7 +12630,7 @@
         "day": "2026-03-17",
         "start_time": "00:00",
         "end_time": "01:30",
-        "presented_by": null
+        "presented_by": "hiroko__yamamura"
       }
     ],
     "location": "CHICAGO, IL"
@@ -12048,7 +12645,7 @@
     "entity_id": 2241142,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2241142",
     "thumbnail_url": null,
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-02-17",
     "source": "official",
     "description": "",
     "links": {
@@ -12141,7 +12738,7 @@
         "day": "2026-03-15",
         "start_time": "19:50",
         "end_time": "20:25",
-        "presented_by": null
+        "presented_by": "Pastorale"
       }
     ]
   },
@@ -12256,7 +12853,7 @@
         "day": "2026-03-18",
         "start_time": "22:40",
         "end_time": "23:10",
-        "presented_by": null
+        "presented_by": "Chris Hawkins Presents"
       },
       {
         "event_id": "MS63520",
@@ -12424,7 +13021,7 @@
         "day": "2026-03-16",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       }
     ]
   },
@@ -12771,7 +13368,7 @@
         "day": "2026-03-18",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Music Box ATX"
       }
     ]
   },
@@ -12896,7 +13493,7 @@
         "day": "2026-03-14",
         "start_time": "21:35",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ]
   },
@@ -12937,7 +13534,7 @@
         "day": "2026-03-17",
         "start_time": "21:40",
         "end_time": "22:10",
-        "presented_by": null
+        "presented_by": "Tuezgayz "
       }
     ]
   },
@@ -12975,7 +13572,7 @@
         "day": "2026-03-13",
         "start_time": "19:30",
         "end_time": "20:00",
-        "presented_by": null
+        "presented_by": "UTOPiA Sessions"
       }
     ],
     "location": "AUSTIN, TX"
@@ -13123,7 +13720,7 @@
         "day": "2026-03-13",
         "start_time": "22:25",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       },
       {
         "event_id": "MS63958",
@@ -13199,7 +13796,7 @@
         "day": "2026-03-17",
         "start_time": "19:00",
         "end_time": "19:45",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -13213,7 +13810,7 @@
     "entity_id": 2252008,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2252008",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
@@ -13227,7 +13824,20 @@
     },
     "events_raw": [],
     "location": "JACKSONVILLE, FL",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64057",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "00:00",
+        "end_time": "00:05",
+        "presented_by": "ATX Social Club"
+      }
+    ]
   },
   {
     "name": "J’cuuzi",
@@ -13261,7 +13871,7 @@
         "day": "2026-03-16",
         "start_time": "00:50",
         "end_time": "01:25",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS63722",
@@ -13273,7 +13883,7 @@
         "day": "2026-03-17",
         "start_time": "22:30",
         "end_time": "23:00",
-        "presented_by": null
+        "presented_by": "Tuezgayz "
       }
     ]
   },
@@ -13462,7 +14072,20 @@
     },
     "events_raw": [],
     "location": "HYATTSVILLE, MD",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63711",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "21:10",
+        "end_time": "21:30",
+        "presented_by": "HOT TAKES"
+      }
+    ]
   },
   {
     "name": "Jairo",
@@ -13558,7 +14181,7 @@
         "day": "2026-03-17",
         "start_time": "22:30",
         "end_time": "22:55",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ],
     "location": "CLEARWATER, FL"
@@ -13597,7 +14220,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "BIGSOUND Festival"
       },
       {
         "event_id": "MS63538",
@@ -13609,7 +14232,7 @@
         "day": "2026-03-17",
         "start_time": "23:20",
         "end_time": "23:50",
-        "presented_by": null
+        "presented_by": "Tuezgayz "
       }
     ]
   },
@@ -13799,6 +14422,30 @@
     "events": []
   },
   {
+    "name": "Jastin Martin",
+    "genre": "R & B",
+    "subgenre": "None",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2273695,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2273695",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-28",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/jastin-martin/1475314755",
+      "instagram": "https://www.instagram.com/jastinmartin?igsh=bXAzMjkwOGZnMGN5",
+      "spotify": "https://open.spotify.com/artist/44JW18XzNr86kKNWJq8eg1",
+      "tiktok": "https://www.tiktok.com/@jastinmartin_?lang=en",
+      "twitter": "https://x.com/MartinJastin",
+      "website": "https://jastinmartinmusic.com"
+    },
+    "events": [],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Javiera Electra",
     "genre": "Avant / Experimental",
     "subgenre": "Folk",
@@ -13923,7 +14570,7 @@
         "day": "2026-03-15",
         "start_time": "22:00",
         "end_time": "22:30",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -14047,7 +14694,7 @@
         "day": "2026-03-17",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -14083,7 +14730,7 @@
         "day": "2026-03-15",
         "start_time": "15:00",
         "end_time": "15:30",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       },
       {
         "event_id": "MS64411",
@@ -14095,7 +14742,7 @@
         "day": "2026-03-15",
         "start_time": "12:00",
         "end_time": "12:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63482",
@@ -14107,7 +14754,7 @@
         "day": "2026-03-16",
         "start_time": "19:35",
         "end_time": "19:45",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       }
     ]
   },
@@ -14258,7 +14905,7 @@
         "day": "2026-03-18",
         "start_time": "14:00",
         "end_time": "14:40",
-        "presented_by": null
+        "presented_by": "KOOP Radio + KLKT"
       }
     ],
     "location": "DRIPPING SPRINGS, TX"
@@ -14412,7 +15059,7 @@
         "day": "2026-03-18",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -14502,7 +15149,7 @@
         "day": "2026-03-15",
         "start_time": "23:50",
         "end_time": "00:30",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -14577,7 +15224,7 @@
         "day": "2026-03-14",
         "start_time": "21:30",
         "end_time": "23:00",
-        "presented_by": null
+        "presented_by": "Berlin Partner"
       }
     ]
   },
@@ -14916,7 +15563,7 @@
         "day": "2026-03-16",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       },
       {
         "event_id": "MS63151",
@@ -15046,7 +15693,32 @@
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64787",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "presented_by": "Dave Guy & Friends"
+      },
+      {
+        "event_id": "MS63172",
+        "event_type": "showcase",
+        "venue": "Coconut Club Rooftop",
+        "venue_id": "V1890",
+        "parent_venue": "Coconut Club",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "23:00",
+        "end_time": "00:00",
+        "presented_by": "hiroko__yamamura"
+      }
+    ]
   },
   {
     "name": "Kaash Paige",
@@ -15133,7 +15805,7 @@
         "day": "2026-03-16",
         "start_time": "23:50",
         "end_time": "00:10",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       },
       {
         "event_id": "MS64028",
@@ -15291,7 +15963,7 @@
         "day": "2026-03-17",
         "start_time": "16:30",
         "end_time": "17:00",
-        "presented_by": null
+        "presented_by": "Future Arts and Culture"
       },
       {
         "event_id": "MS64286",
@@ -15302,7 +15974,7 @@
         "age_policy": "21+",
         "day": "2026-03-18",
         "start_time": "00:00",
-        "end_time": "01:00",
+        "end_time": "00:40",
         "presented_by": null
       },
       {
@@ -15392,7 +16064,7 @@
         "day": "2026-03-17",
         "start_time": "22:00",
         "end_time": "22:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -15732,6 +16404,41 @@
     ]
   },
   {
+    "name": "Kiki Ambrose",
+    "genre": "R & B",
+    "subgenre": "Soul",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2272573,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272573",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-28",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/kiki-ambrose/1776601326",
+      "instagram": "https://www.instagram.com/kikiambrose_?igsh=MTR6ODRmY2gwZGx0ZA%3D%3D&utm_source=qr",
+      "spotify": "https://open.spotify.com/artist/2RTn7qGMscmLrnTLtz7Wr5?si=OzPaRtUHSM6qsE7LQKJCdw",
+      "tiktok": "https://www.tiktok.com/@kikiambrose?_r=1&_t=ZT-94CSSEfqOlS"
+    },
+    "events": [
+      {
+        "event_id": "MS64909",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "19:30",
+        "end_time": "19:40",
+        "presented_by": "ATX Social Club"
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Killakmadeinbrooklyn",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hip-Hop / Rap",
@@ -15834,6 +16541,18 @@
     "location": "MANCHESTER, UNITED KINGDOM, ENGLAND",
     "events": [
       {
+        "event_id": "MS63335",
+        "event_type": "showcase",
+        "venue": "The 13th Floor",
+        "venue_id": "V2123",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Overseas Transmission"
+      },
+      {
         "event_id": "MS64662",
         "event_type": "showcase",
         "venue": "British Music Embassy @ Palm Door on Sixth",
@@ -15843,7 +16562,7 @@
         "day": "2026-03-15",
         "start_time": "16:20",
         "end_time": "16:50",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       },
       {
         "event_id": "MS64472",
@@ -15855,18 +16574,6 @@
         "day": "2026-03-18",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
-      },
-      {
-        "event_id": "MS63335",
-        "event_type": "showcase",
-        "venue": "The 13th Floor",
-        "venue_id": "V2123",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "21:00",
-        "end_time": "21:40",
         "presented_by": null
       }
     ]
@@ -15906,7 +16613,19 @@
         "day": "2026-03-12",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "British Music Embassy"
+      },
+      {
+        "event_id": "MS64819",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "21:20",
+        "end_time": "22:10",
+        "presented_by": "Dave Guy & Friends"
       },
       {
         "event_id": "MS63202",
@@ -16010,7 +16729,7 @@
         "day": "2026-03-16",
         "start_time": "23:20",
         "end_time": "23:30",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       },
       {
         "event_id": "MS63929",
@@ -16046,7 +16765,7 @@
         "day": "2026-03-13",
         "start_time": "20:35",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -16082,7 +16801,7 @@
         "day": "2026-03-17",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "SXSW London"
       },
       {
         "event_id": "MS64412",
@@ -16094,7 +16813,7 @@
         "day": "2026-03-15",
         "start_time": "13:00",
         "end_time": "13:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63490",
@@ -16106,7 +16825,7 @@
         "day": "2026-03-16",
         "start_time": "14:40",
         "end_time": "15:10",
-        "presented_by": null
+        "presented_by": "Northern Sound x DBT Wales"
       }
     ]
   },
@@ -16292,7 +17011,7 @@
         "day": "2026-03-13",
         "start_time": "22:05",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       }
     ],
     "location": "AUSTIN, TX"
@@ -16379,7 +17098,7 @@
     "entity_id": 2238730,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2238730",
     "thumbnail_url": "https://images.sxsw.com/DtrXYG2CnGTCDCjFA7AbXcliGyA=/450x450/images.sxsw.com/178/0c08b9be-b4e4-f217-d762-cc222bd1cfd8/artist-73779",
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-25",
     "source": "official",
     "description": "La Texana, the music project of José Ramírez, was born in 2021 in Tijuana, Baja California. At 17, with just a laptop and guitar, he began recording music inspired by Spanish alternative rock and post-punk influences. He debuted with Nunca He Sabido Amar, and in 2023 released his first EP, Morro, featuring Un Día Como Hoy, now with over 6.5 million streams. In 2025, La Texana released his first full-length album, signed by the spanish label Sonido Muchacho \"La Casa Que Cae\", a 10-track record exploring identity and new beginnings, reaching over 8 million streams. It includes standout tracks like Terco, El Sol, and Dispara. In May, he performed a sold-out debut at Lunario of Auditorio Nacional and is now touring across Mexico (40+ cities) and 7 countries, with more dates to come. La Texana is currently preparing for his biggest show yet at Teatro Metropólitan in February 2026. His style continues to evolve, blending vulnerability and nostalgia, while connecting with a new generation of Mexican musicians and growing an international audience.",
     "links": {
@@ -16593,7 +17312,7 @@
     "entity_id": 2241122,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2241122",
     "thumbnail_url": "https://images.sxsw.com/A2QctyRyw-VGb5U830dY7mbiKNE=/450x450/images.sxsw.com/178/2a91bbc5-1dca-763d-e4f1-147329186030/artist-73098",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
@@ -16606,7 +17325,20 @@
     },
     "events_raw": [],
     "location": "CABARETE, DOMINICAN REPUBLIC",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63458",
+        "event_type": "showcase",
+        "venue": "Taco n Maiz",
+        "venue_id": "V2448",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Leo Kalyan",
@@ -16705,7 +17437,7 @@
         "day": "2026-03-14",
         "start_time": "20:40",
         "end_time": "21:00",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ],
     "location": "AUSTIN, TX"
@@ -16798,6 +17530,30 @@
     "location": "AUSTIN, TX",
     "events": [
       {
+        "event_id": "MS63290",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": "Traffic Music Group"
+      },
+      {
+        "event_id": "MS64726",
+        "event_type": "showcase",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-13",
+        "start_time": "16:00",
+        "end_time": "16:40",
+        "presented_by": null
+      },
+      {
         "event_id": "MS64605",
         "event_type": "showcase",
         "venue": "Radio Day Stage @ Downright Austin Backyard",
@@ -16807,7 +17563,7 @@
         "day": "2026-03-18",
         "start_time": "16:00",
         "end_time": "16:30",
-        "presented_by": null
+        "presented_by": "KOOP Radio + KLKT"
       },
       {
         "event_id": "MS63818",
@@ -16820,18 +17576,6 @@
         "start_time": "20:30",
         "end_time": "21:00",
         "presented_by": "Made in Austin"
-      },
-      {
-        "event_id": "MS63290",
-        "event_type": "showcase",
-        "venue": "Continental Club",
-        "venue_id": "V0178",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "23:00",
-        "end_time": "23:40",
-        "presented_by": null
       }
     ]
   },
@@ -17016,7 +17760,7 @@
         "day": "2026-03-13",
         "start_time": "19:45",
         "end_time": "20:15",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ],
     "location": "STOCKTON, CA"
@@ -17046,7 +17790,32 @@
     },
     "events_raw": [],
     "location": "MANDURAH, AUSTRALIA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64794",
+        "event_type": "showcase",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63339",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "BIGSOUND Festival"
+      }
+    ]
   },
   {
     "name": "Little Wilderness",
@@ -17111,6 +17880,18 @@
     "location": "BROOKLYN, NY",
     "events": [
       {
+        "event_id": "MS64823",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "presented_by": null
+      },
+      {
         "event_id": "MS64054",
         "event_type": "showcase",
         "venue": "Hotel Vegas at Volstead",
@@ -17120,7 +17901,7 @@
         "day": "2026-03-15",
         "start_time": "01:00",
         "end_time": "02:00",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -17280,7 +18061,7 @@
         "day": "2026-03-17",
         "start_time": "20:05",
         "end_time": "20:15",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ]
   },
@@ -17354,7 +18135,7 @@
         "day": "2026-03-12",
         "start_time": "21:55",
         "end_time": "23:30",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ]
   },
@@ -17394,7 +18175,7 @@
         "day": "2026-03-17",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Tuezgayz "
       },
       {
         "event_id": "MS63773",
@@ -17406,7 +18187,7 @@
         "day": "2026-03-15",
         "start_time": "15:40",
         "end_time": "16:10",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       }
     ]
   },
@@ -17580,9 +18361,43 @@
         "day": "2026-03-13",
         "start_time": "21:00",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       }
     ]
+  },
+  {
+    "name": "Los Lobos",
+    "genre": "Americana",
+    "subgenre": "Roots",
+    "city": "East Los Angeles",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2267093,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2267093",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/loslobos/?hl=en",
+      "spotify": "https://open.spotify.com/artist/6OWapcJm9xd55ci9CYbAuT?si=q8X87Hj8Tt2SCH5nIY5VRA",
+      "website": "https://www.loslobos.org"
+    },
+    "events": [
+      {
+        "event_id": "MS64680",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "22:30",
+        "end_time": "23:30",
+        "presented_by": null
+      }
+    ],
+    "location": "EAST LOS ANGELES, CA"
   },
   {
     "name": "Louie Lee",
@@ -17637,7 +18452,7 @@
     "thumbnail_url": "https://images.sxsw.com/_syDzhmT31Gm7OTByaw-JLaqpNc=/450x450/images.sxsw.com/178/bea35fab-9b51-4890-b6b3-a2202f4ae96c/artist-76101",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "Emerging from Austin. LouieV T is a new up and coming hip-hop/ rap artist in Texas. He creates a cinematic sound using gritty bars and catchy beats creating a raw and unique form of rap. His soulful rhythm gives a captivating appeal leaving audience wanting more. Listen now on all streaming platforms.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/louiev-t/1456917669",
       "instagram": "https://www.instagram.com/louiev.t/?hl=en",
@@ -17659,7 +18474,7 @@
         "day": "2026-03-13",
         "start_time": "20:20",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "KUTX - The Breaks"
       }
     ]
   },
@@ -17699,7 +18514,7 @@
         "day": "2026-03-13",
         "start_time": "19:50",
         "end_time": "20:20",
-        "presented_by": null
+        "presented_by": "Ones to watch"
       }
     ]
   },
@@ -17931,9 +18746,31 @@
         "day": "2026-03-15",
         "start_time": "19:50",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
+  },
+  {
+    "name": "Luke Herbert",
+    "genre": "Pop",
+    "subgenre": "Alternative",
+    "city": "Dallas",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2270844,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270844",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/luke-herbert/1705481240",
+      "instagram": "https://www.instagram.com/lukeherbrt",
+      "spotify": "https://open.spotify.com/artist/4iSTDvxzV6jTjKN4Mp2y7D?si=_hCmuysHRhOw4oKEMiBoDQ",
+      "youtube": "https://www.youtube.com/watch?v=oaq--3ITXME"
+    },
+    "events": [],
+    "location": "DALLAS, TX"
   },
   {
     "name": "Luke Tyler Shelton",
@@ -17968,7 +18805,7 @@
         "day": "2026-03-16",
         "start_time": "21:10",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       },
       {
         "event_id": "MS63484",
@@ -17983,6 +18820,47 @@
         "presented_by": null
       }
     ]
+  },
+  {
+    "name": "Luna Luna",
+    "genre": "Latin",
+    "subgenre": "Pop",
+    "city": "Dallas",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2262566,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2262566",
+    "thumbnail_url": "https://images.sxsw.com/OGu0JWuaCj8_D-CCUCOL0VSgRtg=/450x450/images.sxsw.com/178/3de92a6e-a346-b175-25bf-514120ccda50/artist-76024",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "Luna Luna is the solo project of Colombian-American artist Kavvi, known for crafting a vibrant sound that blends his Spanish and English roots into one. Mixing nostalgic, feel-good synth-pop with a modern indie edge, Luna Luna has become a standout name in the alt-pop and Latin indie scenes.\nWhat started as a personal creative outlet has grown into a project that's earned serious recognition — including nods from Rolling Stone as one of “10 Latin Acts to Break Big” and from Variety as one of “8 Latin Indie Artists to Watch.” Luna Luna’s music has been featured by Billboard, PEOPLE, NPR, Paper, FLOOD, Earmilk, REMEZCLA, and more, while also landing on major Spotify playlists like New Music Friday, Lorem, and Mixto.\nKnown for dreamy live shows and an acclaimed Audiotree session, Luna Luna has built a devoted fanbase and a strong online presence, generating millions of views with over a quarter million followers across platforms. Brand collaborations with Jack Daniel's, Topo Chico, and Taco Bell highlight the project’s growing cultural impact — all while staying true to the emotional core that makes the music resonate so deeply.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/cuando-t%C3%BA-me-besas/1840601628?i=1840601635",
+      "bandcamp": "https://lunalunaband.bandcamp.com/music",
+      "facebook": "https://www.facebook.com/LunaLunaBand/",
+      "instagram": "https://www.instagram.com/lunalunaband/?hl=en",
+      "soundcloud": "https://soundcloud.com/lunalunaband",
+      "spotify": "https://open.spotify.com/track/17ryD1ddtyYoZtFJWPj7lx?si=27d0270dc0ec48e3",
+      "tiktok": "https://www.tiktok.com/@lunalunaband",
+      "twitter": "https://twitter.com/LunaLunaBand",
+      "website": "https://www.lunalunaband.com/",
+      "youtube": "https://youtu.be/yckx502iglk?si=DoWLJdL8Er1RhdX4"
+    },
+    "events": [
+      {
+        "event_id": "MS64508",
+        "event_type": "showcase",
+        "venue": "Taco n Maiz",
+        "venue_id": "V2448",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "01:00",
+        "end_time": "01:50",
+        "presented_by": null
+      }
+    ],
+    "location": "DALLAS, TX"
   },
   {
     "name": "Luna Tropical",
@@ -18246,8 +19124,8 @@
     "state": "TX",
     "entity_id": 2242244,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242244",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-11",
+    "thumbnail_url": "https://images.sxsw.com/EikubokDMlt2S3NkOQM7nHV9kXU=/450x450/images.sxsw.com/178/79a5a6a5-05a4-f015-8ab7-3198c9ec61f6/artist-75944",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "Fresh off the national spotlight of America’s Got Talent, Mama Duke has emerged as one of the most commanding voices in music and culture today. As a Season 20 finalist, she earned Mel B’s coveted Golden Buzzer, launching her straight into the finals and into living rooms across the country. In that historic run, she became the first female rapper ever to reach the Top 10 in the show’s history—shattering expectations and proving that rap can be stadium-sized, deeply vulnerable, and undeniably powerful all at once. Comparisons to icons like Missy Elliott followed, but Mama Duke made it clear. She’s not here to imitate, she’s here to redefine.",
     "links": {
@@ -18269,8 +19147,8 @@
         "parent_venue": "Swan Dive",
         "age_policy": "21+",
         "day": "2026-03-12",
-        "start_time": "22:45",
-        "end_time": "23:05",
+        "start_time": "23:30",
+        "end_time": "00:00",
         "presented_by": "ATX Social Club"
       }
     ]
@@ -18441,7 +19319,7 @@
     "entity_id": 2242122,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242122",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-02-25",
     "source": "official",
     "description": "",
     "links": {
@@ -18490,7 +19368,7 @@
         "day": "2026-03-15",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       }
     ]
   },
@@ -18522,7 +19400,7 @@
         "day": "2026-03-17",
         "start_time": "20:20",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "HOUSTON, TX"
@@ -18563,7 +19441,7 @@
         "day": "2026-03-17",
         "start_time": "21:30",
         "end_time": "21:55",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -18603,7 +19481,7 @@
         "day": "2026-03-14",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       },
       {
         "event_id": "MS63507",
@@ -18615,7 +19493,7 @@
         "day": "2026-03-15",
         "start_time": "17:00",
         "end_time": "17:30",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       }
     ]
   },
@@ -18653,7 +19531,7 @@
         "day": "2026-03-16",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       },
       {
         "event_id": "MS63289",
@@ -18728,7 +19606,7 @@
         "day": "2026-03-16",
         "start_time": "21:10",
         "end_time": "21:45",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -18799,7 +19677,7 @@
         "day": "2026-03-14",
         "start_time": "00:45",
         "end_time": "02:00",
-        "presented_by": null
+        "presented_by": "Berlin Partner"
       }
     ]
   },
@@ -18977,7 +19855,7 @@
         "day": "2026-03-18",
         "start_time": "22:00",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -19139,7 +20017,7 @@
         "day": "2026-03-17",
         "start_time": "20:30",
         "end_time": "20:55",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -19207,7 +20085,7 @@
         "day": "2026-03-13",
         "start_time": "20:40",
         "end_time": "21:20",
-        "presented_by": null
+        "presented_by": "The Luna Collective x Bright Antenna Records"
       }
     ]
   },
@@ -19242,7 +20120,7 @@
         "day": "2026-03-17",
         "start_time": "20:00",
         "end_time": "20:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ],
     "location": "PHOENIX, AZ"
@@ -19309,7 +20187,32 @@
     },
     "events_raw": [],
     "location": "INVERELL, AUSTRALIA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64242",
+        "event_type": "showcase",
+        "venue": "Flatstock Stage @ Austin Marriott Downtown (Moontower Hall)",
+        "venue_id": "V2454",
+        "parent_venue": "Austin Marriott Downtown",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63332",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Mélat",
@@ -19383,7 +20286,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Overseas Transmission"
       },
       {
         "event_id": "MS63375",
@@ -19395,7 +20298,7 @@
         "day": "2026-03-14",
         "start_time": "21:20",
         "end_time": "21:50",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -19436,7 +20339,7 @@
         "day": "2026-03-16",
         "start_time": "22:50",
         "end_time": "23:20",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       }
     ]
   },
@@ -19478,7 +20381,7 @@
         "day": "2026-03-15",
         "start_time": "19:00",
         "end_time": "19:35",
-        "presented_by": null
+        "presented_by": "Pastorale"
       }
     ]
   },
@@ -19557,7 +20460,7 @@
         "day": "2026-03-17",
         "start_time": "00:00",
         "end_time": "00:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -19632,7 +20535,7 @@
         "day": "2026-03-18",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -19683,7 +20586,7 @@
         "day": "2026-03-15",
         "start_time": "19:30",
         "end_time": "20:00",
-        "presented_by": null
+        "presented_by": "Nordic Nite by SXSW"
       }
     ]
   },
@@ -19780,7 +20683,7 @@
         "day": "2026-03-17",
         "start_time": "23:15",
         "end_time": "00:00",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -19816,7 +20719,7 @@
         "day": "2026-03-18",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -19951,7 +20854,7 @@
         "day": "2026-03-17",
         "start_time": "22:05",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "ATLANTA, GA"
@@ -20111,7 +21014,7 @@
         "day": "2026-03-16",
         "start_time": "20:15",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -20297,7 +21200,7 @@
         "day": "2026-03-16",
         "start_time": "22:00",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -20348,7 +21251,44 @@
     },
     "events_raw": [],
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64792",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "19:55",
+        "end_time": "20:20",
+        "presented_by": "All The Vibes"
+      },
+      {
+        "event_id": "MS64656",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "21:30",
+        "end_time": "22:00",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63300",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth",
+        "venue_id": "V0209",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "21:05",
+        "end_time": "21:25",
+        "presented_by": "West LDN Carnival on 6th"
+      }
+    ]
   },
   {
     "name": "Morgan Munroe",
@@ -20384,7 +21324,7 @@
         "day": "2026-03-17",
         "start_time": "21:20",
         "end_time": "21:50",
-        "presented_by": null
+        "presented_by": "SXSW London"
       }
     ]
   },
@@ -20549,7 +21489,7 @@
         "day": "2026-03-15",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -20650,7 +21590,7 @@
         "day": "2026-03-14",
         "start_time": "16:00",
         "end_time": "16:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS63870",
@@ -20662,7 +21602,7 @@
         "day": "2026-03-16",
         "start_time": "19:00",
         "end_time": "19:35",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -20791,7 +21731,7 @@
         "day": "2026-03-18",
         "start_time": "01:00",
         "end_time": "01:50",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -20828,7 +21768,7 @@
         "day": "2026-03-18",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -20931,7 +21871,7 @@
         "day": "2026-03-17",
         "start_time": "01:30",
         "end_time": "02:00",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ],
     "location": "United States"
@@ -20999,6 +21939,30 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": []
+  },
+  {
+    "name": "NEZZA",
+    "genre": "Latin",
+    "subgenre": "Pop",
+    "city": "San Jose",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2272132,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272132",
+    "thumbnail_url": "https://images.sxsw.com/C4ywt9-aPBik_2oDh18F5KBMMAs=/450x450/images.sxsw.com/178/6b948437-cc94-e909-64eb-951daadb895b/artist-72491",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "NEZZA is a Dominican-Colombian triple threat—singer, dancer, and songwriter—carving her own lane in today’s pop landscape. A proud “no sabe” kid, she reps the Spanglish experience unapologetically, blending sleek bilingual lyrics with infectious melodies and choreography that hits just as hard as her hooks. The Spanglish pop princesa, NEZZA, is on a mission to become the face of pop for a younger generation that looks like her—Latinx, multifaceted, and owning every part of their identity. With visuals as bold as her voice and storytelling rooted in culture, confidence, and emotion, NEZZA is here to move—and move you.",
+    "links": {
+      "apple_music": "https://music.apple.com/au/artist/nezza/1403942659",
+      "instagram": "https://www.instagram.com/babynezza/",
+      "soundcloud": "https://soundcloud.com/nezzaofficial",
+      "spotify": "https://open.spotify.com/artist/0cRKBhWUTEtR1vmA06kVKz",
+      "tiktok": "https://www.tiktok.com/@babynezza?lang=en",
+      "youtube": "https://www.youtube.com/watch?v=fSNAy30q6Lc&list=RDfSNAy30q6Lc&start_radio=1"
+    },
+    "events": [],
+    "location": "SAN JOSE, CA"
   },
   {
     "name": "Nicky Diamonds",
@@ -21187,7 +22151,7 @@
         "day": "2026-03-17",
         "start_time": "22:45",
         "end_time": "23:00",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "NASHVILLE, TN"
@@ -21240,7 +22204,7 @@
         "day": "2026-03-13",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "European Union & German Music Export"
       }
     ]
   },
@@ -21343,7 +22307,7 @@
         "day": "2026-03-16",
         "start_time": "19:00",
         "end_time": "01:30",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       }
     ],
     "location": "WEST LONDON, UNITED KINGDOM, ENGLAND"
@@ -21382,7 +22346,7 @@
         "day": "2026-03-18",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Chris Hawkins Presents"
       },
       {
         "event_id": "MS63409",
@@ -21544,7 +22508,7 @@
         "day": "2026-03-17",
         "start_time": "22:45",
         "end_time": "23:05",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -21590,7 +22554,7 @@
     "entity_id": 2249450,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249450",
     "thumbnail_url": "https://images.sxsw.com/-A6GN0EKJ_tw0XO4iS3gnRywmBY=/450x450/images.sxsw.com/178/0d9d696b-d908-66a0-c9bd-98ce15b5ef47/artist-75764",
-    "announcement_date": "2026-02-12",
+    "announcement_date": "2026-02-15",
     "source": "official",
     "description": "Taking their name from the word for “heart” in the Afro-Cuban religion of Santería, the duo OKAN creates an alchemy of Cuban rhythms and chants with high-octane indie jazz and pop. Singing in Spanish, Yoruba, and Spanglish, OKAN explores resistance, rebirth, and joy — forging rhythm and harmony through acts of survival, both personal and cultural.\n\nFollowing their Juno Award–winning album Okantomi — performed on NPR’s Tiny Desk and toured internationally while supporting Grammy-winning duo Rodrigo y Gabriela — OKAN’s upcoming fall release \"Ife Ira\" features a collaboration with Daymé Arocena.\n\nOKAN is led by violinist and vocalist Elizabeth Rodríguez and percussionist and vocalist Magdelys Savigne — both Grammy and Latin Grammy nominees — whose powerful harmonies and fearless musicianship have earned the duo a global following.",
     "links": {
@@ -21699,7 +22663,7 @@
         "day": "2026-03-13",
         "start_time": "22:40",
         "end_time": "23:20",
-        "presented_by": null
+        "presented_by": "The Luna Collective x Bright Antenna Records"
       }
     ]
   },
@@ -21736,7 +22700,7 @@
         "day": "2026-03-17",
         "start_time": "00:25",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "NEW ORLEANS, LA"
@@ -21871,7 +22835,7 @@
       "apple_music": "https://music.apple.com/us/song/mass-extinction/1815569695",
       "instagram": "https://www.instagram.com/oscar_twinss/?hl=en",
       "spotify": "https://open.spotify.com/track/0sJoYyAwGnUoPzvt6JPT76?si=41af37c3df224179",
-      "youtube": "https://youtu.be/L1v_0TlZF_M?si=nWMlNg1YvWHIwJma"
+      "youtube": "https://youtu.be/L1v_0TlZF_M?si=gZqKouLFXhIi0IrX"
     },
     "events_raw": [],
     "location": "TURIN, ITALY",
@@ -22013,6 +22977,30 @@
     "events_raw": [],
     "location": "SAN FRANCISCO, CA",
     "events": []
+  },
+  {
+    "name": "Ozzy Monroe",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Pop",
+    "city": "Dallas",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2272468,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272468",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-28",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/ozzy-monroe/1502522036",
+      "instagram": "https://www.instagram.com/ozzymonroe/?hl=en",
+      "spotify": "https://open.spotify.com/artist/68ykreyF1DbOomrr7y6AnC?si=Jk6r4V07SaC3WRz33JMsKw",
+      "tiktok": "https://www.tiktok.com/@ozzy.monroe",
+      "website": "https://www.ozzymonroe.com/",
+      "youtube": "https://youtu.be/RzfbuiOCvvE?si=CEKNZRJkzAevXHR5"
+    },
+    "events": [],
+    "location": "DALLAS, TX"
   },
   {
     "name": "P.H.0",
@@ -22232,7 +23220,7 @@
         "day": "2026-03-13",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -22432,7 +23420,7 @@
         "day": "2026-03-17",
         "start_time": "21:20",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -22864,7 +23852,32 @@
     },
     "events_raw": [],
     "location": "SAN FRANCISCO, CA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64104",
+        "event_type": "showcase",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "19:50",
+        "end_time": "20:20",
+        "presented_by": "Pandora Music"
+      },
+      {
+        "event_id": "MS63530",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "The Pink Stones",
@@ -23012,6 +24025,18 @@
     },
     "events": [
       {
+        "event_id": "MS64727",
+        "event_type": "showcase",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "15:00",
+        "end_time": "15:40",
+        "presented_by": null
+      },
+      {
         "event_id": "MS64543",
         "event_type": "showcase",
         "venue": "Radio Day Stage @ Downright Austin Backyard",
@@ -23021,7 +24046,7 @@
         "day": "2026-03-18",
         "start_time": "13:00",
         "end_time": "13:30",
-        "presented_by": null
+        "presented_by": "KOOP Radio + KLKT"
       }
     ],
     "location": "AUSTIN, TX"
@@ -23058,8 +24083,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "20:20",
-        "end_time": "20:50",
+        "start_time": "23:40",
+        "end_time": "00:10",
         "presented_by": null
       },
       {
@@ -23160,7 +24185,20 @@
     },
     "events_raw": [],
     "location": "NASHVILLE, TN",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63168",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "00:15",
+        "end_time": "01:00",
+        "presented_by": "Mint Talent Group"
+      }
+    ]
   },
   {
     "name": "Principe Q",
@@ -23192,7 +24230,7 @@
         "day": "2026-03-14",
         "start_time": "00:45",
         "end_time": "01:15",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ],
     "location": "CORPUS CHRISTI, TX"
@@ -23229,7 +24267,7 @@
         "day": "2026-03-14",
         "start_time": "19:30",
         "end_time": "20:15",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       }
     ]
   },
@@ -23267,7 +24305,7 @@
         "day": "2026-03-17",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -23305,7 +24343,7 @@
         "day": "2026-03-17",
         "start_time": "21:00",
         "end_time": "21:25",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -23476,7 +24514,7 @@
         "day": "2026-03-15",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Traffic Music Group"
       }
     ]
   },
@@ -23571,7 +24609,56 @@
     },
     "events_raw": [],
     "location": "BRISBANE, AUSTRALIA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63207",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "19:15",
+        "end_time": "20:00",
+        "presented_by": "Mint Talent Group"
+      },
+      {
+        "event_id": "MS64050",
+        "event_type": "showcase",
+        "venue": "Radio Day Stage @ Downright Austin Backyard",
+        "venue_id": "V2391",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-13",
+        "start_time": "12:00",
+        "end_time": "12:40",
+        "presented_by": "KCRW"
+      },
+      {
+        "event_id": "MS63940",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "00:30",
+        "end_time": "01:05",
+        "presented_by": "rocknite"
+      },
+      {
+        "event_id": "MS63869",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "00:15",
+        "end_time": "00:45",
+        "presented_by": "Planetary Group"
+      }
+    ]
   },
   {
     "name": "Rafa Parra",
@@ -23632,9 +24719,51 @@
         "day": "2026-03-15",
         "start_time": "20:15",
         "end_time": "20:45",
-        "presented_by": null
+        "presented_by": "Nordic Nite by SXSW"
       }
     ]
+  },
+  {
+    "name": "The Ramona Flowers",
+    "genre": "Pop",
+    "subgenre": "Indie Pop",
+    "city": "Bristol",
+    "country": "United Kingdom, England",
+    "state": null,
+    "entity_id": 2272286,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272286",
+    "thumbnail_url": "https://images.sxsw.com/CfDLKl4fwKNQzsca-hSrLpz7Af4=/450x450/images.sxsw.com/178/e751e5ad-d6a8-457b-c4ad-fd63ff694b1b/artist-74180",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "The Ramona Flowers channel the airtight interplay, undeniable chemistry, and uncontainable energy of four close friends jamming in a room into anthems that are as cinematic as they are catchy. As such, the UK quartet—Steve Bird [vocals], Sam Dyson [guitar], Dave Betts [keys, guitar], and Ed Gallimore [drums]—infuse pop with the personal and tactile touch of live instrumentation, lean songcraft, and lush organic production. In essence, the group ignite a fresh and fiery sound the old-fashioned way.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/that-summer/1861785836?i=1861786201",
+      "bandcamp": "https://theramonaflowers.bandcamp.com",
+      "facebook": "https://www.facebook.com/theramonaflowersmusic/",
+      "instagram": "https://www.instagram.com/theramonaflowers/",
+      "pandora": "https://www.pandora.com/artist/the-ramona-flowers/ARhJfpPd4VPwZdP",
+      "soundcloud": "https://soundcloud.com/theramonaflowers",
+      "spotify": "https://open.spotify.com/track/6hEglJgbzUWPUhfaGF7p7i?si=a09d67bc9b2945dc",
+      "tiktok": "https://www.tiktok.com/@theramonaflowersmusic",
+      "twitter": "https://x.com/theramonaflower",
+      "website": "https://theramonaflowersband.com/",
+      "youtube": "https://www.youtube.com/watch?v=HD8ExaxE-sc"
+    },
+    "events": [
+      {
+        "event_id": "MS64884",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "20:50",
+        "end_time": "21:20",
+        "presented_by": null
+      }
+    ],
+    "location": "BRISTOL, UNITED KINGDOM, ENGLAND"
   },
   {
     "name": "Rampage Sound",
@@ -23665,7 +24794,7 @@
         "day": "2026-03-16",
         "start_time": "23:30",
         "end_time": "01:30",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       },
       {
         "event_id": "MS64360",
@@ -23677,7 +24806,7 @@
         "day": "2026-03-16",
         "start_time": "20:00",
         "end_time": "21:00",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       }
     ],
     "location": "LONDON, UNITED KINGDOM, ENGLAND"
@@ -23779,7 +24908,7 @@
         "day": "2026-03-17",
         "start_time": "20:25",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -23853,7 +24982,7 @@
         "day": "2026-03-17",
         "start_time": "23:25",
         "end_time": "23:55",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       }
     ]
   },
@@ -23967,7 +25096,7 @@
         "day": "2026-03-16",
         "start_time": "23:00",
         "end_time": "23:35",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -24289,7 +25418,7 @@
         "day": "2026-03-17",
         "start_time": "21:25",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "PULASKI, TN"
@@ -24484,7 +25613,7 @@
         "day": "2026-03-13",
         "start_time": "13:00",
         "end_time": "13:40",
-        "presented_by": null
+        "presented_by": "KCRW"
       }
     ]
   },
@@ -24571,7 +25700,7 @@
     "state": "NY",
     "entity_id": 2265473,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2265473",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/kL5oEUaZNLziS9UDCN747V4yo9I=/450x450/images.sxsw.com/178/b775837a-dd0e-64b8-21f3-6a0a628d6797/artist-74537",
     "announcement_date": "2026-02-24",
     "source": "official",
     "description": "Sage Bava is an artist, writer, and creator. Her debut “deeply soulful” (LA Times) album, 'In Whose Eyes' , arriving spring 2026, features Christian McBride, Braxton Cook, Larry Goldings, Anthony Wilson, and more, and is co-produced by Sage and Larry Klein. Recent festival performances include Burning Man and BottleRock. Raised on Odonata, an animal rescue and nature preserve, her mantra, “We are nature, and the more we sever ourselves, the more we harm,” is central to her creativity. She began performing, acting, and writing at age ten, was mentored early on by Les Paul, and went on to earn a master’s degree in Production and Contemporary Performance from Berklee. A passionate storyteller, Sage published the poetry/prose collection 'The Taste of Pomegranate Seeds' and is also dedicated to journalism, with several published articles covering music, culture, and wellness.",
@@ -24746,7 +25875,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS64008",
@@ -24758,7 +25887,7 @@
         "day": "2026-03-12",
         "start_time": "19:30",
         "end_time": "20:10",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ]
   },
@@ -24864,7 +25993,7 @@
     "state": null,
     "entity_id": 2258299,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2258299",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/v9SA8z6JwMDbD4warsTMOe-5pko=/450x450/images.sxsw.com/178/f14fab7b-652a-b317-d60c-b6c972d55f4f/artist-75371",
     "announcement_date": "2026-02-26",
     "source": "official",
     "description": "Samurai Drive are Daniel Riederauer and Soma Nove. Their music strives to create a cinematic sonic experience, reflecting elements of electronic, blues and new wave musical genres, combined with a dark film-noir aesthetic. Samurai Drive is best served driving down lonesome highways through the midnight hours.",
@@ -25069,7 +26198,7 @@
         "day": "2026-03-18",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Chris Hawkins Presents"
       },
       {
         "event_id": "MS63296",
@@ -25157,7 +26286,7 @@
         "day": "2026-03-12",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "[PIAS]"
       }
     ]
   },
@@ -25361,10 +26490,10 @@
     "state": "TX",
     "entity_id": 2247348,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2247348",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/1j4juz77YNozN3E5ybRg76qXcF4=/450x450/images.sxsw.com/178/8cc2c0d3-3dad-6b60-3948-a29a60b6ef9d/artist-76119",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "BORN AND RAISED IN AUSTIN, TEXAS, SERTIFIED GREW UP SURROUNDED BY THE PULSE OF HIS CITY'S EVOLVING HIP HOP SCENE LONG BEFORE HE EVER TOUCHED A STAGE. WHAT BEGAN AS A KID FREESTYLING ON THE SOUTHSIDE TURNED INTO A LIFELONG COMMITMENT TO ELEVATING HIS CRAFT, HIS CITY, AND THE CULTURE THAT RAISED HIM.\n\nIN 2025, SERTIFIED REACHED A CAREER DEFINING MILESTONE WHEN HIS PROJECT \"I FORGOT I RAP\" EARNED ALBUM OF THE YEAR IN THE AUSTIN HIP HOP AWARDS. CELEBRATED FOR ITS HONESTY, STORYTELLING, AND POLISHED EXECUTION, THE PROJECT BLENDED TEXAS AUTHENTICITY WITH INTERNATIONAL AMBITION AND MARKED A TRUE TURNING POINT. IT PROVED THAT SERTIFIED WAS NOT JUST A LOCAL STANDOUT BUT A GLOBAL CONTENDER WITH THE ABILITY TO SHIFT CULTURE AND INSPIRE LISTENERS FAR BEYOND HIS HOMETOWN.\n\nHIS MOMENTUM CONTINUED INTERNATIONALLY, PERFORMING AT SXSW SYDNEY AND BUILDING A GROWING FANBASE ABROAD WHILE CARRYING AUSTIN CULTURE ONTO GLOBAL STAGES. KNOWN FOR HIS GRINDING DISCIPLINE, SHARP PEN, AND ABILITY TO BLEND STREET WISDOM WITH MOTIVATIONAL ENERGY, SERTIFIED CREATES MUSIC THAT REFLECTS BOTH THE STRUGGLE AND THE TRIUMPH OF ELEVATION.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/sertified/542574463",
       "bandcamp": "https://sertified.bandcamp.com",
@@ -25501,7 +26630,7 @@
         "day": "2026-03-18",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Reggae Nite"
       }
     ]
   },
@@ -25539,7 +26668,7 @@
         "day": "2026-03-17",
         "start_time": "21:50",
         "end_time": "22:35",
-        "presented_by": null
+        "presented_by": "Nourishing The Soul 2026"
       }
     ]
   },
@@ -25576,7 +26705,7 @@
         "day": "2026-03-16",
         "start_time": "22:20",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       }
     ]
   },
@@ -25614,7 +26743,7 @@
         "day": "2026-03-17",
         "start_time": "23:30",
         "end_time": "23:55",
-        "presented_by": null
+        "presented_by": "Nerdcore"
       }
     ]
   },
@@ -25809,7 +26938,7 @@
         "day": "2026-03-14",
         "start_time": "22:55",
         "end_time": "23:15",
-        "presented_by": null
+        "presented_by": "La Buena Onda"
       },
       {
         "event_id": "MS63470",
@@ -25821,7 +26950,7 @@
         "day": "2026-03-15",
         "start_time": "21:00",
         "end_time": "21:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
@@ -25924,32 +27053,7 @@
       "website": "https://sibbyliv.com",
       "youtube": "https://www.youtube.com/watch?v=1KfGHB1jZd4&t=8s"
     },
-    "events": [
-      {
-        "event_id": "MS64584",
-        "event_type": "showcase",
-        "venue": "Global Stage @ Downright Austin Backyard",
-        "venue_id": "V2392",
-        "parent_venue": "Downright Austin",
-        "age_policy": null,
-        "day": "2026-03-12",
-        "start_time": "19:00",
-        "end_time": "19:30",
-        "presented_by": "All The Vibes"
-      },
-      {
-        "event_id": "MS64374",
-        "event_type": "showcase",
-        "venue": "Coconut Club",
-        "venue_id": "V1888",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "presented_by": null
-      }
-    ],
+    "events": [],
     "location": "PHILADELPHIA, PA"
   },
   {
@@ -26026,7 +27130,7 @@
         "day": "2026-03-15",
         "start_time": "19:00",
         "end_time": "19:25",
-        "presented_by": null
+        "presented_by": "Nordic Nite by SXSW"
       }
     ]
   },
@@ -26138,7 +27242,7 @@
         "day": "2026-03-18",
         "start_time": "00:00",
         "end_time": "00:40",
-        "presented_by": null
+        "presented_by": "Music Box ATX"
       }
     ]
   },
@@ -26300,18 +27404,6 @@
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
     "events": [
       {
-        "event_id": "MS64267",
-        "event_type": "showcase",
-        "venue": "British Music Embassy @ Palm Door on Sixth",
-        "venue_id": "V0209",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-13",
-        "start_time": "22:00",
-        "end_time": "22:30",
-        "presented_by": null
-      },
-      {
         "event_id": "MS64000",
         "event_type": "showcase",
         "venue": "Austin City Limits Live at the Moody Theater",
@@ -26321,7 +27413,19 @@
         "day": "2026-03-12",
         "start_time": "20:30",
         "end_time": "21:15",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
+      },
+      {
+        "event_id": "MS64267",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth",
+        "venue_id": "V0209",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "22:00",
+        "end_time": "22:30",
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -26464,7 +27568,7 @@
         "day": "2026-03-15",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "Traffic Music Group"
       }
     ]
   },
@@ -26654,7 +27758,7 @@
         "day": "2026-03-14",
         "start_time": "15:00",
         "end_time": "15:40",
-        "presented_by": null
+        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS64405",
@@ -26678,7 +27782,7 @@
         "day": "2026-03-13",
         "start_time": "22:20",
         "end_time": "22:50",
-        "presented_by": null
+        "presented_by": "Pandora Music"
       }
     ]
   },
@@ -26909,7 +28013,7 @@
         "day": "2026-03-15",
         "start_time": "22:30",
         "end_time": "23:00",
-        "presented_by": null
+        "presented_by": "Nordic Nite by SXSW"
       }
     ]
   },
@@ -26938,7 +28042,7 @@
         "day": "2026-03-16",
         "start_time": "22:45",
         "end_time": "23:05",
-        "presented_by": null
+        "presented_by": "West LDN Carnival on 6th"
       }
     ],
     "location": "United States"
@@ -27038,7 +28142,7 @@
         "day": "2026-03-15",
         "start_time": "00:50",
         "end_time": "01:50",
-        "presented_by": null
+        "presented_by": "Fire Records x Songbird x Anniversary"
       },
       {
         "event_id": "MS63441",
@@ -27101,7 +28205,7 @@
         "day": "2026-03-14",
         "start_time": "22:00",
         "end_time": "23:00",
-        "presented_by": null
+        "presented_by": "DJ_Dave"
       }
     ]
   },
@@ -27130,7 +28234,7 @@
         "day": "2026-03-15",
         "start_time": "01:00",
         "end_time": "01:50",
-        "presented_by": null
+        "presented_by": "Traffic Music Group"
       }
     ],
     "location": "BOSTON, TX"
@@ -27172,7 +28276,7 @@
         "day": "2026-03-14",
         "start_time": "19:00",
         "end_time": "19:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       }
     ]
   },
@@ -27218,6 +28322,45 @@
     ]
   },
   {
+    "name": "Steve Ray Ladson",
+    "genre": "Singer-Songwriter",
+    "subgenre": "Country",
+    "city": "Hopkins",
+    "country": "United States",
+    "state": "SC",
+    "entity_id": 2270845,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270845",
+    "thumbnail_url": "https://images.sxsw.com/UU88nF9ei-VzvVblTUxcbkdJr6o=/450x450/images.sxsw.com/178/06f9eb4a-dfd5-f4af-8924-5f25b0a1956c/artist-76493",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "STEVE RAY LADSON IS THE CREATOR OF BLACKGRASS BROTHERCANA—A FEARLESS FUSION OF AMERICANA, COUNTRY, BLUES, ROCK, AND SOUL DRIVEN BY GRITTY VOCALS AND BANJO-FUELED FIRE. RAISED SINGING IN CHURCH, HIS MUSIC IS ROOTED IN TRUTH AND LIVED EXPERIENCE. ON AMERICA’S GOT TALENT, HE ADVANCED THROUGH EVERY ROUND PERFORMING ONLY ORIGINAL MUSIC, WITH “BACK OF MY TRUCK”REACHING #1 IN COUNTRY MUSIC. NOW TOURING INTERNATIONALLY ACROSS EUROPE, ASIA, AND THE UAE, STEVE DELIVERS AUTHENTICITY THAT HITS WORLDWIDE.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/steve-ray-ladson/1497960189",
+      "bandcamp": "https://steverayladson.bandcamp.com/track/back-of-my-truck",
+      "facebook": "https://www.facebook.com/SteveRayLadson",
+      "instagram": "https://www.instagram.com/steverayladson?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr",
+      "spotify": "https://open.spotify.com/artist/2CokAz18TsHK3OTTJFFmNQ",
+      "tiktok": "https://www.tiktok.com/@steverayladson",
+      "website": "https://www.steverayladson.net",
+      "youtube": "https://youtu.be/HQKXkMN2EmQ?si=4Hnt78DCxnpAHCCP"
+    },
+    "events": [
+      {
+        "event_id": "MS64842",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "21:40",
+        "end_time": "22:00",
+        "presented_by": "ATX Social Club"
+      }
+    ],
+    "location": "HOPKINS, SC"
+  },
+  {
     "name": "Steven Bamidele",
     "genre": "Jazz",
     "subgenre": "Indie Pop",
@@ -27253,7 +28396,7 @@
         "day": "2026-03-13",
         "start_time": "16:00",
         "end_time": "16:40",
-        "presented_by": null
+        "presented_by": "KCRW"
       },
       {
         "event_id": "MS63925",
@@ -27277,7 +28420,7 @@
         "day": "2026-03-14",
         "start_time": "22:00",
         "end_time": "22:30",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -27312,7 +28455,7 @@
         "day": "2026-03-15",
         "start_time": "13:00",
         "end_time": "13:30",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       },
       {
         "event_id": "MS63268",
@@ -27430,25 +28573,6 @@
     "location": "ORLANDO, FL"
   },
   {
-    "name": "Sudaka",
-    "genre": "Latin",
-    "subgenre": "Cumbia",
-    "city": "Cedar Hill",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2244602,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2244602",
-    "thumbnail_url": "https://images.sxsw.com/G28f8RUIdvTZGIT80ZtC6NRjgGI=/450x450/images.sxsw.com/178/bfef3f54-2009-9eea-4668-f798c371e981/artist-75932",
-    "announcement_date": "2026-02-20",
-    "source": "official",
-    "description": "“Peruvian-born vinyl selector currently based in Dallas, TX. Sudaka lived in Lima (Los Olivos) the first 10 years of his life. He was exposed to Peruvian Chicha (Psychedelic cumbia) music since early age and enjoys bringing the genre to bigger audiences”.",
-    "links": {
-      "instagram": "https://www.instagram.com/senhorsudaka/"
-    },
-    "events": [],
-    "location": "CEDAR HILL, TX"
-  },
-  {
     "name": "Sugabooo",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hip-Hop / Rap",
@@ -27543,7 +28667,32 @@
     },
     "events_raw": [],
     "location": "OSLO, NORWAY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64503",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "19:50",
+        "end_time": "20:20",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63263",
+        "event_type": "showcase",
+        "venue": "Zilker Brewing",
+        "venue_id": "V1281",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:30",
+        "presented_by": "Nordic Nite by SXSW"
+      }
+    ]
   },
   {
     "name": "Sun Room",
@@ -27628,13 +28777,15 @@
     "state": "TX",
     "entity_id": 2262565,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2262565",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/jiIipbPQAY-VcAHPj_Vba9AE_WI=/450x450/images.sxsw.com/178/b07ecbb6-ab63-3458-bb6e-77f10310bc6e/artist-76443",
     "announcement_date": "2026-02-26",
     "source": "official",
     "description": "Sunnitharapper is a Houston-based rapper with confidence you can feel the second she walks in the room. Born in Los Angeles and raised in Missouri City, Texas, she started taking music seriously in high school not because it was trendy, but because it felt natural. She’s had early exposure to the industry through development experiences connected to Mathew Knowles, but her real growth came from figuring it out herself. Trial, error, independent releases, long studio nights all of it shaped her sound. Her music is bold, fun, and direct. It’s about feeling good, looking good, standing on business, and not shrinking for anyone. She doesn’t try to be overly lyrical for validation or overly commercial for approval she makes records that match her personality: confident, feminine, and unapologetic. With a growing streaming presence and consistent visuals, Sunnitharapper is building her brand the organic way by showing up, staying consistent, and connecting with people who genuinely rock with her energy. She’s not chasing trends. She’s building longevity.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/sunnitharapper/1600220144",
+      "facebook": "https://www.facebook.com/HbicSunnitharapper/",
       "instagram": "https://www.instagram.com/sunnitharapper?igsh=MWo5ZWx0cmdia3ozcg==",
+      "soundcloud": "https://soundcloud.com/sunnitharapperr",
       "spotify": "https://open.spotify.com/artist/2KpLGbnpFTj3QUUSlB2mQO?si=o12LJ7QdTKWs",
       "tiktok": "https://www.tiktok.com/@sunnitharapper?_r=1&_t=ZT-943MiQkesWM",
       "twitter": "https://x.com/sunnitharapper?s=21"
@@ -27751,7 +28902,7 @@
         "day": "2026-03-12",
         "start_time": "18:30",
         "end_time": "19:00",
-        "presented_by": null
+        "presented_by": "Rolling Stone Future of Music"
       }
     ]
   },
@@ -27827,7 +28978,7 @@
         "day": "2026-03-14",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Berlin Partner"
       },
       {
         "event_id": "MS63707",
@@ -27993,7 +29144,32 @@
     },
     "events_raw": [],
     "location": "HAMBURG, GERMANY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64396",
+        "event_type": "showcase",
+        "venue": "Marlow",
+        "venue_id": "V2194",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "01:00",
+        "end_time": "01:30",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63155",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "21:30",
+        "end_time": "22:00",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "Talise",
@@ -28158,7 +29334,54 @@
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63743",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": null
+      }
+    ]
+  },
+  {
+    "name": "THEBROSFRESH",
+    "genre": "R & B",
+    "subgenre": "Rock",
+    "city": "Geismar",
+    "country": "United States",
+    "state": "LA",
+    "entity_id": 2273558,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2273558",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-28",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/thebrosfresh",
+      "tiktok": "https://www.tiktok.com/@thebrosfresh",
+      "website": "https://www.thebrosfresh.com"
+    },
+    "events": [
+      {
+        "event_id": "MS64919",
+        "event_type": "showcase",
+        "venue": "Rivian Electric Roadhouse",
+        "venue_id": "V2316",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "14:00",
+        "end_time": "14:40",
+        "presented_by": null
+      }
+    ],
+    "location": "GEISMAR, LA"
   },
   {
     "name": "Thelma and The Sleaze",
@@ -28314,7 +29537,7 @@
         "day": "2026-03-18",
         "start_time": "12:00",
         "end_time": "12:30",
-        "presented_by": null
+        "presented_by": "KOOP Radio + KLKT"
       }
     ],
     "location": "LOCKHART, TX"
@@ -28342,7 +29565,20 @@
     },
     "events_raw": [],
     "location": "AUGUSTA, GA",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63712",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "22:00",
+        "end_time": "22:20",
+        "presented_by": "HOT TAKES"
+      }
+    ]
   },
   {
     "name": "The Tiarras",
@@ -28531,7 +29767,7 @@
         "day": "2026-03-15",
         "start_time": "17:40",
         "end_time": "18:10",
-        "presented_by": null
+        "presented_by": "Northern Sound"
       },
       {
         "event_id": "MS63725",
@@ -28543,7 +29779,7 @@
         "day": "2026-03-13",
         "start_time": "23:20",
         "end_time": "23:50",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63266",
@@ -28644,11 +29880,10 @@
     "entity_id": 2240293,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240293",
     "thumbnail_url": "https://images.sxsw.com/eNWbwm1HEPWa_2Oj5tuVjAhvKks=/450x450/images.sxsw.com/178/a725faf7-ed29-8a72-ecb7-e190665bfb6f/artist-74915",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "Torture and the Desert Spiders is a NYC-based indie post-punk project based on the songwriting of NY-native Anna Kunz. The project, previously based in the north of England, has performed well over 400 shows since its inception, including a currently running 46+ week headline residency in NYC as well as shows for the BBC at the Cavern Club (Liverpool), at Webster Hall (NYC), for the British Arts Council with Mattiel (Hull), at Kendal Calling Festival (2022, 2023), and sold out shows at the Supersonic Club (Paris), The Windmill Brixton (London), and Night and Day (Manchester, UK).\nThe project has recently released two singles mixed by Alex Poeppel (Telescreens). Torture and the Desert Spiders next NYC show will be supporting Cab Ellis at the Bowery Ballroom on January 9th.",
     "links": {
-      "apple_music": "https://music.apple.com/us/album/working-on-myself-single/1836579341",
       "bandcamp": "https://tortureandthedesertspiders.bandcamp.com",
       "facebook": "https://www.facebook.com/TortureandtheDesertSpiders/",
       "instagram": "https://www.instagram.com/tortureandthedesertspiders/?hl=en",
@@ -28711,7 +29946,7 @@
         "day": "2026-03-16",
         "start_time": "00:00",
         "end_time": "00:30",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       },
       {
         "event_id": "MS63416",
@@ -28827,7 +30062,7 @@
         "day": "2026-03-17",
         "start_time": "23:25",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "Chopstars: Taco Tuesday"
       }
     ],
     "location": "MOBILE, AL"
@@ -28867,7 +30102,7 @@
         "day": "2026-03-17",
         "start_time": "22:35",
         "end_time": "23:05",
-        "presented_by": null
+        "presented_by": "Make Out Music "
       },
       {
         "event_id": "MS63420",
@@ -28879,7 +30114,7 @@
         "day": "2026-03-16",
         "start_time": "22:40",
         "end_time": "23:15",
-        "presented_by": null
+        "presented_by": "rocknite"
       }
     ]
   },
@@ -29058,7 +30293,7 @@
         "day": "2026-03-14",
         "start_time": "23:20",
         "end_time": "23:50",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       }
     ]
   },
@@ -29097,7 +30332,7 @@
         "day": "2026-03-18",
         "start_time": "21:20",
         "end_time": "21:50",
-        "presented_by": null
+        "presented_by": "Chris Hawkins Presents"
       },
       {
         "event_id": "MS63945",
@@ -29121,7 +30356,7 @@
         "day": "2026-03-13",
         "start_time": "15:00",
         "end_time": "15:40",
-        "presented_by": null
+        "presented_by": "KCRW"
       },
       {
         "event_id": "MS63226",
@@ -29133,7 +30368,7 @@
         "day": "2026-03-15",
         "start_time": "23:00",
         "end_time": "23:40",
-        "presented_by": null
+        "presented_by": "BIGSOUND Festival"
       }
     ]
   },
@@ -29277,7 +30512,44 @@
     },
     "events_raw": [],
     "location": "GUIMARÃES, PORTUGAL",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64316",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "01:00",
+        "end_time": "01:50",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64252",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "23:10",
+        "end_time": "23:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS63140",
+        "event_type": "showcase",
+        "venue": "Elysium",
+        "venue_id": "V0182",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": null
+      }
+    ]
   },
   {
     "name": "urboi.",
@@ -29327,6 +30599,43 @@
     "events_raw": [],
     "location": "CHICAGO, IL",
     "events": []
+  },
+  {
+    "name": "Valice",
+    "genre": "Pop",
+    "subgenre": "Rock",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2270254,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2270254",
+    "thumbnail_url": null,
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/valice/1452450285",
+      "instagram": "https://www.instagram.com/valice_band/",
+      "spotify": "https://open.spotify.com/artist/1QzY7H9FEITQbRwrHq6Kpf?si=Xsf8RZgbRnG5elzIYwwkSQ",
+      "tiktok": "https://www.tiktok.com/@valiceband?_r=1&_t=ZT-91bNj9BFG4d",
+      "website": "https://www.valiceband.com/about-us",
+      "youtube": "https://youtu.be/nAkU5lQXt_o?si=ODWR9HazOohafCTR"
+    },
+    "events": [
+      {
+        "event_id": "MS64796",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "21:25",
+        "end_time": "21:35",
+        "presented_by": "ATX Social Club"
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Valsian",
@@ -29475,7 +30784,20 @@
     },
     "events_raw": [],
     "location": "BROOKLYN, NY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS63194",
+        "event_type": "showcase",
+        "venue": "Swan Dive",
+        "venue_id": "V0230",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "22:15",
+        "end_time": "23:00",
+        "presented_by": "Mint Talent Group"
+      }
+    ]
   },
   {
     "name": "Victoryland",
@@ -29510,7 +30832,7 @@
         "day": "2026-03-16",
         "start_time": "21:45",
         "end_time": "22:20",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS63362",
@@ -29806,7 +31128,20 @@
       "twitter": "https://x.com/wavysaleen",
       "youtube": "https://youtu.be/BtASRj-mHGo?si=7kV8kXM69mA4WRUa"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64798",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "20:15",
+        "end_time": "20:25",
+        "presented_by": "ATX Social Club"
+      }
+    ],
     "location": "PLEASANT GROVE, TX"
   },
   {
@@ -29844,7 +31179,7 @@
         "day": "2026-03-13",
         "start_time": "22:40",
         "end_time": "23:10",
-        "presented_by": null
+        "presented_by": "BBC Introducing"
       },
       {
         "event_id": "MS63340",
@@ -29890,7 +31225,7 @@
         "day": "2026-03-16",
         "start_time": "19:20",
         "end_time": "19:55",
-        "presented_by": null
+        "presented_by": "rocknite"
       },
       {
         "event_id": "MS63764",
@@ -30023,6 +31358,18 @@
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
     "events": [
       {
+        "event_id": "MS63252",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth",
+        "venue_id": "V0209",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "22:40",
+        "end_time": "23:10",
+        "presented_by": "BBC Introducing"
+      },
+      {
         "event_id": "MS64458",
         "event_type": "showcase",
         "venue": "Shangri-La",
@@ -30032,7 +31379,7 @@
         "day": "2026-03-13",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": null
+        "presented_by": "Pandora Music"
       },
       {
         "event_id": "MS63784",
@@ -30045,18 +31392,6 @@
         "start_time": "00:00",
         "end_time": "00:30",
         "presented_by": "Rockaway Beach"
-      },
-      {
-        "event_id": "MS63252",
-        "event_type": "showcase",
-        "venue": "British Music Embassy @ Palm Door on Sixth",
-        "venue_id": "V0209",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-14",
-        "start_time": "22:40",
-        "end_time": "23:10",
-        "presented_by": null
       }
     ]
   },
@@ -30149,7 +31484,44 @@
     },
     "events_raw": [],
     "location": "NEW YORK, NY",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64278",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "19:50",
+        "end_time": "20:20",
+        "presented_by": "Deloyd Elze x Make Out Music "
+      },
+      {
+        "event_id": "MS63984",
+        "event_type": "showcase",
+        "venue": "Swan Dive",
+        "venue_id": "V0230",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "00:15",
+        "end_time": "01:00",
+        "presented_by": "Mint Talent Group"
+      },
+      {
+        "event_id": "MS63276",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "presented_by": "Planetary Group"
+      }
+    ]
   },
   {
     "name": "Willgood",
@@ -30222,7 +31594,7 @@
         "day": "2026-03-14",
         "start_time": "22:00",
         "end_time": "22:40",
-        "presented_by": null
+        "presented_by": "Poplife"
       },
       {
         "event_id": "MS64253",
@@ -30300,7 +31672,7 @@
         "day": "2026-03-16",
         "start_time": "19:30",
         "end_time": "20:00",
-        "presented_by": null
+        "presented_by": "Deloyd Elze x Make Out Music "
       }
     ]
   },
@@ -30342,6 +31714,43 @@
         "presented_by": "Athens in Austin"
       }
     ]
+  },
+  {
+    "name": "Woes",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Punk",
+    "city": "Chicago",
+    "country": "United States",
+    "state": "IL",
+    "entity_id": 2262572,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2262572",
+    "thumbnail_url": "https://images.sxsw.com/a72TI3blzUov-dwkJ9oa50COYZA=/450x450/images.sxsw.com/178/2c11c3cd-6471-2849-85ac-33c1b9b68807/artist-76086",
+    "announcement_date": "2026-02-27",
+    "source": "official",
+    "description": "Woes is a 30 year old rap artist born in Chicago. At an early age, Woes gravitated towards pursuing a career in music. After failing to finish high school & getting kicked out of college while studying music, Woes quickly found his voice defying authority. As a young middle eastern adult he became fixated on systemic oppression. After leaving college, the city of Chicago became Woes' greatest professor. Woes is the definition of DIY. Early on in his career, he recognized the politics & corruption that take place in music venues & it shows. Woes quickly became known for his guerrilla marketing tactics & his \"by any means necessary\" attitude in Chicago. Over the last 2 years, he has been seen numerous times outside of music festivals rapping from the roof of a box truck. (usually covered with graffiti)\n\nPreviously, Woes attended SXSW unofficially - bringing a reclaimed city payphone that he turned into the, \"Woes Phone.\" Using the payphone as a microphone, Woes was seen performing around Austin using the streets as his stage. Woes has quickly made it public knowledge he is not the type to ask for permission. He has something to say and has made it clear nobody will get in his way.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/woes/1481361014",
+      "instagram": "https://www.instagram.com/iwoes/",
+      "soundcloud": "https://soundcloud.com/woesmusic",
+      "spotify": "https://open.spotify.com/track/4kUcsBOoup5V9NY5X2w4bn?si=ddf24c1fa8714a92",
+      "twitter": "https://x.com/woesblows",
+      "youtube": "https://www.youtube.com/watch?v=vtAKHAeiGDM"
+    },
+    "events": [
+      {
+        "event_id": "MS64524",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "20:20",
+        "presented_by": "HOT TAKES"
+      }
+    ],
+    "location": "CHICAGO, IL"
   },
   {
     "name": "A Wordless Orange",
@@ -30502,8 +31911,8 @@
         "parent_venue": "Swan Dive",
         "age_policy": "21+",
         "day": "2026-03-12",
-        "start_time": "21:25",
-        "end_time": "21:40",
+        "start_time": "20:45",
+        "end_time": "21:00",
         "presented_by": "ATX Social Club"
       }
     ]
@@ -30577,14 +31986,27 @@
     "entity_id": 2262456,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2262456",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-20",
+    "announcement_date": "2026-02-27",
     "source": "official",
     "description": "",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/xrarestboy/1626215371",
       "spotify": "https://open.spotify.com/artist/6DJQgVZAL9Rmg1junx5jg4?si=a0UI8XKbT5SM8jdpmKC7Cg"
     },
-    "events": [],
+    "events": [
+      {
+        "event_id": "MS64515",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "19:40",
+        "end_time": "19:55",
+        "presented_by": "Kaash Paige & Friends"
+      }
+    ],
     "location": "LOS ANGELES, CA"
   },
   {
@@ -30716,7 +32138,32 @@
     },
     "events_raw": [],
     "location": "GLASGOW, UNITED KINGDOM, SCOTLAND",
-    "events": []
+    "events": [
+      {
+        "event_id": "MS64627",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+        "venue_id": "V0272",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "00:00",
+        "end_time": "00:30",
+        "presented_by": "BBC Introducing"
+      },
+      {
+        "event_id": "MS63320",
+        "event_type": "showcase",
+        "venue": "Swan Dive Patio",
+        "venue_id": "V0282",
+        "parent_venue": "Swan Dive",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:20",
+        "end_time": "22:00",
+        "presented_by": "Wide Days Scotland"
+      }
+    ]
   },
   {
     "name": "Yes Sir, No Sir.",
@@ -30727,16 +32174,18 @@
     "state": "TX",
     "entity_id": 2269383,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2269383",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/RSzPehHBcKliKAd5u4BJXkzAPsg=/450x450/images.sxsw.com/178/69c90555-16cb-967b-dc71-11270380b53c/artist-76530",
     "announcement_date": "2026-02-25",
     "source": "official",
-    "description": "",
+    "description": "Yes Sir, No Sir blends atmospheric grooves, anthemic guitars, and baritone-driven melodies into a sound that balances nostalgia with forward momentum. Drawing from 80s new wave, post-punk, and 00s indie rock, the band creates cinematic songs that shift between sparse tension and big, emotional release. Their music explores the moments and relationships that shape a life — from restless youth to reflective adulthood — delivered with earnest energy and unapologetic rock production. Based in Austin and recorded with producer Kevin Butler at Test Tube Audio, YSNS continues to make music built for late-night drives and shared experiences that linger long after the last note.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/yes-sir-no-sir/1569970699",
+      "apple_music": "https://music.apple.com/us/album/this-is-going-to-last-forever/1791564528",
+      "facebook": "https://www.facebook.com/ysnsband",
       "instagram": "https://www.instagram.com/ysnsband/",
       "soundcloud": "https://soundcloud.com/ysnsband",
-      "spotify": "https://open.spotify.com/artist/78avK5PliIChHsYMdcsMKK?si=K7wU2hO8RYOEkrnC9S4mAw",
-      "website": "https://www.ysnsband.com/"
+      "spotify": "https://open.spotify.com/track/0nG026jCqJhqAu2l8QiMeA?si=2a13f17fc3254b2d",
+      "website": "https://www.ysnsband.com/",
+      "youtube": "https://www.youtube.com/watch?v=29S6AwGkk0Y"
     },
     "events": [
       {
@@ -31053,6 +32502,7 @@
     "source": "official",
     "description": "Zae France isn’t just making music, he’s redefining R&B. Blending nostalgia with innovation, his latest releases, including his\nelectrifying new single “RAX” and fan-favorite “Start 2 Finish,” have further solidified his status as one of the genre’s leading voices in\n2025.\n\nWith standout records like “Give It Up,” “Layin’ Low” with Ne-Yo, “Leg Day,” and “Whoa” featuring DaDa, Zae has amassed millions of streams, proving his ability to craft timeless hits that resonate.\n\nFresh off a highly successful 25-city tour with Eric Bellinger in 2024, he continues to captivate audiences with his smooth melodies, heartfelt lyricism, and undeniable\nstage presence. His influence extends beyond the music, with major media spotlights on Revolt TV, On The Radar Radio, and MajorStage’s Pink Room with Drea.\n\nBacked by industry heavyweights and a\nrapidly growing fanbase, Zae France isn’t\njust part of R&B’s new wave, he’s shaping\nits future, one timeless record at a time",
     "links": {
+      "apple_music": "https://music.apple.com/us/album/rax/1830026087?i=1830026088",
       "instagram": "https://www.instagram.com/zaefrance?igsh=MTBiZTk2ZzkzenAzeg==",
       "pandora": "https://www.pandora.com/artist/zae-france/ARh7wJknPrf6w54",
       "soundcloud": "https://on.soundcloud.com/wZXQGvoOQgMGPbkFYK",
@@ -31223,7 +32673,7 @@
         "day": "2026-03-18",
         "start_time": "20:00",
         "end_time": "20:40",
-        "presented_by": null
+        "presented_by": "EQ Austin"
       }
     ]
   },
