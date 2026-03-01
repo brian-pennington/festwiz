@@ -2173,6 +2173,12 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   margin-bottom: 8px;
 }
 
+.sched-detail-genre {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
 .sched-detail-meta {
   font-size: 14px;
   color: var(--text-muted);
@@ -2187,11 +2193,18 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   min-height: 4px;
 }
 
+.sched-detail-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
 .sched-detail-rating {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 12px;
   flex-wrap: wrap;
 }
 
@@ -2201,9 +2214,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   flex-shrink: 0;
 }
 
-.sched-detail-link {
-  margin-bottom: 16px;
-}
+.sched-detail-link { /* now inline in rating row — no bottom margin needed */ }
 
 .sched-detail-other {
   margin-bottom: 16px;
@@ -2226,7 +2237,10 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   padding: 5px 0;
   border-top: 1px solid var(--border);
   font-size: 13px;
+  text-decoration: none;
+  color: inherit;
 }
+.detail-other-row:hover { opacity: 0.75; }
 
 .detail-other-venue {
   font-weight: 600;

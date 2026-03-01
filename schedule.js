@@ -187,6 +187,8 @@
               genre:    (a.genre    || '').toLowerCase(),
               subgenre: (a.subgenre || '').toLowerCase(),
               location: (a.location || [a.city, a.state, a.country].filter(Boolean).join(', ')).toLowerCase(),
+              displayGenre:    a.genre    || '',
+              displaySubgenre: a.subgenre || '',
             };
           }
         }
@@ -1087,6 +1089,18 @@
     const searchParam = encodeURIComponent(show.artist_name);
     document.getElementById('detail-artist').innerHTML =
       `${escHtml(show.artist_name)} <a href="/?search=${searchParam}" class="detail-artist-edit-link">(edit in artists)</a>`;
+
+    // Genre / subgenre from artist metadata
+    const meta = artistMetaMap[show.artist_name.toLowerCase()];
+    const genreEl = document.getElementById('detail-genre');
+    if (meta) {
+      const parts = [meta.displayGenre, meta.displaySubgenre].filter(Boolean);
+      genreEl.textContent = parts.join(' / ');
+      genreEl.style.display = parts.length ? '' : 'none';
+    } else {
+      genreEl.style.display = 'none';
+    }
+
     document.getElementById('detail-meta').innerHTML =
       `${escHtml(formatTime12(show.start_time))}${show.end_time ? ' – ' + escHtml(formatTime12(show.end_time)) : ''} · ${escHtml(show.venue)} · ${escHtml(formatDayLabel(show.day))} <span class="detail-admission detail-admission--${admission}">${escHtml(ADMISSION_LABELS[admission])}</span>`;
     document.getElementById('detail-showcase').textContent = show.showcase || '';
@@ -1145,8 +1159,9 @@
       label.textContent = 'Also appearing at:';
       otherEl.appendChild(label);
       otherShows.forEach(s => {
-        const row = document.createElement('div');
+        const row = document.createElement('a');
         row.className = 'detail-other-row';
+        row.href = `/schedule.html?search=${encodeURIComponent(show.artist_name)}&day=${encodeURIComponent(s.day)}`;
         row.innerHTML = `<span class="detail-other-venue">${escHtml(s.venue)}</span><span class="detail-other-time">${escHtml(formatDayLabel(s.day))} · ${escHtml(formatTime12(s.start_time))}</span>`;
         otherEl.appendChild(row);
       });
