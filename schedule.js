@@ -636,7 +636,7 @@
       const isOverlapping = totalCols > 1;
       const blockLeft   = isOverlapping ? `${col * STACK_VW}vw` : '0';
       const blockWidth  = isOverlapping ? `calc(100% - ${(totalCols - 1) * STACK_VW}vw)` : '100%';
-      const blockZ      = totalCols - col; // col 0 sits on top
+      const blockZ      = getRating(show) * 10 + (totalCols - col); // higher rating on top; col as tiebreaker
       const blockOpacity = isOverlapping ? 0.75 : 1;
 
       const isConflict = conflicting.has(show.artist_name + show.venue + show.start_time);
