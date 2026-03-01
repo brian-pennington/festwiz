@@ -765,7 +765,7 @@
     const el = document.getElementById('view-grid');
     el.innerHTML = '';
 
-    const shows = todayShows().filter(s => s.start_time);
+    const shows = todayShows().filter(s => s.start_time || s.no_set_time);
 
     if (shows.length === 0) {
       const empty = document.createElement('div');
@@ -816,10 +816,11 @@
       for (const slot of slots) {
         if (lookup[v][slot] && lookup[v][slot].length > 0) lastSlotPerVenue[v] = slot;
       }
-      // Venue has only no-set-time shows — start at their event start_time
+      // Venue has only no-set-time shows — start at their event start_time (if known)
       if (!lastSlotPerVenue[v] && noSetByVenue[v] && noSetByVenue[v].length > 0) {
-        const fallback = nearestSlot(noSetByVenue[v][0].start_time);
-        lastSlotPerVenue[v] = slots.includes(fallback) ? fallback : slots[0];
+        const tbStart = noSetByVenue[v][0].start_time;
+        const fallback = tbStart ? nearestSlot(tbStart) : null;
+        lastSlotPerVenue[v] = (fallback && slots.includes(fallback)) ? fallback : slots[0];
       }
     }
 
