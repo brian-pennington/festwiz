@@ -1394,8 +1394,9 @@
         const time = s.no_set_time ? 'time TBA' : (s.start_time ? formatShowTime(s.start_time) : '');
         const showcase = s.presented_by || s.showcase || '';
         const admission = s.admission || s.age_policy || '';
+        const schedUrl = `/schedule.html?search=${encodeURIComponent(artist.name)}&day=${encodeURIComponent(s.day)}`;
         html += `
-          <div class="artist-detail__show">
+          <a class="artist-detail__show" href="${escAttr(schedUrl)}">
             <div class="artist-detail__show-when">${escHtml(day)}${time ? ' · ' + escHtml(time) : ''}</div>
             <div class="artist-detail__show-venue">${escHtml(s.venue || '')}</div>
             ${showcase ? `<div class="artist-detail__show-showcase">${escHtml(showcase)}</div>` : ''}
@@ -1403,7 +1404,7 @@
               <span class="artist-detail__show-type artist-detail__show-type--${s._type}">${s._type === 'official' ? 'Official' : 'Unofficial'}</span>
               ${admission ? `<span class="artist-detail__show-admission">${escHtml(admission)}</span>` : ''}
             </div>
-          </div>`;
+          </a>`;
       }
       showsEl.innerHTML = html;
     }

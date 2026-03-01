@@ -1079,10 +1079,15 @@ body.light .music-link--spotify { background: #1db95418; }
 }
 
 .artist-detail__show {
+  display: block;
   padding: 10px 0;
   border-bottom: 1px solid var(--border-light);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 .artist-detail__show:last-child { border-bottom: none; }
+.artist-detail__show:hover { background: var(--bg-hover, rgba(255,255,255,0.04)); border-radius: 4px; padding-left: 4px; }
 
 .artist-detail__show-when {
   font-size: 14px;

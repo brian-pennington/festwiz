@@ -234,6 +234,24 @@
     buildDayTabs();
     populateDaySelects();
     populateVenueDatalist();
+
+    // Apply any URL params passed in from the artist detail modal
+    const params = new URLSearchParams(window.location.search);
+    const paramDay    = params.get('day');
+    const paramSearch = params.get('search');
+    if (paramDay && allShows.some(s => s.day === paramDay)) {
+      selectedDay = paramDay;
+      document.querySelectorAll('.day-tab').forEach(b => {
+        b.classList.toggle('active', b.dataset.day === paramDay);
+      });
+    }
+    if (paramSearch) {
+      searchFilter = paramSearch;
+      const input = document.getElementById('sched-search');
+      if (input) input.value = paramSearch;
+    }
+    if (paramDay || paramSearch) history.replaceState({}, '', window.location.pathname);
+
     renderCurrentView();
   }
 
