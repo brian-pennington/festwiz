@@ -684,8 +684,18 @@
 
   function setupFilters() {
     // Search
-    document.getElementById('search-input').addEventListener('input', (e) => {
-      currentFilters.search = e.target.value;
+    const searchInput = document.getElementById('search-input');
+    const searchClear = document.getElementById('search-clear');
+    searchInput.addEventListener('input', () => {
+      currentFilters.search = searchInput.value;
+      searchClear.classList.toggle('visible', searchInput.value.length > 0);
+      renderArtists();
+    });
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      currentFilters.search = '';
+      searchClear.classList.remove('visible');
+      searchInput.focus();
       renderArtists();
     });
 
@@ -1146,7 +1156,11 @@
     if (!search) return;
     currentFilters.search = search;
     const input = document.getElementById('search-input');
-    if (input) input.value = search;
+    if (input) {
+      input.value = search;
+      const clear = document.getElementById('search-clear');
+      if (clear) clear.classList.add('visible');
+    }
     history.replaceState({}, '', window.location.pathname);
   }
 

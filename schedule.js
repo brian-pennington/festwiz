@@ -249,6 +249,8 @@
       searchFilter = paramSearch;
       const input = document.getElementById('sched-search');
       if (input) input.value = paramSearch;
+      const clear = document.getElementById('sched-search-clear');
+      if (clear) clear.classList.add('visible');
     }
     if (paramDay || paramSearch) history.replaceState({}, '', window.location.pathname);
 
@@ -1549,9 +1551,18 @@
 
   function setupSearch() {
     const input = document.getElementById('sched-search');
+    const clear = document.getElementById('sched-search-clear');
     if (!input) return;
     input.addEventListener('input', () => {
       searchFilter = input.value.trim();
+      clear.classList.toggle('visible', input.value.length > 0);
+      renderCurrentView();
+    });
+    clear.addEventListener('click', () => {
+      input.value = '';
+      searchFilter = '';
+      clear.classList.remove('visible');
+      input.focus();
       renderCurrentView();
     });
   }

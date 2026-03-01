@@ -27,7 +27,10 @@
     </nav>
     <div class="sched-controls" id="sched-controls">
       <div class="sched-drawer-label">Search</div>
-      <input type="search" id="sched-search" class="search-input" placeholder="Artist, genre, country…">
+      <div class="search-wrap">
+        <input type="search" id="sched-search" class="search-input" placeholder="Artist, genre, country…">
+        <button class="search-clear" id="sched-search-clear" aria-label="Clear search">✕</button>
+      </div>
       <div class="sched-drawer-label">Show</div>
       <div class="theme-toggle-3" id="btn-rated-only">
         <button class="theme-seg" data-filter="all">All</button>
