@@ -12,6 +12,8 @@
   let venueAliases = {};   // full name → display name
   let ratings = {};         // from localStorage sxsw2026_state (read-only on this page)
   let artistEntityIdMap = {}; // artist name (lowercase) → entity_id, for rating key resolution
+  let artistMetaMap = {};    // artist name (lowercase) → { genre, subgenre, location, country }
+  let searchFilter = '';     // free-text search across name/genre/subgenre/location
   let selectedDay = null;   // "2026-03-10"
   let selectedView = 'grid';
   let showFilter = 'all'; // 'all' | 'rated' | 'top'
@@ -106,12 +108,22 @@
     return days;
   }
 
+  function matchesSearch(show) {
+    if (!searchFilter) return true;
+    const q = searchFilter.toLowerCase();
+    if (show.artist_name.toLowerCase().includes(q)) return true;
+    const meta = artistMetaMap[show.artist_name.toLowerCase()];
+    if (!meta) return false;
+    return meta.genre.includes(q) || meta.subgenre.includes(q) || meta.location.includes(q);
+  }
+
   function todayShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
     if (showFilter === 'rated') shows = shows.filter(s => getRating(s) > 0);
     else if (showFilter === 'top') shows = shows.filter(s => getRating(s) >= 3);
     shows = shows.filter(s => admissionFilter.has(getAdmission(s)));
+    shows = shows.filter(matchesSearch);
     return shows;
   }
 
@@ -168,8 +180,14 @@
       if (artistsRes.ok) {
         const artistsData = await artistsRes.json();
         for (const a of artistsData) {
-          if (a.entity_id && a.name) {
-            artistEntityIdMap[a.name.toLowerCase()] = a.entity_id;
+          if (a.name) {
+            const key = a.name.toLowerCase();
+            if (a.entity_id) artistEntityIdMap[key] = a.entity_id;
+            artistMetaMap[key] = {
+              genre:    (a.genre    || '').toLowerCase(),
+              subgenre: (a.subgenre || '').toLowerCase(),
+              location: (a.location || [a.city, a.state, a.country].filter(Boolean).join(', ')).toLowerCase(),
+            };
           }
         }
       }
@@ -399,6 +417,7 @@
       if (showFilter === 'rated' && getRating(s) === 0) return false;
       if (showFilter === 'top' && getRating(s) < 3) return false;
       if (!admissionFilter.has(getAdmission(s))) return false;
+      if (!matchesSearch(s)) return false;
       const start = parseShowTime(s.day, s.start_time);
       if (!start) return false;
       const end = s.end_time ? parseShowTime(s.day, s.end_time) : new Date(start.getTime() + 60 * 60000);
@@ -1508,6 +1527,17 @@
     });
   }
 
+  // ── Search filter ──────────────────────────────────────────────────────────
+
+  function setupSearch() {
+    const input = document.getElementById('sched-search');
+    if (!input) return;
+    input.addEventListener('input', () => {
+      searchFilter = input.value.trim();
+      renderCurrentView();
+    });
+  }
+
   // ── Hamburger drawer ───────────────────────────────────────────────────────
 
   function closeDrawer() {
@@ -1567,6 +1597,7 @@
     setupAbout();
     setupRatedOnly();
     setupAdmissionFilter();
+    setupSearch();
     setupDetailModal();
     setupAddShow();
     setupCsvImport();
