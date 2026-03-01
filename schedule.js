@@ -626,7 +626,7 @@
     // Group shows by start time slot into columns for overlap display
     const columns = layoutColumns(shows);
 
-    const STACK_VW = 3; // vw offset per overlapping layer — scales with screen width
+    const STACK_VW = 4; // vw offset per overlapping layer — scales with screen width
     for (const { show, col, totalCols } of columns) {
       const rating = getRating(show);
       const startMin = minutesFromDayStart(show.start_time);

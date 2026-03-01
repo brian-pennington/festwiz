@@ -1898,7 +1898,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   box-sizing: border-box;
   transition: opacity 0.15s;
 }
-.timeline-show:hover { opacity: 0.85; }
+.timeline-show:hover { opacity: 1 !important; z-index: 1000 !important; }
 
 .timeline-show--rated-1 { border-left-color: var(--rating-1); background: var(--card-bg-1); }
 .timeline-show--rated-2 { border-left-color: var(--rating-2); background: var(--card-bg-2); }
