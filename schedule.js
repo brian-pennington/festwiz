@@ -626,7 +626,7 @@
     // Group shows by start time slot into columns for overlap display
     const columns = layoutColumns(shows);
 
-    const STACK_OFFSET = 12; // px offset per overlapping layer
+    const STACK_VW = 3; // vw offset per overlapping layer — scales with screen width
     for (const { show, col, totalCols } of columns) {
       const rating = getRating(show);
       const startMin = minutesFromDayStart(show.start_time);
@@ -634,8 +634,8 @@
       const height = Math.max((endMin - startMin) * PX_PER_MIN - 2, 22);
 
       const isOverlapping = totalCols > 1;
-      const blockLeft   = isOverlapping ? col * STACK_OFFSET : 0;
-      const blockWidth  = isOverlapping ? `calc(100% - ${(totalCols - 1) * STACK_OFFSET}px)` : '100%';
+      const blockLeft   = isOverlapping ? `${col * STACK_VW}vw` : '0';
+      const blockWidth  = isOverlapping ? `calc(100% - ${(totalCols - 1) * STACK_VW}vw)` : '100%';
       const blockZ      = totalCols - col; // col 0 sits on top
       const blockOpacity = isOverlapping ? 0.75 : 1;
 
