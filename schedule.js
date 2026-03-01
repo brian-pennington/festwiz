@@ -1558,6 +1558,9 @@
       clear.classList.toggle('visible', input.value.length > 0);
       renderCurrentView();
     });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') closeDrawer();
+    });
     clear.addEventListener('click', () => {
       input.value = '';
       searchFilter = '';
