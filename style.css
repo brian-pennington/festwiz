@@ -1894,7 +1894,6 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   cursor: pointer;
   font-size: 12px;
   min-height: 24px;
-  max-width: 300px;
   box-sizing: border-box;
   transition: opacity 0.15s;
 }

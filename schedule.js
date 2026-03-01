@@ -547,7 +547,7 @@
     const el = document.getElementById('view-timeline');
     el.innerHTML = '';
 
-    const shows = todayShows().filter(s => s.start_time);
+    const shows = todayShows().filter(s => s.start_time && !s.no_set_time);
     const now = new Date();
 
     // Total height: 9 AM to 2 AM = 17 hours = 1020 min
@@ -626,7 +626,7 @@
     // Group shows by start time slot into columns for overlap display
     const columns = layoutColumns(shows);
 
-    const STACK_OFFSET = 5; // px offset per overlapping layer
+    const STACK_OFFSET = 12; // px offset per overlapping layer
     for (const { show, col, totalCols } of columns) {
       const rating = getRating(show);
       const startMin = minutesFromDayStart(show.start_time);
