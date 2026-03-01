@@ -643,7 +643,7 @@
 
       const block = document.createElement('div');
       block.className = `timeline-show timeline-show--rated-${rating}${isConflict ? ' timeline-show--conflict' : ''}`;
-      block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${blockLeft}px;width:${blockWidth};z-index:${blockZ};opacity:${blockOpacity};`;
+      block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${blockLeft};width:${blockWidth};z-index:${blockZ};opacity:${blockOpacity};`;
       block.innerHTML = `
         <div class="timeline-show-name">${escHtml(show.artist_name)}</div>
         ${height > 40 ? `<div class="timeline-show-venue">${escHtml(show.venue)}</div>` : ''}
