@@ -4200,6 +4200,18 @@
     "notes": ""
   },
   {
+    "id": "official_his_lordshipelysium2026_03_1222_30",
+    "artist_name": "His Lordship",
+    "entity_id": 2241142,
+    "venue": "Elysium",
+    "day": "2026-03-12",
+    "start_time": "22:30",
+    "end_time": "23:00",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_hnry_flwrlas_perlas2026_03_1222_00",
     "artist_name": "HNRY FLWR",
     "entity_id": 2239993,
@@ -8328,6 +8340,30 @@
     "notes": ""
   },
   {
+    "id": "official_samy_sharifelysium2026_03_1200_20",
+    "artist_name": "Samy Sharif",
+    "entity_id": 2240753,
+    "venue": "Elysium",
+    "day": "2026-03-12",
+    "start_time": "00:20",
+    "end_time": "00:50",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_samy_sharifshangri_la2026_03_1300_00",
+    "artist_name": "Samy Sharif",
+    "entity_id": 2240753,
+    "venue": "Shangri-La",
+    "day": "2026-03-13",
+    "start_time": "00:00",
+    "end_time": "00:30",
+    "source": "official",
+    "showcase": "Pandora Music",
+    "notes": ""
+  },
+  {
     "id": "official_san_charbelchess_club2026_03_1500_00",
     "artist_name": "San Charbel",
     "entity_id": 2240724,
@@ -10339,6 +10375,30 @@
     "day": "2026-03-12",
     "start_time": "21:15",
     "end_time": "21:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_zastavaelysium2026_03_1220_00",
+    "artist_name": "Zastava",
+    "entity_id": 2240099,
+    "venue": "Elysium",
+    "day": "2026-03-12",
+    "start_time": "20:00",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_zastavachess_club2026_03_1320_00",
+    "artist_name": "Zastava",
+    "entity_id": 2240099,
+    "venue": "Chess Club",
+    "day": "2026-03-13",
+    "start_time": "20:00",
+    "end_time": "20:40",
     "source": "official",
     "showcase": "",
     "notes": ""
