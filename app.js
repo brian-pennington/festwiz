@@ -1356,10 +1356,13 @@
     document.getElementById('artist-detail-meta').textContent =
       [genreDisplay, location].filter(Boolean).join(' · ');
 
-    // Full description
+    // Full description (rendered after shows/links)
     const descEl = document.getElementById('artist-detail-desc');
+    const descHeadingEl = document.getElementById('artist-detail-desc-heading');
     descEl.textContent = artist.description || '';
     descEl.style.display = artist.description ? '' : 'none';
+    descHeadingEl.textContent = artist.description ? 'Bio' : '';
+    descHeadingEl.style.display = artist.description ? '' : 'none';
 
     // Links
     const linksObj = { ...(artist.links || {}) };

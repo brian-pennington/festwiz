@@ -1053,7 +1053,18 @@ body.light .music-link--spotify { background: #1db95418; }
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
+}
+
+.artist-detail__desc-heading {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border-light);
 }
 
 .artist-detail__shows-heading {
