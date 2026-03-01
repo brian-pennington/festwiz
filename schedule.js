@@ -626,19 +626,24 @@
     // Group shows by start time slot into columns for overlap display
     const columns = layoutColumns(shows);
 
+    const STACK_OFFSET = 5; // px offset per overlapping layer
     for (const { show, col, totalCols } of columns) {
       const rating = getRating(show);
       const startMin = minutesFromDayStart(show.start_time);
       const endMin = show.end_time ? minutesFromDayStart(show.end_time) : startMin + 45;
       const height = Math.max((endMin - startMin) * PX_PER_MIN - 2, 22);
-      const width = Math.floor(100 / totalCols);
-      const left = col * width;
+
+      const isOverlapping = totalCols > 1;
+      const blockLeft   = isOverlapping ? col * STACK_OFFSET : 0;
+      const blockWidth  = isOverlapping ? `calc(100% - ${(totalCols - 1) * STACK_OFFSET}px)` : '100%';
+      const blockZ      = totalCols - col; // col 0 sits on top
+      const blockOpacity = isOverlapping ? 0.75 : 1;
 
       const isConflict = conflicting.has(show.artist_name + show.venue + show.start_time);
 
       const block = document.createElement('div');
       block.className = `timeline-show timeline-show--rated-${rating}${isConflict ? ' timeline-show--conflict' : ''}`;
-      block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${left}%;width:${width - 1}%;`;
+      block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${blockLeft}px;width:${blockWidth};z-index:${blockZ};opacity:${blockOpacity};`;
       block.innerHTML = `
         <div class="timeline-show-name">${escHtml(show.artist_name)}</div>
         ${height > 40 ? `<div class="timeline-show-venue">${escHtml(show.venue)}</div>` : ''}
