@@ -140,6 +140,12 @@
           }
         }
       }
+
+      // Load unofficial shows for the artist detail modal
+      if (unofficialShowsResp.ok) {
+        const usData = await unofficialShowsResp.json();
+        if (Array.isArray(usData)) allUnofficialShows = usData;
+      }
     } catch (e) {
       console.error('Failed to load artists.json:', e);
       allArtists = [];
@@ -149,12 +155,6 @@
         '" && python3 -m http.server 8000</code><br><br>' +
         'Then open <a href="http://localhost:8000" style="color:var(--accent)">http://localhost:8000</a>';
       document.getElementById('loading').style.display = 'block';
-    }
-
-    // Load unofficial shows for the artist detail modal
-    if (unofficialShowsResp.ok) {
-      const usData = await unofficialShowsResp.json();
-      if (Array.isArray(usData)) allUnofficialShows = usData;
     }
 
     // Merge user-submitted artists from localStorage state
