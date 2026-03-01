@@ -1380,6 +1380,42 @@
     "notes": ""
   },
   {
+    "id": "official_bloodsportsshangri_la2026_03_1319_30",
+    "artist_name": "bloodsports",
+    "entity_id": 2240058,
+    "venue": "Shangri-La",
+    "day": "2026-03-13",
+    "start_time": "19:30",
+    "end_time": "20:00",
+    "source": "official",
+    "showcase": "Pandora Music",
+    "notes": ""
+  },
+  {
+    "id": "official_bloodsportshotel_vegas2026_03_1620_50",
+    "artist_name": "bloodsports",
+    "entity_id": 2240058,
+    "venue": "Hotel Vegas",
+    "day": "2026-03-16",
+    "start_time": "20:50",
+    "end_time": "21:25",
+    "source": "official",
+    "showcase": "rocknite",
+    "notes": ""
+  },
+  {
+    "id": "official_bloodsportschess_club2026_03_1400_30",
+    "artist_name": "bloodsports",
+    "entity_id": 2240058,
+    "venue": "Chess Club",
+    "day": "2026-03-14",
+    "start_time": "00:30",
+    "end_time": "01:05",
+    "source": "official",
+    "showcase": "Good English Records",
+    "notes": ""
+  },
+  {
     "id": "official_bollyflowflamingo_cantina2026_03_1319_45",
     "artist_name": "bollyflow",
     "entity_id": 2242912,
@@ -1800,13 +1836,13 @@
     "notes": ""
   },
   {
-    "id": "official_casket_cassetteseven_spirits2026_03_1800_30",
+    "id": "official_casket_cassetteseven_spirits2026_03_1821_10",
     "artist_name": "Casket Cassette",
     "entity_id": 2240078,
     "venue": "Seven Spirits",
     "day": "2026-03-18",
-    "start_time": "00:30",
-    "end_time": "01:00",
+    "start_time": "21:10",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -1833,6 +1869,18 @@
     "end_time": "00:40",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_casmaliakingdom2026_03_1722_30",
+    "artist_name": "Casmalia",
+    "entity_id": 2249944,
+    "venue": "Kingdom",
+    "day": "2026-03-17",
+    "start_time": "22:30",
+    "end_time": "00:00",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
     "notes": ""
   },
   {
@@ -2232,6 +2280,18 @@
     "notes": ""
   },
   {
+    "id": "official_daiistarseven_spirits2026_03_1601_00",
+    "artist_name": "DAIISTAR",
+    "entity_id": 2240961,
+    "venue": "Seven Spirits",
+    "day": "2026-03-16",
+    "start_time": "01:00",
+    "end_time": "01:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_daiistarvalhalla2026_03_1822_00",
     "artist_name": "DAIISTAR",
     "entity_id": 2240961,
@@ -2445,6 +2505,30 @@
     "end_time": "21:40",
     "source": "official",
     "showcase": "BMG Label & Publishing",
+    "notes": ""
+  },
+  {
+    "id": "official_the_dharma_chainspeakeasy2026_03_1322_00",
+    "artist_name": "The Dharma Chain",
+    "entity_id": 2240690,
+    "venue": "Speakeasy",
+    "day": "2026-03-13",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "European Union & German Music Export",
+    "notes": ""
+  },
+  {
+    "id": "official_the_dharma_chainvalhalla2026_03_1821_00",
+    "artist_name": "The Dharma Chain",
+    "entity_id": 2240690,
+    "venue": "Valhalla",
+    "day": "2026-03-18",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -3504,54 +3588,6 @@
     "notes": ""
   },
   {
-    "id": "official_girl_tonesradio_day_stage___downright_austin_backyard2026_03",
-    "artist_name": "Girl Tones",
-    "entity_id": 2242951,
-    "venue": "Radio Day Stage @ Downright Austin Backyard",
-    "day": "2026-03-14",
-    "start_time": "12:00",
-    "end_time": "12:40",
-    "source": "official",
-    "showcase": "BBC Introducing in America",
-    "notes": ""
-  },
-  {
-    "id": "official_girl_toneswanderlust_wine_co_2026_03_1720_05",
-    "artist_name": "Girl Tones",
-    "entity_id": 2242951,
-    "venue": "Wanderlust Wine Co.",
-    "day": "2026-03-17",
-    "start_time": "20:05",
-    "end_time": "20:35",
-    "source": "official",
-    "showcase": "Make Out Music",
-    "notes": ""
-  },
-  {
-    "id": "official_girl_tonesseven_spirits2026_03_1822_50",
-    "artist_name": "Girl Tones",
-    "entity_id": 2242951,
-    "venue": "Seven Spirits",
-    "day": "2026-03-18",
-    "start_time": "22:50",
-    "end_time": "23:20",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_girl_toneshotel_vegas_patio2026_03_1621_10",
-    "artist_name": "Girl Tones",
-    "entity_id": 2242951,
-    "venue": "Hotel Vegas Patio",
-    "day": "2026-03-16",
-    "start_time": "21:10",
-    "end_time": "21:45",
-    "source": "official",
-    "showcase": "rocknite",
-    "notes": ""
-  },
-  {
     "id": "official_glamoramachess_club2026_03_1219_00",
     "artist_name": "Glamorama",
     "entity_id": 2246434,
@@ -3595,30 +3631,6 @@
     "day": "2026-03-18",
     "start_time": "20:20",
     "end_time": "20:50",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_glazehotel_vegas_at_volstead2026_03_1623_55",
-    "artist_name": "Glaze",
-    "entity_id": 2240962,
-    "venue": "Hotel Vegas at Volstead",
-    "day": "2026-03-16",
-    "start_time": "23:55",
-    "end_time": "00:30",
-    "source": "official",
-    "showcase": "rocknite",
-    "notes": ""
-  },
-  {
-    "id": "official_glazechess_club2026_03_1323_00",
-    "artist_name": "Glaze",
-    "entity_id": 2240962,
-    "venue": "Chess Club",
-    "day": "2026-03-13",
-    "start_time": "23:00",
-    "end_time": "23:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -7620,13 +7632,13 @@
     "notes": ""
   },
   {
-    "id": "official_pink_breath_of_heavenshangri_la2026_03_1319_50",
+    "id": "official_pink_breath_of_heavenshangri_la2026_03_1320_20",
     "artist_name": "Pink Breath of Heaven",
     "entity_id": 2241443,
     "venue": "Shangri-La",
     "day": "2026-03-13",
-    "start_time": "19:50",
-    "end_time": "20:20",
+    "start_time": "20:20",
+    "end_time": "21:10",
     "source": "official",
     "showcase": "Pandora Music",
     "notes": ""
@@ -7692,13 +7704,13 @@
     "notes": ""
   },
   {
-    "id": "official_ponsseven_spirits2026_03_1823_40",
+    "id": "official_ponsseven_spirits2026_03_1822_50",
     "artist_name": "PONS",
     "entity_id": 2240918,
     "venue": "Seven Spirits",
     "day": "2026-03-18",
-    "start_time": "23:40",
-    "end_time": "00:10",
+    "start_time": "22:50",
+    "end_time": "23:20",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -8808,13 +8820,13 @@
     "notes": ""
   },
   {
-    "id": "official_the_sophsshangri_la2026_03_1322_20",
+    "id": "official_the_sophsshangri_la2026_03_1323_10",
     "artist_name": "The Sophs",
     "entity_id": 2238760,
     "venue": "Shangri-La",
     "day": "2026-03-13",
-    "start_time": "22:20",
-    "end_time": "22:50",
+    "start_time": "23:10",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "Pandora Music",
     "notes": ""
@@ -9996,13 +10008,13 @@
     "notes": ""
   },
   {
-    "id": "official_whitelandsshangri_la2026_03_1320_40",
+    "id": "official_whitelandsshangri_la2026_03_1322_20",
     "artist_name": "Whitelands",
     "entity_id": 2240036,
     "venue": "Shangri-La",
     "day": "2026-03-13",
-    "start_time": "20:40",
-    "end_time": "21:10",
+    "start_time": "22:20",
+    "end_time": "22:50",
     "source": "official",
     "showcase": "Pandora Music",
     "notes": ""
