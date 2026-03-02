@@ -85,6 +85,18 @@
     "notes": ""
   },
   {
+    "id": "official_60_junoseven_grand2026_03_1300_10",
+    "artist_name": "60 JUNO",
+    "entity_id": 2241073,
+    "venue": "Seven Grand",
+    "day": "2026-03-13",
+    "start_time": "00:10",
+    "end_time": "00:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_60_junohotel_vegas2026_03_1520_50",
     "artist_name": "60 JUNO",
     "entity_id": 2241073,
@@ -624,6 +636,18 @@
     "notes": ""
   },
   {
+    "id": "official_amor_vincit_omniaswan_dive_patio2026_03_1619_30",
+    "artist_name": "Amor Vincit Omnia",
+    "entity_id": 2244996,
+    "venue": "Swan Dive Patio",
+    "day": "2026-03-16",
+    "start_time": "19:30",
+    "end_time": "20:00",
+    "source": "official",
+    "showcase": "The Line of Best Fit",
+    "notes": ""
+  },
+  {
     "id": "official_amor_vincit_omniaglobal_stage___downright_austin_backyard202",
     "artist_name": "Amor Vincit Omnia",
     "entity_id": 2244996,
@@ -1084,13 +1108,13 @@
     "notes": ""
   },
   {
-    "id": "official_ashmar_coconut_club_rooftop2026_03_1722_00",
+    "id": "official_ashmar_coconut_club_rooftop2026_03_1721_30",
     "artist_name": "ASHMAR.",
     "entity_id": 2255671,
     "venue": "Coconut Club Rooftop",
     "day": "2026-03-17",
-    "start_time": "22:00",
-    "end_time": "23:40",
+    "start_time": "21:30",
+    "end_time": "22:15",
     "source": "official",
     "showcase": "hiroko__yamamura",
     "notes": ""
@@ -1397,6 +1421,18 @@
     "end_time": "20:50",
     "source": "official",
     "showcase": "UTOPiA Sessions",
+    "notes": ""
+  },
+  {
+    "id": "official_basht_british_music_embassy___palm_door_on_sixth_patio2026_0",
+    "artist_name": "Basht.",
+    "entity_id": 2240479,
+    "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+    "day": "2026-03-18",
+    "start_time": "23:20",
+    "end_time": "23:50",
+    "source": "official",
+    "showcase": "Chris Hawkins Presents",
     "notes": ""
   },
   {
@@ -1738,6 +1774,18 @@
     "end_time": "00:20",
     "source": "official",
     "showcase": "Chopstars: Taco Tuesday",
+    "notes": ""
+  },
+  {
+    "id": "official_blah_sparivian_electric_roadhouse2026_03_1515_00",
+    "artist_name": "Blah Spa",
+    "entity_id": 2275601,
+    "venue": "Rivian Electric Roadhouse",
+    "day": "2026-03-15",
+    "start_time": "15:00",
+    "end_time": "15:40",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -2171,18 +2219,6 @@
     "notes": ""
   },
   {
-    "id": "official_bucketsseven_spirits2026_03_1621_40",
-    "artist_name": "Buckets",
-    "entity_id": 2261591,
-    "venue": "Seven Spirits",
-    "day": "2026-03-16",
-    "start_time": "21:40",
-    "end_time": "22:10",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
     "id": "official_bucketsvalhalla2026_03_1420_00",
     "artist_name": "Buckets",
     "entity_id": 2261591,
@@ -2206,6 +2242,18 @@
     "showcase": "The Smoke Out ATX",
     "notes": "",
     "no_set_time": true
+  },
+  {
+    "id": "official_buddy_redinn_cahoots_austin_garden2026_03_1701_00",
+    "artist_name": "Buddy Red",
+    "entity_id": 2238719,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-17",
+    "start_time": "01:00",
+    "end_time": "01:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
+    "notes": ""
   },
   {
     "id": "official_buddy_redsaxon_pub2026_03_1320_00",
@@ -2448,12 +2496,12 @@
     "notes": ""
   },
   {
-    "id": "official_casmaliakingdom2026_03_1722_30",
+    "id": "official_casmaliakingdom2026_03_1623_00",
     "artist_name": "Casmalia",
     "entity_id": 2249944,
     "venue": "Kingdom",
-    "day": "2026-03-17",
-    "start_time": "22:30",
+    "day": "2026-03-16",
+    "start_time": "23:00",
     "end_time": "00:00",
     "source": "official",
     "showcase": "SICKICK & Friends",
@@ -2618,18 +2666,6 @@
     "notes": ""
   },
   {
-    "id": "official_chiara_savastaseven_grand2026_03_1420_00",
-    "artist_name": "Chiara Savasta",
-    "entity_id": 2240958,
-    "venue": "Seven Grand",
-    "day": "2026-03-14",
-    "start_time": "20:00",
-    "end_time": "20:40",
-    "source": "official",
-    "showcase": "Liift & Friends",
-    "notes": ""
-  },
-  {
     "id": "official_chiara_savastaseven_grand2026_03_1320_50",
     "artist_name": "Chiara Savasta",
     "entity_id": 2240958,
@@ -2724,6 +2760,19 @@
     "source": "official",
     "showcase": "",
     "notes": ""
+  },
+  {
+    "id": "official_cici_da_pnivel___mala_fama2026_03_12",
+    "artist_name": "Cici Da P",
+    "entity_id": 2274345,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-12",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Purrr SZN",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_cj_chenier_and_the_red_hot_louisiana_bandantone_s2026_03_181",
@@ -2897,6 +2946,18 @@
     "notes": ""
   },
   {
+    "id": "official_coyococonut_club2026_03_1700_00",
+    "artist_name": "COYO",
+    "entity_id": 2274347,
+    "venue": "Coconut Club",
+    "day": "2026-03-17",
+    "start_time": "00:00",
+    "end_time": "01:00",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_cq_wrestlinghotel_vegas2026_03_1601_25",
     "artist_name": "CQ Wrestling",
     "entity_id": 2240949,
@@ -3063,18 +3124,6 @@
     "day": "2026-03-18",
     "start_time": "22:00",
     "end_time": "22:40",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_dallas_tetnusvalhalla2026_03_1701_00",
-    "artist_name": "Dallas Tetnus",
-    "entity_id": 2240971,
-    "venue": "Valhalla",
-    "day": "2026-03-17",
-    "start_time": "01:00",
-    "end_time": "01:30",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -3250,6 +3299,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "EQ Austin",
+    "notes": ""
+  },
+  {
+    "id": "official_dee_gattibrushy_street_commons2026_03_1420_00",
+    "artist_name": "Dee Gatti",
+    "entity_id": 2274344,
+    "venue": "Brushy Street Commons",
+    "day": "2026-03-14",
+    "start_time": "20:00",
+    "end_time": "20:15",
+    "source": "official",
+    "showcase": "Kaash Paige & Friends",
     "notes": ""
   },
   {
@@ -3822,13 +3883,13 @@
     "notes": ""
   },
   {
-    "id": "official_dj_kimbleecoconut_club_rooftop2026_03_1721_00",
+    "id": "official_dj_kimbleecoconut_club_rooftop2026_03_1720_45",
     "artist_name": "DJ Kimblee",
     "entity_id": 2267090,
     "venue": "Coconut Club Rooftop",
     "day": "2026-03-17",
-    "start_time": "21:00",
-    "end_time": "22:00",
+    "start_time": "20:45",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "hiroko__yamamura",
     "notes": ""
@@ -3906,30 +3967,6 @@
     "end_time": "23:30",
     "source": "official",
     "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_don_glorimarlow2026_03_1623_30",
-    "artist_name": "Don Glori",
-    "entity_id": 2240816,
-    "venue": "Marlow",
-    "day": "2026-03-16",
-    "start_time": "23:30",
-    "end_time": "00:10",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_don_gloricentral_presbyterian_church2026_03_1523_10",
-    "artist_name": "Don Glori",
-    "entity_id": 2240816,
-    "venue": "Central Presbyterian Church",
-    "day": "2026-03-15",
-    "start_time": "23:10",
-    "end_time": "23:45",
-    "source": "official",
-    "showcase": "Pastorale",
     "notes": ""
   },
   {
@@ -4030,6 +4067,18 @@
     "notes": ""
   },
   {
+    "id": "official_dramoskingdom2026_03_1621_00",
+    "artist_name": "Dramos",
+    "entity_id": 2246481,
+    "venue": "Kingdom",
+    "day": "2026-03-16",
+    "start_time": "21:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
+    "notes": ""
+  },
+  {
     "id": "official_dramosneon_grotto_rooftop2026_03_1321_30",
     "artist_name": "Dramos",
     "entity_id": 2246481,
@@ -4102,6 +4151,18 @@
     "notes": ""
   },
   {
+    "id": "official_duunesinn_cahoots_austin_garden2026_03_1620_00",
+    "artist_name": "DUUNES",
+    "entity_id": 2272430,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-16",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_dylan_leblanccontinental_club2026_03_1522_00",
     "artist_name": "Dylan LeBlanc",
     "entity_id": 2241166,
@@ -4145,6 +4206,18 @@
     "day": "2026-03-17",
     "start_time": "20:50",
     "end_time": "21:00",
+    "source": "official",
+    "showcase": "Chopstars: Taco Tuesday",
+    "notes": ""
+  },
+  {
+    "id": "official_east_nasataco_n_maiz2026_03_1721_05",
+    "artist_name": "East Nasa",
+    "entity_id": 2275567,
+    "venue": "Taco n Maiz",
+    "day": "2026-03-17",
+    "start_time": "21:05",
+    "end_time": "21:20",
     "source": "official",
     "showcase": "Chopstars: Taco Tuesday",
     "notes": ""
@@ -4711,6 +4784,18 @@
     "notes": ""
   },
   {
+    "id": "official_five_for_fightinginn_cahoots_austin_garden2026_03_1622_00",
+    "artist_name": "Five For Fighting",
+    "entity_id": 2256455,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-16",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_flesh_juicervenue_62026_03_1322_00",
     "artist_name": "Flesh Juicer",
     "entity_id": 2240796,
@@ -5017,6 +5102,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "Art Decade Creatives - Austin Heavy Hitters",
+    "notes": ""
+  },
+  {
+    "id": "official_glassioinn_cahoots_austin_garden2026_03_1601_00",
+    "artist_name": "Glassio",
+    "entity_id": 2239994,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-16",
+    "start_time": "01:00",
+    "end_time": "01:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
     "notes": ""
   },
   {
@@ -5659,13 +5756,13 @@
     "notes": ""
   },
   {
-    "id": "official_hemi_hemingwayswan_dive_patio2026_03_1620_30",
+    "id": "official_hemi_hemingwayswan_dive_patio2026_03_1621_30",
     "artist_name": "Hemi Hemingway",
     "entity_id": 2241383,
     "venue": "Swan Dive Patio",
     "day": "2026-03-16",
-    "start_time": "20:30",
-    "end_time": "21:00",
+    "start_time": "21:30",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "The Line of Best Fit",
     "notes": ""
@@ -5683,29 +5780,16 @@
     "notes": ""
   },
   {
-    "id": "official_hiroko_yamamuracoconut_club_rooftop2026_03_1700_00",
+    "id": "official_hiroko_yamamuracoconut_club_rooftop2026_03_1723_45",
     "artist_name": "Hiroko Yamamura",
     "entity_id": 2269385,
     "venue": "Coconut Club Rooftop",
     "day": "2026-03-17",
-    "start_time": "00:00",
-    "end_time": "01:30",
+    "start_time": "23:45",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "hiroko__yamamura",
     "notes": ""
-  },
-  {
-    "id": "official_his_lordshipinn_cahoots_austin_garden2026_03_16",
-    "artist_name": "His Lordship",
-    "entity_id": 2241142,
-    "venue": "Inn Cahoots Austin Garden",
-    "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
-    "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
   },
   {
     "id": "official_his_lordshipelysium2026_03_1222_30",
@@ -6960,13 +7044,13 @@
     "notes": ""
   },
   {
-    "id": "official_just_jimcoconut_club_rooftop2026_03_1723_00",
+    "id": "official_just_jimcoconut_club_rooftop2026_03_1722_15",
     "artist_name": "Just Jim",
     "entity_id": 2240092,
     "venue": "Coconut Club Rooftop",
     "day": "2026-03-17",
-    "start_time": "23:00",
-    "end_time": "00:00",
+    "start_time": "22:15",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "hiroko__yamamura",
     "notes": ""
@@ -7068,18 +7152,6 @@
     "showcase": "",
     "notes": "",
     "no_set_time": true
-  },
-  {
-    "id": "official_karma_sheenbritish_music_embassy___palm_door_on_sixth_patio2",
-    "artist_name": "Karma Sheen",
-    "entity_id": 2240094,
-    "venue": "British Music Embassy @ Palm Door on Sixth Patio",
-    "day": "2026-03-17",
-    "start_time": "16:30",
-    "end_time": "17:00",
-    "source": "official",
-    "showcase": "Future Arts and Culture",
-    "notes": ""
   },
   {
     "id": "official_karma_sheenthe_13th_floor2026_03_1800_00",
@@ -7640,7 +7712,7 @@
     "start_time": "",
     "end_time": null,
     "source": "official",
-    "showcase": "",
+    "showcase": "Tropiclub",
     "notes": "",
     "no_set_time": true
   },
@@ -7899,7 +7971,7 @@
     "venue": "Coconut Club Rooftop",
     "day": "2026-03-17",
     "start_time": "20:00",
-    "end_time": "21:00",
+    "end_time": "20:45",
     "source": "official",
     "showcase": "hiroko__yamamura",
     "notes": ""
@@ -9063,6 +9135,18 @@
     "notes": ""
   },
   {
+    "id": "official_mer_marcumwanderlust_wine_co_2026_03_1819_30",
+    "artist_name": "mer marcum",
+    "entity_id": 2254310,
+    "venue": "Wanderlust Wine Co.",
+    "day": "2026-03-18",
+    "start_time": "19:30",
+    "end_time": "20:00",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_mer_marcumlas_perlas2026_03_1622_50",
     "artist_name": "mer marcum",
     "entity_id": 2254310,
@@ -9711,6 +9795,18 @@
     "notes": ""
   },
   {
+    "id": "official_new_constellationsinn_cahoots_austin_garden2026_03_1722_00",
+    "artist_name": "New Constellations",
+    "entity_id": 2246484,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-17",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_new_constellationsmarlow2026_03_1200_10",
     "artist_name": "New Constellations",
     "entity_id": 2246484,
@@ -10000,6 +10096,19 @@
     "source": "official",
     "showcase": "",
     "notes": ""
+  },
+  {
+    "id": "official_okanseven_grand2026_03_17",
+    "artist_name": "OKAN",
+    "entity_id": 2249450,
+    "venue": "Seven Grand",
+    "day": "2026-03-17",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_okanthe_13th_floor2026_03_1221_00",
@@ -10358,17 +10467,16 @@
     "notes": ""
   },
   {
-    "id": "official_passion_pitinn_cahoots_austin_garden2026_03_16",
+    "id": "official_passion_pitinn_cahoots_austin_garden2026_03_1623_00",
     "artist_name": "Passion Pit",
     "entity_id": 2254311,
     "venue": "Inn Cahoots Austin Garden",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:00",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "Take Action x SXSW",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_pat_gvictory_grill2026_03_1721_20",
@@ -10940,7 +11048,7 @@
     "start_time": "",
     "end_time": null,
     "source": "official",
-    "showcase": "",
+    "showcase": "Tropiclub",
     "notes": "",
     "no_set_time": true
   },
@@ -11002,6 +11110,18 @@
     "end_time": "21:00",
     "source": "official",
     "showcase": "West LDN Carnival on 6th",
+    "notes": ""
+  },
+  {
+    "id": "official_randy_perezkingdom2026_03_1622_00",
+    "artist_name": "Randy Perez",
+    "entity_id": 2248077,
+    "venue": "Kingdom",
+    "day": "2026-03-16",
+    "start_time": "22:00",
+    "end_time": "23:00",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
     "notes": ""
   },
   {
@@ -11615,13 +11735,13 @@
     "notes": ""
   },
   {
-    "id": "official_sarah_methswan_dive_patio2026_03_1619_30",
+    "id": "official_sarah_methswan_dive_patio2026_03_1620_30",
     "artist_name": "Sarah Meth",
     "entity_id": 2240287,
     "venue": "Swan Dive Patio",
     "day": "2026-03-16",
-    "start_time": "19:30",
-    "end_time": "20:00",
+    "start_time": "20:30",
+    "end_time": "21:00",
     "source": "official",
     "showcase": "The Line of Best Fit",
     "notes": ""
@@ -11774,13 +11894,13 @@
     "notes": ""
   },
   {
-    "id": "official_sex_maskswan_dive_patio2026_03_1621_30",
+    "id": "official_sex_maskswan_dive_patio2026_03_1623_30",
     "artist_name": "Sex Mask",
     "entity_id": 2243274,
     "venue": "Swan Dive Patio",
     "day": "2026-03-16",
-    "start_time": "21:30",
-    "end_time": "22:00",
+    "start_time": "23:30",
+    "end_time": "00:00",
     "source": "official",
     "showcase": "The Line of Best Fit",
     "notes": ""
@@ -11808,6 +11928,18 @@
     "end_time": "01:20",
     "source": "official",
     "showcase": "Pandora Music",
+    "notes": ""
+  },
+  {
+    "id": "official_sexpopinn_cahoots_austin_garden2026_03_1600_00",
+    "artist_name": "Sexpop",
+    "entity_id": 2240969,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-16",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
     "notes": ""
   },
   {
@@ -11894,6 +12026,19 @@
     "source": "official",
     "showcase": "Trash Casual + Our Wicked Lady",
     "notes": ""
+  },
+  {
+    "id": "official_sherlock_sound_systemseven_grand2026_03_18",
+    "artist_name": "Sherlock Sound System",
+    "entity_id": 2256408,
+    "venue": "Seven Grand",
+    "day": "2026-03-18",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_shivkingdom2026_03_1222_00",
@@ -11991,6 +12136,18 @@
     "end_time": "19:30",
     "source": "official",
     "showcase": "All The Vibes",
+    "notes": ""
+  },
+  {
+    "id": "official_sickickkingdom2026_03_1600_00",
+    "artist_name": "Sickick",
+    "entity_id": 2267677,
+    "venue": "Kingdom",
+    "day": "2026-03-16",
+    "start_time": "00:00",
+    "end_time": "01:15",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
     "notes": ""
   },
   {
@@ -13115,6 +13272,18 @@
     "end_time": "00:00",
     "source": "official",
     "showcase": "College Of Hip Hop Knowledge",
+    "notes": ""
+  },
+  {
+    "id": "official_torture_and_the_desert_spiderselysium2026_03_1600_00",
+    "artist_name": "Torture and the Desert Spiders",
+    "entity_id": 2240293,
+    "venue": "Elysium",
+    "day": "2026-03-16",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
