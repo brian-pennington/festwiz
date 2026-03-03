@@ -76,7 +76,9 @@
     "subgenre": "Drum & Bass",
     "location": "Austin, TX, USA",
     "description": "",
-    "links": {},
+    "links": {
+      "website": "https://www.instagram.com/p/DUoQq5sgSR8/"
+    },
     "source": "unofficial",
     "city": "Austin",
     "country": "USA",
@@ -1101,7 +1103,7 @@
   {
     "name": "\u00bfLa Pregunta?",
     "genre": "Electronic",
-    "subgenre": "EBM",
+    "subgenre": "Electro",
     "location": "Los Angeles, CA, USA",
     "description": "",
     "links": {
@@ -1453,7 +1455,7 @@
   },
   {
     "name": "Avae",
-    "genre": "Unknown",
+    "genre": "Electronic",
     "subgenre": "",
     "location": "Dallas, TX, USA",
     "description": "",
@@ -1494,7 +1496,7 @@
   {
     "name": "Denim Haircut",
     "genre": "Rock",
-    "subgenre": "Psychedelic",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -2368,6 +2370,234 @@
     "links": {
       "bandcamp": "https://thelovelysparrows.bandcamp.com/"
     },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Stab",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://stabhorrormovie.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Badger Hunt",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "New York, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://badger-hunt.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Blanky",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Lawrewnce, KS, USA",
+    "description": "Badger Hunt (NY) = Miles (TX) & Jamie (SC)",
+    "links": {
+      "bandcamp": "https://blanky.bandcamp.co"
+    },
+    "source": "unofficial",
+    "city": "Lawrewnce",
+    "country": "USA",
+    "state": "KS",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Touch Girl Apple Blossom",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://touchgirlappleblossom.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Last Days of Disco",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "TV Buddha",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://tvbuddha.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Parking",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sheer Mag",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Philadelphia, PA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sheermag.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Philadelphia",
+    "country": "USA",
+    "state": "PA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Guiding Light",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://guidinglightatx.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Godsend",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Texting",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Paper Jam",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Denton, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://paperjammusic.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Denton",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Guyscrapers",
+    "genre": "Rock",
+    "subgenre": "Garage",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://giantbeat.bandcamp.com/album/why-scrapers"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Blue Ribbon",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
     "source": "unofficial",
     "city": "Austin",
     "country": "USA",
