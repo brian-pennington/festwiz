@@ -2041,7 +2041,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .grid-show-pill--rated-2 { border-left-color: var(--rating-2); background: var(--rating-2); color: #111; }
 .grid-show-pill--rated-3 { border-left-color: var(--rating-3); background: var(--rating-3); color: #fff; }
 .grid-show-pill--rated-4 { border-left-color: var(--rating-4); background: var(--rating-4); color: #fff; }
-[class*="grid-show-pill--rated-"] .grid-show-time { opacity: 0.8; }
+.grid-show-pill--rated-1 .grid-show-time,
+.grid-show-pill--rated-3 .grid-show-time,
+.grid-show-pill--rated-4 .grid-show-time { color: rgba(255,255,255,0.75); }
 
 .grid-show-name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; max-width: 130px; }
 .grid-show-meta { display: flex; justify-content: space-between; align-items: baseline; margin-top: 1px; }
