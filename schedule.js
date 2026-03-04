@@ -835,7 +835,8 @@
       const endTime = noSetByVenue[v].map(s => s.end_time).filter(Boolean).sort().pop();
       const startMin = minutesFromDayStart(startSlot);
       const endMin   = endTime ? minutesFromDayStart(endTime) : startMin + 240;
-      noSetRowspans[v] = Math.max(4, Math.round((endMin - startMin) / 30));
+      // Ensure enough rows to display all pills (2 slots per show minimum)
+      noSetRowspans[v] = Math.max(4, noSetByVenue[v].length * 2, Math.round((endMin - startMin) / 30));
     }
 
     const wrap = document.createElement('div');
@@ -903,7 +904,8 @@
           for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
           const noTimeHdr = document.createElement('div');
           noTimeHdr.className = 'grid-no-set-time-header';
-          noTimeHdr.textContent = '(No Set Times)';
+          const showcaseNames = [...new Set(noSetByVenue[v].map(s => s.showcase).filter(Boolean))];
+          noTimeHdr.textContent = showcaseNames.length === 1 ? showcaseNames[0] : '(No Set Times)';
           td.appendChild(noTimeHdr);
         }
 
@@ -960,7 +962,7 @@
     // Group shows by showcase + venue
     const byKey = new Map();
     for (const show of shows) {
-      if (!show.showcase || !show.start_time) continue;
+      if (!show.showcase || !show.start_time || show.no_set_time) continue;
       const key = show.showcase.toLowerCase() + '\x00' + show.venue;
       if (!byKey.has(key)) byKey.set(key, { showcase: show.showcase, venue: show.venue, shows: [] });
       byKey.get(key).shows.push(show);
