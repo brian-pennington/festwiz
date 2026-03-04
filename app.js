@@ -348,7 +348,9 @@
         (a.subgenre || '').toLowerCase().includes(q) ||
         (a.location || '').toLowerCase().includes(q) ||
         (a.country || '').toLowerCase().includes(q) ||
-        (a.city || '').toLowerCase().includes(q)
+        (a.city || '').toLowerCase().includes(q) ||
+        (a.events || []).some(e => (e.venue || '').toLowerCase().includes(q)) ||
+        allUnofficialShows.some(s => s.artist_name.toLowerCase() === a.name.toLowerCase() && (s.venue || '').toLowerCase().includes(q))
       );
     }
 

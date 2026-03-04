@@ -112,6 +112,7 @@
     if (!searchFilter) return true;
     const q = searchFilter.toLowerCase();
     if (show.artist_name.toLowerCase().includes(q)) return true;
+    if ((show.venue || '').toLowerCase().includes(q)) return true;
     const meta = artistMetaMap[show.artist_name.toLowerCase()];
     if (!meta) return false;
     return meta.genre.includes(q) || meta.subgenre.includes(q) || meta.location.includes(q);
