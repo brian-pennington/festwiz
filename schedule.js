@@ -200,11 +200,31 @@
       if (unofficialShowsRes.ok) {
         const unofficialShows = await unofficialShowsRes.json();
         if (Array.isArray(unofficialShows) && unofficialShows.length > 0) {
+          // Option A: build a slot map so official shows can inherit unofficial admission
+          const unofficialBySlot = new Map();
+          for (const s of unofficialShows) {
+            const slotKey = `${s.venue}|${s.day}|${s.start_time}`;
+            if (!unofficialBySlot.has(slotKey)) unofficialBySlot.set(slotKey, s);
+          }
+          // Override admission on official shows where an unofficial entry exists at the same slot
+          for (const s of allShows) {
+            const match = unofficialBySlot.get(`${s.venue}|${s.day}|${s.start_time}`);
+            if (match) s.admission = match.admission;
+          }
+
+          // Option B: fuzzy name normalisation for dedup
+          // Strips leading articles and collapses non-alphanumeric chars so
+          // "The Family Battenberg" and "Family Battenberg" share the same key.
+          function normName(n) {
+            return n.toLowerCase()
+              .replace(/^(the|a|an)\s+/, '')
+              .replace(/[^a-z0-9]/g, '');
+          }
           const existingKeys = new Set(allShows.map(s =>
-            `${s.artist_name}|${s.venue}|${s.day}|${s.start_time}`
+            `${normName(s.artist_name)}|${s.venue}|${s.day}|${s.start_time}`
           ));
           for (const show of unofficialShows) {
-            if (!existingKeys.has(`${show.artist_name}|${show.venue}|${show.day}|${show.start_time}`)) {
+            if (!existingKeys.has(`${normName(show.artist_name)}|${show.venue}|${show.day}|${show.start_time}`)) {
               allShows.push(show);
             }
           }
