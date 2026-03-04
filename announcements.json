@@ -1,5 +1,11 @@
 [
   {
+  "id": "2026-03-4-1",
+  "date": "March 4, 2026",
+  "title": "More updates + shows",
+  "body": "<p>A couple feature updates may be of use. You can now search for venue name in the filter in rate and schedule mode, so if you open up Friday and want to see just the Hotel Vegas shows you can quickly isolate themn. In the Rate view you can quickly see every artist who's performing at a venue during the festival. I've also made the colors in schedule mode easier to read and fixed some bugs relating to unofficial shows. Lastly, I added a ton of unofficial shows, although there will be many more to add as time goes by.</p><P>Show count: 1,330 official / 416 unofficial / 1,747 total</P><p>-Brian</p>"
+  },
+  {
   "id": "2026-03-1-1",
   "date": "March 1, 2026",
   "title": "New features",
