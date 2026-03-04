@@ -904,8 +904,7 @@
           for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
           const noTimeHdr = document.createElement('div');
           noTimeHdr.className = 'grid-no-set-time-header';
-          const showcaseNames = [...new Set(noSetByVenue[v].map(s => s.showcase).filter(Boolean))];
-          noTimeHdr.textContent = showcaseNames.length === 1 ? showcaseNames[0] : '(No Set Times)';
+          noTimeHdr.textContent = '(No Set Times)';
           td.appendChild(noTimeHdr);
         }
 
@@ -962,7 +961,7 @@
     // Group shows by showcase + venue
     const byKey = new Map();
     for (const show of shows) {
-      if (!show.showcase || !show.start_time || show.no_set_time) continue;
+      if (!show.showcase || !show.start_time) continue;
       const key = show.showcase.toLowerCase() + '\x00' + show.venue;
       if (!byKey.has(key)) byKey.set(key, { showcase: show.showcase, venue: show.venue, shows: [] });
       byKey.get(key).shows.push(show);
@@ -991,8 +990,16 @@
       if (!starts.length) continue;
 
       const startSlot = nearestSlot(starts[0]);
-      const endSlot   = ends.length ? nearestSlot(ends[ends.length - 1])
-                                    : nearestSlot(starts[starts.length - 1]);
+      let endSlot;
+      if (ends.length) {
+        endSlot = nearestSlot(ends[ends.length - 1]);
+      } else {
+        // No end times: size the box by number of performers (1 slot per show minimum)
+        const fallbackMins = minutesFromDayStart(startSlot) + grpShows.length * 30;
+        const fH = (DAY_START_HOUR + Math.floor(fallbackMins / 60)) % 24;
+        const fM = fallbackMins % 60 >= 30 ? 30 : 0;
+        endSlot = `${String(fH).padStart(2, '0')}:${fM === 0 ? '00' : '30'}`;
+      }
 
       const startTr = table.querySelector(`tr[data-slot="${startSlot}"]`);
       if (!startTr) continue;
