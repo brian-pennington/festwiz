@@ -278,7 +278,9 @@
     "subgenre": "Punk",
     "location": "Brooklyn, NY, USA",
     "description": "",
-    "links": {},
+    "links": {
+      "bandcamp": "https://surfbort.bandcamp.com/"
+    },
     "source": "unofficial",
     "city": "Brooklyn",
     "country": "USA",
@@ -2598,6 +2600,561 @@
     "location": "Austin, TX, USA",
     "description": "",
     "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Aubrie Sellers",
+    "genre": "Country",
+    "subgenre": "Alt-Country",
+    "location": "Nashville, TN, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UC8coOyYIqXZkGUBn0iDrnrg",
+      "spotify": "https://open.spotify.com/artist/27IiEYV6p8fs5j8n39Pk1u",
+      "website": "https://aubriesellers.com/"
+    },
+    "source": "unofficial",
+    "city": "Nashville",
+    "country": "USA",
+    "state": "TN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Scott Ballew",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCusq13AbW-JcmecgtcgxzwA",
+      "apple_music": "https://music.apple.com/us/artist/scott-ballew/651246585",
+      "spotify": "https://open.spotify.com/artist/0IjfR0jevblGol29K4Gjo8?si=2pXqrm-6SwOYONT7Bt6iCQ&nd=1&dlsi=756bd14cd3b14b72"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Me Nd Adam",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/mendadam",
+      "spotify": "https://open.spotify.com/artist/58a532kDwpexiy0e42wZph?si=36ZU_4U7Rai2YJN__UL5Yg&dl_branch=1&nd=1&dlsi=9bf9ab0934e944f7",
+      "website": "https://www.mendadam.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Redbud",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://redbud.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dizzy Fae",
+    "genre": "R&B",
+    "subgenre": "",
+    "location": "Minneapolis, MN, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://dizzyfae.bandcamp.com/",
+      "soundcloud": "https://soundcloud.com/dizzyfae"
+    },
+    "source": "unofficial",
+    "city": "Minneapolis",
+    "country": "USA",
+    "state": "MN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Spits",
+    "genre": "Electronic",
+    "subgenre": "Punk",
+    "location": "Kalamazoo, MI, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://www.instagram.com/the_spits/?hl=en"
+    },
+    "source": "unofficial",
+    "city": "Kalamazoo",
+    "country": "USA",
+    "state": "MI",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Fleshripper",
+    "genre": "Metal",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://fleshripper.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ricochet Star",
+    "genre": "Rock",
+    "subgenre": "Dream Pop",
+    "location": "Atlanta, GA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ricochetstar.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Atlanta",
+    "country": "USA",
+    "state": "GA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Drook",
+    "genre": "Electronic",
+    "subgenre": "Hyperpop",
+    "location": "Richmond, VA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://drook.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Richmond",
+    "country": "USA",
+    "state": "VA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dutch Kills",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Brooklyn, NY, USA",
+    "description": "The Dutch Kills are a femme rock band based in Brooklyn. The group is comprised of guitarist/vocalist Julia Von Dutch, guitarist Alec Berry, bassist Maxine McCormick, and drummer Heather Jensen.",
+    "links": {
+      "bandcamp": "https://thedutchkills.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Careabout",
+    "genre": "Rock",
+    "subgenre": "Emo",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://www.instagram.com/careabout.band/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Comet",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=3_DUo3epj0k",
+      "spotify": "https://open.spotify.com/artist/60p7G6IdFcd9Pyk86uAnrs?si=zUNchhnDSX-ieRI0oITP1A&nd=1&dlsi=0c89c31425944657",
+      "website": "https://www.cometintheflesh.com"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Catcher",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Brooklyn, NY, USA",
+    "description": "6-Piece Post-Punk from Brooklyn, NY.",
+    "links": {
+      "bandcamp": "https://catcherband.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Opera",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "The Opera is a 6 piece art-punk band based in Austin, TX.",
+    "links": {
+      "bandcamp": "https://theoperaband.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Magdalene",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Arise",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Broken Colours",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "High Wycombe, UK",
+    "description": "Hailing from High Wycombe, Broken Colours are a four-piece indie outfit who draw on the funked-up, rocky sensibilities to delivery truly electrifying performances. Taking cues from the likes of Jamiroquai and Arctic Monkeys, the band burst onto the scene with their acclaimed self-titled EP in 2016.\n\nTouring the UK, Denmark and Italy, the band have shared the stage with the likes of The Blockheads, Jack Bugg, The Zutons and The Subways, reinforcing their must-see dynamic live shows. Looking forward to 2025, the band look to reassert themselves as a creative force to be reckoned with, with new music on the horizon.",
+    "links": {
+      "youtube": "https://www.youtube.com/@BrokenColoursBand",
+      "apple_music": "https://music.apple.com/us/album/could-be-worse-ep/1847655339?at=1001l384B&ct=music_redirect&itsct=music_box_link&itscg=30200&ls=1&uo=4",
+      "spotify": "https://open.spotify.com/artist/2btc1eS7eAvLTTtJHtSjWW"
+    },
+    "source": "unofficial",
+    "city": "High Wycombe",
+    "country": "UK",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Slurp the World",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=JEVY49uSsnI",
+      "spotify": "https://open.spotify.com/artist/3Xh4dS581Onnn2QHT3DARD?si=HMP-vXZ9RqiCba_YkknOBw&nd=1&dlsi=cf4a51c671314c0b"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Killer Kaya",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://killerkaya.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Livermore",
+    "genre": "Americana",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "Formed in March 2025, Livermore brings to the stage guitarists Marley Kezerian and Carter Stanley along with mandolinist Jacob Mink. After meeting in the jam scene (shout out to CTBA) around Austin, the trio decided to start making music together. Looking to reinforce the group's sound, the trio brought Joslyn Boyer into the band to hold down the low end on bass. \n\nInformed by traditions and standards, but not afraid to branch out into other styles, you'll never guess what we've got coming next.",
+    "links": {
+      "youtube": "https://www.youtube.com/@Livermore-ATX",
+      "website": "https://livermore-atx.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Diva",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Rosebay",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Boulder, CO, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/running-away-single/1680293532",
+      "spotify": "https://open.spotify.com/artist/1f0yLQxnUlpyu4Tbmaiwdw?si=Jm3neLnSRamPr7xWTY7fRA&nd=1&dlsi=ab617a0f59594c72",
+      "website": "https://www.rosebaytheband.com/"
+    },
+    "source": "unofficial",
+    "city": "Boulder",
+    "country": "USA",
+    "state": "CO",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Semihelix",
+    "genre": "Rock",
+    "subgenre": "Psychdelic",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://semihelix.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Clement Hall",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Lubbock, TX, USA",
+    "description": "Clement Hall is an indie/alternative rock band in Lubbock, TX. The group was formed by frontman Luke Hamaker & bassist Aidan Haydu in their college dorm. Soon after, they welcomed members Quinn Edgar, Gustavo Oliveira, and Tyler Cush. The band has sold out venues and clubs around their college town and continue to release airy indie rock integrated with pop and disco characteristics",
+    "links": {
+      "bandcamp": "https://clementhall.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Lubbock",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "THEMM!",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "Twenty three (23) years of Austin's fun rock slop-punk and free drink tickets. Formerly known as The Midgetmen, now known as THEMM!",
+    "links": {
+      "bandcamp": "https://themmrocks.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sunjammer",
+    "genre": "Americana",
+    "subgenre": "Psychdelic",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sunjammertx.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Richard Tripps",
+    "genre": "Folk",
+    "subgenre": "Psychedelic",
+    "location": "CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://richardtripps.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "This Is Lorelei",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "New York, NY, USA",
+    "description": "this is lorelei and i am nate and my other band is called water from your eyes",
+    "links": {
+      "bandcamp": "https://thisislorelei.bandcamp.com/",
+      "website": "https://www.thisislorelei.com/"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ashaine White",
+    "genre": "Rock",
+    "subgenre": "Neo-Soul",
+    "location": "London, UK",
+    "description": "Just when you thought every genre mash-up had been done, Ivor Novello Rising Star Nominee Ashaine White arrives with a brand new hybrid: grunge-soul.\n\npinned as bandcamp\u2019s best of soul (june 2023) her new EP \u201cAsh\u201d is out now!",
+    "links": {
+      "bandcamp": "https://ashainewhite.bandcamp.com",
+      "website": "https://www.ashainewhite.com/"
+    },
+    "source": "unofficial",
+    "city": "London",
+    "country": "UK",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "People I Love",
+    "genre": "Folk",
+    "subgenre": "Indie Rock",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://peopleyelove.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "A Mourning in Heaven",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Houston, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://amourninginheaven.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Houston",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sailor Poon",
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Austin, TX, USA",
+    "description": "Doomy stoogey post-punk from Austin, TX",
+    "links": {
+      "bandcamp": "https://sailor-poon.bandcamp.com"
+    },
     "source": "unofficial",
     "city": "Austin",
     "country": "USA",

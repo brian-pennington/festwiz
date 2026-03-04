@@ -1,16 +1,15 @@
 [
   {
-    "id": "official_0_miles_per_hourhotel_vegas_at_volstead2026_03_17",
+    "id": "official_0_miles_per_hourhotel_vegas_at_volstead2026_03_1720_15",
     "artist_name": "0 Miles Per Hour",
     "entity_id": 2254309,
     "venue": "Hotel Vegas at Volstead",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:15",
+    "end_time": "20:50",
     "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Smartpunk Records",
+    "notes": ""
   },
   {
     "id": "official_2bygbrushy_street_commons2026_03_1422_30",
@@ -73,6 +72,18 @@
     "notes": ""
   },
   {
+    "id": "official_2downriviere2026_03_1622_25",
+    "artist_name": "2Down",
+    "entity_id": 2275295,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "22:25",
+    "end_time": "22:45",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
+    "notes": ""
+  },
+  {
     "id": "official_4neycoconut_club2026_03_1523_00",
     "artist_name": "4NEY",
     "entity_id": 2253640,
@@ -82,6 +93,18 @@
     "end_time": "00:00",
     "source": "official",
     "showcase": "Take A Break",
+    "notes": ""
+  },
+  {
+    "id": "official_the_502sstubb_s2026_03_1522_05",
+    "artist_name": "The 502s",
+    "entity_id": 2262576,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "22:05",
+    "end_time": "22:35",
+    "source": "official",
+    "showcase": "Big Loud Presents",
     "notes": ""
   },
   {
@@ -142,6 +165,30 @@
     "end_time": "21:15",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
+    "notes": ""
+  },
+  {
+    "id": "official_ace_parkriviere2026_03_1520_30",
+    "artist_name": "Ace Park",
+    "entity_id": 2265472,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "20:30",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
+    "id": "official_addie_addie_addieinn_cahoots_studio2026_03_1719_50",
+    "artist_name": "Addie Addie Addie",
+    "entity_id": 2277372,
+    "venue": "Inn Cahoots Studio",
+    "day": "2026-03-17",
+    "start_time": "19:50",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "Take Action x SXSW",
     "notes": ""
   },
   {
@@ -230,13 +277,13 @@
     "notes": ""
   },
   {
-    "id": "official_adult_leisuremarlow2026_03_1220_00",
+    "id": "official_adult_leisuremarlow2026_03_1200_00",
     "artist_name": "Adult Leisure",
     "entity_id": 2261775,
     "venue": "Marlow",
     "day": "2026-03-12",
-    "start_time": "20:00",
-    "end_time": "20:30",
+    "start_time": "00:00",
+    "end_time": "00:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -290,17 +337,16 @@
     "notes": ""
   },
   {
-    "id": "official_aikoaugustine2026_03_12",
+    "id": "official_aikoaugustine2026_03_1222_20",
     "artist_name": "Aiko",
     "entity_id": 2247356,
     "venue": "Augustine",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:20",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "Czech House",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ain_themachinespeakeasy2026_03_1420_30",
@@ -311,7 +357,7 @@
     "start_time": "20:30",
     "end_time": "21:30",
     "source": "official",
-    "showcase": "Berlin Partner",
+    "showcase": "Berlin House",
     "notes": ""
   },
   {
@@ -401,17 +447,16 @@
     "notes": ""
   },
   {
-    "id": "official_alahs_nnivel___mala_fama2026_03_12",
+    "id": "official_alahs_nnivel___mala_fama2026_03_1222_40",
     "artist_name": "Alahs\u00een",
     "entity_id": 2248091,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:40",
+    "end_time": "22:55",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_alanntaco_n_maiz2026_03_13",
@@ -423,6 +468,19 @@
     "end_time": null,
     "source": "official",
     "showcase": "God Body Official Stage",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
+    "id": "official_alesia_lanitaco_n_maiz2026_03_15",
+    "artist_name": "Alesia Lani",
+    "entity_id": 2278310,
+    "venue": "Taco n Maiz",
+    "day": "2026-03-15",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Future of Indie Showcase",
     "notes": "",
     "no_set_time": true
   },
@@ -450,6 +508,30 @@
     "showcase": "Future of Indie Showcase",
     "notes": "",
     "no_set_time": true
+  },
+  {
+    "id": "official_alex_lambertstubb_s2026_03_1518_00",
+    "artist_name": "Alex Lambert",
+    "entity_id": 2254301,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "18:00",
+    "end_time": "18:30",
+    "source": "official",
+    "showcase": "Big Loud Presents",
+    "notes": ""
+  },
+  {
+    "id": "official_ali_almightyvenue_62026_03_1720_25",
+    "artist_name": "Ali Almighty",
+    "entity_id": 2244476,
+    "venue": "Venue 6",
+    "day": "2026-03-17",
+    "start_time": "20:25",
+    "end_time": "20:35",
+    "source": "official",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
+    "notes": ""
   },
   {
     "id": "official_ali_almightyflamingo_cantina2026_03_1222_15",
@@ -512,17 +594,16 @@
     "notes": ""
   },
   {
-    "id": "official_alkyoneaugustine2026_03_12",
+    "id": "official_alkyoneaugustine2026_03_1221_35",
     "artist_name": "Alkyone",
     "entity_id": 2240476,
     "venue": "Augustine",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:35",
+    "end_time": "22:05",
     "source": "official",
     "showcase": "Czech House",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_alkyonecentral_presbyterian_church2026_03_1521_30",
@@ -756,17 +837,16 @@
     "notes": ""
   },
   {
-    "id": "official_anaya_kobenivel___mala_fama2026_03_12",
+    "id": "official_anaya_kobenivel___mala_fama2026_03_1221_45",
     "artist_name": "Anaya Kobe",
     "entity_id": 2248095,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:45",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "Purrr SZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ancient_greecelow_down_lounge2026_03_1219_00",
@@ -937,13 +1017,13 @@
     "notes": ""
   },
   {
-    "id": "official_the_animerosshangri_la2026_03_1222_20",
+    "id": "official_the_animerosshangri_la2026_03_1220_40",
     "artist_name": "The Animeros",
     "entity_id": 2240714,
     "venue": "Shangri-La",
     "day": "2026-03-12",
-    "start_time": "22:20",
-    "end_time": "23:00",
+    "start_time": "20:40",
+    "end_time": "21:10",
     "source": "official",
     "showcase": "The Spanish Wave",
     "notes": ""
@@ -969,7 +1049,7 @@
     "start_time": "23:00",
     "end_time": "00:45",
     "source": "official",
-    "showcase": "Berlin Partner",
+    "showcase": "Berlin House",
     "notes": ""
   },
   {
@@ -1058,30 +1138,28 @@
     "notes": ""
   },
   {
-    "id": "official_armen_paulmarlow2026_03_18",
+    "id": "official_armen_paulmarlow2026_03_1821_10",
     "artist_name": "Armen Paul",
     "entity_id": 2241124,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:10",
+    "end_time": "21:20",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
-    "id": "official_arroba_natlas_perlas2026_03_17",
+    "id": "official_arroba_natlas_perlas2026_03_1721_00",
     "artist_name": "Arroba Nat",
     "entity_id": 2238985,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_arxxbritish_music_embassy___palm_door_on_sixth2026_03_1521_2",
@@ -1105,6 +1183,18 @@
     "end_time": "23:50",
     "source": "official",
     "showcase": "One Fiinix Live",
+    "notes": ""
+  },
+  {
+    "id": "official_asaka_the_renegaderiviere2026_03_1623_15",
+    "artist_name": "Asaka The Renegade",
+    "entity_id": 2268954,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "23:15",
+    "end_time": "23:35",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -1289,6 +1379,18 @@
     "notes": ""
   },
   {
+    "id": "official_b_freeriviere2026_03_1622_50",
+    "artist_name": "B Free",
+    "entity_id": 2270848,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "22:50",
+    "end_time": "23:10",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
+    "notes": ""
+  },
+  {
     "id": "official_babatunde_hip_hoperaflamingo_cantina2026_03_1620_00",
     "artist_name": "Babatunde Hip Hopera",
     "entity_id": 2240915,
@@ -1298,6 +1400,18 @@
     "end_time": "20:30",
     "source": "official",
     "showcase": "Classical Unlocked",
+    "notes": ""
+  },
+  {
+    "id": "official_baby_samriviere2026_03_1521_10",
+    "artist_name": "Baby Sam",
+    "entity_id": 2247445,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "21:10",
+    "end_time": "21:20",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
     "notes": ""
   },
   {
@@ -1322,6 +1436,18 @@
     "end_time": "00:00",
     "source": "official",
     "showcase": "Taco Tuesday",
+    "notes": ""
+  },
+  {
+    "id": "official_babychiefdoitmohawk_outdoor2026_03_1600_20",
+    "artist_name": "BabyChiefDoIt",
+    "entity_id": 2278229,
+    "venue": "Mohawk Outdoor",
+    "day": "2026-03-16",
+    "start_time": "00:20",
+    "end_time": "01:00",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
     "notes": ""
   },
   {
@@ -1361,17 +1487,16 @@
     "notes": ""
   },
   {
-    "id": "official_bandana_cheyennamarlow2026_03_18",
+    "id": "official_bandana_cheyennamarlow2026_03_1820_20",
     "artist_name": "Bandana Cheyenna",
     "entity_id": 2241445,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:20",
+    "end_time": "20:50",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_banshimokuglobal_stage___downright_austin_backyard2026_03_13",
@@ -1399,17 +1524,16 @@
     "notes": ""
   },
   {
-    "id": "official_b_ra_zmekov_augustine2026_03_12",
+    "id": "official_b_ra_zmekov_augustine2026_03_1220_40",
     "artist_name": "B\u00e1ra Zmekov\u00e1",
     "entity_id": 2247357,
     "venue": "Augustine",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:40",
+    "end_time": "21:20",
     "source": "official",
     "showcase": "Czech House",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_barbswan_dive2026_03_1820_00",
@@ -1777,13 +1901,13 @@
     "notes": ""
   },
   {
-    "id": "official_bikini_beachlow_down_lounge2026_03_1221_00",
+    "id": "official_bikini_beachlow_down_lounge2026_03_1223_00",
     "artist_name": "Bikini Beach",
     "entity_id": 2240292,
     "venue": "Low Down Lounge",
     "day": "2026-03-12",
-    "start_time": "21:00",
-    "end_time": "21:40",
+    "start_time": "23:00",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -1798,6 +1922,18 @@
     "end_time": "22:10",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_the_bio_swan_dive_patio2026_03_1819_30",
+    "artist_name": "The Bio.",
+    "entity_id": 2278474,
+    "venue": "Swan Dive Patio",
+    "day": "2026-03-18",
+    "start_time": "19:30",
+    "end_time": "19:50",
+    "source": "official",
+    "showcase": "Sounds of Austin Presented by GRAV",
     "notes": ""
   },
   {
@@ -1996,6 +2132,18 @@
     "notes": ""
   },
   {
+    "id": "official_boogietraxxcoconut_club_rooftop2026_03_1520_00",
+    "artist_name": "Boogietraxx",
+    "entity_id": 2246480,
+    "venue": "Coconut Club Rooftop",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "21:00",
+    "source": "official",
+    "showcase": "Take A Break",
+    "notes": ""
+  },
+  {
     "id": "official_boogietraxxkingdom2026_03_1221_00",
     "artist_name": "Boogietraxx",
     "entity_id": 2246480,
@@ -2029,6 +2177,18 @@
     "end_time": "21:10",
     "source": "official",
     "showcase": "The Smoke Out ATX",
+    "notes": ""
+  },
+  {
+    "id": "official_booqoonivel___mala_fama2026_03_1223_15",
+    "artist_name": "Booqoo",
+    "entity_id": 2278395,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-12",
+    "start_time": "23:15",
+    "end_time": "23:30",
+    "source": "official",
+    "showcase": "PURRRSZN",
     "notes": ""
   },
   {
@@ -2080,17 +2240,16 @@
     "notes": ""
   },
   {
-    "id": "official_braison_cyrusmarlow2026_03_18",
+    "id": "official_braison_cyrusmarlow2026_03_1822_00",
     "artist_name": "Braison Cyrus",
     "entity_id": 2242616,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:30",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_brandon_bluecoconut_club_rooftop2026_03_1522_00",
@@ -2166,17 +2325,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_brionnenivel___mala_fama2026_03_12",
+    "id": "official_brionnenivel___mala_fama2026_03_1222_25",
     "artist_name": "Brionne",
     "entity_id": 2248094,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:25",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_brodie_lanesaxon_pub2026_03_1823_00",
@@ -2188,6 +2346,18 @@
     "end_time": "23:30",
     "source": "official",
     "showcase": "Pearl Snap Productions",
+    "notes": ""
+  },
+  {
+    "id": "official_bruiser_wolfriviere2026_03_1600_45",
+    "artist_name": "Bruiser Wolf",
+    "entity_id": 2275708,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "00:45",
+    "end_time": "01:15",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -2375,13 +2545,13 @@
     "notes": ""
   },
   {
-    "id": "official_calder_allencontinental_club2026_03_1201_00",
+    "id": "official_calder_allencontinental_club2026_03_1221_00",
     "artist_name": "Calder Allen",
     "entity_id": 2238769,
     "venue": "Continental Club",
     "day": "2026-03-12",
-    "start_time": "01:00",
-    "end_time": "01:45",
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -2480,6 +2650,18 @@
     "end_time": "21:30",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_cashierhotel_vegas_at_volstead2026_03_1721_15",
+    "artist_name": "Cashier",
+    "entity_id": 2240959,
+    "venue": "Hotel Vegas at Volstead",
+    "day": "2026-03-17",
+    "start_time": "21:15",
+    "end_time": "21:50",
+    "source": "official",
+    "showcase": "Smartpunk Records",
     "notes": ""
   },
   {
@@ -2591,6 +2773,18 @@
     "notes": ""
   },
   {
+    "id": "official_cdsmswan_dive_patio2026_03_1400_30",
+    "artist_name": "CDSM",
+    "entity_id": 2241076,
+    "venue": "Swan Dive Patio",
+    "day": "2026-03-14",
+    "start_time": "00:30",
+    "end_time": "01:10",
+    "source": "official",
+    "showcase": "Project Nowhere x Exclaim! Magazine",
+    "notes": ""
+  },
+  {
     "id": "official_cdsmshangri_la2026_03_1822_00",
     "artist_name": "CDSM",
     "entity_id": 2241076,
@@ -2636,19 +2830,6 @@
     "end_time": null,
     "source": "official",
     "showcase": "The Smoke Out ATX",
-    "notes": "",
-    "no_set_time": true
-  },
-  {
-    "id": "official_cha_keeta_bvenue_62026_03_17",
-    "artist_name": "Cha\u2019Keeta B",
-    "entity_id": 2266974,
-    "venue": "Venue 6",
-    "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
-    "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": "",
     "no_set_time": true
   },
@@ -2833,17 +3014,16 @@
     "notes": ""
   },
   {
-    "id": "official_cici_da_pnivel___mala_fama2026_03_12",
+    "id": "official_cici_da_pnivel___mala_fama2026_03_1219_45",
     "artist_name": "Cici Da P",
     "entity_id": 2274345,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:45",
+    "end_time": "20:00",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_cj_chenier_and_the_red_hot_louisiana_bandantone_s2026_03_181",
@@ -2919,6 +3099,18 @@
     "notes": ""
   },
   {
+    "id": "official_congratulationshotel_vegas2026_03_1721_00",
+    "artist_name": "congratulations",
+    "entity_id": 2240052,
+    "venue": "Hotel Vegas",
+    "day": "2026-03-17",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "source": "official",
+    "showcase": "Smartpunk Records",
+    "notes": ""
+  },
+  {
     "id": "official_congratulationslow_down_lounge2026_03_1400_00",
     "artist_name": "congratulations",
     "entity_id": 2240052,
@@ -2967,17 +3159,16 @@
     "notes": ""
   },
   {
-    "id": "official_cootie_catcherhotel_vegas2026_03_17",
+    "id": "official_cootie_catcherhotel_vegas2026_03_1722_00",
     "artist_name": "cootie catcher",
     "entity_id": 2240608,
     "venue": "Hotel Vegas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "Smartpunk Records",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_cormaethe_13th_floor2026_03_1322_00",
@@ -3370,6 +3561,18 @@
     "notes": ""
   },
   {
+    "id": "official_dee_gattinivel___mala_fama2026_03_1220_40",
+    "artist_name": "Dee Gatti",
+    "entity_id": 2274344,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-12",
+    "start_time": "20:40",
+    "end_time": "21:00",
+    "source": "official",
+    "showcase": "PURRRSZN",
+    "notes": ""
+  },
+  {
     "id": "official_dee_gattibrushy_street_commons2026_03_1420_00",
     "artist_name": "Dee Gatti",
     "entity_id": 2274344,
@@ -3428,6 +3631,18 @@
     "end_time": "22:00",
     "source": "official",
     "showcase": "Deloyd Elze x Make Out Music",
+    "notes": ""
+  },
+  {
+    "id": "official_demaciiioriviere2026_03_1622_00",
+    "artist_name": "DeMaciiio",
+    "entity_id": 2268808,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "22:00",
+    "end_time": "22:20",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -3505,6 +3720,18 @@
     "notes": ""
   },
   {
+    "id": "official_devotchkamarlow2026_03_1220_00",
+    "artist_name": "DeVotchKa",
+    "entity_id": 2267536,
+    "venue": "Marlow",
+    "day": "2026-03-12",
+    "start_time": "20:00",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_devy_stoneztaco_n_maiz2026_03_15",
     "artist_name": "Devy Stonez",
     "entity_id": 2251781,
@@ -3554,8 +3781,8 @@
     "notes": ""
   },
   {
-    "id": "official_dice_sohotaco_n_maiz2026_03_1722_25",
-    "artist_name": "Dice Soho",
+    "id": "official_dice_soho___trill_sammytaco_n_maiz2026_03_1722_25",
+    "artist_name": "Dice Soho & Trill Sammy",
     "entity_id": 2253592,
     "venue": "Taco n Maiz",
     "day": "2026-03-17",
@@ -3566,17 +3793,16 @@
     "notes": ""
   },
   {
-    "id": "official_dice_sohoriviere2026_03_15",
-    "artist_name": "Dice Soho",
+    "id": "official_dice_soho___trill_sammyriviere2026_03_1523_50",
+    "artist_name": "Dice Soho & Trill Sammy",
     "entity_id": 2253592,
     "venue": "Riviere",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:50",
+    "end_time": "00:05",
     "source": "official",
     "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_die_sloshangri_la2026_03_1421_10",
@@ -3725,6 +3951,18 @@
     "notes": ""
   },
   {
+    "id": "official_dj_bad_applecoconut_club2026_03_1501_00",
+    "artist_name": "DJ BAD APPLE",
+    "entity_id": 2279021,
+    "venue": "Coconut Club",
+    "day": "2026-03-15",
+    "start_time": "01:00",
+    "end_time": "02:00",
+    "source": "official",
+    "showcase": "Take A Break",
+    "notes": ""
+  },
+  {
     "id": "official_dj_bayronmala_vida2026_03_1421_30",
     "artist_name": "DJ BAYRON",
     "entity_id": 2265596,
@@ -3734,6 +3972,18 @@
     "end_time": "22:30",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_dj_beastieriviere2026_03_1620_00",
+    "artist_name": "Dj Beastie",
+    "entity_id": 2270258,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "20:00",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -4085,6 +4335,18 @@
     "notes": ""
   },
   {
+    "id": "official_dj_x_o_riviere2026_03_1523_30",
+    "artist_name": "DJ X.O.",
+    "entity_id": 2251823,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "23:30",
+    "end_time": "23:45",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_dnashangri_la2026_03_17",
     "artist_name": "DNA",
     "entity_id": 2253643,
@@ -4268,6 +4530,18 @@
     "notes": ""
   },
   {
+    "id": "official_the_droptinesstubb_s2026_03_1522_50",
+    "artist_name": "The Droptines",
+    "entity_id": 2251822,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "22:50",
+    "end_time": "23:20",
+    "source": "official",
+    "showcase": "Big Loud Presents",
+    "notes": ""
+  },
+  {
     "id": "official_dual_coreseven_spirits2026_03_1701_00",
     "artist_name": "Dual Core",
     "entity_id": 2264171,
@@ -4325,6 +4599,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "Take Action x SXSW",
+    "notes": ""
+  },
+  {
+    "id": "official_dylan_gossettstubb_s2026_03_1521_05",
+    "artist_name": "Dylan Gossett",
+    "entity_id": 2267537,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "21:05",
+    "end_time": "21:50",
+    "source": "official",
+    "showcase": "Big Loud Presents",
     "notes": ""
   },
   {
@@ -4584,17 +4870,16 @@
     "notes": ""
   },
   {
-    "id": "official_enfantsglobal_stage___downright_austin_backyard2026_03_13",
+    "id": "official_enfantsglobal_stage___downright_austin_backyard2026_03_1321_",
     "artist_name": "Enfants",
     "entity_id": 2240691,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:30",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "TOKYO CALLING \u00d7 INSPIRED BY TOKYO",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_enus_sunnehotel_vegas_at_volstead2026_03_1801_00",
@@ -4947,17 +5232,16 @@
     "notes": ""
   },
   {
-    "id": "official_finlandsglobal_stage___downright_austin_backyard2026_03_13",
+    "id": "official_finlandsglobal_stage___downright_austin_backyard2026_03_1322",
     "artist_name": "FINLANDS",
     "entity_id": 2249510,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:20",
+    "end_time": "22:50",
     "source": "official",
-    "showcase": "Tokyo Calling",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "TOKYO CALLING \u00d7 INSPIRED BY TOKYO",
+    "notes": ""
   },
   {
     "id": "official_firecrackerglobal_stage___downright_austin_backyard2026_03_1",
@@ -5154,17 +5438,16 @@
     "notes": ""
   },
   {
-    "id": "official_the_game_shopelysium2026_03_15",
+    "id": "official_the_game_shopelysium2026_03_1523_40",
     "artist_name": "The Game Shop",
     "entity_id": 2258302,
     "venue": "Elysium",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:40",
+    "end_time": "00:20",
     "source": "official",
     "showcase": "Japan Vibes powered by TuneCore Japan",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_the_gasoline_gypsieslamberts2026_03_1822_35",
@@ -5240,17 +5523,16 @@
     "notes": ""
   },
   {
-    "id": "official_gilthotel_vegas_patio2026_03_17",
+    "id": "official_gilthotel_vegas_patio2026_03_1720_00",
     "artist_name": "GILT",
     "entity_id": 2254947,
     "venue": "Hotel Vegas Patio",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:30",
     "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Smartpunk Records",
+    "notes": ""
   },
   {
     "id": "official_giolefty_s_brick_bar2026_03_1420_40",
@@ -5422,17 +5704,28 @@
     "notes": ""
   },
   {
-    "id": "official_gokumonglobal_stage___downright_austin_backyard2026_03_13",
+    "id": "official_gokumonglobal_stage___downright_austin_backyard2026_03_1319_",
     "artist_name": "GOKUMON",
     "entity_id": 2250234,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:50",
+    "end_time": "20:20",
     "source": "official",
-    "showcase": "Tokyo Calling",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "TOKYO CALLING \u00d7 INSPIRED BY TOKYO",
+    "notes": ""
+  },
+  {
+    "id": "official_goldenboynoelriviere2026_03_1620_50",
+    "artist_name": "GoldenBoyNoel",
+    "entity_id": 2270839,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "20:50",
+    "end_time": "21:05",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
+    "notes": ""
   },
   {
     "id": "official_good_flying_birdschess_club2026_03_1322_00",
@@ -5531,13 +5824,13 @@
     "notes": ""
   },
   {
-    "id": "official_grandmas_houselow_down_lounge2026_03_1223_00",
+    "id": "official_grandmas_houselow_down_lounge2026_03_1221_00",
     "artist_name": "Grandmas House",
     "entity_id": 2241382,
     "venue": "Low Down Lounge",
     "day": "2026-03-12",
-    "start_time": "23:00",
-    "end_time": "23:40",
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -5579,17 +5872,16 @@
     "notes": ""
   },
   {
-    "id": "official_greyson_turnersaxon_pub2026_03_17",
+    "id": "official_greyson_turnersaxon_pub2026_03_1721_00",
     "artist_name": "Greyson Turner",
     "entity_id": 2258516,
     "venue": "Saxon Pub",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_grimashangri_la2026_03_1219_00",
@@ -5784,6 +6076,18 @@
     "notes": ""
   },
   {
+    "id": "official_guy_vincentsaxon_pub2026_03_1823_45",
+    "artist_name": "Guy Vincent",
+    "entity_id": 2278108,
+    "venue": "Saxon Pub",
+    "day": "2026-03-18",
+    "start_time": "23:45",
+    "end_time": "00:30",
+    "source": "official",
+    "showcase": "Pearl Snap Productions",
+    "notes": ""
+  },
+  {
     "id": "official_gwennoswan_dive2026_03_1521_40",
     "artist_name": "Gwenno",
     "entity_id": 2240465,
@@ -5861,12 +6165,11 @@
     "entity_id": 2249215,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-14",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:00",
+    "end_time": "19:30",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_hania_derejcentral_presbyterian_church2026_03_1522_20",
@@ -5905,6 +6208,18 @@
     "notes": ""
   },
   {
+    "id": "official_hashi_senjooriviere2026_03_1522_55",
+    "artist_name": "Hashi Senjoo",
+    "entity_id": 2251955,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "22:55",
+    "end_time": "23:05",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_haterslow_down_lounge2026_03_1220_00",
     "artist_name": "Haters",
     "entity_id": 2240768,
@@ -5926,6 +6241,18 @@
     "end_time": "01:30",
     "source": "official",
     "showcase": "Planetary Group",
+    "notes": ""
+  },
+  {
+    "id": "official_the_haunted_youthhotel_vegas2026_03_1723_00",
+    "artist_name": "The Haunted Youth",
+    "entity_id": 2248080,
+    "venue": "Hotel Vegas",
+    "day": "2026-03-17",
+    "start_time": "23:00",
+    "end_time": "23:40",
+    "source": "official",
+    "showcase": "Smartpunk Records",
     "notes": ""
   },
   {
@@ -6083,18 +6410,6 @@
     "end_time": "22:30",
     "source": "official",
     "showcase": "Groover Obsessions",
-    "notes": ""
-  },
-  {
-    "id": "official_hohnen_fordcentral_presbyterian_church2026_03_1519_50",
-    "artist_name": "Hohnen Ford",
-    "entity_id": 2241137,
-    "venue": "Central Presbyterian Church",
-    "day": "2026-03-15",
-    "start_time": "19:50",
-    "end_time": "20:25",
-    "source": "official",
-    "showcase": "Pastorale",
     "notes": ""
   },
   {
@@ -6266,17 +6581,16 @@
     "notes": ""
   },
   {
-    "id": "official_i_skylas_perlas2026_03_15",
+    "id": "official_i_skylas_perlas2026_03_1523_45",
     "artist_name": "I-SKY",
     "entity_id": 2246478,
     "venue": "Las Perlas",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:45",
+    "end_time": "00:45",
     "source": "official",
     "showcase": "Made in Malaysia",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ichigorinahamuchess_club2026_03_1301_00",
@@ -6291,17 +6605,16 @@
     "notes": ""
   },
   {
-    "id": "official_ichigorinahamuelysium2026_03_15",
+    "id": "official_ichigorinahamuelysium2026_03_1522_40",
     "artist_name": "ICHIGORINAHAMU",
     "entity_id": 2244511,
     "venue": "Elysium",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:40",
+    "end_time": "23:20",
     "source": "official",
     "showcase": "Japan Vibes powered by TuneCore Japan",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ideal_collectiveshangri_la2026_03_1420_45",
@@ -6353,6 +6666,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_ilykimchi_and_oogie_manemohawk_outdoor2026_03_1621_00",
+    "artist_name": "ilykimchi and oogie mane",
+    "entity_id": 2267680,
+    "venue": "Mohawk Outdoor",
+    "day": "2026-03-16",
+    "start_time": "21:00",
+    "end_time": "21:45",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
+    "notes": ""
+  },
+  {
     "id": "official_important_groupchess_club2026_03_1820_00",
     "artist_name": "Important Group",
     "entity_id": 2240930,
@@ -6362,6 +6687,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "Music Box ATX",
+    "notes": ""
+  },
+  {
+    "id": "official_in_colorstubb_s2026_03_1520_20",
+    "artist_name": "In Color",
+    "entity_id": 2242949,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "20:20",
+    "end_time": "20:50",
+    "source": "official",
+    "showcase": "Big Loud Presents",
     "notes": ""
   },
   {
@@ -6426,17 +6763,16 @@
     "notes": ""
   },
   {
-    "id": "official_iscream_never_groundelysium2026_03_15",
+    "id": "official_iscream_never_groundelysium2026_03_1500_40",
     "artist_name": "ISCREAM NEVER GROUND",
     "entity_id": 2249511,
     "venue": "Elysium",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:40",
+    "end_time": "01:20",
     "source": "official",
     "showcase": "Japan Vibes powered by TuneCore Japan",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_iscream_never_groundglobal_stage___downright_austin_backyard",
@@ -6444,12 +6780,11 @@
     "entity_id": 2249511,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:10",
+    "end_time": "23:50",
     "source": "official",
-    "showcase": "Tokyo Calling",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "TOKYO CALLING \u00d7 INSPIRED BY TOKYO",
+    "notes": ""
   },
   {
     "id": "official_isis_destinyshangri_la2026_03_1420_30",
@@ -6621,6 +6956,18 @@
     "notes": ""
   },
   {
+    "id": "official_jacquie_leeflamingo_cantina2026_03_1421_20",
+    "artist_name": "Jacquie Lee",
+    "entity_id": 2278103,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-14",
+    "start_time": "21:20",
+    "end_time": "21:50",
+    "source": "official",
+    "showcase": "Found on Nero",
+    "notes": ""
+  },
+  {
     "id": "official_jadarrionneon_grotto2026_03_1523_00",
     "artist_name": "Jadarrion",
     "entity_id": 2248296,
@@ -6658,17 +7005,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_jairoelysium2026_03_15",
+    "id": "official_jairoelysium2026_03_1521_50",
     "artist_name": "Jairo",
     "entity_id": 2252699,
     "venue": "Elysium",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:50",
+    "end_time": "22:20",
     "source": "official",
     "showcase": "Japan Vibes powered by TuneCore Japan",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_jakegatewoodcoconut_club_rooftop2026_03_1523_00",
@@ -7186,7 +7532,7 @@
     "start_time": "21:30",
     "end_time": "23:00",
     "source": "official",
-    "showcase": "Berlin Partner",
+    "showcase": "Berlin House",
     "notes": ""
   },
   {
@@ -7470,30 +7816,28 @@
     "notes": ""
   },
   {
-    "id": "official_kanho_yakushijielysium2026_03_15",
+    "id": "official_kanho_yakushijielysium2026_03_1520_00",
     "artist_name": "Kanho Yakushiji",
     "entity_id": 2241119,
     "venue": "Elysium",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:40",
     "source": "official",
     "showcase": "Japan Vibes powered by TuneCore Japan",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
-    "id": "official_karina_galicialas_perlas2026_03_17",
+    "id": "official_karina_galicialas_perlas2026_03_1722_00",
     "artist_name": "Karina Galicia",
     "entity_id": 2238768,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_karma_sheenthe_13th_floor2026_03_1800_00",
@@ -7655,17 +7999,16 @@
     "notes": ""
   },
   {
-    "id": "official_kid_rainmarlow2026_03_18",
+    "id": "official_kid_rainmarlow2026_03_1823_40",
     "artist_name": "KiD RAiN",
     "entity_id": 2251337,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:40",
+    "end_time": "00:10",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_kidsvalhalla2026_03_1423_00",
@@ -7764,6 +8107,30 @@
     "notes": ""
   },
   {
+    "id": "official_kingdom_djskingdom2026_03_1601_15",
+    "artist_name": "Kingdom DJs",
+    "entity_id": 2278230,
+    "venue": "Kingdom",
+    "day": "2026-03-16",
+    "start_time": "01:15",
+    "end_time": "04:00",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
+    "notes": ""
+  },
+  {
+    "id": "official_kingdom_djskingdom2026_03_1401_30",
+    "artist_name": "Kingdom DJs",
+    "entity_id": 2278230,
+    "venue": "Kingdom",
+    "day": "2026-03-14",
+    "start_time": "01:30",
+    "end_time": "04:00",
+    "source": "official",
+    "showcase": "DJ_Dave",
+    "notes": ""
+  },
+  {
     "id": "official_knatsbritish_music_embassy___palm_door_on_sixth_patio2026_03",
     "artist_name": "Knats",
     "entity_id": 2238757,
@@ -7797,6 +8164,31 @@
     "end_time": "22:40",
     "source": "official",
     "showcase": "Jazz re:freshed Outernational",
+    "notes": ""
+  },
+  {
+    "id": "official_kndrxshangri_la2026_03_17",
+    "artist_name": "KNDRX",
+    "entity_id": 2278227,
+    "venue": "Shangri-La",
+    "day": "2026-03-17",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Good Coughee Presented by Devin the Dude",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
+    "id": "official_knox_writemohawk_indoor2026_03_1621_10",
+    "artist_name": "Knox Write",
+    "entity_id": 2267538,
+    "venue": "Mohawk Indoor",
+    "day": "2026-03-16",
+    "start_time": "21:10",
+    "end_time": "21:35",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
     "notes": ""
   },
   {
@@ -8075,12 +8467,11 @@
     "entity_id": 2238730,
     "venue": "Radio Day Stage @ Downright Austin Backyard",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "16:00",
+    "end_time": "16:50",
     "source": "official",
     "showcase": "KEXP's El Sonido Live!",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_la_texanashangri_la2026_03_1523_00",
@@ -8102,6 +8493,18 @@
     "day": "2026-03-17",
     "start_time": "22:40",
     "end_time": "23:10",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_lara_rivian_electric_roadhouse2026_03_1414_00",
+    "artist_name": "Lara\u2019",
+    "entity_id": 2278010,
+    "venue": "Rivian Electric Roadhouse",
+    "day": "2026-03-14",
+    "start_time": "14:00",
+    "end_time": "14:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -8179,6 +8582,18 @@
     "end_time": "21:55",
     "source": "official",
     "showcase": "RnB Forever",
+    "notes": ""
+  },
+  {
+    "id": "official_lena_dardeletglobal_stage___downright_austin_backyard2026_03",
+    "artist_name": "Lena Dardelet",
+    "entity_id": 2241122,
+    "venue": "Global Stage @ Downright Austin Backyard",
+    "day": "2026-03-14",
+    "start_time": "22:20",
+    "end_time": "22:50",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -8316,17 +8731,28 @@
     "notes": ""
   },
   {
-    "id": "official_lexaaynivel___mala_fama2026_03_12",
+    "id": "official_lexaaynivel___mala_fama2026_03_1221_00",
     "artist_name": "Lexaay",
     "entity_id": 2250504,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
+  },
+  {
+    "id": "official_liam_st__johnstubb_s2026_03_1523_35",
+    "artist_name": "Liam St. John",
+    "entity_id": 2254303,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "23:35",
+    "end_time": "00:05",
+    "source": "official",
+    "showcase": "Big Loud Presents",
+    "notes": ""
   },
   {
     "id": "official_lightbathcentral_presbyterian_church2026_03_16",
@@ -8354,17 +8780,16 @@
     "notes": ""
   },
   {
-    "id": "official_lil_asian_thiccielas_perlas2026_03_15",
+    "id": "official_lil_asian_thiccielas_perlas2026_03_1523_05",
     "artist_name": "Lil Asian Thiccie",
     "entity_id": 2246476,
     "venue": "Las Perlas",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:05",
+    "end_time": "23:35",
     "source": "official",
     "showcase": "Made in Malaysia",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_lil__flipshangri_la2026_03_17",
@@ -8584,17 +9009,16 @@
     "notes": ""
   },
   {
-    "id": "official_los_discordelas_perlas2026_03_17",
+    "id": "official_los_discordelas_perlas2026_03_1720_00",
     "artist_name": "Los Discorde",
     "entity_id": 2238767,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_los_gatos_512lamberts2026_03_1722_00",
@@ -8642,6 +9066,18 @@
     "end_time": "23:30",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_louie_leeriviere2026_03_1621_35",
+    "artist_name": "Louie Lee",
+    "entity_id": 2249220,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "21:35",
+    "end_time": "21:55",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -8877,17 +9313,16 @@
     "notes": ""
   },
   {
-    "id": "official_lynnnivel___mala_fama2026_03_12",
+    "id": "official_lynnnivel___mala_fama2026_03_1223_15",
     "artist_name": "Lynn",
     "entity_id": 2238764,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:15",
+    "end_time": "23:30",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_lynnbrushy_street_commons2026_03_1421_20",
@@ -9036,6 +9471,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_manu_manzomarlow2026_03_1819_30",
+    "artist_name": "Manu Manzo",
+    "entity_id": 2278309,
+    "venue": "Marlow",
+    "day": "2026-03-18",
+    "start_time": "19:30",
+    "end_time": "20:00",
+    "source": "official",
+    "showcase": "In The Room",
+    "notes": ""
+  },
+  {
     "id": "official_mariae_cassandravalhalla2026_03_1318_20",
     "artist_name": "Mariae Cassandra",
     "entity_id": 2241380,
@@ -9089,12 +9536,11 @@
     "entity_id": 2242122,
     "venue": "Radio Day Stage @ Downright Austin Backyard",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "15:00",
+    "end_time": "15:40",
     "source": "official",
     "showcase": "KEXP's El Sonido Live!",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_marilina_bertoldishangri_la2026_03_1522_00",
@@ -9249,7 +9695,7 @@
     "start_time": "00:45",
     "end_time": "02:00",
     "source": "official",
-    "showcase": "Berlin Partner",
+    "showcase": "Berlin House",
     "notes": ""
   },
   {
@@ -9422,18 +9868,6 @@
     "end_time": "21:20",
     "source": "official",
     "showcase": "The Luna Collective x Bright Antenna Records",
-    "notes": ""
-  },
-  {
-    "id": "official_meg_elsierseven_spirits2026_03_1821_10",
-    "artist_name": "Meg Elsier",
-    "entity_id": 2242993,
-    "venue": "Seven Spirits",
-    "day": "2026-03-18",
-    "start_time": "21:10",
-    "end_time": "21:40",
-    "source": "official",
-    "showcase": "",
     "notes": ""
   },
   {
@@ -9653,17 +10087,16 @@
     "notes": ""
   },
   {
-    "id": "official_mike_checcriviere2026_03_15",
+    "id": "official_mike_checctaco_n_maiz2026_03_1720_35",
     "artist_name": "Mike Checc",
     "entity_id": 2255435,
-    "venue": "Riviere",
-    "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "venue": "Taco n Maiz",
+    "day": "2026-03-17",
+    "start_time": "20:35",
+    "end_time": "20:45",
     "source": "official",
-    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Chopstars: Taco Tuesday",
+    "notes": ""
   },
   {
     "id": "official_mikmulawanderlust_wine_co_2026_03_1522_30",
@@ -10067,17 +10500,28 @@
     "notes": ""
   },
   {
-    "id": "official_murtylas_perlas2026_03_15",
+    "id": "official_murtylas_perlas2026_03_1521_35",
     "artist_name": "MURTY",
     "entity_id": 2246479,
     "venue": "Las Perlas",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:35",
+    "end_time": "22:05",
     "source": "official",
     "showcase": "Made in Malaysia",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
+  },
+  {
+    "id": "official_mx_lonelyhotel_vegas_at_volstead2026_03_1722_15",
+    "artist_name": "MX LONELY",
+    "entity_id": 2241442,
+    "venue": "Hotel Vegas at Volstead",
+    "day": "2026-03-17",
+    "start_time": "22:15",
+    "end_time": "22:50",
+    "source": "official",
+    "showcase": "Smartpunk Records",
+    "notes": ""
   },
   {
     "id": "official_mx_lonelyradio_day_stage___downright_austin_backyard2026_03_",
@@ -10130,6 +10574,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_nasaanriviere2026_03_1600_10",
+    "artist_name": "NASAAN",
+    "entity_id": 2277371,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "00:10",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
+    "notes": ""
+  },
+  {
     "id": "official_nathaniel_stewartlas_perlas2026_03_1220_20",
     "artist_name": "Nathaniel Stewart",
     "entity_id": 2239991,
@@ -10166,17 +10622,16 @@
     "notes": ""
   },
   {
-    "id": "official_neg_s_freshvenue_62026_03_17",
+    "id": "official_neg_s_freshvenue_62026_03_1721_00",
     "artist_name": "Neg\u00fcs Fresh",
     "entity_id": 2262460,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_neg_s_freshmohawk_indoor2026_03_18",
@@ -10192,6 +10647,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_neisha_neshaeriviere2026_03_1623_40",
+    "artist_name": "Neisha Neshae",
+    "entity_id": 2270840,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "23:40",
+    "end_time": "00:00",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
+    "notes": ""
+  },
+  {
     "id": "official_neptune_xxithe_creek_and_the_cave2026_03_1722_40",
     "artist_name": "Neptune XXI",
     "entity_id": 2252745,
@@ -10204,17 +10671,16 @@
     "notes": ""
   },
   {
-    "id": "official_neptune_xxiflamingo_cantina2026_03_14",
+    "id": "official_neptune_xxiflamingo_cantina2026_03_1423_00",
     "artist_name": "Neptune XXI",
     "entity_id": 2252745,
     "venue": "Flamingo Cantina",
     "day": "2026-03-14",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:00",
+    "end_time": "23:30",
     "source": "official",
     "showcase": "Found on Nero",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_nerdcore_cypherseven_spirits2026_03_1701_30",
@@ -10226,30 +10692,6 @@
     "end_time": "02:00",
     "source": "official",
     "showcase": "Nerdcore",
-    "notes": ""
-  },
-  {
-    "id": "official_new_constellationsinn_cahoots_austin_garden2026_03_1722_00",
-    "artist_name": "New Constellations",
-    "entity_id": 2246484,
-    "venue": "Inn Cahoots Austin Garden",
-    "day": "2026-03-17",
-    "start_time": "22:00",
-    "end_time": "22:40",
-    "source": "official",
-    "showcase": "Take Action x SXSW",
-    "notes": ""
-  },
-  {
-    "id": "official_new_constellationsmarlow2026_03_1200_10",
-    "artist_name": "New Constellations",
-    "entity_id": 2246484,
-    "venue": "Marlow",
-    "day": "2026-03-12",
-    "start_time": "00:10",
-    "end_time": "00:40",
-    "source": "official",
-    "showcase": "",
     "notes": ""
   },
   {
@@ -10677,6 +11119,18 @@
     "notes": ""
   },
   {
+    "id": "official_olly_sholotanflamingo_cantina2026_03_1422_10",
+    "artist_name": "Olly Sholotan",
+    "entity_id": 2278007,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-14",
+    "start_time": "22:10",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Found on Nero",
+    "notes": ""
+  },
+  {
     "id": "official_onlyheaventaco_n_maiz2026_03_1700_25",
     "artist_name": "Onlyheaven",
     "entity_id": 2265349,
@@ -10972,6 +11426,18 @@
     "notes": ""
   },
   {
+    "id": "official_the_paradoxmohawk_outdoor2026_03_1623_30",
+    "artist_name": "The Paradox",
+    "entity_id": 2262570,
+    "venue": "Mohawk Outdoor",
+    "day": "2026-03-16",
+    "start_time": "23:30",
+    "end_time": "00:10",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
+    "notes": ""
+  },
+  {
     "id": "official_parker_woodlandzilker_brewing2026_03_1621_15",
     "artist_name": "Parker Woodland",
     "entity_id": 2241825,
@@ -11251,6 +11717,18 @@
     "notes": ""
   },
   {
+    "id": "official_pirscriptionriviere2026_03_1520_00",
+    "artist_name": "Pirscription",
+    "entity_id": 2272130,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "20:10",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_planet_devthe_pershing2026_03_15",
     "artist_name": "Planet Dev",
     "entity_id": 2262578,
@@ -11264,17 +11742,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_planeta_nolas_perlas2026_03_17",
+    "id": "official_planeta_nolas_perlas2026_03_1700_00",
     "artist_name": "Planeta No",
     "entity_id": 2238983,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:00",
+    "end_time": "00:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_poiisonvenue_62026_03_12",
@@ -11447,6 +11924,18 @@
     "notes": ""
   },
   {
+    "id": "official_propainriviere2026_03_1500_55",
+    "artist_name": "Propain",
+    "entity_id": 2251828,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "00:55",
+    "end_time": "01:15",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_prowess_the_testamentseven_spirits2026_03_1721_00",
     "artist_name": "Prowess The Testament",
     "entity_id": 2253708,
@@ -11459,17 +11948,16 @@
     "notes": ""
   },
   {
-    "id": "official_psh__pene_i_str__ka_homeboye_augustine2026_03_13",
+    "id": "official_psh__pene_i_str__ka_homeboye_augustine2026_03_1320_00",
     "artist_name": "PSH (Pene\u0159i Str\u00fd\u010dka Homeboye)",
     "entity_id": 2255437,
     "venue": "Augustine",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:50",
     "source": "official",
     "showcase": "Czech House",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_puzzled_panthermohawk_outdoor2026_03_1220_45",
@@ -11530,6 +12018,18 @@
     "end_time": "23:05",
     "source": "official",
     "showcase": "CareFreeBlackGirl",
+    "notes": ""
+  },
+  {
+    "id": "official_que_the_boyriviere2026_03_1621_10",
+    "artist_name": "Que the Boy",
+    "entity_id": 2276967,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "21:10",
+    "end_time": "21:25",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -11703,13 +12203,13 @@
     "notes": ""
   },
   {
-    "id": "official_the_ramona_flowersseven_spirits2026_03_1620_50",
+    "id": "official_the_ramona_flowersseven_spirits2026_03_1621_40",
     "artist_name": "The Ramona Flowers",
     "entity_id": 2272286,
     "venue": "Seven Spirits",
     "day": "2026-03-16",
-    "start_time": "20:50",
-    "end_time": "21:20",
+    "start_time": "21:40",
+    "end_time": "22:10",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -11873,17 +12373,16 @@
     "notes": ""
   },
   {
-    "id": "official_redzedaugustine2026_03_13",
+    "id": "official_redzedaugustine2026_03_1321_00",
     "artist_name": "Redzed",
     "entity_id": 2247358,
     "venue": "Augustine",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "Czech House",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_rehashhotel_vegas_patio2026_03_1623_00",
@@ -11934,17 +12433,16 @@
     "notes": ""
   },
   {
-    "id": "official_rejayglobal_stage___downright_austin_backyard2026_03_13",
+    "id": "official_rejayglobal_stage___downright_austin_backyard2026_03_1319_00",
     "artist_name": "REJAY",
     "entity_id": 2251462,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:00",
+    "end_time": "19:30",
     "source": "official",
-    "showcase": "Tokyo Calling",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "TOKYO CALLING \u00d7 INSPIRED BY TOKYO",
+    "notes": ""
   },
   {
     "id": "official_remey_williamsmarlow2026_03_1521_15",
@@ -11997,6 +12495,30 @@
     "no_set_time": true
   },
   {
+    "id": "official_rickfromtexasmohawk_indoor2026_03_1621_55",
+    "artist_name": "RickFromTexas",
+    "entity_id": 2268955,
+    "venue": "Mohawk Indoor",
+    "day": "2026-03-16",
+    "start_time": "21:55",
+    "end_time": "22:10",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
+    "notes": ""
+  },
+  {
+    "id": "official_riverboat_gamblershotel_vegas_patio2026_03_1723_45",
+    "artist_name": "Riverboat Gamblers",
+    "entity_id": 2270256,
+    "venue": "Hotel Vegas Patio",
+    "day": "2026-03-17",
+    "start_time": "23:45",
+    "end_time": "00:45",
+    "source": "official",
+    "showcase": "Smartpunk Records",
+    "notes": ""
+  },
+  {
     "id": "official_rocketmohawk_outdoor2026_03_1723_30",
     "artist_name": "Rocket",
     "entity_id": 2277045,
@@ -12021,17 +12543,16 @@
     "notes": ""
   },
   {
-    "id": "official_rocky_banksvenue_62026_03_17",
+    "id": "official_rocky_banksvenue_62026_03_1719_45",
     "artist_name": "Rocky Banks",
     "entity_id": 2266975,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:45",
+    "end_time": "19:55",
     "source": "official",
     "showcase": "ilL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_rosa_anschuetzspeakeasy2026_03_1621_15",
@@ -12053,6 +12574,18 @@
     "day": "2026-03-17",
     "start_time": "22:20",
     "end_time": "22:50",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_rosegarden_funeral_partyseven_spirits2026_03_1821_10",
+    "artist_name": "Rosegarden Funeral Party",
+    "entity_id": 2243892,
+    "venue": "Seven Spirits",
+    "day": "2026-03-18",
+    "start_time": "21:10",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -12139,6 +12672,18 @@
     "end_time": "20:10",
     "source": "official",
     "showcase": "College Of Hip Hop Knowledge",
+    "notes": ""
+  },
+  {
+    "id": "official_saanbluuriviere2026_03_1221_15",
+    "artist_name": "Saanbluu",
+    "entity_id": 2265351,
+    "venue": "Riviere",
+    "day": "2026-03-12",
+    "start_time": "21:15",
+    "end_time": "21:20",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -12383,17 +12928,16 @@
     "notes": ""
   },
   {
-    "id": "official_sasha_wristmarlow2026_03_18",
+    "id": "official_sasha_wristmarlow2026_03_1800_30",
     "artist_name": "Sasha Wrist",
     "entity_id": 2241444,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:30",
+    "end_time": "01:00",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_sassy_009central_presbyterian_church2026_03_1422_00",
@@ -12869,6 +13413,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_smittykingdom2026_03_1323_15",
+    "artist_name": "SMITTY",
+    "entity_id": 2278553,
+    "venue": "Kingdom",
+    "day": "2026-03-13",
+    "start_time": "23:15",
+    "end_time": "00:45",
+    "source": "official",
+    "showcase": "Silva Bumpa",
+    "notes": ""
+  },
+  {
     "id": "official_smooth_natureriviere2026_03_1719_30",
     "artist_name": "Smooth Nature",
     "entity_id": 2252034,
@@ -12953,17 +13509,16 @@
     "notes": ""
   },
   {
-    "id": "official_sofishlas_perlas2026_03_17",
+    "id": "official_sofishlas_perlas2026_03_1723_00",
     "artist_name": "Sofish",
     "entity_id": 2238766,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:00",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_solarriothe_creek_and_the_cave2026_03_1820_40",
@@ -13098,6 +13653,31 @@
     "notes": ""
   },
   {
+    "id": "official_sosocamobillboard_presents_the_stage2026_03_13",
+    "artist_name": "sosocamo",
+    "entity_id": 2245842,
+    "venue": "Billboard Presents The Stage",
+    "day": "2026-03-13",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Billboard Presents: The Stage at SXSW",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
+    "id": "official_sosocamomohawk_outdoor2026_03_1622_45",
+    "artist_name": "sosocamo",
+    "entity_id": 2245842,
+    "venue": "Mohawk Outdoor",
+    "day": "2026-03-16",
+    "start_time": "22:45",
+    "end_time": "23:15",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
+    "notes": ""
+  },
+  {
     "id": "official_soucreammala_vida2026_03_16",
     "artist_name": "Soucream",
     "entity_id": 2252627,
@@ -13132,6 +13712,18 @@
     "end_time": "22:50",
     "source": "official",
     "showcase": "The Loyalty Firm",
+    "notes": ""
+  },
+  {
+    "id": "official_south_north_southwestriviere2026_03_1620_30",
+    "artist_name": "South North SouthWest",
+    "entity_id": 2276966,
+    "venue": "Riviere",
+    "day": "2026-03-16",
+    "start_time": "20:30",
+    "end_time": "20:45",
+    "source": "official",
+    "showcase": "Detroit 313 Selects",
     "notes": ""
   },
   {
@@ -13193,43 +13785,6 @@
     "source": "official",
     "showcase": "Athens in Austin",
     "notes": ""
-  },
-  {
-    "id": "official_spike_fuckradio_day_stage___downright_austin_backyard2026_03",
-    "artist_name": "Spike Fuck",
-    "entity_id": 2238989,
-    "venue": "Radio Day Stage @ Downright Austin Backyard",
-    "day": "2026-03-13",
-    "start_time": "17:00",
-    "end_time": "17:40",
-    "source": "official",
-    "showcase": "KCRW",
-    "notes": ""
-  },
-  {
-    "id": "official_spike_fuckseven_grand2026_03_1500_00",
-    "artist_name": "Spike Fuck",
-    "entity_id": 2238989,
-    "venue": "Seven Grand",
-    "day": "2026-03-15",
-    "start_time": "00:00",
-    "end_time": "00:40",
-    "source": "official",
-    "showcase": "BIGSOUND Festival",
-    "notes": ""
-  },
-  {
-    "id": "official_spike_fuckmohawk_indoor2026_03_17",
-    "artist_name": "Spike Fuck",
-    "entity_id": 2238989,
-    "venue": "Mohawk Indoor",
-    "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
-    "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
   },
   {
     "id": "official_spoon_bendershotel_vegas2026_03_1500_50",
@@ -13313,6 +13868,18 @@
     "end_time": "19:40",
     "source": "official",
     "showcase": "Poplife",
+    "notes": ""
+  },
+  {
+    "id": "official_stare_awayseven_spirits2026_03_1620_50",
+    "artist_name": "Stare Away",
+    "entity_id": 2243893,
+    "venue": "Seven Spirits",
+    "day": "2026-03-16",
+    "start_time": "20:50",
+    "end_time": "21:20",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -13412,6 +13979,18 @@
     "notes": ""
   },
   {
+    "id": "official_stockzriviere2026_03_1521_25",
+    "artist_name": "Stockz",
+    "entity_id": 2250472,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "21:25",
+    "end_time": "21:35",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_stockzvenue_62026_03_1721_10",
     "artist_name": "Stockz",
     "entity_id": 2250472,
@@ -13436,17 +14015,16 @@
     "notes": ""
   },
   {
-    "id": "official_suck_brick_kidhotel_vegas_patio2026_03_17",
+    "id": "official_suck_brick_kidhotel_vegas_patio2026_03_1720_45",
     "artist_name": "Suck Brick Kid",
     "entity_id": 2259888,
     "venue": "Hotel Vegas Patio",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:45",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "Smartpunk Records",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_sugaboooswan_dive_patio2026_03_1322_00",
@@ -13601,7 +14179,7 @@
     "start_time": "20:00",
     "end_time": "20:30",
     "source": "official",
-    "showcase": "Berlin Partner",
+    "showcase": "Berlin House",
     "notes": ""
   },
   {
@@ -13725,6 +14303,19 @@
     "notes": ""
   },
   {
+    "id": "official_taija_kerrthe_pershing2026_03_17",
+    "artist_name": "Taija Kerr",
+    "entity_id": 2278393,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_taliselamberts2026_03_1619_00",
     "artist_name": "Talise",
     "entity_id": 2241143,
@@ -13734,6 +14325,18 @@
     "end_time": "19:40",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_talkstubb_s2026_03_1519_30",
+    "artist_name": "TALK",
+    "entity_id": 2251783,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "19:30",
+    "end_time": "20:05",
+    "source": "official",
+    "showcase": "Big Loud Presents",
     "notes": ""
   },
   {
@@ -13782,6 +14385,18 @@
     "end_time": "14:40",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_thelma_and_jamesstubb_s2026_03_1518_45",
+    "artist_name": "Thelma and James",
+    "entity_id": 2265715,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-15",
+    "start_time": "18:45",
+    "end_time": "19:15",
+    "source": "official",
+    "showcase": "Big Loud Presents",
     "notes": ""
   },
   {
@@ -13947,7 +14562,7 @@
     "venue": "Zilker Brewing",
     "day": "2026-03-12",
     "start_time": "21:15",
-    "end_time": "22:15",
+    "end_time": "21:45",
     "source": "official",
     "showcase": "Made in Austin",
     "notes": ""
@@ -14106,6 +14721,18 @@
     "end_time": "21:00",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "notes": ""
+  },
+  {
+    "id": "official_ttg_hunchoriviere2026_03_1520_55",
+    "artist_name": "TTG HUNCHO",
+    "entity_id": 2262589,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "20:55",
+    "end_time": "21:05",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
     "notes": ""
   },
   {
@@ -14278,6 +14905,18 @@
     "notes": ""
   },
   {
+    "id": "official_unwritten_lawhotel_vegas_patio2026_03_1722_30",
+    "artist_name": "Unwritten Law",
+    "entity_id": 2267678,
+    "venue": "Hotel Vegas Patio",
+    "day": "2026-03-17",
+    "start_time": "22:30",
+    "end_time": "23:30",
+    "source": "official",
+    "showcase": "Smartpunk Records",
+    "notes": ""
+  },
+  {
     "id": "official_urboi_nivel___mala_fama2026_03_15",
     "artist_name": "urboi.",
     "entity_id": 2242129,
@@ -14352,17 +14991,16 @@
     "notes": ""
   },
   {
-    "id": "official_valsianlas_perlas2026_03_17",
+    "id": "official_valsianlas_perlas2026_03_1701_00",
     "artist_name": "Valsian",
     "entity_id": 2238984,
     "venue": "Las Perlas",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "01:00",
+    "end_time": "01:40",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_vanita_leotaco_n_maiz2026_03_1423_20",
@@ -14452,6 +15090,30 @@
     "no_set_time": true
   },
   {
+    "id": "official_vic_mensaflamingo_cantina2026_03_1400_40",
+    "artist_name": "Vic Mensa",
+    "entity_id": 2257124,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-14",
+    "start_time": "00:40",
+    "end_time": "01:00",
+    "source": "official",
+    "showcase": "Found on Nero",
+    "notes": ""
+  },
+  {
+    "id": "official_vickeeloriviere2026_03_1523_10",
+    "artist_name": "Vickeelo",
+    "entity_id": 2267089,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "23:10",
+    "end_time": "23:25",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_victor_jonesswan_dive2026_03_1222_15",
     "artist_name": "Victor Jones",
     "entity_id": 2238744,
@@ -14488,30 +15150,28 @@
     "notes": ""
   },
   {
-    "id": "official_villain_parkvenue_62026_03_17",
+    "id": "official_villain_parkvenue_62026_03_1722_10",
     "artist_name": "Villain Park",
     "entity_id": 2256452,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:10",
+    "end_time": "22:25",
     "source": "official",
     "showcase": "ilL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
-    "id": "official_vin_zealnivel___mala_fama2026_03_12",
+    "id": "official_vin_zealnivel___mala_fama2026_03_1219_30",
     "artist_name": "Vin Zeal",
     "entity_id": 2250474,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:30",
+    "end_time": "19:45",
     "source": "official",
     "showcase": "PURRRSZN",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_vinilious_djshangri_la2026_03_1519_00",
@@ -14575,6 +15235,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_v__a_2000las_perlas2026_03_1519_45",
+    "artist_name": "V\u00d5.A 2000",
+    "entity_id": 2256450,
+    "venue": "Las Perlas",
+    "day": "2026-03-15",
+    "start_time": "19:45",
+    "end_time": "20:45",
+    "source": "official",
+    "showcase": "Made in Malaysia",
+    "notes": ""
+  },
+  {
     "id": "official_wacotronriviere2026_03_1323_00",
     "artist_name": "Wacotron",
     "entity_id": 2253326,
@@ -14584,6 +15256,18 @@
     "end_time": "23:15",
     "source": "official",
     "showcase": "Skills Over Politics Showcase",
+    "notes": ""
+  },
+  {
+    "id": "official_walshy_fireglobal_stage___downright_austin_backyard2026_03_1",
+    "artist_name": "Walshy Fire",
+    "entity_id": 2278009,
+    "venue": "Global Stage @ Downright Austin Backyard",
+    "day": "2026-03-12",
+    "start_time": "23:15",
+    "end_time": "00:00",
+    "source": "official",
+    "showcase": "All The Vibes",
     "notes": ""
   },
   {
@@ -14620,6 +15304,18 @@
     "end_time": "20:25",
     "source": "official",
     "showcase": "ATX Social Club",
+    "notes": ""
+  },
+  {
+    "id": "official_ways_awayhotel_vegas_patio2026_03_1721_30",
+    "artist_name": "Ways Away",
+    "entity_id": 2267541,
+    "venue": "Hotel Vegas Patio",
+    "day": "2026-03-17",
+    "start_time": "21:30",
+    "end_time": "22:15",
+    "source": "official",
+    "showcase": "Smartpunk Records",
     "notes": ""
   },
   {
@@ -14890,6 +15586,18 @@
     "notes": ""
   },
   {
+    "id": "official_winona_fighterelysium2026_03_1301_00",
+    "artist_name": "Winona Fighter",
+    "entity_id": 2278224,
+    "venue": "Elysium",
+    "day": "2026-03-13",
+    "start_time": "01:00",
+    "end_time": "01:40",
+    "source": "official",
+    "showcase": "BMG Label & Publishing",
+    "notes": ""
+  },
+  {
     "id": "official_woesthe_creek_and_the_cave_backyard2026_03_1722_15",
     "artist_name": "Woes",
     "entity_id": 2262572,
@@ -14926,17 +15634,16 @@
     "notes": ""
   },
   {
-    "id": "official_worlds_worsthotel_vegas_at_volstead2026_03_17",
+    "id": "official_worlds_worsthotel_vegas_at_volstead2026_03_1723_15",
     "artist_name": "Worlds Worst",
     "entity_id": 2242251,
     "venue": "Hotel Vegas at Volstead",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:15",
+    "end_time": "23:50",
     "source": "official",
     "showcase": "Smartpunk Records",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_worship_music_djsbrushy_street_commons2026_03_1219_00",
@@ -14948,6 +15655,18 @@
     "end_time": "19:25",
     "source": "official",
     "showcase": "Hip Hop Forever",
+    "notes": ""
+  },
+  {
+    "id": "official_wreckshop_familyriviere2026_03_1500_30",
+    "artist_name": "Wreckshop Family",
+    "entity_id": 2251826,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "00:30",
+    "end_time": "00:50",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
     "notes": ""
   },
   {
@@ -15060,6 +15779,18 @@
     "showcase": "",
     "notes": "",
     "no_set_time": true
+  },
+  {
+    "id": "official_yamorielysium2026_03_1521_00",
+    "artist_name": "YAMORI",
+    "entity_id": 2278857,
+    "venue": "Elysium",
+    "day": "2026-03-15",
+    "start_time": "21:00",
+    "end_time": "21:30",
+    "source": "official",
+    "showcase": "Japan Vibes powered by TuneCore Japan",
+    "notes": ""
   },
   {
     "id": "official_yardswan_dive_patio2026_03_1301_00",
@@ -15185,17 +15916,16 @@
     "notes": ""
   },
   {
-    "id": "official_yung_alriviere2026_03_15",
+    "id": "official_yung_alriviere2026_03_1521_40",
     "artist_name": "Yung Al",
     "entity_id": 2253707,
     "venue": "Riviere",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:40",
+    "end_time": "21:50",
     "source": "official",
     "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_yung_bryseflamingo_cantina2026_03_1222_00",
@@ -15223,6 +15953,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_z_roriviere2026_03_1501_20",
+    "artist_name": "Z-Ro",
+    "entity_id": 2251954,
+    "venue": "Riviere",
+    "day": "2026-03-15",
+    "start_time": "01:20",
+    "end_time": "01:50",
+    "source": "official",
+    "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
     "id": "official_z_wellstaco_n_maiz2026_03_13",
     "artist_name": "Z-Wells",
     "entity_id": 2262453,
@@ -15248,18 +15990,6 @@
     "notes": ""
   },
   {
-    "id": "official_zak_blaineriviere2026_03_1221_15",
-    "artist_name": "Zak Blaine",
-    "entity_id": 2247443,
-    "venue": "Riviere",
-    "day": "2026-03-12",
-    "start_time": "21:15",
-    "end_time": "21:30",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
     "id": "official_zamaerathe_creek_and_the_cave_backyard2026_03_1700_00",
     "artist_name": "ZAMAERA",
     "entity_id": 2240970,
@@ -15272,17 +16002,16 @@
     "notes": ""
   },
   {
-    "id": "official_zamaeralas_perlas2026_03_15",
+    "id": "official_zamaeralas_perlas2026_03_1522_15",
     "artist_name": "ZAMAERA",
     "entity_id": 2240970,
     "venue": "Las Perlas",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:15",
+    "end_time": "22:55",
     "source": "official",
     "showcase": "Made in Malaysia",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_zastavaelysium2026_03_1220_00",
@@ -15355,6 +16084,18 @@
     "end_time": "19:45",
     "source": "official",
     "showcase": "The Digilogue",
+    "notes": ""
+  },
+  {
+    "id": "official_zoe_tanlas_perlas2026_03_1520_55",
+    "artist_name": "Zoe Tan",
+    "entity_id": 2255208,
+    "venue": "Las Perlas",
+    "day": "2026-03-15",
+    "start_time": "20:55",
+    "end_time": "21:25",
+    "source": "official",
+    "showcase": "Made in Malaysia",
     "notes": ""
   },
   {
