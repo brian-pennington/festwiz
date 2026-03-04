@@ -718,6 +718,13 @@ body {
   overflow: hidden;
   transition: all 0.2s;
   border-left: 4px solid transparent;
+  cursor: pointer;
+}
+.artist-card:hover {
+  background: color-mix(in srgb, var(--bg-card) 88%, var(--text) 12%);
+  border-color: color-mix(in srgb, var(--border) 65%, var(--text) 35%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 
 /* Unrated: prominent, orange ribbon, warm glow */
