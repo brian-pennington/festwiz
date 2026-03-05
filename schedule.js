@@ -1194,6 +1194,20 @@
         row.className = 'detail-other-row';
         row.href = `/schedule.html?search=${encodeURIComponent(s.venue)}&day=${encodeURIComponent(s.day)}`;
         row.innerHTML = `<span class="detail-other-venue">${escHtml(s.venue)}</span><span class="detail-other-time">${escHtml(formatDayLabel(s.day))} · ${escHtml(formatTime12(s.start_time))}</span>`;
+        row.addEventListener('click', e => {
+          e.preventDefault();
+          closeModal('modal-show-detail');
+          selectedDay = s.day;
+          document.querySelectorAll('.day-tab').forEach(b =>
+            b.classList.toggle('active', b.dataset.day === s.day)
+          );
+          searchFilter = s.venue;
+          const input = document.getElementById('sched-search');
+          if (input) input.value = s.venue;
+          const clear = document.getElementById('sched-search-clear');
+          if (clear) clear.classList.add('visible');
+          renderCurrentView();
+        });
         otherEl.appendChild(row);
       });
     }
