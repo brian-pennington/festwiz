@@ -831,17 +831,21 @@
       slots.push(`${String(hh).padStart(2, '0')}:30`);
     }
 
-    // Find the slot where each venue's no-set-time cell will be placed
+    // Find the slot where each venue's no-set-time cell will be placed.
+    // Prefer the shows' own start_time; fall back to after the last timed show.
     const lastSlotPerVenue = {};
     for (const v of venues) {
-      for (const slot of slots) {
-        if (lookup[v][slot] && lookup[v][slot].length > 0) lastSlotPerVenue[v] = slot;
-      }
-      // Venue has only no-set-time shows — start at their event start_time (if known)
-      if (!lastSlotPerVenue[v] && noSetByVenue[v] && noSetByVenue[v].length > 0) {
-        const tbStart = noSetByVenue[v][0].start_time;
-        const fallback = tbStart ? nearestSlot(tbStart) : null;
-        lastSlotPerVenue[v] = (fallback && slots.includes(fallback)) ? fallback : slots[0];
+      if (!noSetByVenue[v] || !noSetByVenue[v].length) continue;
+      const tbStart = noSetByVenue[v][0].start_time;
+      const preferred = tbStart ? nearestSlot(tbStart) : null;
+      if (preferred && slots.includes(preferred)) {
+        lastSlotPerVenue[v] = preferred;
+      } else {
+        // No known start time: append after the last timed show
+        for (const slot of slots) {
+          if (lookup[v][slot] && lookup[v][slot].length > 0) lastSlotPerVenue[v] = slot;
+        }
+        if (!lastSlotPerVenue[v]) lastSlotPerVenue[v] = slots[0];
       }
     }
 
