@@ -9,7 +9,7 @@
  * Bump CACHE_NAME after each data push to force precache refresh.
  */
 
-const CACHE_NAME = 'fw-v133';
+const CACHE_NAME = 'fw-v134';
 
 const PRECACHE = [
   '/',

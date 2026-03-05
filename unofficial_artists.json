@@ -1171,7 +1171,7 @@
   },
   {
     "name": "Isadora Lilly",
-    "genre": "Unknown",
+    "genre": "Pop",
     "subgenre": "",
     "location": "Austin, TX, USA",
     "description": "",
@@ -1188,12 +1188,13 @@
   },
   {
     "name": "Caleb Seboldt",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Classical",
+    "subgenre": "Instrumental",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
-      "apple_music": "https://music.apple.com/us/album/youre-gonna-wanna-close-your-eyes-for-this/1839441512"
+      "apple_music": "https://music.apple.com/us/album/youre-gonna-wanna-close-your-eyes-for-this/1839441512",
+      "spotify": "https://open.spotify.com/album/2U0j3uJNK9aPJZZx1lkK1U"
     },
     "source": "unofficial",
     "city": "Austin",
@@ -1223,8 +1224,8 @@
   },
   {
     "name": "Meredith \"Scottie\" Welborn",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "Singer, Guitarist, Songstress. Alt-Everything.",
     "links": {
@@ -1240,11 +1241,14 @@
   },
   {
     "name": "Jawgut",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Folk",
+    "subgenre": "Electronic",
     "location": "",
     "description": "",
-    "links": {},
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCWVNeAgyyxvibvdTYyR3LPw",
+      "apple_music": "https://music.apple.com/us/artist/jawgut/1834169175"
+    },
     "source": "unofficial",
     "city": "",
     "country": "",
@@ -1292,8 +1296,8 @@
   },
   {
     "name": "Lee Trent",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Folk",
+    "subgenre": "Indie Rock",
     "location": "Nashville, TN, USA",
     "description": "",
     "links": {
@@ -1327,8 +1331,8 @@
   },
   {
     "name": "Nathan Felix & the Dirty Rotten Boys",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Country",
     "location": "San Antonio, TX, USA",
     "description": "",
     "links": {
@@ -1367,9 +1371,7 @@
     "subgenre": "",
     "location": "",
     "description": "",
-    "links": {
-      "spotify": "https://open.spotify.com/artist/7o2iHLnlnWJxQDbl0L1NEn?go=1&sp_cid=509bbd10-b1b0-44f0-8192-40b4ca1bab02&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=81640d38f497442b"
-    },
+    "links": {},
     "source": "unofficial",
     "city": "",
     "country": "",
@@ -1397,8 +1399,8 @@
   },
   {
     "name": "Calico Sky",
-    "genre": "Unknown",
-    "subgenre": "Synth Pop",
+    "genre": "Electronic",
+    "subgenre": "Synthpop",
     "location": "Austin, TX, USA",
     "description": "Calico Sky is the electropop project of brothers Jonathan and Joel. Before diving deep into the synthwave vibes of '80s-inspired tech noir, the Texas twins collaborated with artists from all over the map\u2014from Austin art-rock royalty \u2026And You Will Know Us by the Trail of Dead to the electronic pioneer and producer Moby.\n\nIt was in the neon-lit alleys of Los Angeles where they honed their craft, playing in Hollywood\u2019s storied dive bars while crystallizing the sounds that would become Calico Sky.\n\nAfter years of working in L.A., and homesick for Texas, Jon and Joel moved back to Austin. Fueled by the city\u2019s endless creative energy and love for its deep-rooted live music scene, the twins of Calico Sky invite listeners on a sonic journey where nostalgia meets futurism, and old-school melodies collide with a new wave of sound.\n\n\"Get offline and come to a show. We'll buy you a Lone Star.\"",
     "links": {
@@ -1438,7 +1440,7 @@
   {
     "name": "Elegant Tiger",
     "genre": "Electronic",
-    "subgenre": "Synth Pop",
+    "subgenre": "Synthpop",
     "location": "Austin, TX, USA",
     "description": "Formerly known as the Austin, TX alt-rock act, Shapescenes, Elegant Tiger is an evolution in the sonic maximalism of Chase Anderson, Mark Son, and Justin Babineaux. The group has expanded to include Joe Miles on keys, guitar, and vocals.",
     "links": {
@@ -1535,11 +1537,12 @@
   },
   {
     "name": "Doak Hensley",
-    "genre": "Unknown",
+    "genre": "Country",
     "subgenre": "",
     "location": "Austin, TX, USA",
-    "description": "https://doakhensley.bandcamp.com",
+    "description": "",
     "links": {
+      "bandcamp": "https://doakhensley.bandcamp.com",
       "website": "https://www.doakhensley.com/"
     },
     "source": "unofficial",
@@ -1587,32 +1590,18 @@
   },
   {
     "name": "Jesus Christ II",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
     "location": "Brooklyn, NY, USA",
     "description": "",
     "links": {
+      "youtube": "https://www.youtube.com/watch?v=ezpMJQc8XV4",
       "spotify": "https://open.spotify.com/track/4fYWQcRpayvZsc7sdAehQs?si=la8tzWvcT2StAD2NCVHTnw"
     },
     "source": "unofficial",
     "city": "Brooklyn",
     "country": "USA",
     "state": "NY",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "PHO",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
@@ -1674,8 +1663,8 @@
   },
   {
     "name": "HoneyBunny",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "San Antonio, TX, USA",
     "description": "",
     "links": {
@@ -1691,7 +1680,7 @@
   },
   {
     "name": "The In & Outlaws",
-    "genre": "Unknown",
+    "genre": "Country",
     "subgenre": "",
     "location": "San Antonio, TX, USA",
     "description": "",
@@ -1706,11 +1695,13 @@
   },
   {
     "name": "Lonely Horse",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Blues",
     "location": "San Antonio, TX, USA",
     "description": "",
-    "links": {},
+    "links": {
+      "website": "https://www.instagram.com/lonelyhorse_sa/?hl=en"
+    },
     "source": "unofficial",
     "city": "San Antonio",
     "country": "USA",
@@ -1917,7 +1908,7 @@
   {
     "name": "Language",
     "genre": "Rock",
-    "subgenre": "",
+    "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -1933,15 +1924,17 @@
   },
   {
     "name": "Ewe",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
     "description": "",
-    "links": {},
+    "links": {
+      "website": "https://www.instagram.com/thisisewe/"
+    },
     "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
@@ -1965,8 +1958,8 @@
   },
   {
     "name": "Dose Rose",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -2000,8 +1993,8 @@
   },
   {
     "name": "Stardust Vinyl",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -2019,10 +2012,10 @@
   },
   {
     "name": "Gun Cat",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Post-Rock",
     "location": "Austin, TX, USA",
-    "description": "",
+    "description": "(atx post-rock with weird tendencies)",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/gun-cat/1846169252",
       "spotify": "https://open.spotify.com/artist/5A0rNdKZSjwfbwIt9ty4Ah?si=Os-XEQFOQui1r2CMDhFfOw&nd=1&dlsi=04ed737497b0401a"
@@ -2037,8 +2030,8 @@
   },
   {
     "name": "Turbo Goth",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Electronic",
+    "subgenre": "Synthpop",
     "location": "New York, NY, USA",
     "description": "",
     "links": {
@@ -2531,8 +2524,8 @@
   },
   {
     "name": "Godsend",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {},
@@ -2629,11 +2622,12 @@
   },
   {
     "name": "Scott Ballew",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Folk",
+    "subgenre": "Country",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
+      "bandcamp": "https://scottballew.bandcamp.com",
       "youtube": "https://www.youtube.com/channel/UCusq13AbW-JcmecgtcgxzwA",
       "apple_music": "https://music.apple.com/us/artist/scott-ballew/651246585",
       "spotify": "https://open.spotify.com/artist/0IjfR0jevblGol29K4Gjo8?si=2pXqrm-6SwOYONT7Bt6iCQ&nd=1&dlsi=756bd14cd3b14b72"
@@ -2648,8 +2642,8 @@
   },
   {
     "name": "Me Nd Adam",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -2804,9 +2798,9 @@
   },
   {
     "name": "Comet",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "New York, NY, USA",
     "description": "",
     "links": {
       "youtube": "https://www.youtube.com/watch?v=3_DUo3epj0k",
@@ -2814,9 +2808,9 @@
       "website": "https://www.cometintheflesh.com"
     },
     "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
@@ -2859,27 +2853,12 @@
     "name": "Magdalene",
     "genre": "Unknown",
     "subgenre": "",
-    "location": "",
+    "location": "NYC/LA, USA",
     "description": "",
     "links": {},
     "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Arise",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
+    "city": "NYC/LA",
+    "country": "USA",
     "state": "",
     "entity_id": null,
     "detail_url": "",
@@ -2906,8 +2885,8 @@
   },
   {
     "name": "Slurp the World",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Alternative",
     "location": "Austin, TX, USA",
     "description": "",
     "links": {
@@ -3078,8 +3057,8 @@
   },
   {
     "name": "This Is Lorelei",
-    "genre": "Unknown",
-    "subgenre": "",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
     "location": "New York, NY, USA",
     "description": "this is lorelei and i am nate and my other band is called water from your eyes",
     "links": {
@@ -3159,6 +3138,149 @@
     "city": "Austin",
     "country": "USA",
     "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Of Grace",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ofgracetx.bandcamp.com",
+      "apple_music": "https://music.apple.com/us/artist/of-grace/1873213986",
+      "spotify": "https://open.spotify.com/artist/49ueTHBLq4xRsg5eT0nHru?si=_isHnWc6T_2aNaIGJS7y3g&nd=1&dlsi=1297853c455346b3"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Taraneh",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "New York, NY, USA",
+    "description": "currently based in nyc, eternally located in the middle of nowhere",
+    "links": {
+      "bandcamp": "https://taraneh.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Pippy",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=mjOesoHhBEg",
+      "apple_music": "https://music.apple.com/us/album/angelina/1874868969?i=1874868970",
+      "spotify": "https://open.spotify.com/track/4Wd2rgiUCzQMcwruDcz9ul?si=9221905fe2bd4749&utm_medium=share&utm_source=linktree&nd=1&dlsi=cf4d525255694790"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Hunch",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "website": "https://www.instagram.com/hunch.web/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Hannah Sandoz",
+    "genre": "Electronic",
+    "subgenre": "Folk",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://hannahsandoz.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dad Bod",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "Minneapolis, MN, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://dadbodmn.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Minneapolis",
+    "country": "USA",
+    "state": "MN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Citie",
+    "genre": "Rock",
+    "subgenre": "Darkwave",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCMU2-r7PJctQQOTEA0X6mSw",
+      "apple_music": "https://music.apple.com/us/album/bipolar-lp/1838799651",
+      "spotify": "https://open.spotify.com/album/0knJSlLLAuoYJWYnqrh4jE"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Arroba Nat",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Mexico City, MX",
+    "description": "",
+    "links": {
+      "youtube": "https://music.youtube.com/channel/UCEOpgU3WgVs0rsAHrlIq0bA",
+      "spotify": "https://open.spotify.com/artist/4Srl3qf5e1RfnXi5wBlIL4"
+    },
+    "source": "unofficial",
+    "city": "Mexico City",
+    "country": "MX",
+    "state": "",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
