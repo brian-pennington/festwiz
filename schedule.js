@@ -1192,7 +1192,7 @@
       otherShows.forEach(s => {
         const row = document.createElement('a');
         row.className = 'detail-other-row';
-        row.href = `/schedule.html?search=${encodeURIComponent(show.artist_name)}&day=${encodeURIComponent(s.day)}`;
+        row.href = `/schedule.html?search=${encodeURIComponent(s.venue)}&day=${encodeURIComponent(s.day)}`;
         row.innerHTML = `<span class="detail-other-venue">${escHtml(s.venue)}</span><span class="detail-other-time">${escHtml(formatDayLabel(s.day))} · ${escHtml(formatTime12(s.start_time))}</span>`;
         otherEl.appendChild(row);
       });
