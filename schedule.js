@@ -1016,13 +1016,17 @@
       const startSlot = nearestSlot(starts[0]);
       let endSlot;
       if (ends.length) {
+        // End times known: span to the last one
         endSlot = nearestSlot(ends[ends.length - 1]);
-      } else {
-        // No end times: size the box by number of performers (1 slot per show minimum)
+      } else if (grpShows.every(s => s.no_set_time)) {
+        // No-set-time shows with no end times: size by performer count
         const fallbackMins = minutesFromDayStart(startSlot) + grpShows.length * 30;
         const fH = (DAY_START_HOUR + Math.floor(fallbackMins / 60)) % 24;
         const fM = fallbackMins % 60 >= 30 ? 30 : 0;
         endSlot = `${String(fH).padStart(2, '0')}:${fM === 0 ? '00' : '30'}`;
+      } else {
+        // Timed shows without end times: span to the last known start_time
+        endSlot = nearestSlot(starts[starts.length - 1]);
       }
 
       const startTr = table.querySelector(`tr[data-slot="${startSlot}"]`);
