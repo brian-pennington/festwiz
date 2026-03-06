@@ -1410,7 +1410,7 @@
       const pick = document.createElement('span');
       pick.className = 'artist-detail-badge--fw-pick';
       pick.textContent = '★ FestWiz Pick';
-      document.getElementById('artist-detail-badge').appendChild(pick);
+      modal.querySelector('.artist-detail__name-row').appendChild(pick);
     }
 
     // Name

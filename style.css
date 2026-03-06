@@ -1103,6 +1103,17 @@ body.light .music-link--spotify { background: #1db95418; }
   width: 620px;
 }
 
+.artist-detail__name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.artist-detail__name-row .modal__title {
+  margin-bottom: 0;
+}
+
 .artist-detail__meta {
   font-size: 13px;
   color: var(--text-muted);
