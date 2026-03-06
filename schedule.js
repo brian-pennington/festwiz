@@ -322,7 +322,18 @@
       const clear = document.getElementById('sched-search-clear');
       if (clear) clear.classList.add('visible');
     }
-    if (paramDay || paramSearch) history.replaceState({}, '', window.location.pathname);
+    if (paramDay || paramSearch) {
+      // Arrived from rate page — stay on grid, don't restore saved view
+      history.replaceState({}, '', window.location.pathname);
+    } else {
+      const savedView = localStorage.getItem('sxsw2026_last_view');
+      if (savedView && ['nownext', 'grid', 'agenda'].includes(savedView)) {
+        selectedView = savedView;
+        document.querySelectorAll('.view-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.view === selectedView);
+        });
+      }
+    }
 
     renderCurrentView();
   }
@@ -1878,6 +1889,9 @@
       btn.addEventListener('click', () => {
         if (btn.dataset.view === 'nownext') { viewNow = null; viewNowShifted = false; } // reset to system clock
         selectedView = btn.dataset.view;
+        if (['nownext', 'grid', 'agenda'].includes(selectedView)) {
+          localStorage.setItem('sxsw2026_last_view', selectedView);
+        }
         document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         closeDrawer();
