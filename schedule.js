@@ -23,6 +23,8 @@
   let nowNextTimer = null;
   let pendingCsvShows = []; // parsed shows waiting for confirmation
   let detailShow = null;    // show currently open in detail modal
+  let recommendedEntityIds = new Set();
+  let recommendedNames = new Set();    // lowercase artist names
 
   // ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -108,6 +110,17 @@
     return days;
   }
 
+  function isRecommended(show) {
+    // Direct entity_id on the show record
+    if (show.entity_id && recommendedEntityIds.has(String(show.entity_id))) return true;
+    const name = (show.artist_name || '').toLowerCase();
+    // Official artist appearing at an unofficial show (entity_id null on show)
+    const eid = artistEntityIdMap[name];
+    if (eid && recommendedEntityIds.has(String(eid))) return true;
+    // Name-based match for unofficial picks
+    return recommendedNames.has(name);
+  }
+
   function matchesSearch(show) {
     if (!searchFilter) return true;
     const q = searchFilter.toLowerCase();
@@ -167,11 +180,12 @@
 
   async function loadAll() {
     try {
-      const [showsRes, unofficialShowsRes, venuesRes, artistsRes] = await Promise.all([
+      const [showsRes, unofficialShowsRes, venuesRes, artistsRes, recommendedRes] = await Promise.all([
         fetch('shows.json'),
         fetch('unofficial_shows.json'),
         fetch('venues.json'),
         fetch('artists.json'),
+        fetch('recommended.json'),
       ]);
       allShows = await showsRes.json();
       venueOrder = await venuesRes.json();
@@ -195,6 +209,13 @@
         }
       }
       venueAliases = venueOrder.aliases || {};
+
+      // Load developer-curated recommended artists
+      if (recommendedRes.ok) {
+        const rData = await recommendedRes.json();
+        recommendedEntityIds = new Set((rData.entity_ids || []).map(id => String(id)));
+        recommendedNames     = new Set((rData.names || []).map(n => n.toLowerCase()));
+      }
 
       // Merge developer-curated unofficial shows from static file
       if (unofficialShowsRes.ok) {
@@ -536,10 +557,11 @@
     }
 
     const admission = getAdmission(show);
+    const isPick = rating === 0 && isRecommended(show);
     const card = document.createElement('div');
-    card.className = `nownext-card${rating ? ` nownext-card--rated-${rating}` : ''}`;
+    card.className = `nownext-card${rating ? ` nownext-card--rated-${rating}` : isPick ? ' nownext-card--fw-pick' : ''}`;
     card.innerHTML = `
-      <div class="nownext-rating${rating ? ` nownext-rating--${rating}` : ''}">${rating || '?'}</div>
+      <div class="nownext-rating${rating ? ` nownext-rating--${rating}` : isPick ? ' nownext-rating--fw-pick' : ''}">${rating || (isPick ? '★' : '?')}</div>
       <div class="nownext-info">
         <div class="nownext-artist">${escHtml(show.artist_name)}</div>
         <div class="nownext-venue">${escHtml(show.venue)}</div>
@@ -664,8 +686,9 @@
 
       const isConflict = conflicting.has(show.artist_name + show.venue + show.start_time);
 
+      const isPick = rating === 0 && isRecommended(show);
       const block = document.createElement('div');
-      block.className = `timeline-show timeline-show--rated-${rating}${isConflict ? ' timeline-show--conflict' : ''}`;
+      block.className = `timeline-show${rating ? ` timeline-show--rated-${rating}` : isPick ? ' timeline-show--fw-pick' : ''}${isConflict ? ' timeline-show--conflict' : ''}`;
       block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${blockLeft};width:${blockWidth};z-index:${blockZ};opacity:${blockOpacity};`;
       block.innerHTML = `
         <div class="timeline-show-name">${escHtml(show.artist_name)}</div>
@@ -750,14 +773,16 @@
       for (const v of cluster) venueToClusterKey[v] = key;
     }
 
-    // Max rating per venue for today's shows
-    const venueMaxRating = {};
+    // Score per venue: rated shows use their rating (1–4),
+    // unrated FestWiz Picks use 0.5 (above plain unrated 0)
+    const venueScore = {};
     for (const show of dayShows) {
       const r = getRating(show);
-      if (r > (venueMaxRating[show.venue] || 0)) venueMaxRating[show.venue] = r;
+      const score = r > 0 ? r : isRecommended(show) ? 0.5 : 0;
+      if (score > (venueScore[show.venue] || 0)) venueScore[show.venue] = score;
     }
 
-    // Build groups: each is { venues: [...], maxRating: N }
+    // Build groups: each is { venues: [...], maxScore: N }
     const processed = new Set();
     const groups = [];
 
@@ -766,17 +791,17 @@
       const clusterKey = venueToClusterKey[v];
       if (clusterKey) {
         const members = (clusterByKey[clusterKey] || [v]).filter(m => venueSet.has(m));
-        const maxRating = Math.max(0, ...members.map(m => venueMaxRating[m] || 0));
-        groups.push({ venues: members, maxRating });
+        const maxScore = Math.max(0, ...members.map(m => venueScore[m] || 0));
+        groups.push({ venues: members, maxScore });
         members.forEach(m => processed.add(m));
       } else {
-        groups.push({ venues: [v], maxRating: venueMaxRating[v] || 0 });
+        groups.push({ venues: [v], maxScore: venueScore[v] || 0 });
         processed.add(v);
       }
     }
 
-    // Stable sort: highest max rating first, ties keep alphabetical order
-    groups.sort((a, b) => b.maxRating - a.maxRating);
+    // Stable sort: highest score first, ties keep alphabetical order
+    groups.sort((a, b) => b.maxScore - a.maxScore);
     return groups.flatMap(g => g.venues);
   }
 
@@ -964,8 +989,9 @@
   function createGridPill(show) {
     const rating = getRating(show);
     const admission = getAdmission(show);
+    const isPick = rating === 0 && isRecommended(show);
     const pill = document.createElement('div');
-    pill.className = `grid-show-pill${rating ? ` grid-show-pill--rated-${rating}` : ''}`;
+    pill.className = `grid-show-pill${rating ? ` grid-show-pill--rated-${rating}` : isPick ? ' grid-show-pill--fw-pick' : ''}`;
     const timeStr = formatPillTime(show);
     const admissionSpan = !show.showcase
       ? `<span class="grid-show-admission grid-show-admission--${admission}">${ADMISSION_LABELS[admission]}</span>`
@@ -1128,6 +1154,12 @@
     const searchParam = encodeURIComponent(show.artist_name);
     document.getElementById('detail-artist').innerHTML =
       `${escHtml(show.artist_name)} <a href="/?search=${searchParam}" class="detail-artist-edit-link">(edit in artists)</a>`;
+    if (isRecommended(show)) {
+      const pick = document.createElement('span');
+      pick.className = 'artist-detail-badge--fw-pick';
+      pick.textContent = '★ FestWiz Pick';
+      document.getElementById('detail-artist').appendChild(pick);
+    }
 
     // Genre / subgenre from artist metadata
     const meta = artistMetaMap[show.artist_name.toLowerCase()];

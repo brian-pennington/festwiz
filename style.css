@@ -1752,6 +1752,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 }
 
 .nownext-card:hover { border-left-color: var(--accent); }
+.nownext-card--fw-pick { border-left-color: var(--primary); }
+.nownext-rating--fw-pick { background: var(--primary); color: #fff; }
+
 .nownext-card--rated-1 { border-left-color: var(--rating-1); background: var(--rating-1); color: #fff; }
 .nownext-card--rated-2 { border-left-color: var(--rating-2); background: var(--rating-2); color: #111; }
 .nownext-card--rated-3 { border-left-color: var(--rating-3); background: var(--rating-3); color: #fff; }
@@ -1960,6 +1963,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 }
 .timeline-show:hover { opacity: 1 !important; z-index: 1000 !important; }
 
+.timeline-show--fw-pick { border-left-color: var(--primary); background: color-mix(in srgb, var(--bg-card) 85%, var(--primary) 15%); }
+.timeline-show--fw-pick .timeline-show-name { color: var(--primary); }
+
 .timeline-show--rated-1 { border-left-color: var(--rating-1); background: var(--rating-1); color: #fff; }
 .timeline-show--rated-2 { border-left-color: var(--rating-2); background: var(--rating-2); color: #111; }
 .timeline-show--rated-3 { border-left-color: var(--rating-3); background: var(--rating-3); color: #fff; }
@@ -2089,6 +2095,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   transition: background 0.1s;
 }
 .grid-show-pill:hover { background: var(--border); }
+
+.grid-show-pill--fw-pick { border-left-color: var(--primary); background: color-mix(in srgb, var(--bg-card) 85%, var(--primary) 15%); }
+.grid-show-pill--fw-pick .grid-show-name { color: var(--primary); }
 
 .grid-show-pill--rated-1 { border-left-color: var(--rating-1); background: var(--rating-1); color: #fff; }
 .grid-show-pill--rated-2 { border-left-color: var(--rating-2); background: var(--rating-2); color: #111; }
