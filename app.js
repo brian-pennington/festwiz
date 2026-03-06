@@ -47,6 +47,7 @@
         if (data.genreTiers) genreTiers = data.genreTiers;
         if (data.subgenreTiers) subgenreTiers = data.subgenreTiers;
         if (data.userArtists) userArtists = data.userArtists;
+        if (data.hidePicks) currentFilters.hidePicks = data.hidePicks;
         // Migrate 'skip' → 'hide' tier value
         let migrated = false;
         for (const k in genreTiers)    { if (genreTiers[k]    === 'skip') { genreTiers[k]    = 'hide'; migrated = true; } }
@@ -83,6 +84,7 @@
       genreTiers,
       subgenreTiers,
       userArtists: userArtists,
+      hidePicks: currentFilters.hidePicks,
     }));
   }
 
@@ -753,6 +755,13 @@
 
     // FestWiz Picks toggle
     setupFilterGroup('filter-fw-picks', 'hidePicks', 'filter');
+    const picksContainer = document.getElementById('filter-fw-picks');
+    picksContainer.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.filter === currentFilters.hidePicks);
+    });
+    picksContainer.addEventListener('click', e => {
+      if (e.target.closest('.filter-btn')) saveToLocalStorage();
+    });
   }
 
   function setupFilterGroup(containerId, filterKey, attrName) {
