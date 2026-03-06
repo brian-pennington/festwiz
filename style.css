@@ -2257,7 +2257,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   font-size: 14px;
   color: var(--text-muted);
   margin-bottom: 4px;
+  cursor: pointer;
 }
+.sched-detail-meta:hover { color: var(--text); }
 
 .sched-detail-showcase {
   font-size: 13px;

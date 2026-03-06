@@ -1357,8 +1357,27 @@
       genreEl.style.display = 'none';
     }
 
-    document.getElementById('detail-meta').innerHTML =
+    const metaEl = document.getElementById('detail-meta');
+    metaEl.innerHTML =
       `${escHtml(formatTime12(show.start_time))}${show.end_time ? ' – ' + escHtml(formatTime12(show.end_time)) : ''} · ${escHtml(show.venue)} · ${escHtml(formatDayLabel(show.day))} <span class="detail-admission detail-admission--${admission}">${escHtml(ADMISSION_LABELS[admission])}</span>`;
+    metaEl.onclick = () => {
+      closeModal('modal-show-detail');
+      selectedDay = show.day;
+      document.querySelectorAll('.day-tab').forEach(b =>
+        b.classList.toggle('active', b.dataset.day === show.day)
+      );
+      searchFilter = show.venue;
+      const input = document.getElementById('sched-search');
+      if (input) input.value = show.venue;
+      const clear = document.getElementById('sched-search-clear');
+      if (clear) clear.classList.add('visible');
+      selectedView = 'grid';
+      localStorage.setItem('sxsw2026_last_view', 'grid');
+      document.querySelectorAll('.view-btn').forEach(b =>
+        b.classList.toggle('active', b.dataset.view === 'grid')
+      );
+      renderCurrentView();
+    };
     document.getElementById('detail-showcase').textContent = show.showcase || '';
 
     // Rating display (read-only — change ratings on the Artist page)
