@@ -866,14 +866,16 @@
     // Right: time
     const right = document.createElement('div');
     right.className = 'agenda-right';
-    if (show.start_time && !show.no_set_time) {
-      const timeEl = document.createElement('div');
-      timeEl.className = 'agenda-time';
+    const timeEl = document.createElement('div');
+    timeEl.className = 'agenda-time';
+    if (show.no_set_time || !show.start_time) {
+      timeEl.textContent = 'No set time';
+    } else {
       timeEl.textContent = show.end_time
         ? `${formatTime12(show.start_time)} – ${formatTime12(show.end_time)}`
         : formatTime12(show.start_time);
-      right.appendChild(timeEl);
     }
+    right.appendChild(timeEl);
     card.appendChild(right);
 
     card.addEventListener('click', () => openDetail(show));
@@ -894,7 +896,7 @@
     filterLabel.textContent = 'Show:';
     filterBar.appendChild(filterLabel);
 
-    for (const f of [{ key: 'r4', label: '★★★★' }, { key: 'r3', label: '★★★' }, { key: 'picks', label: '★ Picks' }]) {
+    for (const f of [{ key: 'r4', label: '★★★★' }, { key: 'r3', label: '★★★' }, { key: 'picks', label: 'FW Picks' }]) {
       const btn = document.createElement('button');
       btn.className = 'agenda-filter-btn' + (agendaFilter[f.key] ? ' agenda-filter-btn--active' : '');
       btn.textContent = f.label;
