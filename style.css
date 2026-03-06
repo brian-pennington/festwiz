@@ -35,6 +35,9 @@
   /* Grid label background (time col, venue headers, corner) */
   --grid-label-bg: #2a2a2a;
 
+  /* FestWiz Pick accent — teal, distinct from rating/unrated colors */
+  --primary: #00bcd4;
+
   /* Nav bar */
   --nav-bg: #0f3934;
   --nav-accent: #bb124d;
@@ -70,6 +73,9 @@ body.light {
   --card-name: #111;
 
   --grid-label-bg: #e2e2e2;
+
+  /* FestWiz Pick accent — slightly darker teal for light mode legibility */
+  --primary: #0097a7;
 }
 
 /* ── Day mode header overrides ───────────────────────────────────────────── */
@@ -737,6 +743,35 @@ body {
 
 .artist-card--unrated .artist-card__name {
   color: var(--card-name);
+}
+
+/* FestWiz Pick — developer-curated recommendation, unrated by user */
+.artist-card--fw-pick {
+  border-left-color: var(--primary);
+  border-left-width: 5px;
+  background: color-mix(in srgb, var(--bg-card) 88%, var(--primary) 12%);
+}
+.artist-card--fw-pick .artist-card__name { color: var(--primary); }
+
+.fw-pick-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary);
+  opacity: 0.85;
+  margin-bottom: 6px;
+}
+
+/* Modal badge */
+.artist-detail-badge--fw-pick {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 2px 7px;
+  margin-left: 6px;
+  vertical-align: middle;
 }
 
 /* Rated states */

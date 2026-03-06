@@ -14,6 +14,8 @@
   let subgenreTiers = {};       // { subgenre: 'high'|'medium'|'low'|'hide' }
   let userArtists = [];         // User-submitted artists (added via form)
   let allUnofficialShows = [];  // Unofficial shows from unofficial_shows.json
+  let recommendedEntityIds = new Set();
+  let recommendedNames = new Set();    // lowercase
   let currentFilters = {
     search: '',
     rated: 'all',       // all | unrated | rated | 3+
@@ -21,7 +23,13 @@
     sort: 'name',       // name | genre | rating | country
     genre: null,        // null = all genres
     subgenre: null,     // null = all subgenres
+    hidePicks: 'show',  // show | hide
   };
+
+  function isRecommended(artist) {
+    if (artist.entity_id && recommendedEntityIds.has(String(artist.entity_id))) return true;
+    return recommendedNames.has((artist.name || '').toLowerCase());
+  }
 
   // ---- STORAGE ----
   const STATE_KEY = 'sxsw2026_state';
@@ -110,10 +118,11 @@
   async function loadArtists() {
     try {
       const ts = '?_=' + Date.now();
-      const [artistsResp, unofficialResp, unofficialShowsResp] = await Promise.all([
+      const [artistsResp, unofficialResp, unofficialShowsResp, recommendedResp] = await Promise.all([
         fetch('artists.json' + ts),
         fetch('unofficial_artists.json' + ts),
         fetch('unofficial_shows.json' + ts),
+        fetch('recommended.json' + ts),
       ]);
       if (!artistsResp.ok) throw new Error(`HTTP ${artistsResp.status}`);
       const data = await artistsResp.json();
@@ -145,6 +154,13 @@
       if (unofficialShowsResp.ok) {
         const usData = await unofficialShowsResp.json();
         if (Array.isArray(usData)) allUnofficialShows = usData;
+      }
+
+      // Load developer-curated recommended artists
+      if (recommendedResp.ok) {
+        const rData = await recommendedResp.json();
+        recommendedEntityIds = new Set((rData.entity_ids || []).map(id => String(id)));
+        recommendedNames     = new Set((rData.names || []).map(n => n.toLowerCase()));
       }
     } catch (e) {
       console.error('Failed to load artists.json:', e);
@@ -397,7 +413,18 @@
           return (a.genre || '').localeCompare(b.genre || '') || a.name.localeCompare(b.name);
         }
         default: {
-          // Name sort: use genre tier as primary so high-priority genres appear first
+          // Name sort: 3-tier when picks are visible (rated → picks → regular unrated)
+          if (currentFilters.hidePicks !== 'hide') {
+            const aRating = ratings[artistKey(a)] || 0;
+            const bRating = ratings[artistKey(b)] || 0;
+            const aPri = aRating > 0 ? 0 : isRecommended(a) ? 1 : 2;
+            const bPri = bRating > 0 ? 0 : isRecommended(b) ? 1 : 2;
+            if (aPri !== bPri) return aPri - bPri;
+            // Within tier 0 (user-rated): highest rating first
+            if (aPri === 0 && aRating !== bRating) return bRating - aRating;
+            // Within tiers 1 & 2: fall through to genre tier + name
+          }
+          // Genre tier then name (existing logic)
           const gtA = tierOrder[genreTiers[a.genre] || 'none'];
           const gtB = tierOrder[genreTiers[b.genre] || 'none'];
           if (gtA !== gtB) return gtA - gtB;
@@ -541,6 +568,9 @@
 
     if (rating === 0) {
       card.classList.add('artist-card--unrated');
+      if (isRecommended(artist) && currentFilters.hidePicks !== 'hide') {
+        card.classList.add('artist-card--fw-pick');
+      }
     } else {
       card.classList.add(`artist-card--rated-${rating}`);
     }
@@ -596,6 +626,14 @@
       </div>
     `;
 
+    // FestWiz Pick badge (appended after innerHTML so it's a real DOM element)
+    if (rating === 0 && isRecommended(artist) && currentFilters.hidePicks !== 'hide') {
+      const pickBadge = document.createElement('div');
+      pickBadge.className = 'fw-pick-badge';
+      pickBadge.textContent = '★ FestWiz Pick';
+      card.querySelector('.artist-card__body').prepend(pickBadge);
+    }
+
     // Notes handler
     const notesInput = card.querySelector('.notes-input');
     notesInput.addEventListener('input', () => {
@@ -648,13 +686,16 @@
   function updateCardStyle(card, key) {
     const rating = ratings[key] || 0;
 
-    // Remove all rating classes
-    card.classList.remove('artist-card--unrated', 'artist-card--rated-1', 'artist-card--rated-2', 'artist-card--rated-3', 'artist-card--rated-4');
+    // Remove all rating classes (including fw-pick)
+    card.classList.remove('artist-card--unrated', 'artist-card--fw-pick', 'artist-card--rated-1', 'artist-card--rated-2', 'artist-card--rated-3', 'artist-card--rated-4');
 
     if (rating === 0) {
       card.classList.add('artist-card--unrated');
     } else {
       card.classList.add(`artist-card--rated-${rating}`);
+      // Remove the fw-pick badge element if one exists
+      const pickBadge = card.querySelector('.fw-pick-badge');
+      if (pickBadge) pickBadge.remove();
     }
 
     // Update button active states
@@ -709,6 +750,9 @@
 
     // Sort
     setupFilterGroup('filter-sort', 'sort', 'sort');
+
+    // FestWiz Picks toggle
+    setupFilterGroup('filter-fw-picks', 'hidePicks', 'filter');
   }
 
   function setupFilterGroup(containerId, filterKey, attrName) {
@@ -1362,6 +1406,12 @@
       : artist.source === 'user' ? 'User Added' : 'Official';
     document.getElementById('artist-detail-badge').innerHTML =
       `<span class="artist-card__badge artist-card__badge--${badgeClass}">${badgeLabel}</span>`;
+    if (isRecommended(artist)) {
+      const pick = document.createElement('span');
+      pick.className = 'artist-detail-badge--fw-pick';
+      pick.textContent = '★ FestWiz Pick';
+      document.getElementById('artist-detail-badge').appendChild(pick);
+    }
 
     // Name
     document.getElementById('artist-detail-name').textContent = artist.name;
