@@ -2560,8 +2560,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .agenda-filter-label { font-size: 12px; color: var(--text-muted); }
 
 .agenda-filter-btn {
-  background: #2a7060; border: 1px solid #2a7a6e;
-  color: #d0e8ff; font-size: 12px; padding: 4px 9px; border-radius: 4px; cursor: pointer;
+  background: #7ec2b3; border: 1px solid #2a7a6e;
+  color: #1e5e54; font-size: 12px; padding: 4px 9px; border-radius: 4px; cursor: pointer;
 }
 .agenda-filter-btn--active { background: #1e5e54; color: #fff; border-color: var(--primary); }
 
