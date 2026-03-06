@@ -21,6 +21,9 @@
   let viewNow = null;        // current Now view time
   let viewNowShifted = false; // true when user has manually shifted away from system clock
   let nowNextTimer = null;
+  let agendaFilter = { r4: true, r3: false, picks: false };
+  let checkins = {};
+  let agendaTimer = null;
   let pendingCsvShows = []; // parsed shows waiting for confirmation
   let detailShow = null;    // show currently open in detail modal
   let recommendedEntityIds = new Set();
@@ -131,6 +134,10 @@
     return meta.genre.includes(q) || meta.subgenre.includes(q) || meta.location.includes(q);
   }
 
+  function checkinKey(show) {
+    return `${show.day}|${show.venue}|${show.start_time || ''}|${show.artist_name}`;
+  }
+
   function todayShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
@@ -174,6 +181,23 @@
 
   function saveUserShows(userShows) {
     localStorage.setItem(USER_SHOWS_KEY, JSON.stringify(userShows));
+  }
+
+  // ── Agenda state persistence ───────────────────────────────────────────────
+
+  function loadAgendaState() {
+    try {
+      const raw = localStorage.getItem('sxsw2026_agenda');
+      if (raw) {
+        const d = JSON.parse(raw);
+        if (d.filter) agendaFilter = { r4: true, r3: false, picks: false, ...d.filter };
+        if (d.checkins) checkins = d.checkins;
+      }
+    } catch (e) {}
+  }
+
+  function saveAgendaState() {
+    localStorage.setItem('sxsw2026_agenda', JSON.stringify({ filter: agendaFilter, checkins }));
   }
 
   // ── Data loading ───────────────────────────────────────────────────────────
@@ -263,6 +287,8 @@
         ratings = state.ratings || {};
       }
     } catch (e) { /* ignore */ }
+
+    loadAgendaState();
 
     // Merge user-submitted shows from localStorage
     const userShows = loadUserShows();
@@ -416,6 +442,7 @@
 
   function renderCurrentView() {
     if (nowNextTimer) { clearInterval(nowNextTimer); nowNextTimer = null; }
+    if (agendaTimer)  { clearInterval(agendaTimer);  agendaTimer  = null; }
 
     document.querySelectorAll('.sched-view').forEach(el => el.classList.add('sched-view--hidden'));
     const viewEl = document.getElementById(`view-${selectedView}`);
@@ -423,9 +450,9 @@
 
     switch (selectedView) {
       case 'nownext':   renderNowNext(); break;
-      case 'timeline':  renderTimeline(); break;
-      case 'grid':      renderGrid(); break;
-      case 'manage':    renderManage(); break;
+      case 'agenda':    renderAgenda();  break;
+      case 'grid':      renderGrid();    break;
+      case 'manage':    renderManage();  break;
     }
   }
 
@@ -753,6 +780,151 @@
     }
 
     return result;
+  }
+
+  // ── Agenda (My Day) view ───────────────────────────────────────────────────
+
+  function agendaShows() {
+    if (!selectedDay) return [];
+    let shows = allShows.filter(s => s.day === selectedDay);
+
+    // Apply agenda filter (union of enabled tiers)
+    shows = shows.filter(s => {
+      const r = getRating(s);
+      if (agendaFilter.r4 && r === 4) return true;
+      if (agendaFilter.r3 && r === 3) return true;
+      if (agendaFilter.picks && r === 0 && isRecommended(s)) return true;
+      return false;
+    });
+
+    // Chronological: timed shows first (by start_time), then no-set-time shows
+    const timed = shows.filter(s => s.start_time && !s.no_set_time)
+      .sort((a, b) => a.start_time.localeCompare(b.start_time));
+    const untimed = shows.filter(s => !s.start_time || s.no_set_time);
+    return [...timed, ...untimed];
+  }
+
+  function createAgendaCard(show) {
+    const rating  = getRating(show);
+    const isPick  = rating === 0 && isRecommended(show);
+    const key     = checkinKey(show);
+    const attended = !!checkins[key];
+    const admission = getAdmission(show);
+    const now = new Date();
+    const isPast = !!(show.start_time && !show.no_set_time &&
+      parseShowTime(show.day, show.start_time) < now);
+
+    const card = document.createElement('div');
+    const classes = ['agenda-card'];
+    if (rating === 4)    classes.push('agenda-card--rated-4');
+    else if (rating === 3) classes.push('agenda-card--rated-3');
+    else if (isPick)     classes.push('agenda-card--fw-pick');
+    if (isPast && !attended) classes.push('agenda-card--past');
+    if (attended)        classes.push('agenda-card--attended');
+    card.className = classes.join(' ');
+
+    // Check circle
+    const check = document.createElement('div');
+    check.className = 'agenda-check';
+    if (attended) check.textContent = '✓';
+    check.addEventListener('click', e => {
+      e.stopPropagation();
+      if (checkins[key]) { delete checkins[key]; } else { checkins[key] = true; }
+      saveAgendaState();
+      renderAgenda();
+    });
+    card.appendChild(check);
+
+    // Rating circle (reuse nownext-rating classes)
+    const ratingEl = document.createElement('div');
+    ratingEl.className = `nownext-rating${rating ? ` nownext-rating--${rating}` : isPick ? ' nownext-rating--fw-pick' : ''}`;
+    ratingEl.textContent = rating || (isPick ? '★' : '?');
+    card.appendChild(ratingEl);
+
+    // Info section
+    const info = document.createElement('div');
+    info.className = 'agenda-info';
+
+    const artistEl = document.createElement('div');
+    artistEl.className = 'agenda-artist';
+    artistEl.textContent = show.artist_name;
+    info.appendChild(artistEl);
+
+    const metaEl = document.createElement('div');
+    metaEl.className = 'agenda-meta';
+    metaEl.textContent = `${show.venue} · ${ADMISSION_LABELS[admission]}`;
+    info.appendChild(metaEl);
+
+    if (attended) {
+      const badge = document.createElement('div');
+      badge.className = 'agenda-attended-badge';
+      badge.textContent = '✓ Attended';
+      info.appendChild(badge);
+    }
+    card.appendChild(info);
+
+    // Right: time
+    const right = document.createElement('div');
+    right.className = 'agenda-right';
+    if (show.start_time && !show.no_set_time) {
+      const timeEl = document.createElement('div');
+      timeEl.className = 'agenda-time';
+      timeEl.textContent = show.end_time
+        ? `${formatTime12(show.start_time)} – ${formatTime12(show.end_time)}`
+        : formatTime12(show.start_time);
+      right.appendChild(timeEl);
+    }
+    card.appendChild(right);
+
+    card.addEventListener('click', () => openDetail(show));
+    return card;
+  }
+
+  function renderAgenda() {
+    if (agendaTimer) { clearInterval(agendaTimer); agendaTimer = null; }
+
+    const el = document.getElementById('view-agenda');
+    el.innerHTML = '';
+
+    // Sticky filter bar
+    const filterBar = document.createElement('div');
+    filterBar.className = 'agenda-filter-bar';
+    const filterLabel = document.createElement('span');
+    filterLabel.className = 'agenda-filter-label';
+    filterLabel.textContent = 'Show:';
+    filterBar.appendChild(filterLabel);
+
+    for (const f of [{ key: 'r4', label: '★★★★' }, { key: 'r3', label: '★★★' }, { key: 'picks', label: '★ Picks' }]) {
+      const btn = document.createElement('button');
+      btn.className = 'agenda-filter-btn' + (agendaFilter[f.key] ? ' agenda-filter-btn--active' : '');
+      btn.textContent = f.label;
+      btn.addEventListener('click', () => {
+        agendaFilter[f.key] = !agendaFilter[f.key];
+        saveAgendaState();
+        renderAgenda();
+      });
+      filterBar.appendChild(btn);
+    }
+    el.appendChild(filterBar);
+
+    const shows = agendaShows();
+
+    if (shows.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'sched-loading';
+      empty.innerHTML = 'No shows match your filters for this day.<br><small>Try enabling ★★★ or FW Picks above.</small>';
+      el.appendChild(empty);
+      return;
+    }
+
+    const list = document.createElement('div');
+    list.className = 'agenda-list';
+    for (const show of shows) {
+      list.appendChild(createAgendaCard(show));
+    }
+    el.appendChild(list);
+
+    agendaTimer = setInterval(() => renderAgenda(), 60000);
   }
 
   // ── Grid venue ordering ─────────────────────────────────────────────────────

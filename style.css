@@ -2544,3 +2544,55 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .modal-overlay.zapping .modal {
   animation: zap-modal-shrink 0.7s cubic-bezier(0.4, 0, 1, 1) forwards;
 }
+
+/* ── My Day (Agenda) view ─────────────────────────────────────────────────── */
+
+.agenda-filter-bar {
+  position: sticky; top: 94px;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 8px 16px;
+  background: var(--nav-accent-alpha);
+  border-bottom: 1px solid var(--nav-accent);
+  z-index: 10;
+}
+.agenda-filter-label { font-size: 12px; color: var(--text-muted); }
+
+.agenda-filter-btn {
+  background: #134842; border: 1px solid #1e5e54;
+  color: #a8c4e8; font-size: 12px; padding: 4px 9px; border-radius: 4px; cursor: pointer;
+}
+.agenda-filter-btn--active { background: #1e5e54; color: #fff; border-color: var(--primary); }
+
+.agenda-list { padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
+
+.agenda-card {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-left: 5px solid var(--border); border-radius: 6px;
+  padding: 10px 12px; cursor: pointer; transition: opacity 0.2s;
+}
+.agenda-card:hover { background: var(--border); }
+.agenda-card--rated-4 { border-left-color: var(--rating-4); }
+.agenda-card--rated-3 { border-left-color: var(--rating-3); }
+.agenda-card--fw-pick { border-left-color: var(--primary); }
+.agenda-card--past { opacity: 0.4; filter: grayscale(40%); }
+.agenda-card--attended { opacity: 1 !important; filter: none !important; border-left-color: var(--rating-4); }
+
+/* Smaller rating circle inside agenda cards */
+.agenda-card .nownext-rating { width: 28px; height: 28px; font-size: 13px; }
+
+.agenda-check {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 2px solid var(--border); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; transition: background 0.15s, border-color 0.15s;
+}
+.agenda-card--attended .agenda-check { background: var(--rating-4); border-color: var(--rating-4); color: #fff; }
+
+.agenda-info { flex: 1; min-width: 0; }
+.agenda-artist { font-weight: 700; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.agenda-meta { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px; }
+.agenda-attended-badge { font-size: 11px; font-weight: 600; color: var(--rating-4); margin-top: 3px; }
+
+.agenda-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+.agenda-time { font-size: 12px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
