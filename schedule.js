@@ -1431,6 +1431,11 @@
           if (input) input.value = s.venue;
           const clear = document.getElementById('sched-search-clear');
           if (clear) clear.classList.add('visible');
+          selectedView = 'grid';
+          localStorage.setItem('sxsw2026_last_view', 'grid');
+          document.querySelectorAll('.view-btn').forEach(b =>
+            b.classList.toggle('active', b.dataset.view === 'grid')
+          );
           renderCurrentView();
         });
         otherEl.appendChild(row);
