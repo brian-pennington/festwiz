@@ -799,7 +799,7 @@
 
     // Chronological: timed shows first (by start_time), then no-set-time shows
     const timed = shows.filter(s => s.start_time && !s.no_set_time)
-      .sort((a, b) => a.start_time.localeCompare(b.start_time));
+      .sort((a, b) => minutesFromDayStart(a.start_time) - minutesFromDayStart(b.start_time));
     const untimed = shows.filter(s => !s.start_time || s.no_set_time);
     return [...timed, ...untimed];
   }
