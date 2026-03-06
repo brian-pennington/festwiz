@@ -2259,7 +2259,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   margin-bottom: 4px;
   cursor: pointer;
 }
-.sched-detail-meta:hover { color: var(--text); background: rgba(0,0,0,0.2); border-radius: 4px; }
+.sched-detail-meta:hover { color: var(--text); background: rgba(0,0,0,0.1); border-radius: 4px; }
 
 .sched-detail-showcase {
   font-size: 13px;
@@ -2560,7 +2560,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .agenda-filter-label { font-size: 12px; color: var(--text-muted); }
 
 .agenda-filter-btn {
-  background: #134842; border: 1px solid #2a7a6e;
+  background: #2a7060; border: 1px solid #2a7a6e;
   color: #d0e8ff; font-size: 12px; padding: 4px 9px; border-radius: 4px; cursor: pointer;
 }
 .agenda-filter-btn--active { background: #1e5e54; color: #fff; border-color: var(--primary); }
