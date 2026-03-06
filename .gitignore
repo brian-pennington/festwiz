@@ -226,6 +226,7 @@ input/
 # Dev/reference files
 artists_sample.json
 removed_artists.json
+artist_patches.json
 PROJECT.md
 
 # Screenshots & reference images
