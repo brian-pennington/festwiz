@@ -2598,3 +2598,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 
 .agenda-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
 .agenda-time { font-size: 12px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
+
+/* ── Venue map links ──────────────────────────────────────────────────────── */
+.venue-map-link { color: inherit; text-decoration: none; }
+.venue-map-link:hover { text-decoration: underline; }

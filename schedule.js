@@ -138,6 +138,10 @@
     return `${show.day}|${show.venue}|${show.start_time || ''}|${show.artist_name}`;
   }
 
+  function venueMapUrl(name) {
+    return `https://maps.google.com/maps?q=${encodeURIComponent(name + ' Austin TX')}`;
+  }
+
   function todayShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
@@ -602,7 +606,7 @@
       <div class="nownext-rating${rating ? ` nownext-rating--${rating}` : isPick ? ' nownext-rating--fw-pick' : ''}">${rating || (isPick ? '★' : '?')}</div>
       <div class="nownext-info">
         <div class="nownext-artist">${escHtml(show.artist_name)}</div>
-        <div class="nownext-venue">${escHtml(show.venue)}</div>
+        <a class="nownext-venue venue-map-link" href="${escAttr(venueMapUrl(show.venue))}" target="_blank" rel="noopener noreferrer">${escHtml(show.venue)}</a>
         ${show.showcase ? `<div class="nownext-showcase">${escHtml(show.showcase)}</div>` : ''}
         <div class="nownext-time">${formatTime12(show.start_time)}${show.end_time ? ' – ' + formatTime12(show.end_time) : ''}</div>
         <div class="nownext-admission nownext-admission--${admission}">${escHtml(ADMISSION_LABELS[admission])}</div>
@@ -610,6 +614,7 @@
       <div class="nownext-countdown">${escHtml(countdown)}</div>
     `;
     card.addEventListener('click', () => openDetail(show));
+    card.querySelector('.nownext-venue').addEventListener('click', e => e.stopPropagation());
     return card;
   }
 
@@ -863,7 +868,15 @@
 
     const metaEl = document.createElement('div');
     metaEl.className = 'agenda-meta';
-    metaEl.textContent = `${show.venue} · ${ADMISSION_LABELS[admission]}`;
+    const venueLink = document.createElement('a');
+    venueLink.href = venueMapUrl(show.venue);
+    venueLink.target = '_blank';
+    venueLink.rel = 'noopener noreferrer';
+    venueLink.className = 'venue-map-link';
+    venueLink.textContent = show.venue;
+    venueLink.addEventListener('click', e => e.stopPropagation());
+    metaEl.appendChild(venueLink);
+    metaEl.appendChild(document.createTextNode(` · ${ADMISSION_LABELS[admission]}`));
     info.appendChild(metaEl);
 
     if (attended) {
@@ -1089,7 +1102,13 @@
     for (const v of venues) {
       const th = document.createElement('th');
       th.className = 'grid-venue-th';
-      th.textContent = venueAliases[v] || v;
+      const thLink = document.createElement('a');
+      thLink.href = venueMapUrl(v);
+      thLink.target = '_blank';
+      thLink.rel = 'noopener noreferrer';
+      thLink.className = 'venue-map-link';
+      thLink.textContent = venueAliases[v] || v;
+      th.appendChild(thLink);
       headerRow.appendChild(th);
     }
     thead.appendChild(headerRow);
