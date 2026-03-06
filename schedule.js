@@ -134,7 +134,7 @@
   function todayShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
-    if (showFilter === 'rated') shows = shows.filter(s => getRating(s) > 0);
+    if (showFilter === 'rated') shows = shows.filter(s => getRating(s) > 0 || isRecommended(s));
     else if (showFilter === 'top') shows = shows.filter(s => getRating(s) >= 3);
     shows = shows.filter(s => admissionFilter.has(getAdmission(s)));
     shows = shows.filter(matchesSearch);
@@ -478,7 +478,7 @@
 
     const now = viewNow;
     const shows = allShows.filter(s => {
-      if (showFilter === 'rated' && getRating(s) === 0) return false;
+      if (showFilter === 'rated' && getRating(s) === 0 && !isRecommended(s)) return false;
       if (showFilter === 'top' && getRating(s) < 3) return false;
       if (!admissionFilter.has(getAdmission(s))) return false;
       if (!matchesSearch(s)) return false;
