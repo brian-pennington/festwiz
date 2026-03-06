@@ -3164,7 +3164,7 @@
   {
     "name": "Taraneh",
     "genre": "Rock",
-    "subgenre": "",
+    "subgenre": "Grunge",
     "location": "New York, NY, USA",
     "description": "currently based in nyc, eternally located in the middle of nowhere",
     "links": {
@@ -3281,6 +3281,327 @@
     "city": "Mexico City",
     "country": "MX",
     "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Twink Death",
+    "genre": "Metal",
+    "subgenre": "Emo",
+    "location": "OK, USA",
+    "description": "gay trans furry emo",
+    "links": {
+      "bandcamp": "https://twinkdeath99.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "OK",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sittin Sideways",
+    "genre": "Rock",
+    "subgenre": "Hardcore",
+    "location": "TX, USA",
+    "description": "",
+    "links": {
+      "website": "https://www.instagram.com/sittin_sideways/?hl=en"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Banged Out",
+    "genre": "Metal",
+    "subgenre": "Hardcore",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://bangedout.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sanity Slip",
+    "genre": "Metal",
+    "subgenre": "Death Metal",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sanityslip.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Empty Shell Casing",
+    "genre": "Metal",
+    "subgenre": "",
+    "location": "Fort Worth, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=jSGZEimJ6Yg"
+    },
+    "source": "unofficial",
+    "city": "Fort Worth",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Wonderdya",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "TX, USA",
+    "description": "my name is anna catherine and i love music. i hope you like it here. thank you for listening :)",
+    "links": {
+      "bandcamp": "https://wonderedya.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Patrick McNally",
+    "genre": "Electronic",
+    "subgenre": "Experimental",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://patricksmusic.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Good.",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://thebandgood.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Water Gun",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "website": "https://www.instagram.com/watergunband/?hl=en"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Nilsa No One",
+    "genre": "Pop",
+    "subgenre": "Neo-Soul",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://nilsano1.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "2099",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sodomy Cop",
+    "genre": "Metal",
+    "subgenre": "Hardcore",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sodomycop.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Topdown",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://topdowntx.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "TV's Daniel",
+    "genre": "Rock",
+    "subgenre": "Punk",
+    "location": "Austin, TX, USA",
+    "description": "Originating in Austin, Texas, TV\u2019s Daniel formed in 2017, igniting a new punk ethos era that the city so deeply yearned for. Lead singer, Daniel Fried is no stranger to music, playing in bands such as Bad Sports, Radioactivity, and VIDEO. After decades of collaborating with other people, Daniel decided he wanted to create his own band, his own sound, with his own principles.",
+    "links": {
+      "bandcamp": "https://tvsdanieltx.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Kevin Morby",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Kansas City, MO, USA",
+    "description": "Kevin Morby writes (and records, and imagines) at an almost incomparable clip, and his most recent album, This Is A Photograph, studies life, time and mortality through myriad lenses. It\u2019s a dynamic, buoyant record on big, heavy themes, so it only makes sense that Morby found he wasn\u2019t quite done with it on its completion. More Photographs (A Continuum) finds new nooks, corners and vantage points.",
+    "links": {
+      "bandcamp": "https://kevinmorby.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Kansas City",
+    "country": "USA",
+    "state": "MO",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dylan Earl",
+    "genre": "Americana",
+    "subgenre": "Alt-Country",
+    "location": "Fayatteville, AR, USA",
+    "description": "I\u2019m from where I woke up this morning. I write the songs that come to mind and struggle with the ones that don\u2019t. I find humor in misconceptions and solace in laughter, love in the street and fire in the eyes of the marginalized. I prefer facts over alternate facts.\nI\u2019m here to shoot you straight, although sometimes I fire from the hip.\nI\u2019ll always love you.\n~Dearl",
+    "links": {
+      "bandcamp": "https://dylanearl.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Fayatteville",
+    "country": "USA",
+    "state": "AR",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Emily Nenni",
+    "genre": "Country",
+    "subgenre": "",
+    "location": "Nashville, TN, USA",
+    "description": "A singer-songwriter from the Bay Area, Nenni released her debut album, \"Hell of a Woman,\" in 2018. Her musical inspiration ranges from girl groups of the 1960s to outlaw country of the 1970s. She has honed her honky tonk skills in double wide trailers and on Sunday nights, clubs across the south, as well as played for ranchers and wranglers in Wyoming, Montana, and Colorado. TRR are her boys.",
+    "links": {
+      "bandcamp": "https://emilynenni.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Nashville",
+    "country": "USA",
+    "state": "TN",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jonny Fritz",
+    "genre": "Americana",
+    "subgenre": "Alt-Country",
+    "location": "Los Angeles, CA, USA",
+    "description": "Call the Hotline\n1(844) DAD-FARTD",
+    "links": {
+      "bandcamp": "https://jonnyfritz.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Natalie Jane Hill",
+    "genre": "Folk",
+    "subgenre": "",
+    "location": "Asheville, NC, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://nataliejanehill.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Asheville",
+    "country": "USA",
+    "state": "NC",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
