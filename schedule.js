@@ -11,6 +11,7 @@
   let venueOrder = {};      // venues.json: { "2026-03-10": [...], aliases: {...} }
   let venueAliases = {};   // full name → display name
   let ratings = {};         // from localStorage sxsw2026_state (read-only on this page)
+  let hidePicks = 'show';   // mirrors Rate mode setting ('show' | 'hide')
   let artistEntityIdMap = {}; // artist name (lowercase) → entity_id, for rating key resolution
   let artistMetaMap = {};    // artist name (lowercase) → { genre, subgenre, location, country }
   let searchFilter = '';     // free-text search across name/genre/subgenre/location
@@ -145,7 +146,7 @@
   function todayShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
-    if (showFilter === 'rated') shows = shows.filter(s => getRating(s) > 0 || isRecommended(s));
+    if (showFilter === 'rated') shows = shows.filter(s => getRating(s) > 0 || (hidePicks !== 'hide' && isRecommended(s)));
     else if (showFilter === 'top') shows = shows.filter(s => getRating(s) >= 3);
     shows = shows.filter(s => admissionFilter.has(getAdmission(s)));
     shows = shows.filter(matchesSearch);
@@ -289,6 +290,7 @@
       if (raw) {
         const state = JSON.parse(raw);
         ratings = state.ratings || {};
+        hidePicks = state.hidePicks || 'show';
       }
     } catch (e) { /* ignore */ }
 
@@ -520,7 +522,7 @@
 
     const now = viewNow;
     const shows = allShows.filter(s => {
-      if (showFilter === 'rated' && getRating(s) === 0 && !isRecommended(s)) return false;
+      if (showFilter === 'rated' && getRating(s) === 0 && !(hidePicks !== 'hide' && isRecommended(s))) return false;
       if (showFilter === 'top' && getRating(s) < 3) return false;
       if (!admissionFilter.has(getAdmission(s))) return false;
       if (!matchesSearch(s)) return false;
@@ -599,7 +601,7 @@
     }
 
     const admission = getAdmission(show);
-    const isPick = rating === 0 && isRecommended(show);
+    const isPick = rating === 0 && hidePicks !== 'hide' && isRecommended(show);
     const card = document.createElement('div');
     card.className = `nownext-card${rating ? ` nownext-card--rated-${rating}` : isPick ? ' nownext-card--fw-pick' : ''}`;
     card.innerHTML = `
@@ -729,7 +731,7 @@
 
       const isConflict = conflicting.has(show.artist_name + show.venue + show.start_time);
 
-      const isPick = rating === 0 && isRecommended(show);
+      const isPick = rating === 0 && hidePicks !== 'hide' && isRecommended(show);
       const block = document.createElement('div');
       block.className = `timeline-show${rating ? ` timeline-show--rated-${rating}` : isPick ? ' timeline-show--fw-pick' : ''}${isConflict ? ' timeline-show--conflict' : ''}`;
       block.style.cssText = `top:${startMin * PX_PER_MIN}px;height:${height}px;left:${blockLeft};width:${blockWidth};z-index:${blockZ};opacity:${blockOpacity};`;
@@ -823,7 +825,7 @@
       const r = getRating(s);
       if (agendaFilter.r4 && r === 4) return true;
       if (agendaFilter.r3 && r === 3) return true;
-      if (agendaFilter.picks && r === 0 && isRecommended(s)) return true;
+      if (agendaFilter.picks && r === 0 && hidePicks !== 'hide' && isRecommended(s)) return true;
       return false;
     });
 
@@ -836,7 +838,7 @@
 
   function createAgendaCard(show) {
     const rating  = getRating(show);
-    const isPick  = rating === 0 && isRecommended(show);
+    const isPick  = rating === 0 && hidePicks !== 'hide' && isRecommended(show);
     const key     = checkinKey(show);
     const attended = !!checkins[key];
     const admission = getAdmission(show);
@@ -1028,7 +1030,7 @@
     const venueScore = {};
     for (const show of dayShows) {
       const r = getRating(show);
-      const score = r > 0 ? r : isRecommended(show) ? 0.5 : 0;
+      const score = r > 0 ? r : (hidePicks !== 'hide' && isRecommended(show)) ? 0.5 : 0;
       if (score > (venueScore[show.venue] || 0)) venueScore[show.venue] = score;
     }
 
@@ -1245,7 +1247,7 @@
   function createGridPill(show) {
     const rating = getRating(show);
     const admission = getAdmission(show);
-    const isPick = rating === 0 && isRecommended(show);
+    const isPick = rating === 0 && hidePicks !== 'hide' && isRecommended(show);
     const pill = document.createElement('div');
     pill.className = `grid-show-pill${rating ? ` grid-show-pill--rated-${rating}` : isPick ? ' grid-show-pill--fw-pick' : ''}`;
     const timeStr = formatPillTime(show);
@@ -1410,7 +1412,7 @@
     const searchParam = encodeURIComponent(show.artist_name);
     document.getElementById('detail-artist').innerHTML =
       `${escHtml(show.artist_name)} <a href="/?search=${searchParam}" class="detail-artist-edit-link">(edit in artists)</a>`;
-    if (isRecommended(show)) {
+    if (hidePicks !== 'hide' && isRecommended(show)) {
       const pick = document.createElement('span');
       pick.className = 'artist-detail-badge--fw-pick';
       pick.textContent = '★ FestWiz Pick';
