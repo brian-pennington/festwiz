@@ -24,11 +24,40 @@
     genre: null,        // null = all genres
     subgenre: null,     // null = all subgenres
     hidePicks: 'show',  // show | hide
+    windowDay: null,    // null = all days, or "2026-03-15"
+    windowStart: null,  // null = no start restriction, or "HH:MM"
+    windowEnd: null,    // null = no end restriction, or "HH:MM"
   };
 
   function isRecommended(artist) {
     if (artist.entity_id && recommendedEntityIds.has(String(artist.entity_id))) return true;
     return recommendedNames.has((artist.name || '').toLowerCase());
+  }
+
+  // Minutes since day-start, treating hours 0–6 as 24–30 (after-midnight shows)
+  function minsFromDayStart(t) {
+    if (!t) return 0;
+    const [h, m] = t.split(':').map(Number);
+    return (h < 7 ? h + 24 : h) * 60 + m;
+  }
+
+  function artistHasShowInWindow(artist) {
+    if (!currentFilters.windowDay) return true;
+    const day = currentFilters.windowDay;
+    const startMins = currentFilters.windowStart ? minsFromDayStart(currentFilters.windowStart) : null;
+    const endMins   = currentFilters.windowEnd   ? minsFromDayStart(currentFilters.windowEnd)   : null;
+    const shows = [
+      ...(artist.events || []),
+      ...allUnofficialShows.filter(s => s.artist_name.toLowerCase() === artist.name.toLowerCase()),
+    ];
+    return shows.some(s => {
+      if (s.day !== day) return false;
+      if (!s.start_time) return true; // no time known — include
+      const m = minsFromDayStart(s.start_time);
+      if (startMins !== null && m < startMins) return false;
+      if (endMins   !== null && m >= endMins)  return false;
+      return true;
+    });
   }
 
   // ---- STORAGE ----
@@ -201,6 +230,7 @@
     document.getElementById('loading').style.display = 'none';
     buildGenreList();
     buildSubgenreList();
+    setupWindowFilter();
     renderArtists();
     updateStats();
   }
@@ -388,6 +418,11 @@
       list = list.filter(a => a.source === 'unofficial');
     } else if (currentFilters.source === 'user') {
       list = list.filter(a => a.source === 'user');
+    }
+
+    // Window (performing on) filter
+    if (currentFilters.windowDay) {
+      list = list.filter(artistHasShowInWindow);
     }
 
     // Sorting
@@ -1110,6 +1145,24 @@
     else if (currentFilters.source === 'unofficial') parts.push('Unofficial artists');
     if (currentFilters.genre)    parts.push(`Genre: ${currentFilters.genre}`);
     if (currentFilters.subgenre) parts.push(`Subgenre: ${currentFilters.subgenre}`);
+    if (currentFilters.windowDay) {
+      const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      const d = new Date(currentFilters.windowDay + 'T12:00:00');
+      let desc = `${dayNames[d.getDay()]} ${d.getMonth() + 1}/${d.getDate()}`;
+      const fmt12 = t => {
+        const [h, m] = t.split(':').map(Number);
+        const period = h < 12 ? 'AM' : 'PM';
+        return `${h % 12 || 12}:${String(m).padStart(2, '0')} ${period}`;
+      };
+      if (currentFilters.windowStart && currentFilters.windowEnd) {
+        desc += ` ${fmt12(currentFilters.windowStart)}–${fmt12(currentFilters.windowEnd)}`;
+      } else if (currentFilters.windowStart) {
+        desc += ` from ${fmt12(currentFilters.windowStart)}`;
+      } else if (currentFilters.windowEnd) {
+        desc += ` until ${fmt12(currentFilters.windowEnd)}`;
+      }
+      parts.push(`On: ${desc}`);
+    }
     return parts;
   }
 
@@ -1485,6 +1538,56 @@
     }
 
     modal.classList.add('visible');
+  }
+
+  function setupWindowFilter() {
+    const daySelect  = document.getElementById('window-day-select');
+    const timeRow    = document.getElementById('window-time-row');
+    const startInput = document.getElementById('window-start');
+    const endInput   = document.getElementById('window-end');
+
+    // Populate day options from loaded data
+    const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const days = [...new Set([
+      ...allArtists.flatMap(a => (a.events || []).map(e => e.day)),
+      ...allUnofficialShows.map(s => s.day),
+    ])].filter(Boolean).sort();
+    for (const iso of days) {
+      const d = new Date(iso + 'T12:00:00');
+      const opt = document.createElement('option');
+      opt.value = iso;
+      opt.textContent = `${dayNames[d.getDay()]} ${d.getMonth() + 1}/${d.getDate()}`;
+      daySelect.appendChild(opt);
+    }
+
+    function updateTimeRowVisibility() {
+      timeRow.classList.toggle('window-time-row--hidden', !currentFilters.windowDay);
+    }
+
+    daySelect.addEventListener('change', () => {
+      currentFilters.windowDay = daySelect.value || null;
+      if (!currentFilters.windowDay) {
+        currentFilters.windowStart = null;
+        currentFilters.windowEnd   = null;
+        startInput.value = '';
+        endInput.value   = '';
+      }
+      updateTimeRowVisibility();
+      renderArtists();
+      updateStats();
+    });
+
+    startInput.addEventListener('change', () => {
+      currentFilters.windowStart = startInput.value || null;
+      renderArtists();
+      updateStats();
+    });
+
+    endInput.addEventListener('change', () => {
+      currentFilters.windowEnd = endInput.value || null;
+      renderArtists();
+      updateStats();
+    });
   }
 
   function setupArtistDetailModal() {

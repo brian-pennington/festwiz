@@ -800,6 +800,20 @@
 
   // ── Agenda (My Day) view ───────────────────────────────────────────────────
 
+  function goAgendaDay(delta) {
+    const days = allDays();
+    const idx = days.indexOf(selectedDay);
+    if (idx === -1) return;
+    const next = idx + delta;
+    if (next < 0 || next >= days.length) return;
+    selectedDay = days[next];
+    document.querySelectorAll('.day-tab').forEach(b =>
+      b.classList.toggle('active', b.dataset.day === selectedDay)
+    );
+    updatePostFestivalBanner();
+    renderAgenda();
+  }
+
   function agendaShows() {
     if (!selectedDay) return [];
     let shows = allShows.filter(s => s.day === selectedDay);
@@ -931,7 +945,45 @@
       });
       filterBar.appendChild(btn);
     }
+
+    // Day navigation: [←] [Thu 3/13] [→]
+    const days = allDays();
+    const dayIdx = days.indexOf(selectedDay);
+    const dayNav = document.createElement('div');
+    dayNav.className = 'agenda-day-nav';
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'agenda-day-nav-btn';
+    prevBtn.textContent = '←';
+    prevBtn.disabled = dayIdx <= 0;
+    prevBtn.addEventListener('click', () => goAgendaDay(-1));
+    const dayLabel = document.createElement('span');
+    dayLabel.className = 'agenda-day-label';
+    dayLabel.textContent = selectedDay ? formatDayLabel(selectedDay) : '';
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'agenda-day-nav-btn';
+    nextBtn.textContent = '→';
+    nextBtn.disabled = dayIdx < 0 || dayIdx >= days.length - 1;
+    nextBtn.addEventListener('click', () => goAgendaDay(1));
+    dayNav.appendChild(prevBtn);
+    dayNav.appendChild(dayLabel);
+    dayNav.appendChild(nextBtn);
+    filterBar.appendChild(dayNav);
+
     el.appendChild(filterBar);
+
+    // Swipe left/right to change day
+    let touchStartX = 0, touchStartY = 0;
+    el.ontouchstart = e => {
+      touchStartX = e.changedTouches[0].clientX;
+      touchStartY = e.changedTouches[0].clientY;
+    };
+    el.ontouchend = e => {
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      const dy = e.changedTouches[0].clientY - touchStartY;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+        goAgendaDay(dx < 0 ? 1 : -1);
+      }
+    };
 
     const shows = agendaShows();
 

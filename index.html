@@ -101,6 +101,21 @@
       </div>
 
       <div class="sidebar__section">
+        <div class="sidebar__heading">Performing On</div>
+        <div class="window-filter">
+          <select id="window-day-select" class="window-day-select">
+            <option value="">All Days</option>
+          </select>
+          <div class="window-time-row window-time-row--hidden" id="window-time-row">
+            <label class="window-time-label" for="window-start">From</label>
+            <input type="time" id="window-start" class="window-time-input">
+            <label class="window-time-label" for="window-end">To</label>
+            <input type="time" id="window-end" class="window-time-input">
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar__section">
         <div class="sidebar__heading sidebar__heading--toggle" id="toggle-genres">Genres <span class="sidebar__arrow">&#9660;</span></div>
         <ul class="genre-list" id="genre-list"></ul>
       </div>
