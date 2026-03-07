@@ -788,14 +788,20 @@
     // Sort
     setupFilterGroup('filter-sort', 'sort', 'sort');
 
-    // FestWiz Picks toggle
-    setupFilterGroup('filter-fw-picks', 'hidePicks', 'filter');
+    // FestWiz Picks toggle — single handler so save is atomic with state update
     const picksContainer = document.getElementById('filter-fw-picks');
     picksContainer.querySelectorAll('.filter-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.filter === currentFilters.hidePicks);
     });
     picksContainer.addEventListener('click', e => {
-      if (e.target.closest('.filter-btn')) saveToLocalStorage();
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      picksContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilters.hidePicks = btn.dataset.filter;
+      saveToLocalStorage();
+      renderArtists();
+      updateStats();
     });
   }
 
