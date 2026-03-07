@@ -3605,5 +3605,516 @@
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
+  },
+  {
+    "name": "Hysteria",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://hysteria57.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "The Dirty Turkeys",
+    "genre": "Rock",
+    "subgenre": "Surf",
+    "location": "Denver, CO, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://thedirtyturkeys.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Denver",
+    "country": "USA",
+    "state": "CO",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Amish Swans",
+    "genre": "Folk",
+    "subgenre": "Ambient",
+    "location": "San Antonio, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://amishswans.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "San Antonio",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Book Reports",
+    "genre": "Avant / Experimental",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://bookreports.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Plume Girl",
+    "genre": "Avant / Experimental",
+    "subgenre": "Drone",
+    "location": "Austin, TX, USA",
+    "description": "Plume Girl is the alt-experimental solo project of Hindustani classical singer and composer, Sowmya Somanath",
+    "links": {
+      "bandcamp": "https://plumegirl.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Amelia's Best Friend",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ameliasbestfriend1.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Virginia Creeper",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://virginiaiscreepy.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Semiwestern",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://semiwestern.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Leo Napoleon",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://leonapoleon.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sasha & the Valentines",
+    "genre": "Rock",
+    "subgenre": "Dream Pop",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://sashaandthevalentines.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sean Barna",
+    "genre": "Americana",
+    "subgenre": "Folk",
+    "location": "Philadelphia, PA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://seanbarna.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Philadelphia",
+    "country": "USA",
+    "state": "PA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Joseph King",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Brooklyn, NY, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://josephkingandthemadcrush.bandcamp.com",
+      "youtube": "https://www.youtube.com/josephking321",
+      "soundcloud": "https://soundcloud.com/josephking321",
+      "website": "https://www.josephkingmusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Brooklyn",
+    "country": "USA",
+    "state": "NY",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Hexpartner",
+    "genre": "Electronic",
+    "subgenre": "Darkwave",
+    "location": "Austin, TX, USA",
+    "description": "Neoclassical darkwave in Austin, TX",
+    "links": {
+      "bandcamp": "https://hexpartner.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Demitria",
+    "genre": "Electronic",
+    "subgenre": "House / Techno",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "soundcloud": "https://soundcloud.com/yungmijita/tracks"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Night Cap",
+    "genre": "Rock",
+    "subgenre": "Indie Pop",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/@NightCapMusic",
+      "apple_music": "https://music.apple.com/us/album/its-happening/1825692539",
+      "spotify": "https://open.spotify.com/artist/0d4OObbLXdSSO2suAeC4jk?si=ARj84-k7R7urxdpdptc5eQ&nd=1&dlsi=909d133aa16f48cb",
+      "website": "https://www.nightcapatx.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Sun Room",
+    "genre": "Rock",
+    "subgenre": "Surf",
+    "location": "CA, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=d0c92FBvlp8",
+      "apple_music": "https://music.apple.com/us/album/ritual-of-chaos-ep/1823247348?at=1001lwQy&ct=FFM_c4b87abb9527783d05d51e9c83966b16&app=music&ls=1",
+      "spotify": "https://open.spotify.com/album/5N1tkNfuosBNxgzaBpPETm?si=1&nd=1&dlsi=5c17ce42e15d4fd9",
+      "website": "https://www.sunroomtheband.com/"
+    },
+    "source": "unofficial",
+    "city": "",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Flying Mojito Bros",
+    "genre": "DJ",
+    "subgenre": "Disco",
+    "location": "Los Angeles, CA, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://flyingmojitobros.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jonathan F. Horne",
+    "genre": "Avant / Experimental",
+    "subgenre": "",
+    "location": "Lockhart, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://personalarchives.bandcamp.com/album/clandestine-flower"
+    },
+    "source": "unofficial",
+    "city": "Lockhart",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Charles Ben Russell",
+    "genre": "Folk",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://charlesbrussell.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Lili Lonelyhearts",
+    "genre": "Folk",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "Cursed Folk Musician",
+    "links": {
+      "bandcamp": "https://lililonelyhearts.bandcamp.com",
+      "youtube": "https://www.youtube.com/channel/UCa1rwfWePBewjpfXxdbBISg"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Thor Harris",
+    "genre": "Avant / Experimental",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://thorharris.bandcamp.com",
+      "website": "https://www.thorharris.org/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Georgia Britt",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "an artist that stumbled into the music scene. art to me is a way to convey your true self and it can also emulate the world in which we exist. merch is now available! buy something and support me dude!",
+    "links": {
+      "bandcamp": "https://georgiabritt.bandcamp.com",
+      "youtube": "https://www.youtube.com/watch?v=IjfyAgC2UIA",
+      "apple_music": "https://music.apple.com/us/artist/georgia-britt/1501532126",
+      "spotify": "https://open.spotify.com/track/0iHU5pUO9RUQuf3HtLwibW?utm_medium=share&utm_source=linktree"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Jenny Parrott",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "Independent Musician living in Austin TX. Solo Debut Album \"When I Come Down\". Second album \"Fire I Saw\" Nov 21'. \"Pregnancy Choir\" EP coming October 28th 2022",
+    "links": {
+      "youtube": "https://www.youtube.com/@missjennyparrott",
+      "apple_music": "https://music.apple.com/us/artist/jenny-parrott/1144565351",
+      "soundcloud": "https://soundcloud.com/jenny-parrott",
+      "spotify": "https://open.spotify.com/artist/2y9XMoyYEt8H4I3efbJtpY?si=oG0Sm7ecR8qb2OELBRn0dQ&nd=1&dlsi=8db8f26e81764845",
+      "website": "https://www.jennyparrott.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Lazy Suzanne",
+    "genre": "Electronic",
+    "subgenre": "Synthpop",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://lazysuzanne.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Al Lover",
+    "genre": "Electronic",
+    "subgenre": "Psychedelic",
+    "location": "Los Angeles, CA, USA",
+    "description": "Neu!-Age Spiritualized Repetition\n\nCreating a broken abstraction of trip hop, Al Lover incorporates elements of psych, shoegaze, proto-electronica, krautrock & dub to draw out elements from the past and connect them to the future.",
+    "links": {
+      "bandcamp": "https://allover.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dan Melchior",
+    "genre": "Avant / Experimental",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://evernever-records.bandcamp.com/album/road-not-driving"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Petra Von Kan't",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "website": "https://www.instagram.com/petravonkantmusic"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Die Mart",
+    "genre": "Rock",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://diemart.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Dan Patrevito",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "location": "Portland, OR, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://danpatrevito.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Portland",
+    "country": "USA",
+    "state": "OR",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
   }
 ]
