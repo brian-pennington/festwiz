@@ -1109,20 +1109,34 @@
     }
 
     // Find the slot where each venue's no-set-time cell will be placed.
-    // Prefer the shows' own start_time; fall back to after the last timed show.
+    // If the venue has any timed shows, place the block in the slot immediately
+    // AFTER the last timed show — this prevents the rowspan from overwriting
+    // cells where a timed show should appear (the "announced set time" case).
+    // If the venue has only no-set-time shows, use the showcase's start_time.
     const lastSlotPerVenue = {};
     for (const v of venues) {
       if (!noSetByVenue[v] || !noSetByVenue[v].length) continue;
-      const tbStart = noSetByVenue[v][0].start_time;
-      const preferred = tbStart ? nearestSlot(tbStart) : null;
-      if (preferred && slots.includes(preferred)) {
-        lastSlotPerVenue[v] = preferred;
+
+      // Find last slot that has a timed show at this venue
+      let lastTimedSlot = null;
+      for (const slot of slots) {
+        if (lookup[v][slot] && lookup[v][slot].length > 0) lastTimedSlot = slot;
+      }
+
+      if (lastTimedSlot) {
+        // Mixed venue: no_set_time block goes in the slot right after the last timed show
+        const nextIdx = slots.indexOf(lastTimedSlot) + 1;
+        if (nextIdx < slots.length) lastSlotPerVenue[v] = slots[nextIdx];
+        // else: last timed show hits end of grid — no room left for the block
       } else {
-        // No known start time: append after the last timed show
-        for (const slot of slots) {
-          if (lookup[v][slot] && lookup[v][slot].length > 0) lastSlotPerVenue[v] = slot;
+        // Only no-set-time shows: use showcase's start_time or fall back to first slot
+        const tbStart = noSetByVenue[v][0].start_time;
+        const preferred = tbStart ? nearestSlot(tbStart) : null;
+        if (preferred && slots.includes(preferred)) {
+          lastSlotPerVenue[v] = preferred;
+        } else {
+          lastSlotPerVenue[v] = slots[0];
         }
-        if (!lastSlotPerVenue[v]) lastSlotPerVenue[v] = slots[0];
       }
     }
 
