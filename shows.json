@@ -120,6 +120,18 @@
     "notes": ""
   },
   {
+    "id": "official_2wnty4kbrushy_street_commons2026_03_1422_55",
+    "artist_name": "2wnty4K",
+    "entity_id": 2281873,
+    "venue": "Brushy Street Commons",
+    "day": "2026-03-14",
+    "start_time": "22:55",
+    "end_time": "23:15",
+    "source": "official",
+    "showcase": "kaash Paige & Friends",
+    "notes": ""
+  },
+  {
     "id": "official_4neycoconut_club2026_03_1523_00",
     "artist_name": "4NEY",
     "entity_id": 2253640,
@@ -192,13 +204,13 @@
     "notes": ""
   },
   {
-    "id": "official_aaron_pagebrushy_street_commons2026_03_1421_00",
+    "id": "official_aaron_pagebrushy_street_commons2026_03_1420_45",
     "artist_name": "Aaron Page",
     "entity_id": 2238970,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "21:00",
-    "end_time": "21:15",
+    "start_time": "20:45",
+    "end_time": "21:00",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -349,13 +361,13 @@
     "notes": ""
   },
   {
-    "id": "official_agatha_is_dead_valhalla2026_03_1820_00",
+    "id": "official_agatha_is_dead_valhalla2026_03_1821_00",
     "artist_name": "Agatha is Dead!",
     "entity_id": 2240899,
     "venue": "Valhalla",
     "day": "2026-03-18",
-    "start_time": "20:00",
-    "end_time": "20:40",
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -457,17 +469,16 @@
     "notes": ""
   },
   {
-    "id": "official_ajtheflannelgodvenue_62026_03_16",
+    "id": "official_ajtheflannelgodvenue_62026_03_1621_15",
     "artist_name": "AJTHEFLANNELGOD",
     "entity_id": 2262455,
     "venue": "Venue 6",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:15",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "Beer n Tacos",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_aka_bkwanderlust_wine_co_2026_03_1720_55",
@@ -614,13 +625,13 @@
     "notes": ""
   },
   {
-    "id": "official_ali_almightyvenue_62026_03_1720_25",
+    "id": "official_ali_almightyvenue_62026_03_1720_00",
     "artist_name": "Ali Almighty",
     "entity_id": 2244476,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "20:25",
-    "end_time": "20:35",
+    "start_time": "20:00",
+    "end_time": "20:10",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -952,18 +963,6 @@
     "notes": ""
   },
   {
-    "id": "official_anastasia_herathe_pershing2026_03_1720_55",
-    "artist_name": "Anastasia Hera",
-    "entity_id": 2258297,
-    "venue": "The Pershing",
-    "day": "2026-03-17",
-    "start_time": "20:55",
-    "end_time": "21:10",
-    "source": "official",
-    "showcase": "Kinky,Curly,Coily Showcase",
-    "notes": ""
-  },
-  {
     "id": "official_anastasia_heralefty_s_brick_bar2026_03_1321_05",
     "artist_name": "Anastasia Hera",
     "entity_id": 2258297,
@@ -1252,13 +1251,13 @@
     "notes": ""
   },
   {
-    "id": "official_anton_the_artisttaco_n_maiz2026_03_1721_45",
+    "id": "official_anton_the_artisttaco_n_maiz2026_03_1722_25",
     "artist_name": "Anton The Artist",
     "entity_id": 2248287,
     "venue": "Taco n Maiz",
     "day": "2026-03-17",
-    "start_time": "21:45",
-    "end_time": "22:00",
+    "start_time": "22:25",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "Taco Tuesday",
     "notes": ""
@@ -1333,7 +1332,7 @@
     "start_time": "21:00",
     "end_time": "21:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -1518,6 +1517,18 @@
     "notes": ""
   },
   {
+    "id": "official_axlflyshangri_la2026_03_1720_15",
+    "artist_name": "AXLFLY",
+    "entity_id": 2281875,
+    "venue": "Shangri-La",
+    "day": "2026-03-17",
+    "start_time": "20:15",
+    "end_time": "20:25",
+    "source": "official",
+    "showcase": "Good Coughee Presented by Devin the Dude",
+    "notes": ""
+  },
+  {
     "id": "official_azamiahmarlow2026_03_1622_30",
     "artist_name": "Azamiah",
     "entity_id": 2240053,
@@ -1554,6 +1565,18 @@
     "notes": ""
   },
   {
+    "id": "official_azurah_vibezthe_pershing2026_03_1721_30",
+    "artist_name": "Azurah Vibez",
+    "entity_id": 2278477,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "21:30",
+    "end_time": "21:45",
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": ""
+  },
+  {
     "id": "official_b_freeriviere2026_03_1622_50",
     "artist_name": "B Free",
     "entity_id": 2270848,
@@ -1563,6 +1586,18 @@
     "end_time": "23:10",
     "source": "official",
     "showcase": "Detroit 313 Selects",
+    "notes": ""
+  },
+  {
+    "id": "official_b6venue_62026_03_1623_10",
+    "artist_name": "B6",
+    "entity_id": 2278476,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "23:10",
+    "end_time": "23:30",
+    "source": "official",
+    "showcase": "Beer n Tacos",
     "notes": ""
   },
   {
@@ -1682,7 +1717,7 @@
     "start_time": "21:30",
     "end_time": "21:45",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -1847,12 +1882,11 @@
     "entity_id": 2242729,
     "venue": "Central Presbyterian Church",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:10",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "PlantWave",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_bayonnerivian_electric_roadhouse2026_03_1516_00",
@@ -1928,6 +1962,18 @@
     "notes": ""
   },
   {
+    "id": "official_ben_ellisseven_grand2026_03_1422_00",
+    "artist_name": "Ben Ellis",
+    "entity_id": 2238762,
+    "venue": "Seven Grand",
+    "day": "2026-03-14",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Liift & Friends",
+    "notes": ""
+  },
+  {
     "id": "official_ben_ellisswan_dive2026_03_1520_50",
     "artist_name": "Ben Ellis",
     "entity_id": 2238762,
@@ -1976,13 +2022,13 @@
     "notes": ""
   },
   {
-    "id": "official_benny_the_butchervenue_62026_03_1223_30",
+    "id": "official_benny_the_butchervenue_62026_03_1200_15",
     "artist_name": "Benny The Butcher",
     "entity_id": 2258513,
     "venue": "Venue 6",
     "day": "2026-03-12",
-    "start_time": "23:30",
-    "end_time": "00:00",
+    "start_time": "00:15",
+    "end_time": "00:45",
     "source": "official",
     "showcase": "BSF Official Showcase",
     "notes": ""
@@ -2133,13 +2179,13 @@
     "notes": ""
   },
   {
-    "id": "official_bikini_beachlow_down_lounge2026_03_1223_00",
+    "id": "official_bikini_beachlow_down_lounge2026_03_1221_00",
     "artist_name": "Bikini Beach",
     "entity_id": 2240292,
     "venue": "Low Down Lounge",
     "day": "2026-03-12",
-    "start_time": "23:00",
-    "end_time": "23:40",
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -2265,13 +2311,13 @@
     "notes": ""
   },
   {
-    "id": "official_blessing_joliethe_pershing2026_03_1721_25",
+    "id": "official_blessing_joliethe_pershing2026_03_1721_05",
     "artist_name": "Blessing Jolie",
     "entity_id": 2258350,
     "venue": "The Pershing",
     "day": "2026-03-17",
-    "start_time": "21:25",
-    "end_time": "21:40",
+    "start_time": "21:05",
+    "end_time": "21:20",
     "source": "official",
     "showcase": "Kinky,Curly,Coily Showcase",
     "notes": ""
@@ -2286,6 +2332,18 @@
     "end_time": "21:40",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_blimes_and_the_bandoswan_dive_patio2026_03_1222_05",
+    "artist_name": "Blimes and the Bando",
+    "entity_id": 2281872,
+    "venue": "Swan Dive Patio",
+    "day": "2026-03-12",
+    "start_time": "22:05",
+    "end_time": "22:25",
+    "source": "official",
+    "showcase": "ATX Social Club",
     "notes": ""
   },
   {
@@ -2941,13 +2999,13 @@
     "notes": ""
   },
   {
-    "id": "official_camila_riverslefty_s_brick_bar2026_03_1419_30",
+    "id": "official_camila_riverslefty_s_brick_bar2026_03_1422_00",
     "artist_name": "Camila Rivers",
     "entity_id": 2256454,
     "venue": "Lefty\u2019s Brick Bar",
     "day": "2026-03-14",
-    "start_time": "19:30",
-    "end_time": "19:45",
+    "start_time": "22:00",
+    "end_time": "22:15",
     "source": "official",
     "showcase": "KAZI:R&B and Soul Showcase",
     "notes": ""
@@ -3226,6 +3284,18 @@
     "end_time": "22:05",
     "source": "official",
     "showcase": "The Digilogue",
+    "notes": ""
+  },
+  {
+    "id": "official_cha_keeta_bthe_pershing2026_03_1723_40",
+    "artist_name": "Cha\u2019Keeta B",
+    "entity_id": 2266974,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "23:40",
+    "end_time": "23:55",
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
     "notes": ""
   },
   {
@@ -3857,6 +3927,18 @@
     "notes": ""
   },
   {
+    "id": "official_d2bleevenue_62026_03_1620_30",
+    "artist_name": "D2BLEE",
+    "entity_id": 2251597,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "20:30",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "Beer n Tacos",
+    "notes": ""
+  },
+  {
     "id": "official_d2bleeriviere2026_03_1222_15",
     "artist_name": "D2BLEE",
     "entity_id": 2251597,
@@ -4245,13 +4327,13 @@
     "notes": ""
   },
   {
-    "id": "official_the_dharma_chainvalhalla2026_03_1821_00",
+    "id": "official_the_dharma_chainvalhalla2026_03_1822_00",
     "artist_name": "The Dharma Chain",
     "entity_id": 2240690,
     "venue": "Valhalla",
     "day": "2026-03-18",
-    "start_time": "21:00",
-    "end_time": "21:40",
+    "start_time": "22:00",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -4269,13 +4351,13 @@
     "notes": ""
   },
   {
-    "id": "official_dice_soho___trill_sammytaco_n_maiz2026_03_1722_25",
+    "id": "official_dice_soho___trill_sammytaco_n_maiz2026_03_1722_45",
     "artist_name": "Dice Soho & Trill Sammy",
     "entity_id": 2253592,
     "venue": "Taco n Maiz",
     "day": "2026-03-17",
-    "start_time": "22:25",
-    "end_time": "22:40",
+    "start_time": "22:45",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "Chopstars: Taco Tuesday",
     "notes": ""
@@ -4647,17 +4729,16 @@
     "notes": ""
   },
   {
-    "id": "official_dj_gripriviere2026_03_13",
+    "id": "official_dj_gripriviere2026_03_1319_00",
     "artist_name": "DJ Grip",
     "entity_id": 2241439,
     "venue": "Riviere",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:00",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "Skills Over Politics Showcase",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_dj_gulf_of_mexicoseven_grand2026_03_18",
@@ -4807,30 +4888,28 @@
     "notes": ""
   },
   {
-    "id": "official_dj_napalmvenue_62026_03_17",
+    "id": "official_dj_napalmvenue_62026_03_1722_00",
     "artist_name": "DJ Napalm",
     "entity_id": 2257080,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "01:00",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
-    "id": "official_dj_napalmflamingo_cantina2026_03_12",
+    "id": "official_dj_napalmflamingo_cantina2026_03_1222_00",
     "artist_name": "DJ Napalm",
     "entity_id": 2257080,
     "venue": "Flamingo Cantina",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "01:00",
     "source": "official",
     "showcase": "The Smoke Out ATX",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_dj_rosezmala_vida2026_03_17",
@@ -4870,6 +4949,18 @@
     "notes": ""
   },
   {
+    "id": "official_dj_twinthe_creek_and_the_cave2026_03_1719_00",
+    "artist_name": "DJ Twin",
+    "entity_id": 2282342,
+    "venue": "The Creek and the Cave",
+    "day": "2026-03-17",
+    "start_time": "19:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "The Digilogue",
+    "notes": ""
+  },
+  {
     "id": "official_dj_x_o_riviere2026_03_1523_30",
     "artist_name": "DJ X.O.",
     "entity_id": 2251823,
@@ -4879,6 +4970,30 @@
     "end_time": "23:45",
     "source": "official",
     "showcase": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL",
+    "notes": ""
+  },
+  {
+    "id": "official_djadeseven_grand2026_03_1700_00",
+    "artist_name": "DJADE",
+    "entity_id": 2283492,
+    "venue": "Seven Grand",
+    "day": "2026-03-17",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Tropiclub",
+    "notes": ""
+  },
+  {
+    "id": "official_dj_davekingdom2026_03_1423_30",
+    "artist_name": "DJ_Dave",
+    "entity_id": 2240081,
+    "venue": "Kingdom",
+    "day": "2026-03-14",
+    "start_time": "23:30",
+    "end_time": "00:30",
+    "source": "official",
+    "showcase": "DJ_Dave",
     "notes": ""
   },
   {
@@ -5581,6 +5696,19 @@
     "notes": ""
   },
   {
+    "id": "official_eric_sebastianmala_fama_rooftop2026_03_12",
+    "artist_name": "Eric Sebastian",
+    "entity_id": 2281255,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-12",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_eric_zaynezilker_brewing2026_03_1422_00",
     "artist_name": "Eric Zayne",
     "entity_id": 2240638,
@@ -5763,6 +5891,18 @@
     "notes": ""
   },
   {
+    "id": "official_feel_trip_wanderlust_wine_co_2026_03_1720_05",
+    "artist_name": "feel trip.",
+    "entity_id": 2283186,
+    "venue": "Wanderlust Wine Co.",
+    "day": "2026-03-17",
+    "start_time": "20:05",
+    "end_time": "20:35",
+    "source": "official",
+    "showcase": "Make Out Music",
+    "notes": ""
+  },
+  {
     "id": "official_feetstubb_s2026_03_1220_00",
     "artist_name": "FEET",
     "entity_id": 2240043,
@@ -5807,7 +5947,7 @@
     "start_time": "23:00",
     "end_time": "23:40",
     "source": "official",
-    "showcase": "Overseas Transmission",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -6124,17 +6264,16 @@
     "notes": ""
   },
   {
-    "id": "official_fuego_basevenue_62026_03_12",
+    "id": "official_fuego_basevenue_62026_03_1223_20",
     "artist_name": "Fuego Base",
     "entity_id": 2270133,
     "venue": "Venue 6",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:20",
+    "end_time": "23:35",
     "source": "official",
     "showcase": "BSF Official Showcase",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_fuego_santolamberts2026_03_1720_00",
@@ -6315,18 +6454,6 @@
     "end_time": "20:55",
     "source": "official",
     "showcase": "KAZI:R&B and Soul Showcase",
-    "notes": ""
-  },
-  {
-    "id": "official_girl_toneswanderlust_wine_co_2026_03_1720_05",
-    "artist_name": "Girl Tones",
-    "entity_id": 2242951,
-    "venue": "Wanderlust Wine Co.",
-    "day": "2026-03-17",
-    "start_time": "20:05",
-    "end_time": "20:35",
-    "source": "official",
-    "showcase": "Make Out Music",
     "notes": ""
   },
   {
@@ -6594,13 +6721,13 @@
     "notes": ""
   },
   {
-    "id": "official_grace_sorensenbrushy_street_commons2026_03_1421_40",
+    "id": "official_grace_sorensenbrushy_street_commons2026_03_1421_25",
     "artist_name": "Grace Sorensen",
     "entity_id": 2240977,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "21:40",
-    "end_time": "21:55",
+    "start_time": "21:25",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -7130,7 +7257,7 @@
     "start_time": "01:00",
     "end_time": "01:40",
     "source": "official",
-    "showcase": "Overseas Transmission",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -7239,7 +7366,7 @@
     "start_time": "22:00",
     "end_time": "22:40",
     "source": "official",
-    "showcase": "Overseas Transmission",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -7980,6 +8107,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_jai_blissthe_pershing2026_03_1723_05",
+    "artist_name": "Jai Bliss",
+    "entity_id": 2278223,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "23:05",
+    "end_time": "23:20",
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": ""
+  },
+  {
     "id": "official_jairoelysium2026_03_1521_50",
     "artist_name": "Jairo",
     "entity_id": 2252699,
@@ -8497,6 +8636,18 @@
     "notes": ""
   },
   {
+    "id": "official_joe_harvey_whytehilton_grand_ballroom__salon_hjk_2026_03_131",
+    "artist_name": "Joe Harvey-Whyte",
+    "entity_id": 2242036,
+    "venue": "Hilton Grand Ballroom (Salon HJK)",
+    "day": "2026-03-13",
+    "start_time": "12:45",
+    "end_time": "12:55",
+    "source": "official",
+    "showcase": "SXSW Keynote Prelude Performance",
+    "notes": ""
+  },
+  {
     "id": "official_joe_harvey_whytecentral_presbyterian_church2026_03_1719_50",
     "artist_name": "Joe Harvey-Whyte",
     "entity_id": 2242036,
@@ -8991,6 +9142,18 @@
     "notes": ""
   },
   {
+    "id": "official_karima_santithe_pershing2026_03_1719_30",
+    "artist_name": "Karima Santi",
+    "entity_id": 2278226,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "19:30",
+    "end_time": "19:45",
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": ""
+  },
+  {
     "id": "official_karina_galiciamohawk_outdoor2026_03_1411_45",
     "artist_name": "Karina Galicia",
     "entity_id": 2238768,
@@ -9011,7 +9174,7 @@
     "start_time": "22:00",
     "end_time": "22:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -9087,6 +9250,18 @@
     "notes": ""
   },
   {
+    "id": "official_the_kellowselysium2026_03_1220_50",
+    "artist_name": "The Kellows",
+    "entity_id": 2240473,
+    "venue": "Elysium",
+    "day": "2026-03-12",
+    "start_time": "20:50",
+    "end_time": "21:20",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_the_kellowslas_perlas2026_03_1423_30",
     "artist_name": "The Kellows",
     "entity_id": 2240473,
@@ -9133,6 +9308,18 @@
     "end_time": "21:00",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_ken_lorentzvenue_62026_03_1719_30",
+    "artist_name": "Ken Lorentz",
+    "entity_id": 2278473,
+    "venue": "Venue 6",
+    "day": "2026-03-17",
+    "start_time": "19:30",
+    "end_time": "19:40",
+    "source": "official",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -9221,6 +9408,18 @@
     "notes": ""
   },
   {
+    "id": "official_kiki_ambrosethe_pershing2026_03_1720_30",
+    "artist_name": "Kiki Ambrose",
+    "entity_id": 2272573,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "20:30",
+    "end_time": "20:45",
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": ""
+  },
+  {
     "id": "official_kiki_ambroseswan_dive_patio2026_03_1219_30",
     "artist_name": "Kiki Ambrose",
     "entity_id": 2272573,
@@ -9265,7 +9464,7 @@
     "start_time": "21:00",
     "end_time": "21:40",
     "source": "official",
-    "showcase": "Overseas Transmission",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -9428,13 +9627,13 @@
     "notes": ""
   },
   {
-    "id": "official_kofi_stonebrushy_street_commons2026_03_1421_00",
+    "id": "official_kofi_stonebrushy_street_commons2026_03_1420_20",
     "artist_name": "Kofi Stone",
     "entity_id": 2240811,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "21:00",
-    "end_time": "21:15",
+    "start_time": "20:20",
+    "end_time": "20:35",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -9485,6 +9684,18 @@
     "end_time": "15:10",
     "source": "official",
     "showcase": "Northern Sound x DBT Wales",
+    "notes": ""
+  },
+  {
+    "id": "official_korda_kordermarlow2026_03_1221_40",
+    "artist_name": "Korda Korder",
+    "entity_id": 2248295,
+    "venue": "Marlow",
+    "day": "2026-03-12",
+    "start_time": "21:40",
+    "end_time": "22:10",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -9610,17 +9821,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_la_rosa_noirseven_grand2026_03_17",
+    "id": "official_la_rosa_noirseven_grand2026_03_1720_00",
     "artist_name": "LA ROSA NOIR",
     "entity_id": 2251782,
     "venue": "Seven Grand",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:40",
     "source": "official",
     "showcase": "Tropiclub",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_la_texanastubb_s2026_03_1221_00",
@@ -9668,6 +9878,18 @@
     "end_time": "23:10",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_lane_smithelysium2026_03_1320_00",
+    "artist_name": "Lane Smith",
+    "entity_id": 2257123,
+    "venue": "Elysium",
+    "day": "2026-03-13",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "BMG Label & Publishing",
     "notes": ""
   },
   {
@@ -9740,6 +9962,18 @@
     "end_time": "00:40",
     "source": "official",
     "showcase": "Spaace Camp",
+    "notes": ""
+  },
+  {
+    "id": "official_lauren_lightflamingo_cantina2026_03_1419_00",
+    "artist_name": "Lauren Light",
+    "entity_id": 2259889,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-14",
+    "start_time": "19:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "Found on Nero",
     "notes": ""
   },
   {
@@ -9971,6 +10205,18 @@
     "end_time": "21:15",
     "source": "official",
     "showcase": "PURRRSZN",
+    "notes": ""
+  },
+  {
+    "id": "official_lexi_goldriviere2026_03_1320_05",
+    "artist_name": "Lexi Gold",
+    "entity_id": 2282344,
+    "venue": "Riviere",
+    "day": "2026-03-13",
+    "start_time": "20:05",
+    "end_time": "20:15",
+    "source": "official",
+    "showcase": "Skills Over Politics Showcase",
     "notes": ""
   },
   {
@@ -10282,7 +10528,7 @@
     "start_time": "20:00",
     "end_time": "20:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -10356,6 +10602,19 @@
     "source": "official",
     "showcase": "",
     "notes": ""
+  },
+  {
+    "id": "official_los_variantes_del_ritmomala_fama_rooftop2026_03_12",
+    "artist_name": "Los Variantes del Ritmo",
+    "entity_id": 2283491,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-12",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_louie_leeriviere2026_03_1621_35",
@@ -10621,7 +10880,7 @@
     "start_time": "23:00",
     "end_time": "23:15",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -10637,13 +10896,13 @@
     "notes": ""
   },
   {
-    "id": "official_lynnbrushy_street_commons2026_03_1421_20",
+    "id": "official_lynnbrushy_street_commons2026_03_1421_45",
     "artist_name": "Lynn",
     "entity_id": 2238764,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "21:20",
-    "end_time": "21:35",
+    "start_time": "21:45",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -11158,6 +11417,18 @@
     "no_set_time": true
   },
   {
+    "id": "official_max_evasionmohawk_indoor2026_03_1622_25",
+    "artist_name": "Max Evasion",
+    "entity_id": 2282035,
+    "venue": "Mohawk Indoor",
+    "day": "2026-03-16",
+    "start_time": "22:25",
+    "end_time": "22:55",
+    "source": "official",
+    "showcase": "Pudgy Rodeo",
+    "notes": ""
+  },
+  {
     "id": "official_maya_manuelalamberts2026_03_1819_50",
     "artist_name": "Maya Manuela",
     "entity_id": 2251491,
@@ -11329,17 +11600,16 @@
     "notes": ""
   },
   {
-    "id": "official_mellyseven_grand2026_03_17",
+    "id": "official_mellyseven_grand2026_03_1722_00",
     "artist_name": "Melly",
     "entity_id": 2262575,
     "venue": "Seven Grand",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:40",
     "source": "official",
     "showcase": "Tropiclub",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_m_n_an_tolthe_13th_floor2026_03_1520_00",
@@ -11350,7 +11620,7 @@
     "start_time": "20:00",
     "end_time": "20:40",
     "source": "official",
-    "showcase": "Overseas Transmission",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -11390,13 +11660,13 @@
     "notes": ""
   },
   {
-    "id": "official_mer_marcumlas_perlas2026_03_1622_50",
+    "id": "official_mer_marcumlas_perlas2026_03_1623_40",
     "artist_name": "mer marcum",
     "entity_id": 2254310,
     "venue": "Las Perlas",
     "day": "2026-03-16",
-    "start_time": "22:50",
-    "end_time": "23:20",
+    "start_time": "23:40",
+    "end_time": "00:10",
     "source": "official",
     "showcase": "Make Out Music",
     "notes": ""
@@ -11459,6 +11729,18 @@
     "end_time": "21:55",
     "source": "official",
     "showcase": "College Of Hip Hop Knowledge",
+    "notes": ""
+  },
+  {
+    "id": "official_midas_wellriviere2026_03_1320_15",
+    "artist_name": "Midas Well",
+    "entity_id": 2282189,
+    "venue": "Riviere",
+    "day": "2026-03-13",
+    "start_time": "20:15",
+    "end_time": "20:25",
+    "source": "official",
+    "showcase": "Skills Over Politics Showcase",
     "notes": ""
   },
   {
@@ -11922,6 +12204,19 @@
     "notes": ""
   },
   {
+    "id": "official_mrwootayvenue_62026_03_16",
+    "artist_name": "MrWootay",
+    "entity_id": 2262567,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_ms__ca_hwanderlust_wine_co_2026_03_1521_50",
     "artist_name": "Ms. Ca$H",
     "entity_id": 2245206,
@@ -12079,13 +12374,13 @@
     "no_set_time": true
   },
   {
-    "id": "official_naadiflamingo_cantina2026_03_1319_50",
+    "id": "official_naadiflamingo_cantina2026_03_1321_00",
     "artist_name": "NAADI",
     "entity_id": 2255896,
     "venue": "Flamingo Cantina",
     "day": "2026-03-13",
-    "start_time": "19:50",
-    "end_time": "20:05",
+    "start_time": "21:00",
+    "end_time": "21:20",
     "source": "official",
     "showcase": "South Asian House Soundvilla",
     "notes": ""
@@ -12139,6 +12434,18 @@
     "notes": ""
   },
   {
+    "id": "official_neapolitanlow_down_lounge2026_03_1223_00",
+    "artist_name": "Neapolitan",
+    "entity_id": 2257076,
+    "venue": "Low Down Lounge",
+    "day": "2026-03-12",
+    "start_time": "23:00",
+    "end_time": "23:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_neapolitanlow_down_lounge2026_03_1821_00",
     "artist_name": "Neapolitan",
     "entity_id": 2257076,
@@ -12151,13 +12458,13 @@
     "notes": ""
   },
   {
-    "id": "official_neg_s_freshvenue_62026_03_1721_00",
+    "id": "official_neg_s_freshvenue_62026_03_1720_30",
     "artist_name": "Neg\u00fcs Fresh",
     "entity_id": 2262460,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "21:00",
-    "end_time": "21:15",
+    "start_time": "20:30",
+    "end_time": "20:45",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -12247,6 +12554,18 @@
     "notes": ""
   },
   {
+    "id": "official_nervousvalhalla2026_03_1820_00",
+    "artist_name": "Nervous",
+    "entity_id": 2277127,
+    "venue": "Valhalla",
+    "day": "2026-03-18",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_next_of_kinrivian_electric_roadhouse2026_03_1314_00",
     "artist_name": "Next of Kin",
     "entity_id": 2238721,
@@ -12283,6 +12602,19 @@
     "notes": ""
   },
   {
+    "id": "official_nezzamala_fama_rooftop2026_03_13",
+    "artist_name": "NEZZA",
+    "entity_id": 2272132,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-13",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_nezzamala_fama_rooftop2026_03_15",
     "artist_name": "NEZZA",
     "entity_id": 2272132,
@@ -12294,6 +12626,18 @@
     "showcase": "De Los",
     "notes": "",
     "no_set_time": true
+  },
+  {
+    "id": "official_nhl_strapthe_creek_and_the_cave_backyard2026_03_1820_50",
+    "artist_name": "NHL STRAP",
+    "entity_id": 2281874,
+    "venue": "The Creek and the Cave Backyard",
+    "day": "2026-03-18",
+    "start_time": "20:50",
+    "end_time": "21:00",
+    "source": "official",
+    "showcase": "Jump On It",
+    "notes": ""
   },
   {
     "id": "official_nicky_diamondssaxon_pub2026_03_1322_00",
@@ -12404,6 +12748,18 @@
     "notes": ""
   },
   {
+    "id": "official_nikki_goldvenue_62026_03_1620_00",
+    "artist_name": "Nikki Gold",
+    "entity_id": 2251598,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "20:00",
+    "end_time": "20:10",
+    "source": "official",
+    "showcase": "Beer n Tacos",
+    "notes": ""
+  },
+  {
     "id": "official_nikki_goldtaco_n_maiz2026_03_1720_00",
     "artist_name": "Nikki Gold",
     "entity_id": 2251598,
@@ -12461,6 +12817,18 @@
     "end_time": "21:40",
     "source": "official",
     "showcase": "Groover Obsessions",
+    "notes": ""
+  },
+  {
+    "id": "official_non_seven_grand2026_03_1700_00",
+    "artist_name": "Non\u00f4",
+    "entity_id": 2277129,
+    "venue": "Seven Grand",
+    "day": "2026-03-17",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Tropiclub",
     "notes": ""
   },
   {
@@ -12584,17 +12952,16 @@
     "notes": ""
   },
   {
-    "id": "official_okanseven_grand2026_03_17",
+    "id": "official_okanseven_grand2026_03_1721_00",
     "artist_name": "OKAN",
     "entity_id": 2249450,
     "venue": "Seven Grand",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:40",
     "source": "official",
     "showcase": "Tropiclub",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_okanthe_13th_floor2026_03_1221_00",
@@ -12632,18 +12999,6 @@
     "showcase": "",
     "notes": "",
     "no_set_time": true
-  },
-  {
-    "id": "official_olivia_ellen_lloydinn_cahoots_studio2026_03_1700_50",
-    "artist_name": "Olivia Ellen Lloyd",
-    "entity_id": 2238726,
-    "venue": "Inn Cahoots Studio",
-    "day": "2026-03-17",
-    "start_time": "00:50",
-    "end_time": "01:30",
-    "source": "official",
-    "showcase": "Take Action x SXSW",
-    "notes": ""
   },
   {
     "id": "official_olivia_ellen_lloydcontinental_club2026_03_1223_00",
@@ -13415,7 +13770,7 @@
     "start_time": "00:00",
     "end_time": "00:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -13432,17 +13787,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_poiisonvenue_62026_03_12",
+    "id": "official_poiisonvenue_62026_03_1220_00",
     "artist_name": "Poiison",
     "entity_id": 2262461,
     "venue": "Venue 6",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:00",
+    "end_time": "20:15",
     "source": "official",
     "showcase": "BSF Official Showcase",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_poiisonthe_creek_and_the_cave2026_03_1823_30",
@@ -13661,6 +14015,18 @@
     "notes": ""
   },
   {
+    "id": "official_propainvenue_62026_03_1622_45",
+    "artist_name": "Propain",
+    "entity_id": 2251828,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "22:45",
+    "end_time": "23:05",
+    "source": "official",
+    "showcase": "Beer n Tacos",
+    "notes": ""
+  },
+  {
     "id": "official_propainriviere2026_03_1500_55",
     "artist_name": "Propain",
     "entity_id": 2251828,
@@ -13721,15 +14087,15 @@
     "notes": ""
   },
   {
-    "id": "official_q_tha_herovenue_62026_03_1720_25",
+    "id": "official_q_tha_herovenue_62026_03_1720_55",
     "artist_name": "Q Tha Hero",
     "entity_id": 2240975,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "20:25",
-    "end_time": "20:40",
+    "start_time": "20:55",
+    "end_time": "21:05",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -13914,17 +14280,16 @@
     "notes": ""
   },
   {
-    "id": "official_rafa_parraseven_grand2026_03_17",
+    "id": "official_rafa_parraseven_grand2026_03_1723_00",
     "artist_name": "Rafa Parra",
     "entity_id": 2251463,
     "venue": "Seven Grand",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:00",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "Tropiclub",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_rafa_parrataco_n_maiz2026_03_1623_00",
@@ -14023,17 +14388,16 @@
     "notes": ""
   },
   {
-    "id": "official_raq_babyvenue_62026_03_16",
+    "id": "official_raq_babyvenue_62026_03_1623_35",
     "artist_name": "Raq Baby",
     "entity_id": 2241436,
     "venue": "Venue 6",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:35",
+    "end_time": "00:00",
     "source": "official",
     "showcase": "Beer n Tacos",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ras_mundivictory_grill2026_03_1720_25",
@@ -14793,13 +15157,13 @@
     "notes": ""
   },
   {
-    "id": "official_scuttinobrushy_street_commons2026_03_1422_05",
+    "id": "official_scuttinobrushy_street_commons2026_03_1420_00",
     "artist_name": "Scuttino",
     "entity_id": 2241437,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "22:05",
-    "end_time": "22:20",
+    "start_time": "20:00",
+    "end_time": "20:15",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -14873,6 +15237,18 @@
     "day": "2026-03-17",
     "start_time": "20:00",
     "end_time": "20:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_sencible_de_tierra_calientemala_fama_rooftop2026_03_1223_00",
+    "artist_name": "Sencible de Tierra Caliente",
+    "entity_id": 2280195,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-12",
+    "start_time": "23:00",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -14983,6 +15359,18 @@
     "end_time": "22:50",
     "source": "official",
     "showcase": "Deloyd Elze x Make Out Music",
+    "notes": ""
+  },
+  {
+    "id": "official_shame_gangvenue_62026_03_1220_35",
+    "artist_name": "Shame Gang",
+    "entity_id": 2281871,
+    "venue": "Venue 6",
+    "day": "2026-03-12",
+    "start_time": "20:35",
+    "end_time": "20:50",
+    "source": "official",
+    "showcase": "BSF Official Showcase",
     "notes": ""
   },
   {
@@ -15119,17 +15507,16 @@
     "notes": ""
   },
   {
-    "id": "official_shovenue_62026_03_16",
+    "id": "official_shovenue_62026_03_1621_35",
     "artist_name": "SHO",
     "entity_id": 2268807,
     "venue": "Venue 6",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:35",
+    "end_time": "21:50",
     "source": "official",
     "showcase": "Beer n Tacos",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_short_lifetaco_n_maiz2026_03_1422_55",
@@ -15180,17 +15567,16 @@
     "notes": ""
   },
   {
-    "id": "official_sibby_livflamingo_cantina2026_03_14",
+    "id": "official_sibby_livflamingo_cantina2026_03_1422_00",
     "artist_name": "Sibby Liv",
     "entity_id": 2257084,
     "venue": "Flamingo Cantina",
     "day": "2026-03-14",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "Found on Nero",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_sibby_livglobal_stage___downright_austin_backyard2026_03_121",
@@ -15253,6 +15639,18 @@
     "notes": ""
   },
   {
+    "id": "official_simone_tangcentral_presbyterian_church2026_03_1220_00",
+    "artist_name": "Simone Tang",
+    "entity_id": 2240687,
+    "venue": "Central Presbyterian Church",
+    "day": "2026-03-12",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_simone_tangzilker_brewing2026_03_1519_00",
     "artist_name": "Simone Tang",
     "entity_id": 2240687,
@@ -15265,15 +15663,15 @@
     "notes": ""
   },
   {
-    "id": "official_sir_eddie_cvenue_62026_03_1720_05",
+    "id": "official_sir_eddie_cvenue_62026_03_1720_15",
     "artist_name": "sir eddie c",
     "entity_id": 2250470,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "20:05",
-    "end_time": "20:20",
+    "start_time": "20:15",
+    "end_time": "20:25",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -15478,7 +15876,7 @@
     "start_time": "23:00",
     "end_time": "23:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -15528,6 +15926,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "Traffic Music Group",
+    "notes": ""
+  },
+  {
+    "id": "official_someshiitglobal_stage___downright_austin_backyard2026_03_152",
+    "artist_name": "someshiit",
+    "entity_id": 2238773,
+    "venue": "Global Stage @ Downright Austin Backyard",
+    "day": "2026-03-15",
+    "start_time": "20:40",
+    "end_time": "21:10",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -15725,6 +16135,18 @@
     "notes": ""
   },
   {
+    "id": "official_spacestationglobal_stage___downright_austin_backyard2026_03_",
+    "artist_name": "Spacestation",
+    "entity_id": 2240258,
+    "venue": "Global Stage @ Downright Austin Backyard",
+    "day": "2026-03-17",
+    "start_time": "19:00",
+    "end_time": "19:30",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_spacestationinn_cahoots_studio2026_03_1620_50",
     "artist_name": "Spacestation",
     "entity_id": 2240258,
@@ -15917,13 +16339,13 @@
     "notes": ""
   },
   {
-    "id": "official_steven_bamidelemarlow2026_03_1600_30",
+    "id": "official_steven_bamidelemarlow2026_03_1623_30",
     "artist_name": "Steven Bamidele",
     "entity_id": 2238725,
     "venue": "Marlow",
     "day": "2026-03-16",
-    "start_time": "00:30",
-    "end_time": "01:40",
+    "start_time": "23:30",
+    "end_time": "00:10",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -16025,13 +16447,13 @@
     "notes": ""
   },
   {
-    "id": "official_stockzvenue_62026_03_1721_10",
+    "id": "official_stockzvenue_62026_03_1721_30",
     "artist_name": "Stockz",
     "entity_id": 2250472,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "21:10",
-    "end_time": "21:25",
+    "start_time": "21:30",
+    "end_time": "21:45",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
     "notes": ""
@@ -16106,6 +16528,18 @@
     "end_time": "00:00",
     "source": "official",
     "showcase": "The Spanish Wave",
+    "notes": ""
+  },
+  {
+    "id": "official_summer_brennaninn_cahoots_studio2026_03_1722_50",
+    "artist_name": "Summer Brennan",
+    "entity_id": 2283028,
+    "venue": "Inn Cahoots Studio",
+    "day": "2026-03-17",
+    "start_time": "22:50",
+    "end_time": "23:30",
+    "source": "official",
+    "showcase": "Take Action X SXSW",
     "notes": ""
   },
   {
@@ -16313,6 +16747,18 @@
     "notes": ""
   },
   {
+    "id": "official_switch_angelkingdom2026_03_1400_30",
+    "artist_name": "Switch Angel",
+    "entity_id": 2261556,
+    "venue": "Kingdom",
+    "day": "2026-03-14",
+    "start_time": "00:30",
+    "end_time": "01:30",
+    "source": "official",
+    "showcase": "DJ_Dave",
+    "notes": ""
+  },
+  {
     "id": "official_switchfootelysium2026_03_1323_00",
     "artist_name": "Switchfoot",
     "entity_id": 2249571,
@@ -16361,17 +16807,16 @@
     "notes": ""
   },
   {
-    "id": "official_taija_kerrthe_pershing2026_03_17",
+    "id": "official_taija_kerrthe_pershing2026_03_1722_45",
     "artist_name": "Taija Kerr",
     "entity_id": 2278393,
     "venue": "The Pershing",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:45",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "Kinky,Curly,Coily Showcase",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_taliselamberts2026_03_1619_00",
@@ -16614,6 +17059,18 @@
     "notes": ""
   },
   {
+    "id": "official_tj_the_djthe_creek_and_the_cave_backyard2026_03_1719_00",
+    "artist_name": "TJ THE DJ",
+    "entity_id": 2282343,
+    "venue": "The Creek and the Cave Backyard",
+    "day": "2026-03-17",
+    "start_time": "19:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "The Digilogue",
+    "notes": ""
+  },
+  {
     "id": "official_tom_a_smithbritish_music_embassy___palm_door_on_sixth2026_03",
     "artist_name": "Tom A Smith",
     "entity_id": 2240050,
@@ -16746,6 +17203,19 @@
     "notes": ""
   },
   {
+    "id": "official_treegmusicthe_pershing2026_03_17",
+    "artist_name": "TREEGMUSIC",
+    "entity_id": 2283110,
+    "venue": "The Pershing",
+    "day": "2026-03-17",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Kinky,Curly,Coily Showcase",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_the_tremolo_beer_gutlow_down_lounge2026_03_1522_00",
     "artist_name": "The Tremolo Beer Gut",
     "entity_id": 2240468,
@@ -16842,15 +17312,15 @@
     "notes": ""
   },
   {
-    "id": "official_ttbbyvenue_62026_03_1720_45",
+    "id": "official_ttbbyvenue_62026_03_1721_15",
     "artist_name": "TTBBY",
     "entity_id": 2246962,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "20:45",
-    "end_time": "21:00",
+    "start_time": "21:15",
+    "end_time": "21:30",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -17035,25 +17505,25 @@
     "notes": ""
   },
   {
-    "id": "official_tyla_yawehvenue_62026_03_1723_25",
+    "id": "official_tyla_yawehvenue_62026_03_1723_00",
     "artist_name": "Tyla Yaweh",
     "entity_id": 2248084,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "23:25",
-    "end_time": "23:45",
+    "start_time": "23:00",
+    "end_time": "23:20",
     "source": "official",
-    "showcase": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
-    "id": "official_tyla_yawehbrushy_street_commons2026_03_1422_50",
+    "id": "official_tyla_yawehbrushy_street_commons2026_03_1422_55",
     "artist_name": "Tyla Yaweh",
     "entity_id": 2248084,
     "venue": "Brushy Street Commons",
     "day": "2026-03-14",
-    "start_time": "22:50",
-    "end_time": "23:10",
+    "start_time": "22:55",
+    "end_time": "23:15",
     "source": "official",
     "showcase": "Kaash Paige & Friends",
     "notes": ""
@@ -17201,7 +17671,7 @@
     "start_time": "01:00",
     "end_time": "01:40",
     "source": "official",
-    "showcase": "",
+    "showcase": "MEXCENA!",
     "notes": ""
   },
   {
@@ -17284,7 +17754,7 @@
     "venue": "Shangri-La",
     "day": "2026-03-16",
     "start_time": "22:00",
-    "end_time": "23:35",
+    "end_time": "22:35",
     "source": "official",
     "showcase": "Money Mark and Friends",
     "notes": ""
@@ -17301,6 +17771,18 @@
     "showcase": "Found on Nero",
     "notes": "",
     "no_set_time": true
+  },
+  {
+    "id": "official_vickeelovenue_62026_03_1600_05",
+    "artist_name": "Vickeelo",
+    "entity_id": 2267089,
+    "venue": "Venue 6",
+    "day": "2026-03-16",
+    "start_time": "00:05",
+    "end_time": "00:30",
+    "source": "official",
+    "showcase": "Beer n Tacos",
+    "notes": ""
   },
   {
     "id": "official_vickeeloriviere2026_03_1523_10",
@@ -17363,13 +17845,13 @@
     "notes": ""
   },
   {
-    "id": "official_victorylandlas_perlas2026_03_1622_25",
+    "id": "official_victorylandlas_perlas2026_03_1622_50",
     "artist_name": "Victoryland",
     "entity_id": 2240767,
     "venue": "Las Perlas",
     "day": "2026-03-16",
-    "start_time": "22:25",
-    "end_time": "23:55",
+    "start_time": "22:50",
+    "end_time": "23:20",
     "source": "official",
     "showcase": "Deloyd Elze x Make Out Music",
     "notes": ""
@@ -17407,7 +17889,7 @@
     "start_time": "22:10",
     "end_time": "22:25",
     "source": "official",
-    "showcase": "ilL Manner x The Smoke Out ATX: A Phat A$$ Rap Show",
+    "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
   },
   {
@@ -17673,6 +18155,18 @@
     "end_time": "23:10",
     "source": "official",
     "showcase": "BBC Introducing",
+    "notes": ""
+  },
+  {
+    "id": "official_whitelandsthe_13th_floor2026_03_1500_00",
+    "artist_name": "Whitelands",
+    "entity_id": 2240036,
+    "venue": "The 13th Floor",
+    "day": "2026-03-15",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Beyond The Music",
     "notes": ""
   },
   {
@@ -18259,6 +18753,18 @@
     "notes": ""
   },
   {
+    "id": "official_yumeriviere2026_03_1421_40",
+    "artist_name": "YUME",
+    "entity_id": 2282265,
+    "venue": "Riviere",
+    "day": "2026-03-14",
+    "start_time": "21:40",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "DreamCon",
+    "notes": ""
+  },
+  {
     "id": "official_yung_alriviere2026_03_1319_30",
     "artist_name": "Yung Al",
     "entity_id": 2253707,
@@ -18429,17 +18935,16 @@
     "notes": ""
   },
   {
-    "id": "official_zavivenue_62026_03_12",
+    "id": "official_zavivenue_62026_03_1220_50",
     "artist_name": "Zavi",
     "entity_id": 2266976,
     "venue": "Venue 6",
     "day": "2026-03-12",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:50",
+    "end_time": "21:05",
     "source": "official",
     "showcase": "BSF Official Showcase",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ze_al_nortexlefty_s_brick_bar2026_03_1820_00",
