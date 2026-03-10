@@ -4500,6 +4500,292 @@
     "events_raw": []
   },
   {
+    "name": "Major Luna",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/channel/UCUbm4K2fg8_V-6lxQRRo4dQ",
+      "website": "https://majorluna.com/home"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Slipdress",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://slipdress.bandcamp.com/",
+      "spotify": "https://open.spotify.com/artist/4gPVqTcXjwKqY3Ct2jHGM4?si=Jx6MGjJJTPW7uh3QbsRr3g&utm_medium=share&utm_source=linktree&nd=1&dlsi=0d899a29fb464e49"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Heavy Velvet",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://heavyvelvetmusic.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Floating Cube",
+    "genre": "Metal",
+    "subgenre": "Shoegaze",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://floatingcube.bandcamp.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Rattlesnake Milk",
+    "genre": "Country",
+    "subgenre": "",
+    "location": "Lubbock, TX, USA",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/album/33Fto6rNNiO5hqGTEUL3SG?si=wAJmG1TWSFeoxPSby7gDxA&nd=1&dlsi=4c96cbe8b41a4d8a",
+      "website": "https://rattlesnakemilk.com"
+    },
+    "source": "unofficial",
+    "city": "Lubbock",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ringo Deathstarr",
+    "genre": "Rock",
+    "subgenre": "Shoegaze",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ringodeathstarr.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Wild Heaven",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://wildheavenband.bandcamp.com",
+      "apple_music": "https://music.apple.com/us/album/i-need-you/1750628738",
+      "spotify": "https://open.spotify.com/album/0RhqrQBZZm3KqkwCdX3xkZ",
+      "website": "https://wildheavenband.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "39th Gate of Hell",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "A female-fronted Post-Punk alternative garage rock band combines punk attitude with dance grooves. Holding a foot in Sheffield and Austin, 39th Gate of Hell,  is a multinational trio based around Turkish-born spoken word artist,  Ayse Balkose and guitarist/singer,  Ash Gray from Austin, TX. The group switches easily from whimsical and fun to seriously poetic subjects for a heavy groove-led style.",
+    "links": {
+      "bandcamp": "https://39thgateofhell.bandcamp.com",
+      "website": "https://39thgateofhell.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Cheap Dopamine",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Municipal Bats",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Houston, TX, USA",
+    "description": "Noise rock trio from Houston, TX. Raw dissonance, crushing riffs & primal rhythms. Inspired by Whores., The Jesus Lizard & Bauhaus. Chaos as art.",
+    "links": {
+      "bandcamp": "https://municipalbats.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Houston",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Ash and the Endings",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://ashandtheendings.bandcamp.com/",
+      "soundcloud": "https://soundcloud.com/ashandtheendings",
+      "spotify": "https://open.spotify.com/artist/1SYY5vIzCMYwdGFJvT1ILu"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Wild Seeds",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/wild-seeds/450205845",
+      "spotify": "https://open.spotify.com/artist/1fmPXmOZLmC0NOAD0fUxUF"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Big Violet",
+    "genre": "Americana",
+    "subgenre": "",
+    "location": "Taos, NM, USA",
+    "description": "High Desert Americana Rock",
+    "links": {
+      "youtube": "https://www.youtube.com/@bigvioletmusic",
+      "website": "https://bigvioletmusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Taos",
+    "country": "USA",
+    "state": "NM",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Waco Brothers",
+    "genre": "Country",
+    "subgenre": "Alt-Country",
+    "location": "Chicago, IL, USA",
+    "description": "",
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=fZFhA38S9is",
+      "website": "https://wacobrothers.net/"
+    },
+    "source": "unofficial",
+    "city": "Chicago",
+    "country": "USA",
+    "state": "IL",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Tender Wolf",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "",
+    "links": {
+      "bandcamp": "https://tenderwolf.bandcamp.com"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Born Twins",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "location": "Austin, TX, USA",
+    "description": "The latest musical incarnation of songwriters Singer Mayberry and David Lujan (Red Leaves, Bitter Birds). They\u2019ve been in groups together since the early 2000\u2019s, but Born Twins is their most recent endeavor, with Mayberry taking the lead on guitar and vocals\u201d, Lujan on Drums and Bass Organ, and the addition of third member Gwyneth Lujan on keys and synth.",
+    "links": {
+      "bandcamp": "https://borntwins.bandcamp.com",
+      "youtube": "https://www.youtube.com/channel/UCpzsb7n0mp2giNRjjO2JUyg",
+      "apple_music": "https://music.apple.com/us/artist/born-twins/1355977417",
+      "spotify": "https://open.spotify.com/artist/5uHJfTx6GHIvvmOPJilf97?si=uGrh7BynTqKIZwDChyB4Vw&nd=1&dlsi=e325033d75584fd7",
+      "website": "https://borntwinsmusic.com/"
+    },
+    "source": "unofficial",
+    "city": "Austin",
+    "country": "USA",
+    "state": "TX",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
     "name": "Ethan Azarian",
     "genre": "Unknown",
     "subgenre": "",
@@ -4561,66 +4847,6 @@
   },
   {
     "name": "Elijah Ford",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Big Violet",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Far Forlorn",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Wild Seeds",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Waco Brothers",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
@@ -4770,7 +4996,7 @@
     "events_raw": []
   },
   {
-    "name": "39th Gate of Hell",
+    "name": "Kreayshawn",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
@@ -4785,7 +5011,7 @@
     "events_raw": []
   },
   {
-    "name": "Born Twins",
+    "name": "The Mall",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
@@ -4800,7 +5026,7 @@
     "events_raw": []
   },
   {
-    "name": "Municipal Bats",
+    "name": "Fuck Money",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
@@ -4815,7 +5041,7 @@
     "events_raw": []
   },
   {
-    "name": "Tender Wolf",
+    "name": "Flags",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
@@ -4830,7 +5056,37 @@
     "events_raw": []
   },
   {
-    "name": "Wild Heaven",
+    "name": "Broken Gold",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Money Chica",
+    "genre": "Unknown",
+    "subgenre": "",
+    "location": "",
+    "description": "",
+    "links": {},
+    "source": "unofficial",
+    "city": "",
+    "country": "",
+    "state": "",
+    "entity_id": null,
+    "detail_url": "",
+    "events_raw": []
+  },
+  {
+    "name": "Killboy",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",
