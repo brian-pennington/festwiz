@@ -25,6 +25,7 @@
   let agendaFilter = { r4: true, r3: false, picks: false };
   let checkins = {};
   let agendaTimer = null;
+  let gridZoom = parseFloat(localStorage.getItem('sxsw2026_grid_zoom') || '1');
   let pendingCsvShows = []; // parsed shows waiting for confirmation
   let detailShow = null;    // show currently open in detail modal
   let recommendedEntityIds = new Set();
@@ -1063,6 +1064,39 @@
     const el = document.getElementById('view-grid');
     el.innerHTML = '';
 
+    // Zoom controls
+    const zoomBar = document.createElement('div');
+    zoomBar.className = 'grid-zoom-bar';
+    const zoomLabel = document.createElement('span');
+    zoomLabel.className = 'grid-zoom-label';
+    zoomLabel.textContent = 'Zoom:';
+    const zoomOut = document.createElement('button');
+    zoomOut.className = 'grid-zoom-btn';
+    zoomOut.textContent = '−';
+    zoomOut.disabled = gridZoom <= 0.6;
+    const zoomPct = document.createElement('span');
+    zoomPct.className = 'grid-zoom-pct';
+    zoomPct.textContent = gridZoom === 1 ? '100%' : gridZoom === 0.75 ? '75%' : '60%';
+    const zoomIn = document.createElement('button');
+    zoomIn.className = 'grid-zoom-btn';
+    zoomIn.textContent = '+';
+    zoomIn.disabled = gridZoom >= 1;
+    zoomOut.addEventListener('click', () => {
+      gridZoom = gridZoom >= 1 ? 0.75 : 0.6;
+      localStorage.setItem('sxsw2026_grid_zoom', gridZoom);
+      renderCurrentView();
+    });
+    zoomIn.addEventListener('click', () => {
+      gridZoom = gridZoom <= 0.6 ? 0.75 : 1;
+      localStorage.setItem('sxsw2026_grid_zoom', gridZoom);
+      renderCurrentView();
+    });
+    zoomBar.appendChild(zoomLabel);
+    zoomBar.appendChild(zoomOut);
+    zoomBar.appendChild(zoomPct);
+    zoomBar.appendChild(zoomIn);
+    el.appendChild(zoomBar);
+
     const shows = todayShows().filter(s => s.start_time || s.no_set_time);
 
     if (shows.length === 0) {
@@ -1155,7 +1189,8 @@
     }
 
     const wrap = document.createElement('div');
-    wrap.className = 'grid-wrap';
+    wrap.className = 'grid-wrap' +
+      (gridZoom === 0.75 ? ' grid-wrap--zoom-sm' : gridZoom === 0.6 ? ' grid-wrap--zoom-xs' : '');
 
     const table = document.createElement('table');
     table.className = 'grid-table';

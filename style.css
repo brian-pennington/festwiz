@@ -2599,6 +2599,46 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .agenda-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
 .agenda-time { font-size: 12px; font-weight: 600; color: var(--text-muted); white-space: nowrap; }
 
+/* ── Grid zoom controls ───────────────────────────────────────────────────── */
+.grid-zoom-bar {
+  display: flex; align-items: center; gap: 6px;
+  justify-content: flex-end;
+  padding: 4px 10px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+}
+.grid-zoom-label { color: var(--text-muted); }
+.grid-zoom-pct { color: var(--text); min-width: 36px; text-align: center; font-weight: 600; }
+.grid-zoom-btn {
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text); font-size: 14px; font-weight: 700;
+  width: 26px; height: 26px; border-radius: 4px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.grid-zoom-btn:not(:disabled):hover { border-color: var(--accent); color: var(--accent); }
+.grid-zoom-btn:disabled { opacity: 0.3; cursor: default; }
+
+/* 75% zoom */
+.grid-wrap--zoom-sm .grid-table    { font-size: 9px; }
+.grid-wrap--zoom-sm .grid-venue-th { min-width: 82px; max-width: 105px; font-size: 8px; padding: 6px 7px; }
+.grid-wrap--zoom-sm .grid-corner   { min-width: 39px; }
+.grid-wrap--zoom-sm .grid-time-td  { min-width: 39px; height: 22px; font-size: 8px; padding: 3px 4px; }
+.grid-wrap--zoom-sm .grid-cell     { min-width: 82px; max-width: 105px; }
+.grid-wrap--zoom-sm .grid-show-pill { padding: 3px 4px; }
+.grid-wrap--zoom-sm .grid-show-name { max-width: 97px; }
+.grid-wrap--zoom-sm .grid-show-time { font-size: 7px; }
+
+/* 60% zoom */
+.grid-wrap--zoom-xs .grid-table    { font-size: 7px; }
+.grid-wrap--zoom-xs .grid-venue-th { min-width: 66px; max-width: 84px; font-size: 7px; padding: 5px 6px; }
+.grid-wrap--zoom-xs .grid-corner   { min-width: 31px; }
+.grid-wrap--zoom-xs .grid-time-td  { min-width: 31px; height: 17px; font-size: 7px; padding: 2px 3px; }
+.grid-wrap--zoom-xs .grid-cell     { min-width: 66px; max-width: 84px; }
+.grid-wrap--zoom-xs .grid-show-pill { padding: 2px 3px; }
+.grid-wrap--zoom-xs .grid-show-name { max-width: 78px; }
+.grid-wrap--zoom-xs .grid-show-time { font-size: 6px; }
+
 /* ── Performing On (window filter) ───────────────────────────────────────── */
 .window-filter { display: flex; flex-direction: column; gap: 8px; }
 
