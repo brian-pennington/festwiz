@@ -251,7 +251,7 @@
         "age_policy": "21+",
         "day": "2026-03-16",
         "start_time": "23:00",
-        "end_time": "23:40",
+        "end_time": "23:30",
         "presented_by": null
       }
     ]
@@ -708,17 +708,18 @@
     "state": "PA",
     "entity_id": 2277372,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2277372",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/-bSh8p6ZJBcpsyneJbYkfGtDZcU=/450x450/images.sxsw.com/178/63418f5b-25e1-07a2-8fc7-a614349b5f09/artist-76611",
     "announcement_date": "2026-03-03",
     "source": "official",
-    "description": "",
+    "description": "Addie Weyrich is a Philly-raised, Los Angeles-based multi-hyphenate actor/artist/musician/filmmaker. Addie is the co-lead and co-writer of the upcoming feature film DOWNBEAT which is having its world premiere at SXSW this year.\n\nAddie previously starred in the FX pilot SUCKHOLE from Lauren Ludwig. She can be seen opposite Diane Keaton and Taylour Paige in the feature film MACK & RITA and in the queer Hulu rom com CRUSH from Dir. Sammi Cohen. Her additional credits include CRASHING for HBO, THE MARVELOUS MRS. MAISEL for Amazon, and YOUR PRETTY FACE IS GOING TO HELL for Adultswim.\n\nAddie creates and releases her own music under the name Addie Addie Addie and directs all of her own music videos. Daniel Kwan of the Daniels is one of her mentors. He is currently helping her develop a feature film in the vein of DATE NIGHT that will be Addie’s feature-length directorial debut.\n\nAddie is also a standup, improv & sketch performer, dancer, and stunt performer (martial arts). She’s studied at NYU, the PIT, Groundlings, the Magnet Theater, and with Nancy Banks, Ellie Heyman, Anthony Atamaniuk, and Anders Fors from Sweden.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/addie-addie-addie/1691837107",
+      "apple_music": "https://music.apple.com/gb/song/back-row/1755846668",
       "bandcamp": "https://addieaddieaddie.bandcamp.com",
       "instagram": "https://www.instagram.com/addieyomind",
-      "spotify": "https://open.spotify.com/artist/1CJiNCZe3d5Hl14oLvTija",
+      "spotify": "https://open.spotify.com/track/25sQJDrSfLSBB4wLnw5EX9?si=rNrEYGBOQ_u9gYzhGHMwzg",
       "tiktok": "https://www.tiktok.com/@addieweyrich",
-      "website": "https://www.addieweyrich.com/"
+      "website": "https://www.addieweyrich.com/",
+      "youtube": "https://youtu.be/RNfJu-1cRHs"
     },
     "events": [
       {
@@ -834,6 +835,18 @@
     "events_raw": [],
     "location": "LEEDS, UNITED KINGDOM, ENGLAND",
     "events": [
+      {
+        "event_id": "MS65231",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "16:50",
+        "end_time": "17:20",
+        "presented_by": "Planetary Group"
+      },
       {
         "event_id": "MS64536",
         "event_type": "showcase",
@@ -1084,43 +1097,6 @@
     ]
   },
   {
-    "name": "Ain TheMachine",
-    "genre": "Electronic",
-    "subgenre": "House / Techno",
-    "city": "Berlin",
-    "country": "Germany",
-    "state": null,
-    "entity_id": 2253588,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2253588",
-    "thumbnail_url": "https://images.sxsw.com/cpqBUlVq_px4WYWH03P4wZAdIiI=/450x450/images.sxsw.com/178/5453daa6-21da-3ae8-eaf5-151d4a140b85/artist-76235",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "“We have never seen a proposal even remotely similar to that of Ain TheMachine.” — DJ Mag\n\nAin TheMachine is a Grammy-nominated Brazilian artist based in Berlin whose work reimagines how electronic music is made and performed. Instead of conventional instruments, he creates music live from the body, the voice and everyday objects, working across genres from Brazilian downtempo to Techno. His shows and videos often break the fourth wall, inviting the audience to contribute sounds that become part of the piece.\n\nHis unique approach has drawn international attention: he has been featured in one of Beatport’s most viewed and commented posts and has performed at iconic clubs and festivals such as Fusion Festival (Germany), Sisyphos (Berlin), D-EDGE (Brazil) and Suma Han (Turkey). Supported by artists including Purple Disco Machine, Sam Divine and Mano Le Tough, he releases music on his label Mundo Afora Records and on respected imprints such as Black Book.\n\nHe has delivered four TEDx talks in three countries, played with Prince’s guitarist Miko Weaver, jammed with Bobby McFerrin, and had his productions remixed by Mad Professor.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/song/make-your-house-funk-again-feat-jo%C3%A3o-oliveira/1683367808",
-      "instagram": "https://www.instagram.com/ainthemachine/",
-      "soundcloud": "https://soundcloud.com/ainthemachine",
-      "tiktok": "https://www.tiktok.com/@ainthemachine",
-      "youtube": "https://www.youtube.com/watch?v=YbK0lhgTr1A&list=PL3nZUcAE9jg7VkLKfLdpnv_ea0evzBgiS"
-    },
-    "events_raw": [],
-    "location": "BERLIN, GERMANY",
-    "events": [
-      {
-        "event_id": "MS64149",
-        "event_type": "showcase",
-        "venue": "Speakeasy",
-        "venue_id": "V0226",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-14",
-        "start_time": "20:30",
-        "end_time": "21:30",
-        "presented_by": "Berlin House"
-      }
-    ]
-  },
-  {
     "name": "Aitchdub",
     "genre": "DJ",
     "subgenre": "House / Techno",
@@ -1365,6 +1341,43 @@
         "presented_by": "South Asian House Soundvilla"
       }
     ]
+  },
+  {
+    "name": "AL LOVER",
+    "genre": "DJ",
+    "subgenre": "Psychedelic",
+    "city": "Los Angeles",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2278228,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2278228",
+    "thumbnail_url": "https://images.sxsw.com/so_kbYuN87e11HEgQzmn0aWY2aw=/450x450/images.sxsw.com/178/68a6751c-8e60-5da8-0188-3e8f5a262c22/artist-76623",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Los Angeles-based experimental producer Al Lover, a staple of the global psychedelic scene, has spent nearly a decade fine-tuning a broken, abstracted form of electronica that pools together a tapestry of trip-hop, synthesized krautrock, dub and dark ambient. Utilizing an arsenal of samples, drum machine, analogue synths and live instrumentation, Lover’s is a kaleidoscopic sound that’s J-Dilla, DJ Shadow, DJ Muggs and Lee Scratch Perry by way of Brian Eno, Kraftwerk and Cluster. Central to Lover’s pursuit is a desire to explore the fringes of psychedelic music and the common threads that run through its far-reaching styles, drawing elements from the past and connecting them to the future.\n\nThrough the years he has released a number of studio albums, toured the US and Europe constantly, remixed the likes of Osees and Night Beats, been resident DJ for the Levitation and Desert Daze festivals and collaborated with the likes of Goat, Anton Newcombe, Peaking Lights, The KVB, White Fence and Cairo Liberation Front.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/song/arise/1845067759",
+      "bandcamp": "https://allover.bandcamp.com",
+      "instagram": "https://www.instagram.com/al_lover/?hl=en",
+      "spotify": "https://open.spotify.com/track/2rFqanqkIiwRQipv7cPrch?si=a5aad2e4af874842",
+      "website": "https://www.al-lover.com/",
+      "youtube": "https://youtu.be/B78vPTRXmkE?si=Qlo8C6rAh48lC05f"
+    },
+    "events": [
+      {
+        "event_id": "MS65023",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas Patio",
+        "venue_id": "V0263",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "00:30",
+        "end_time": "02:00",
+        "presented_by": "Spaace Camp"
+      }
+    ],
+    "location": "LOS ANGELES, CA"
   },
   {
     "name": "Alahsîn",
@@ -2854,6 +2867,18 @@
     "location": "ZELIENOPLE, PA",
     "events": [
       {
+        "event_id": "MS65179",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
+      {
         "event_id": "MS64847",
         "event_type": "showcase",
         "venue": "Wanderlust Wine Co.",
@@ -2975,7 +3000,7 @@
     "entity_id": 2253638,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2253638",
     "thumbnail_url": "https://images.sxsw.com/lblTlM1QY7PxHrb3_2Pj65dcys8=/450x450/images.sxsw.com/178/0e1dd2a9-6eb7-fe46-704d-b0530326cefe/artist-76322",
-    "announcement_date": "2026-02-11",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Anja Schneider is a DJ, producer, radio broadcaster, label boss, tireless creative force and mentor. She was recognised in 2021 with the award of an Honour Prize by The Berlin Music Commission for having had “an outstanding impact on the music scene” as recognition for her work supporting fellow artists and cultural institutions.\n\nAnja continues to operate as one of electronic music’s most vital artists, currently focused on multiple projects. Including her 20th anniversary as a professional DJ and producer featuring an array of internationally recognized artists and worldwide gigs. Her 'Club Room' radio show that just crossed the mark of over 300 episodes, the freshly launched 'The Story / Loveparade' podcast that gained remarkable recognition in the scene and last but not least a new, monthly party series 'PuMp' at Tresor’s little sibling OHM.",
     "links": {
@@ -2997,8 +3022,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-14",
-        "start_time": "23:00",
-        "end_time": "00:45",
+        "start_time": "00:00",
+        "end_time": "02:00",
         "presented_by": "Berlin House"
       }
     ]
@@ -3031,6 +3056,18 @@
     "events_raw": [],
     "location": "PHILADELPHIA, PA",
     "events": [
+      {
+        "event_id": "MS65238",
+        "event_type": "showcase",
+        "venue": "Radio Day Stage @ Downright Austin Backyard",
+        "venue_id": "V2391",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "16:00",
+        "end_time": "16:40",
+        "presented_by": "BBC Introducing in America"
+      },
       {
         "event_id": "MS63327",
         "event_type": "showcase",
@@ -3589,6 +3626,18 @@
         "presented_by": "Planetary Group"
       },
       {
+        "event_id": "MS64533",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "01:00",
+        "end_time": "01:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS63355",
         "event_type": "showcase",
         "venue": "The 13th Floor",
@@ -3779,9 +3828,11 @@
     "source": "official",
     "description": "AXLFLY (pronounced Axel Foley) is an MC slash DJ hailing from Minneapolis, Minnesota.\nHe grew up in the underground hip-hop scene but was fascinated by festival culture.\nBlending conscious bars over bass heavy beats is where Rap and Dubstep collide.\nNot genre bending but more combining the best elements of different frequencies.\nCalm, cool, collected but ready to spaz and get reckless AXLFLY just keeps spinning flyness regardless.\nSome call him the Northside Norwegian. Some call him Festival Jesus\nbut the real ones know he’s just a Minneapolis Muskrat making his way in this wild world.",
     "links": {
+      "apple_music": "https://music.apple.com/us/song/twistin-up-feat-axlfly-nikita/1739173882",
       "bandcamp": "https://axelfoley.bandcamp.com",
       "instagram": "https://www.instagram.com/axlfly",
       "soundcloud": "https://soundcloud.com/axlfly",
+      "spotify": "https://open.spotify.com/track/50HJF3bFmRBDJ7Sl7x0soR",
       "youtube": "https://youtu.be/kyMoarGZ-wM"
     },
     "events": [
@@ -3916,13 +3967,13 @@
     "source": "official",
     "description": "Brenton M. Freeman, better known as B Free, is a dynamic artist and songwriter from Detroit, Michigan—blending Hip-Hop and R&B into an electrifying sound. Inspired by his city’s rich musical legacy, he channels raw energy, emotion, and versatility, making waves on and off the stage.\n\nCollaborating with his brother and producer Prod.ByBert, B Free crafts music that moves people—both physically and emotionally. His high-energy performances have placed him alongside Lil Wayne, Young Dolph and JID.\n\nBeyond music, B Free has built a presence in sports and fashion, serving as a Detroit Pistons ambassador and partnering with Puma. Passionate about storytelling, he connects with audiences through music and content creation. His journey is one of innovation, energy, and artistic evolution—shaping the sound and spirit of Detroit.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/b-free/1457894566",
+      "apple_music": "https://music.apple.com/us/album/goodbye-freestyle/1806577845?i=1806578038",
       "instagram": "https://www.instagram.com/bfree/",
       "soundcloud": "https://soundcloud.com/officialbfree",
-      "spotify": "https://open.spotify.com/artist/3m1RLmvTgk9XMbzjoulKaB?si=RglO1GjVTpuy52OAOU8Dbw",
+      "spotify": "https://open.spotify.com/track/2lsOl3TUv6gAGJCgU6Nto0?si=8e700a6fc10a4b08",
       "tiktok": "https://www.tiktok.com/@notbfree",
       "twitter": "https://x.com/officialbfree",
-      "youtube": "https://www.youtube.com/watch?v=Uj-Zg09h8fU"
+      "youtube": "https://youtu.be/Uj-Zg09h8fU?si=37syyhFpvxRONMA9"
     },
     "events": [
       {
@@ -4259,8 +4310,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "21:30",
-        "end_time": "21:45",
+        "start_time": "21:50",
+        "end_time": "22:05",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       }
     ]
@@ -4912,7 +4963,7 @@
     "entity_id": 2242617,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242617",
     "thumbnail_url": "https://images.sxsw.com/H_YP_S6vZ6CTLnd525mQr2-hEPg=/450x450/images.sxsw.com/178/fcb67fef-9389-2289-6166-9bc06d823336/artist-72742",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "I’m Ben Flournoy from Quincy, FL. When I was 10 years old, I saw Marty McFly play Johnny B. Goode in Back To The Future, and the world was never the same to me.\n\nI got my hands on a guitar and never let go. At 15 years old I decided to dedicate my life to playing the guitar, writing music, touring and living the life of an artist.\n\nI owe a lot to my heroes Stevie Ray Vaughan, B.B. King, Albert King, Jimi Hendrix, Eric Clapton and John Mayer, but I’m here to forge my own path and creating my own sound.",
     "links": {
@@ -4951,16 +5002,17 @@
     "state": "FL",
     "entity_id": 2258304,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2258304",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/Gz-lEdrXnQCbDEf-adrZE6Q82Xw=/450x450/images.sxsw.com/178/827ee1c4-b158-0788-5f48-bae3a8d13fd8/artist-76404",
     "announcement_date": "2026-03-04",
     "source": "official",
-    "description": "",
+    "description": "Benji Badass is a Houston-based rapper and performer bringing a fresh voice that is screaming for future generations. Originally from Orlando, Florida and raised in Jacksonville, FL. Benji blends HipHop & Trap with fluidly and is actively pushing the boundaries as to what is HipHop. With sharp lyricism, witt, confident delivery, and a magnetic stage presence that reflects both charisma and discipline it's no surprise Benji is trail blazing in his field so quickly. His music captures themes of ambition, transformation, and self-made success, shaped by his own experiences growing up in the Duval, County and navigating the struggle while building something bigger.\n\nKnown for balancing aura with authenticity, Benji’s sound pulls from the traditions of rap while embracing a modern, genre-fluid approach that connects with new audiences. Whether in the studio or on stage, his performances carry an undeniable energy that commands attention.\nBenji is also an entrepreneur and creative strategist, building ventures in media and business while expanding his artistic brand. Benji Badass represents a new wave talent with the vision and work ethic to match the moment.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/benji-badass/1566242681",
+      "apple_music": "https://music.apple.com/us/song/what-you-mean/1791359374",
       "instagram": "https://www.instagram.com/benjibadassbitch",
-      "spotify": "https://open.spotify.com/artist/4F1yj6RBPFUZGasF9gqTiG",
+      "spotify": "https://open.spotify.com/track/36qcz4hLlOclYpFIwLE8GA?si=32181f1e42134caa",
       "tiktok": "https://www.tiktok.com/@benjibadassbitch?_r=1&_t=ZT-93tpiTIFnmY",
-      "twitter": "https://x.com/iambenjibadass?s=21"
+      "twitter": "https://x.com/iambenjibadass?s=21",
+      "youtube": "https://youtu.be/kfQ5cEazkp4?si=Nwg9lYn-h4vpt7Tx"
     },
     "events": [
       {
@@ -5409,6 +5461,18 @@
     "location": "KONSTANZ, GERMANY",
     "events": [
       {
+        "event_id": "MS64531",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS64516",
         "event_type": "showcase",
         "venue": "Low Down Lounge",
@@ -5754,13 +5818,14 @@
     "state": "CA",
     "entity_id": 2281872,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2281872",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/MtEmScGbKXxvXDMWDibhrlZ_54I=/450x450/images.sxsw.com/178/363e09c1-350f-7b44-9206-11be5d7e452a/artist-76708",
     "announcement_date": "2026-03-07",
     "source": "official",
-    "description": "",
+    "description": "Blimes and the Bando are a Los Angeles–based band driven by live energy, sharp songwriting, and collective identity.\n\nBlending hip-hop, alternative soul, funk, and experimental influences, the group brings a confident, style-conscious approach to both performance and image.\n\nAnchored by Blimes’ commanding presence and supported by a band with a strong visual and cultural point of view, Bando’s music is built to move people — physically, emotionally, and communally.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/blimes-and-the-bando/1831342105",
+      "apple_music": "https://music.apple.com/us/artist/blimes-and-the-bando-blimes/1777472492",
       "bandcamp": "https://blimesandthebando.bandcamp.com",
+      "facebook": "https://www.facebook.com/people/Blimes-and-the-Bando/61568597113845/?_rdr",
       "instagram": "https://www.instagram.com/blimesandthebando",
       "soundcloud": "https://soundcloud.com/blimes-and-the-bando",
       "spotify": "https://open.spotify.com/artist/5RAAtlTTLlMdGakz4FDuyP?si=Cn5imLOLQMKMHOY4__E0wQ",
@@ -6227,7 +6292,7 @@
         "day": "2026-03-12",
         "start_time": "20:00",
         "end_time": "20:30",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       }
     ]
   },
@@ -6256,6 +6321,18 @@
     "events_raw": [],
     "location": "MONTREAL, QC, CANADA",
     "events": [
+      {
+        "event_id": "MS65230",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": "Spaace Camp"
+      },
       {
         "event_id": "MS63647",
         "event_type": "showcase",
@@ -7194,6 +7271,18 @@
     "location": "PERTH, AUSTRALIA",
     "events": [
       {
+        "event_id": "MS64975",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
+      {
         "event_id": "MS64771",
         "event_type": "showcase",
         "venue": "Continental Club",
@@ -7280,6 +7369,18 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
+      {
+        "event_id": "MS65177",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
       {
         "event_id": "MS64764",
         "event_type": "showcase",
@@ -7429,17 +7530,28 @@
     "entity_id": 2256454,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2256454",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-20",
+    "announcement_date": "2026-03-10",
     "source": "official",
     "description": "Camila Rivers is an emerging force in the Austin R&B scene, celebrated for her soulful voice and emotionally honest songwriting. Drawing from inspirations like Jazmine Sullivan and Joseph Solomon, Camila blends classic R&B with modern soul by exploring themes of love, relationships, and self-discovery. As a self-proclaimed “lovergirl,” Camila’s live performances create an intimate experience rooted in raw vulnerability and a touch of magic.\n\nCamila has been a featured performer at Kinky Curly Coily Festival 6, Soul of the City, and Juneteenth Freedom Festival. She was also highlighted by Jackie Venson on 88.7 KAZI’s “Top Black Austin Artist” list for her song “Empire.” Currently, Camila is a Tiny Desk Contest contestant for 2026 and is set to release her upcoming EP in late 2026.",
     "links": {
-      "apple_music": "https://music.apple.com/us/song/empire/1753683250",
       "instagram": "https://www.instagram.com/camilariversmusic/",
       "spotify": "https://open.spotify.com/track/35LCwj82IR5x7cnOp8MyNY?si=375e8833b6814e08",
       "tiktok": "https://www.tiktok.com/@camilariversmusic?_r=1&_t=ZP-94CCbU61TeY",
       "youtube": "https://youtu.be/JyHiiVVyR8E?si=VXMjbvJ6SCNslb90"
     },
     "events": [
+      {
+        "event_id": "MS65249",
+        "event_type": "showcase",
+        "venue": "The Pershing",
+        "venue_id": "V1724",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "21:50",
+        "end_time": "22:05",
+        "presented_by": "Kinky,Curly,Coily Showcase"
+      },
       {
         "event_id": "MS64323",
         "event_type": "showcase",
@@ -7448,8 +7560,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-14",
-        "start_time": "22:00",
-        "end_time": "22:15",
+        "start_time": "19:30",
+        "end_time": "19:45",
         "presented_by": "KAZI:R&B and Soul Showcase"
       }
     ],
@@ -7580,6 +7692,18 @@
         "start_time": "20:00",
         "end_time": "20:30",
         "presented_by": null
+      },
+      {
+        "event_id": "MS65084",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": "Armadillo World Headquarters"
       },
       {
         "event_id": "MS63196",
@@ -8066,6 +8190,18 @@
         "presented_by": null
       },
       {
+        "event_id": "MS64529",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "00:50",
+        "end_time": "01:20",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS63446",
         "event_type": "showcase",
         "venue": "Elysium",
@@ -8419,6 +8555,41 @@
       }
     ],
     "location": "LOS ANGELES, CA"
+  },
+  {
+    "name": "Chava",
+    "genre": "Latin",
+    "subgenre": "Reggaeton",
+    "city": "Chicago",
+    "country": "United States",
+    "state": "IL",
+    "entity_id": 2253203,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2253203",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Chava is a Chicago/LA-based DJ, producer, and cultural curator celebrated for her high-energy, Latin-infused sound rooted in her Mexican heritage. Her globally inspired sets have packed dance floors nationwide at venues including Avalon Hollywood, Lincoln Hall, and Soho House.\nShe has opened for El Alfa and Ozuna and performed at Sueños, Chicago’s premier Latin music festival. A driving force in the city’s scene, she co-founded Fresa, a Chicago-born party spotlighting Latin sounds across the diaspora, which has since expanded beyond city limits with a guest appearance at Soho Desert House during Coachella.\nBeyond the decks, Chava bridges music, art, and fashion through nonprofit event curation and brand partnerships, continuing to grow her influence as a cultural tastemaker.",
+    "links": {
+      "instagram": "https://www.instagram.com/djchavaa/",
+      "soundcloud": "https://soundcloud.com/djchavaa",
+      "tiktok": "https://www.tiktok.com/@djchavaa",
+      "website": "https://djchava.com"
+    },
+    "events": [
+      {
+        "event_id": "MS64123",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "22:00",
+        "end_time": "22:45",
+        "presented_by": "Cincodoce"
+      }
+    ],
+    "location": "CHICAGO, IL"
   },
   {
     "name": "Cheap Perfume",
@@ -9377,6 +9548,30 @@
     "location": "SAN DIEGO, CA",
     "events": [
       {
+        "event_id": "MS65176",
+        "event_type": "showcase",
+        "venue": "Low Down Lounge",
+        "venue_id": "V1168",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": null
+      },
+      {
+        "event_id": "MS64984",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
+      {
         "event_id": "MS63195",
         "event_type": "showcase",
         "venue": "Swan Dive",
@@ -9400,7 +9595,7 @@
     "entity_id": 2280911,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2280911",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-06",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "",
     "links": {
@@ -9417,8 +9612,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-12",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:00",
+        "end_time": "21:40",
         "presented_by": null
       }
     ],
@@ -9941,7 +10136,7 @@
     "entity_id": 2240641,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240641",
     "thumbnail_url": "https://images.sxsw.com/s0b26lYmpcm9dbdbv71_Tej7GQY=/450x450/images.sxsw.com/178/5a81abec-0f78-65fc-57a4-8f2ae1a0cdcb/artist-75400",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Darkovibes is a boundary-pushing Ghanaian singer, songwriter, and genre-bender whose sound blends Afrobeats, highlife, R&B, and alternative influences into a unique musical identity. A pivotal voice in the new wave of African music, he has collaborated with some of the continent’s biggest stars, including Wizkid, Davido, Shatta Wale, R2Bees, Sarkodie, Stonebwoy, Camidoh, King Promise, M.anifest, Mr. Eazi and Spinall. Known for his vibrant performances and versatility, Darkovibes has shared stages with many of these artists across Africa and beyond, captivating audiences with his infectious energy and bold creative vision. With a growing global fan base and a track record of innovative releases, Darkovibes continues to redefine contemporary African music and is poised to make a powerful impression at SXSW.",
     "links": {
@@ -9963,14 +10158,14 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "00:00",
+        "end_time": "00:30",
         "presented_by": "Afrobeats Worldwide"
       }
     ]
   },
   {
-    "name": "Dave Guy",
+    "name": "Dave Guy & Stro Elliot of THE ROOTS",
     "genre": "Jazz",
     "subgenre": "Hip-Hop / Rap",
     "city": "New York",
@@ -10547,7 +10742,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "After years of working behind the scenes as a producer, Devin Malik is now stepping into the spotlight showcasing a rare balance of musical range along with catchy flows proving that he’s more than worthy of gracing the microphone himself.\nDating all the way back to 2017, Malik’s beats have racked up millions of streams within the then underground “Soundcloud” scene collaborating with artists such as Lil Yachty, Ken Carson, and D Savage. More recently, we see Devin working intimately with Los Angeles based powerhouse Top Dawg Entertainment (TDE). Boasting five beats over Isaiah Rashad’s well-received effort “The House is Burning” in 2021 as well as five beats and two features on ScHoolboy Q’s critically acclaimed “Blue Lips” in 2024. With no shortage of credits within the label, his name can also be seen on tracks with TDE’s rising star Doechii and Black Hippy legend Ab-Soul among others.\nNow Devin Malik shifts his focus towards putting out songs of his own. Making hard-hitting bangers such as “Link Ducker” and “Canadian Tux” while simultaneously being able to lean into the more melodic and alternative sounds heard in “PDA” and “Wallflower” with just as much ease.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/devin-malik/1568548395",
       "instagram": "https://www.instagram.com/devinmalik/?hl=en",
@@ -10564,13 +10759,13 @@
       {
         "event_id": "MS65040",
         "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
+        "venue": "The Creek and the Cave",
+        "venue_id": "V0582",
         "parent_venue": "",
-        "age_policy": null,
+        "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "00:15",
+        "end_time": "00:35",
         "presented_by": "The Digilogue "
       },
       {
@@ -10664,44 +10859,6 @@
         "presented_by": "BMG Label & Publishing "
       }
     ]
-  },
-  {
-    "name": "DeVotchKa",
-    "genre": "Avant / Experimental",
-    "subgenre": "Indie Rock",
-    "city": "Denver",
-    "country": "United States",
-    "state": "CO",
-    "entity_id": 2267536,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2267536",
-    "thumbnail_url": "https://images.sxsw.com/GRyzCQies-QoSA49HdOYBHDzs6E=/450x450/images.sxsw.com/178/1a4d18eb-db91-c3be-3b62-1adf3b35684b/artist-73694",
-    "announcement_date": "2026-03-03",
-    "source": "official",
-    "description": "In a serendipitous moment on “Morning Becomes Eclectic,” the radio station KCRW in Santa Monica changed the trajectory of both indie cinema and one of Denver's most distinctive musical voices. When filmmakers Jonathan Dayton and Valerie Faris heard DeVotchKa's evocative sound drifting through the airwaves, they knew they'd found the emotional heartbeat for their film “Little Miss Sunshine.”\n\nThat instinct proved prophetic. DeVotchKa's soundtrack and score for the 2006 film became inseparable from its story. The bittersweet orchestration to the Hoover family's cross-country journey, captured the themes of hope, resilience, and beautifully imperfect dreams. The band's signature sound gave the film its unmistakable soul, turning moments like young Olive's final dance into cultural touchstones.\n\nThe work earned DeVotchKa a Grammy nomination for Best Compilation Soundtrack Album and the film won two Oscars. Introducing the world to the band's cinematic, lush orchestral sound, songs like \"Til the End of Time\" and \"How It Ends\" transcended the screen to become anthems.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/album/the-winner-is-devotchka-version/1703292860?i=1703292861",
-      "bandcamp": "https://devotchkamusic.bandcamp.com/",
-      "facebook": "https://www.facebook.com/devotchkamusic",
-      "instagram": "https://www.instagram.com/devotchkamusic/?hl=en",
-      "spotify": "https://open.spotify.com/track/7wDylupLRNHE2p0iGMgzFc?si=2a27ce3f00ea4316",
-      "website": "https://www.devotchka.net/",
-      "youtube": "https://www.youtube.com/watch?v=EYqSe6DTMHE"
-    },
-    "events": [
-      {
-        "event_id": "MS64704",
-        "event_type": "showcase",
-        "venue": "Marlow",
-        "venue_id": "V2194",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-12",
-        "start_time": "20:00",
-        "end_time": "20:30",
-        "presented_by": null
-      }
-    ],
-    "location": "DENVER, CO"
   },
   {
     "name": "Devy Stonez",
@@ -11148,9 +11305,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "20:30",
+        "end_time": "21:00",
+        "presented_by": "SXSW DJz and Friends"
       }
     ],
     "location": "LAREDO, TX"
@@ -11666,6 +11823,36 @@
     "location": "AUSTIN, TX"
   },
   {
+    "name": "DJ EF",
+    "genre": "Electronic",
+    "subgenre": "Avant / Experimental",
+    "city": "Montreal",
+    "country": "Canada",
+    "state": "QC",
+    "entity_id": 2280912,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2280912",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-10",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65155",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:15",
+        "end_time": "23:45",
+        "presented_by": "SXSW DJz and Friends"
+      }
+    ],
+    "location": "MONTREAL, QC, CANADA"
+  },
+  {
     "name": "DJ Eriq Stylez",
     "genre": "DJ",
     "subgenre": "None",
@@ -11708,7 +11895,7 @@
     "entity_id": 2276918,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2276918",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-02",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "",
     "links": {},
@@ -11721,7 +11908,7 @@
         "parent_venue": "Downright Austin",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "11:00",
+        "start_time": "11:05",
         "end_time": "11:40",
         "presented_by": "KEXP's El Sonido Live!"
       }
@@ -11792,9 +11979,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "00:45",
+        "end_time": "01:30",
+        "presented_by": "SXSW DJz and Friends"
       }
     ]
   },
@@ -11846,7 +12033,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "",
+    "description": "DJ Grip is an experienced and battle tested DJ known for fusing\nHip-Hop, Dance, Latin, and Southern underground into hard-hitting, unforgettable sets.\nWith roots deep in Texas turntablism and an ear tuned to street-level trends, Grip has earned his\nrep through consistency, craft, and community connection.\nHis signature blends and high-voltage energy move crowds from packed clubs to festival stages –\nalways with an edge and authenticity that makes people remember his name.",
     "links": {
       "instagram": "https://www.instagram.com/djgriptexas",
       "soundcloud": "https://soundcloud.com/djgriptexas",
@@ -11896,9 +12083,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "presented_by": "SXSW DJz and Friends"
       }
     ]
   },
@@ -12025,8 +12212,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:00",
+        "end_time": "22:00",
         "presented_by": "SXSW DJz and Friends"
       },
       {
@@ -12370,6 +12557,18 @@
     },
     "events": [
       {
+        "event_id": "MS64938",
+        "event_type": "showcase",
+        "venue": "Mala Fama Rooftop",
+        "venue_id": "V2453",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "23:00",
+        "end_time": "23:20",
+        "presented_by": "SoSouth House"
+      },
+      {
         "event_id": "MS64044",
         "event_type": "showcase",
         "venue": "Riviere",
@@ -12393,11 +12592,12 @@
     "state": "TX",
     "entity_id": 2283492,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2283492",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/DvpH9-N4bnyge0S_s61iuNTvA_U=/450x450/images.sxsw.com/178/f8c003d8-3916-410c-43f3-d28309a7679d/artist-76723",
     "announcement_date": "2026-03-09",
     "source": "official",
-    "description": "",
+    "description": "DJADE is a Black, queer, non-binary DJ and multi-artist whose sound sits at the intersection of Latin America and the Black diaspora. Originally from the United States (East Coast), they spent five years living in Brazil, where they discovered DJing during the pandemic and began cultivating their multicultural approach to the dance floor playing at local bailes and LGBTQIA+ balls.\nA lifelong musician trained in trombone, drums, and percussion; rhythm sits at the core of DJADE’s sound. Their sets move fluidly across Brazilian funk, house, R&B, and other Black diasporic genres, weaving together global influences that invite movement, connection, and collective joy. Blending diasporic sounds with deep rhythmic sensibility, DJADE creates dance floors where music becomes a meeting place between cultures, bodies, and histories.",
     "links": {
+      "facebook": "https://www.facebook.com/jade.diamond.9250/",
       "instagram": "https://www.instagram.com/djade.br/",
       "youtube": "https://youtu.be/_QSCdRUyvkQ?si=_IPHRJLtDURQzMP5"
     },
@@ -12410,8 +12610,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "00:00",
-        "end_time": "00:40",
+        "start_time": "01:00",
+        "end_time": "01:50",
         "presented_by": "Tropiclub"
       }
     ],
@@ -12666,7 +12866,7 @@
     "state": "OH",
     "entity_id": 2281079,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2281079",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/ADarD9zTKvzv2IfrK9vhVEWkxPc=/450x450/images.sxsw.com/178/794f3517-8fae-5add-05c2-cbaed6c6bae1/artist-76699",
     "announcement_date": "2026-03-06",
     "source": "official",
     "description": "Dono, hailing from the Atlanta area (via Cincinnati, OH). Dono is a Hip-Hop/Rap &\nR&B recording artist known for blending fresh, melodic melodies with\nfundamental hip-hop cadences, striking the perfect balance in melodic rap. She\ngained national recognition as a fan-favorite cast member on Rhythm & Flow\nSeason 2 on Netflix. Additionally, in 2024, Dono became winner for UnitedMasters’\n“Make Your Debut” challenge culminating in a deal and artist development\npackage.\nDono’s recent EP ‘Accountable Blues’ released November 2025 - an introspective\nproject about self-growth, love and embracing emotions while taking accountability. Singles including “Good News/Serial Lover” featuring Kaliii expands\nDono’s influence and footprint in the Atlanta rap scene. Dono’s debut album is set to release Spring 2026.",
@@ -12975,7 +13175,7 @@
     "entity_id": 2242618,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242618",
     "thumbnail_url": "https://images.sxsw.com/gENJ_Om2AGxgbusf69_5RIlAen4=/450x450/images.sxsw.com/178/4f010a73-48bb-5882-c6f3-e948ab68cbcd/artist-75138",
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Born in Long Island, New York and raised in San Diego California, Drea Dominique has the flavor of both coasts. With her smooth R&B voice and fresh twist on the pop sound, Drea Dominique has what it takes to succeed and make an impact in the music world. Drea is garnering a great deal of attention with the release of her singles, \"Stutter\" and the remixed version with Domino Saints. They are the first of several singles coming from her upcoming project soon to be announced. Drea has also appeared in music videos for some of today’s most high-profile artists. She has done a variety of modeling work, from magazine publications to print ads. Drea is calling Miami, Florida home now and is currently introducing herself to the music industry.",
     "links": {
@@ -13000,7 +13200,7 @@
         "day": "2026-03-18",
         "start_time": "00:10",
         "end_time": "00:40",
-        "presented_by": "Math Class Creative"
+        "presented_by": "Math Class Creative: Money In Motion"
       }
     ]
   },
@@ -13249,7 +13449,7 @@
     "state": "NY",
     "entity_id": 2272430,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2272430",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/uEo8tps2U8gAstptQmwV-w4ob4c=/450x450/images.sxsw.com/178/9ed0de94-e0f4-a930-4431-056b72138480/artist-74969",
     "announcement_date": "2026-03-01",
     "source": "official",
     "description": "Under the name DUUNES, Harrison Cohen delivers sly, high-voltage alt-rock shaped by the chaos of NYC—gritty, resilient, and emotionally charged. With explosive choruses and raw vocals, DUUNES channels the spirit of The Killers, Young the Giant, and Kings of Leon. DUUNES is more than music—it’s the 4 AM clarity that wrecks your sleep, the rush hour traffic in your head. After going viral with a cover of “Ain’t No Rest for the Wicked” (25M+ views across TikTok, YouTube, and Instagram), DUUNES hit the stage at The Bowery Ballroom, opened for Joe P at WFUV’s Racket NYC showcase, sold out gigs in New York and Boston, and landed “Delusional” on Spotify’s Best of Fresh Finds Rock 2024, with multiple radio spins on NYC’s WFUV. Now he’s gearing up to release his debut album in 2026 while hitting the road playing shows across the North East, East Coast dates in the Mid-West.",
@@ -13428,6 +13628,42 @@
       }
     ],
     "location": "MIAMI, FL"
+  },
+  {
+    "name": "E.I. the King",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "None",
+    "city": "Tampa",
+    "country": "United States",
+    "state": "FL",
+    "entity_id": 2279018,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2279018",
+    "thumbnail_url": "https://images.sxsw.com/3EbgAVQpJrlmLNwwN57-Fl15rP8=/450x450/images.sxsw.com/178/abc34cb0-38d5-61a7-6783-32c5344815e1/artist-76653",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "E.i. the King’s life is a testament to transformation and redemption. Emerging from a past filled with crime, drug dealing, robberies, and violence, E.i.’s early years were marked by\nchaos and over 14 years of incarceration in both juvenile and adult facilities. Yet, it was during his time behind bars that E.i.’s life changed forever. Encountering God and committing to a life of faith, he discovered purpose in the midst of imprisonment. Now a nationally recognized artist, E.i. the King uses his music and story to inspire others, focusing on prison, jail, and street outreach. Known as one of the most influential voices in the prison system through inmate tablets, E.i. has collaborated with icons like Project Pat, earned a public cosign from Timbaland, and empowers the same street culture from which he came. His incredible comeback story continues to resonate, proving that change is possible and purpose can be found in the most unexpected places.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/shop-open/1822291945?i=1822291947",
+      "instagram": "https://www.instagram.com/eitheking_/?hl=en",
+      "spotify": "https://open.spotify.com/track/7yG2PNI9KenH3gG6XCTok1?si=4480217f07674cc2&nd=1&dlsi=392dfd1a9f7c4ee5",
+      "tiktok": "https://www.tiktok.com/@eitheking_?lang=en",
+      "youtube": "https://www.youtube.com/watch?si=LxX9JWHgfnl9MP5O&v=XsreDfi0ygo&feature=youtu.be"
+    },
+    "events": [
+      {
+        "event_id": "MS65056",
+        "event_type": "showcase",
+        "venue": "The Creek and the Cave",
+        "venue_id": "V0582",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "21:05",
+        "end_time": "21:20",
+        "presented_by": "Math Class Creative: Money In Motion"
+      }
+    ],
+    "location": "TAMPA, FL"
   },
   {
     "name": "E.M.E",
@@ -13854,6 +14090,18 @@
     "location": "AUSTIN, TX",
     "events": [
       {
+        "event_id": "MS64368",
+        "event_type": "showcase",
+        "venue": "Central Presbyterian Church",
+        "venue_id": "V0175",
+        "parent_venue": "",
+        "age_policy": "All Ages",
+        "day": "2026-03-12",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": null
+      },
+      {
         "event_id": "MS63152",
         "event_type": "showcase",
         "venue": "Lefty’s Brick Bar",
@@ -13930,6 +14178,18 @@
     "events_raw": [],
     "location": "ADELAIDE, AUSTRALIA",
     "events": [
+      {
+        "event_id": "MS65235",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": null
+      },
       {
         "event_id": "MS64902",
         "event_type": "showcase",
@@ -14292,11 +14552,12 @@
     "source": "official",
     "description": "California singer-songwriter Eric McEntee is a modern-day troubadour, a soul of the open road who pens songs like the (#23) Viral 50 charting I'm Not Bothered By The Rain; which he wrote busking in Paris, that often evoke this sense of wanderlust, carrying on in the American roots music tradition by blending diverse influences of folk, country, soul and jazz. True to the roots of his sound he has recorded and collaborated with members of Bob Dylan, Mavis Staples and Spoon and the Grammy winning producer's behind Daptone records.\nIn McEntee one can hear echoes of his forebears: the California folk and country rock cosmos of The Byrds and The Flying Burrito Brothers, the psychedelic folk of Rodriguez, the baroque-pop of Nilsson, 60's Greenwich Village folk eminences Fred Neil and Karen Dalton, a laid back soulful delivery inspired by Labi Siffre, Alan Toussaint and Bill Withers; all are the characteristic patchwork that is hand sewn into the world of his songwriting with an uncanny, timeless effect. This timelessness in McEntee's music, is not merely looking forward or looking back but a natural repose in the songs that stays grounded to the moment, whenever you find them.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/eric-mcentee/1706156171",
+      "apple_music": "https://music.apple.com/us/album/im-not-bothered-by-the-rain/1732727817?i=1732727819",
       "bandcamp": "https://ericmcentee.bandcamp.com",
+      "facebook": "https://www.facebook.com/ericjmcentee",
       "instagram": "https://www.instagram.com/ericjmcentee/",
+      "pandora": "https://www.pandora.com/artist/eric-mcentee/ARbjx6z9gZ5qwVP?part=ug-desktop&corr=98749340461329465",
       "soundcloud": "https://soundcloud.com/ericmcentee",
-      "spotify": "https://open.spotify.com/artist/1bUcNo5RZtVzBDATua2Xxz?si=7iGiFpLEQxeWpR0SPPP7Mw",
       "tiktok": "https://www.tiktok.com/@ericjmcentee",
       "twitter": "https://x.com/songsofmcentee",
       "website": "https://ericmcentee.com",
@@ -14328,7 +14589,7 @@
     "entity_id": 2281255,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2281255",
     "thumbnail_url": "https://images.sxsw.com/GUNWs9M-SEfa66XFQ0sebvDaTlc=/450x450/images.sxsw.com/178/dc92c89e-7c64-8b7b-2da5-6f6169eeaef6/artist-75550",
-    "announcement_date": "2026-03-07",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "A California-born artist with an urge to tell his story using sounds that have surrounded his life. Music has always been his drive and passion, from hearing kicks and snares of Hip-Hop through the city of Los Angeles. To hearing and being surrounded by the world of Banda Sinaloense, thanks to his father. Eric Sebastian hopes to bring all his worlds together to paint out and fill in one big canvas.\n\nArtista nacido en California con el deseo de contar su historia a través de los sonidos que lo han rodeado toda su vida. La música siempre ha sido su motor y su pasión, desde escuchar los kicks y snares del Hip-Hop por las calles de Los Ángeles, hasta crecer rodeado del mundo de la Banda Sinaloense, gracias a su padre. Eric Sebastian espera unir todos esos mundos para pintar y llenar un gran lienzo con ellos.",
     "links": {
@@ -14347,8 +14608,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-12",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "00:00",
+        "end_time": "00:40",
         "presented_by": null
       }
     ],
@@ -14393,6 +14654,41 @@
         "presented_by": "UTOPiA Sessions"
       }
     ]
+  },
+  {
+    "name": "Escoltas Del Valle",
+    "genre": "Latin",
+    "subgenre": "Regional Mexican",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2283734,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283734",
+    "thumbnail_url": "https://images.sxsw.com/R6T-GX5PkvhU2R9MXcyTkpMC6iI=/450x450/images.sxsw.com/178/fbf48f70-f0f1-90dc-21e5-1f3a2b6fb123/artist-76727",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/bugatti-chiron/1850131528?i=1850131529",
+      "instagram": "https://www.instagram.com/escoltasdelvalle_?igsh=MXI4ZzFhdHd6Z2l3cg==",
+      "spotify": "https://open.spotify.com/track/5R4FYzZ3HVw9K7gYDEgx5B?si=yF-aLf7XSG2n3bOex3sqhQ",
+      "tiktok": "https://www.tiktok.com/@escoltasdelvalle?_r=1&_t=ZP-94YEDeTi21f"
+    },
+    "events": [
+      {
+        "event_id": "MS65233",
+        "event_type": "showcase",
+        "venue": "Mala Fama Rooftop",
+        "venue_id": "V2453",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "01:00",
+        "end_time": "01:40",
+        "presented_by": null
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "eydrey",
@@ -14748,7 +15044,7 @@
         "day": "2026-03-18",
         "start_time": "22:50",
         "end_time": "23:20",
-        "presented_by": "Math Class Creative"
+        "presented_by": "Math Class Creative: Money In Motion"
       }
     ],
     "location": "MINNEAPOLIS, MN"
@@ -15928,6 +16224,39 @@
     "location": "NISHINOMIYA, JAPAN"
   },
   {
+    "name": "GAS CREW",
+    "genre": "DJ",
+    "subgenre": "House / Techno",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2283653,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283653",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Built through art, music, and shared values, the Gas Crew has evolved into a vibrant creative collaboration. Joined by BAMES and A+, their combined sound delivers a carefully curated blend of breakbeats, deep house, and other immersive soundscapes designed to feel both energizing and euphoric.",
+    "links": {
+      "instagram": "https://www.instagram.com/gasstationfm/",
+      "youtube": "https://www.youtube.com/@GasStationFM"
+    },
+    "events": [
+      {
+        "event_id": "MS65225",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "presented_by": "Gas Station FM "
+      }
+    ],
+    "location": "AUSTIN, TX"
+  },
+  {
     "name": "The Gasoline Gypsies",
     "genre": "Americana",
     "subgenre": "Rock",
@@ -16067,6 +16396,42 @@
     ]
   },
   {
+    "name": "Gee Litt",
+    "genre": "R & B",
+    "subgenre": "Soul",
+    "city": "Virginia Beach",
+    "country": "United States",
+    "state": "VA",
+    "entity_id": 2279019,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2279019",
+    "thumbnail_url": "https://images.sxsw.com/rjQ9mtuYMmrohP9uRi6O23vhwWo=/450x450/images.sxsw.com/178/d6776875-7a96-8ba3-61f2-a44ee4a1b7e3/artist-76647",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Gee Litt is an R&B singer, songwriter, and audio engineer from the Virginia Beach/Norfolk area whose sound blends soulful vulnerability with modern R&B storytelling. Raised as a musician in church and throughout grade school, her early musical foundation continues to influence her vocal style and emotional depth. Growing up in a two-parent household that still faced financial struggles, Gee Litt developed an independent, self-driven mindset that has shaped her career from day one. In addition to her artistry, she is the founder of Gee Litt Studios, a community-focused recording space supporting independent creatives. Through intentional songwriting, live performance, and authentic connection, Gee Litt creates music centered on intimacy, healing, and real human experience.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/sacred/1871492793?i=1871492794",
+      "instagram": "https://www.instagram.com/thereal.geelitt?igsh=MXd0enl1MnNtZDkycQ%3D%3D&utm_source=qr",
+      "spotify": "https://open.spotify.com/album/0umEB1qB2IZ47tydwrw6pG",
+      "tiktok": "https://www.tiktok.com/@geelitt?_r=1&_t=ZT-940vhd95B8f",
+      "youtube": "https://youtu.be/t53jzZ7vzBI?si=5CwXxdiXNkax0QaL"
+    },
+    "events": [
+      {
+        "event_id": "MS65057",
+        "event_type": "showcase",
+        "venue": "The Creek and the Cave",
+        "venue_id": "V0582",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "21:30",
+        "end_time": "21:45",
+        "presented_by": "Math Class Creative: Money In Motion"
+      }
+    ],
+    "location": "VIRGINIA BEACH, VA"
+  },
+  {
     "name": "Georgia Webster",
     "genre": "Pop",
     "subgenre": "Country",
@@ -16144,17 +16509,17 @@
     "state": "FL",
     "entity_id": 2254947,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2254947",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/Fg0Kt8J7VNNgD_abU1LfgYzhr54=/450x450/images.sxsw.com/178/9613584f-c8d9-f1c8-5879-62179dfe2686/artist-76345",
     "announcement_date": "2026-03-03",
     "source": "official",
     "description": "Bounce riffs in skinny jeans. Polyrhythms in Affliction shirts. breakdowns4breakdowns? :3",
     "links": {
-      "apple_music": "https://music.apple.com/us/song/trophy-hunter-feat-nat-lacuna/1618973406",
+      "apple_music": "https://music.apple.com/us/album/seattle-day-2-single/1878501876",
       "bandcamp": "https://gilt.bandcamp.com/music",
       "instagram": "https://www.instagram.com/giltfl/?hl=en",
-      "spotify": "https://open.spotify.com/track/67ZviSD3NaeLpwlY8jwigi?si=efc0461bd1f9447a",
+      "spotify": "https://open.spotify.com/track/63lCdejOMonsvTbQDA5rqY?si=bc16ea565435491c",
       "tiktok": "https://www.tiktok.com/@giltfl?lang=en",
-      "youtube": "https://www.youtube.com/watch?v=k59dIEcaS00&list=RDk59dIEcaS00&start_radio=1"
+      "youtube": "https://www.youtube.com/watch?v=tjysJNi-GJo&list=RDtjysJNi-GJo&start_radio=1"
     },
     "events_raw": [],
     "location": "ST. AUGUSTINE, FL",
@@ -16519,6 +16884,44 @@
     "location": "AUSTIN, TX"
   },
   {
+    "name": "GoGo Morrow",
+    "genre": "R & B",
+    "subgenre": "Pop",
+    "city": "Philadelphia",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2284236,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2284236",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/gogo-morrow/564219176",
+      "instagram": "https://www.instagram.com/gogomorrow/?hl=en",
+      "soundcloud": "https://soundcloud.com/gogo-morrow",
+      "spotify": "https://open.spotify.com/artist/5DdULwXLSGsEN2nMNoeaCO",
+      "tiktok": "https://www.tiktok.com/@gogomorrow?lang=en",
+      "twitter": "https://x.com/GoGoMorrow",
+      "youtube": "https://www.youtube.com/watch?v=OddsfdBpOHo"
+    },
+    "events": [
+      {
+        "event_id": "MS65246",
+        "event_type": "showcase",
+        "venue": "Marlow",
+        "venue_id": "V2194",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:30",
+        "end_time": "22:50",
+        "presented_by": "RnB Block Party"
+      }
+    ],
+    "location": "PHILADELPHIA, CA"
+  },
+  {
     "name": "Gogol Bordello",
     "genre": "Rock",
     "subgenre": "Alternative",
@@ -16557,7 +16960,7 @@
         "day": "2026-03-12",
         "start_time": "21:45",
         "end_time": "23:45",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       }
     ]
   },
@@ -16688,6 +17091,44 @@
     ]
   },
   {
+    "name": "Good Looks",
+    "genre": "Rock",
+    "subgenre": "Indie Rock",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2278225,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2278225",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-10",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/good-looks/420459333",
+      "bandcamp": "https://goodlooksband.bandcamp.com/music",
+      "instagram": "https://www.instagram.com/goodlooksband",
+      "soundcloud": "https://soundcloud.com/goodlooks-music",
+      "spotify": "https://open.spotify.com/artist/0ba3O2a1JNxb3oXbF74KcG?",
+      "website": "https://goodlooksband.com/",
+      "youtube": "https://www.youtube.com/watch?v=jZpsahjVgP0"
+    },
+    "events": [
+      {
+        "event_id": "MS65020",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "23:00",
+        "end_time": "23:40",
+        "presented_by": "Armadillo World Headquarters"
+      }
+    ],
+    "location": "AUSTIN, TX"
+  },
+  {
     "name": "Gothess Jasmine",
     "genre": "Avant / Experimental",
     "subgenre": "Alternative",
@@ -16753,7 +17194,7 @@
         "day": "2026-03-12",
         "start_time": "21:15",
         "end_time": "21:45",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       }
     ],
     "location": "NEW YORK, NY"
@@ -16846,6 +17287,36 @@
         "presented_by": "Kaash Paige & Friends"
       }
     ]
+  },
+  {
+    "name": "Gracie and Rachel",
+    "genre": "Pop",
+    "subgenre": "Indie Pop",
+    "city": "Brooklyn",
+    "country": "United States",
+    "state": "NY",
+    "entity_id": 2250356,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2250356",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS63987",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:50",
+        "end_time": "23:30",
+        "presented_by": "Fire Records x Songbird x Anniversary"
+      }
+    ],
+    "location": "BROOKLYN, NY"
   },
   {
     "name": "Graham Reynolds",
@@ -17246,18 +17717,6 @@
     "events_raw": [],
     "location": "YOGYAKARTA, INDONESIA",
     "events": [
-      {
-        "event_id": "MS63969",
-        "event_type": "showcase",
-        "venue": "Hotel Vegas Patio",
-        "venue_id": "V0263",
-        "parent_venue": "Hotel Vegas",
-        "age_policy": "21+",
-        "day": "2026-03-16",
-        "start_time": "20:15",
-        "end_time": "20:50",
-        "presented_by": "rocknite"
-      },
       {
         "event_id": "MS63872",
         "event_type": "showcase",
@@ -17755,26 +18214,26 @@
       {
         "event_id": "MS64915",
         "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
         "parent_venue": "",
-        "age_policy": null,
-        "day": null,
-        "start_time": "",
-        "end_time": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:00",
+        "end_time": "23:40",
         "presented_by": null
       },
       {
         "event_id": "MS63215",
         "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
         "parent_venue": "",
-        "age_policy": null,
-        "day": null,
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Fuegostine Presents"
       }
     ],
     "location": "NASHVILLE, TN"
@@ -18167,12 +18626,11 @@
     "source": "official",
     "description": "Haylie Davis belongs to an intriguing LA scene that boasts several acts harking back to the halcyon days of Laurel Canyon songwriting – including Alex Amen, Drugdealer, Sylvie and Sam Burton, many of whose projects she has appeared on. From origins of psychedelic folk pop and 70s cosmic Americana, Haylie’s sound is an infectious alternative take on modern pop music, with plenty of hooks and a huge chorus; she is the Carly Simon for post-Generation Z. Her euphoric range sits somewhere between Joan Baez, Carole King and Emmylou Harris.\n\n“Gently hued Laurel Canyon folk-pop songs” - Rolling stone",
     "links": {
-      "apple_music": "https://music.apple.com/gb/artist/haylie-davis/1770757934",
+      "apple_music": "https://music.apple.com/us/song/wandering-star/1861805624",
       "bandcamp": "https://hayliedavis.bandcamp.com/music",
       "instagram": "https://www.instagram.com/haylie_davis_/",
-      "spotify": "https://open.spotify.com/artist/0Q2pP2uTgpT8UsuGvB3wH3?si=dUBb6kUdQL2cVqVH3gLvgg",
       "tiktok": "https://www.tiktok.com/@haylie_davis_",
-      "youtube": "https://youtu.be/XcIGiwWy95o?si=2CvIAzEAJRV01fD6"
+      "youtube": "https://www.youtube.com/watch?v=-oONGvOCsxM"
     },
     "events_raw": [],
     "location": "HEALDSBURG, NC",
@@ -18425,15 +18883,18 @@
     "state": null,
     "entity_id": 2241142,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2241142",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/YTk-G669bTQ99YefMJdRd6gjx1M=/450x450/images.sxsw.com/178/58ddad36-6ef5-1f01-9fa2-ab0bd8b9e0b9/artist-75542",
     "announcement_date": "2026-02-17",
     "source": "official",
     "description": "His Lordship staked their claim to rock ‘n’ roll domination with their explosive, no-frills 2024 self-titled debut. In June 2025, they returned with their explosive second full-length Bored Animal, featuring lead single \"I Fly Planes Into Hurricanes\".\n\nThe band is comprised of guitarist/vocalist James Walbourne and drummer Kris Sonne, and augmented by bassist Dave Page (James and Dave are also members of rock royalty, The Pretenders). His Lordship are supporting Johnny Marr during his 2026 West Coast Tour.\n\nIn addition to His Lordship and the Pretenders, frontman James Walbourne keeps busy as a current member of Primal Scream, The Pogues, Soulsavers, and The Rails, and has previously played with Ray Davies, Son Volt, Pernice Brothers, Death in Vegas and Jerry Lee Lewis. He was endorsed by the Chuck Berry estate as the lead guitar player in the Chuck Berry Birthday Bash in 2025, fronting a band comprised of members of Living Colour and the Rolling Stones. Walbourne also played guitar as a member of Soulsavers at the Mark Lanegan 60 Celebration at London's famed Roundhouse. Sonne has worked with Brett Anderson, Klaus Voorman, Chrissie Hynde and Englebert Humperdinck.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/his-lordship/1581837634",
+      "apple_music": "https://music.apple.com/us/song/i-fly-planes-into-hurricanes/1811808990",
+      "bandcamp": "https://hislordship1.bandcamp.com/",
+      "facebook": "https://www.facebook.com/HisLordshipUK/",
       "instagram": "https://www.instagram.com/_hislordship_/?hl=en",
+      "pandora": "https://www.pandora.com/artist/his-lordship/ARvc5ntKjbk9c5c",
       "soundcloud": "https://soundcloud.com/hislordship",
-      "spotify": "https://open.spotify.com/artist/63QN05Q2Yff6mNAxOzPP3r",
+      "spotify": "https://open.spotify.com/track/42unVSNDQZSCmiPBeDPJRZ",
       "tiktok": "https://www.tiktok.com/@hislordshiprock",
       "twitter": "https://x.com/HisLordshiprock",
       "website": "https://hislordship.net",
@@ -19039,6 +19500,18 @@
         "presented_by": "NPR Live Sessions"
       },
       {
+        "event_id": "MS64530",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS63649",
         "event_type": "showcase",
         "venue": "The 13th Floor",
@@ -19559,6 +20032,18 @@
     },
     "events": [
       {
+        "event_id": "MS64311",
+        "event_type": "showcase",
+        "venue": "Seven Spirits",
+        "venue_id": "V2390",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "23:40",
+        "end_time": "",
+        "presented_by": "HOT TAKES"
+      },
+      {
         "event_id": "MS64295",
         "event_type": "showcase",
         "venue": "Brushy Street Commons",
@@ -19690,6 +20175,18 @@
     "location": "MANCHESTER, UNITED KINGDOM, ENGLAND",
     "events": [
       {
+        "event_id": "MS65072",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "23:10",
+        "end_time": "23:40",
+        "presented_by": null
+      },
+      {
         "event_id": "MS63588",
         "event_type": "showcase",
         "venue": "Swan Dive Patio",
@@ -19697,8 +20194,8 @@
         "parent_venue": "Swan Dive",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "21:40",
-        "end_time": "22:10",
+        "start_time": "20:00",
+        "end_time": "20:30",
         "presented_by": "Tuezgayz "
       }
     ]
@@ -19869,8 +20366,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "22:05",
-        "end_time": "22:30",
+        "start_time": "01:30",
+        "end_time": "01:55",
         "presented_by": "The Digilogue "
       }
     ]
@@ -20060,18 +20557,17 @@
     "state": "FL",
     "entity_id": 2252008,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2252008",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/OwngmsVyMc-vFmdoBYoKUacM2KA=/450x450/images.sxsw.com/178/8b03d0ce-df5b-b0cf-c82f-8c5702760b54/artist-76253",
     "announcement_date": "2026-02-27",
     "source": "official",
     "description": "J. Dash first captured global attention with his viral smash “WOP (With Out Prejudice),” a pulse-pounding dance hit that soared on the iTunes Top 100 Hip-Hop Charts, has garnered over 150 million streams, is RIAA Certified 2x platinum, and racked up millions of views on YouTube, including a video with longtime collaborator and friend Flo Rida.\n\nMost recently, J. Dash produced music for a Golden Buzzer finalist on America’s Got Talent, with their breakout song “Feels So Good to Be You” amassing over 4 million streams and counting. Beyond his work in the studio, he continues to shape the arts as Chair of Programming and Marketing on the board of the Long Center for Performing Arts in Austin, TX. He is also the founder of Twylight Zone, an innovative arts discovery platform dedicated to spotlighting creativity and culture.\n\nWith a career that defies categories, J. Dash embodies the spirit of reinvention whose work is equal parts vision, craft, and impact.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/j-dash/331464",
+      "apple_music": "https://music.apple.com/us/song/wop-official-version/414094850",
       "instagram": "https://www.instagram.com/therealjdash",
-      "spotify": "https://open.spotify.com/artist/6bsEozzA1CHU0TIq2DXDxq",
       "tiktok": "https://www.tiktok.com/@therealjdash",
       "twitter": "https://x.com/therealjdash",
       "website": "https://jdashmusic.com",
-      "youtube": "https://www.youtube.com/watch?v=vb2Oqfj_c70"
+      "youtube": "https://youtu.be/vb2Oqfj_c70?si=ZHzxGQFPh9XPjmLO"
     },
     "events_raw": [],
     "location": "JACKSONVILLE, FL",
@@ -20681,13 +21177,13 @@
       {
         "event_id": "MS64568",
         "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
+        "venue": "Flamingo Cantina",
+        "venue_id": "V0186",
         "parent_venue": "",
-        "age_policy": null,
-        "day": null,
-        "start_time": "",
-        "end_time": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "20:00",
+        "end_time": "20:15",
         "presented_by": null
       },
       {
@@ -21232,8 +21728,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "21:20",
-        "end_time": "21:45",
+        "start_time": "00:50",
+        "end_time": "01:15",
         "presented_by": "The Digilogue "
       }
     ]
@@ -21648,7 +22144,7 @@
     "entity_id": 2259926,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2259926",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-25",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "",
     "links": {},
@@ -21661,8 +22157,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "01:00",
-        "end_time": "01:40",
+        "start_time": "20:15",
+        "end_time": "20:30",
         "presented_by": "Math Class Creative"
       }
     ],
@@ -21889,7 +22385,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-02-20",
     "source": "official",
-    "description": "",
+    "description": "Born, raised and live in Austin Tx, I discovered my love for music at the age of 9. When I was 14 I decided this is what I want to do for the rest of my life, I joined a grupo and got to travel all over the US for live shows. In 2021 I released my first single as a solo artist specializing in regional Mexican music, more specifically in “corridos”",
     "links": {
       "apple_music": "https://music.apple.com/us/album/frapp%C3%A9/1864510752?i=1864510761",
       "instagram": "https://www.instagram.com/joelxloredo?igsh=M21rbTYzY2NyOWcy&utm_source=qr",
@@ -22011,19 +22507,19 @@
     "state": null,
     "entity_id": 2244474,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2244474",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/SSne7djtkptuoTBGKu47vDY2VYM=/450x450/images.sxsw.com/178/4c079c19-89b3-a6bb-4892-d80990c98a16/artist-76016",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "Jon Langford has been a constant fixture on the fringes of the music industry and art world for the last three decades, irons in the fire, plates in the air, occasionally, accidentally in tune with current fads and phases but happier charting his own contrary course through the choppy waters of popular culture. The Welsh born artist and musician, who relocated to Chicago in 1992, has a degree in fine art from the University of Leeds where (in great British art school tradition) he downed brushes to co-found that seminal punk rock band, The Mekons in 1977.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/mekons/14944197",
+      "apple_music": "https://music.apple.com/us/album/over-the-cliff/1706368195?i=1706368199",
       "bandcamp": "https://mekons.bandcamp.com/music",
       "instagram": "https://www.instagram.com/mekons_official/",
       "soundcloud": "https://soundcloud.com/mekons",
       "spotify": "https://open.spotify.com/artist/1Ag6UM6dow2OH9V06mxzV5?si=ImHKK5nxRg2vDdwoZOMq5w",
       "twitter": "https://x.com/TheMekons",
       "website": "https://www.firerecords.com/artists/mekons/",
-      "youtube": "https://www.youtube.com/watch?v=DNlclWS_-hs"
+      "youtube": "https://youtu.be/cyT4JQfvdqY?si=qAtLRly7RZ-3nqh4"
     },
     "events_raw": [],
     "location": "NEWPORT, UNITED KINGDOM, WALES",
@@ -22142,6 +22638,18 @@
     "location": "BERLIN, GERMANY",
     "events": [
       {
+        "event_id": "MS65245",
+        "event_type": "showcase",
+        "venue": "Coconut Club",
+        "venue_id": "V1888",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "22:00",
+        "end_time": "00:00",
+        "presented_by": "XYZ Films: A Case Of The Mondays"
+      },
+      {
         "event_id": "MS63589",
         "event_type": "showcase",
         "venue": "Speakeasy",
@@ -22149,8 +22657,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-14",
-        "start_time": "21:30",
-        "end_time": "23:00",
+        "start_time": "22:30",
+        "end_time": "00:00",
         "presented_by": "Berlin House"
       }
     ]
@@ -22265,6 +22773,36 @@
     ]
   },
   {
+    "name": "JOTP B2B Jordan M Boudreau",
+    "genre": "DJ",
+    "subgenre": "Dance",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2283654,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283654",
+    "thumbnail_url": "https://images.sxsw.com/p6YlxVl4m22f-wtz2BikahoD4qE=/450x450/images.sxsw.com/178/edf137ac-56dc-58ee-d7cd-d00a76e6b979/artist-76725",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "JOTP and Jordan M Boudreau are two Austin-based DJs and musicians with a range of stylistic influences, spanning House, Jersey Club, UKG, and Baile Funk. Together they deliver a dynamic and genre-fluid performance that prioritizes energy on the dance floor.",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65226",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "03:00",
+        "end_time": "04:00",
+        "presented_by": "Gas Station FM "
+      }
+    ],
+    "location": "AUSTIN, TX"
+  },
+  {
     "name": "Joudy",
     "genre": "Rock",
     "subgenre": "Garage",
@@ -22347,7 +22885,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "20:00",
+        "start_time": "20:05",
         "end_time": "20:30",
         "presented_by": "The Digilogue "
       }
@@ -22778,6 +23316,18 @@
       "instagram": "https://www.instagram.com/justagurlmusic/"
     },
     "events": [
+      {
+        "event_id": "MS65227",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-12",
+        "start_time": "02:00",
+        "end_time": "03:00",
+        "presented_by": "Gas Station FM "
+      },
       {
         "event_id": "MS65133",
         "event_type": "showcase",
@@ -23355,11 +23905,48 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "20:45",
-        "end_time": "21:00",
+        "start_time": "20:50",
+        "end_time": "21:05",
         "presented_by": "The Digilogue "
       }
     ]
+  },
+  {
+    "name": "Keith Frank & The Soileau Zydeco Band",
+    "genre": "Americana",
+    "subgenre": "Zydeco",
+    "city": "Soileau",
+    "country": "United States",
+    "state": "LA",
+    "entity_id": 2252496,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2252496",
+    "thumbnail_url": "https://images.sxsw.com/TYTALDgKkV0ujzL41fboXlPvNu4=/450x450/images.sxsw.com/178/a7549aa3-e5a5-d4c6-fe26-d0f6f5b78cd4/artist-76267",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Keith Frank is an electrifying performer from Louisiana bringing you the best in AUTHENTIC Zydeco music!",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/keith-frank/80946230",
+      "facebook": "https://www.facebook.com/share/18PHn9BF7y/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/zydecoboss?igsh=MXEyYzBveHV2YTh3Mw==",
+      "tiktok": "https://www.tiktok.com/@zydecoboss?_r=1&_t=ZP-93cuMWeW5fS",
+      "website": "https://keithfrank.com/",
+      "youtube": "https://youtu.be/6gI9hSLXCSs?si=lr2rBkGmO2fmznTP"
+    },
+    "events": [
+      {
+        "event_id": "MS64070",
+        "event_type": "showcase",
+        "venue": "Antone’s",
+        "venue_id": "V0590",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "22:00",
+        "end_time": "23:10",
+        "presented_by": "Lafayette Sheauxkaze"
+      }
+    ],
+    "location": "SOILEAU, LA"
   },
   {
     "name": "The Kellows",
@@ -23690,7 +24277,7 @@
     "thumbnail_url": "https://images.sxsw.com/uPndoLcMP4IFgc_NJpe7mEy8YpI=/450x450/images.sxsw.com/178/26d5a2bd-1010-7df4-d9f3-10f3f303e1aa/artist-75669",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "A seven-member dance and vocal group that embodies Tokyo's new generation culture, \"TOKYO NEO POP\".\nArmed with their unique performance style, these young talents are set to create a new phenomenon from Tokyo to the world.\nDebuting in August 2023.\n\nManagement: LDH JAPAN\nLabel: Sony Music",
+    "description": "A seven-member dance and vocal group, who made their debut in August 2023, embodies Tokyo's new generation culture \"TOKYO NEO POP\".\nArmed with their unique performance style, these young talents are set to create a new phenomenon from Tokyo to the world.\n\nManagement: LDH JAPAN\nLabel: Sony Music",
     "links": {
       "apple_music": "https://music.apple.com/jp/song/black-flame/1842038405",
       "instagram": "https://www.instagram.com/kid_phenomenon?igsh=MWtuZnQyMDdrbTd1eA==",
@@ -24009,6 +24596,18 @@
     },
     "events": [
       {
+        "event_id": "MS65241",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "18+",
+        "day": "2026-03-14",
+        "start_time": "01:30",
+        "end_time": "04:00",
+        "presented_by": "DJ_Dave"
+      },
+      {
         "event_id": "MS65030",
         "event_type": "showcase",
         "venue": "Kingdom",
@@ -24193,8 +24792,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-13",
-        "start_time": "22:30",
-        "end_time": "23:00",
+        "start_time": "23:05",
+        "end_time": "23:35",
         "presented_by": "South Asian House Soundvilla"
       }
     ]
@@ -24508,6 +25107,30 @@
       "youtube": "https://youtu.be/bONGRZDrElc?si=Mytqdsql1Te02Hmr"
     },
     "events": [
+      {
+        "event_id": "MS65244",
+        "event_type": "showcase",
+        "venue": "Coconut Club",
+        "venue_id": "V1888",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "02:00",
+        "end_time": "03:00",
+        "presented_by": "XYZ Films: A Case Of The Mondays"
+      },
+      {
+        "event_id": "MS65064",
+        "event_type": "showcase",
+        "venue": "Coconut Club",
+        "venue_id": "V1888",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "presented_by": "XYZ Films: A Case Of The Mondays"
+      },
       {
         "event_id": "MS64966",
         "event_type": "showcase",
@@ -24876,16 +25499,20 @@
     "state": "LA",
     "entity_id": 2255131,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2255131",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/-ZpurJL6zRmraNuWp3y1FrKCbrg=/450x450/images.sxsw.com/178/eee61b3c-17c1-c265-4d72-6d4c58430e98/artist-76350",
     "announcement_date": "2026-03-07",
     "source": "official",
     "description": "Lainey Wilson continues to captivate the world, capturing the hearts of fans and respect of her peers. Adding to her monumental rise, the 12x CMA, 16x ACM, Grammy winner and Grand Ole Opry member is the subject of a new in-depth Netflix documentary, Lainey Wilson: Keepin’ Country Cool, out April 22 after premiering at SXSW. Wilson will also make her film debut in Universal’s adaptation of Colleen Hoover’s Reminders of Him, headline Stagecoach 2026 and join Chris Stapleton for stadium shows this summer, after wrapping her Whirlwind World Tour. Last year, the 2x CMA and 2x ACM Entertainer of the Year hosted the 59th CMA Awards (the first solo female host since Reba McEntire in 1991) and released the deluxe version of her album Whirlwind, featuring the #1 single “Somewhere Over Laredo.” A sought-after songwriter, Wilson has nine #1s including “4x4xU,” “Watermelon Moonshine” and the 2x Platinum “Heart Like A Truck,” plus collaborations with Jelly Roll (“Save Me”) and HARDY (“wait in the truck”). Moreover, Wilson wrote “Out of Oklahoma” for Twisters, has worked with artists like Reba McEntire, Dolly Parton and Post Malone and made her acting debut in Paramount’s hit show Yellowstone.",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/lainey-wilson/907166363",
+      "facebook": "https://www.facebook.com/laineywilsonmusic",
       "instagram": "https://www.instagram.com/laineywilson",
+      "pandora": "https://www.pandora.com/artist/lainey-wilson/ARbfgK26dJz7kzg",
       "spotify": "https://open.spotify.com/artist/6tPHARSq45lQ8BSALCfkFC?si=r3YtQP30RKGXUL_uTkRdcw",
+      "tiktok": "https://www.tiktok.com/@laineywilson",
       "twitter": "https://x.com/laineywilson",
-      "website": "https://www.laineywilson.com"
+      "website": "https://www.laineywilson.com",
+      "youtube": "https://www.youtube.com/channel/UCZkeQWzPCGeH707eRS6K6Hg"
     },
     "events": [
       {
@@ -25388,7 +26015,7 @@
     "entity_id": 2242247,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242247",
     "thumbnail_url": null,
-    "announcement_date": "2026-01-13",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Leo Kalyan (he/they) is a singer, songwriter & music producer known for fusing high fashion, poetic storytelling & emotionally resonant music. Their work explores gender, cultural duality & queerness through a visual language that is both bold & ethereal. Blending R&B, Afrobeats, Bollywood & Futurism, Leo's sound transcends genre - just as their image\ntranscends gender. A BRIT & Ivor Novello-nominated songwriter, Leo co-wrote the global #1 platinum hit Head & Heart by Joel Corry ft. MNEK, and performed at Coachella in 2023 and 2024. With over 180K followers across platforms & a growing global cult audience, Leo is building a multimedia universe where music, fashion & narrative converge.\nBased in Los Angeles Leo is completing his debut album and developing a TV series with a Los Angeles production company.",
     "links": {
@@ -25713,15 +26340,16 @@
     "state": "TX",
     "entity_id": 2282344,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2282344",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/3GISkK12Rswsq5Rz-A7Ynh8k4V0=/450x450/images.sxsw.com/178/343750a4-3cc2-bf92-677b-8b9a6ac0f86b/artist-76716",
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "",
+    "description": "Alexus Dorsey, better known by her stage name Lexi Gold, hails from the vibrant city of Memphis, TN.\n\nLexi’s distinct Memphis flow caught the attention of industry professionals, including CEO Tony Draper from Suave House Entertainment, who took her under his wing as a mentor. Alongside her mentorship, Lexi\nsigned with World Famous Entertainment as her Independent Label.\n\nCurrently, Lexi is on the brink of releasing her highly anticipated debut album, “Hot Like The Summer,” with the first single set to drop on May 20, 2023. The album features a collaboration with Lil Flip, elevating the anticipation surrounding Lexi’s musical career. With a powerful voice, an authentic artistry, and an unwavering dedication to her craft.\n\nLexi has graduated from just working on her music, she has added acting to her list of talents. Lexi has spent the last two seasons on Reality TV Show Joseline’s Cabaret Texas and Joseline’s Cabaret California available on the Zeus Network. Lexi has also been in two Tubi movies Trust Me or Trust Me Not and She Get It From Her Mama where she’s the lead actress. Lexi continues to evolve and perfect her craft as an Artist, Actress and Reality TV Star.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/ronnie/1854649426?i=1854649427",
       "instagram": "https://www.instagram.com/_lexi_gold?igsh=MWd6MWJxNjFxaXR6eQ==",
-      "spotify": "https://open.spotify.com/artist/27TqPDe4FFT4OVnRU6K6Ym?si=dGDsIuA1QMCjy6dVN7AS2g",
-      "tiktok": "https://www.tiktok.com/@lifewithlexigold?_r=1&_t=ZP-94VC0afV0bH"
+      "spotify": "https://open.spotify.com/artist/27TqPDe4FFT4OVnRU6K6Ym?si=F9JfrOATR5Cz_zwXZwuZkQ",
+      "tiktok": "https://www.tiktok.com/@lifewithlexigold?_r=1&_t=ZP-94VC0afV0bH",
+      "youtube": "https://youtube.com/@lexigoldvevo3175?si=ESWR-B0iEPpkAUkL"
     },
     "events": [
       {
@@ -25969,6 +26597,44 @@
         "start_time": "22:55",
         "end_time": "23:10",
         "presented_by": "Good Coughee Presented by Devin the Dude"
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
+    "name": "Lil' Keke",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "None",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2279535,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2279535",
+    "thumbnail_url": "https://images.sxsw.com/oQi3Fj4iWTOphihu108bqX2E_Ic=/450x450/images.sxsw.com/178/e26b48fa-0cdf-9e44-09af-93b777b1d950/artist-76668",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Houston rap legend Lil’ Keke (Marcus Lakee Edwards) is a founding member of the iconic Screwed Up Click and one of the earliest collaborators of DJ Screw, helping shape the chopped-and-screwed sound that defined Houston hip-hop in the 1990s and influenced rap culture worldwide.\nHis 1997 debut album Don’t Mess wit Texas, powered by the Southside anthem “Southside,” became a landmark release for the city, reportedly selling over 40,000 copies in Houston alone and establishing Keke as a cornerstone of Southern rap.\nOver the decades, Lil’ Keke has built an extensive catalog of albums, mixtapes, and chopped-and-screwed releases, including projects like It Was All a Dream, Peepin’ in My Window, Loved by Few, Hated by Many, and Money Don’t Sleep, collaborating with artists such as Slim Thug, Paul Wall, Bun B, and Big K.R.I.T.\nRecognized not only for his music but also for his impact on the community, Lil’ Keke was honored by President Barack Obama in 2016 for his dedication to community service in Houston.\nToday, Lil’ Keke continues to release new music and influence the next generation while remaining one of the most respected voices in Houston hip-hop history.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/black-and-handsome-feat-yung-al/1876080990?i=1876080993",
+      "instagram": "https://www.instagram.com/donke713/",
+      "pandora": "https://www.pandora.com/artist/lil-keke/AR3d7nlgq3jK2cJ",
+      "soundcloud": "https://soundcloud.com/lil-keke-official",
+      "spotify": "https://open.spotify.com/album/1PzZbq9CFECNhD4r019sGH?si=sf16CEtVQsuoUhQoAXs2OA",
+      "tiktok": "https://www.tiktok.com/@lilkeke713",
+      "youtube": "https://www.youtube.com/watch?v=SAZaXbaYtuk"
+    },
+    "events": [
+      {
+        "event_id": "MS65094",
+        "event_type": "showcase",
+        "venue": "Mala Fama Rooftop",
+        "venue_id": "V2453",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "00:15",
+        "end_time": "00:35",
+        "presented_by": "SoSouth House"
       }
     ],
     "location": "HOUSTON, TX"
@@ -26520,8 +27186,8 @@
         "parent_venue": "Swan Dive",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "20:00",
-        "end_time": "20:30",
+        "start_time": "20:50",
+        "end_time": "21:20",
         "presented_by": "Tuezgayz "
       },
       {
@@ -26720,6 +27386,44 @@
     "location": "MEXICO CITY, MEXICO"
   },
   {
+    "name": "Los Juanos",
+    "genre": "Tejano",
+    "subgenre": "Regional Mexican",
+    "city": "San Antonio",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2283817,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283817",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "While the sounds of Latin Alternative are everywhere, the culturally important and wholly distinct identity of San Antonio, TX has primed its sounds to be heard on a broader scale; proudly taking this sound nationwide is Los Juanos. Liberally interweaving Conjunto, Corrido, and Cumbia Norteña with elements of Dream Pop, Psychedelic, Punk, Hip-Hop and more, Los Juanos echo the pioneers of the Tejano movement, characterized by an unfiltered creativity and an even more daring disregard for the cultural barriers that cut through la frontera; algo ni de aquí, ni de allá.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/los-juanos/1596877359",
+      "bandcamp": "https://losjuanos.bandcamp.com",
+      "instagram": "https://www.instagram.com/_losjuanos_",
+      "spotify": "https://open.spotify.com/artist/4ekCib4fVdIfgVt6OiKwXv?si=1z8_8eBhTzeU8dnPk4Cd2w",
+      "tiktok": "https://www.tiktok.com/@_losjuanos_",
+      "website": "https://www.losjuanos.com",
+      "youtube": "https://www.youtube.com/watch?v=gvEfuli4hw0"
+    },
+    "events": [
+      {
+        "event_id": "MS65229",
+        "event_type": "showcase",
+        "venue": "Mala Fama Rooftop",
+        "venue_id": "V2453",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-12",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": null
+      }
+    ],
+    "location": "SAN ANTONIO, TX"
+  },
+  {
     "name": "Los Kemet",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Blues",
@@ -26828,8 +27532,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-12",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:00",
+        "end_time": "20:40",
         "presented_by": null
       }
     ],
@@ -27168,7 +27872,7 @@
         "age_policy": null,
         "day": "2026-03-16",
         "start_time": "19:00",
-        "end_time": "19:40",
+        "end_time": "19:30",
         "presented_by": null
       },
       {
@@ -27489,8 +28193,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "23:00",
-        "end_time": "23:15",
+        "start_time": "22:30",
+        "end_time": "22:45",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       },
       {
@@ -27850,6 +28554,44 @@
     "location": "QUEENS, NY"
   },
   {
+    "name": "The Mainliners",
+    "genre": "Punk",
+    "subgenre": "Hardcore",
+    "city": "Los Angeles",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2272134,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2272134",
+    "thumbnail_url": "https://images.sxsw.com/dlDJrFa2QR6JUAki2sTcdh1xwJQ=/450x450/images.sxsw.com/178/70ca2eac-034a-1575-0ff7-7f1423b8a1c8/artist-76558",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Formed in the crucible of pent-up creative energy that was a quarantine-era art/punk house in Los Angeles, The Mainliners hit the ground running - writing songs, playing shows, and switching instruments for a year and a half before the official four man lineup of Cash Mathieu on vocals, Colin Sick on guitar, Adrian Morris on bass, and Jackson Fox on drums was cemented.\n\nSince then, the band has been hard at work developing their musical and visual language across several singles, an EP, an album, and a live album, all released since 2023. They’ve been tearing up stages across the country and getting their name out there playing with bands such as Enjoy, Gvllow, Civic and Bad Nerves. They also played to a huge crowd as the only punk band on the 2024 edition of Tyler, The Creator’s Camp Flog Gnaw Carnival in their hometown of Los Angeles, proving that The Mainliners’ sound, look, and message connects, not just with punks, but with fans of good music.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/no-mas-tequila/1873898931?i=1873899328",
+      "bandcamp": "https://themainliners.bandcamp.com/music",
+      "instagram": "https://www.instagram.com/themainliners/?hl=en",
+      "spotify": "https://open.spotify.com/track/3KJkQ5DxrVRNK5QFkuaCBf?si=ef395e5a98504d56",
+      "tiktok": "https://www.tiktok.com/@the.mainliners?is_from_webapp=1&sender_device=pc",
+      "website": "https://themainliners.com/",
+      "youtube": "https://www.youtube.com/watch?v=Tsm2ZpD8fpM"
+    },
+    "events": [
+      {
+        "event_id": "MS64876",
+        "event_type": "showcase",
+        "venue": "Mohawk Outdoor",
+        "venue_id": "V0206",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-17",
+        "start_time": "00:20",
+        "end_time": "01:20",
+        "presented_by": "AS Colour + Monster Children "
+      }
+    ],
+    "location": "LOS ANGELES, CA"
+  },
+  {
     "name": "Majestyofdivinity",
     "genre": "Electronic",
     "subgenre": "Dance",
@@ -27887,6 +28629,39 @@
       }
     ],
     "location": "AUSTIN, TX"
+  },
+  {
+    "name": "MalMadeIt",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "R & B",
+    "city": "Ausitn",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2282341,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2282341",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/_malmadeit/?hl=en",
+      "soundcloud": "https://soundcloud.com/Mook89"
+    },
+    "events": [
+      {
+        "event_id": "MS65205",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:45",
+        "end_time": "00:15",
+        "presented_by": "SXSW DJz and Friends"
+      }
+    ],
+    "location": "AUSITN, TX"
   },
   {
     "name": "Mama Duke",
@@ -28582,8 +29357,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-14",
-        "start_time": "00:45",
-        "end_time": "02:00",
+        "start_time": "21:00",
+        "end_time": "22:30",
         "presented_by": "Berlin House"
       }
     ]
@@ -29109,7 +29884,7 @@
     "state": "NY",
     "entity_id": 2242993,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242993",
-    "thumbnail_url": "https://images.sxsw.com/KZMta6IarkyHbaNvcnbTOuQNKKY=/450x450/images.sxsw.com/178/cb7b581c-7b34-d7dc-ae7e-0cb7f849a66d/artist-74093",
+    "thumbnail_url": "https://images.sxsw.com/Ta7H_KdQAfjZV-n8Pupt2_evTnc=/450x450/images.sxsw.com/178/cb7b581c-7b34-d7dc-ae7e-0cb7f849a66d/artist-",
     "announcement_date": "2026-02-11",
     "source": "official",
     "description": "meg elsier is an indie-rock singer, songwriter, and visual artist based in New York City. One of the most exciting new voices in the indie-rock scene, meg juxtaposes sweet vocals and opulent melodies with grungy guitars and weighty production. Keen wit and self-awareness shine through her lyrics, seamlessly weaving into the fabric of her ethereal shoegaze sound.\n\nmeg's debut album 'spittake' blends elements of grunge, contemporary pop, folk, and indie-rock, and showcases meg’s ability to create dynamic, versatile, and effortlessly catchy music. Across the album’s 11 tracks, she delivers musings on love, death, nostalgia, youth, anxiety, depression and everything in between, with a uniquely self-deprecating touch. “The story isn’t necessarily linear,” she explains. “But the main connection throughout is this unreliable narrator that you as a listener determine your view/trust of. They are incredibly inconsistent with their statements but I believe they think they’re telling the truth.”",
@@ -29380,6 +30155,18 @@
         "start_time": "20:00",
         "end_time": "20:40",
         "presented_by": "Beyond The Music"
+      },
+      {
+        "event_id": "MS64733",
+        "event_type": "showcase",
+        "venue": "Zilker Brewing",
+        "venue_id": "V1281",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "23:40",
+        "end_time": "00:10",
+        "presented_by": "UTOPiA Sessions"
       },
       {
         "event_id": "MS63375",
@@ -30404,45 +31191,6 @@
     ]
   },
   {
-    "name": "Monsieur Van Pratt",
-    "genre": "Electronic",
-    "subgenre": "Disco",
-    "city": "Ciudad de México",
-    "country": "Mexico",
-    "state": null,
-    "entity_id": 2249572,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2249572",
-    "thumbnail_url": "https://images.sxsw.com/yvOrpJmSiAxUU8rYib6G5og0iKs=/450x450/images.sxsw.com/178/da41eb36-409d-ab8f-0c3e-88ba0cbf8ea4/artist-76186",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "Monsieur Van Pratt, founder of Super Spicy Records, is a prominent producer\nand DJ originally from Mexico City, whose influence on electronic music is widely recognized both nationally and internationally. With an impressive career that included more than 100 releases in digital format and 30+ on vinyl, which consolidarse him as a key figure in the Disco, Funk, and House scene. His music has been released by prestigious record labels such as Toy Tonics (coming in 2026), Too Slow To Disco, The Disco Express, Tropical Disco Records, Buddha Bar, his own label Super Spicy Records, among others, underlining his status on the global scene. With a musical style deeply rooted in Disco, Funk, and\nJazz, Monsieur Van Pratt combines classical elements with contemporary\ntouches, creating a sound experience that is both nostalgic and innovative. His work not only stands out for its technical quality, but also for its ability to connect emocional y with the listener, making him a central figure in the evolution of modern dance sound.",
-    "links": {
-      "apple_music": "https://music.apple.com/mx/album/dreaming-of-you/1827039213?i=1827039217",
-      "bandcamp": "https://monsieurvanpratt.bandcamp.com",
-      "instagram": "https://www.instagram.com/monsieurvanpratt/",
-      "soundcloud": "https://soundcloud.com/monsieurvanpratt",
-      "spotify": "https://open.spotify.com/track/1t8blT50pQspIN7K7GWIMC?si=I3ahTQiqQh6v4L0JMTeMSA",
-      "tiktok": "https://www.tiktok.com/@monsieurvanpratt",
-      "youtube": "https://youtu.be/itozRf_jyrc?si=Daj73njnjKui7NtN"
-    },
-    "events_raw": [],
-    "location": "CIUDAD DE MÉXICO, MEXICO",
-    "events": [
-      {
-        "event_id": "MS63950",
-        "event_type": "showcase",
-        "venue": "Neon Grotto Rooftop",
-        "venue_id": "V2071",
-        "parent_venue": "Neon Grotto",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "00:30",
-        "end_time": "02:00",
-        "presented_by": "Floppy Disko"
-      }
-    ]
-  },
-  {
     "name": "Montclair",
     "genre": "Americana",
     "subgenre": "Indie Rock",
@@ -30456,17 +31204,28 @@
     "source": "official",
     "description": "Montclair is the Austin, Texas-based, independent folk-rock project resulting from four friends’ expression of joy and curiosity for life. Montclair's sound explores themes of self-discovery and emerging adulthood, from the beloved surf rock groove of “Pastel Lies” to the forlorn folk guitar wave in “Passing Through”. Their debut album, “Heart is Alive!” explores their musical potential and emotional range, both on full display in the first two singles, the titular and upbeat “Heart is Alive!” and the enigmatic rock powerhouse “Coming to the Rescue”. With a dynamic range of music, Montclair’s live performances are energetic and engaging, and they are known to have a strong crowd pull in Texas. Montclair has been invited to play onstage to crowds at festivals and iconic Texas venues such as House of Blues Houston, and a sold-out Antone's Nightclub, with nationally touring acts like Echosmith, The Brook and The Bluff, Dayglow, Giant Rooks, The Wldlfe, Briscoe, and many more. They look forward to the release of their debut album and the adventures and inspirations that await them ahead.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/montclair/1581652549",
+      "apple_music": "https://music.apple.com/us/album/coming-to-the-rescue/1785524153?i=1785524167",
       "bandcamp": "https://montclair.bandcamp.com/music",
       "instagram": "https://www.instagram.com/montclairtheband/",
-      "spotify": "https://open.spotify.com/artist/2T0leAgVkjJTiGjo1qiz2q?si=KemsppXqQM6f9WZWx9nAxQ",
       "tiktok": "https://www.tiktok.com/@montclairtheband?lang=en",
       "website": "https://www.montclairtheband.com/",
-      "youtube": "https://www.youtube.com/watch?v=J-8dUbtELP4&list=OLAK5uy_ltKsQNUrMc10GCO9raVaKO4anYkZxxDbE&index=2&pp=8AUB0gcJCcYJAYcqIYzv"
+      "youtube": "https://youtu.be/ZDRkWeBSRWs?si=M0u3k_NjWaOIuPUp"
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
+      {
+        "event_id": "MS65092",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
       {
         "event_id": "MS64506",
         "event_type": "showcase",
@@ -31045,45 +31804,6 @@
     ]
   },
   {
-    "name": "MURTY",
-    "genre": "R & B",
-    "subgenre": "Soul",
-    "city": "Kajang",
-    "country": "Malaysia",
-    "state": null,
-    "entity_id": 2246479,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2246479",
-    "thumbnail_url": "https://images.sxsw.com/pEqzKVSN1fitKSjHMwO0Q_OnWD8=/450x450/images.sxsw.com/178/543d0ad5-9de7-1a8d-df6c-dd80a61727e7/artist-75931",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "There’s something about MURTY’s voice that sounds like a storyteller who can flirt, argue, and get in his feelings all within the same breath. He slides between smooth R&B, natural soul instincts, and unfiltered honesty. His songs feel like late-night confessions, unsent texts, and the confidence it takes to say what most people only think.\n\nHe sings with intention. There’s humor in the pain, soul in the simplicity, and zero interest in staying in one lane. MURTY isn’t here to sound perfect. He’s here to sound like himself, flaws, feelings, and all. He's not just making music. He’s making moments you laugh at, relate to, and secretly replay.",
-    "links": {
-      "apple_music": "https://music.apple.com/my/song/figure-8/1820053646",
-      "facebook": "https://www.facebook.com/itsmurtynow",
-      "instagram": "https://www.instagram.com/itsmurtynow",
-      "spotify": "https://open.spotify.com/track/56IQMQy00jszv67hdNmImZ?si=4e508ee92d42425c",
-      "tiktok": "https://www.tiktok.com/@itsmurtynow",
-      "twitter": "https://x.com/itsmurtynow",
-      "youtube": "https://www.youtube.com/watch?v=8z7mAwYSPsE&list=RD8z7mAwYSPsE&start_radio=1"
-    },
-    "events_raw": [],
-    "location": "KAJANG, MALAYSIA",
-    "events": [
-      {
-        "event_id": "MS63756",
-        "event_type": "showcase",
-        "venue": "Las Perlas",
-        "venue_id": "V1464",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-15",
-        "start_time": "21:35",
-        "end_time": "22:05",
-        "presented_by": "Made in Malaysia"
-      }
-    ]
-  },
-  {
     "name": "MX LONELY",
     "genre": "Rock",
     "subgenre": "Shoegaze",
@@ -31119,18 +31839,6 @@
         "start_time": "22:15",
         "end_time": "22:50",
         "presented_by": "Smartpunk Records"
-      },
-      {
-        "event_id": "MS64407",
-        "event_type": "showcase",
-        "venue": "Radio Day Stage @ Downright Austin Backyard",
-        "venue_id": "V2391",
-        "parent_venue": "Downright Austin",
-        "age_policy": null,
-        "day": "2026-03-14",
-        "start_time": "16:00",
-        "end_time": "16:40",
-        "presented_by": "BBC Introducing in America"
       },
       {
         "event_id": "MS63870",
@@ -31612,7 +32320,7 @@
         "age_policy": "18+",
         "day": "2026-03-13",
         "start_time": "22:00",
-        "end_time": "23:00",
+        "end_time": "23:15",
         "presented_by": "Silva Bumpa"
       }
     ],
@@ -32515,8 +33223,8 @@
         "parent_venue": "Swan Dive",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "20:50",
-        "end_time": "21:20",
+        "start_time": "21:40",
+        "end_time": "22:10",
         "presented_by": "Tuezgayz "
       }
     ],
@@ -33037,6 +33745,18 @@
     "location": "TORONTO, ON, CANADA",
     "events": [
       {
+        "event_id": "MS65026",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "19:00",
+        "end_time": "19:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS63609",
         "event_type": "showcase",
         "venue": "Swan Dive Patio",
@@ -33102,6 +33822,18 @@
     "description": "",
     "links": {},
     "events": [
+      {
+        "event_id": "MS65228",
+        "event_type": "showcase",
+        "venue": "Speakeasy",
+        "venue_id": "V0226",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "20:30",
+        "end_time": "21:00",
+        "presented_by": "Berlin House"
+      },
       {
         "event_id": "MS64769",
         "event_type": "showcase",
@@ -33224,14 +33956,14 @@
     "state": "TX",
     "entity_id": 2250644,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2250644",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/Vu8powLabEy2F1_lBuRKChsu1T0=/450x450/images.sxsw.com/178/781e4e85-8a8f-3715-3527-c4cba9349fd2/artist-76215",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "Otis Wilkins is the moniker songwriter Taylor Wilkins uses when he's not performing in rock act Otis the Destroyer. Inspired by his father's nickname in college, which he then gave to his first dog, the name Otis has always been in the family.",
     "links": {
       "bandcamp": "https://otiswilkins.bandcamp.com/music",
       "instagram": "https://www.instagram.com/otis_wilkins/?hl=en",
-      "spotify": "https://open.spotify.com/artist/6loAmVdFK5vPObIjS6e396?si=7CCk6NFvS6C2db_4kKDXtg"
+      "spotify": "https://open.spotify.com/track/43HvhLUABFWsop9Kjcs6CR?si=e65774b1d80544bf"
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
@@ -33364,43 +34096,6 @@
         "presented_by": "Very Necessary - The World is Yours"
       }
     ]
-  },
-  {
-    "name": "Ozzy Monroe",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Pop",
-    "city": "Dallas",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2272468,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2272468",
-    "thumbnail_url": null,
-    "announcement_date": "2026-03-05",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/ozzy-monroe/1502522036",
-      "instagram": "https://www.instagram.com/ozzymonroe/?hl=en",
-      "spotify": "https://open.spotify.com/artist/68ykreyF1DbOomrr7y6AnC?si=Jk6r4V07SaC3WRz33JMsKw",
-      "tiktok": "https://www.tiktok.com/@ozzy.monroe",
-      "website": "https://www.ozzymonroe.com/",
-      "youtube": "https://youtu.be/RzfbuiOCvvE?si=CEKNZRJkzAevXHR5"
-    },
-    "events": [
-      {
-        "event_id": "MS64910",
-        "event_type": "showcase",
-        "venue": "Taco n Maiz",
-        "venue_id": "V2448",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-15",
-        "start_time": "20:00",
-        "end_time": "20:15",
-        "presented_by": "Future of Indie Showcase"
-      }
-    ],
-    "location": "DALLAS, TX"
   },
   {
     "name": "P.H.0",
@@ -33646,6 +34341,18 @@
         "start_time": "20:00",
         "end_time": "20:30",
         "presented_by": "Rockaway Beach"
+      },
+      {
+        "event_id": "MS63746",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "21:45",
+        "end_time": "22:15",
+        "presented_by": "Make Out Music "
       },
       {
         "event_id": "MS63735",
@@ -34650,9 +35357,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "00:15",
+        "end_time": "00:45",
+        "presented_by": "SXSW DJz and Friends"
       }
     ],
     "location": "PALM BEACH, AUSTRALIA"
@@ -34785,7 +35492,7 @@
     "entity_id": 2262461,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2262461",
     "thumbnail_url": "https://images.sxsw.com/2cVDqDSd8OYVrTqB0ilVx9uxwGI=/450x450/images.sxsw.com/178/99e5d8a9-62b3-3d4a-fd44-990029c85538/artist-76440",
-    "announcement_date": "2026-02-21",
+    "announcement_date": "2026-03-08",
     "source": "official",
     "description": "Poiison is an innovative artist and songwriter from Queens, NY, blending melodic hip-hop, Latin rap, and R&B into a sound uniquely her own. A proud product of New York City, she’s built real momentum—opening for 50 Cent, touring with Shordie Shordie, and completing a 6-city run with Kevin Gates. Her collaborators include Styles P, 2Rare, Fergie Baby, Cash Cobain, and Sha Money XL.\n\nHer musical roots began in church with her mother and were shaped by her sister, a professional drummer. By fifth grade, she was already commanding stages—early signs of the presence she carries today. That spark has grown into a dedicated fan base and touring draw, marking her as an artist with conviction and connection.\n\nIn 2025, she released two standout EPs—Pretty Pain and Love Money Art—showcasing her duality: vulnerable yet bold, melodic yet raw. Inspired by icons like Madonna, Sade, Rick James, Lil Wayne, and more, Poiison channels a wide palette into a sound that lives outside the mold.\n\nIn 2026, she enters a defining chapter with La Madrina Vol. 2, a project blending originals with standout freestyles over today’s hottest beats — setting the stage for her most impactful year yet.",
     "links": {
@@ -34823,7 +35530,7 @@
         "day": "2026-03-18",
         "start_time": "23:30",
         "end_time": "00:00",
-        "presented_by": "Math Class Creative"
+        "presented_by": "Math Class Creative: Money In Motion"
       }
     ],
     "location": "QUEENS, NY"
@@ -34914,6 +35621,18 @@
     "location": "BROOKLYN, NY",
     "events": [
       {
+        "event_id": "MS65028",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS64782",
         "event_type": "showcase",
         "venue": "Mohawk Indoor",
@@ -34923,7 +35642,7 @@
         "day": "2026-03-12",
         "start_time": "20:20",
         "end_time": "20:50",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       },
       {
         "event_id": "MS64176",
@@ -35459,7 +36178,7 @@
         "day": "2026-03-12",
         "start_time": "20:45",
         "end_time": "21:15",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       }
     ]
   },
@@ -36240,6 +36959,18 @@
     "location": "LONG BEACH, CA",
     "events": [
       {
+        "event_id": "MS65082",
+        "event_type": "showcase",
+        "venue": "The Creek and the Cave",
+        "venue_id": "V0582",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "23:40",
+        "end_time": "00:00",
+        "presented_by": "Math Class Creative: Money In Motion"
+      },
+      {
         "event_id": "MS64089",
         "event_type": "showcase",
         "venue": "Antone’s",
@@ -36329,6 +37060,18 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
+      {
+        "event_id": "MS65093",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
       {
         "event_id": "MS64474",
         "event_type": "showcase",
@@ -36792,18 +37535,18 @@
     "state": null,
     "entity_id": 2249087,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249087",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/ZTF9CePaUxeFqwrCWlU17iasEAA=/450x450/images.sxsw.com/178/7020ffe6-f4db-107c-c33e-41591d8e5e35/artist-75343",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "Dark pop meets emotional electronic chaos.\nRich Delinquent is an Australian artist and producer known for blending dark pop, electronic, and emo-inspired alt-R&B into an unapologetically raw sound. His music explores heartbreak, obsession, and self-destruction — cinematic and haunting, like a confession over a glitching synth line.\n\nHaving collaborated with RMR, FRVRFRIDAY, 12am, phem and Tyla Yaweh, Rich Delinquent continues to blur the lines between vulnerability and rebellion.",
     "links": {
-      "apple_music": "https://music.apple.com/ca/artist/rich-delinquent/1476117099",
+      "apple_music": "https://music.apple.com/au/song/black-laferrari/1788614072",
       "instagram": "https://www.instagram.com/richdelinquent",
       "soundcloud": "https://soundcloud.com/richdelinquent",
-      "spotify": "https://open.spotify.com/artist/4HFJAhY2LFcHxi8k4ZqDMj?si=whxPMt9DTRqxkZZN_v_RUQ",
+      "spotify": "https://open.spotify.com/track/4vdyskQXoIIv6fXsrhAXhE?si=836dadf981c8409c",
       "tiktok": "https://www.tiktok.com/@richdelinquent",
       "website": "https://www.richdelinquent.com",
-      "youtube": "https://www.youtube.com/watch?v=xCt53bFGixg"
+      "youtube": "https://www.youtube.com/watch?v=xCt53bFGixg&list=RDxCt53bFGixg&start_radio=1"
     },
     "events_raw": [],
     "location": "MELBOURNE, AUSTRALIA",
@@ -36859,6 +37602,38 @@
       }
     ],
     "location": "MINNEAPOLIS, MN"
+  },
+  {
+    "name": "Rick Hyde",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Trap",
+    "city": "Buffalo",
+    "country": "United States",
+    "state": "NY",
+    "entity_id": 2283919,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283919",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "instagram": "https://www.instagram.com/prettyrickyhyde"
+    },
+    "events": [
+      {
+        "event_id": "MS65237",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "23:30",
+        "end_time": "23:45",
+        "presented_by": "BSF Official Showcase"
+      }
+    ],
+    "location": "BUFFALO, NY"
   },
   {
     "name": "RickFromTexas",
@@ -37290,6 +38065,39 @@
     ]
   },
   {
+    "name": "Ryan Star",
+    "genre": "Metal",
+    "subgenre": "Alternative",
+    "city": "Dix Hills",
+    "country": "United States",
+    "state": "NY",
+    "entity_id": 2264490,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2264490",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/ryan-star/162820139",
+      "spotify": "https://open.spotify.com/artist/01LfDhfF9mkpmEwRalZCmO?si=jwnKfpFLR6ym7VtHclbt0g"
+    },
+    "events": [
+      {
+        "event_id": "MS64600",
+        "event_type": "showcase",
+        "venue": "Inn Cahoots Studio",
+        "venue_id": "V2305",
+        "parent_venue": "Inn Cahoots",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "21:50",
+        "end_time": "22:30",
+        "presented_by": "Take Action x SXSW"
+      }
+    ],
+    "location": "DIX HILLS, NY"
+  },
+  {
     "name": "Ryley Hall",
     "genre": "Pop",
     "subgenre": "Alternative",
@@ -37670,7 +38478,7 @@
     "thumbnail_url": "https://images.sxsw.com/Ys80vwHPhqksQAaxF3MHk7BlFqA=/450x450/images.sxsw.com/178/fe6baf1f-dff9-b8c5-ec87-f3d39ad90ea4/artist-76362",
     "announcement_date": "2026-03-05",
     "source": "official",
-    "description": "After releasing his first music independently in 2022, Scherdel steadily built a fanbase through consistent releases and relentless UK touring. In 2024, his single “Somewhere in the Middle” became a breakthrough moment, gaining streaming traction before landing a prominent sync on ITV’s Love Island, driving significant growth across streaming and live markets.\n\nRather than chasing trends, Scherdel keeps the focus on songs first. His live shows — emotionally charged and guitar-led — balance intimacy with anthemic lift, with UK headline dates continuing to grow in capacity.\n\nAt SXSW, he brings a stripped-back set built around six to seven core tracks — raw, dynamic, and centred on vocal intensity",
+    "description": "Sam Scherdel is a South Yorkshire singer-songwriter whose raw storytelling and electrifying live performances are rapidly building a global audience. Raised in the former mining town of Mexborough near Doncaster, his music blends gritty working-class honesty with soaring indie rock, drawing comparisons to Bruce Springsteen and Sam Fender.\nHis breakout single “Somewhere in the Middle” has surpassed 1.5 million Spotify streams and generated over 8 million views on TikTok, resonating with listeners through its anthemic energy and unfiltered emotion. The track also gained international exposure through a Love Island sync placement, introducing Scherdel to a global television audience.\nA relentless live performer, Scherdel has built his following from the ground up, selling out grassroots venues across the UK and creating a fiercely loyal fanbase along the way.\nFollowing the momentum of his recent releases, Scherdel arrives at South by Southwest in Austin as one of the UK’s most exciting emerging independent artists.",
     "links": {
       "apple_music": "https://music.apple.com/gb/album/somewhere-in-the-middle/1847366762?i=1847366767",
       "bandcamp": "https://samscherdel.bandcamp.com",
@@ -38398,9 +39206,15 @@
     "thumbnail_url": "https://images.sxsw.com/p3QiokxZ5sU3CwNiqwvJAI4dZzY=/450x450/images.sxsw.com/178/0e3d9d7c-2227-32a3-e0c7-0211753fe9a6/artist-76180",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "",
+    "description": "SATALiGHTS is an Austin-based band blending post-rock, ambient, and pop, known for albums like Little Star (2020), Veluga (2024), and Alebrijes (2025). Founded by Alexander Scott, the group has produced multiple EPs and singles, including \"Sirenas,\" and is noted for its eclectic, space-themed soundscapes. They are on the verge of releasing their 5th studio album Ch1pT00nz on March 18th, 2026.",
     "links": {
-      "bandcamp": "https://satalights.bandcamp.com"
+      "apple_music": "https://music.apple.com/us/artist/satalights/1210851313",
+      "bandcamp": "https://satalights.bandcamp.com",
+      "facebook": "https://www.facebook.com/Satalights/",
+      "instagram": "https://www.instagram.com/satalights/",
+      "soundcloud": "https://soundcloud.com/satalights",
+      "spotify": "https://open.spotify.com/artist/1vjX0IzSOVEpVhZ7uBSvhh",
+      "youtube": "https://www.youtube.com/watch?v=VzS1EcVVlAg"
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
@@ -38511,6 +39325,18 @@
     "events_raw": [],
     "location": "SAN FRANCISCO, CA",
     "events": [
+      {
+        "event_id": "MS64526",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "19:50",
+        "end_time": "20:20",
+        "presented_by": "Spaace Camp"
+      },
       {
         "event_id": "MS63739",
         "event_type": "showcase",
@@ -38637,11 +39463,13 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "",
+    "description": "Originally from a small Mexican town, Balderrama, Guerrero, Sencible de Tierra Caliente has one goal: to represent and share the music of their region, tierra caliente, to the whole world.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/sencible-de-tierra-caliente/1681326122",
-      "spotify": "https://open.spotify.com/artist/4ed19ktboXR8YtLKv3wm0Z",
-      "tiktok": "https://www.tiktok.com/@sencibledetierracaliente"
+      "apple_music": "https://music.apple.com/us/album/no-necesito-madrinas/1681387481?i=1681387482",
+      "facebook": "https://www.facebook.com/SencibleDTC/",
+      "spotify": "https://open.spotify.com/track/0EergT9FFnp23RqiSWNqmy",
+      "tiktok": "https://www.tiktok.com/@sencibledetierracaliente",
+      "youtube": "https://www.youtube.com/watch?v=N6uRv6m0U_E"
     },
     "events": [
       {
@@ -38725,6 +39553,18 @@
     "location": "MONTREAL, QC, CANADA",
     "events": [
       {
+        "event_id": "MS64528",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "23:10",
+        "end_time": "23:40",
+        "presented_by": "Spaace Camp"
+      },
+      {
         "event_id": "MS63359",
         "event_type": "showcase",
         "venue": "Swan Dive",
@@ -38761,6 +39601,18 @@
     "events_raw": [],
     "location": "MELBOURNE, AUSTRALIA",
     "events": [
+      {
+        "event_id": "MS64640",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "13:05",
+        "end_time": "13:35",
+        "presented_by": "Planetary Group"
+      },
       {
         "event_id": "MS63673",
         "event_type": "showcase",
@@ -38808,15 +39660,15 @@
     "state": "TX",
     "entity_id": 2240969,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240969",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/1JiXcgvqnLuvWoCkd9fLqYhsm1k=/450x450/images.sxsw.com/178/573e4061-f447-8aca-cb6f-0c72990d4365/artist-75765",
     "announcement_date": "2026-01-13",
     "source": "official",
-    "description": "",
+    "description": "Sexpop is a synth dream pop band that has been written and recorded solely by Blaise Eldred using his iPhone. The tracks are reminiscent of 80s disco with groovy bass lines that accompany catchy guitar riffs and dreamy melodies for the perfect ear candy combination. Sexpop started in Blaise’s bedroom when he was 17 years old. Now, Blaise has formed the band in Austin, Texas out of friends and colleagues to perform the music for a live audience. The first album passed over a million views on spotify, and Sexpop is still being released till today. With Sexpop 2’s release receiving great reviews, Sexpop continues to push the envelope for more and more music to come.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/sexpop/1376286201?itscg=30200&itsct=music_box_link&ls=1&app=music&mttnsubad=1376286201",
       "instagram": "https://www.instagram.com/sexxpop/?hl=en",
       "soundcloud": "https://soundcloud.com/blaze_eldred",
-      "spotify": "https://open.spotify.com/artist/5YoMiOBqFD3ix30uj1fYyh",
+      "spotify": "https://open.spotify.com/track/1IJo1CnUwtyJbcRqrGzIpG?si=8Q2Vu4XxSbahNcu7bsrr0A",
       "youtube": "https://www.youtube.com/watch?v=GYgz1gtw700&pp=ygUGc2V4cG9w"
     },
     "events_raw": [],
@@ -39100,6 +39952,38 @@
     ]
   },
   {
+    "name": "She Returns From War",
+    "genre": "Alt Country",
+    "subgenre": "Alt Country",
+    "city": "Charleston",
+    "country": "United States",
+    "state": "TN",
+    "entity_id": 2284159,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2284159",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-10",
+    "source": "official",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/1xV0GnS0rRGdvPYEEeLWhH?si=cye57Gd0TtaywvYvkYjgQg"
+    },
+    "events": [
+      {
+        "event_id": "MS65242",
+        "event_type": "showcase",
+        "venue": "Saxon Pub",
+        "venue_id": "V0220",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": "Armadillo World Headquarters"
+      }
+    ],
+    "location": "CHARLESTON, TN"
+  },
+  {
     "name": "She23",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Pop",
@@ -39300,9 +40184,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "22:45",
+        "end_time": "23:15",
+        "presented_by": "SXSW DJz and Friends"
       }
     ],
     "location": "KINGSTON, JAMAICA"
@@ -39809,7 +40693,7 @@
     "thumbnail_url": "https://images.sxsw.com/W6-2B09i_C-Qry_WQZGe2cmhvV8=/450x450/images.sxsw.com/178/bd7291b7-73ee-1700-9285-830a5df736b7/artist-76103",
     "announcement_date": "2026-02-11",
     "source": "official",
-    "description": "Slash Need have earned a reputation for putting on high-energy theatrical live performances. Heralded as the most talked about touring act in Canada, their commanding style of propulsive techno and metallic EBM serve as the backdrop to an unpredictable, ever-changing, and communal performance piece. Conjuring the essence of cherry red lipstick smudged on the rim of a spilled energy drink, baby powder masquerading as Chanel perfume; pheromones, smoke machines, and crossed wires, Toronto’s Slash Need is an invitation to demand more. Their debut album, SIt & Grin, is a blistering industrial debut, as unapologetic and brash as it is groundbreaking. Following a viral bout of unplanned, and gratifying, attention from right wing media in 2023 after their lore-making performance at Toronto Pride, the group has developed a cult following. (A widely-circulated video earned 2.3 million views with one comment calling the group ”nasty, filthy perverts”.) Conjuring the essence of cherry red lipstick smudged on the rim of a spilled energy drink, baby powder masquerading as Chanel perfume; pheromones, smoke machines, and crossed wires, Toronto’s Slash Need is an invitation.",
+    "description": "Slash Need have earned a reputation for putting on high-energy theatrical live performances. Heralded as the most talked about touring act in Canada, their commanding style of propulsive techno and metallic EBM serve as the backdrop to an unpredictable, ever-changing, and communal performance piece. Conjuring the essence of cherry red lipstick smudged on the rim of a spilled energy drink, baby powder masquerading as Chanel perfume; pheromones, smoke machines, and crossed wires, Toronto’s Slash Need is an invitation to demand more. Their debut album, SIt & Grin, is a blistering industrial debut, as unapologetic and brash as it is groundbreaking.",
     "links": {
       "apple_music": "https://music.apple.com/ca/song/border-town/1833589192",
       "bandcamp": "https://slashneed.bandcamp.com/music",
@@ -40247,6 +41131,39 @@
     ]
   },
   {
+    "name": "softcheese",
+    "genre": "DJ",
+    "subgenre": "None",
+    "city": "Jacksonville",
+    "country": "United States",
+    "state": "FL",
+    "entity_id": 2277374,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2277374",
+    "thumbnail_url": "https://images.sxsw.com/Kc7RqVh0q6KUSyiLXasV0ocRIro=/450x450/images.sxsw.com/178/d895ce1f-9e0e-e2f3-020a-59bfe549d1fe/artist-76582",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Born in New York and raised in Jacksonville, FL, softcheese is more than a DJ, she is self‑described as a Vibe Curator. Driven by a deep fascination with the sounds of the diaspora, she crafts immersive experiences through genre‑blending mixes that deliver a distinct experience every time. When you’re at a softcheese set, the energy is high so be prepared to dance.",
+    "links": {
+      "tiktok": "https://www.tiktok.com/@softcheesebaby",
+      "youtube": "https://www.youtube.com/watch?v=VkLvU7r4IME"
+    },
+    "events": [
+      {
+        "event_id": "MS64998",
+        "event_type": "showcase",
+        "venue": "The Creek and the Cave Backyard",
+        "venue_id": "V0583",
+        "parent_venue": "The Creek and the Cave",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "22:00",
+        "end_time": "01:00",
+        "presented_by": "The Digilogue "
+      }
+    ],
+    "location": "JACKSONVILLE, FL"
+  },
+  {
     "name": "Solarrio",
     "genre": "Pop",
     "subgenre": "Funk",
@@ -40256,7 +41173,7 @@
     "entity_id": 2249514,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249514",
     "thumbnail_url": "https://images.sxsw.com/II9XSj_N76TyraQntHWz9RwJf8Y=/450x450/images.sxsw.com/178/e04669ea-2a62-fc1e-139a-3bcaac19bae4/artist-74986",
-    "announcement_date": "2026-02-21",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "David Barenboim, known artistically as Solarrio, whose journey reflects an eclectic combination of cultural influences and the pursuit of musical innovation. Born into a family immersed in classical music, David's early life was marked by a growing fascination with pop, hip-hop, and electronic music.\n\nGrowing up between Paris, Chicago and Berlin, David found himself drawn to pop and electronic music, genres that would later define his work.\n\nSolarrio’s debut album \"All the Wrong Places,\" released in 2024, is a culmination of his experiences and musical evolution. The album, characterized by its upbeat, fun-loving vibe, still carries the emotional depth. His next album \"Toxicology\" is slated for a Fall 2025 release, including tracks like \"That's Not Me\" and \"So Many Questions\".\n\nFrom classical music to a pop music innovator, his journey is a testament to the power of embracing change and staying true to one's artistic vision.",
     "links": {
@@ -40278,7 +41195,7 @@
         "day": "2026-03-18",
         "start_time": "20:40",
         "end_time": "21:10",
-        "presented_by": "Math Class Creative"
+        "presented_by": "Math Class Creative: Money In Motion"
       }
     ],
     "location": "PARIS, FRANCE"
@@ -40316,43 +41233,6 @@
       }
     ],
     "location": "MEXICO CITY, MEXICO"
-  },
-  {
-    "name": "Somalia",
-    "genre": "R & B",
-    "subgenre": "Soul",
-    "city": "Lithonia",
-    "country": "United States",
-    "state": "GA",
-    "entity_id": 2249512,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2249512",
-    "thumbnail_url": "https://images.sxsw.com/n0xGAruSKjtqlQMnDrdNYuMC0mg=/450x450/images.sxsw.com/178/aa90ac40-9969-955a-e796-ca2b5342bf8f/artist-75007",
-    "announcement_date": "2026-02-21",
-    "source": "official",
-    "description": "omalia is an emerging R&B soul artist from Lithonia, Georgia who has been singing since age 10 and is actively creating her own seat at the table in today’s R&B music scene. Fresh off performing at the 2025 Blavity Fest stage as an Up & Next Artist, she has already opened for icons like 2Chainz, Kelly Price, and Keke Wyatt. A proud Spelman College graduate, Somalia self-funded and curated her own tour, proving her belief in taking control of her artistry and career. Her viral single “Mimosa” has garnered 15K+ views on YouTube, and her 2024 EP \"A Soft Place to Land\" is available on all streaming platforms. With past performances with the Atlanta BeltLine, Microsoft, Fulton County Arts & Culture, ELEVATE Atlanta, and Six Flags Over Georgia, Somalia continues to captivate audiences with her angelic vocals, dynamic stage presence, and songs that tell stories only she could tell.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/somalia/317277007",
-      "website": "https://bnds.us/y59f1o",
-      "facebook": "https://www.facebook.com/thesomaliashow/",
-      "spotify": "https://open.spotify.com/artist/2sGDv3ep8neqgpQCwJEhHk",
-      "tiktok": "https://www.tiktok.com/@the_somaliashow",
-      "youtube": "https://www.youtube.com/channel/UCtpxj-cCxgWzNlKuvksJ9Eg"
-    },
-    "events": [
-      {
-        "event_id": "MS63941",
-        "event_type": "showcase",
-        "venue": "The Creek and the Cave",
-        "venue_id": "V0582",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-18",
-        "start_time": "20:00",
-        "end_time": "20:30",
-        "presented_by": "Math Class Creative"
-      }
-    ],
-    "location": "LITHONIA, GA"
   },
   {
     "name": "Somebody Someone",
@@ -40410,6 +41290,7 @@
     "source": "official",
     "description": "someshiit is a Taiwanese hip-hop artist known for his unique blend of bedroom rap and live band arrangements. Drawing influence from UK, Japanese, and Korean hip-hop, he emerged in 2019 with the breakout single “Those Who Told Me to Quit Smoking Are All Dead” (5M+ views on YouTube), the track’s poetic and raw storytelling quickly resonated with a new generation of listeners. His debut album ‘A FOOL’ pushed even further, fusing gritty lyricism with lush, genre-blurring production alongside collaborators like Samjoo (deca joins), Sam Yang, and Pei-Yu Hung, earning him Best New Artist at the Golden Melody Awards, Taiwan’s most prestigious music honor.\nFrom TV screens “The Rappers 2” to major Taiwanese festival stages like Megaport, Vagabond, and FireBall Fest, he weaves lush live-band arrangements as the backbone of his sound, layered with razor-sharp, prose-like lyricism that cuts straight to the core. His self-produced shows consistently sell out, including his first overseas performance in Hong Kong, proving that his music’s emotional gravity transcends borders. Internationally, he has worked alongside acclaimed Japanese rapper maco marets and South Korean psychedelic band CHS, garnering attention from various media outlets and hip-hop labels.\n\nWith a reimagined EP set to drop in 2025 marking six years since his breakout hit, someshiit isn’t just evolving, he’s shaping a new creative language for Mandarin rap, redefining its boundaries one verse at a time.",
     "links": {
+      "apple_music": "https://music.apple.com/us/song/kinds-of-kindness-feat-chs/1770466055",
       "facebook": "https://www.facebook.com/someshiitonthemic",
       "instagram": "https://www.instagram.com/someshiitonthemic/",
       "youtube": "https://music.youtube.com/watch?v=wmxCotXmn7M&si=Btxwt3Xm6AL2Tsnm"
@@ -40484,7 +41365,7 @@
     "name": "Sonny Vercettie",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hip-Hop / Rap",
-    "city": "Leander",
+    "city": "McKinney",
     "country": "United States",
     "state": "TX",
     "entity_id": 2281158,
@@ -40515,7 +41396,7 @@
         "presented_by": "Propain x No Sleep MG: Made From Scratch #FOREVERTRILL"
       }
     ],
-    "location": "LEANDER, TX"
+    "location": "MCKINNEY, TX"
   },
   {
     "name": "Sonora Hechicera",
@@ -41059,6 +41940,36 @@
     "location": "United States"
   },
   {
+    "name": "Special Guest(s)",
+    "genre": null,
+    "subgenre": null,
+    "city": "Moneytown",
+    "country": "United States",
+    "state": null,
+    "entity_id": 2280447,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2280447",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65143",
+        "event_type": "showcase",
+        "venue": "Shangri-La",
+        "venue_id": "V0879",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Money Mark and Friends "
+      }
+    ],
+    "location": "MONEYTOWN"
+  },
+  {
     "name": "Spencer Thomas",
     "genre": "Singer-Songwriter",
     "subgenre": "Alternative",
@@ -41567,7 +42478,7 @@
     "state": "HI",
     "entity_id": 2240051,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2240051",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/Y3wXrIzfjTbnEhbZ5s68L0EIDRc=/450x450/images.sxsw.com/178/6ed0791a-db7e-651f-ff02-fae757fe796a/artist-73374",
     "announcement_date": "2026-01-13",
     "source": "official",
     "description": "Still Blank’s sound is a unique blend of shoegaze haze, folk intimacy, and emotionally raw ambient alt-rock grit. With lyrics steeped in people-watching, dreams, nature, and existential observation, their songwriting draws from both introspection and their surroundings. Ben and Jordy met by chance in Liverpool 2 years ago sparking a lightning-in-a-bottle creative partnership. What started as casual jam sessions in a basement quickly evolved, with sessions ranging from stripped-back recordings on a broken classical guitar to studio lock-ins fuelled by long walks through rural Wales and a shared commitment to imperfection. In May 2025 they performed their first show as a band at Permanent Records Roadhouse. Debut single \"What About Jane\" is a grungy, folk-inflected reflection on identity, societal perception, and the expectations we’re forced to confront to uncover who we really are.",
@@ -41669,6 +42580,45 @@
         "presented_by": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show"
       }
     ]
+  },
+  {
+    "name": "STRANGE LOT",
+    "genre": "Rock",
+    "subgenre": "Psychedelic",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2246437,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2246437",
+    "thumbnail_url": "https://images.sxsw.com/aFti33E-WWlgtFlbarzl4797z6o=/450x450/images.sxsw.com/178/ce352432-1e1a-483d-96e8-266dbc042aac/artist-76054",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "STRANGE LOT began as the bedroom project of singer/guitarist Dominic Mena in Phoenix before relocating to Austin in 2019. The band has since evolved into its current lineup: Dominic Mena on vox/guitar, Cameron Martin on drums, Levi Murray on bass, and Jason Desiderio on synthesizer and guitar.\n\nTheir Greenway Records debut 7\" features tracks produced by Alex Maas of The Black Angels, mixed by Jim Eno of Spoon and Dave Fridmann, and mastered by Howie Weinberg.\nAfter touring with Boogarins in 2024, the band capped the year with a performance on the headlining stage at Austin’s Levitation Festival alongside The Black Angels. 2025 has brought an official appearance at SXSW and two headlining tours across the US. In 2026, STRANGE LOT will head overseas for a Europe and UK tour, including a slot at Fuzz Club Eindhoven, before returning to Texas for a performance at Austin Psych Fest and the release of their highly anticipated full-length album, marking the next chapter of their immersive, psychedelic soundscapes.\n\nThe band has shared the stage with The Jesus and Mary Chain, The Brian Jonestown Massacre, The Black Angels, Kikagaku Moyo, LA Witch, and more.",
+    "links": {
+      "apple_music": "https://music.apple.com/gb/artist/strange-lot/991138125",
+      "bandcamp": "https://strangelot.bandcamp.com",
+      "instagram": "https://instagram.com/strangelot",
+      "soundcloud": "https://soundcloud.com/strange_lot",
+      "spotify": "https://open.spotify.com/track/1z7O5rsRHgzOh9TR2FhlBw?si=931d28320c33401e",
+      "tiktok": "https://www.tiktok.com/@strangelot",
+      "website": "https://strangelot.com/",
+      "youtube": "https://youtu.be/iI1IgKIEpVI"
+    },
+    "events": [
+      {
+        "event_id": "MS63741",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas Patio",
+        "venue_id": "V0263",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "20:30",
+        "end_time": "21:00",
+        "presented_by": "Spaace Camp"
+      }
+    ],
+    "location": "AUSTIN, TX"
   },
   {
     "name": "Subpar Snatch",
@@ -41786,7 +42736,7 @@
         "age_policy": null,
         "day": "2026-03-15",
         "start_time": "19:50",
-        "end_time": "20:10",
+        "end_time": "20:20",
         "presented_by": null
       }
     ]
@@ -42471,6 +43421,40 @@
     ]
   },
   {
+    "name": "Synapson",
+    "genre": "Electronic",
+    "subgenre": "Pop",
+    "city": "Paris",
+    "country": "France",
+    "state": null,
+    "entity_id": 2280279,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2280279",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Synapson is the alchemy between two French producers who have been captivating attention since 2010. After 15 years of career, five albums, multiple tours, hundreds of millions of streams, and numerous gold and platinum certifications, the duo is back with new sounds and collaborations.",
+    "links": {
+      "instagram": "https://www.instagram.com/synapson/?hl=fr",
+      "soundcloud": "https://soundcloud.com/synapson",
+      "website": "https://www.synapson.fr/"
+    },
+    "events": [
+      {
+        "event_id": "MS65135",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "20:30",
+        "end_time": "22:00",
+        "presented_by": null
+      }
+    ],
+    "location": "PARIS, FRANCE"
+  },
+  {
     "name": "Synchrolyst",
     "genre": "Electronic",
     "subgenre": "Disco",
@@ -42510,10 +43494,10 @@
     "city": "Hamburg",
     "country": "Germany",
     "state": null,
-    "entity_id": 2240098,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2240098",
+    "entity_id": 2284081,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2284081",
     "thumbnail_url": "https://images.sxsw.com/oheAVk4_ofcCNv8pRjEZ5thWikE=/450x450/images.sxsw.com/178/be989b2a-751f-ef9e-6c7f-3b7fd08b96fc/artist-73014",
-    "announcement_date": "2025-11-11",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "t-low is one of the most distinctive voices of the new German music generation. With a raw emotional honesty and a sound rooted in emo rap and alternative pop, he has become a defining figure in the post-Gen-Z youth culture of the German-speaking world. Born and raised in a small town in northern Germany, t-low emerged from SoundCloud culture and quickly gained nationwide attention with his unfiltered lyrics and melodic sensibility. His music explores themes of mental health, love, identity, and existential struggle delivered with a rare vulnerability that resonates deeply with his audience.\n\nWith multiple gold and platinum records, sold-out tours, and chart-topping singles, t-low has established himself as a generational voice in Germany. Yet despite his commercial success, he has consistently pushed boundaries and stayed artistically uncompromising. In late 2025, t-low will release his highly anticipated comeback album \"REAL MUSIC\", marking a return to his roots with a more introspective, emotionally complex sound. His showcase at SXSW 2026 is not about breaking into the U.S. market - it’s a statement.",
     "links": {
@@ -42524,23 +43508,9 @@
       "tiktok": "https://www.tiktok.com/@tlow?_t=ZN-8yJpZlyhfJG&_r=1",
       "youtube": "https://www.youtube.com/watch?v=ilxdb3jbHVM"
     },
-    "events_raw": [],
-    "location": "HAMBURG, GERMANY",
     "events": [
       {
-        "event_id": "MS64396",
-        "event_type": "showcase",
-        "venue": "Marlow",
-        "venue_id": "V2194",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-12",
-        "start_time": "01:00",
-        "end_time": "01:30",
-        "presented_by": null
-      },
-      {
-        "event_id": "MS63155",
+        "event_id": "MS65234",
         "event_type": "showcase",
         "venue": "Global Stage @ Downright Austin Backyard",
         "venue_id": "V2392",
@@ -42551,7 +43521,8 @@
         "end_time": "22:00",
         "presented_by": null
       }
-    ]
+    ],
+    "location": "HAMBURG, GERMANY"
   },
   {
     "name": "Taija Kerr",
@@ -42718,6 +43689,46 @@
     ]
   },
   {
+    "name": "Taraneh",
+    "genre": "Rock",
+    "subgenre": "Alternative",
+    "city": "New York",
+    "country": "United States",
+    "state": "NY",
+    "entity_id": 2284082,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2284082",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Taraneh is the rock-centered multi-genre project of Iranian New York-based singer/songwriter, instrumentalist and producer Taraneh Azar. Taraneh, meaning \"melody\" or \"song\" in Farsi, seamlessly weaves together hypnotizing electronic ballads, vulnerable dream-pop elements and hard-hitting grunge riffs to create a gritty landscape of true rock in the modern age. Taraneh is joined by a band of three.\n\n\"Taraneh's sound has proven to be an enticing enigma — and not entirely for any ultramodern sonics, bells, or whistles. Taraneh delivers the rarity of real rock — refreshing, rough, wily - at times echoing the seductive side of Blondie, at others the brashness of Babes in Toyland, though it's always very much her own at heart.\" - Alt Press\n\nTaraneh's latest record \"Unobsession,\" released 10/10/25, is a hard-rock confessional, synthesizing grunge, nu-metal, prog and doom elements to pioneer a sound uniquely her own.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/spinning-out/1843773209?i=1843773801",
+      "bandcamp": "https://taraneh.bandcamp.com/music",
+      "instagram": "https://www.instagram.com/taranehsworld/",
+      "pandora": "https://www.pandora.com/artist/taraneh/ARbz26cV3gP2lkK?part=ug-desktop&corr=172747572522271076",
+      "soundcloud": "https://soundcloud.com/taranehsworld",
+      "spotify": "https://open.spotify.com/track/63TxxmMwEh0U2A3RPSBOEW?si=7d16ecbabf154ad6",
+      "tiktok": "https://www.tiktok.com/@neopets2007",
+      "website": "https://www.typeyes.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn2hdc2_MCsaaxUnfHhj0YCu_AM7TAFl6PmkqerPbU4deTiLdfXp41MEZJx2U_aem_15mzNPlPWrVcVJgGt0XZxg",
+      "youtube": "https://youtu.be/bQb-ngLrPdU?si=WTY7z0P4_0xKay2e"
+    },
+    "events": [
+      {
+        "event_id": "MS65243",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "19:00",
+        "end_time": "19:40",
+        "presented_by": "Academy Fight Songs / Rough Trade Publishing "
+      }
+    ],
+    "location": "NEW YORK, NY"
+  },
+  {
     "name": "Tavo Rayo",
     "genre": "Reggaeton",
     "subgenre": "Reggaeton",
@@ -42824,6 +43835,18 @@
         "start_time": "18:40",
         "end_time": "19:00",
         "presented_by": "Billboard House"
+      },
+      {
+        "event_id": "MS64988",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "Armadillo World Headquarters"
       },
       {
         "event_id": "MS64919",
@@ -43076,6 +44099,39 @@
     ]
   },
   {
+    "name": "Tiara Thomas",
+    "genre": "R & B",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Indianpolis",
+    "country": "United States",
+    "state": "IN",
+    "entity_id": 2284160,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2284160",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Born and raised in Indianapolis Indiana, a graduate of Ball State University, Tiara Thomas holds the rare distinction of achieving success as both a singer and songwriter. Having worked with many successful artists including John Legend, H.E.R, Kaytranada, Chris Brown, Fat Joe and more. In 2021, Tiara Thomas’ work as a songwriter was recognized with her first Grammy Award in the prestigious category of Song of the Year for co-writing \"I Can't Breathe\". With Grammy winner H.E.R. That same year, Thomas also received a Golden Globe nomination and was honored with an Academy Award for Best Original Song, for co-writing the song “Fight For\"You”, from the film, Judas and the Black Messiah.\nTiara Thomas first vaulted into national consciousness in 2013 when she co-wrote, co-produced and appeared on Wale’s hit single “Bad.” The track peaked at number 21 on the Billboard Hot 100, becoming her first Hot 100 and top 40 entry. The success of “Bad” was quickly followed by her division 1/Interscope Geffen A&M debut album The Bad Influence in 2014. The project resulted in the hit single “One Night.”, produced by Grammy Award-winning songwriter/producer Rico Love. After the success of “One Night”, Thomas went on to record and release, Up in Smoke in 2015, and the Don’t Mention My Name EP in 2017 and the critically praised FWMM in 2018.",
+    "links": {
+      "instagram": "https://www.instagram.com/tiara_thomas/?hl=en",
+      "tiktok": "https://www.tiktok.com/@tiarathomas__?is_from_webapp=1&sender_device=pc"
+    },
+    "events": [
+      {
+        "event_id": "MS65247",
+        "event_type": "showcase",
+        "venue": "Taco n Maiz",
+        "venue_id": "V2448",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-13",
+        "start_time": "",
+        "end_time": "",
+        "presented_by": "God Body Official Stage"
+      }
+    ],
+    "location": "INDIANPOLIS, IN"
+  },
+  {
     "name": "The Tiarras",
     "genre": "Rock",
     "subgenre": "Indie Pop",
@@ -43123,7 +44179,7 @@
     "state": "AL",
     "entity_id": 2270841,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2270841",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/a_xQZDp3eYwlJSyOIW2CIlLNW64=/450x450/images.sxsw.com/178/0ae941bf-2137-c1b1-c4cc-f73554bdb91e/artist-76551",
     "announcement_date": "2026-03-04",
     "source": "official",
     "description": "",
@@ -43133,7 +44189,8 @@
       "spotify": "https://open.spotify.com/artist/26VEPCGAYB9OClQodb0OR1?si=vKyVBm9qQOi4Xq1XQRlEog",
       "tiktok": "https://www.tiktok.com/@tierakennedy?is_from_webapp=1&sender_device=pc",
       "twitter": "https://x.com/TieraMusic",
-      "website": "https://tiera.com"
+      "website": "https://tiera.com",
+      "youtube": "https://www.youtube.com/@Tiera/featured"
     },
     "events": [
       {
@@ -43260,7 +44317,7 @@
         "day": "2026-03-12",
         "start_time": "19:30",
         "end_time": "20:00",
-        "presented_by": null
+        "presented_by": "Casa Gogol"
       },
       {
         "event_id": "MS64324",
@@ -43285,10 +44342,10 @@
     "state": "TX",
     "entity_id": 2282343,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2282343",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/zL3f9g9w5Aucjz8Phhzi1HAvu9I=/450x450/images.sxsw.com/178/69fa51c9-2aea-5d64-4f0f-f56c9d1d87c2/artist-76710",
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "",
+    "description": "TJ THE DJ is a Tejana DJ, stylist, and creative powerhouse originally from a border town in the Rio Grande Valley. Raised on a blend of cultural influences and rich musical traditions, she developed her sound early-playing saxophone, guitar, and piano before ever stepping behind the decks.\nAfter moving to Austin to pursue her education and immerse herself in the city's vibrant music scene, TJ found her calling in DJing. A pivotal encounter with 21 Savage and his tour DJ in San Antonio sparked the idea to turn her lifelong love of music into a career. Armed with a starter controller and an insatiable drive, she taught herself the craft through countless hours of YouTube tutorials. It wasn't long before she landed her first gig-and she hasn't looked back since.\nTu the DJ has shared stages with major artists like Christian Nodal, BeatKing, Kaash Paige, Ken the Man, and Tay Money, spinning high-energy sets across the U.S.\nHer unique sound and energy have also caught the attention of major brands, including Billboard, Amazon Prime, and Hulu.\nShe continues to set the vibe & create timeless memories at any event she performs at!",
     "links": {
       "instagram": "https://www.instagram.com/_tjthedj",
       "tiktok": "https://www.tiktok.com/@_tjthedj",
@@ -43530,7 +44587,7 @@
     "thumbnail_url": "https://images.sxsw.com/4O9WqNjzJ2vGzh8cl9OA8JTH9Xo=/450x450/images.sxsw.com/178/1442843d-e676-feeb-fd7e-edd459e2e08e/artist-75490",
     "announcement_date": "2026-01-13",
     "source": "official",
-    "description": "Come Back Down, the new album by Nashville experimental-pop duo Total Wife, was born from the edge of sleep. When composer and producer Luna Kupper would begin to fall asleep during late-night mixing sessions, the songs would follow her into the halfway place between dream and lucidity. Like Dale Cooper in Twin Peaks, she’d wake with a new perspective on the puzzle she was piecing together. “I’m a psychological mixer — I’m trying to think of how someone’s experiencing the sound, versus getting stuck in trying to make all these different tones and using all this gear to make something sound a certain way,” Kupper says.\n\nAnd like a spiral from waking life into dream, the songs on Come Back Down are endlessly self- referential, building whole universes from a single point. Kupper sold all of her synths to make rent before she started working on the album, and so every inorganic sound is instead built from samples of the band’s own work. A guitar on one song may be reprocessed and used as a synth on the next, while everywhere on the album vocal samples are taken from a single unreleased cover of Elliott Smith’s “Between the Bars.” In tribute to this process, the album was almost named The Julia Set after the mathematical equation which feeds into itself again and again, creating beautiful fractal images. The intention was to create something complex but accessible; experimental, yet precise and without abstraction.",
+    "description": "When Total Wife's composer and producer Luna Kupper would begin to fall asleep during late-night mixing sessions, the songs would follow her into the halfway place between dream and lucidity. Like Dale Cooper in Twin Peaks, she’d wake with a new perspective on the puzzle she was piecing together And like a spiral from waking life into dream, the songs on Come Back Down are endlessly self-referential, building whole universes from a single point. Kupper sold all of her synths to make rent before she started working on the album, and so every inorganic sound is instead built from samples of the band’s own work.\n\nRichter and Kupper, friends from high school, formed Total Wife in 2016, relocating from Boston to Nashville. Both are visual artists as well as musicians, which they incorporate into their work with Total Wife via layered and purposeful visuals. A DIY streak underpins everything that they do — from handling their own artwork and music videos to recording their own music, releasing tapes through their label Ivy Eat Home, and hosting house shows in the basement they’ve christened Ryman 2.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/peaches/1822343547?i=1822343550",
       "bandcamp": "https://totalwife.bandcamp.com/music",
@@ -43670,6 +44727,18 @@
     "location": "COPENHAGEN, DENMARK",
     "events": [
       {
+        "event_id": "MS65091",
+        "event_type": "showcase",
+        "venue": "The 13th Floor",
+        "venue_id": "V2123",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "01:00",
+        "end_time": "01:45",
+        "presented_by": null
+      },
+      {
         "event_id": "MS63312",
         "event_type": "showcase",
         "venue": "Low Down Lounge",
@@ -43763,7 +44832,7 @@
     "state": "NM",
     "entity_id": 2267542,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2267542",
-    "thumbnail_url": "https://images.sxsw.com/A0ValMJavfOnxhhERwgeANsVlzY=/450x450/images.sxsw.com/178/9caf66da-7379-f4f4-3c83-838e6fc05841/artist-",
+    "thumbnail_url": "https://images.sxsw.com/OpxA-JA2PoYpSnMMHh2ejqoShEU=/450x450/images.sxsw.com/178/9caf66da-7379-f4f4-3c83-838e6fc05841/artist-76504",
     "announcement_date": "2026-03-04",
     "source": "official",
     "description": "Tropa Magica was formed by brothers David and Rene Pacheco in 2018. Inspired by the songs and vibes of 90’s East LA backyard quinceañeras, baptisms, family gatherings and punk shows. The band blends in the guitar and rhythms of 60’s Peruvian Cumbias and 90’s grunge with a neo-southern psychedelic twist that transports the listener into a tropical psychedelic dance party.",
@@ -44127,6 +45196,18 @@
     "location": "ADELAIDE, AUSTRALIA",
     "events": [
       {
+        "event_id": "MS65232",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-13",
+        "start_time": "17:35",
+        "end_time": "18:05",
+        "presented_by": "Planetary Group"
+      },
+      {
         "event_id": "MS64589",
         "event_type": "showcase",
         "venue": "British Music Embassy @ Palm Door on Sixth",
@@ -44368,6 +45449,44 @@
         "presented_by": "Kaash Paige & Friends"
       }
     ]
+  },
+  {
+    "name": "Ugo Angelito",
+    "genre": "Reggaeton",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "state": null,
+    "entity_id": 2250279,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2250279",
+    "thumbnail_url": "https://images.sxsw.com/1X1sIPULW6119BVfZHXhJbziACc=/450x450/images.sxsw.com/178/056addc8-7394-6e5b-21c0-3b6648d13755/artist-76206",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "ES\nUgo Angelito es un pilar del reggaetón mexicano. Fundador de iFlow Records, ha colaborado con leyendas como Farruko, Plan B y Nova. Destaca por llenar tres veces la Plaza de Toros en \"Reggaeton Live\" y actuar en el Zócalo (FIFA 2018). Su impacto es global: desde remixes virales de Drake hasta sonar en series de Netflix y HBO Max. Con presencia constante en el Coca Cola Flow Fest, ha llevado su música a EE. UU. y Sudamérica. En 2026, consolida su legado con un nuevo álbum que define la esencia del género en México.\n\nEN\nUgo Angelito is a pioneer of Mexican reggaeton. Founder of iFlow Records, he has collaborated with icons like Farruko, Plan B, and Nova. His career is marked by sold-out shows at the Plaza de Toros and performances at Mexico City's Zocalo for the 2018 FIFA World Cup. From viral remixes to music featured on Netflix and HBO Max, his sound is global. A veteran of the Coca Cola Flow Fest, he has toured the US and Latin America. In 2026, he launches a new album, cementing his legacy as the ultimate representative of the Mexican urban scene.",
+    "links": {
+      "apple_music": "https://music.apple.com/mx/album/pal-piso/1487832782?i=1487833086",
+      "instagram": "https://www.instagram.com/ugoangelito",
+      "soundcloud": "https://soundcloud.com/ugo-angelito",
+      "tiktok": "https://www.tiktok.com/@ugoangelitok",
+      "twitter": "https://x.com/UgoAngelito",
+      "facebook": "https://www.facebook.com/ugoangelito",
+      "youtube": "https://www.youtube.com/watch?v=21tXZbFv3os&list=RD21tXZbFv3os&start_radio=1"
+    },
+    "events": [
+      {
+        "event_id": "MS63977",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "00:45",
+        "end_time": "01:00",
+        "presented_by": "Cincodoce"
+      }
+    ],
+    "location": "MEXICO CITY, MEXICO"
   },
   {
     "name": "Unsafe Space Garden",
@@ -45020,6 +46139,18 @@
         "presented_by": "AS Colour + Monster Children "
       },
       {
+        "event_id": "MS65085",
+        "event_type": "showcase",
+        "venue": "Valhalla",
+        "venue_id": "V0248",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Armadillo World Headquarters"
+      },
+      {
         "event_id": "MS63194",
         "event_type": "showcase",
         "venue": "Swan Dive",
@@ -45176,7 +46307,7 @@
     "entity_id": 2249543,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249543",
     "thumbnail_url": "https://images.sxsw.com/f5gsBIVE9YnsGSV9RCvICCyShrM=/450x450/images.sxsw.com/178/aee1e63b-fe27-56b0-6ea4-3e65911a9335/artist-76183",
-    "announcement_date": "2026-02-25",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Curating vinyl for the random moments in life that help you forget the present.",
     "links": {
@@ -45193,7 +46324,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "19:00",
+        "start_time": "19:05",
         "end_time": "00:00",
         "presented_by": "Vinilious Records"
       }
@@ -45221,6 +46352,18 @@
     "events_raw": [],
     "location": "AUSTIN, TX",
     "events": [
+      {
+        "event_id": "MS64803",
+        "event_type": "showcase",
+        "venue": "Lefty’s Brick Bar",
+        "venue_id": "V1902",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:00",
+        "end_time": "22:50",
+        "presented_by": "EQ Austin"
+      },
       {
         "event_id": "MS64790",
         "event_type": "showcase",
@@ -46127,9 +47270,9 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "start_time": "22:00",
+        "end_time": "22:45",
+        "presented_by": "SXSW DJz and Friends"
       }
     ]
   },
@@ -46839,7 +47982,7 @@
     "location": "CINCINNATI, OH"
   },
   {
-    "name": "Yakiyan",
+    "name": "Yakiyn",
     "genre": "Hip-Hop / Rap",
     "subgenre": "None",
     "city": "Dallas",
@@ -47230,7 +48373,7 @@
     "entity_id": 2267092,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2267092",
     "thumbnail_url": "https://images.sxsw.com/gKEo_F-hJN-FOpSa0oGglMVpXHY=/450x450/images.sxsw.com/178/00f0fc63-e28f-ef3c-2932-416394377412/artist-76486",
-    "announcement_date": "2026-02-24",
+    "announcement_date": "2026-03-09",
     "source": "official",
     "description": "Yoshi Vintage is a bold hip-hop voice blending grit, vulnerability, and unapologetic presence. Born in Flint, Michigan and now based in Los Angeles, she transforms personal loss and real-life struggle into unfiltered storytelling. Her projects 48458, ALPHA, and BETA showcase her range from raw and hard-hitting to deeply reflective. Yoshi’s first notable recognition came at just eight years old when Randy Jackson, during her America’s Got Talent audition, predicted she would be a powerhouse in the future. Today, with a combined following of over 70,000 across her platforms and more than 300 live performances under her belt, she has been featured on Netflix’s Rhythm + Flow and praised by Ab-Soul, Rapsody, and TDE’s Punch. Yoshi is a powerful force for survival, manifestation, truth, and artistry, leaving an impact that resonates far beyond the music.",
     "links": {
@@ -47251,8 +48394,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-14",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "19:30",
+        "end_time": "19:55",
         "presented_by": "DreamCon"
       }
     ],
@@ -47369,6 +48512,39 @@
       }
     ],
     "location": "HOUSTON, TX"
+  },
+  {
+    "name": "Yuksek",
+    "genre": "DJ",
+    "subgenre": "Electronic",
+    "city": "Paris",
+    "country": "France",
+    "state": null,
+    "entity_id": 2280363,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2280363",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "Yuksek has been wowing global audiences with his unique brand of far out cosmic disco. Darting between projects with an enthusiasm that powerfully demonstrates his love of the beats and an awe-inspiring jack-of-all-trades approach.\nAfter his classical music studies and formative years spent on the rave scenes of the 90s, Yuksek has gone on to impose himself as one of the most brilliant andinventive forces in the global dance scene today.\nAs a producer, label founder, film composer, and globe travelling DJ, Yuksek has garnered a well-deserved reputation as one of the most interesting and attention-grabbing electronic producers flexing in the studio today.\nHe released 5 albums, engineered albums and Ep’s for other artists, produced numerous remixes for obscure projects and pop stars (Lana Del Rey, Moby, Phoenix…), , his own compositions been released on labels like Razor-n-tape, Classic Music, Toy Tonics, Sweat It Out, Barclay, BMG and Kitsuné.\nIn his previous albums Yuksek collaborated with his friends from all over the world; Confidence Man, Polo & Pan, Queen Rose, Breakbot, Phillipi (Fatnotronic), Diogo Strausz… To name a few.\nYuksek is also releasing albums (next one in march 2024) under the pseudonym Destiino, on dj Chloé's label, Lumière Noire. Diving with this alias into a more diffuse and darkelectronic haze, sometimes ambient, sometimes dancing but always experimental and confusing\nYuksek is also writing music for films, series, stage and created two labels (Discrete & Partyfine) to help new talents to emerge and enjoy fun sessions in his studios in Reims and Paris.\nLast year summer Yuksek released his fifth studio album, Dance’o’drome, a cornucopia of far-flung exotic sounds that expertly combined his love affair with worldwide rhythms and colourful carnival flavours.",
+    "links": {
+      "instagram": "https://www.instagram.com/yuksekofficial",
+      "spotify": "https://open.spotify.com/artist/2ePIzx9NjxplS724QMZtsf"
+    },
+    "events": [
+      {
+        "event_id": "MS65136",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "23:30",
+        "end_time": "00:30",
+        "presented_by": null
+      }
+    ],
+    "location": "PARIS, FRANCE"
   },
   {
     "name": "YUME",
@@ -47532,6 +48708,42 @@
     ]
   },
   {
+    "name": "THE YUNGIN",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "None",
+    "city": "Clinton",
+    "country": "United States",
+    "state": "NC",
+    "entity_id": 2279297,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2279297",
+    "thumbnail_url": "https://images.sxsw.com/q1-HYJw0U3sW-iE88DGF_Ts3NoY=/450x450/images.sxsw.com/178/250c28f1-225c-30d7-70ef-c92ac6493f1a/artist-76664",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/what-it-do-single/1875586439",
+      "instagram": "https://www.instagram.com/therealyungin1/",
+      "spotify": "https://open.spotify.com/track/4tCVJq6n8kszM66pAsogWq?si=b8dc3292d4fb4442",
+      "tiktok": "https://www.tiktok.com/@superstaryungin",
+      "youtube": "https://youtu.be/BVjfKfkVP3w?si=OI8Ot-hl24HJl1QU"
+    },
+    "events": [
+      {
+        "event_id": "MS65076",
+        "event_type": "showcase",
+        "venue": "The Creek and the Cave",
+        "venue_id": "V0582",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-18",
+        "start_time": "20:40",
+        "end_time": "20:55",
+        "presented_by": "Math Class Creative: Money In Motion"
+      }
+    ],
+    "location": "CLINTON, NC"
+  },
+  {
     "name": "Z-Ro",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hip-Hop / Rap",
@@ -47610,7 +48822,7 @@
     "state": "TX",
     "entity_id": 2270843,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2270843",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/Gmg2w5JVQfPIlnQzL9I_bsLJepw=/450x450/images.sxsw.com/178/8049dfc4-c26f-151f-fa7a-b8ee61c277e2/artist-76549",
     "announcement_date": "2026-03-04",
     "source": "official",
     "description": "",
@@ -48089,6 +49301,40 @@
       }
     ],
     "location": "WHITTIER, CA"
+  },
+  {
+    "name": "Zayytee",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "El Paso",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2283918,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2283918",
+    "thumbnail_url": "https://images.sxsw.com/-FWqT0gwTTzXCfVIu2cnd5jU05Q=/450x450/images.sxsw.com/178/ee2c1d26-f229-a253-2992-7587d1794deb/artist-76731",
+    "announcement_date": "2026-03-09",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/song/vibe-wit-me/1866465276",
+      "spotify": "https://open.spotify.com/track/6zZHA0WZ3h48VVQoQMnAVv?si=46da955a71534ed8",
+      "youtube": "https://youtu.be/33lbnQYazyQ?si=Z2uWpDWcaQjBR5a5"
+    },
+    "events": [
+      {
+        "event_id": "MS65236",
+        "event_type": "showcase",
+        "venue": "Flamingo Cantina",
+        "venue_id": "V0186",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-12",
+        "start_time": "",
+        "end_time": "",
+        "presented_by": "The Smoke Out ATX"
+      }
+    ],
+    "location": "EL PASO, TX"
   },
   {
     "name": "Zeñal Nortex",
