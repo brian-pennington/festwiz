@@ -2620,24 +2620,26 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .grid-zoom-btn:disabled { opacity: 0.3; cursor: default; }
 
 /* 75% zoom */
-.grid-wrap--zoom-sm .grid-table    { font-size: 9px; }
-.grid-wrap--zoom-sm .grid-venue-th { min-width: 82px; max-width: 105px; font-size: 8px; padding: 6px 7px; }
-.grid-wrap--zoom-sm .grid-corner   { min-width: 39px; }
-.grid-wrap--zoom-sm .grid-time-td  { min-width: 39px; height: 22px; font-size: 8px; padding: 3px 4px; }
-.grid-wrap--zoom-sm .grid-cell     { min-width: 82px; max-width: 105px; }
-.grid-wrap--zoom-sm .grid-show-pill { padding: 3px 4px; }
-.grid-wrap--zoom-sm .grid-show-name { max-width: 97px; }
-.grid-wrap--zoom-sm .grid-show-time { font-size: 7px; }
+.grid-wrap--zoom-sm .grid-table        { font-size: 9px; }
+.grid-wrap--zoom-sm .grid-venue-th     { min-width: 82px; max-width: 105px; font-size: 8px; padding: 6px 7px; }
+.grid-wrap--zoom-sm .grid-corner       { min-width: 39px; }
+.grid-wrap--zoom-sm .grid-time-td      { min-width: 39px; height: 22px; font-size: 8px; padding: 3px 4px; }
+.grid-wrap--zoom-sm .grid-cell         { min-width: 82px; max-width: 105px; }
+.grid-wrap--zoom-sm .grid-show-pill    { padding: 3px 4px; }
+.grid-wrap--zoom-sm .grid-show-name    { max-width: 97px; }
+.grid-wrap--zoom-sm .grid-show-time    { font-size: 7px; }
+.grid-wrap--zoom-sm .grid-show-admission { font-size: 7px; padding: 1px 3px; }
 
 /* 60% zoom */
-.grid-wrap--zoom-xs .grid-table    { font-size: 7px; }
-.grid-wrap--zoom-xs .grid-venue-th { min-width: 66px; max-width: 84px; font-size: 7px; padding: 5px 6px; }
-.grid-wrap--zoom-xs .grid-corner   { min-width: 31px; }
-.grid-wrap--zoom-xs .grid-time-td  { min-width: 31px; height: 17px; font-size: 7px; padding: 2px 3px; }
-.grid-wrap--zoom-xs .grid-cell     { min-width: 66px; max-width: 84px; }
-.grid-wrap--zoom-xs .grid-show-pill { padding: 2px 3px; }
-.grid-wrap--zoom-xs .grid-show-name { max-width: 78px; }
-.grid-wrap--zoom-xs .grid-show-time { font-size: 6px; }
+.grid-wrap--zoom-xs .grid-table        { font-size: 7px; }
+.grid-wrap--zoom-xs .grid-venue-th     { min-width: 66px; max-width: 84px; font-size: 7px; padding: 5px 6px; }
+.grid-wrap--zoom-xs .grid-corner       { min-width: 31px; }
+.grid-wrap--zoom-xs .grid-time-td      { min-width: 31px; height: 17px; font-size: 7px; padding: 2px 3px; }
+.grid-wrap--zoom-xs .grid-cell         { min-width: 66px; max-width: 84px; }
+.grid-wrap--zoom-xs .grid-show-pill    { padding: 2px 3px; }
+.grid-wrap--zoom-xs .grid-show-name    { max-width: 78px; }
+.grid-wrap--zoom-xs .grid-show-time    { font-size: 6px; }
+.grid-wrap--zoom-xs .grid-show-admission { font-size: 6px; padding: 1px 2px; }
 
 /* ── Performing On (window filter) ───────────────────────────────────────── */
 .window-filter { display: flex; flex-direction: column; gap: 8px; }
