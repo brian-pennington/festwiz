@@ -29,9 +29,14 @@
     windowEnd: null,    // null = no end restriction, or "HH:MM"
   };
 
+  // Normalise '&' → 'and' so unofficial/official artist names match regardless of convention.
+  function normForMatch(s) {
+    return (s || '').toLowerCase().replace(/ & /g, ' and ');
+  }
+
   function isRecommended(artist) {
     if (artist.entity_id && recommendedEntityIds.has(String(artist.entity_id))) return true;
-    return recommendedNames.has((artist.name || '').toLowerCase());
+    return recommendedNames.has(normForMatch(artist.name));
   }
 
   // Minutes since day-start, treating hours 0–6 as 24–30 (after-midnight shows)
@@ -48,7 +53,7 @@
     const endMins   = currentFilters.windowEnd   ? minsFromDayStart(currentFilters.windowEnd)   : null;
     const shows = [
       ...(artist.events || []),
-      ...allUnofficialShows.filter(s => s.artist_name.toLowerCase() === artist.name.toLowerCase()),
+      ...allUnofficialShows.filter(s => normForMatch(s.artist_name) === normForMatch(artist.name)),
     ];
     return shows.some(s => {
       if (s.day !== day) return false;
@@ -167,7 +172,7 @@
         if (Array.isArray(uData)) {
           for (const ua of uData) {
             const officialMatch = allArtists.find(
-              a => a.name.toLowerCase() === ua.name.toLowerCase()
+              a => normForMatch(a.name) === normForMatch(ua.name)
             );
             if (officialMatch) {
               officialMatch.links = officialMatch.links || {};
@@ -191,7 +196,7 @@
       if (recommendedResp.ok) {
         const rData = await recommendedResp.json();
         recommendedEntityIds = new Set((rData.entity_ids || []).map(id => String(id)));
-        recommendedNames     = new Set((rData.names || []).map(n => n.toLowerCase()));
+        recommendedNames     = new Set((rData.names || []).map(n => normForMatch(n)));
       }
     } catch (e) {
       console.error('Failed to load artists.json:', e);
@@ -207,7 +212,7 @@
     // Merge user-submitted artists from localStorage state
     for (const ua of userArtists) {
       const exists = allArtists.some(
-        a => a.name.toLowerCase() === ua.name.toLowerCase()
+        a => normForMatch(a.name) === normForMatch(ua.name)
       );
       if (!exists) allArtists.push(ua);
     }
@@ -398,7 +403,7 @@
         (a.country || '').toLowerCase().includes(q) ||
         (a.city || '').toLowerCase().includes(q) ||
         (a.events || []).some(e => (e.venue || '').toLowerCase().includes(q)) ||
-        allUnofficialShows.some(s => s.artist_name.toLowerCase() === a.name.toLowerCase() && (s.venue || '').toLowerCase().includes(q))
+        allUnofficialShows.some(s => normForMatch(s.artist_name) === normForMatch(a.name) && (s.venue || '').toLowerCase().includes(q))
       );
     }
 
@@ -1108,7 +1113,7 @@
           if (importedUserArtists && Array.isArray(importedUserArtists)) {
             for (const ua of importedUserArtists) {
               const exists = userArtists.some(
-                u => u.name.toLowerCase() === ua.name.toLowerCase()
+                u => normForMatch(u.name) === normForMatch(ua.name)
               );
               if (!exists) {
                 userArtists.push(ua);

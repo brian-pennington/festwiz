@@ -43,12 +43,17 @@
 
   function escAttr(s) { return escHtml(s); }
 
+  // Normalise '&' → 'and' so unofficial/official artist names match regardless of convention.
+  function normForMatch(s) {
+    return (s || '').toLowerCase().replace(/ & /g, ' and ');
+  }
+
   // Matches app.js: eid_NNNN for official artists, name_slug for unofficial.
   // For unofficial shows (entity_id null), fall back to artistEntityIdMap so that
   // official artists playing unofficial showcases still match their stored rating.
   function showRatingKey(show) {
     if (show.entity_id) return 'eid_' + show.entity_id;
-    const name = (show.artist_name || '').toLowerCase();
+    const name = normForMatch(show.artist_name);
     const eid = artistEntityIdMap[name];
     if (eid) return 'eid_' + eid;
     return 'name_' + name.replace(/[^a-z0-9]/g, '_');
@@ -118,7 +123,7 @@
   function isRecommended(show) {
     // Direct entity_id on the show record
     if (show.entity_id && recommendedEntityIds.has(String(show.entity_id))) return true;
-    const name = (show.artist_name || '').toLowerCase();
+    const name = normForMatch(show.artist_name);
     // Official artist appearing at an unofficial show (entity_id null on show)
     const eid = artistEntityIdMap[name];
     if (eid && recommendedEntityIds.has(String(eid))) return true;
@@ -131,7 +136,7 @@
     const q = searchFilter.toLowerCase();
     if (show.artist_name.toLowerCase().includes(q)) return true;
     if ((show.venue || '').toLowerCase().includes(q)) return true;
-    const meta = artistMetaMap[show.artist_name.toLowerCase()];
+    const meta = artistMetaMap[normForMatch(show.artist_name)];
     if (!meta) return false;
     return meta.genre.includes(q) || meta.subgenre.includes(q) || meta.location.includes(q);
   }
@@ -226,7 +231,7 @@
         const artistsData = await artistsRes.json();
         for (const a of artistsData) {
           if (a.name) {
-            const key = a.name.toLowerCase();
+            const key = normForMatch(a.name);
             if (a.entity_id) artistEntityIdMap[key] = a.entity_id;
             artistMetaMap[key] = {
               genre:    (a.genre    || '').toLowerCase(),
@@ -244,7 +249,7 @@
       if (recommendedRes.ok) {
         const rData = await recommendedRes.json();
         recommendedEntityIds = new Set((rData.entity_ids || []).map(id => String(id)));
-        recommendedNames     = new Set((rData.names || []).map(n => n.toLowerCase()));
+        recommendedNames     = new Set((rData.names || []).map(n => normForMatch(n)));
       }
 
       // Merge developer-curated unofficial shows from static file
@@ -268,6 +273,7 @@
           // "The Family Battenberg" and "Family Battenberg" share the same key.
           function normName(n) {
             return n.toLowerCase()
+              .replace(/ & /g, ' and ')
               .replace(/^(the|a|an)\s+/, '')
               .replace(/[^a-z0-9]/g, '');
           }
