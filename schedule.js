@@ -1140,6 +1140,39 @@
       noSetByVenue[v].push(show);
     }
 
+    // For venues with a no-set-time block, absorb any timed shows whose start_time
+    // falls within that block's window. They'll render inside the block with their
+    // time shown inline, preventing the rowspan from crushing their individual slots.
+    const timedWithinNoSet = {};
+    for (const v of Object.keys(noSetByVenue)) {
+      const noSetStart = noSetByVenue[v].map(s => s.start_time).filter(Boolean).sort()[0];
+      if (!noSetStart) continue;
+      const noSetEndRaw = noSetByVenue[v].map(s => s.end_time).filter(Boolean).sort().pop();
+      const noSetStartMin = minutesFromDayStart(noSetStart);
+      const noSetEndMin = noSetEndRaw ? minutesFromDayStart(noSetEndRaw) : noSetStartMin + 240;
+      timedWithinNoSet[v] = [];
+      for (const slot of Object.keys(lookup[v] || {})) {
+        const absorbed = [];
+        const remaining = [];
+        for (const show of lookup[v][slot]) {
+          const showMin = minutesFromDayStart(show.start_time);
+          if (showMin >= noSetStartMin && showMin < noSetEndMin) {
+            absorbed.push(show);
+          } else {
+            remaining.push(show);
+          }
+        }
+        if (absorbed.length) {
+          timedWithinNoSet[v].push(...absorbed);
+          if (remaining.length) lookup[v][slot] = remaining;
+          else delete lookup[v][slot];
+        }
+      }
+      // Sort absorbed shows by start_time for display order
+      timedWithinNoSet[v].sort((a, b) =>
+        minutesFromDayStart(a.start_time) - minutesFromDayStart(b.start_time));
+    }
+
     // Generate 30-min slots from 9:00 AM to 2:00 AM
     const slots = [];
     for (let h = DAY_START_HOUR; h < DAY_START_HOUR + 17; h++) {
@@ -1278,11 +1311,14 @@
           const rowspan = noSetRowspans[v] || 4;
           td.rowSpan = rowspan;
           activeRowspans[v] = rowspan - 1;
-          for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
+          // Render any timed shows absorbed into this block first (show their individual times)
+          for (const show of (timedWithinNoSet[v] || [])) td.appendChild(createGridPill(show));
+          // Then the no-set-time header and untimed artists
           const noTimeHdr = document.createElement('div');
           noTimeHdr.className = 'grid-no-set-time-header';
           noTimeHdr.textContent = '(No Set Times)';
           td.appendChild(noTimeHdr);
+          for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
         }
 
         tr.appendChild(td);
