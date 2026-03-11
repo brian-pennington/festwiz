@@ -1238,8 +1238,11 @@
       const endTime = noSetByVenue[v].map(s => s.end_time).filter(Boolean).sort().pop();
       const startMin = minutesFromDayStart(startSlot);
       const endMin   = endTime ? minutesFromDayStart(endTime) : startMin + 240;
-      // Ensure enough rows to display all pills (2 slots per show minimum)
-      noSetRowspans[v] = Math.max(4, noSetByVenue[v].length * 2, Math.round((endMin - startMin) / 30));
+      const timeBased = Math.round((endMin - startMin) / 30);
+      // When end_time is known, respect it exactly. Only use count-based minimum as fallback
+      // when end_time is absent (e.g. open-ended shows where we don't know when they finish).
+      const minForContent = endTime ? 0 : noSetByVenue[v].length * 2;
+      noSetRowspans[v] = Math.max(4, timeBased, minForContent);
     }
 
     const wrap = document.createElement('div');
@@ -1311,14 +1314,40 @@
           const rowspan = noSetRowspans[v] || 4;
           td.rowSpan = rowspan;
           activeRowspans[v] = rowspan - 1;
-          // Render any timed shows absorbed into this block first (show their individual times)
-          for (const show of (timedWithinNoSet[v] || [])) td.appendChild(createGridPill(show));
-          // Then the no-set-time header and untimed artists
-          const noTimeHdr = document.createElement('div');
-          noTimeHdr.className = 'grid-no-set-time-header';
-          noTimeHdr.textContent = '(No Set Times)';
-          td.appendChild(noTimeHdr);
-          for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
+          const absorbed = timedWithinNoSet[v] || [];
+          if (absorbed.length > 0) {
+            // Mixed block: absolutely position timed shows at their correct time within the cell
+            td.style.position = 'relative';
+            const blockStartMin = minutesFromDayStart(slot);
+            const PX_PER_MIN = 29 / 30; // matches the 29px min row height in CSS
+            let lastBottomPx = 0;
+            for (const show of absorbed) {
+              const topPx = Math.round((minutesFromDayStart(show.start_time) - blockStartMin) * PX_PER_MIN);
+              const pill = createGridPill(show);
+              pill.style.position = 'absolute';
+              pill.style.top = topPx + 'px';
+              pill.style.left = '0';
+              pill.style.right = '0';
+              td.appendChild(pill);
+              lastBottomPx = Math.max(lastBottomPx, topPx + 35); // ~35px per pill
+            }
+            // Untimed artists in a scrollable section below the last absorbed show
+            const noTimeSection = document.createElement('div');
+            noTimeSection.style.cssText = `position:absolute; top:${lastBottomPx}px; left:0; right:0; bottom:0; overflow-y:auto;`;
+            const noTimeHdr = document.createElement('div');
+            noTimeHdr.className = 'grid-no-set-time-header';
+            noTimeHdr.textContent = '(No Set Times)';
+            noTimeSection.appendChild(noTimeHdr);
+            for (const show of noSetByVenue[v]) noTimeSection.appendChild(createGridPill(show));
+            td.appendChild(noTimeSection);
+          } else {
+            // Pure no-set-time block: normal flow
+            const noTimeHdr = document.createElement('div');
+            noTimeHdr.className = 'grid-no-set-time-header';
+            noTimeHdr.textContent = '(No Set Times)';
+            td.appendChild(noTimeHdr);
+            for (const show of noSetByVenue[v]) td.appendChild(createGridPill(show));
+          }
         }
 
         tr.appendChild(td);
