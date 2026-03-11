@@ -1164,10 +1164,25 @@
       }
 
       if (lastTimedSlot) {
-        // Mixed venue: no_set_time block goes in the slot right after the last timed show
-        const nextIdx = slots.indexOf(lastTimedSlot) + 1;
-        if (nextIdx < slots.length) lastSlotPerVenue[v] = slots[nextIdx];
-        // else: last timed show hits end of grid — no room left for the block
+        // Mixed venue: check if the no-set-time block belongs before the timed shows
+        const tbStart = noSetByVenue[v][0].start_time;
+        let firstTimedSlot = null;
+        for (const slot of slots) {
+          if (lookup[v][slot] && lookup[v][slot].length > 0) { firstTimedSlot = slot; break; }
+        }
+        const noSetIsBeforeTimed = tbStart && firstTimedSlot &&
+          minutesFromDayStart(tbStart) < minutesFromDayStart(firstTimedSlot);
+
+        if (noSetIsBeforeTimed) {
+          // No-set-time block is a daytime window before the timed shows — place at its own start_time
+          const preferred = nearestSlot(tbStart);
+          if (slots.includes(preferred)) lastSlotPerVenue[v] = preferred;
+        } else {
+          // No-set-time block follows the timed shows — place right after the last timed show
+          const nextIdx = slots.indexOf(lastTimedSlot) + 1;
+          if (nextIdx < slots.length) lastSlotPerVenue[v] = slots[nextIdx];
+          // else: last timed show hits end of grid — no room left for the block
+        }
       } else {
         // Only no-set-time shows: use showcase's start_time or fall back to first slot
         const tbStart = noSetByVenue[v][0].start_time;
