@@ -1497,7 +1497,10 @@
       for (const v of venues) {
         const show = exportMap[v][slot];
         if (!show) { html += `<td ${cellStyle('#ffffff')}></td>`; continue; }
-        html += `<td ${cellStyle(cellBg(show))}>${esc(show.artist_name || '')}</td>`;
+        const label = (!show.no_set_time && show.start_time)
+          ? `${esc(show.artist_name || '')} (${formatCompactTime(show.start_time)})`
+          : esc(show.artist_name || '');
+        html += `<td ${cellStyle(cellBg(show))}>${label}</td>`;
       }
       html += '</tr>';
     }
