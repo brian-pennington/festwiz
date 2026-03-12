@@ -1080,8 +1080,62 @@
       URL.revokeObjectURL(blobUrl);
     });
 
+    const importChoiceModal = document.getElementById('modal-import-choice');
+    const importUrlModal    = document.getElementById('modal-import-url');
+
+    function closeImportChoice() { importChoiceModal.classList.remove('visible'); }
+    function closeImportUrl()    { importUrlModal.classList.remove('visible'); }
+
     document.getElementById('btn-import').addEventListener('click', () => {
+      importChoiceModal.classList.add('visible');
+    });
+    document.getElementById('btn-cancel-import').addEventListener('click', closeImportChoice);
+    importChoiceModal.addEventListener('click', (e) => { if (e.target === importChoiceModal) closeImportChoice(); });
+
+    document.getElementById('btn-import-file').addEventListener('click', () => {
+      closeImportChoice();
       document.getElementById('import-file-input').click();
+    });
+
+    document.getElementById('btn-import-url').addEventListener('click', () => {
+      closeImportChoice();
+      document.getElementById('import-url-input').value = '';
+      importUrlModal.classList.add('visible');
+      setTimeout(() => document.getElementById('import-url-input').focus(), 100);
+    });
+    document.getElementById('btn-cancel-import-url').addEventListener('click', closeImportUrl);
+    importUrlModal.addEventListener('click', (e) => { if (e.target === importUrlModal) closeImportUrl(); });
+
+    document.getElementById('btn-import-url-submit').addEventListener('click', async () => {
+      const raw = document.getElementById('import-url-input').value.trim();
+      if (!raw) return;
+
+      // Accept full URL or just the encoded string
+      let encoded = raw;
+      try {
+        const u = new URL(raw);
+        const p = u.searchParams.get('import');
+        if (p) encoded = p;
+      } catch { /* not a URL, treat as raw code */ }
+
+      const data = await decodeStateFromUrl(encoded);
+      if (!data) {
+        alert('Could not read the import code. Make sure you pasted the full share URL.');
+        return;
+      }
+
+      closeImportUrl();
+      const incomingCount = data.ratings ? Object.keys(data.ratings).filter(k => data.ratings[k] > 0).length : 0;
+      if (!confirm(`Import shared ratings? (${incomingCount} ratings) — This will merge with your existing data.`)) return;
+
+      if (data.ratings)      ratings      = { ...ratings,      ...data.ratings };
+      if (data.notes)        notes        = { ...notes,        ...data.notes };
+      if (data.genreTiers)   genreTiers   = { ...genreTiers,   ...data.genreTiers };
+      if (data.subgenreTiers) subgenreTiers = { ...subgenreTiers, ...data.subgenreTiers };
+      saveAll();
+      renderArtists();
+      updateStats();
+      alert(`Import successful! (${incomingCount} ratings imported)`);
     });
 
     document.getElementById('import-file-input').addEventListener('change', (e) => {

@@ -232,6 +232,31 @@
     </div>
   </div>
 
+  <!-- IMPORT CHOICE MODAL -->
+  <div class="modal-overlay" id="modal-import-choice">
+    <div class="modal">
+      <div class="modal__title">Import</div>
+      <div class="modal__actions" style="flex-direction: column; gap: 10px; align-items: stretch;">
+        <button class="btn btn--accent" id="btn-import-url">Import from Share URL</button>
+        <button class="btn" id="btn-import-file">Import from File (JSON backup)</button>
+        <button class="btn" id="btn-cancel-import">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMPORT FROM URL MODAL -->
+  <div class="modal-overlay" id="modal-import-url">
+    <div class="modal">
+      <div class="modal__title">Import from Share URL</div>
+      <p style="font-size:13px;color:var(--text-secondary);margin:0 0 12px;">Paste the full share URL or just the code after <code>?import=</code></p>
+      <textarea id="import-url-input" rows="5" style="width:100%;box-sizing:border-box;font-size:12px;padding:8px;border:1px solid var(--border);border-radius:6px;background:var(--bg-card);color:var(--text-primary);resize:vertical;" placeholder="https://festwiz.app/?import=..."></textarea>
+      <div class="modal__actions" style="margin-top:12px;">
+        <button class="btn btn--accent" id="btn-import-url-submit">Import</button>
+        <button class="btn" id="btn-cancel-import-url">Cancel</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ANNOUNCEMENT MODAL -->
   <div class="modal-overlay" id="modal-announcements">
     <div class="modal">
