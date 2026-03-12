@@ -1464,25 +1464,19 @@
     }
     html += '</tr>';
 
-    // Pre-compute no-set-time slot positions per venue:
-    //   headerSlot → the slot just before start_time: shows "(no set times yet)"
-    //   contentSlot → the start_time slot: lists all artist names
-    const noSetHeaderSlot = {};
+    // Pre-compute the slot where each venue's no-set-time artists appear
     const noSetContentSlot = {};
     for (const v of venues) {
       if (!noSetByVenue[v] || !noSetByVenue[v].length) continue;
       const startTime = noSetByVenue[v][0].start_time;
       if (!startTime) continue;
-      const contentSlot = nearestSlot(startTime);
-      noSetContentSlot[v] = contentSlot;
-      noSetHeaderSlot[v] = prevSlotKey(contentSlot);
+      noSetContentSlot[v] = nearestSlot(startTime);
     }
 
-    // Time slot rows — emit slots that have timed shows or no-set-time header/content
+    // Time slot rows — emit slots that have timed shows or no-set-time artists
     for (const slot of slots) {
       const hasContent = venues.some(v =>
         (lookup[v][slot] && lookup[v][slot].length) ||
-        noSetHeaderSlot[v] === slot ||
         noSetContentSlot[v] === slot
       );
       if (!hasContent) continue;
@@ -1492,17 +1486,12 @@
       for (const v of venues) {
         const cellShows = lookup[v][slot] || [];
 
-        if (noSetHeaderSlot[v] === slot && !cellShows.length) {
-          // Label row: one slot above the artist list
-          html += `<td ${cellStyle('#fffbe6')}>(no set times yet)</td>`;
-          continue;
-        }
-
         if (noSetContentSlot[v] === slot) {
-          // Artist list row at the block's start time; merge with any timed shows in same slot
+          // No-set-time artists listed at their block's start time, merged with any timed shows
           const nsShows = noSetByVenue[v];
+          const all = [...cellShows, ...nsShows];
           let bg = '#ffeb9c';
-          for (const s of [...cellShows, ...nsShows]) {
+          for (const s of all) {
             const r = getRating(s);
             if (r === 4) { bg = '#c6efce'; break; }
             if (r === 3) { bg = '#dae8fc'; break; }
@@ -1513,8 +1502,7 @@
             return t ? `${esc(s.artist_name || '')} (${t})` : esc(s.artist_name || '');
           });
           const nsLines = nsShows.map(s => esc(s.artist_name || ''));
-          const lines = [...timedLines, ...nsLines].join('\n');
-          html += `<td ${cellStyle(bg)}>${lines}</td>`;
+          html += `<td ${cellStyle(bg)}>${[...timedLines, ...nsLines].join('\n')}</td>`;
           continue;
         }
 
