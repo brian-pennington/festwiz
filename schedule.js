@@ -1435,7 +1435,7 @@
       if (r === 3) return '#dae8fc';
       if (r === 2) return '#ffeb9c';
       if (r === 1) return '#e1d0f5';
-      if (r === 0 && hidePicks !== 'hide' && isRecommended(show)) return '#fce5cd';
+      if (r === 0 && hidePicks !== 'hide' && isRecommended(show)) return '#d9f5f9';
       return '#ffffff';
     }
 
@@ -1513,7 +1513,7 @@
           if (r === 3) { bg = '#dae8fc'; break; }
           if (r === 2 && bg === '#ffffff') bg = '#ffeb9c';
           else if (r === 1 && bg === '#ffffff') bg = '#e1d0f5';
-          else if (r === 0 && bg === '#ffffff' && hidePicks !== 'hide' && isRecommended(s)) bg = '#fce5cd';
+          else if (r === 0 && bg === '#ffffff' && hidePicks !== 'hide' && isRecommended(s)) bg = '#d9f5f9';
         }
         const lines = cellShows.map(s => {
           const name = esc(s.artist_name || '');
