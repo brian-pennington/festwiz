@@ -1097,10 +1097,16 @@
       localStorage.setItem('sxsw2026_grid_zoom', gridZoom);
       renderCurrentView();
     });
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'grid-zoom-btn';
+    copyBtn.id = 'btn-copy-sheets';
+    copyBtn.textContent = 'Copy to Sheets';
+    copyBtn.addEventListener('click', copyGridToSheets);
     zoomBar.appendChild(zoomLabel);
     zoomBar.appendChild(zoomOut);
     zoomBar.appendChild(zoomPct);
     zoomBar.appendChild(zoomIn);
+    zoomBar.appendChild(copyBtn);
     el.appendChild(zoomBar);
 
     const shows = todayShows().filter(s => s.start_time || s.no_set_time);
@@ -1388,6 +1394,155 @@
       wrap.scrollTop = wrap.scrollHeight;
       renderShowcaseOverlays(wrap, table, shows, venues);
     });
+  }
+
+  async function copyGridToSheets() {
+    const btn = document.getElementById('btn-copy-sheets');
+    const shows = todayShows().filter(s => s.start_time || s.no_set_time);
+    if (!shows.length) return;
+
+    const venues = getOrderedVenuesForDay(shows);
+    const timedShows = shows.filter(s => !s.no_set_time);
+    const noSetShows = shows.filter(s =>  s.no_set_time);
+
+    // Build timed lookup: venue → slotKey → [shows]
+    const lookup = {};
+    for (const v of venues) lookup[v] = {};
+    for (const show of timedShows) {
+      const slotKey = nearestSlot(show.start_time);
+      if (!lookup[show.venue][slotKey]) lookup[show.venue][slotKey] = [];
+      lookup[show.venue][slotKey].push(show);
+    }
+
+    // No-set-time shows per venue
+    const noSetByVenue = {};
+    for (const show of noSetShows) {
+      if (!noSetByVenue[show.venue]) noSetByVenue[show.venue] = [];
+      noSetByVenue[show.venue].push(show);
+    }
+
+    // Generate slots 9:00–01:30 (same as renderGrid)
+    const slots = [];
+    for (let h = DAY_START_HOUR; h < DAY_START_HOUR + 17; h++) {
+      const hh = h % 24;
+      slots.push(`${String(hh).padStart(2, '0')}:00`);
+      slots.push(`${String(hh).padStart(2, '0')}:30`);
+    }
+
+    function cellBg(show) {
+      const r = getRating(show);
+      if (r === 4) return '#c6efce';
+      if (r === 3) return '#dae8fc';
+      if (r === 2) return '#ffeb9c';
+      if (r === 1) return '#e1d0f5';
+      if (r === 0 && hidePicks !== 'hide' && isRecommended(show)) return '#fce5cd';
+      return '#ffffff';
+    }
+
+    function slotLabel(slot) {
+      const [h, m] = slot.split(':').map(Number);
+      const ampm = h < 12 || h === 24 ? 'a' : 'p';
+      const h12 = h === 0 || h === 24 ? 12 : h > 12 ? h - 12 : h;
+      return m === 0 ? `${h12}${ampm}` : `${h12}:${String(m).padStart(2,'0')}${ampm}`;
+    }
+
+    const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+    const cellStyle = (bg) =>
+      `style="background:${bg};border:1px solid #ccc;padding:4px 6px;vertical-align:top;font-size:11px;font-family:Arial,sans-serif;white-space:pre-wrap;"`;
+
+    const hdrStyle =
+      `style="background:#0f3934;color:#ffffff;font-weight:bold;border:1px solid #555;padding:4px 6px;font-size:11px;font-family:Arial,sans-serif;"`;
+
+    let html = '<table style="border-collapse:collapse;">';
+
+    // Header row
+    html += '<tr>';
+    html += `<th ${hdrStyle}>Time</th>`;
+    for (const v of venues) {
+      html += `<th ${hdrStyle}>${esc(venueAliases[v] || v)}</th>`;
+    }
+    html += '</tr>';
+
+    // No-set-time row (if any venue has them)
+    const hasAnyNoSet = venues.some(v => noSetByVenue[v] && noSetByVenue[v].length);
+    if (hasAnyNoSet) {
+      html += '<tr>';
+      html += `<td ${cellStyle('#fffbe6')}>No Set Time</td>`;
+      for (const v of venues) {
+        const nsShows = noSetByVenue[v] || [];
+        if (!nsShows.length) {
+          html += `<td ${cellStyle('#ffffff')}></td>`;
+          continue;
+        }
+        const names = nsShows.map(s => esc(s.artist || s.name || '')).join('\n');
+        const startTime = nsShows[0].start_time ? formatCompactTime(nsShows[0].start_time) : '';
+        const endTime   = nsShows[0].end_time   ? formatCompactTime(nsShows[0].end_time)   : '';
+        const timeRange = startTime && endTime ? `${startTime}–${endTime}` : startTime || '';
+        const label = timeRange ? `(No Set Times ${timeRange})\n${names}` : `(No Set Times)\n${names}`;
+        // Pick best bg from any rated show in the block
+        let bg = '#ffeb9c'; // default yellow for no-set-time rows
+        for (const s of nsShows) {
+          const r = getRating(s);
+          if (r === 4) { bg = '#c6efce'; break; }
+          if (r === 3) { bg = '#dae8fc'; break; }
+        }
+        html += `<td ${cellStyle(bg)}>${label}</td>`;
+      }
+      html += '</tr>';
+    }
+
+    // Time slot rows — only emit slots that have at least one show across all venues
+    for (const slot of slots) {
+      const hasContent = venues.some(v => lookup[v][slot] && lookup[v][slot].length);
+      if (!hasContent) continue;
+
+      html += '<tr>';
+      html += `<td ${cellStyle('#f5f5f5')}>${slotLabel(slot)}</td>`;
+      for (const v of venues) {
+        const cellShows = lookup[v][slot] || [];
+        if (!cellShows.length) {
+          html += `<td ${cellStyle('#ffffff')}></td>`;
+          continue;
+        }
+        // Multiple shows in same slot: pick best bg
+        let bg = '#ffffff';
+        for (const s of cellShows) {
+          const r = getRating(s);
+          if (r === 4) { bg = '#c6efce'; break; }
+          if (r === 3) { bg = '#dae8fc'; break; }
+          if (r === 2 && bg === '#ffffff') bg = '#ffeb9c';
+          else if (r === 1 && bg === '#ffffff') bg = '#e1d0f5';
+          else if (r === 0 && bg === '#ffffff' && hidePicks !== 'hide' && isRecommended(s)) bg = '#fce5cd';
+        }
+        const lines = cellShows.map(s => {
+          const name = esc(s.artist || s.name || '');
+          const t = s.start_time ? formatCompactTime(s.start_time) : '';
+          return t ? `${name} (${t})` : name;
+        }).join('\n');
+        html += `<td ${cellStyle(bg)}>${lines}</td>`;
+      }
+      html += '</tr>';
+    }
+
+    html += '</table>';
+
+    try {
+      await navigator.clipboard.write([
+        new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }) })
+      ]);
+      if (btn) {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => { btn.textContent = orig; }, 2000);
+      }
+    } catch (e) {
+      if (btn) {
+        const orig = btn.textContent;
+        btn.textContent = 'Copy failed';
+        setTimeout(() => { btn.textContent = orig; }, 2000);
+      }
+    }
   }
 
   function nearestSlot(timeStr) {
