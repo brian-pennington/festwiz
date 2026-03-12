@@ -1101,6 +1101,7 @@
     copyBtn.className = 'grid-zoom-btn';
     copyBtn.id = 'btn-copy-sheets';
     copyBtn.textContent = 'Copy to Sheets';
+    copyBtn.style.display = 'none';
     copyBtn.addEventListener('click', copyGridToSheets);
     zoomBar.appendChild(zoomLabel);
     zoomBar.appendChild(zoomOut);
