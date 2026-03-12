@@ -1452,7 +1452,7 @@
       `style="background:${bg};border:1px solid #ccc;padding:4px 6px;vertical-align:top;font-size:11px;font-family:Arial,sans-serif;white-space:pre-wrap;"`;
 
     const hdrStyle =
-      `style="background:#0f3934;color:#ffffff;font-weight:bold;border:1px solid #555;padding:4px 6px;font-size:11px;font-family:Arial,sans-serif;"`;
+      `style="background:#0f3934;color:#ffffff;font-weight:bold;border:1px solid #555;padding:4px 6px;font-size:11px;font-family:Arial,sans-serif;min-width:120px;width:120px;"`;
 
     let html = '<table style="border-collapse:collapse;">';
 
@@ -1475,7 +1475,7 @@
           html += `<td ${cellStyle('#ffffff')}></td>`;
           continue;
         }
-        const names = nsShows.map(s => esc(s.artist || s.name || '')).join('\n');
+        const names = nsShows.map(s => esc(s.artist_name || '')).join('\n');
         const startTime = nsShows[0].start_time ? formatCompactTime(nsShows[0].start_time) : '';
         const endTime   = nsShows[0].end_time   ? formatCompactTime(nsShows[0].end_time)   : '';
         const timeRange = startTime && endTime ? `${startTime}–${endTime}` : startTime || '';
@@ -1516,7 +1516,7 @@
           else if (r === 0 && bg === '#ffffff' && hidePicks !== 'hide' && isRecommended(s)) bg = '#fce5cd';
         }
         const lines = cellShows.map(s => {
-          const name = esc(s.artist || s.name || '');
+          const name = esc(s.artist_name || '');
           const t = s.start_time ? formatCompactTime(s.start_time) : '';
           return t ? `${name} (${t})` : name;
         }).join('\n');
