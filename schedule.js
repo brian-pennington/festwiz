@@ -1502,7 +1502,7 @@
             return t ? `${esc(s.artist_name || '')} (${t})` : esc(s.artist_name || '');
           });
           const nsLines = nsShows.map(s => esc(s.artist_name || ''));
-          html += `<td ${cellStyle(bg)}>${[...timedLines, ...nsLines].join('\n')}</td>`;
+          html += `<td ${cellStyle(bg)}>${[...timedLines, ...nsLines].join('<br>')}</td>`;
           continue;
         }
 
@@ -1525,7 +1525,7 @@
           const name = esc(s.artist_name || '');
           const t = s.start_time ? formatCompactTime(s.start_time) : '';
           return t ? `${name} (${t})` : name;
-        }).join('\n');
+        }).join('<br>');
         html += `<td ${cellStyle(bg)}>${lines}</td>`;
       }
       html += '</tr>';
