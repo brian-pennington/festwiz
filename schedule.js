@@ -1405,14 +1405,14 @@
     const timedShows = shows.filter(s => !s.no_set_time);
     const noSetShows = shows.filter(s =>  s.no_set_time);
 
-    // Build timed lookup: venue → slotKey → [shows]
-    const lookup = {};
-    for (const v of venues) lookup[v] = {};
-    for (const show of timedShows) {
-      const slotKey = nearestSlot(show.start_time);
-      if (!lookup[show.venue][slotKey]) lookup[show.venue][slotKey] = [];
-      lookup[show.venue][slotKey].push(show);
+    // Generate slots 9:00–01:30 (same as renderGrid)
+    const slots = [];
+    for (let h = DAY_START_HOUR; h < DAY_START_HOUR + 17; h++) {
+      const hh = h % 24;
+      slots.push(`${String(hh).padStart(2, '0')}:00`);
+      slots.push(`${String(hh).padStart(2, '0')}:30`);
     }
+    const slotIndex = Object.fromEntries(slots.map((s, i) => [s, i]));
 
     // No-set-time shows per venue
     const noSetByVenue = {};
@@ -1421,12 +1421,35 @@
       noSetByVenue[show.venue].push(show);
     }
 
-    // Generate slots 9:00–01:30 (same as renderGrid)
-    const slots = [];
-    for (let h = DAY_START_HOUR; h < DAY_START_HOUR + 17; h++) {
-      const hh = h % 24;
-      slots.push(`${String(hh).padStart(2, '0')}:00`);
-      slots.push(`${String(hh).padStart(2, '0')}:30`);
+    // Build export map: one show per slot per venue.
+    // Multiple shows sharing a start time spill into subsequent empty slots.
+    const exportMap = {}; // venue → slotKey → show
+    for (const v of venues) exportMap[v] = {};
+
+    function claimNextSlot(v, fromSlotKey) {
+      let i = slotIndex[fromSlotKey] ?? 0;
+      while (i < slots.length && exportMap[v][slots[i]]) i++;
+      return i < slots.length ? slots[i] : null;
+    }
+
+    // Timed shows — sort by start_time so earlier shows claim their natural slot first
+    const sortedTimed = [...timedShows].sort((a, b) =>
+      minutesFromDayStart(a.start_time) - minutesFromDayStart(b.start_time));
+    for (const show of sortedTimed) {
+      const slot = claimNextSlot(show.venue, nearestSlot(show.start_time));
+      if (slot) exportMap[show.venue][slot] = show;
+    }
+
+    // No-set-time shows — spread from their block's start_time, one per slot
+    for (const v of venues) {
+      if (!noSetByVenue[v]) continue;
+      const startTime = noSetByVenue[v][0].start_time;
+      if (!startTime) continue;
+      const startSlot = nearestSlot(startTime);
+      for (const show of noSetByVenue[v]) {
+        const slot = claimNextSlot(v, startSlot);
+        if (slot) exportMap[v][slot] = show;
+      }
     }
 
     function cellBg(show) {
@@ -1449,7 +1472,7 @@
     const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
     const cellStyle = (bg) =>
-      `style="background:${bg};border:1px solid #ccc;padding:4px 6px;vertical-align:top;font-size:11px;font-family:Arial,sans-serif;white-space:pre-wrap;"`;
+      `style="background:${bg};border:1px solid #ccc;padding:4px 6px;vertical-align:top;font-size:11px;font-family:Arial,sans-serif;"`;
 
     const hdrStyle =
       `style="background:#0f3934;color:#ffffff;font-weight:bold;border:1px solid #555;padding:4px 6px;font-size:11px;font-family:Arial,sans-serif;min-width:120px;width:120px;"`;
@@ -1464,69 +1487,17 @@
     }
     html += '</tr>';
 
-    // Pre-compute the slot where each venue's no-set-time artists appear
-    const noSetContentSlot = {};
-    for (const v of venues) {
-      if (!noSetByVenue[v] || !noSetByVenue[v].length) continue;
-      const startTime = noSetByVenue[v][0].start_time;
-      if (!startTime) continue;
-      noSetContentSlot[v] = nearestSlot(startTime);
-    }
-
-    // Time slot rows — emit slots that have timed shows or no-set-time artists
+    // One row per slot, one show per cell — no time appended to names
     for (const slot of slots) {
-      const hasContent = venues.some(v =>
-        (lookup[v][slot] && lookup[v][slot].length) ||
-        noSetContentSlot[v] === slot
-      );
+      const hasContent = venues.some(v => exportMap[v][slot]);
       if (!hasContent) continue;
 
       html += '<tr>';
       html += `<td ${cellStyle('#f5f5f5')}>${slotLabel(slot)}</td>`;
       for (const v of venues) {
-        const cellShows = lookup[v][slot] || [];
-
-        if (noSetContentSlot[v] === slot) {
-          // No-set-time artists listed at their block's start time, merged with any timed shows
-          const nsShows = noSetByVenue[v];
-          const all = [...cellShows, ...nsShows];
-          let bg = '#ffeb9c';
-          for (const s of all) {
-            const r = getRating(s);
-            if (r === 4) { bg = '#c6efce'; break; }
-            if (r === 3) { bg = '#dae8fc'; break; }
-            if (r === 2 && bg === '#ffeb9c') bg = '#ffeb9c';
-          }
-          const timedLines = cellShows.map(s => {
-            const t = s.start_time ? formatCompactTime(s.start_time) : '';
-            return t ? `${esc(s.artist_name || '')} (${t})` : esc(s.artist_name || '');
-          });
-          const nsLines = nsShows.map(s => esc(s.artist_name || ''));
-          html += `<td ${cellStyle(bg)}>${[...timedLines, ...nsLines].join('<br>')}</td>`;
-          continue;
-        }
-
-        if (!cellShows.length) {
-          html += `<td ${cellStyle('#ffffff')}></td>`;
-          continue;
-        }
-
-        // Normal timed show cell
-        let bg = '#ffffff';
-        for (const s of cellShows) {
-          const r = getRating(s);
-          if (r === 4) { bg = '#c6efce'; break; }
-          if (r === 3) { bg = '#dae8fc'; break; }
-          if (r === 2 && bg === '#ffffff') bg = '#ffeb9c';
-          else if (r === 1 && bg === '#ffffff') bg = '#e1d0f5';
-          else if (r === 0 && bg === '#ffffff' && hidePicks !== 'hide' && isRecommended(s)) bg = '#d9f5f9';
-        }
-        const lines = cellShows.map(s => {
-          const name = esc(s.artist_name || '');
-          const t = s.start_time ? formatCompactTime(s.start_time) : '';
-          return t ? `${name} (${t})` : name;
-        }).join('<br>');
-        html += `<td ${cellStyle(bg)}>${lines}</td>`;
+        const show = exportMap[v][slot];
+        if (!show) { html += `<td ${cellStyle('#ffffff')}></td>`; continue; }
+        html += `<td ${cellStyle(cellBg(show))}>${esc(show.artist_name || '')}</td>`;
       }
       html += '</tr>';
     }
