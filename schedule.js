@@ -1464,48 +1464,66 @@
     }
     html += '</tr>';
 
-    // No-set-time row (if any venue has them)
-    const hasAnyNoSet = venues.some(v => noSetByVenue[v] && noSetByVenue[v].length);
-    if (hasAnyNoSet) {
-      html += '<tr>';
-      html += `<td ${cellStyle('#fffbe6')}>No Set Time</td>`;
-      for (const v of venues) {
-        const nsShows = noSetByVenue[v] || [];
-        if (!nsShows.length) {
-          html += `<td ${cellStyle('#ffffff')}></td>`;
-          continue;
-        }
-        const names = nsShows.map(s => esc(s.artist_name || '')).join('\n');
-        const startTime = nsShows[0].start_time ? formatCompactTime(nsShows[0].start_time) : '';
-        const endTime   = nsShows[0].end_time   ? formatCompactTime(nsShows[0].end_time)   : '';
-        const timeRange = startTime && endTime ? `${startTime}–${endTime}` : startTime || '';
-        const label = timeRange ? `(No Set Times ${timeRange})\n${names}` : `(No Set Times)\n${names}`;
-        // Pick best bg from any rated show in the block
-        let bg = '#ffeb9c'; // default yellow for no-set-time rows
-        for (const s of nsShows) {
-          const r = getRating(s);
-          if (r === 4) { bg = '#c6efce'; break; }
-          if (r === 3) { bg = '#dae8fc'; break; }
-        }
-        html += `<td ${cellStyle(bg)}>${label}</td>`;
-      }
-      html += '</tr>';
+    // Pre-compute no-set-time slot positions per venue:
+    //   headerSlot → the slot just before start_time: shows "(no set times yet)"
+    //   contentSlot → the start_time slot: lists all artist names
+    const noSetHeaderSlot = {};
+    const noSetContentSlot = {};
+    for (const v of venues) {
+      if (!noSetByVenue[v] || !noSetByVenue[v].length) continue;
+      const startTime = noSetByVenue[v][0].start_time;
+      if (!startTime) continue;
+      const contentSlot = nearestSlot(startTime);
+      noSetContentSlot[v] = contentSlot;
+      noSetHeaderSlot[v] = prevSlotKey(contentSlot);
     }
 
-    // Time slot rows — only emit slots that have at least one show across all venues
+    // Time slot rows — emit slots that have timed shows or no-set-time header/content
     for (const slot of slots) {
-      const hasContent = venues.some(v => lookup[v][slot] && lookup[v][slot].length);
+      const hasContent = venues.some(v =>
+        (lookup[v][slot] && lookup[v][slot].length) ||
+        noSetHeaderSlot[v] === slot ||
+        noSetContentSlot[v] === slot
+      );
       if (!hasContent) continue;
 
       html += '<tr>';
       html += `<td ${cellStyle('#f5f5f5')}>${slotLabel(slot)}</td>`;
       for (const v of venues) {
         const cellShows = lookup[v][slot] || [];
+
+        if (noSetHeaderSlot[v] === slot && !cellShows.length) {
+          // Label row: one slot above the artist list
+          html += `<td ${cellStyle('#fffbe6')}>(no set times yet)</td>`;
+          continue;
+        }
+
+        if (noSetContentSlot[v] === slot) {
+          // Artist list row at the block's start time; merge with any timed shows in same slot
+          const nsShows = noSetByVenue[v];
+          let bg = '#ffeb9c';
+          for (const s of [...cellShows, ...nsShows]) {
+            const r = getRating(s);
+            if (r === 4) { bg = '#c6efce'; break; }
+            if (r === 3) { bg = '#dae8fc'; break; }
+            if (r === 2 && bg === '#ffeb9c') bg = '#ffeb9c';
+          }
+          const timedLines = cellShows.map(s => {
+            const t = s.start_time ? formatCompactTime(s.start_time) : '';
+            return t ? `${esc(s.artist_name || '')} (${t})` : esc(s.artist_name || '');
+          });
+          const nsLines = nsShows.map(s => esc(s.artist_name || ''));
+          const lines = [...timedLines, ...nsLines].join('\n');
+          html += `<td ${cellStyle(bg)}>${lines}</td>`;
+          continue;
+        }
+
         if (!cellShows.length) {
           html += `<td ${cellStyle('#ffffff')}></td>`;
           continue;
         }
-        // Multiple shows in same slot: pick best bg
+
+        // Normal timed show cell
         let bg = '#ffffff';
         for (const s of cellShows) {
           const r = getRating(s);
