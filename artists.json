@@ -479,7 +479,8 @@
         "end_time": "21:30",
         "presented_by": "Fire Records x Songbird x Anniversary"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "600 ENT",
@@ -927,7 +928,8 @@
         "end_time": "01:30",
         "presented_by": "Rockaway Beach"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Adult Leisure",
@@ -990,7 +992,8 @@
         "presented_by": "Liift & Friends"
       }
     ],
-    "location": "BRISTOL, UNITED KINGDOM, ENGLAND"
+    "location": "BRISTOL, UNITED KINGDOM, ENGLAND",
+    "recommended": true
   },
   {
     "name": "Agatha is Dead!",
@@ -1409,7 +1412,8 @@
         "presented_by": "Spaace Camp"
       }
     ],
-    "location": "LOS ANGELES, CA"
+    "location": "LOS ANGELES, CA",
+    "recommended": true
   },
   {
     "name": "Alahsîn",
@@ -2116,7 +2120,8 @@
         "end_time": "20:40",
         "presented_by": "EQ Austin"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Alta Elegancia",
@@ -2715,7 +2720,8 @@
         "end_time": "21:10",
         "presented_by": "Project Nowhere x Exclaim! Magazine"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Andrea Daniela",
@@ -4980,7 +4986,8 @@
         "end_time": "22:00",
         "presented_by": "Mint Talent Group"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "BBY KODIE",
@@ -5312,7 +5319,8 @@
         "presented_by": "Mint Talent Group"
       }
     ],
-    "location": "LOS ANGELES, CA"
+    "location": "LOS ANGELES, CA",
+    "recommended": true
   },
   {
     "name": "better joy",
@@ -8264,7 +8272,8 @@
         "end_time": "00:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Casmalia",
@@ -8499,7 +8508,8 @@
         "end_time": "21:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Cedric Brazle",
@@ -8649,7 +8659,8 @@
         "end_time": "23:00",
         "presented_by": "Mint Talent Group"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Chanté",
@@ -8841,7 +8852,8 @@
         "presented_by": "rocknite"
       }
     ],
-    "location": "LOS ANGELES, CA"
+    "location": "LOS ANGELES, CA",
+    "recommended": true
   },
   {
     "name": "Chava",
@@ -9560,7 +9572,8 @@
         "end_time": "22:30",
         "presented_by": "British Music Embassy"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "cootie catcher",
@@ -9622,7 +9635,8 @@
         "end_time": "22:40",
         "presented_by": "Smartpunk Records"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Core DJ's Worldwide",
@@ -9900,7 +9914,8 @@
         "end_time": "21:00",
         "presented_by": "Mint Talent Group"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "CRG",
@@ -10091,7 +10106,8 @@
         "presented_by": "DJ_Dave"
       }
     ],
-    "location": "LOS ANGELES, CA"
+    "location": "LOS ANGELES, CA",
+    "recommended": true
   },
   {
     "name": "D Chrome Foster",
@@ -10210,7 +10226,8 @@
         "end_time": "01:30",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Dallas Tetnus",
@@ -10682,7 +10699,8 @@
         "end_time": "00:10",
         "presented_by": "Groover Obsessions"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "deCasa",
@@ -11293,7 +11311,8 @@
         "end_time": "22:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Diamond The Body",
@@ -14404,7 +14423,8 @@
         "end_time": "20:40",
         "presented_by": "Poplife"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Ed O'Brien Listening Event + Conversation",
@@ -15783,7 +15803,8 @@
         "presented_by": null
       }
     ],
-    "location": "LOS ANGELES, CA"
+    "location": "LOS ANGELES, CA",
+    "recommended": true
   },
   {
     "name": "Father Romar",
@@ -16642,7 +16663,8 @@
         "end_time": "22:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Foolish Ty",
@@ -16719,7 +16741,8 @@
         "end_time": "01:50",
         "presented_by": "Academy Fight Songs / Rough Trade Publishing "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Frankfurt Helmet",
@@ -17008,7 +17031,8 @@
         "end_time": "22:40",
         "presented_by": "BLCKJEANS MGMT"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Gabby Got It",
@@ -17608,7 +17632,8 @@
         "end_time": "20:50",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Glaze",
@@ -17671,7 +17696,8 @@
         "end_time": "23:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "GLC QUACY",
@@ -17822,7 +17848,8 @@
         "end_time": "23:45",
         "presented_by": "Casa Gogol"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "GOKUMON",
@@ -17948,7 +17975,8 @@
         "end_time": "22:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Good Looks",
@@ -18057,7 +18085,8 @@
         "presented_by": "Casa Gogol"
       }
     ],
-    "location": "NEW YORK, NY"
+    "location": "NEW YORK, NY",
+    "recommended": true
   },
   {
     "name": "Grace Sorensen",
@@ -18227,7 +18256,8 @@
         "end_time": "22:00",
         "presented_by": "ATX Composers"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Gran Moreno",
@@ -18438,7 +18468,8 @@
         "end_time": "19:30",
         "presented_by": "The Spanish Wave"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "The Gringos",
@@ -18601,7 +18632,8 @@
         "end_time": "20:40",
         "presented_by": "Fire Records x Songbird x Anniversary"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Grupo Ferrary Show",
@@ -18803,7 +18835,8 @@
         "end_time": "23:40",
         "presented_by": "Music Box ATX"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Gus Englehorn",
@@ -18963,7 +18996,8 @@
         "end_time": "21:50",
         "presented_by": "[PIAS]"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "H",
@@ -19452,7 +19486,8 @@
         "end_time": "23:10",
         "presented_by": "[PIAS]"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Haylee Wood",
@@ -19703,7 +19738,8 @@
         "end_time": "22:40",
         "presented_by": "Beyond The Music"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Hermanos Espinoza",
@@ -20091,7 +20127,8 @@
         "end_time": "22:30",
         "presented_by": "Groover Obsessions"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Holly Macve",
@@ -21192,7 +21229,8 @@
         "end_time": "20:30",
         "presented_by": "Tuezgayz "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Isak Thomas and The Stoop Boys",
@@ -21662,7 +21700,8 @@
         "end_time": "23:00",
         "presented_by": "Tuezgayz "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Jack Freeman",
@@ -25438,7 +25477,8 @@
         "end_time": "00:40",
         "presented_by": "Classical Unlocked"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "KID PHENOMENON",
@@ -25563,7 +25603,8 @@
         "end_time": "23:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Kiki Ambrose",
@@ -25750,7 +25791,8 @@
         "end_time": "19:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Kingdom DJs",
@@ -25859,7 +25901,8 @@
         "end_time": "22:40",
         "presented_by": "Jazz re:freshed Outernational"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "KNDRX",
@@ -26209,7 +26252,8 @@
         "end_time": "22:10",
         "presented_by": "End of the Trail"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Kordelya",
@@ -26801,7 +26845,8 @@
         "presented_by": null
       }
     ],
-    "location": "AUSTIN, TX"
+    "location": "AUSTIN, TX",
+    "recommended": true
   },
   {
     "name": "Lara’",
@@ -26980,7 +27025,8 @@
         "presented_by": "Spaace Camp"
       }
     ],
-    "location": "AUSTIN, TX"
+    "location": "AUSTIN, TX",
+    "recommended": true
   },
   {
     "name": "Lauren Light",
@@ -28040,7 +28086,8 @@
         "end_time": "21:40",
         "presented_by": "BIGSOUND Festival"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Little Wilderness",
@@ -28116,7 +28163,8 @@
         "end_time": "02:00",
         "presented_by": "Fire Records x Songbird x Anniversary"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "lluvii",
@@ -28224,7 +28272,8 @@
         "end_time": "23:40",
         "presented_by": "We Were Never Being Boring"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Lola Kinsey",
@@ -28502,7 +28551,8 @@
         "end_time": "20:40",
         "presented_by": "MEXCENA!"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Los Gatos 512",
@@ -29071,7 +29121,8 @@
         "end_time": "",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Lucky",
@@ -29146,7 +29197,8 @@
         "end_time": "00:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "lucky break",
@@ -29684,7 +29736,8 @@
         "end_time": "23:30",
         "presented_by": "Friends From Elsewhere"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Mai Anna",
@@ -30100,7 +30153,8 @@
         "end_time": "01:00",
         "presented_by": "Jason Burczyk presents"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Marilina Bertoldi",
@@ -30512,7 +30566,8 @@
         "end_time": "22:00",
         "presented_by": "Green Witch Recordings and Pop Sickle"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Martin Eyerer",
@@ -31092,7 +31147,8 @@
         "end_time": "00:40",
         "presented_by": "BMG Label & Publishing "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Meg Elsier",
@@ -31400,7 +31456,8 @@
         "end_time": "21:50",
         "presented_by": "BBC Introducing"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "mer marcum",
@@ -31582,7 +31639,8 @@
         "end_time": "00:30",
         "presented_by": "Floppy Disko"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "The Microphone Misfitz",
@@ -31967,7 +32025,8 @@
         "end_time": "22:30",
         "presented_by": "German Music Export by Initiative Musik"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Miss GIRL6",
@@ -32217,7 +32276,8 @@
         "end_time": "21:40",
         "presented_by": "Taiwan Beats"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Modern Cult",
@@ -33112,7 +33172,8 @@
         "end_time": "19:35",
         "presented_by": "rocknite"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "My Favorite Color",
@@ -33191,7 +33252,8 @@
         "end_time": "21:45",
         "presented_by": "Money Mark and Friends "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "N@te!",
@@ -33376,7 +33438,8 @@
         "end_time": "20:50",
         "presented_by": "Groover Obsessions"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Native Leaves",
@@ -34042,7 +34105,8 @@
         "end_time": "23:40",
         "presented_by": "Chicken Ranch Records"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Night Ritualz",
@@ -34079,7 +34143,8 @@
         "end_time": "23:45",
         "presented_by": "Green Witch Recordings and Pop Sickle"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Nightbus",
@@ -35359,7 +35424,8 @@
         "end_time": "22:40",
         "presented_by": "We Were Never Being Boring"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Otis Wilkins",
@@ -35560,7 +35626,8 @@
         "end_time": "21:40",
         "presented_by": "Trash Casual + Our Wicked Lady"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Packaging",
@@ -35611,7 +35678,8 @@
         "end_time": "00:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Paisley Fields",
@@ -35704,7 +35772,8 @@
         "end_time": "22:00",
         "presented_by": "The Spanish Wave"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Panic Shack",
@@ -36029,7 +36098,8 @@
         "end_time": "23:40",
         "presented_by": "Take Action x SXSW"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Pat G",
@@ -36105,7 +36175,8 @@
         "end_time": "00:45",
         "presented_by": "Green Witch Recordings and Pop Sickle"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Patrice Pike Band",
@@ -36195,7 +36266,8 @@
         "end_time": "21:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Pedro TQM",
@@ -36272,7 +36344,8 @@
         "end_time": "01:40",
         "presented_by": "Chicken Ranch Records"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Pehuenche",
@@ -36323,7 +36396,8 @@
         "end_time": "19:40",
         "presented_by": "Vinilious Records"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Pei-Yu Hung",
@@ -36660,7 +36734,8 @@
         "end_time": "23:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "The Pink Stones",
@@ -36860,7 +36935,8 @@
         "end_time": "00:40",
         "presented_by": "MEXCENA!"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Poe Leos",
@@ -38033,7 +38109,8 @@
         "end_time": "00:45",
         "presented_by": "Planetary Group"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Rafa Parra",
@@ -39357,7 +39434,8 @@
         "end_time": "22:50",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Rosegarden Funeral Party",
@@ -39410,7 +39488,8 @@
         "end_time": "00:40",
         "presented_by": "BLCKJEANS MGMT"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Ruido Selecto",
@@ -40517,7 +40596,8 @@
         "end_time": "20:40",
         "presented_by": "Music From Ireland"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Sarah Meth",
@@ -40669,7 +40749,8 @@
         "end_time": "00:40",
         "presented_by": "[PIAS]"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "SATALiGHTS",
@@ -41127,7 +41208,8 @@
         "end_time": "01:20",
         "presented_by": "Pandora Music"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Sexpop",
@@ -41164,7 +41246,8 @@
         "end_time": "00:40",
         "presented_by": "Take Action x SXSW"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Sgt. Remo",
@@ -41876,7 +41959,8 @@
         "end_time": "20:40",
         "presented_by": "Mothland"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Sibby Liv",
@@ -42231,7 +42315,8 @@
         "end_time": "23:55",
         "presented_by": "POP Montreal"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Slomo Drags",
@@ -42268,7 +42353,8 @@
         "end_time": "00:40",
         "presented_by": "Music Box ATX"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Slow Spread Love",
@@ -42518,7 +42604,8 @@
         "end_time": "23:40",
         "presented_by": "BLCKJEANS MGMT"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Sofia and the Antoinettes",
@@ -43767,7 +43854,8 @@
         "end_time": "21:40",
         "presented_by": "BLCKJEANS MGMT"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Steve Ray Ladson",
@@ -44282,7 +44370,8 @@
         "end_time": "00:00",
         "presented_by": "The Spanish Wave"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Summer Brennan",
@@ -44840,7 +44929,8 @@
         "end_time": "21:30",
         "presented_by": "AS Colour + Monster Children "
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "SWDEJAY",
@@ -45880,7 +45970,8 @@
         "end_time": "23:00",
         "presented_by": "The Spanish Wave"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "TJ THE DJ",
@@ -45978,7 +46069,8 @@
         "end_time": "23:10",
         "presented_by": "End of the Trail"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Tomar and the FCs",
@@ -46173,7 +46265,8 @@
         "end_time": "21:30",
         "presented_by": "Good English Records"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Trap Sushi",
@@ -46770,7 +46863,8 @@
         "end_time": "23:50",
         "presented_by": "BBC Introducing"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "The Tullamarines",
@@ -47000,7 +47094,8 @@
         "end_time": "22:40",
         "presented_by": "Trash Casual + Our Wicked Lady"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "TY DOLLA $IGN",
@@ -47183,7 +47278,8 @@
         "end_time": "22:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Unwritten Law",
@@ -48655,7 +48751,8 @@
         "end_time": "23:40",
         "presented_by": null
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Whitelands",
@@ -48729,7 +48826,8 @@
         "end_time": "00:30",
         "presented_by": "Rockaway Beach"
       }
-    ]
+    ],
+    "recommended": true
   },
   {
     "name": "Whiteside",

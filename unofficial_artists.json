@@ -14,7 +14,8 @@
     "state": "WI",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Downhill2k01",
@@ -33,7 +34,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Assorted Potions",
@@ -51,7 +53,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Worldbuilder",
@@ -68,7 +71,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Galaxy Gardens",
@@ -102,7 +106,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Osees",
@@ -137,7 +142,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Tear Dungeon",
@@ -206,10 +212,11 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
-    "name": "Ori\u00f3n Garc\u00eda",
+    "name": "Orión García",
     "genre": "DJ",
     "subgenre": "",
     "location": "Austin, TX, USA",
@@ -287,7 +294,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Queen Serene",
@@ -399,14 +407,15 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
-    "name": "\u00c9gaux Sells",
+    "name": "Égaux Sells",
     "genre": "Electronic",
     "subgenre": "Synthpop",
     "location": "Austin, TX, USA",
-    "description": "\u00c9gaux\n| (e\u2022go) |\nnoun, plural,\n1.equals\n\nVibrantly bleak pop experiment",
+    "description": "Égaux\n| (e•go) |\nnoun, plural,\n1.equals\n\nVibrantly bleak pop experiment",
     "links": {
       "bandcamp": "https://egauxsells.bandcamp.com/"
     },
@@ -563,7 +572,7 @@
     "genre": "Rock",
     "subgenre": "Alternative",
     "location": "Austin, TX, USA",
-    "description": "When Mikky steps onto the stage in her 9 inch heels, she gives the people what they want: a larger than life rockstar and thunderous vocals to boot. The members, a nebulous and ever-expanding roster of Austin\u2019s best rockers, add an extra glitter of drama when they take the stage alongside her. Together, the band\u2019s raw, eccentric performance and campy pageantry transport audiences back in time as Mikky & The Doom brings the glam back to rock. With catchy anthems, sleazy bass lines, and unmatched physicality, they know how to set fire to any crowd and leave an ear worm in your head. For those who are nostalgic for the golden era of rock \u2018n roll but relish the spectacle of modern pop, Mikky & The Doom is the act to follow.",
+    "description": "When Mikky steps onto the stage in her 9 inch heels, she gives the people what they want: a larger than life rockstar and thunderous vocals to boot. The members, a nebulous and ever-expanding roster of Austin’s best rockers, add an extra glitter of drama when they take the stage alongside her. Together, the band’s raw, eccentric performance and campy pageantry transport audiences back in time as Mikky & The Doom brings the glam back to rock. With catchy anthems, sleazy bass lines, and unmatched physicality, they know how to set fire to any crowd and leave an ear worm in your head. For those who are nostalgic for the golden era of rock ‘n roll but relish the spectacle of modern pop, Mikky & The Doom is the act to follow.",
     "links": {
       "youtube": "https://www.youtube.com/watch?v=UCFMAyPX1bQ",
       "apple_music": "https://music.apple.com/us/artist/mikky-the-doom/1741144766",
@@ -659,7 +668,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Babybaby_explores",
@@ -677,7 +687,8 @@
     "state": "RI",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Porcelain",
@@ -756,14 +767,15 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Tele Novella",
     "genre": "Rock",
     "subgenre": "Indie Pop",
     "location": "Austin, TX, USA",
-    "description": "Tele Novella is a project out of Lockhart, Texas--a small town lost in time---where their classic and sincere pop songwriting is slowly processed through a loner medieval-tonk machine and then captured on cassette 8-track. Their latest record, Poet's Tooth, steers the duo\u2019s whimsical western-tinted balladry in fascinating new directions. It's out now on Kill Rock Stars.",
+    "description": "Tele Novella is a project out of Lockhart, Texas--a small town lost in time---where their classic and sincere pop songwriting is slowly processed through a loner medieval-tonk machine and then captured on cassette 8-track. Their latest record, Poet's Tooth, steers the duo’s whimsical western-tinted balladry in fascinating new directions. It's out now on Kill Rock Stars.",
     "links": {
       "bandcamp": "https://telenovella.bandcamp.com",
       "youtube": "https://www.youtube.com/playlist?list=PL6KwzgIePF4BuaOzmCOyxkQWadVYx7aP0",
@@ -776,14 +788,15 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Evan Autin",
     "genre": "Rock",
     "subgenre": "Blues",
     "location": "Austin, TX, USA",
-    "description": "\ud83c\udfb8Funky Southern Blues Rocker",
+    "description": "🎸Funky Southern Blues Rocker",
     "links": {
       "youtube": "https://music.apple.com/us/album/tex-ouisiana-line-single/1871224155?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_m",
       "apple_music": "https://music.apple.com/us/album/tex-ouisiana-line-single/1871224155?at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_m",
@@ -814,7 +827,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Flight by Nothing",
@@ -929,7 +943,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Soundcult",
@@ -1022,7 +1037,7 @@
     "genre": "Rock",
     "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
-    "description": "Introspective indie rock \ud83d\ude0c and pensive power pop \ud83d\udc40 from the heart (of Texas) \ud83d\udcaf. Debut single \u201cGetting Grown\u201d out now!",
+    "description": "Introspective indie rock 😌 and pensive power pop 👀 from the heart (of Texas) 💯. Debut single “Getting Grown” out now!",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/ari-and-the-artifacts/1855311737"
     },
@@ -1049,7 +1064,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Normal Bias",
@@ -1066,7 +1082,8 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Ces Cadaveres",
@@ -1103,7 +1120,7 @@
     "events_raw": []
   },
   {
-    "name": "\u00bfLa Pregunta?",
+    "name": "¿La Pregunta?",
     "genre": "Electronic",
     "subgenre": "Electro",
     "location": "Los Angeles, CA, USA",
@@ -1117,7 +1134,8 @@
     "state": "CA",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Wetsuit",
@@ -1262,7 +1280,7 @@
     "genre": "Rock",
     "subgenre": "Indie Rock",
     "location": "San Antonio, TX, USA",
-    "description": "Mitts is a Texas-based songwriter, quietly writing songs under the stairs while the rest of the house sleeps. Most mornings start before dawn in a small closet-turned-studio, where songs come together, through an old Tascam into his DAW. Drawing from indie rock, Americana, and an overactive inner monologue, the music blends specificity with humor, offering a crooked grin to life\u2019s heavier moments.",
+    "description": "Mitts is a Texas-based songwriter, quietly writing songs under the stairs while the rest of the house sleeps. Most mornings start before dawn in a small closet-turned-studio, where songs come together, through an old Tascam into his DAW. Drawing from indie rock, Americana, and an overactive inner monologue, the music blends specificity with humor, offering a crooked grin to life’s heavier moments.",
     "links": {
       "bandcamp": "https://mittsmitts.bandcamp.com/",
       "youtube": "https://www.youtube.com/watch?v=bcIy5O-3fd8",
@@ -1402,7 +1420,7 @@
     "genre": "Electronic",
     "subgenre": "Synthpop",
     "location": "Austin, TX, USA",
-    "description": "Calico Sky is the electropop project of brothers Jonathan and Joel. Before diving deep into the synthwave vibes of '80s-inspired tech noir, the Texas twins collaborated with artists from all over the map\u2014from Austin art-rock royalty \u2026And You Will Know Us by the Trail of Dead to the electronic pioneer and producer Moby.\n\nIt was in the neon-lit alleys of Los Angeles where they honed their craft, playing in Hollywood\u2019s storied dive bars while crystallizing the sounds that would become Calico Sky.\n\nAfter years of working in L.A., and homesick for Texas, Jon and Joel moved back to Austin. Fueled by the city\u2019s endless creative energy and love for its deep-rooted live music scene, the twins of Calico Sky invite listeners on a sonic journey where nostalgia meets futurism, and old-school melodies collide with a new wave of sound.\n\n\"Get offline and come to a show. We'll buy you a Lone Star.\"",
+    "description": "Calico Sky is the electropop project of brothers Jonathan and Joel. Before diving deep into the synthwave vibes of '80s-inspired tech noir, the Texas twins collaborated with artists from all over the map—from Austin art-rock royalty …And You Will Know Us by the Trail of Dead to the electronic pioneer and producer Moby.\n\nIt was in the neon-lit alleys of Los Angeles where they honed their craft, playing in Hollywood’s storied dive bars while crystallizing the sounds that would become Calico Sky.\n\nAfter years of working in L.A., and homesick for Texas, Jon and Joel moved back to Austin. Fueled by the city’s endless creative energy and love for its deep-rooted live music scene, the twins of Calico Sky invite listeners on a sonic journey where nostalgia meets futurism, and old-school melodies collide with a new wave of sound.\n\n\"Get offline and come to a show. We'll buy you a Lone Star.\"",
     "links": {
       "youtube": "https://www.youtube.com/user/CalicoSkyBand",
       "apple_music": "https://music.apple.com/us/artist/calico-sky/1522865896",
@@ -1475,14 +1493,15 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "JunkBunny",
     "genre": "Rock",
     "subgenre": "Punk",
     "location": "Austin, TX, USA",
-    "description": "Combining hardcore hooks with a reverence for early 2000s pop-punk, JunkBunny\u2019s sound is anthemically massive while still retaining emotional resonance. Compromised of Mac Johnson (Guitar/Vocals), Isaac Moore (Drums), and Dylan Dreiling (Bass), the Austin-based trio released their debut album Starting Over on May 3rd. Balancing gigs at gritty dive bars with amphitheaters alongside legendary acts like ZZ Top and Jon Bon Jovi, JunkBunny\u2019s emergence has been as swift and visceral as the sounds they continue laboring over in an underground Austin Studio.",
+    "description": "Combining hardcore hooks with a reverence for early 2000s pop-punk, JunkBunny’s sound is anthemically massive while still retaining emotional resonance. Compromised of Mac Johnson (Guitar/Vocals), Isaac Moore (Drums), and Dylan Dreiling (Bass), the Austin-based trio released their debut album Starting Over on May 3rd. Balancing gigs at gritty dive bars with amphitheaters alongside legendary acts like ZZ Top and Jon Bon Jovi, JunkBunny’s emergence has been as swift and visceral as the sounds they continue laboring over in an underground Austin Studio.",
     "links": {
       "youtube": "https://www.youtube.com/channel/UCypqM7fcl65vgsCbZ405hMg",
       "apple_music": "https://music.apple.com/us/artist/junkbunny/1479870809",
@@ -1521,7 +1540,7 @@
     "genre": "Rock",
     "subgenre": "Indie Pop",
     "location": "Cincinnati, OH, USA",
-    "description": "Multimagic is an American indie pop band led by songwriters & producers Coran Stetter and James Ruehlman. After a manic episode & hospitalization, Stetter began rebuilding his life through music. Ruehlman joined, & together they transformed their personal struggles and anti-capitalist perspective into Manic Daze, their acclaimed debut album. New single \u201cHeart\u201d arrives May 16,",
+    "description": "Multimagic is an American indie pop band led by songwriters & producers Coran Stetter and James Ruehlman. After a manic episode & hospitalization, Stetter began rebuilding his life through music. Ruehlman joined, & together they transformed their personal struggles and anti-capitalist perspective into Manic Daze, their acclaimed debut album. New single “Heart” arrives May 16,",
     "links": {
       "bandcamp": "https://multimagic.bandcamp.com",
       "spotify": "https://open.spotify.com/album/5yQ75NXVJQhXYRhqbCXyVg?si=IG_W2NekRUWBdXXBc2w-0A&nd=1&dlsi=77577abf4a27404f",
@@ -1533,7 +1552,8 @@
     "state": "OH",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Doak Hensley",
@@ -1816,7 +1836,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Jack Oblivian & the Sheiks",
@@ -1857,7 +1878,7 @@
     "genre": "Metal",
     "subgenre": "Stoner",
     "location": "Los Angeles, CA, USA",
-    "description": "the OWLiNG is a heavy, melodic duo from Hollywood blending doom, cinematic riffs, and \u201990s alt-metal into a dark, riff-driven sound.",
+    "description": "the OWLiNG is a heavy, melodic duo from Hollywood blending doom, cinematic riffs, and ’90s alt-metal into a dark, riff-driven sound.",
     "links": {
       "bandcamp": "https://theowling.bandcamp.com"
     },
@@ -1874,7 +1895,7 @@
     "genre": "Americana",
     "subgenre": "Alternative",
     "location": "Cincinnati, OH, USA",
-    "description": "Led by Curt Kiser, Carriers is Cincinnati\u2019s best-kept secret, blending heartland rock with dreamy, introspective Americana. With a devoted local following and support from indie heavyweights, Carriers is ready to take the national stage.\n\n\u201cHallucinatory heartland rock\u2026dreamy, Dylan-esque.\u201d",
+    "description": "Led by Curt Kiser, Carriers is Cincinnati’s best-kept secret, blending heartland rock with dreamy, introspective Americana. With a devoted local following and support from indie heavyweights, Carriers is ready to take the national stage.\n\n“Hallucinatory heartland rock…dreamy, Dylan-esque.”",
     "links": {
       "bandcamp": "https://carrierstheband.bandcamp.com",
       "spotify": "https://open.spotify.com/artist/03Y6dXzmx4DFtBblTZpAw4?si=9ip2g0NAQIWXLqk0ceDaRA&nd=1&dlsi=92cb66206d524bbb",
@@ -2191,7 +2212,7 @@
     "genre": "Electronic",
     "subgenre": "Synthpop",
     "location": "Austin, TX, USA",
-    "description": "Austin, TX, duo TaSzlin Tr\u00e9buchet (Fuck Money) and Lars Wolfshield (Wolfshield Records) come together in Jet Cemetery, an Electronic project exploring ethereal textures and dystopian soundscapes with probing, poignant vocals.",
+    "description": "Austin, TX, duo TaSzlin Trébuchet (Fuck Money) and Lars Wolfshield (Wolfshield Records) come together in Jet Cemetery, an Electronic project exploring ethereal textures and dystopian soundscapes with probing, poignant vocals.",
     "links": {
       "bandcamp": "https://jetcemetery.bandcamp.com/"
     },
@@ -2201,7 +2222,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "The Violet Mindfield",
@@ -2252,7 +2274,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Nervous",
@@ -2344,7 +2367,7 @@
     "genre": "Rock",
     "subgenre": "Post-Punk",
     "location": "Austin, TX, USA",
-    "description": "Living Set is an Austin-based band blending post- punk tension, new wave melody, and indie rock intimacy. Made up of seasoned musicians\u2014Quin Galavis (The Dead Space, solo), Lex Trevino, Annecy Liddell (Knife in the Water), and Matt Hammer (The Strange Boys, Black Joe Lewis, OBN III\u2019s)\u2014the band delivers songs that are reflective, rhythm-forward, and emotionally grounded.",
+    "description": "Living Set is an Austin-based band blending post- punk tension, new wave melody, and indie rock intimacy. Made up of seasoned musicians—Quin Galavis (The Dead Space, solo), Lex Trevino, Annecy Liddell (Knife in the Water), and Matt Hammer (The Strange Boys, Black Joe Lewis, OBN III’s)—the band delivers songs that are reflective, rhythm-forward, and emotionally grounded.",
     "links": {
       "bandcamp": "https://livingset.bandcamp.com/"
     },
@@ -2361,7 +2384,7 @@
     "genre": "Folk",
     "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
-    "description": "Jones\u2019s lyrics vividly animate spectral rodeo clowns, accidental tourists, and the vanished frontier.\n\nTheir third LP moves through liminal spaces and objects out of time, building songs from secret codes and inside jokes.\n\nIn the quiet after it ends, I Still Picture You Running seems to keep moving\u2014music chasing its own echo across the wide field of memory, haunted and humane.",
+    "description": "Jones’s lyrics vividly animate spectral rodeo clowns, accidental tourists, and the vanished frontier.\n\nTheir third LP moves through liminal spaces and objects out of time, building songs from secret codes and inside jokes.\n\nIn the quiet after it ends, I Still Picture You Running seems to keep moving—music chasing its own echo across the wide field of memory, haunted and humane.",
     "links": {
       "bandcamp": "https://thelovelysparrows.bandcamp.com/"
     },
@@ -2439,7 +2462,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Last Days of Disco",
@@ -2567,7 +2591,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Guyscrapers",
@@ -2674,7 +2699,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Dizzy Fae",
@@ -2760,7 +2786,8 @@
     "state": "VA",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Dutch Kills",
@@ -2830,7 +2857,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Magdalene",
@@ -3054,14 +3082,15 @@
     "state": "NY",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Ashaine White",
     "genre": "Rock",
     "subgenre": "Neo-Soul",
     "location": "London, UK",
-    "description": "Just when you thought every genre mash-up had been done, Ivor Novello Rising Star Nominee Ashaine White arrives with a brand new hybrid: grunge-soul.\n\npinned as bandcamp\u2019s best of soul (june 2023) her new EP \u201cAsh\u201d is out now!",
+    "description": "Just when you thought every genre mash-up had been done, Ivor Novello Rising Star Nominee Ashaine White arrives with a brand new hybrid: grunge-soul.\n\npinned as bandcamp’s best of soul (june 2023) her new EP “Ash” is out now!",
     "links": {
       "bandcamp": "https://ashainewhite.bandcamp.com",
       "website": "https://www.ashainewhite.com/"
@@ -3248,7 +3277,8 @@
     "state": "CA",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Arroba Nat",
@@ -3492,7 +3522,7 @@
     "genre": "Rock",
     "subgenre": "Punk",
     "location": "Austin, TX, USA",
-    "description": "Originating in Austin, Texas, TV\u2019s Daniel formed in 2017, igniting a new punk ethos era that the city so deeply yearned for. Lead singer, Daniel Fried is no stranger to music, playing in bands such as Bad Sports, Radioactivity, and VIDEO. After decades of collaborating with other people, Daniel decided he wanted to create his own band, his own sound, with his own principles.",
+    "description": "Originating in Austin, Texas, TV’s Daniel formed in 2017, igniting a new punk ethos era that the city so deeply yearned for. Lead singer, Daniel Fried is no stranger to music, playing in bands such as Bad Sports, Radioactivity, and VIDEO. After decades of collaborating with other people, Daniel decided he wanted to create his own band, his own sound, with his own principles.",
     "links": {
       "bandcamp": "https://tvsdanieltx.bandcamp.com"
     },
@@ -3509,7 +3539,7 @@
     "genre": "Rock",
     "subgenre": "Alternative",
     "location": "Kansas City, MO, USA",
-    "description": "Kevin Morby writes (and records, and imagines) at an almost incomparable clip, and his most recent album, This Is A Photograph, studies life, time and mortality through myriad lenses. It\u2019s a dynamic, buoyant record on big, heavy themes, so it only makes sense that Morby found he wasn\u2019t quite done with it on its completion. More Photographs (A Continuum) finds new nooks, corners and vantage points.",
+    "description": "Kevin Morby writes (and records, and imagines) at an almost incomparable clip, and his most recent album, This Is A Photograph, studies life, time and mortality through myriad lenses. It’s a dynamic, buoyant record on big, heavy themes, so it only makes sense that Morby found he wasn’t quite done with it on its completion. More Photographs (A Continuum) finds new nooks, corners and vantage points.",
     "links": {
       "bandcamp": "https://kevinmorby.bandcamp.com"
     },
@@ -3526,7 +3556,7 @@
     "genre": "Americana",
     "subgenre": "Alt-Country",
     "location": "Fayatteville, AR, USA",
-    "description": "I\u2019m from where I woke up this morning. I write the songs that come to mind and struggle with the ones that don\u2019t. I find humor in misconceptions and solace in laughter, love in the street and fire in the eyes of the marginalized. I prefer facts over alternate facts.\nI\u2019m here to shoot you straight, although sometimes I fire from the hip.\nI\u2019ll always love you.\n~Dearl",
+    "description": "I’m from where I woke up this morning. I write the songs that come to mind and struggle with the ones that don’t. I find humor in misconceptions and solace in laughter, love in the street and fire in the eyes of the marginalized. I prefer facts over alternate facts.\nI’m here to shoot you straight, although sometimes I fire from the hip.\nI’ll always love you.\n~Dearl",
     "links": {
       "bandcamp": "https://dylanearl.bandcamp.com"
     },
@@ -3811,7 +3841,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Demitria",
@@ -4135,7 +4166,8 @@
     "state": "CA",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Maldosa",
@@ -4364,7 +4396,7 @@
     "genre": "Rock",
     "subgenre": "Alternative",
     "location": "Austin, TX, USA",
-    "description": "Shelby Specter is a genre-bending artist from Texas, blending '70s metal, '80s new wave, and '90s alt-punk into a sound both savage and soulful. Her voice\u2014somewhere between Elvis Presley\u2019s velvet and Chris Cornell\u2019s flame\u2014defies expectation. First rising during the COVID lockdown, she later fronted Digger of Dirt, a fierce DIY band known for relentless shows and a month-long tour. Now solo again, she returns with Aether, a debut album full of grit, grief, and ghostlight. Onstage, Shelby pairs occult glamour with punk fury, turning every performance into a ritual. Audiences may judge the boots, the eyeliner, the smirk, but her songs peel back every illusion. She writes for the wild ones, sings for the forgotten, and fights for love, justice, and misfit kin.",
+    "description": "Shelby Specter is a genre-bending artist from Texas, blending '70s metal, '80s new wave, and '90s alt-punk into a sound both savage and soulful. Her voice—somewhere between Elvis Presley’s velvet and Chris Cornell’s flame—defies expectation. First rising during the COVID lockdown, she later fronted Digger of Dirt, a fierce DIY band known for relentless shows and a month-long tour. Now solo again, she returns with Aether, a debut album full of grit, grief, and ghostlight. Onstage, Shelby pairs occult glamour with punk fury, turning every performance into a ritual. Audiences may judge the boots, the eyeliner, the smirk, but her songs peel back every illusion. She writes for the wild ones, sings for the forgotten, and fights for love, justice, and misfit kin.",
     "links": {
       "youtube": "https://www.youtube.com/@theshelbyspecter"
     },
@@ -4399,7 +4431,7 @@
     "genre": "Rock",
     "subgenre": "Indie Rock",
     "location": "New Orleans, LA, USA",
-    "description": "Keaton Schiller is a New Orleans-based singer and songwriter. \n\nWith her warm yet gritty melodies and strikingly intimate lyrics, Schiller\u2019s songs live in a world of contradiction. They carry conflicting emotions, multiple perspectives, and confront both dreams and reality. Schiller\u2019s atmospheric music and candid voice create an indie rock sound that is both fresh and familiar. Her songs are filled with hooks, loaded with feeling, and begin at the moment where things fall apart. \n\nschiller has planned and performed in multiple cross-country tours, most recently selling out New York\u2019s Union Pool and D.c.\u2019s beloved rhizome, becoming one of the most exciting rising voices in indie rock.",
+    "description": "Keaton Schiller is a New Orleans-based singer and songwriter. \n\nWith her warm yet gritty melodies and strikingly intimate lyrics, Schiller’s songs live in a world of contradiction. They carry conflicting emotions, multiple perspectives, and confront both dreams and reality. Schiller’s atmospheric music and candid voice create an indie rock sound that is both fresh and familiar. Her songs are filled with hooks, loaded with feeling, and begin at the moment where things fall apart. \n\nschiller has planned and performed in multiple cross-country tours, most recently selling out New York’s Union Pool and D.c.’s beloved rhizome, becoming one of the most exciting rising voices in indie rock.",
     "links": {
       "youtube": "https://www.youtube.com/@keatonschillermusic",
       "apple_music": "https://music.apple.com/us/artist/keaton-schiller/1594277717",
@@ -4655,7 +4687,8 @@
     "state": "TX",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Ash and the Endings",
@@ -4752,7 +4785,7 @@
     "genre": "Rock",
     "subgenre": "Indie Rock",
     "location": "Austin, TX, USA",
-    "description": "The latest musical incarnation of songwriters Singer Mayberry and David Lujan (Red Leaves, Bitter Birds). They\u2019ve been in groups together since the early 2000\u2019s, but Born Twins is their most recent endeavor, with Mayberry taking the lead on guitar and vocals\u201d, Lujan on Drums and Bass Organ, and the addition of third member Gwyneth Lujan on keys and synth.",
+    "description": "The latest musical incarnation of songwriters Singer Mayberry and David Lujan (Red Leaves, Bitter Birds). They’ve been in groups together since the early 2000’s, but Born Twins is their most recent endeavor, with Mayberry taking the lead on guitar and vocals”, Lujan on Drums and Bass Organ, and the addition of third member Gwyneth Lujan on keys and synth.",
     "links": {
       "bandcamp": "https://borntwins.bandcamp.com",
       "youtube": "https://www.youtube.com/channel/UCpzsb7n0mp2giNRjjO2JUyg",
@@ -4801,7 +4834,8 @@
     "state": "MO",
     "entity_id": null,
     "detail_url": "",
-    "events_raw": []
+    "events_raw": [],
+    "recommended": true
   },
   {
     "name": "Flags",
@@ -5010,7 +5044,7 @@
     "genre": "Unknown",
     "subgenre": "",
     "location": "CT, USA",
-    "description": "Kids That Fly formed in the fall of 2018, while attending the University of Connecticut. It wasn\u2019t long before they fell into a steady rhythm of playing shows in and around Connecticut, while simultaneously commuting in and out of New York City to record and perform in both Manhattan and Brooklyn. Having all grown up in Connecticut, the crew has had a lot of influence from other Connecticut musicians such as Rivers Cuomo of Weezer. Each member has played music in the indie/alt rock spheres, even dabbled in jazz, but their broad collective musical taste includes The Black Keys, The 1975, The Killers, and Catfish and the Bottlemen \u2014 keeping them tied to a more alternative rock sound.\n\nPraised by outlets like Atwood Magazine for their \u201ccaptivating indie rock anthems\u201d and Music Connection Magazine for their \u201cpolished, powerfully fun pop-rock,\u201d the band has also been lauded by The Aqua",
+    "description": "Kids That Fly formed in the fall of 2018, while attending the University of Connecticut. It wasn’t long before they fell into a steady rhythm of playing shows in and around Connecticut, while simultaneously commuting in and out of New York City to record and perform in both Manhattan and Brooklyn. Having all grown up in Connecticut, the crew has had a lot of influence from other Connecticut musicians such as Rivers Cuomo of Weezer. Each member has played music in the indie/alt rock spheres, even dabbled in jazz, but their broad collective musical taste includes The Black Keys, The 1975, The Killers, and Catfish and the Bottlemen — keeping them tied to a more alternative rock sound.\n\nPraised by outlets like Atwood Magazine for their “captivating indie rock anthems” and Music Connection Magazine for their “polished, powerfully fun pop-rock,” the band has also been lauded by The Aqua",
     "links": {
       "youtube": "https://www.youtube.com/channel/UCQo3LI9qz6TsBkyaEqnbBaQ",
       "apple_music": "https://music.apple.com/us/artist/kids-that-fly/1458452953",
