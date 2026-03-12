@@ -91,10 +91,10 @@
     if (!day || !timeStr) return null;
     const [h, m] = timeStr.split(':').map(Number);
     const base = new Date(day + 'T00:00:00');
-    // Shows after midnight (00:00–06:00) belong to the "night" of the previous calendar date
-    // but are stored on the day they logically belong to — add hours directly
+    // Hours before DAY_START_HOUR (9am) are past-midnight shows that belong to the
+    // next calendar day (e.g. "00:30" on "2026-03-12" is actually 12:30am on March 13)
+    if (h < DAY_START_HOUR) base.setDate(base.getDate() + 1);
     base.setHours(h, m, 0, 0);
-    // If h < 6, assume it's after midnight on the same "night" (add 24h offset handled by storing correctly)
     return base;
   }
 
