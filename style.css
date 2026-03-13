@@ -2801,8 +2801,13 @@ html.grid-view-active { overflow: hidden; }
 .map-show-row:hover { background: var(--bg); }
 .map-show-name { font-size: 14px; color: var(--text); flex: 1; min-width: 0; }
 .map-show-time { font-size: 12px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; }
-.map-show-pick-badge {
-  font-size: 10px; color: #e07b20; font-weight: 700; margin-left: 5px; white-space: nowrap;
+.map-show-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 /* Rating-colored left border on show rows */

@@ -1809,12 +1809,25 @@
     const sheet = document.getElementById('map-venue-sheet');
     const admission = shows[0] ? ADMISSION_LABELS[getAdmission(shows[0])] : '';
 
-    // Sort: timed shows by time, then no-set-time shows
-    const timed   = shows.filter(s => s.start_time && !s.no_set_time).sort((a,b) => a.start_time.localeCompare(b.start_time));
-    const noTime  = shows.filter(s => s.no_set_time || !s.start_time);
-    const sorted  = [...timed, ...noTime];
+    // Sort: timed shows by time (past-midnight hours treated as +24), then no-set-time shows
+    function showSortKey(s) {
+      if (s.no_set_time || !s.start_time) return Infinity;
+      const [h, m] = s.start_time.split(':').map(Number);
+      return (h < DAY_START_HOUR ? h + 24 : h) * 60 + m;
+    }
+    const sorted = [...shows].sort((a, b) => showSortKey(a) - showSortKey(b));
 
     const displayName = venueAliases[venueName] || venueName;
+
+    // Pill background colors per rating / pick status
+    function pillStyle(r, isPick) {
+      if (r === 4)    return 'background:#c6efce;color:#1a5c35';
+      if (r === 3)    return 'background:#dae8fc;color:#1a3a6b';
+      if (r === 2)    return 'background:#ffeb9c;color:#7a5800';
+      if (r === 1)    return 'background:#e1d0f5;color:#4a2d7a';
+      if (isPick)     return 'background:#fce5cd;color:#7a3800';
+      return null;
+    }
 
     let html = `<div class="map-sheet-header">
       <div class="map-sheet-venue">${escHtml(displayName)}</div>
@@ -1828,9 +1841,12 @@
       const isPick = r === 0 && hidePicks !== 'hide' && isRecommended(show);
       const ratingClass = r === 4 ? 'map-show--r4' : r === 3 ? 'map-show--r3' : r === 2 ? 'map-show--r2' : r === 1 ? 'map-show--r1' : isPick ? 'map-show--pick' : '';
       const timeStr = show.no_set_time ? '' : (show.start_time ? formatTime12(show.start_time) : '');
-      const pickBadge = isPick ? '<span class="map-show-pick-badge">★ FW</span>' : '';
+      const ps = pillStyle(r, isPick);
+      const nameHtml = ps
+        ? `<span class="map-show-pill" style="${ps}">${escHtml(show.artist_name)}</span>`
+        : escHtml(show.artist_name);
       html += `<div class="map-show-row ${ratingClass}" data-show-idx="${allShows.indexOf(show)}">
-        <span class="map-show-name">${escHtml(show.artist_name)}${pickBadge}</span>
+        <span class="map-show-name">${nameHtml}</span>
         <span class="map-show-time">${escHtml(timeStr)}</span>
       </div>`;
     }
