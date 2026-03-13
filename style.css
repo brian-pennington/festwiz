@@ -1616,7 +1616,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   }
   .sched-header .page-toggle__half {
     font-size: 14px;
-    padding: 4px 11px;
+    padding: 4px 4px;
   }
   .sched-view-nav .view-btn {
     font-size: 11px;
@@ -1626,6 +1626,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   /* Show hamburger, hide margin trick (drawer replaces controls) */
   .hamburger-btn {
     display: flex;
+    margin-right: 8px;
   }
   .sched-controls {
     margin-left: 0; /* cancel the desktop auto-margin */
