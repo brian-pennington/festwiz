@@ -1882,6 +1882,14 @@
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         maxZoom: 19,
       }).addTo(mapInstance);
+
+      // Pan to user's location on first load if available
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          pos => mapInstance && mapInstance.setView([pos.coords.latitude, pos.coords.longitude], 15),
+          () => {} // permission denied or unavailable — stay on Austin default
+        );
+      }
     }
 
     // Remove old markers
