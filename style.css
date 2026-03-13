@@ -2614,6 +2614,39 @@ html.grid-view-active { overflow: hidden; }
   top: 88px;
   z-index: 50;
 }
+.grid-search-wrap {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  margin-right: 4px;
+  gap: 2px;
+}
+.grid-search-input {
+  flex: 1;
+  min-width: 0;
+  height: 26px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 12px;
+  padding: 0 6px;
+  outline: none;
+}
+.grid-search-input:focus { border-color: var(--accent); }
+.grid-search-clear {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 2px 4px;
+  line-height: 1;
+  display: none;
+}
+.grid-search-clear:hover { color: var(--text); }
+
 .grid-zoom-label { color: var(--text-muted); }
 .grid-zoom-pct { color: var(--text); min-width: 36px; text-align: center; font-weight: 600; }
 .grid-zoom-btn {

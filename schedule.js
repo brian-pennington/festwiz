@@ -1101,12 +1101,50 @@
       localStorage.setItem('sxsw2026_grid_zoom', gridZoom);
       renderCurrentView();
     });
+    // Search input — syncs with drawer sched-search, re-focuses after re-render
+    const gridSearchWrap = document.createElement('div');
+    gridSearchWrap.className = 'grid-search-wrap';
+    const gridSearchInput = document.createElement('input');
+    gridSearchInput.type = 'search';
+    gridSearchInput.id = 'grid-search-input';
+    gridSearchInput.className = 'grid-search-input';
+    gridSearchInput.placeholder = 'Artist, venue…';
+    gridSearchInput.value = searchFilter;
+    const gridSearchClear = document.createElement('button');
+    gridSearchClear.className = 'grid-search-clear';
+    gridSearchClear.textContent = '✕';
+    gridSearchClear.setAttribute('aria-label', 'Clear search');
+    gridSearchClear.style.display = searchFilter ? 'block' : 'none';
+    function syncDrawerSearch(val) {
+      const di = document.getElementById('sched-search');
+      const dc = document.getElementById('sched-search-clear');
+      if (di) di.value = val;
+      if (dc) dc.classList.toggle('visible', val.length > 0);
+    }
+    gridSearchInput.addEventListener('input', () => {
+      searchFilter = gridSearchInput.value.trim();
+      syncDrawerSearch(gridSearchInput.value);
+      renderCurrentView();
+      const newInput = document.getElementById('grid-search-input');
+      if (newInput) newInput.focus();
+    });
+    gridSearchClear.addEventListener('click', () => {
+      searchFilter = '';
+      syncDrawerSearch('');
+      renderCurrentView();
+      const newInput = document.getElementById('grid-search-input');
+      if (newInput) newInput.focus();
+    });
+    gridSearchWrap.appendChild(gridSearchInput);
+    gridSearchWrap.appendChild(gridSearchClear);
+
     const copyBtn = document.createElement('button');
     copyBtn.className = 'grid-zoom-btn';
     copyBtn.id = 'btn-copy-sheets';
     copyBtn.textContent = 'Copy to Sheets';
     copyBtn.style.display = 'none';
     copyBtn.addEventListener('click', copyGridToSheets);
+    zoomBar.appendChild(gridSearchWrap);
     zoomBar.appendChild(zoomLabel);
     zoomBar.appendChild(zoomOut);
     zoomBar.appendChild(zoomPct);
