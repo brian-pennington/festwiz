@@ -1983,7 +1983,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .grid-wrap {
   position: relative;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
 }
 
 .grid-overlay-container {
