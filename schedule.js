@@ -1388,10 +1388,19 @@
     wrap.appendChild(table);
     el.appendChild(wrap);
 
-    // Set wrap height to fill remaining viewport, then scroll to bottom
+    // Set wrap height to fill remaining viewport, then scroll to bottom.
+    // Re-run on resize so the iOS URL bar showing/hiding doesn't let
+    // the page body scroll and push the venue header behind the zoom bar.
+    if (window._gridFitWrap) window.removeEventListener('resize', window._gridFitWrap);
+    function fitWrap() {
+      const rect = wrap.getBoundingClientRect();
+      if (!wrap.isConnected) { window.removeEventListener('resize', fitWrap); return; }
+      wrap.style.height = `${window.innerHeight - rect.top}px`;
+    }
+    window._gridFitWrap = fitWrap;
+    window.addEventListener('resize', fitWrap);
     requestAnimationFrame(() => {
-      const top = wrap.getBoundingClientRect().top;
-      wrap.style.height = `${window.innerHeight - top}px`;
+      fitWrap();
       wrap.scrollTop = wrap.scrollHeight;
       renderShowcaseOverlays(wrap, table, shows, venues);
     });
