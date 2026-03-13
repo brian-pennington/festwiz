@@ -1312,6 +1312,8 @@
     for (const v of venues) {
       const th = document.createElement('th');
       th.className = 'grid-venue-th';
+      if (gridZoom === 0.75) th.style.fontSize = '8px';
+      else if (gridZoom === 0.6) th.style.fontSize = '7px';
       const thLink = document.createElement('a');
       thLink.href = venueMapUrl(v);
       thLink.target = '_blank';
@@ -1597,8 +1599,9 @@
     const pill = document.createElement('div');
     pill.className = `grid-show-pill${rating ? ` grid-show-pill--rated-${rating}` : isPick ? ' grid-show-pill--fw-pick' : ''}`;
     const timeStr = formatPillTime(show);
+    const admFontSize = gridZoom === 0.75 ? ' style="font-size:7px"' : gridZoom === 0.6 ? ' style="font-size:6px"' : '';
     const admissionSpan = !show.showcase
-      ? `<span class="grid-show-admission grid-show-admission--${admission}">${ADMISSION_LABELS[admission]}</span>`
+      ? `<span class="grid-show-admission grid-show-admission--${admission}"${admFontSize}>${ADMISSION_LABELS[admission]}</span>`
       : '';
     const metaHtml = (timeStr || admissionSpan)
       ? `<div class="grid-show-meta">${timeStr ? `<span class="grid-show-time">${escHtml(timeStr)}</span>` : ''}${admissionSpan}</div>`
