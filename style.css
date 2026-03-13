@@ -1615,8 +1615,8 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
     gap: 6px;
   }
   .sched-header .page-toggle__half {
-    font-size: 14px;
-    padding: 4px 4px;
+    font-size: 12px;
+    padding: 4px 8px;
   }
   .sched-view-nav .view-btn {
     font-size: 11px;
