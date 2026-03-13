@@ -1620,7 +1620,7 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   }
   .sched-view-nav .view-btn {
     font-size: 11px;
-    padding: 5px 6px;
+    padding: 5px 4px;
   }
 
   /* Show hamburger, hide margin trick (drawer replaces controls) */
