@@ -1978,6 +1978,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
 .timeline-show-venue { font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .timeline-show-showcase { font-size: 10px; font-style: italic; color: var(--text-dim); }
 
+/* Prevent body scroll in grid view so iOS routes all touch to the grid-wrap */
+html.grid-view-active { overflow: hidden; }
+
 /* ── Grid view ───────────────────────────────────────────────────────────── */
 
 .grid-wrap {

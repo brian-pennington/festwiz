@@ -468,6 +468,10 @@
     if (nowNextTimer) { clearInterval(nowNextTimer); nowNextTimer = null; }
     if (agendaTimer)  { clearInterval(agendaTimer);  agendaTimer  = null; }
 
+    // Lock body scroll in grid view so iOS always routes touch events to
+    // the grid-wrap, preventing the venue header from slipping behind the zoom bar.
+    document.documentElement.classList.toggle('grid-view-active', selectedView === 'grid');
+
     document.querySelectorAll('.sched-view').forEach(el => el.classList.add('sched-view--hidden'));
     const viewEl = document.getElementById(`view-${selectedView}`);
     if (viewEl) viewEl.classList.remove('sched-view--hidden');
