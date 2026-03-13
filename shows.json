@@ -1413,7 +1413,7 @@
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
     "start_time": "23:00",
-    "end_time": "23:30",
+    "end_time": "23:25",
     "source": "official",
     "showcase": "REALM",
     "notes": ""
@@ -2393,6 +2393,18 @@
     "notes": ""
   },
   {
+    "id": "official_bilsflamingo_cantina2026_03_1721_45",
+    "artist_name": "BILS",
+    "entity_id": 2286530,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-17",
+    "start_time": "21:45",
+    "end_time": "22:15",
+    "source": "official",
+    "showcase": "Afrobeats Worldwide",
+    "notes": ""
+  },
+  {
     "id": "official_the_bio_swan_dive_patio2026_03_1819_30",
     "artist_name": "The Bio.",
     "entity_id": 2278474,
@@ -2970,17 +2982,16 @@
     "notes": ""
   },
   {
-    "id": "official_bu_cuaronmala_fama_rooftop2026_03_16",
+    "id": "official_bu_cuaronmala_fama_rooftop2026_03_1620_05",
     "artist_name": "Bu Cuaron",
     "entity_id": 2279017,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:05",
+    "end_time": "20:25",
     "source": "official",
     "showcase": "The New Sounds of M\u00fasica Mexicana",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_bubba_luckylow_down_lounge2026_03_1621_00",
@@ -4677,6 +4688,19 @@
     "notes": ""
   },
   {
+    "id": "official_diamond_dior_davenportswan_dive2026_03_18",
+    "artist_name": "Diamond Dior Davenport",
+    "entity_id": 2258303,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_diamond_the_bodyriviere2026_03_1200_40",
     "artist_name": "Diamond The Body",
     "entity_id": 2262594,
@@ -4915,6 +4939,18 @@
     "end_time": "22:30",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_dj_beastieflamingo_cantina2026_03_1419_00",
+    "artist_name": "Dj Beastie",
+    "entity_id": 2270258,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-14",
+    "start_time": "19:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "Found on Nero",
     "notes": ""
   },
   {
@@ -5580,13 +5616,13 @@
     "no_set_time": true
   },
   {
-    "id": "official_donovanwanderlust_wine_co_2026_03_1321_10",
+    "id": "official_donovanwanderlust_wine_co_2026_03_1321_30",
     "artist_name": "Donovan",
     "entity_id": 2281079,
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
-    "start_time": "21:10",
-    "end_time": "21:30",
+    "start_time": "21:30",
+    "end_time": "21:55",
     "source": "official",
     "showcase": "REALM",
     "notes": ""
@@ -7028,13 +7064,13 @@
     "notes": ""
   },
   {
-    "id": "official_gavin_copelandwanderlust_wine_co_2026_03_1321_35",
+    "id": "official_gavin_copelandwanderlust_wine_co_2026_03_1322_30",
     "artist_name": "Gavin Copeland",
     "entity_id": 2250471,
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
-    "start_time": "21:35",
-    "end_time": "21:55",
+    "start_time": "22:30",
+    "end_time": "22:55",
     "source": "official",
     "showcase": "REALM",
     "notes": ""
@@ -7973,6 +8009,18 @@
     "end_time": "01:30",
     "source": "official",
     "showcase": "Planetary Group",
+    "notes": ""
+  },
+  {
+    "id": "official_the_haunted_youthradio_day_stage___downright_austin_backyard",
+    "artist_name": "The Haunted Youth",
+    "entity_id": 2248080,
+    "venue": "Radio Day Stage @ Downright Austin Backyard",
+    "day": "2026-03-13",
+    "start_time": "16:00",
+    "end_time": "16:40",
+    "source": "official",
+    "showcase": "KCRW",
     "notes": ""
   },
   {
@@ -10205,12 +10253,12 @@
     "notes": ""
   },
   {
-    "id": "official_kaziwanderlust_wine_co_2026_03_1323_30",
+    "id": "official_kaziwanderlust_wine_co_2026_03_1323_25",
     "artist_name": "Kazi",
     "entity_id": 2280449,
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
-    "start_time": "23:30",
+    "start_time": "23:25",
     "end_time": "00:00",
     "source": "official",
     "showcase": "REALM",
@@ -10919,6 +10967,19 @@
     "notes": ""
   },
   {
+    "id": "official_lainey_wilsonstubb_s2026_03_17",
+    "artist_name": "Lainey Wilson",
+    "entity_id": 2255131,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-17",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "",
+    "notes": "",
+    "no_set_time": true
+  },
+  {
     "id": "official_lane_smithelysium2026_03_1320_00",
     "artist_name": "Lane Smith",
     "entity_id": 2257123,
@@ -11255,13 +11316,13 @@
     "notes": ""
   },
   {
-    "id": "official_lifeofthomwanderlust_wine_co_2026_03_1322_30",
+    "id": "official_lifeofthomwanderlust_wine_co_2026_03_1322_00",
     "artist_name": "LIFEOFTHOM",
     "entity_id": 2254312,
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
-    "start_time": "22:30",
-    "end_time": "23:00",
+    "start_time": "22:00",
+    "end_time": "22:25",
     "source": "official",
     "showcase": "REALM",
     "notes": ""
@@ -12940,6 +13001,18 @@
     "notes": ""
   },
   {
+    "id": "official_miss_girl6swan_dive2026_03_1822_40",
+    "artist_name": "Miss GIRL6",
+    "entity_id": 2255895,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "22:40",
+    "end_time": "22:45",
+    "source": "official",
+    "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
+    "notes": ""
+  },
+  {
     "id": "official_missionbrushy_street_commons2026_03_1220_45",
     "artist_name": "Mission",
     "entity_id": 2247350,
@@ -13060,17 +13133,16 @@
     "notes": ""
   },
   {
-    "id": "official_moe_lottiswan_dive2026_03_18",
+    "id": "official_moe_lottiswan_dive2026_03_1823_20",
     "artist_name": "Moe Lotti",
     "entity_id": 2256908,
     "venue": "Swan Dive",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:20",
+    "end_time": "00:00",
     "source": "official",
     "showcase": "House of Lepore",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_moioswan_dive_patio2026_03_1323_00",
@@ -13327,6 +13399,18 @@
     "notes": ""
   },
   {
+    "id": "official_ms__duchessgamesriviere2026_03_1419_00",
+    "artist_name": "Ms. Duchessgames",
+    "entity_id": 2286525,
+    "venue": "Riviere",
+    "day": "2026-03-14",
+    "start_time": "19:00",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "DreamCon",
+    "notes": ""
+  },
+  {
     "id": "official_ms_demeanor_aka_mo_presshathe_creek_and_the_cave_backyard202",
     "artist_name": "Ms.Demeanor aka Mo'Pressha",
     "entity_id": 2279546,
@@ -13384,6 +13468,18 @@
     "end_time": "01:40",
     "source": "official",
     "showcase": "Art Decade Creatives - Austin Heavy Hitters",
+    "notes": ""
+  },
+  {
+    "id": "official_munjiswan_dive2026_03_1822_55",
+    "artist_name": "MUNJI",
+    "entity_id": 2259890,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "22:55",
+    "end_time": "23:05",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -14290,6 +14386,18 @@
     "notes": ""
   },
   {
+    "id": "official_oseanflamingo_cantina2026_03_1711_00",
+    "artist_name": "Osean",
+    "entity_id": 2286685,
+    "venue": "Flamingo Cantina",
+    "day": "2026-03-17",
+    "start_time": "11:00",
+    "end_time": "23:30",
+    "source": "official",
+    "showcase": "Afrobeats Worldwide",
+    "notes": ""
+  },
+  {
     "id": "official_otis_wilkinszilker_brewing2026_03_1719_50",
     "artist_name": "Otis Wilkins",
     "entity_id": 2250644,
@@ -14711,13 +14819,13 @@
     "no_set_time": true
   },
   {
-    "id": "official_perri_joneswanderlust_wine_co_2026_03_1320_45",
+    "id": "official_perri_joneswanderlust_wine_co_2026_03_1321_00",
     "artist_name": "Perri Jones",
     "entity_id": 2280448,
     "venue": "Wanderlust Wine Co.",
     "day": "2026-03-13",
-    "start_time": "20:45",
-    "end_time": "21:05",
+    "start_time": "21:00",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "REALM",
     "notes": ""
@@ -14829,6 +14937,19 @@
     "source": "official",
     "showcase": "",
     "notes": ""
+  },
+  {
+    "id": "official_pink_elephant_radioswan_dive2026_03_18",
+    "artist_name": "Pink Elephant Radio",
+    "entity_id": 2258305,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_the_pink_stoneslamberts2026_03_1621_00",
@@ -15276,17 +15397,16 @@
     "notes": ""
   },
   {
-    "id": "official_quannaswan_dive2026_03_18",
+    "id": "official_quannaswan_dive2026_03_1823_10",
     "artist_name": "QUANNA",
     "entity_id": 2242728,
     "venue": "Swan Dive",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:10",
+    "end_time": "23:15",
     "source": "official",
     "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_quannawanderlust_wine_co_2026_03_1522_50",
@@ -16106,6 +16226,30 @@
     "notes": ""
   },
   {
+    "id": "official_saint_agnesvalhalla2026_03_1723_20",
+    "artist_name": "Saint Agnes",
+    "entity_id": 2240464,
+    "venue": "Valhalla",
+    "day": "2026-03-17",
+    "start_time": "23:20",
+    "end_time": "23:50",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_saint_agnesbritish_music_embassy___palm_door_on_sixth2026_03",
+    "artist_name": "Saint Agnes",
+    "entity_id": 2240464,
+    "venue": "British Music Embassy @ Palm Door on Sixth",
+    "day": "2026-03-12",
+    "start_time": "20:00",
+    "end_time": "20:30",
+    "source": "official",
+    "showcase": "[PIAS]",
+    "notes": ""
+  },
+  {
     "id": "official_saint_avangelineelysium2026_03_1720_00",
     "artist_name": "Saint Avangeline",
     "entity_id": 2253198,
@@ -16151,6 +16295,18 @@
     "end_time": "19:40",
     "source": "official",
     "showcase": "Hip Hop Forever",
+    "notes": ""
+  },
+  {
+    "id": "official_sam_scherdelbritish_music_embassy___palm_door_on_sixth_patio",
+    "artist_name": "Sam Scherdel",
+    "entity_id": 2275706,
+    "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+    "day": "2026-03-12",
+    "start_time": "20:40",
+    "end_time": "21:10",
+    "source": "official",
+    "showcase": "British Music Embassy",
     "notes": ""
   },
   {
@@ -17392,6 +17548,18 @@
     "notes": ""
   },
   {
+    "id": "official_the_south_austin_moonlighterssaxon_pub2026_03_1222_30",
+    "artist_name": "The South Austin Moonlighters",
+    "entity_id": 2281254,
+    "venue": "Saxon Pub",
+    "day": "2026-03-12",
+    "start_time": "22:30",
+    "end_time": "23:10",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_south_north_southwestriviere2026_03_1620_30",
     "artist_name": "South North SouthWest",
     "entity_id": 2276966,
@@ -17473,6 +17641,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "Money Mark and Friends",
+    "notes": ""
+  },
+  {
+    "id": "official_spellman_twinzswan_dive2026_03_1823_15",
+    "artist_name": "Spellman Twinz",
+    "entity_id": 2258351,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "23:15",
+    "end_time": "23:20",
+    "source": "official",
+    "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
     "notes": ""
   },
   {
@@ -17560,6 +17740,18 @@
     "notes": ""
   },
   {
+    "id": "official_st__vincentstubb_s2026_03_1400_15",
+    "artist_name": "St. Vincent",
+    "entity_id": 2286737,
+    "venue": "Stubb\u2019s",
+    "day": "2026-03-14",
+    "start_time": "00:15",
+    "end_time": "01:45",
+    "source": "official",
+    "showcase": "Spotify 20: Live at Stubb\u2019s",
+    "notes": ""
+  },
+  {
     "id": "official_st_augustinecontinental_club2026_03_1501_00",
     "artist_name": "St.Augustine",
     "entity_id": 2270260,
@@ -17617,18 +17809,6 @@
     "end_time": "22:00",
     "source": "official",
     "showcase": "ATX Social Club",
-    "notes": ""
-  },
-  {
-    "id": "official_steven_bamideleradio_day_stage___downright_austin_backyard20",
-    "artist_name": "Steven Bamidele",
-    "entity_id": 2238725,
-    "venue": "Radio Day Stage @ Downright Austin Backyard",
-    "day": "2026-03-13",
-    "start_time": "16:00",
-    "end_time": "16:40",
-    "source": "official",
-    "showcase": "KCRW",
     "notes": ""
   },
   {
@@ -19027,12 +19207,12 @@
     "no_set_time": true
   },
   {
-    "id": "official_usb_gadseven_grand2026_03_1211_55",
+    "id": "official_usb_gadseven_grand2026_03_1223_55",
     "artist_name": "USB GAD",
     "entity_id": 2278008,
     "venue": "Seven Grand",
     "day": "2026-03-12",
-    "start_time": "11:55",
+    "start_time": "23:55",
     "end_time": "02:00",
     "source": "official",
     "showcase": "Rimas",
