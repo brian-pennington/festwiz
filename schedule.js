@@ -481,6 +481,7 @@
       case 'agenda':    renderAgenda();  break;
       case 'grid':      renderGrid();    break;
       case 'manage':    renderManage();  break;
+      case 'map':       renderMap();     break;
     }
   }
 
@@ -1745,6 +1746,165 @@
 
     document.getElementById('manage-btn-import').addEventListener('click', openImportModal);
     document.getElementById('manage-btn-add').addEventListener('click', openAddShowModal);
+  }
+
+  // ── Map view ────────────────────────────────────────────────────────────────
+
+  let mapInstance = null;       // L.map singleton
+  let mapMarkers  = [];         // current marker layer
+  let venueCoords = null;       // loaded once from venue_coords.json
+
+  // Returns { lat, lng } for a venue name, checking clusters for fallback
+  function coordsForVenue(name, coords) {
+    if (coords[name]) return coords[name];
+    // Check clusters: if a sub-venue (e.g. "Mohawk Indoor") isn't found,
+    // look for any cluster sibling that does have coords
+    const clusterDefs = venueOrder.clusters || [];
+    for (const cluster of clusterDefs) {
+      if (cluster.includes(name)) {
+        for (const sibling of cluster) {
+          if (coords[sibling]) return coords[sibling];
+        }
+      }
+    }
+    return null;
+  }
+
+  // Best rating across a venue's shows: 4>3>2>pick>1>0
+  function venueBestScore(shows) {
+    let best = 0;
+    for (const s of shows) {
+      const r = getRating(s);
+      if (r === 4) return 4;
+      if (r > best) best = r;
+      if (best < 0.5 && r === 0 && hidePicks !== 'hide' && isRecommended(s)) best = 0.5;
+    }
+    return best;
+  }
+
+  function markerColor(score) {
+    if (score === 4)   return '#1a7a4a'; // green   — Hell yeah
+    if (score === 3)   return '#2563eb'; // blue    — Psyched
+    if (score === 2)   return '#d97706'; // amber   — Sure
+    if (score === 0.5) return '#e07b20'; // orange  — FW Pick unrated
+    if (score === 1)   return '#6b7280'; // gray    — Nope
+    return '#6b7280';                    // gray    — unrated
+  }
+
+  function makeMarkerIcon(color, count) {
+    const size = count > 1 ? 34 : 28;
+    const label = count > 1 ? `<span class="map-marker-count">${count}</span>` : '';
+    const svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="${size/2}" cy="${size/2}" r="${size/2 - 2}" fill="${color}" stroke="white" stroke-width="2.5"/>
+    </svg>`;
+    return L.divIcon({
+      html: `<div class="map-marker-wrap" style="width:${size}px;height:${size}px">${svg}${label}</div>`,
+      className: '',
+      iconSize: [size, size],
+      iconAnchor: [size/2, size/2],
+    });
+  }
+
+  function openVenueSheet(venueName, shows) {
+    const sheet = document.getElementById('map-venue-sheet');
+    const admission = shows[0] ? ADMISSION_LABELS[getAdmission(shows[0])] : '';
+
+    // Sort: timed shows by time, then no-set-time shows
+    const timed   = shows.filter(s => s.start_time && !s.no_set_time).sort((a,b) => a.start_time.localeCompare(b.start_time));
+    const noTime  = shows.filter(s => s.no_set_time || !s.start_time);
+    const sorted  = [...timed, ...noTime];
+
+    const displayName = venueAliases[venueName] || venueName;
+
+    let html = `<div class="map-sheet-header">
+      <div class="map-sheet-venue">${escHtml(displayName)}</div>
+      <a class="map-sheet-maplink" href="${escAttr(venueMapUrl(venueName))}" target="_blank" rel="noopener noreferrer">Directions</a>
+      <button class="map-sheet-close" id="map-sheet-close">✕</button>
+    </div>
+    <div class="map-sheet-shows">`;
+
+    for (const show of sorted) {
+      const r = getRating(show);
+      const isPick = r === 0 && hidePicks !== 'hide' && isRecommended(show);
+      const ratingClass = r === 4 ? 'map-show--r4' : r === 3 ? 'map-show--r3' : r === 2 ? 'map-show--r2' : r === 1 ? 'map-show--r1' : isPick ? 'map-show--pick' : '';
+      const timeStr = show.no_set_time ? '' : (show.start_time ? formatTime12(show.start_time) : '');
+      const pickBadge = isPick ? '<span class="map-show-pick-badge">★ FW</span>' : '';
+      html += `<div class="map-show-row ${ratingClass}" data-show-idx="${allShows.indexOf(show)}">
+        <span class="map-show-name">${escHtml(show.artist_name)}${pickBadge}</span>
+        <span class="map-show-time">${escHtml(timeStr)}</span>
+      </div>`;
+    }
+
+    html += `</div>`;
+    sheet.innerHTML = html;
+    sheet.classList.add('map-venue-sheet--visible');
+
+    document.getElementById('map-sheet-close').addEventListener('click', () => {
+      sheet.classList.remove('map-venue-sheet--visible');
+    });
+
+    sheet.querySelectorAll('.map-show-row').forEach(row => {
+      row.addEventListener('click', () => {
+        const idx = parseInt(row.dataset.showIdx, 10);
+        if (!isNaN(idx) && allShows[idx]) openDetail(allShows[idx]);
+      });
+    });
+  }
+
+  async function renderMap() {
+    // Load venue coords once
+    if (!venueCoords) {
+      try {
+        const resp = await fetch('venue_coords.json');
+        venueCoords = await resp.json();
+      } catch (e) {
+        document.getElementById('view-map').innerHTML =
+          '<p class="map-error">Could not load venue coordinates. Check your connection.</p>';
+        return;
+      }
+    }
+
+    const shows = todayShows();
+    const sheet = document.getElementById('map-venue-sheet');
+    sheet.classList.remove('map-venue-sheet--visible');
+
+    // Group shows by venue
+    const byVenue = {};
+    for (const show of shows) {
+      (byVenue[show.venue] = byVenue[show.venue] || []).push(show);
+    }
+
+    // Initialize map once; re-use the same instance on subsequent renders
+    if (!mapInstance) {
+      mapInstance = L.map('map-container', { zoomControl: true })
+        .setView([30.2672, -97.7431], 14);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19,
+      }).addTo(mapInstance);
+    }
+
+    // Remove old markers
+    for (const m of mapMarkers) m.remove();
+    mapMarkers = [];
+
+    // Place one marker per venue
+    for (const [venue, venueShows] of Object.entries(byVenue)) {
+      const pos = coordsForVenue(venue, venueCoords);
+      if (!pos) continue;
+
+      const score = venueBestScore(venueShows);
+      const color = markerColor(score);
+      const icon  = makeMarkerIcon(color, venueShows.length);
+
+      const marker = L.marker([pos.lat, pos.lng], { icon, title: venueAliases[venue] || venue })
+        .addTo(mapInstance);
+      marker.on('click', () => openVenueSheet(venue, venueShows));
+      mapMarkers.push(marker);
+    }
+
+    // Invalidate size in case the container was hidden during init
+    setTimeout(() => mapInstance && mapInstance.invalidateSize(), 50);
   }
 
   // ── Show detail modal ──────────────────────────────────────────────────────

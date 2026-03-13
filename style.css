@@ -2738,3 +2738,76 @@ html.grid-view-active { overflow: hidden; }
 .agenda-day-nav-btn:disabled { opacity: 0.3; cursor: default; }
 .agenda-day-nav-btn:not(:disabled):hover { background: #5aab9b; color: #fff; }
 .agenda-day-label { font-size: 12px; font-weight: 600; color: var(--text); white-space: nowrap; }
+
+/* ── Map view ─────────────────────────────────────────────────────────────── */
+#view-map { position: relative; overflow: hidden; }
+#map-container {
+  height: calc(100dvh - 88px);
+  width: 100%;
+}
+.map-error { padding: 24px; color: var(--text-muted); font-size: 14px; }
+
+/* Custom marker */
+.map-marker-wrap { position: relative; display: flex; align-items: center; justify-content: center; }
+.map-marker-count {
+  position: absolute; top: -4px; right: -4px;
+  background: var(--nav-bg); color: #fff;
+  font-size: 9px; font-weight: 700; line-height: 1;
+  border-radius: 8px; padding: 2px 4px;
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+/* Venue bottom sheet */
+.map-venue-sheet {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  border-radius: 12px 12px 0 0;
+  max-height: 55dvh;
+  overflow-y: auto;
+  z-index: 1000;
+  transform: translateY(100%);
+  transition: transform 0.22s ease;
+  -webkit-overflow-scrolling: touch;
+}
+.map-venue-sheet--visible { transform: translateY(0); }
+
+.map-sheet-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px 10px;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; background: var(--bg-card); z-index: 1;
+}
+.map-sheet-venue {
+  font-weight: 700; font-size: 15px; color: var(--text); flex: 1; min-width: 0;
+}
+.map-sheet-maplink {
+  font-size: 12px; color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0;
+}
+.map-sheet-maplink:hover { text-decoration: underline; }
+.map-sheet-close {
+  background: none; border: none; color: var(--text-muted); font-size: 16px;
+  cursor: pointer; padding: 2px 4px; line-height: 1; flex-shrink: 0;
+}
+.map-sheet-close:hover { color: var(--text); }
+
+.map-sheet-shows { padding: 4px 0 12px; }
+.map-show-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 9px 14px; cursor: pointer; border-bottom: 1px solid var(--border);
+}
+.map-show-row:last-child { border-bottom: none; }
+.map-show-row:hover { background: var(--bg); }
+.map-show-name { font-size: 14px; color: var(--text); flex: 1; min-width: 0; }
+.map-show-time { font-size: 12px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; }
+.map-show-pick-badge {
+  font-size: 10px; color: #e07b20; font-weight: 700; margin-left: 5px; white-space: nowrap;
+}
+
+/* Rating-colored left border on show rows */
+.map-show--r4 { border-left: 3px solid #1a7a4a; }
+.map-show--r3 { border-left: 3px solid #2563eb; }
+.map-show--r2 { border-left: 3px solid #d97706; }
+.map-show--r1 { border-left: 3px solid #9ca3af; }
+.map-show--pick { border-left: 3px solid #e07b20; }

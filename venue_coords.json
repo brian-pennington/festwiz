@@ -1,0 +1,470 @@
+{
+  "1601 Garden St": {
+    "lat": 30.255523,
+    "lng": -97.729853
+  },
+  "29th Street Ballroom": {
+    "lat": 30.24902,
+    "lng": -97.75121
+  },
+  "6111 Hogan Ave": {
+    "lat": 30.235343,
+    "lng": -97.699419
+  },
+  "809 E. 8th St": {
+    "lat": 30.267562,
+    "lng": -97.733381
+  },
+  "ABGB": {
+    "lat": 30.245107,
+    "lng": -97.768892
+  },
+  "Alienated Majesty": {
+    "lat": 30.295409,
+    "lng": -97.74363
+  },
+  "Antone\u2019s": {
+    "lat": 30.266056,
+    "lng": -97.740399
+  },
+  "Auditorium Shores": {
+    "lat": 30.260241,
+    "lng": -97.750099
+  },
+  "Augustine": {
+    "lat": 30.259653,
+    "lng": -97.738679
+  },
+  "Austin City Limits Live at the Moody Theater": {
+    "lat": 30.265482,
+    "lng": -97.747188
+  },
+  "Batch": {
+    "lat": 30.287186,
+    "lng": -97.703114
+  },
+  "Billboard Presents The Stage": {
+    "lat": 30.26548,
+    "lng": -97.74719
+  },
+  "Blazer Tag": {
+    "lat": 30.226829,
+    "lng": -97.78285
+  },
+  "Breakaway Records": {
+    "lat": 30.318348,
+    "lng": -97.724491
+  },
+  "British Music Embassy @ Palm Door on Sixth": {
+    "lat": 30.266841,
+    "lng": -97.737754
+  },
+  "British Music Embassy @ Palm Door on Sixth Patio": {
+    "lat": 30.266841,
+    "lng": -97.737754
+  },
+  "Brushy Street Commons": {
+    "lat": 30.26212,
+    "lng": -97.71994
+  },
+  "Central Machine Works": {
+    "lat": 30.252007,
+    "lng": -97.701521
+  },
+  "Central Presbyterian Church": {
+    "lat": 30.269791,
+    "lng": -97.740137
+  },
+  "Cheer Up Charlie's": {
+    "lat": 30.26766,
+    "lng": -97.73625
+  },
+  "Cheer Up Charlies In": {
+    "lat": 30.26766,
+    "lng": -97.73625
+  },
+  "Cheer Up Charlies Out": {
+    "lat": 30.26766,
+    "lng": -97.73625
+  },
+  "Cherrywood Coffeehouse": {
+    "lat": 30.30743,
+    "lng": -97.71676
+  },
+  "Chess Club": {
+    "lat": 30.267258,
+    "lng": -97.736747
+  },
+  "Coconut Club": {
+    "lat": 30.266324,
+    "lng": -97.745192
+  },
+  "Coconut Club Rooftop": {
+    "lat": 30.266324,
+    "lng": -97.745192
+  },
+  "Continental Club": {
+    "lat": 30.250501,
+    "lng": -97.749034
+  },
+  "Delilah's Front Porch": {
+    "lat": 30.26438,
+    "lng": -97.7208
+  },
+  "East End Ballroom": {
+    "lat": 30.26302,
+    "lng": -97.7189
+  },
+  "Elysium": {
+    "lat": 30.267678,
+    "lng": -97.736591
+  },
+  "End of an Ear": {
+    "lat": 30.228983,
+    "lng": -97.784266
+  },
+  "Factory on 5th": {
+    "lat": 30.25419,
+    "lng": -97.704888
+  },
+  "Flamingo Cantina": {
+    "lat": 30.266448,
+    "lng": -97.737758
+  },
+  "Flatstock Stage @ Austin Marriott Downtown (Moontower Hall)": {
+    "lat": 30.262851,
+    "lng": -97.741513
+  },
+  "Friendly Rio Mart": {
+    "lat": 30.26356,
+    "lng": -97.72102
+  },
+  "Global Stage @ Downright Austin Backyard": {
+    "lat": 30.27033,
+    "lng": -97.734244
+  },
+  "G\u00fcero's": {
+    "lat": 30.249153,
+    "lng": -97.750286
+  },
+  "High Noon": {
+    "lat": 30.26719,
+    "lng": -97.73629
+  },
+  "High Noon In": {
+    "lat": 30.26719,
+    "lng": -97.73629
+  },
+  "High Noon Out": {
+    "lat": 30.26719,
+    "lng": -97.73629
+  },
+  "Hilton Grand Ballroom (Salon HJK)": {
+    "lat": 30.26556,
+    "lng": -97.74004
+  },
+  "Hole in the Wall": {
+    "lat": 30.290042,
+    "lng": -97.741617
+  },
+  "Hotel San Jose": {
+    "lat": 30.25089,
+    "lng": -97.749731
+  },
+  "Hotel Vegas": {
+    "lat": 30.263425,
+    "lng": -97.727245
+  },
+  "Hotel Vegas Inside": {
+    "lat": 30.263425,
+    "lng": -97.727245
+  },
+  "Hotel Vegas Patio": {
+    "lat": 30.263425,
+    "lng": -97.727245
+  },
+  "Hotel Vegas at Volstead": {
+    "lat": 30.263454,
+    "lng": -97.727348
+  },
+  "HowMuch?! Studios In": {
+    "lat": 30.26498,
+    "lng": -97.71756
+  },
+  "HowMuch?! Studios Out": {
+    "lat": 30.26498,
+    "lng": -97.71756
+  },
+  "Inn Cahoots Austin Garden": {
+    "lat": 30.2451,
+    "lng": -97.75706
+  },
+  "Inn Cahoots Studio": {
+    "lat": 30.2451,
+    "lng": -97.75706
+  },
+  "Kick Butt Coffee": {
+    "lat": 30.32236,
+    "lng": -97.713921
+  },
+  "Kingdom": {
+    "lat": 30.178865,
+    "lng": -97.808404
+  },
+  "Kosmikstan (3615 Oak Springs)": {
+    "lat": 30.26819,
+    "lng": -97.71808
+  },
+  "La Volta Pizza": {
+    "lat": 30.26435,
+    "lng": -97.7348
+  },
+  "Lamberts": {
+    "lat": 30.26518,
+    "lng": -97.747927
+  },
+  "Las Perlas": {
+    "lat": 30.26774,
+    "lng": -97.738644
+  },
+  "Lefty\u2019s Brick Bar": {
+    "lat": 30.261722,
+    "lng": -97.723068
+  },
+  "Low Down Lounge": {
+    "lat": 30.2672,
+    "lng": -97.73551
+  },
+  "Mala Fama Rooftop": {
+    "lat": 30.2635,
+    "lng": -97.72049
+  },
+  "Mala Vida": {
+    "lat": 30.266226,
+    "lng": -97.735565
+  },
+  "Marlow": {
+    "lat": 30.26562,
+    "lng": -97.72607
+  },
+  "Meanwhile Brewing": {
+    "lat": 30.20849,
+    "lng": -97.729531
+  },
+  "Mohawk": {
+    "lat": 30.270058,
+    "lng": -97.736088
+  },
+  "Mohawk In": {
+    "lat": 30.270058,
+    "lng": -97.736088
+  },
+  "Mohawk Indoor": {
+    "lat": 30.270058,
+    "lng": -97.736088
+  },
+  "Mohawk Out": {
+    "lat": 30.270058,
+    "lng": -97.736088
+  },
+  "Mohawk Outdoor": {
+    "lat": 30.270058,
+    "lng": -97.736088
+  },
+  "Neon Grotto": {
+    "lat": 30.266432,
+    "lng": -97.745085
+  },
+  "Neon Grotto Rooftop": {
+    "lat": 30.266432,
+    "lng": -97.745085
+  },
+  "Nivel @ Mala Fama": {
+    "lat": 30.2635,
+    "lng": -97.72049
+  },
+  "Pearl St Co-Op": {
+    "lat": 30.28447,
+    "lng": -97.73742
+  },
+  "Pearl St Co-op": {
+    "lat": 30.28447,
+    "lng": -97.73742
+  },
+  "Radio Day Stage @ Downright Austin Backyard": {
+    "lat": 30.27033,
+    "lng": -97.734244
+  },
+  "Radio East": {
+    "lat": 30.207943,
+    "lng": -97.715519
+  },
+  "Radio/East": {
+    "lat": 30.207943,
+    "lng": -97.715519
+  },
+  "Rivian Electric Roadhouse": {
+    "lat": 30.26337,
+    "lng": -97.73885
+  },
+  "Riviere": {
+    "lat": 29.245648,
+    "lng": -95.33167
+  },
+  "Sahara Lounge": {
+    "lat": 30.279495,
+    "lng": -97.681618
+  },
+  "Saxon Pub": {
+    "lat": 30.253536,
+    "lng": -97.763571
+  },
+  "Scholz Garten": {
+    "lat": 30.277727,
+    "lng": -97.736318
+  },
+  "Seven Grand": {
+    "lat": 30.267723,
+    "lng": -97.738558
+  },
+  "Seven Spirits": {
+    "lat": 30.26420,
+    "lng": -97.72680
+  },
+  "Shangri-La": {
+    "lat": 30.264933,
+    "lng": -97.731621
+  },
+  "Side Bar In": {
+    "lat": 30.26722,
+    "lng": -97.73632
+  },
+  "Side Bar Inside": {
+    "lat": 30.26722,
+    "lng": -97.73632
+  },
+  "Side Bar Out": {
+    "lat": 30.26722,
+    "lng": -97.73632
+  },
+  "Side Bar Patio": {
+    "lat": 30.26722,
+    "lng": -97.73632
+  },
+  "Speakeasy": {
+    "lat": 30.266771,
+    "lng": -97.743517
+  },
+  "Springdale Station": {
+    "lat": 30.262399,
+    "lng": -97.696536
+  },
+  "St Elmo Springdale": {
+    "lat": 30.325958,
+    "lng": -97.657751
+  },
+  "Stargazer": {
+    "lat": 30.262862,
+    "lng": -97.696185
+  },
+  "Stubb\u2019s": {
+    "lat": 30.273307,
+    "lng": -97.759313
+  },
+  "Swan Dive": {
+    "lat": 30.267138,
+    "lng": -97.736653
+  },
+  "Swan Dive Patio": {
+    "lat": 30.267138,
+    "lng": -97.736653
+  },
+  "Taco n Maiz": {
+    "lat": 30.26212,
+    "lng": -97.7193
+  },
+  "The 13th Floor": {
+    "lat": 30.267755,
+    "lng": -97.736507
+  },
+  "The Courtyard ATX": {
+    "lat": 30.26351,
+    "lng": -97.72025
+  },
+  "The Creek and the Cave": {
+    "lat": 30.26772,
+    "lng": -97.73875
+  },
+  "The Creek and the Cave Backyard": {
+    "lat": 30.26772,
+    "lng": -97.73875
+  },
+  "The Liberty": {
+    "lat": 30.26269,
+    "lng": -97.725068
+  },
+  "The Lucky Duck": {
+    "lat": 30.26638,
+    "lng": -97.73523
+  },
+  "The Pershing": {
+    "lat": 30.26815,
+    "lng": -97.73714
+  },
+  "The White Horse": {
+    "lat": 30.262566,
+    "lng": -97.72706
+  },
+  "Tweedy's": {
+    "lat": 30.295531,
+    "lng": -97.741747
+  },
+  "Valhalla": {
+    "lat": 30.268051,
+    "lng": -97.73686
+  },
+  "Venue 6": {
+    "lat": 30.266926,
+    "lng": -97.737526
+  },
+  "Victory Grill": {
+    "lat": 30.269174,
+    "lng": -97.728615
+  },
+  "Volstead": {
+    "lat": 30.263454,
+    "lng": -97.727348
+  },
+  "Vulcan Gas Co": {
+    "lat": 30.267148,
+    "lng": -97.738476
+  },
+  "Walter's Tavern": {
+    "lat": 30.2635,
+    "lng": -97.7235
+  },
+  "Wanderlust Wine Co.": {
+    "lat": 30.266351,
+    "lng": -97.735064
+  },
+  "Waterloo Records": {
+    "lat": 30.276001,
+    "lng": -97.75156
+  },
+  "Webberville Food Truck Park": {
+    "lat": 30.25234,
+    "lng": -97.67842
+  },
+  "Yellow Jacket Social Club": {
+    "lat": 30.261711,
+    "lng": -97.724795
+  },
+  "Yeti Flagship": {
+    "lat": 30.259464,
+    "lng": -97.746317
+  },
+  "Zilker Brewing": {
+    "lat": 30.26202,
+    "lng": -97.72461
+  }
+}
