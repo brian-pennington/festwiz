@@ -2607,6 +2607,9 @@ body.light .post-festival-banner { background: rgba(0,188,212,0.09); }
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   font-size: 11px;
+  position: sticky;
+  top: 88px;
+  z-index: 50;
 }
 .grid-zoom-label { color: var(--text-muted); }
 .grid-zoom-pct { color: var(--text); min-width: 36px; text-align: center; font-weight: 600; }
