@@ -1799,12 +1799,16 @@
 
   function makeMarkerIcon(color, count) {
     const size = count > 1 ? 34 : 28;
-    const label = count > 1 ? `<span class="map-marker-count">${count}</span>` : '';
+    const cx = size / 2;
+    const countLabel = count > 1
+      ? `<text x="${cx}" y="${cx}" text-anchor="middle" dominant-baseline="central" fill="white" font-size="${count > 9 ? 11 : 13}" font-weight="700" font-family="sans-serif">${count}</text>`
+      : '';
     const svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="${size/2}" cy="${size/2}" r="${size/2 - 2}" fill="${color}" stroke="white" stroke-width="2.5"/>
+      <circle cx="${cx}" cy="${cx}" r="${cx - 2}" fill="${color}" stroke="white" stroke-width="2.5"/>
+      ${countLabel}
     </svg>`;
     return L.divIcon({
-      html: `<div class="map-marker-wrap" style="width:${size}px;height:${size}px">${svg}${label}</div>`,
+      html: `<div class="map-marker-wrap" style="width:${size}px;height:${size}px">${svg}</div>`,
       className: '',
       iconSize: [size, size],
       iconAnchor: [size/2, size/2],

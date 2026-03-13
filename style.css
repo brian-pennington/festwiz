@@ -2750,13 +2750,6 @@ html.grid-view-active { overflow: hidden; }
 
 /* Custom marker */
 .map-marker-wrap { position: relative; display: flex; align-items: center; justify-content: center; }
-.map-marker-count {
-  position: absolute; top: -4px; right: -4px;
-  background: var(--nav-bg); color: #fff;
-  font-size: 9px; font-weight: 700; line-height: 1;
-  border-radius: 8px; padding: 2px 4px;
-  border: 1px solid rgba(255,255,255,0.6);
-}
 
 /* Venue bottom sheet */
 .map-venue-sheet {
