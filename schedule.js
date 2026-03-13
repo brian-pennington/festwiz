@@ -1686,7 +1686,10 @@
 
       const label = document.createElement('div');
       label.className = 'showcase-box-label';
-      const admBadge = `<span class="grid-showcase-admission grid-showcase-admission--${admission}">${ADMISSION_LABELS[admission]}</span>`;
+      if (gridZoom === 0.75) label.style.fontSize = '9px';
+      else if (gridZoom === 0.6) label.style.fontSize = '8px';
+      const admFontSizeAttr = gridZoom === 0.75 ? ' style="font-size:8px"' : gridZoom === 0.6 ? ' style="font-size:7px"' : '';
+      const admBadge = `<span class="grid-showcase-admission grid-showcase-admission--${admission}"${admFontSizeAttr}>${ADMISSION_LABELS[admission]}</span>`;
       label.innerHTML = `<em>${escHtml(showcase)}</em>${admBadge}`;
       box.appendChild(label);
       overlay.appendChild(box);
