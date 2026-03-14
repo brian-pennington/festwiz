@@ -2475,15 +2475,17 @@
   },
   {
     "name": "Parking",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
+    "genre": "Rock",
+    "subgenre": "Post-Punk",
+    "location": "Louisville, KY, USA",
+    "description": "cc screaming ears",
+    "links": {
+      "bandcamp": "https://parkingbandus.bandcamp.com/"
+    },
     "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
+    "city": "Louisville",
+    "country": "USA",
+    "state": "KY",
     "entity_id": null,
     "detail_url": "",
     "events_raw": []
@@ -5636,21 +5638,6 @@
   },
   {
     "name": "Valley Flower",
-    "genre": "Unknown",
-    "subgenre": "",
-    "location": "",
-    "description": "",
-    "links": {},
-    "source": "unofficial",
-    "city": "",
-    "country": "",
-    "state": "",
-    "entity_id": null,
-    "detail_url": "",
-    "events_raw": []
-  },
-  {
-    "name": "Devotchka",
     "genre": "Unknown",
     "subgenre": "",
     "location": "",

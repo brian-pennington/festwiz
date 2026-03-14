@@ -6193,17 +6193,16 @@
     "notes": ""
   },
   {
-    "id": "official_emi_angelesnivel___mala_fama2026_03_15",
+    "id": "official_emi_angelesnivel___mala_fama2026_03_1500_40",
     "artist_name": "Emi Angeles",
     "entity_id": 2242126,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:40",
+    "end_time": "01:20",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_emily_frembgenthe_13th_floor2026_03_1420_00",
@@ -6363,17 +6362,16 @@
     "notes": ""
   },
   {
-    "id": "official_estymala_fama_rooftop2026_03_13",
+    "id": "official_estymala_fama_rooftop2026_03_1322_30",
     "artist_name": "Esty",
     "entity_id": 2277128,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:30",
+    "end_time": "23:00",
     "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Hybe's Sin Silencio",
+    "notes": ""
   },
   {
     "id": "official_eydreywanderlust_wine_co_2026_03_1622_00",
@@ -6797,17 +6795,16 @@
     "notes": ""
   },
   {
-    "id": "official_flavia_laosmala_fama_rooftop2026_03_13",
+    "id": "official_flavia_laosmala_fama_rooftop2026_03_1322_00",
     "artist_name": "Flavia Laos",
     "entity_id": 2277041,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:30",
     "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Hybe's Sin Silencio",
+    "notes": ""
   },
   {
     "id": "official_flesh_juicerhotel_vegas_patio2026_03_1419_30",
@@ -7856,6 +7853,18 @@
     "notes": ""
   },
   {
+    "id": "official_halliewoodnivel___mala_fama2026_03_1220_00",
+    "artist_name": "Halliewood",
+    "entity_id": 2286767,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-12",
+    "start_time": "20:00",
+    "end_time": "20:10",
+    "source": "official",
+    "showcase": "PURRRSZN",
+    "notes": ""
+  },
+  {
     "id": "official_hana_eidshangri_la2026_03_1823_00",
     "artist_name": "Hana Eid",
     "entity_id": 2238770,
@@ -8289,6 +8298,18 @@
     "notes": ""
   },
   {
+    "id": "official_holly_macvebritish_music_embassy___palm_door_on_sixth_patio2",
+    "artist_name": "Holly Macve",
+    "entity_id": 2246963,
+    "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+    "day": "2026-03-13",
+    "start_time": "21:20",
+    "end_time": "21:50",
+    "source": "official",
+    "showcase": "BBC Introducing",
+    "notes": ""
+  },
+  {
     "id": "official_holly_macvecentral_presbyterian_church2026_03_1222_00",
     "artist_name": "Holly Macve",
     "entity_id": 2246963,
@@ -8478,6 +8499,18 @@
     "end_time": "00:40",
     "source": "official",
     "showcase": "Mothland",
+    "notes": ""
+  },
+  {
+    "id": "official_house_of_leporeswan_dive2026_03_1800_00",
+    "artist_name": "House of Lepore",
+    "entity_id": 2287569,
+    "venue": "Swan Dive",
+    "day": "2026-03-18",
+    "start_time": "00:00",
+    "end_time": "02:00",
+    "source": "official",
+    "showcase": "EVERYTHING IS BIGGER IN TEXAS BALL",
     "notes": ""
   },
   {
@@ -9662,6 +9695,18 @@
     "notes": ""
   },
   {
+    "id": "official_joe_patituccihilton_grand_ballroom__salon_hjk_2026_03_1612_4",
+    "artist_name": "Joe Patitucci",
+    "entity_id": 2240199,
+    "venue": "Hilton Grand Ballroom (Salon HJK)",
+    "day": "2026-03-16",
+    "start_time": "12:45",
+    "end_time": "12:55",
+    "source": "official",
+    "showcase": "SXSW Keynote Prelude Performance",
+    "notes": ""
+  },
+  {
     "id": "official_joe_patituccicentral_presbyterian_church2026_03_1620_15",
     "artist_name": "Joe Patitucci",
     "entity_id": 2240199,
@@ -10693,8 +10738,8 @@
     "entity_id": 2240811,
     "venue": "British Music Embassy @ Palm Door on Sixth Patio",
     "day": "2026-03-13",
-    "start_time": "20:35",
-    "end_time": "20:50",
+    "start_time": "00:50",
+    "end_time": "01:20",
     "source": "official",
     "showcase": "BBC Introducing",
     "notes": ""
@@ -11780,21 +11825,20 @@
     "start_time": "19:50",
     "end_time": "20:20",
     "source": "official",
-    "showcase": "Ones to watch",
+    "showcase": "The Luna Collective x Bright Antenna Records",
     "notes": ""
   },
   {
-    "id": "official_lu_got_the_tastenivel___mala_fama2026_03_15",
+    "id": "official_lu_got_the_tastenivel___mala_fama2026_03_1501_20",
     "artist_name": "LU GOT THE TASTE",
     "entity_id": 2242123,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "01:20",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_luca_eckspeakeasy2026_03_1523_00",
@@ -11831,6 +11875,19 @@
     "source": "official",
     "showcase": "The Color Agent",
     "notes": ""
+  },
+  {
+    "id": "official_lucas_gaelnivel___mala_fama2026_03_15",
+    "artist_name": "Lucas Gael",
+    "entity_id": 2286941,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-15",
+    "start_time": "",
+    "end_time": null,
+    "source": "official",
+    "showcase": "Slowly",
+    "notes": "",
+    "no_set_time": true
   },
   {
     "id": "official_lucid_expressradio_day_stage___downright_austin_backyard2026",
@@ -12085,17 +12142,16 @@
     "notes": ""
   },
   {
-    "id": "official_mae_mullermarlow2026_03_18",
+    "id": "official_mae_mullermarlow2026_03_1822_50",
     "artist_name": "Mae Muller",
     "entity_id": 2242990,
     "venue": "Marlow",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:50",
+    "end_time": "23:20",
     "source": "official",
     "showcase": "In The Room",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_magic_rockers_of_texaschess_club2026_03_1722_00",
@@ -12492,6 +12548,18 @@
     "end_time": "00:30",
     "source": "official",
     "showcase": "ATX Composers",
+    "notes": ""
+  },
+  {
+    "id": "official_mason_flyntmohawk_indoor2026_03_1823_00",
+    "artist_name": "Mason Flynt",
+    "entity_id": 2286768,
+    "venue": "Mohawk Indoor",
+    "day": "2026-03-18",
+    "start_time": "23:00",
+    "end_time": "23:20",
+    "source": "official",
+    "showcase": "ERA'S",
     "notes": ""
   },
   {
@@ -13543,6 +13611,18 @@
     "notes": ""
   },
   {
+    "id": "official_naadilas_perlas2026_03_1521_35",
+    "artist_name": "NAADI",
+    "entity_id": 2255896,
+    "venue": "Las Perlas",
+    "day": "2026-03-15",
+    "start_time": "21:35",
+    "end_time": "22:05",
+    "source": "official",
+    "showcase": "Made in Malaysia",
+    "notes": ""
+  },
+  {
     "id": "official_naadiflamingo_cantina2026_03_1321_00",
     "artist_name": "NAADI",
     "entity_id": 2255896,
@@ -13781,19 +13861,6 @@
     "source": "official",
     "showcase": "Made in Austin",
     "notes": ""
-  },
-  {
-    "id": "official_nezzamala_fama_rooftop2026_03_13",
-    "artist_name": "NEZZA",
-    "entity_id": 2272132,
-    "venue": "Mala Fama Rooftop",
-    "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
-    "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
   },
   {
     "id": "official_nezzamala_fama_rooftop2026_03_1520_00",
@@ -15500,6 +15567,18 @@
     "day": "2026-03-18",
     "start_time": "01:00",
     "end_time": "01:50",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_quinn_xciiantone_s2026_03_1420_30",
+    "artist_name": "Quinn XCII",
+    "entity_id": 2287738,
+    "venue": "Antone\u2019s",
+    "day": "2026-03-14",
+    "start_time": "20:30",
+    "end_time": "21:45",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -18124,6 +18203,18 @@
     "notes": ""
   },
   {
+    "id": "official_susannah_joffeantone_s2026_03_1521_20",
+    "artist_name": "Susannah Joffe",
+    "entity_id": 2241158,
+    "venue": "Antone\u2019s",
+    "day": "2026-03-15",
+    "start_time": "21:20",
+    "end_time": "21:50",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_susannah_joffeaustin_city_limits_live_at_the_moody_theater20",
     "artist_name": "Susannah Joffe",
     "entity_id": 2241158,
@@ -18808,17 +18899,16 @@
     "notes": ""
   },
   {
-    "id": "official_trookomala_fama_rooftop2026_03_13",
+    "id": "official_trookomala_fama_rooftop2026_03_1321_00",
     "artist_name": "Trooko",
     "entity_id": 2277040,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-13",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:30",
     "source": "official",
-    "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "showcase": "Hybe's Sin Silencio",
+    "notes": ""
   },
   {
     "id": "official_tropa_magicamala_fama_rooftop2026_03_1522_00",
@@ -19478,7 +19568,7 @@
     "venue": "Neon Grotto",
     "day": "2026-03-15",
     "start_time": "12:30",
-    "end_time": "14:00",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "Floppy Disko",
     "notes": ""
@@ -20625,6 +20715,18 @@
     "end_time": "20:40",
     "source": "official",
     "showcase": "EQ Austin",
+    "notes": ""
+  },
+  {
+    "id": "official_zenei___adrian_be___friendsmala_fama_rooftop2026_03_1320_00",
+    "artist_name": "Zenei & Adrian Be + Friends",
+    "entity_id": 2287734,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-13",
+    "start_time": "20:00",
+    "end_time": "02:00",
+    "source": "official",
+    "showcase": "Hybe's Sin Silencio",
     "notes": ""
   },
   {
