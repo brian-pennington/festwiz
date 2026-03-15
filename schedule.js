@@ -278,10 +278,10 @@
               .replace(/[^a-z0-9]/g, '');
           }
           const existingKeys = new Set(allShows.map(s =>
-            `${normName(s.artist_name)}|${s.venue}|${s.day}|${s.start_time}`
+            `${normName(s.artist_name)}|${canonVenue(s.venue)}|${s.day}|${s.start_time}`
           ));
           for (const show of unofficialShows) {
-            if (!existingKeys.has(`${normName(show.artist_name)}|${show.venue}|${show.day}|${show.start_time}`)) {
+            if (!existingKeys.has(`${normName(show.artist_name)}|${canonVenue(show.venue)}|${show.day}|${show.start_time}`)) {
               allShows.push(show);
             }
           }

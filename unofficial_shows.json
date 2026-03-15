@@ -876,7 +876,7 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -890,7 +890,7 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -904,7 +904,7 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -918,13 +918,13 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
   },
   {
-    "artist_name": "Jon Langford",
+    "artist_name": "Jon Langford (Mekons)",
     "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "23:50",
@@ -932,7 +932,7 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -946,7 +946,35 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
+    "website": "",
+    "entity_id": null,
+    "notes": ""
+  },
+  {
+    "artist_name": "Grrrl Gang",
+    "venue": "Volstead",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "no_set_time": false,
+    "admission": "free",
+    "source": "unofficial",
+    "showcase": "Records x Songbird x Anniversary",
+    "website": "",
+    "entity_id": null,
+    "notes": ""
+  },
+  {
+    "artist_name": "Marissa Nadler",
+    "venue": "Volstead",
+    "day": "2026-03-15",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "no_set_time": false,
+    "admission": "free",
+    "source": "unofficial",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -960,7 +988,21 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
+    "website": "",
+    "entity_id": null,
+    "notes": ""
+  },
+  {
+    "artist_name": "Graham Reynolds",
+    "venue": "Volstead",
+    "day": "2026-03-15",
+    "start_time": "23:00",
+    "end_time": "23:40",
+    "no_set_time": false,
+    "admission": "free",
+    "source": "unofficial",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -974,7 +1016,21 @@
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
+    "showcase": "Records x Songbird x Anniversary",
+    "website": "",
+    "entity_id": null,
+    "notes": ""
+  },
+  {
+    "artist_name": "Liz Cooper",
+    "venue": "Volstead",
+    "day": "2026-03-15",
+    "start_time": "01:00",
+    "end_time": "02:00",
+    "no_set_time": false,
+    "admission": "free",
+    "source": "unofficial",
+    "showcase": "Records x Songbird x Anniversary",
     "website": "",
     "entity_id": null,
     "notes": ""
@@ -9898,7 +9954,7 @@
     "notes": ""
   },
   {
-    "artist_name": "Jon Langford",
+    "artist_name": "Jon Langford (Mekons)",
     "venue": "ABGB",
     "day": "2026-03-13",
     "start_time": "21:00",
