@@ -1029,21 +1029,25 @@
   }
 
   // ── Grid venue ordering ─────────────────────────────────────────────────────
+  // Resolve a raw venue name to its canonical (alias target) name.
+  // e.g. "Hotel Vegas at Volstead" → "Volstead"
+  function canonVenue(v) { return venueAliases[v] || v; }
+
   // Groups venues by cluster (related spaces stay adjacent), then sorts groups
   // by the highest rating the user has given any show at that venue/cluster today.
   // Result: 4-star venues first, then 3-star, 2-star, 1-star, unrated.
 
   function getOrderedVenuesForDay(dayShows) {
-    const venueSet = new Set(dayShows.map(s => s.venue));
+    const venueSet = new Set(dayShows.map(s => canonVenue(s.venue)));
     const clusterDefs = venueOrder.clusters || [];
 
-    // Build venue → cluster lookup (keyed by first cluster member)
+    // Build venue → cluster lookup (keyed by first cluster member, alias-normalized)
     const venueToClusterKey = {};
     const clusterByKey = {};
     for (const cluster of clusterDefs) {
-      const key = cluster[0];
+      const key = canonVenue(cluster[0]);
       clusterByKey[key] = cluster;
-      for (const v of cluster) venueToClusterKey[v] = key;
+      for (const v of cluster) venueToClusterKey[canonVenue(v)] = key;
     }
 
     // Score per venue: rated shows use their rating (1–4),
@@ -1052,7 +1056,8 @@
     for (const show of dayShows) {
       const r = getRating(show);
       const score = r > 0 ? r : (hidePicks !== 'hide' && isRecommended(show)) ? 0.5 : 0;
-      if (score > (venueScore[show.venue] || 0)) venueScore[show.venue] = score;
+      const cv = canonVenue(show.venue);
+      if (score > (venueScore[cv] || 0)) venueScore[cv] = score;
     }
 
     // Build groups: each is { venues: [...], maxScore: N }
@@ -1063,7 +1068,8 @@
       if (processed.has(v)) continue;
       const clusterKey = venueToClusterKey[v];
       if (clusterKey) {
-        const members = (clusterByKey[clusterKey] || [v]).filter(m => venueSet.has(m));
+        const members = [...new Set((clusterByKey[clusterKey] || [v]).map(m => canonVenue(m)))]
+          .filter(m => venueSet.has(m));
         const maxScore = Math.max(0, ...members.map(m => venueScore[m] || 0));
         groups.push({ venues: members, maxScore });
         members.forEach(m => processed.add(m));
@@ -1184,7 +1190,7 @@
     const lookup = {};
     for (const v of venues) lookup[v] = {};
     for (const show of timedShows) {
-      const v = show.venue;
+      const v = canonVenue(show.venue);
       if (!lookup[v]) lookup[v] = {};
       const slotKey = nearestSlot(show.start_time);
       if (!lookup[v][slotKey]) lookup[v][slotKey] = [];
@@ -1194,7 +1200,7 @@
     // No-set-time shows per venue (all pills go in one rowspan cell)
     const noSetByVenue = {};
     for (const show of noSetShows) {
-      const v = show.venue;
+      const v = canonVenue(show.venue);
       if (!noSetByVenue[v]) noSetByVenue[v] = [];
       noSetByVenue[v].push(show);
     }
@@ -1481,8 +1487,9 @@
     // No-set-time shows per venue
     const noSetByVenue = {};
     for (const show of noSetShows) {
-      if (!noSetByVenue[show.venue]) noSetByVenue[show.venue] = [];
-      noSetByVenue[show.venue].push(show);
+      const v = canonVenue(show.venue);
+      if (!noSetByVenue[v]) noSetByVenue[v] = [];
+      noSetByVenue[v].push(show);
     }
 
     // Build export map: one show per slot per venue.
@@ -1500,8 +1507,9 @@
     const sortedTimed = [...timedShows].sort((a, b) =>
       minutesFromDayStart(a.start_time) - minutesFromDayStart(b.start_time));
     for (const show of sortedTimed) {
-      const slot = claimNextSlot(show.venue, nearestSlot(show.start_time));
-      if (slot) exportMap[show.venue][slot] = show;
+      const cv = canonVenue(show.venue);
+      const slot = claimNextSlot(cv, nearestSlot(show.start_time));
+      if (slot) exportMap[cv][slot] = show;
     }
 
     // No-set-time shows — spread from their block's start_time, one per slot
