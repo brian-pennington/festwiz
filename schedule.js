@@ -364,7 +364,12 @@
     }
 
     // Auto-select today if present, else first day
-    const todayIso = new Date().toISOString().slice(0, 10);
+    // Use local time; hours before 9 AM belong to the previous calendar day
+    const todayIso = (() => {
+      const d = new Date();
+      if (d.getHours() < 9) d.setDate(d.getDate() - 1);
+      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    })();
     selectedDay = days.includes(todayIso) ? todayIso : days[0];
 
     const hasPre   = days[0] < FESTIVAL_FIRST_DAY;
@@ -429,7 +434,11 @@
 
   function populateDaySelects() {
     const days = allDays();
-    const todayIso = new Date().toISOString().slice(0, 10);
+    const todayIso = (() => {
+      const d = new Date();
+      if (d.getHours() < 9) d.setDate(d.getDate() - 1);
+      return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+    })();
 
     for (const selId of ['add-show-day', 'import-csv-day']) {
       const sel = document.getElementById(selId);
