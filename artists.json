@@ -464,7 +464,7 @@
         "age_policy": "21+",
         "day": "2026-03-13",
         "start_time": "00:10",
-        "end_time": "00:30",
+        "end_time": "00:40",
         "presented_by": null
       },
       {
@@ -576,14 +576,14 @@
       {
         "event_id": "MS63761",
         "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
+        "venue": "Victory Grill",
+        "venue_id": "V2294",
         "parent_venue": "",
         "age_policy": null,
-        "day": null,
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
+        "day": "2026-03-17",
+        "start_time": "19:55",
+        "end_time": "20:15",
+        "presented_by": "Nourishing The Soul 2026"
       }
     ],
     "location": "SAINT LOUIS, MO"
@@ -816,7 +816,7 @@
     "entity_id": 2242127,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242127",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "",
     "links": {
@@ -835,8 +835,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:40",
+        "end_time": "22:20",
         "presented_by": "Slowly"
       }
     ]
@@ -4924,6 +4924,18 @@
     "location": "CHICAGO, IL",
     "events": [
       {
+        "event_id": "MS65326",
+        "event_type": "showcase",
+        "venue": "Hilton Grand Ballroom (Salon HJK)",
+        "venue_id": "V2417",
+        "parent_venue": "Hilton Austin Downtown",
+        "age_policy": null,
+        "day": "2026-03-16",
+        "start_time": "12:45",
+        "end_time": "12:55",
+        "presented_by": "SXSW Keynote Prelude Performance"
+      },
+      {
         "event_id": "MS63595",
         "event_type": "showcase",
         "venue": "Central Presbyterian Church",
@@ -7562,7 +7574,8 @@
       "apple_music": "https://music.apple.com/mx/album/forgotten-war/1681182771?i=1681182773&l=en-GB",
       "facebook": "https://www.facebook.com/bulletballettheband/",
       "instagram": "https://www.instagram.com/bulletballettheband/",
-      "spotify": "https://open.spotify.com/track/4QwKHKohrAl37mgi4oqZ3k?si=2b7b6cce5786411c"
+      "spotify": "https://open.spotify.com/track/4QwKHKohrAl37mgi4oqZ3k?si=2b7b6cce5786411c",
+      "youtube": "https://www.youtube.com/watch?v=o_dTK4ARL0U&list=RDo_dTK4ARL0U&start_radio=1"
     },
     "events_raw": [],
     "location": "CIUDAD JUAREZ, MEXICO",
@@ -7905,7 +7918,7 @@
   {
     "name": "Camille Schmidt",
     "genre": "Singer-Songwriter",
-    "subgenre": "Fwd: URGENT - Presenter Update",
+    "subgenre": "Pop",
     "city": "Piermont",
     "country": "United States",
     "state": "NY",
@@ -14804,6 +14817,18 @@
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
     "events": [
       {
+        "event_id": "MS65332",
+        "event_type": "showcase",
+        "venue": "Inn Cahoots Austin Garden",
+        "venue_id": "V2446",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": "Take Action X SXSW"
+      },
+      {
         "event_id": "MS64257",
         "event_type": "showcase",
         "venue": "Elysium",
@@ -15057,7 +15082,7 @@
     "entity_id": 2242126,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242126",
     "thumbnail_url": "https://images.sxsw.com/3rWPK9vSUssSw8X-xR1sCvdkoUk=/450x450/images.sxsw.com/178/df24dfa2-4a03-f262-48db-2d9f7001173f/artist-75888",
-    "announcement_date": "2026-03-13",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "EMI ANGELES is a trap artist born in Mexico City and raised in Nuevo León, whose music emerges from a deep creative and spiritual duality. His name comes from the abbreviation of José Emiliano Angeles Aguado and his strong connection to the Catholic faith, a constant pillar within his identity. His project is built around two alter egos: CRVZ, which embodies madness, contained rage, and raw energy, and Ángeles, his more human, sensitive, and everyday side. Influenced by Detroit trap, hood trap, and artists such as Playboi Carti, Ye, and Abhir, EMI ANGELES delivers an authentic and daring sound designed to send chills through the body, shake emotions, and leave a lasting imprint on the listener. His first encounter with music came at an early age after discovering Michael Jackson, leading him from dance to songwriting and eventually to the microphone. Key moments such as his EP ALTER/EGO and the loss of his best friend marked a turning point in his journey, solidifying his artistic commitment. Today, EMI ANGELES transforms the unknown into experience, creating music that connects with what many are afraid to name, aiming to leave a lasting legacy within the Mexican trap scene.",
     "links": {
@@ -16141,6 +16166,43 @@
     ]
   },
   {
+    "name": "FERRR",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Alternative",
+    "city": "Reynosa",
+    "country": "Mexico",
+    "state": null,
+    "entity_id": 2265471,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2265471",
+    "thumbnail_url": "https://images.sxsw.com/cHnf1uu_TdLf2QToPCxOm3n40Ss=/450x450/images.sxsw.com/178/f3587f3d-d4a9-c755-c48e-78ba939aac43/artist-76417",
+    "announcement_date": "2026-03-15",
+    "source": "official",
+    "description": "FERRR is a Mexican artist from Reynosa, Tamaulipas, now based in Monterrey, Nuevo León. Alongside Zenei and MNTR, he has built a project focused on sonic experimentation and constant evolution within Mexico’s alternative trap scene, guided by a vision that goes beyond borders.\nHis sound blends influences from the U.S. and U.K. underground movements, electronic music, and soul samples. The use of high-pitched vocals has become a signature element of his style, adding identity and freshness while positioning him as one of the most promising emerging acts heading into 2026.\nHis latest single, “Celine,” reflects this new artistic stage and highlights his recent growth and musical maturity. He previously released the mixtape “Lo que tenga que esperar,” featuring tracks like “Perseguirte,” “Ambición” (ft. Soldi Rosa), and “Ausente” (with Ximena Soto). Now, FERRR is preparing new releases that showcase a bolder, more refined sound and reaffirm his commitment to innovation.",
+    "links": {
+      "apple_music": "https://music.apple.com/mx/album/ca%24hit-single/1876921812?l=en-GB",
+      "instagram": "https://www.instagram.com/ferrr.amor?igsh=MWNrejF4dWl4aDFx&utm_source=qr",
+      "spotify": "https://open.spotify.com/track/07YUW7LQUBlBUIGd6HoEDX?si=77227f64e7314b6c",
+      "tiktok": "https://www.tiktok.com/@ferrr.amor?_r=1&_t=ZS-93tjqADAy9o",
+      "twitter": "https://x.com/ferrramor?s=21",
+      "youtube": "https://youtu.be/kwlDJqhxXYs?si=w2OpTKAxbIre7ETe"
+    },
+    "events": [
+      {
+        "event_id": "MS64616",
+        "event_type": "showcase",
+        "venue": "Nivel @ Mala Fama",
+        "venue_id": "V2447",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "20:40",
+        "presented_by": "Slowly"
+      }
+    ],
+    "location": "REYNOSA, MEXICO"
+  },
+  {
     "name": "fifi knifefight",
     "genre": "Punk",
     "subgenre": "Punk",
@@ -17077,8 +17139,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-16",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "19:00",
+        "end_time": "02:00",
         "presented_by": "The New Sounds of Música Mexicana"
       }
     ],
@@ -18819,8 +18881,9 @@
     "source": "official",
     "description": "Austin, Texas’ Gummy Fang released their self titled debut album in July of 2025 featuring jangly, uptempo indie pop anthems and textural introspective ballads. The Austin Chronicle named it their 7th favorite local album of the year and nominated the band for Best New Act at the annual Austin Music Award. Gummy Fang is known for their cheery onstage charm, heartfelt crooning, intricate countermelodies on bass, and drumming that combines jazz vocabulary with a meaty rock pulse.\n\nSinger, guitarist, and songwriter Willow Braun pens infectious love songs which are accompanied by winding, classical inspired bass counterpoint by Fructose, and nuanced, in the pocket, jazz inspired drumming from Nicky Christmas.",
     "links": {
+      "apple_music": "https://music.apple.com/us/album/gummy-fang/1821334302",
       "instagram": "https://www.instagram.com/gummy.fang",
-      "spotify": "https://open.spotify.com/artist/5HteCWo7220rXzFgtXTx4K?si=ymPAZYVhTz2ZoJugHL4wVA"
+      "spotify": "https://open.spotify.com/album/5P2nLcy7UPJdjRc91Pjpdn"
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
@@ -20902,8 +20965,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-16",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:35",
+        "end_time": "23:05",
         "presented_by": "The New Sounds of Música Mexicana"
       }
     ],
@@ -22556,7 +22619,6 @@
     "source": "official",
     "description": "Jana Diab is a Cairo-born, London‑based singer-songwriter whose work blends emotional vulnerability with a bold, genre‑fluid sensibility.\n\nRaised in a home steeped in the arts — her mother introduced her to Theater and Broadway — Diab grew up absorbing the power of storytelling and performance.\n\nHer music draws from the experimental, kaleidoscopic sounds of artists like Lorde, Half Waif, and Saya Gray, yet her lyricism is deeply personal: negotiating identity, ADHD, and the tension of living between cultures.\n\nIn 2023 she released her debut EP Season One via Interscope, and in November she followed it with an extended edition featuring additional tracks.\n\nMost recently, on 17 October, she released her new single “Cipriani,” on U–nation Music, marking the next chapter in her artistic evolution. She also holds the distinction of being the first ambassador for the fashion house Miu Miu across the Middle East.\n\nAt 23, Diab continues carving a space that honors her heritage while defying easy categorisation — a voice for third‑culture youth finding clarity through art.",
     "links": {
-      "apple_music": "https://music.apple.com/us/artist/jana-diab/1498969118?itscg=30200&itsct=music_box_link&ls=1&app=music&mttnsubad=1498969118",
       "instagram": "https://www.instagram.com/janadiab_",
       "spotify": "https://open.spotify.com/track/4RZooZwOYjXPwmvhwNPJX3?si=-MmetDG3QUSfDJjG9TkhFw",
       "tiktok": "https://www.tiktok.com/@janadiab",
@@ -22565,6 +22627,18 @@
     "events_raw": [],
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
     "events": [
+      {
+        "event_id": "MS65333",
+        "event_type": "showcase",
+        "venue": "Global Stage @ Downright Austin Backyard",
+        "venue_id": "V2392",
+        "parent_venue": "Downright Austin",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "21:30",
+        "end_time": "22:00",
+        "presented_by": null
+      },
       {
         "event_id": "MS63161",
         "event_type": "showcase",
@@ -23721,6 +23795,7 @@
     "source": "official",
     "description": "Joe Patitucci is a multi-media artist and pioneer in the field of plant music and bio-sonification, uniquely blending his background in music, design, and environmental advocacy. His innovative work creates immersive sonic environments that bridge natural and digital worlds, resonating with audiences' intuitive connection to Earth.\n\nAs the creator of PlantWave, Joe uses specialized sensors to translate the bio-rhythms and electrical frequencies of plants into ambient music. This groundbreaking approach revolutionizes how we perceive and interact with plant life, opening new avenues in sound art, wellness, and environmental consciousness.\n\nJoe's installations and performances, ranging from intimate galleries to large-scale festivals, have captivated audiences worldwide. His commitment to art as a medium fosters a deeper understanding of the bond between humans and nature.\n\nIn 2021, Joe’s company, Data Garden, released PlantWave. PlantWave enables anyone to experience plant music in their homes, gardens, or on the trail, democratizing this unique interaction and integrating Joe's vision into everyday life.",
     "links": {
+      "apple_music": "https://music.apple.com/us/artist/joe-patitucci/1469455411",
       "instagram": "https://instagram.com/natureofnow",
       "spotify": "https://open.spotify.com/track/3AtZcaomKiAwbHgPz9PrZV?si=ae026101027746b3",
       "tiktok": "https://tiktok.com/@natureofnow",
@@ -24015,7 +24090,7 @@
       "spotify": "https://open.spotify.com/track/3uGlGRBQ6zRYfgyzs89iZ8?si=409bb58849314880",
       "tiktok": "https://www.tiktok.com/@joplynberlin?is_from_webapp=1&sender_device=pc",
       "website": "https://www.joplynberlin.com",
-      "youtube": "https://youtu.be/8PsB7xRMbp4?si=BhbdbP11FZUECVM_"
+      "youtube": "https://youtu.be/8YHVivAW8nA?si=_jlkuwRMS6yjmEjg"
     },
     "events_raw": [],
     "location": "BERLIN, GERMANY",
@@ -24690,18 +24765,6 @@
         "start_time": "19:00",
         "end_time": "20:10",
         "presented_by": "Under Armour"
-      },
-      {
-        "event_id": "MS64787",
-        "event_type": "showcase",
-        "venue": "Wanderlust Wine Co.",
-        "venue_id": "V0900",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-14",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "presented_by": "Dave Guy & Friends"
       },
       {
         "event_id": "MS63172",
@@ -25606,8 +25669,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:50",
+        "end_time": "21:30",
         "presented_by": "Slowly"
       }
     ]
@@ -27503,7 +27566,7 @@
       "spotify": "https://open.spotify.com/track/57PrEKab3x00YNmSNR8arr?si=2ce754b27f9a458b",
       "tiktok": "https://www.tiktok.com/@leovonsol",
       "website": "https://www.leovonsol.com/",
-      "youtube": "https://youtu.be/esjx-LoJmxI"
+      "youtube": "https://youtu.be/bClmkQs7OLg"
     },
     "events_raw": [],
     "location": "AUSTIN, TX",
@@ -29280,7 +29343,7 @@
     "entity_id": 2286941,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2286941",
     "thumbnail_url": "https://images.sxsw.com/l9_MmxRsl9zVqN0K4qgn6gNoKPw=/450x450/images.sxsw.com/178/2c016c99-e500-3e39-20e2-c0d89e049dab/artist-76770",
-    "announcement_date": "2026-03-13",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Lucas Gael is a 21 year old artist from Tijuana, Mexico, borned in Memphis Tennesse, which started his journey in music with musical theater between the ages of 10 and 11, having influences from the US, he developed a music style fusion between hip hop and r&b, gaining awareness of the public with his single \"Duele\" released on 2024, now having a big moment with his new released mixtape \"#CONTRACUERPOS\", which has this same sound proposal in a more mature way, talking about relationship problems in the most honest and raw way posible.",
     "links": {
@@ -29300,8 +29363,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:10",
+        "end_time": "23:50",
         "presented_by": "Slowly"
       }
     ],
@@ -31646,29 +31709,10 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-09",
     "source": "official",
-    "description": "Nominated for the Latin Grammy in 2024 with her debut album “Amaríssima”, Melly has been establishing herself in a fresh Brazilian music scene. She was born in Salvador, Bahia, the blackest city in Brazil and important cultural hub in the country. With a unique musical DNA, Melly is 24 years old and has been singing since was 6. She also works as composer and producer, and her music mixes a pop sound with R&B and afro-brazilian rhythms, such as Ijexá. Recognized at awards such as Prêmio Multishow (Best New Artist in 2023) and Woman’s Music Event, as Songwriter of the Year in 2024. In her promising\nmusical journey, she has already collaborated with major names in music such as Anitta, Liniker, BK, BaianaSystem and Russo Passapusso. In Brazil, is part of the most relevant music festivals’ line-ups. Last year, she also did her first concerts abroad: in Austin (Texas, EUA), at SXSW, NYC and toured Europe (Portugal, Spain and Ireland). Now, she's preparing her new album release.",
-    "links": {
-      "apple_music": "https://music.apple.com/br/song/despacha/1832058933",
-      "instagram": "https://www.instagram.com/oficialmelly/",
-      "tiktok": "https://www.tiktok.com/@oficialmelly",
-      "twitter": "https://x.com/mellyoficial",
-      "youtube": "https://www.youtube.com/watch?v=aoqbXV-7VCo&list=RDaoqbXV-7VCo&start_radio=1"
-    },
-    "events": [
-      {
-        "event_id": "MS64539",
-        "event_type": "showcase",
-        "venue": "Seven Grand",
-        "venue_id": "V0597",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "22:00",
-        "end_time": "22:40",
-        "presented_by": "Tropiclub"
-      }
-    ],
-    "location": "SALVADOR, BRAZIL"
+    "description": "The page you requested cannot be found. Check the URL, or contact techsupport@sxsw.com if you believe this page should be working.",
+    "links": {},
+    "events": [],
+    "location": "Salvador, Brazil"
   },
   {
     "name": "Mên An Tol",
@@ -35727,8 +35771,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-16",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:30",
+        "end_time": "00:00",
         "presented_by": "The New Sounds of Música Mexicana"
       },
       {
@@ -36871,8 +36915,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:20",
+        "end_time": "23:00",
         "presented_by": "Slowly"
       }
     ]
@@ -37390,8 +37434,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-16",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:45",
+        "end_time": "21:15",
         "presented_by": "The New Sounds of Música Mexicana"
       }
     ],
@@ -39734,6 +39778,43 @@
       }
     ],
     "location": "AUSTIN, TX"
+  },
+  {
+    "name": "Rob Eberle",
+    "genre": "Pop",
+    "subgenre": "Alternative",
+    "city": "Long Island",
+    "country": "United States",
+    "state": "CA",
+    "entity_id": 2286848,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2286848",
+    "thumbnail_url": "https://images.sxsw.com/AMDx8OPwaMJ3Tg6ylBBY6arULCk=/450x450/images.sxsw.com/178/893e54b4-38e5-ab79-5acc-a28f681ca3d8/artist-75158",
+    "announcement_date": "2026-03-14",
+    "source": "official",
+    "description": "Rob Eberle is a young, versatile singer, songwriter, and producer, originally from Long Island, NY and now based in Los Angeles, CA. What sets Rob apart is his extraordinary talent for capturing both his own life experiences and those of others through his music. Eberle's songs serve as windows into the stories and moments of his life and the lives of those around him. Influenced by a diverse array of artists ranging from FINNEAS to The Fray, Eberle has carved out his own genre-bending niche in the realm of darker alternative pop-rock.\n\nRob Eberle is rapidly cementing himself as an artist to watch. The singer/songwriter’s debut EP, \"COLLATERAL DAMAGE,\" has amassed 400K streams across all platforms, and he’s quickly gaining attention as an artist to watch - with label distribution through earthprogram/Virgin, now underneath the Warner Music Group Umbrella with Sparta, promotional deals alongside brands like Coca Cola, and impressive live appearances with WFNM and BMI in LA, at Elsewhere and MONDO in NYC and at ACL and SXSW in Austin on his resume, to name a few.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/new-york-minute/1840061287?i=1840061805",
+      "instagram": "https://www.instagram.com/robeberle/",
+      "spotify": "https://open.spotify.com/track/29xRg6KcpE1DJzoYtZxDZW?si=u0BcJmfMRFKX5mnZLMOuHQ",
+      "tiktok": "https://www.tiktok.com/@robeberle",
+      "website": "https://robeberle.komi.io",
+      "youtube": "https://www.youtube.com/watch?v=aZGNOyl-mTA"
+    },
+    "events": [
+      {
+        "event_id": "MS65313",
+        "event_type": "showcase",
+        "venue": "Inn Cahoots Studio",
+        "venue_id": "V2305",
+        "parent_venue": "Inn Cahoots",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "00:50",
+        "end_time": "01:30",
+        "presented_by": "Take Action X SXSW"
+      }
+    ],
+    "location": "LONG ISLAND, CA"
   },
   {
     "name": "Rocket",
@@ -42352,6 +42433,44 @@
     ]
   },
   {
+    "name": "shosharascal",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Trap",
+    "city": "Berlin",
+    "country": "Germany",
+    "state": null,
+    "entity_id": 2286684,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2286684",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-14",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/de/artist/shosharascal/1597637132?l=en-GB",
+      "instagram": "https://www.instagram.com/shosharascal/?hl=de",
+      "soundcloud": "https://soundcloud.com/feliix-gaebler",
+      "spotify": "https://open.spotify.com/artist/6MxelgG2R0lT2g6wOb4j0F",
+      "tiktok": "https://www.tiktok.com/@shosharascal?is_from_webapp=1&sender_device=pc",
+      "website": "https://www.shosharascal.com",
+      "youtube": "https://youtu.be/-gzzmSFd4e8?si=b2ADelJNLZDhqjVN"
+    },
+    "events": [
+      {
+        "event_id": "MS65307",
+        "event_type": "showcase",
+        "venue": "Speakeasy",
+        "venue_id": "V0226",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "presented_by": "German Music Export by Initiative Musik"
+      }
+    ],
+    "location": "BERLIN, GERMANY"
+  },
+  {
     "name": "Shreea Kaul",
     "genre": "R & B",
     "subgenre": "None",
@@ -42526,7 +42645,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-04",
     "source": "official",
-    "description": "If you’re tapped into the heart of the UK music underground, Silva Bumpa will be on your radar. Amid a current resurgence of UKG, bassline and speed garage, a crop of producers and friends are pushing a new scene forward, with the Manchester-based artist a key player. Silva Bumpa’s sounds combine UK bass grit with the singalong bounce of club classics, bottling the effervescent spirit of mid-noughties bassline with solid songwriting. Following releases on influential labels, Silva Bumpa is grace iconic imprint Locked On with EP – What About The DJ?, and more recently signed to label giants Columbia Records imprint Room 2 beginning this releasing hit record ’I Don’t Want U’ with viral DJ sensation Diffrnt.\n\n\nProving himself as a headline name within the most exciting, important and rapidly growing scene in music. Silva Bumpa’s sounds combine UK bass grit with the singalong bounce of club classics, bottling the effervescent spirit of mid-noughties bassline with solid songwriting. 2024 saw a sold out UK headline tour, notable festival slots at Glastonbury, Boomtown + Outlook. Silva Bumpa's rapidly growing fan base across Europe and Australia has rooted him as a key UKG name in live circuits overseas. Only a month into 2025 his recently announced UK headline shows have sold out, and his upcoming live schedule of top festival bookings and sold out tours across the EU , Australia + Asia reflects the rapidly growing demand. For Silva Bumpa. Rounding up his unstoppable success with in the scene with Silva Bumpa's debut Boiler Room debut premiered on the Feb 28th watch here.\n\n\nHarry Eagle grew up in Sheffield, a city ingrained with the pumping sounds of organ house and bassline. He learned the piano as an early teen, and Aphex Twin, Arca and Mura Masa would be his entry point into electronic music. At 16, he was going to raves in the Peak District. Friends started showing him “old school bassline, free party jacking house, speed garage, more like the Birmingham Ecko Records stuff”. It flipped a switch in his brain: “It gave me the kind of same intensity of the instrumental electronic stuff, but you could write a song over it – have weird square wave stuff but it still be a banging tune, a really cool R&B-influenced melody.”\n\n\nNow, among a growing scene, Silva Bumpa is supported by peers including Interplanetary Criminal, Main Phase and Soul Mass Transit System, as well as bonafide bassline OGs such as Tom Shorterz, Big Ang and Joe Hunt, who are happy to share stages and b2bs with the relative newcomers. That community is “everything,” he says. “One of the best things about underground dance music is having your crew and working together to build up a scene.” That underground success has been steadily spilling over into the mainstream, thanks to Radio 1 plays and Spotify support.\n\nSilva Bumpa's 2024 releases included a 4 track EP with legendary label Locked On Records, a release with Diffrnt on Room 2 (Columbia), and single releases with fellow UKG headsie labels EC2A + ATW. Supported by peers including Interplanetary Criminal, Main Phase, for Silva Bumpa the community in the scene is “One of the best things about underground dance music is having your crew and working together to build up a scene.” That underground success has been steadily spilling over into the mainstream, thanks to continuous Radio 1 and DSPS\n\nAfter a jam-packed summer playing festivals around the world UKG DJ, songwriter and producer Silva Bumpa is ready to bring it back to the clubs. Taking immense inspiration from the sounds of Northern nightlife – particularly Sheffield’s legendary Niche nightclub – Silva Bumpa combines his producing know-how and pop sensibilities to the heady worlds of Organ House and UK Garage with a brand new 4-track EP.\n\n\nWith this release comes the title track-new single ‘Check Dis Out’. Silva Bumpa explains “this Ep is a combo of a few sounds I’ve been experimenting with over the last year or so. Still vocal heavy but with more techy elements and big ravey buildups. It’s deffo a club record and probably the release I’ve been most excited to put out !”\n\n\nWith an increasingly busy gig calendar, Silva Bumpa’s also got his eye on an album which is set to showcase more of his love of writing huge, club-indebted tunes. “I'm sitting on my best work, I think,” he grins.",
+    "description": "If you’re tapped into the heart of the UK music underground, Silva Bumpa will be on your radar. Amid a current resurgence of UKG, bassline and speed garage, a crop of producers and friends are pushing a new scene forward, with the Manchester-based artist a key player. Silva Bumpa’s sounds combine UK bass grit with the singalong bounce of club classics, bottling the effervescent spirit of mid-noughties bassline with solid songwriting. Following releases on influential labels, Silva Bumpa is grace iconic imprint Locked On with EP – What About The DJ?, and more recently signed to label giants Columbia Records imprint Room 2 beginning this releasing hit record ’I Don’t Want U’ with viral DJ sensation Diffrnt.\n\nProving himself as a headline name within the most exciting, important and rapidly growing scene in music. Silva Bumpa’s sounds combine UK bass grit with the singalong bounce of club classics, bottling the effervescent spirit of mid-noughties bassline with solid songwriting. 2024 saw a sold out UK headline tour, notable festival slots at Glastonbury, Boomtown + Outlook. Silva Bumpa's rapidly growing fan base across Europe and Australia has rooted him as a key UKG name in live circuits overseas. Only a month into 2025 his recently announced UK headline shows have sold out, and his upcoming live schedule of top festival bookings and sold out tours across the EU , Australia + Asia reflects the rapidly growing demand. For Silva Bumpa. Rounding up his unstoppable success with in the scene with Silva Bumpa's debut Boiler Room debut premiered on the Feb 28th watch here.\n\nHarry Eagle grew up in Sheffield, a city ingrained with the pumping sounds of organ house and bassline. He learned the piano as an early teen, and Aphex Twin, Arca and Mura Masa would be his entry point into electronic music. At 16, he was going to raves in the Peak District. Friends started showing him “old school bassline, free party jacking house, speed garage, more like the Birmingham Ecko Records stuff”. It flipped a switch in his brain: “It gave me the kind of same intensity of the instrumental electronic stuff, but you could write a song over it – have weird square wave stuff but it still be a banging tune, a really cool R&B-influenced melody.”\n\nNow, among a growing scene, Silva Bumpa is supported by peers including Interplanetary Criminal, Main Phase and Soul Mass Transit System, as well as bonafide bassline OGs such as Tom Shorterz, Big Ang and Joe Hunt, who are happy to share stages and b2bs with the relative newcomers. That community is “everything,” he says. “One of the best things about underground dance music is having your crew and working together to build up a scene.” That underground success has been steadily spilling over into the mainstream, thanks to Radio 1 plays and Spotify support.\n\nSilva Bumpa's 2024 releases included a 4 track EP with legendary label Locked On Records, a release with Diffrnt on Room 2 (Columbia), and single releases with fellow UKG headsie labels EC2A + ATW. Supported by peers including Interplanetary Criminal, Main Phase, for Silva Bumpa the community in the scene is “One of the best things about underground dance music is having your crew and working together to build up a scene.” That underground success has been steadily spilling over into the mainstream, thanks to continuous Radio 1 and DSPS\n\nAfter a jam-packed summer playing festivals around the world UKG DJ, songwriter and producer Silva Bumpa is ready to bring it back to the clubs. Taking immense inspiration from the sounds of Northern nightlife – particularly Sheffield’s legendary Niche nightclub – Silva Bumpa combines his producing know-how and pop sensibilities to the heady worlds of Organ House and UK Garage with a brand new 4-track EP.\n\nWith this release comes the title track-new single ‘Check Dis Out’. Silva Bumpa explains “this Ep is a combo of a few sounds I’ve been experimenting with over the last year or so. Still vocal heavy but with more techy elements and big ravey buildups. It’s deffo a club record and probably the release I’ve been most excited to put out !”\n\nWith an increasingly busy gig calendar, Silva Bumpa’s also got his eye on an album which is set to showcase more of his love of writing huge, club-indebted tunes. “I'm sitting on my best work, I think,” he grins.",
     "links": {
       "instagram": "https://www.instagram.com/silvabumpa/?hl=en",
       "spotify": "https://open.spotify.com/artist/2dPLkqesvPXpIlP65JoLrf?si=WcC9Q2qnTuaYN2CP8mvEEg",
@@ -43227,7 +43346,7 @@
       "spotify": "https://open.spotify.com/track/4XbH6GjU2S13xHoBjo9o3c?si=d744456c65ed46fc",
       "tiktok": "https://tiktok.com/@solarrio",
       "website": "https://solarrio.com",
-      "youtube": "https://www.youtube.com/@solarrio"
+      "youtube": "https://www.youtube.com/watch?v=2rlf06KBobA&list=RD2rlf06KBobA&start_radio=1"
     },
     "events": [
       {
@@ -46676,6 +46795,18 @@
     "location": "AUSTIN, TX",
     "events": [
       {
+        "event_id": "MS65331",
+        "event_type": "showcase",
+        "venue": "Inn Cahoots Austin Garden",
+        "venue_id": "V2446",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "00:00",
+        "end_time": "00:40",
+        "presented_by": "Take Action X SXSW"
+      },
+      {
         "event_id": "MS63740",
         "event_type": "showcase",
         "venue": "Zilker Brewing",
@@ -47104,6 +47235,18 @@
       "website": "https://www.tropamagica.com/"
     },
     "events": [
+      {
+        "event_id": "MS65329",
+        "event_type": "showcase",
+        "venue": "Continental Club",
+        "venue_id": "V0178",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-14",
+        "start_time": "00:30",
+        "end_time": "01:00",
+        "presented_by": null
+      },
       {
         "event_id": "MS65274",
         "event_type": "showcase",
@@ -47904,7 +48047,7 @@
     "entity_id": 2242129,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2242129",
     "thumbnail_url": "https://images.sxsw.com/5vsHUQ8sx0cg0icGVaGdpbwcXTA=/450x450/images.sxsw.com/178/500f2a28-ccd3-37c5-34ab-0f5a6fbac126/artist-75891",
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "urboi. es un productor y DJ mexicano con una trayectoria consolidada dentro de la música electrónica. Ha trabajado con artistas como Guaynaa, Anuel AA, Bruses, Dillon Francis y SIA, logrando discos de oro, platino y una nominación al Latin Grammy. Su enfoque versátil le ha permitido conectar con distintas escenas y públicos, presentándose en festivales como EDC México y Tecate Pal Norte.",
     "links": {
@@ -47925,8 +48068,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "00:00",
+        "end_time": "00:40",
         "presented_by": "Slowly"
       }
     ]
@@ -48312,7 +48455,7 @@
     "entity_id": 2257124,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2257124",
     "thumbnail_url": "https://images.sxsw.com/9tPwoWwL6X7mMsiKbjx-zWngSzs=/450x450/images.sxsw.com/178/a4626049-b981-6cf1-e82c-07a019bad050/artist-76405",
-    "announcement_date": "2026-03-05",
+    "announcement_date": "2026-03-14",
     "source": "official",
     "description": "Vic Mensa is an acclaimed musician, actor, and entrepreneur whose work spans music, film, and social advocacy. His albums, including The Autobiography and Victor, have reached millions, while his EP sundiata marked his first fully independent release. An actor on The Chi and Bel-Air, he’s also the founder of 93 Boyz, Illinois’ first Black-owned cannabis brand. With a strong social media presence, Mensa uses his platform to drive cultural conversation, creative innovation and community impact.",
     "links": {
@@ -48331,7 +48474,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-14",
-        "start_time": "",
+        "start_time": "23:55",
         "end_time": "",
         "presented_by": "Found on Nero "
       }
@@ -49132,6 +49275,18 @@
     "events_raw": [],
     "location": "STOCKPORT (MANCHESTER), UNITED KINGDOM, ENGLAND",
     "events": [
+      {
+        "event_id": "MS65328",
+        "event_type": "showcase",
+        "venue": "Wanderlust Wine Co.",
+        "venue_id": "V0900",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-14",
+        "start_time": "20:20",
+        "end_time": "21:00",
+        "presented_by": "Dave Guy & Friends"
+      },
       {
         "event_id": "MS64265",
         "event_type": "showcase",
@@ -50264,10 +50419,10 @@
     "state": "TX",
     "entity_id": 2262580,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2262580",
-    "thumbnail_url": null,
+    "thumbnail_url": "https://images.sxsw.com/pUBI0EPPr-woetrt2TqJ6_Q1saA=/450x450/images.sxsw.com/178/b83c0fc3-01f1-2d68-f88f-65f47dff6c9e/artist-76450",
     "announcement_date": "2026-03-10",
     "source": "official",
-    "description": "",
+    "description": "Emerging from the desert edge of El Paso, where the lights of Ciudad Juárez flicker across the border at night, Xuco Baby creates music that feels like a transmission from the frontera. The project lives in a dreamlike space between regional memory and digital distortion—romance, heartbreak, and mythology refracted through lo-fi textures and cinematic melancholy.\nSinging primarily in Spanish, Xuco Baby transforms intimate confessions into slow-burning soundscapes. Songs like Piénsalo and Twin Flame drift between nostalgia and experimentation, where traditional emotional storytelling dissolves into vaporous synths, minimal rhythms, and gothic romanticism.\nThe 2025 EP Melodrama In Spanish expands this world—an intimate collection of tragic love songs suspended in slow motion. Blurring genres and identities, Xuco Baby treats the border not as a line, but as a frequency—where languages overlap, emotions stretch across distance, and new sounds emerge from the in-between.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/buchona-brat/1688821878?i=1688821879",
       "bandcamp": "https://xucobaby.bandcamp.com",
@@ -51801,7 +51956,7 @@
     "location": "KUALA LUMPUR, MALAYSIA"
   },
   {
-    "name": "Zola Marcelle",
+    "name": "Zola Marcelle\r",
     "genre": "Jazz",
     "subgenre": "Fusion",
     "city": "London",

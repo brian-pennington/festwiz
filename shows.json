@@ -198,7 +198,7 @@
     "venue": "Seven Grand",
     "day": "2026-03-13",
     "start_time": "00:10",
-    "end_time": "00:30",
+    "end_time": "00:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -237,6 +237,18 @@
     "end_time": "23:45",
     "source": "official",
     "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_a_gamevictory_grill2026_03_1719_55",
+    "artist_name": "A-Game",
+    "entity_id": 2246483,
+    "venue": "Victory Grill",
+    "day": "2026-03-17",
+    "start_time": "19:55",
+    "end_time": "20:15",
+    "source": "official",
+    "showcase": "Nourishing The Soul 2026",
     "notes": ""
   },
   {
@@ -300,17 +312,16 @@
     "notes": ""
   },
   {
-    "id": "official_adrian_benivel___mala_fama2026_03_15",
+    "id": "official_adrian_benivel___mala_fama2026_03_1521_40",
     "artist_name": "Adrian Be",
     "entity_id": 2242127,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:40",
+    "end_time": "22:20",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_adult_dvdvalhalla2026_03_1316_50",
@@ -2041,6 +2052,18 @@
     "end_time": "21:40",
     "source": "official",
     "showcase": "Music From Ireland",
+    "notes": ""
+  },
+  {
+    "id": "official_batry_powr__nicole_miglis_hilton_grand_ballroom__salon_hjk_2",
+    "artist_name": "Batry Powr (Nicole Miglis)",
+    "entity_id": 2242729,
+    "venue": "Hilton Grand Ballroom (Salon HJK)",
+    "day": "2026-03-16",
+    "start_time": "12:45",
+    "end_time": "12:55",
+    "source": "official",
+    "showcase": "SXSW Keynote Prelude Performance",
     "notes": ""
   },
   {
@@ -6073,6 +6096,18 @@
     "notes": ""
   },
   {
+    "id": "official_electric_enemyinn_cahoots_austin_garden2026_03_1722_00",
+    "artist_name": "Electric Enemy",
+    "entity_id": 2255670,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-17",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Take Action X SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_electric_enemyelysium2026_03_1221_40",
     "artist_name": "Electric Enemy",
     "entity_id": 2255670,
@@ -6639,6 +6674,18 @@
     "notes": ""
   },
   {
+    "id": "official_ferrrnivel___mala_fama2026_03_1520_00",
+    "artist_name": "FERRR",
+    "entity_id": 2265471,
+    "venue": "Nivel @ Mala Fama",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "20:40",
+    "source": "official",
+    "showcase": "Slowly",
+    "notes": ""
+  },
+  {
     "id": "official_fifi_knifefightchess_club2026_03_1822_00",
     "artist_name": "fifi knifefight",
     "entity_id": 2240923,
@@ -6988,17 +7035,16 @@
     "notes": ""
   },
   {
-    "id": "official_funky_caramelomala_fama_rooftop2026_03_16",
+    "id": "official_funky_caramelomala_fama_rooftop2026_03_1619_00",
     "artist_name": "Funky Caramelo",
     "entity_id": 2258652,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "19:00",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "The New Sounds of M\u00fasica Mexicana",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_future_nobodieselysium2026_03_1722_00",
@@ -7488,7 +7534,6 @@
     "day": "2026-03-15",
     "start_time": "23:00",
     "end_time": "23:40",
-    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -7669,7 +7714,6 @@
     "day": "2026-03-15",
     "start_time": "20:00",
     "end_time": "20:40",
-    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -8565,17 +8609,16 @@
     "notes": ""
   },
   {
-    "id": "official_ian_cordovamala_fama_rooftop2026_03_16",
+    "id": "official_ian_cordovamala_fama_rooftop2026_03_1622_35",
     "artist_name": "Ian Cordova",
     "entity_id": 2256866,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:35",
+    "end_time": "23:05",
     "source": "official",
     "showcase": "The New Sounds of M\u00fasica Mexicana",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ichigorinahamuchess_club2026_03_1301_00",
@@ -9198,6 +9241,18 @@
     "day": "2026-03-12",
     "start_time": "23:00",
     "end_time": "23:15",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
+    "id": "official_jana_diabglobal_stage___downright_austin_backyard2026_03_152",
+    "artist_name": "Jana Diab",
+    "entity_id": 2240088,
+    "venue": "Global Stage @ Downright Austin Backyard",
+    "day": "2026-03-15",
+    "start_time": "21:30",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -10072,18 +10127,6 @@
     "notes": ""
   },
   {
-    "id": "official_just_jimwanderlust_wine_co_2026_03_1420_00",
-    "artist_name": "Just Jim",
-    "entity_id": 2240092,
-    "venue": "Wanderlust Wine Co.",
-    "day": "2026-03-14",
-    "start_time": "20:00",
-    "end_time": "21:00",
-    "source": "official",
-    "showcase": "Dave Guy & Friends",
-    "notes": ""
-  },
-  {
     "id": "official_just_jimcoconut_club_rooftop2026_03_1722_15",
     "artist_name": "Just Jim",
     "entity_id": 2240092,
@@ -10432,17 +10475,16 @@
     "notes": ""
   },
   {
-    "id": "official_kenzzonivel___mala_fama2026_03_15",
+    "id": "official_kenzzonivel___mala_fama2026_03_1520_50",
     "artist_name": "Kenzzo",
     "entity_id": 2242130,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:50",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_kety_fuscoflamingo_cantina2026_03_1600_10",
@@ -11550,7 +11592,6 @@
     "day": "2026-03-15",
     "start_time": "01:00",
     "end_time": "02:00",
-    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -11880,17 +11921,16 @@
     "notes": ""
   },
   {
-    "id": "official_lucas_gaelnivel___mala_fama2026_03_15",
+    "id": "official_lucas_gaelnivel___mala_fama2026_03_1523_10",
     "artist_name": "Lucas Gael",
     "entity_id": 2286941,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:10",
+    "end_time": "23:50",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_lucid_expressradio_day_stage___downright_austin_backyard2026",
@@ -12368,7 +12408,6 @@
     "day": "2026-03-15",
     "start_time": "21:00",
     "end_time": "21:40",
-    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -12806,18 +12845,6 @@
     "end_time": "21:30",
     "source": "official",
     "showcase": "KAZI:R&B and Soul Showcase",
-    "notes": ""
-  },
-  {
-    "id": "official_mellyseven_grand2026_03_1722_00",
-    "artist_name": "Melly",
-    "entity_id": 2262575,
-    "venue": "Seven Grand",
-    "day": "2026-03-17",
-    "start_time": "22:00",
-    "end_time": "22:40",
-    "source": "official",
-    "showcase": "Tropiclub",
     "notes": ""
   },
   {
@@ -14419,17 +14446,16 @@
     "notes": ""
   },
   {
-    "id": "official_oscar_ortizmala_fama_rooftop2026_03_16",
+    "id": "official_oscar_ortizmala_fama_rooftop2026_03_1623_30",
     "artist_name": "Oscar Ortiz",
     "entity_id": 2240759,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:30",
+    "end_time": "00:00",
     "source": "official",
     "showcase": "The New Sounds of M\u00fasica Mexicana",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_oscar_ortizbillboard_presents_the_stage2026_03_14",
@@ -14877,17 +14903,16 @@
     "notes": ""
   },
   {
-    "id": "official_perd_n_amornivel___mala_fama2026_03_15",
+    "id": "official_perd_n_amornivel___mala_fama2026_03_1522_20",
     "artist_name": "Perd\u00f3n Amor",
     "entity_id": 2242128,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:20",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_perri_joneswanderlust_wine_co_2026_03_1321_00",
@@ -15107,17 +15132,16 @@
     "notes": ""
   },
   {
-    "id": "official_poe_leosmala_fama_rooftop2026_03_16",
+    "id": "official_poe_leosmala_fama_rooftop2026_03_1620_45",
     "artist_name": "Poe Leos",
     "entity_id": 2270263,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-16",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:45",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "The New Sounds of M\u00fasica Mexicana",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_poiisonswan_dive2026_03_1722_20",
@@ -16093,6 +16117,18 @@
     "notes": ""
   },
   {
+    "id": "official_rob_eberleinn_cahoots_studio2026_03_1700_50",
+    "artist_name": "Rob Eberle",
+    "entity_id": 2286848,
+    "venue": "Inn Cahoots Studio",
+    "day": "2026-03-17",
+    "start_time": "00:50",
+    "end_time": "01:30",
+    "source": "official",
+    "showcase": "Take Action X SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_rocketmohawk_outdoor2026_03_1723_30",
     "artist_name": "Rocket",
     "entity_id": 2277045,
@@ -17063,6 +17099,18 @@
     "end_time": "21:40",
     "source": "official",
     "showcase": "EQ Austin",
+    "notes": ""
+  },
+  {
+    "id": "official_shosharascalspeakeasy2026_03_1520_00",
+    "artist_name": "shosharascal",
+    "entity_id": 2286684,
+    "venue": "Speakeasy",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "21:00",
+    "source": "official",
+    "showcase": "German Music Export by Initiative Musik",
     "notes": ""
   },
   {
@@ -18747,6 +18795,18 @@
     "notes": ""
   },
   {
+    "id": "official_tomar_and_the_fcsinn_cahoots_austin_garden2026_03_1700_00",
+    "artist_name": "Tomar and the FCs",
+    "entity_id": 2246436,
+    "venue": "Inn Cahoots Austin Garden",
+    "day": "2026-03-17",
+    "start_time": "00:00",
+    "end_time": "00:40",
+    "source": "official",
+    "showcase": "Take Action X SXSW",
+    "notes": ""
+  },
+  {
     "id": "official_tomar_and_the_fcszilker_brewing2026_03_1221_15",
     "artist_name": "Tomar and the FCs",
     "entity_id": 2246436,
@@ -18912,6 +18972,18 @@
     "end_time": "21:30",
     "source": "official",
     "showcase": "Hybe's Sin Silencio",
+    "notes": ""
+  },
+  {
+    "id": "official_tropa_magicacontinental_club2026_03_1400_30",
+    "artist_name": "Tropa Magica",
+    "entity_id": 2267542,
+    "venue": "Continental Club",
+    "day": "2026-03-14",
+    "start_time": "00:30",
+    "end_time": "01:00",
+    "source": "official",
+    "showcase": "",
     "notes": ""
   },
   {
@@ -19288,17 +19360,16 @@
     "notes": ""
   },
   {
-    "id": "official_urboi_nivel___mala_fama2026_03_15",
+    "id": "official_urboi_nivel___mala_fama2026_03_1500_00",
     "artist_name": "urboi.",
     "entity_id": 2242129,
     "venue": "Nivel @ Mala Fama",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:00",
+    "end_time": "00:40",
     "source": "official",
     "showcase": "Slowly",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_usb_gadseven_grand2026_03_1223_55",
@@ -19469,17 +19540,16 @@
     "notes": ""
   },
   {
-    "id": "official_vic_mensaflamingo_cantina2026_03_14",
+    "id": "official_vic_mensaflamingo_cantina2026_03_1423_55",
     "artist_name": "Vic Mensa",
     "entity_id": 2257124,
     "venue": "Flamingo Cantina",
     "day": "2026-03-14",
-    "start_time": "",
+    "start_time": "23:55",
     "end_time": null,
     "source": "official",
     "showcase": "Found on Nero",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_vickeelovenue_62026_03_1600_05",
@@ -19804,6 +19874,18 @@
     "end_time": "22:15",
     "source": "official",
     "showcase": "Smartpunk Records",
+    "notes": ""
+  },
+  {
+    "id": "official_werkhawanderlust_wine_co_2026_03_1420_20",
+    "artist_name": "Werkha",
+    "entity_id": 2240640,
+    "venue": "Wanderlust Wine Co.",
+    "day": "2026-03-14",
+    "start_time": "20:20",
+    "end_time": "21:00",
+    "source": "official",
+    "showcase": "Dave Guy & Friends",
     "notes": ""
   },
   {
@@ -20770,8 +20852,8 @@
     "notes": ""
   },
   {
-    "id": "official_zola_marcelleglobal_stage___downright_austin_backyard2026_03",
-    "artist_name": "Zola Marcelle",
+    "id": "official_zola_marcelle_global_stage___downright_austin_backyard2026_0",
+    "artist_name": "Zola Marcelle\r",
     "entity_id": 2238759,
     "venue": "Global Stage @ Downright Austin Backyard",
     "day": "2026-03-14",
@@ -20782,8 +20864,8 @@
     "notes": ""
   },
   {
-    "id": "official_zola_marcelleflamingo_cantina2026_03_1520_00",
-    "artist_name": "Zola Marcelle",
+    "id": "official_zola_marcelle_flamingo_cantina2026_03_1520_00",
+    "artist_name": "Zola Marcelle\r",
     "entity_id": 2238759,
     "venue": "Flamingo Cantina",
     "day": "2026-03-15",
