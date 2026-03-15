@@ -869,7 +869,7 @@
   },
   {
     "artist_name": "Lucky Brek",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "19:50",
     "end_time": "20:30",
@@ -883,7 +883,7 @@
   },
   {
     "artist_name": "60 Juno",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "20:50",
     "end_time": "21:30",
@@ -897,7 +897,7 @@
   },
   {
     "artist_name": "Haylie Davis",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "21:50",
     "end_time": "22:30",
@@ -911,7 +911,7 @@
   },
   {
     "artist_name": "Gracie & Rachel",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "22:50",
     "end_time": "23:30",
@@ -925,7 +925,7 @@
   },
   {
     "artist_name": "Jon Langford",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "23:50",
     "end_time": "00:30",
@@ -939,7 +939,7 @@
   },
   {
     "artist_name": "Spoon Benders",
-    "venue": "Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-15",
     "start_time": "00:50",
     "end_time": "01:50",
@@ -952,36 +952,8 @@
     "notes": ""
   },
   {
-    "artist_name": "Grrrl Gang",
+    "artist_name": "Jad Fair",
     "venue": "Volstead",
-    "day": "2026-03-15",
-    "start_time": "20:00",
-    "end_time": "20:40",
-    "no_set_time": false,
-    "admission": "free",
-    "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
-    "website": "",
-    "entity_id": null,
-    "notes": ""
-  },
-  {
-    "artist_name": "Marissa Nadler",
-    "venue": "Hotel Vegas Inside",
-    "day": "2026-03-15",
-    "start_time": "21:00",
-    "end_time": "21:40",
-    "no_set_time": false,
-    "admission": "free",
-    "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
-    "website": "",
-    "entity_id": null,
-    "notes": ""
-  },
-  {
-    "artist_name": "Babybaby_explores",
-    "venue": "Hotel Vegas Inside",
     "day": "2026-03-15",
     "start_time": "22:00",
     "end_time": "22:40",
@@ -994,39 +966,11 @@
     "notes": ""
   },
   {
-    "artist_name": "Graham Reynolds",
-    "venue": "Hotel Vegas Inside",
-    "day": "2026-03-15",
-    "start_time": "23:00",
-    "end_time": "23:40",
-    "no_set_time": false,
-    "admission": "free",
-    "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
-    "website": "",
-    "entity_id": null,
-    "notes": ""
-  },
-  {
     "artist_name": "Lucid Express",
-    "venue": "Hotel Vegas Inside",
+    "venue": "Volstead",
     "day": "2026-03-15",
     "start_time": "00:00",
     "end_time": "00:40",
-    "no_set_time": false,
-    "admission": "free",
-    "source": "unofficial",
-    "showcase": "Fire Recs/Songbird Creative/Anniversary Booking",
-    "website": "",
-    "entity_id": null,
-    "notes": ""
-  },
-  {
-    "artist_name": "Liz Cooper",
-    "venue": "Hotel Vegas Inside",
-    "day": "2026-03-15",
-    "start_time": "01:00",
-    "end_time": "02:00",
     "no_set_time": false,
     "admission": "free",
     "source": "unofficial",

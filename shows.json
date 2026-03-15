@@ -7488,6 +7488,7 @@
     "day": "2026-03-15",
     "start_time": "23:00",
     "end_time": "23:40",
+    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -7668,6 +7669,7 @@
     "day": "2026-03-15",
     "start_time": "20:00",
     "end_time": "20:40",
+    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -11548,6 +11550,7 @@
     "day": "2026-03-15",
     "start_time": "01:00",
     "end_time": "02:00",
+    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
@@ -12365,6 +12368,7 @@
     "day": "2026-03-15",
     "start_time": "21:00",
     "end_time": "21:40",
+    "admission": "cover",
     "source": "official",
     "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
