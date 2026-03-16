@@ -174,8 +174,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "23:00",
-        "end_time": "23:20",
+        "start_time": "22:50",
+        "end_time": "23:10",
         "presented_by": "RnB Forever"
       }
     ],
@@ -7127,6 +7127,41 @@
     "location": "DETROIT, MI"
   },
   {
+    "name": "Bruna Black",
+    "genre": "Folk",
+    "subgenre": "MPB",
+    "city": "Campinas",
+    "country": "Brazil",
+    "state": "SP",
+    "entity_id": 2289559,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2289559",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-15",
+    "source": "official",
+    "description": "Bruna Black is a Brazilian singer, songwriter, instrumentalist, and actress known for her powerful voice, magnetic stage presence, and genre-blending sound. Moving seamlessly between MPB, soul, R&B, and contemporary Brazilian music, her work combines rich musical influences with a strong personal identity.\n\nHer songs explore themes such as love, ancestry, resilience, and empowerment, delivered through expressive performances and emotionally charged compositions that have made her a distinctive voice in Brazil’s new generation of artists.",
+    "links": {
+      "apple_music": "https://music.apple.com/br/song/saudade-feat-juliana-linhares/1838003010",
+      "instagram": "https://www.instagram.com/brunablack/",
+      "tiktok": "https://www.tiktok.com/@cantabrunablack",
+      "youtube": "https://www.youtube.com/watch?v=xkH7dxTSdPI&list=RDxkH7dxTSdPI&start_radio=1"
+    },
+    "events": [
+      {
+        "event_id": "MS65338",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "presented_by": "Tropiclub"
+      }
+    ],
+    "location": "CAMPINAS, SP, BRAZIL"
+  },
+  {
     "name": "Bruno Caleb",
     "genre": "Latin",
     "subgenre": "Regional Mexican",
@@ -9505,36 +9540,6 @@
     ]
   },
   {
-    "name": "Community Concert at Lady Bird Lake with Tune-Yards",
-    "genre": "Alternative",
-    "subgenre": "Indie",
-    "city": "Oakland",
-    "country": "United States",
-    "state": "CA",
-    "entity_id": 2285911,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2285911",
-    "thumbnail_url": "https://images.sxsw.com/u8twCjkAmZyvHJ0wPeg3C1_van8=/531x0:4626x4095/450x450/images.sxsw.com/178/621b6a31-f948-459b-898d-757615833b5f/artist-76761",
-    "announcement_date": "2026-03-11",
-    "source": "official",
-    "description": "Formed by Merrill Garbus in 2006, Tune-Yards has become a name synonymous with creativity and forward motion. Known for explosive performances, surprising song structures, and danceable rhythms, their music also highlights connections between song and social consciousness. The New York Times praised their debut album, BiRd-BrAiNs, as “a confident do-it-yourselfer’s opening salvo”, and relentless touring established Garbus as a commanding live performer. Garbus stepped into the producer role with 2011’s w h o k i l l, a bold and sonically inventive album that earned critical acclaim, including the #1 spot on The Village Voice’s Pazz and Jop poll. By 2021’s sketchy. Garbus and bassist Nate Brenner had solidified their partnership, creating a fully collaborative work. The duo has announced their sixth studio record, Better Dreaming, to be released on May 16 , 2025 on 4AD. Tune-Yards also excels in scoring, contributing to Boots Riley’s Sorry to Bother You, I’m A Virgo, and the forthcoming I Love Boosters. Their artistry continues to expand across music, film, and television.",
-    "links": {},
-    "events": [
-      {
-        "event_id": "MS65293",
-        "event_type": "showcase",
-        "venue": "Auditorium Shores",
-        "venue_id": "V1908",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-15",
-        "start_time": "17:30",
-        "end_time": "20:00",
-        "presented_by": null
-      }
-    ],
-    "location": "OAKLAND, CA"
-  },
-  {
     "name": "Confucius & Fresh",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hip-Hop / Rap",
@@ -9931,6 +9936,18 @@
     "events_raw": [],
     "location": "SAN DIEGO, CA",
     "events": [
+      {
+        "event_id": "MS65341",
+        "event_type": "showcase",
+        "venue": "Brushy Street Commons",
+        "venue_id": "V2389",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "00:15",
+        "end_time": "01:00",
+        "presented_by": "Mint Talent Group"
+      },
       {
         "event_id": "MS65176",
         "event_type": "showcase",
@@ -11964,6 +11981,40 @@
     "location": "AUSTIN, TX"
   },
   {
+    "name": "DJ Barata",
+    "genre": "DJ",
+    "subgenre": "Electronic",
+    "city": "Brasília",
+    "country": "Brazil",
+    "state": "DF",
+    "entity_id": 2289560,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2289560",
+    "thumbnail_url": "https://images.sxsw.com/mnzA6meb-gHAKEn6zGdnXMnXjhI=/450x450/images.sxsw.com/178/525b366c-4201-232c-51fb-b1d0105130f2/artist-76786",
+    "announcement_date": "2026-03-15",
+    "source": "official",
+    "description": "Born from the heart of Brazil’s vibrant music scene, DJ Barata is one half of the legendary duo Sistema Criolina, a project that has been igniting dance floors since 2005. Known for his deep musical knowledge and infectious energy, Barata weaves together Brazilian grooves, Afro-diasporic rhythms, and global sounds into dynamic DJ sets that celebrate both tradition and innovation. From ancestral percussion to electronic textures, his selections create warm, colorful atmospheres where the dance floor becomes a space of connection and collective joy. At SXSW, DJ Barata brings the spirit of Sistema Criolina in a powerful solo set that carries the pulse of Brazil to the world.",
+    "links": {
+      "instagram": "https://www.instagram.com/sistemacriolina?igsh=MWt5eG94dGYxZ2FmaQ==",
+      "soundcloud": "https://soundcloud.com/sistemacriolinadjs",
+      "website": "https://sistemacriolina.com.br/"
+    },
+    "events": [
+      {
+        "event_id": "MS65339",
+        "event_type": "showcase",
+        "venue": "Seven Grand",
+        "venue_id": "V0597",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "presented_by": "Tropiclub"
+      }
+    ],
+    "location": "BRASÍLIA, DF, BRAZIL"
+  },
+  {
     "name": "DJ BAYRON",
     "genre": "Reggaeton",
     "subgenre": "None",
@@ -12832,7 +12883,7 @@
     "entity_id": 2267097,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2267097",
     "thumbnail_url": null,
-    "announcement_date": "2026-02-24",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Kay Cali is a dynamic DJ, producer, beatboxer, and media personality known for her ability to electrify any crowd and curate unforgettable experiences. A California native now based in Austin, she has captivated audiences worldwide with her high-energy performances and signature sound.\nRecently nominated for Austin’s Best DJ, Kay Cali’s musical journey began as a classically trained percussionist before seamlessly transitioning to the turntables. She has delivered show-stopping sets at major festivals like ACL, Afrotech, Essence Festival, SXSW, and CES, as well as exclusive corporate events for Fortune 500 companies. Throughout her career, she has shared the stage with Grammy and Academy Award-winning artists such as Wu-Tang Clan, Timbaland, Solange, Erykah Badu, Questlove, and more.\nWith a reputation that extends beyond Austin, Kay Cali continues to make an impact on the global music scene. In recognition of her contributions to music and culture, the city of Austin officially declared November 21st as “DJ Kay Cali Day”, celebrating her remarkable achievements and cultural influence.",
     "links": {
@@ -12847,7 +12898,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "00:30",
+        "start_time": "00:15",
         "end_time": "01:30",
         "presented_by": "RnB Forever"
       },
@@ -14635,6 +14686,41 @@
     "location": "SACRAMENTO, CA"
   },
   {
+    "name": "EDDY (MX)",
+    "genre": "Singer-Songwriter",
+    "subgenre": "Regional Mexican",
+    "city": "Delicias",
+    "country": "Mexico",
+    "state": null,
+    "entity_id": 2289558,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2289558",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-15",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/artist/eddy/1779584924",
+      "instagram": "https://www.instagram.com/eddyyhp?igsh=M3VpbjNjNm82YXdw",
+      "spotify": "https://open.spotify.com/artist/3dhMDOAn4QhiSEerNabrnG?si=WWtdxQJDT8qKCX8IfsVg_A",
+      "tiktok": "https://www.tiktok.com/@eddyyhp?_r=1&_t=ZS-94guaz1f4Bm"
+    },
+    "events": [
+      {
+        "event_id": "MS65337",
+        "event_type": "showcase",
+        "venue": "Mala Fama Rooftop",
+        "venue_id": "V2453",
+        "parent_venue": "Mala Fama",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "21:00",
+        "end_time": "21:40",
+        "presented_by": "De Los"
+      }
+    ],
+    "location": "DELICIAS, MEXICO"
+  },
+  {
     "name": "EddyJae",
     "genre": "Latin",
     "subgenre": "Regional Mexican",
@@ -15161,7 +15247,7 @@
     "entity_id": 2285818,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285818",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "EMJAY, is a singer from Guadalajara, Mexico. In 2023, she released her debut album LAS MORRAS TAMBIÉN HACEN TR444P, a project that highlighted and strengthened the presence of women within trap, a genre historically dominated by men.\nThroughout her career, she has collaborated with artists such as Metrika, Gera MX, Lismar, and Belinda, and has performed at major festivals including Coca-Cola Flow Fest, EDC México, and Toñita Fest in Brooklyn, New York. Known for blending trap, R&B, pop, and hyperpop, EMJAY stands out for her genre-fluid sound and bold artistic identity.\nIn 2025, she released her second album me estoy volviendo loca, which included viral singles like “boss,” generating over 40 million views on TikTok and thousands of user creations. That same year, she embarked on her MEVL Tour, performing across Mexico, the United States, and Central America with sold-out shows in Mexico City and Tijuana\nExpanding internationally, she has also performed in Madrid and was named an ambassador for Adidas México and part of Apple Music’s Up Next program. In February 2026, she opened for Doja Cat and presented her latest project, the EP Confesiones De Las Que Me Voy A Arrepentir.",
     "links": {
@@ -15180,8 +15266,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:30",
+        "end_time": "22:00",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -17123,7 +17209,7 @@
     "entity_id": 2258652,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2258652",
     "thumbnail_url": "https://images.sxsw.com/1F2rzWKTNJg6GQ5AaiK9TRM1OVQ=/450x450/images.sxsw.com/178/06cadf69-d968-d288-d4ec-e15f3eaaf30b/artist-76360",
-    "announcement_date": "2026-03-05",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "DJ Funky Caramelo is a seed from Mexico City, harvested by the streets of LA. She's a queer femme who utilizes the stage as a way to equalize female-identified representation within nightlife event productions. Through her DJ sets, she aims to celebrate and uplift the music from artists of color, especially those who have been historically disenfranchised. Funky Caramelo has performed across various stages (DANCE DTLA, Angel City Football Club; FanFest, Netflix; Gentefied, Pantaya; Bronco Series)  college campuses (Brown, UC Riverside) and museums (Brooklyn Art Museum, HAMMER, Autry). She has been featured in Remezcla, KCET, GMA and UPROXX.   She previously served as the  resident DJ at Cumbiatón along with leading marketing, press and promotion for the party.",
     "links": {
@@ -17929,7 +18015,7 @@
     "entity_id": 2284236,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2284236",
     "thumbnail_url": "https://images.sxsw.com/nuORDknyJtqo81Wr_GTCKT7j1ow=/450x450/images.sxsw.com/178/5ee33387-aaa0-862e-5c16-b6201f442ca7/artist-76734",
-    "announcement_date": "2026-03-09",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "When you listen to GoGo Morrow, it’s clear that every song comes from an authentic place. The Los Angeles–based R&B artist prides herself on creating music that reflects real emotions. “I’m very genuine in my art,” she says, explaining that her songs often tell her own stories as well as those of friends and family.\n\nAfter going through a breakup, GoGo began exploring a darker, more introspective sound. This shift inspired a trilogy of EPs, each representing a different emotional persona. The first project, Ready (2022), captured vulnerability and openness to love. The follow-up, Set, explores the opposite—choosing emotional distance and prioritizing personal peace.\n\nSongs like “Emotionally Unavailable” reflect a time when she felt closed off from relationships, while “La La Lies” blends hip-hop and R&B with vibrant production. Growing up in Philadelphia, she absorbed soul, gospel, and Motown influences. Today, she aims to create timeless music and inspire others to keep chasing their dreams.",
     "links": {
@@ -17951,8 +18037,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "22:30",
-        "end_time": "22:50",
+        "start_time": "22:25",
+        "end_time": "22:45",
         "presented_by": "RnB Block Party"
       }
     ],
@@ -20946,7 +21032,7 @@
     "entity_id": 2256866,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2256866",
     "thumbnail_url": "https://images.sxsw.com/xHuqIDzk01M3ryDs3gnQ6VFxob8=/450x450/images.sxsw.com/178/ee73c3bd-df73-fec6-bb57-169677ab12f2/artist-76393",
-    "announcement_date": "2026-03-05",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Ian Cordova, nacido en marzo de 2000, en Santa María, CA, y posteriormente criado en Jiquilpan, Michocán, es un destacado cantante y compositor de corridos mexicano, firmado por la disquera Lucky Music Group. Su estilo único y versátil ha resonado con una amplia audiencia, fusionando el regional mexicano con el rap en lo que él llama \"historias bélicas\"., donde narra con autenticidad experiencias de la vida real. Criado entre dos culturas distintas, la estadounidense y la mexicana, Ian ha acumulado vivencias que enriquecen su arte y lo conectan profundamente con su público, transmitiendo las luchas cotidianas y la superación a través de su letra.",
     "links": {
@@ -21899,8 +21985,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "19:40",
-        "end_time": "19:55",
+        "start_time": "20:20",
+        "end_time": "20:35",
         "presented_by": "Future of Indie Showcase"
       }
     ],
@@ -22155,6 +22241,36 @@
       }
     ],
     "location": "WESTCHESTER, CA"
+  },
+  {
+    "name": "Jad Fair",
+    "genre": "Singer-Songwriter",
+    "subgenre": "Alternative",
+    "city": "Manor",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2289555,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2289555",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-15",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65335",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-15",
+        "start_time": "22:00",
+        "end_time": "22:40",
+        "presented_by": "Fire Records x Songbird x Anniversary"
+      }
+    ],
+    "location": "MANOR, TX"
   },
   {
     "name": "Jadarrion",
@@ -22619,6 +22735,7 @@
     "source": "official",
     "description": "Jana Diab is a Cairo-born, London‑based singer-songwriter whose work blends emotional vulnerability with a bold, genre‑fluid sensibility.\n\nRaised in a home steeped in the arts — her mother introduced her to Theater and Broadway — Diab grew up absorbing the power of storytelling and performance.\n\nHer music draws from the experimental, kaleidoscopic sounds of artists like Lorde, Half Waif, and Saya Gray, yet her lyricism is deeply personal: negotiating identity, ADHD, and the tension of living between cultures.\n\nIn 2023 she released her debut EP Season One via Interscope, and in November she followed it with an extended edition featuring additional tracks.\n\nMost recently, on 17 October, she released her new single “Cipriani,” on U–nation Music, marking the next chapter in her artistic evolution. She also holds the distinction of being the first ambassador for the fashion house Miu Miu across the Middle East.\n\nAt 23, Diab continues carving a space that honors her heritage while defying easy categorisation — a voice for third‑culture youth finding clarity through art.",
     "links": {
+      "apple_music": "https://music.apple.com/us/artist/jana-diab/1498969118?itscg=30200&itsct=music_box_link&ls=1&app=music&mttnsubad=1498969118",
       "instagram": "https://www.instagram.com/janadiab_",
       "spotify": "https://open.spotify.com/track/4RZooZwOYjXPwmvhwNPJX3?si=-MmetDG3QUSfDJjG9TkhFw",
       "tiktok": "https://www.tiktok.com/@janadiab",
@@ -22627,6 +22744,18 @@
     "events_raw": [],
     "location": "LONDON, UNITED KINGDOM, ENGLAND",
     "events": [
+      {
+        "event_id": "MS65334",
+        "event_type": "showcase",
+        "venue": "Central Presbyterian Church",
+        "venue_id": "V0175",
+        "parent_venue": "",
+        "age_policy": "All Ages",
+        "day": "2026-03-17",
+        "start_time": "23:10",
+        "end_time": "00:00",
+        "presented_by": null
+      },
       {
         "event_id": "MS65333",
         "event_type": "showcase",
@@ -22927,8 +23056,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "20:00",
-        "end_time": "20:15",
+        "start_time": "20:40",
+        "end_time": "20:55",
         "presented_by": "Future of Indie Showcase"
       },
       {
@@ -23693,7 +23822,7 @@
     "entity_id": 2285789,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285789",
     "thumbnail_url": "https://images.sxsw.com/IJ8Z0Cr4vZIgc9Xdje-LAOXXfMQ=/450x450/images.sxsw.com/178/3f53f81a-b356-d12a-9114-47288af1c6df/artist-76765",
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Joaco Burgos (Buenos Aires, 21 years old) is an Argentine singer, songwriter, and musician who combines freshness, virtuosity, and a deep connection with the tradition of national rock. With only two albums released — Mi Lugar (2022) and Frenesí (2024) — he has already established himself as one of the most unique young voices on the Argentine scene.\nHis work has caught the attention of icons such as Fito Páez, Fernando Samalea, and Charly García, and has been highlighted in prestigious outlets like Página/12, Billboard, Indie Hoy , and Infobae for the maturity of his songwriting and his authentic musical universe.",
     "links": {
@@ -23712,8 +23841,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:00",
+        "end_time": "21:30",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -24443,7 +24572,7 @@
     "entity_id": 2285777,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285777",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "",
     "links": {
@@ -24461,8 +24590,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:30",
+        "end_time": "23:00",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -25489,7 +25618,7 @@
     "entity_id": 2248292,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2248292",
     "thumbnail_url": "https://images.sxsw.com/ua6qWBmN3u9qKcA_VM8bmodn9p8=/450x450/images.sxsw.com/178/df414bfd-7654-6119-f34a-9d09abe69fb5/artist-76145",
-    "announcement_date": "2026-02-23",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Originally from Pittsburgh, KELS has been based in Atlanta for three years. She gained significant buzz when she went on a 52 show US Tour in 2023 independently with no management and no label. Her following grew by 5 times while she was on the road for 8 months on her own. Her fans funded the entire tour. KELS headlined the Atlanta Jazz Festival in May 2024, opening for Andre 3000. In 2024 and 2025 she went on another independent 55 show tour fully funded by her fans. With co-signs from both Big Boi and Timbaland, she is currently working on her debut EP in 2026.",
     "links": {
@@ -25506,8 +25635,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "00:00",
-        "end_time": "00:30",
+        "start_time": "23:15",
+        "end_time": "23:40",
         "presented_by": "RnB Forever"
       }
     ],
@@ -26820,7 +26949,7 @@
     "entity_id": 2285821,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285821",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "La Cruz is a Venezuelan singer and songwriter born in Caracas, who has become one of the boldest queer voices in Latin urban music. Raised between Caracas and La Guaira, he began singing young and moved to Madrid in 2015 to pursue his career, later gaining wider recognition after appearing on Operación Triunfo in 2018. Blending reggaeton, Latin pop, and intimate storytelling, he built an independent path that openly celebrates queer desire in a genre that has not always made room for it. He later signed with Warner Music Latina and released his first EP, El Nene, featuring collaborations with artists such as Villano Antillano, further cementing his place in the new wave of boundary pushing Latin acts. His 2022 debut album Hawaira reflects both his roots and global ambition, while singles like “Quítate la ropa” and “Yo te conocí bailando” have resonated strongly with LGBTQ+ audiences. This year, he was also nominated at Premio Lo Nuestro for Artista Masculino Revelación del Año, marking another milestone in his fast rising career.",
     "links": {
@@ -26838,8 +26967,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:00",
+        "end_time": "23:30",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -28868,7 +28997,7 @@
     "state": "TX",
     "entity_id": 2241125,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2241125",
-    "thumbnail_url": "https://images.sxsw.com/9z0_R068tZCP7Ho7FdJ7gT49utc=/450x450/images.sxsw.com/178/eb637c76-6aea-f297-9749-460fbe083e8f/artist-72907",
+    "thumbnail_url": "https://images.sxsw.com/5lcCt8ckEeLDfNJgm6c0WdHPh-Y=/450x450/images.sxsw.com/178/873aa6cb-314a-1a08-3493-3bf3e5e7fb76/artist-72907",
     "announcement_date": "2026-01-13",
     "source": "official",
     "description": "Los Gran Reyes are a Dallas-based nine-piece cumbia powerhouse led by Agustín Granados Jr. (AG), blending traditional cumbia styles with modern and electronic influences. Drawing from Cumbia Lagunera, Sonidera, and Argentina, their sound is high-energy, culture-driven, and built for the dance floor. Their latest album, Cumbia Vibes, marks a bold new era of cumbia moderna and solidifies Los Gran Reyes as one of the most exciting live Latin acts today.",
@@ -30006,7 +30135,7 @@
     "thumbnail_url": "https://images.sxsw.com/LiZUNfHJLKfvSgxWYRR_RbhrrUE=/450x450/images.sxsw.com/178/b2a278e3-3031-a39a-0cd9-8907f3b31d4e/artist-73339",
     "announcement_date": "2026-01-13",
     "source": "official",
-    "description": "",
+    "description": "Magnolian is the stage name of Dulguun Bayasgalan, a singer-songwriter from Ulaanbaatar, Mongolia – his name a subtle nod to his roots. With soft, intimate vocals and reflective songwriting, his music has become a refuge for Mongolian youth, soundtracking the city's quiet nostalgia and offering comfort in their spaces. Inspired by The National, St. Vincent, and Fleet Foxes, his songs are thoughtful, cool, and emotionally resonant – music that lingers long after it plays.",
     "links": {
       "apple_music": "https://music.apple.com/us/song/woods/1821495480",
       "bandcamp": "https://magnolian.bandcamp.com",
@@ -30400,7 +30529,7 @@
     "entity_id": 2247262,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2247262",
     "thumbnail_url": "https://images.sxsw.com/G14vfqsQa5anJzwpWNWTLsiNBQ4=/450x450/images.sxsw.com/178/4aaa4752-01d7-bc0c-c4bc-569e9e709184/artist-75855",
-    "announcement_date": "2026-03-05",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Mariangela is a self-taught guitarist and pianist whose songs reflect her life and resonate deeply with listeners. Born in Monterrey and raised in Texas, she blends influences from both cultures, drawing inspiration from Selena Quintanilla, Julieta Venegas, Natalia Lafourcade, Stevie Nicks, Mazzy Star, Natalia Jiménez, Pink Floyd, Pearl Jam, and the folklore of Veracruz. Inspired by poets like Jaime Sabines and Mario Benedetti, she signed with Sony Music Latin in 2022 and released her debut EP 4 + 1, earning recognition from Billboard as an Emerging Latin Artist. In 2024, she released her first album Sensible, an 11-track fusion shaped by her bicultural roots. Now, she is reconnecting with her musical origins, returning to the cumbia sounds that marked her early artistic identity. She has opened for Jesse & Joy, Kany García, and Carla Morrison, and performed at SXSW and Tecate Pa’l Norte. Known for her compassion and emotional depth, she creates music that offers comfort and community to her fans. With more than 279K Instagram followers, 1.4M TikTok followers, and over 117K monthly listeners on Spotify, she continues to expand her reach with new music on the horizon.",
     "links": {
@@ -31169,44 +31298,6 @@
     ]
   },
   {
-    "name": "Mau P",
-    "genre": "Dance",
-    "subgenre": "Dance",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "state": null,
-    "entity_id": 2262590,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2262590",
-    "thumbnail_url": null,
-    "announcement_date": "2026-02-20",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/mau-p/1636676418",
-      "instagram": "https://www.instagram.com/maup/?hl=en",
-      "soundcloud": "https://soundcloud.com/realmaup",
-      "spotify": "https://open.spotify.com/artist/0w1sbtZVQoK6GzV4A4OkCv",
-      "tiktok": "https://www.tiktok.com/@maup?lang=en",
-      "twitter": "https://x.com/realmaup",
-      "website": "https://maupmusic.com/"
-    },
-    "events": [
-      {
-        "event_id": "MS64554",
-        "event_type": "showcase",
-        "venue": "Billboard Presents The Stage",
-        "venue_id": "V2381",
-        "parent_venue": "Moody Amphitheater @ Waterloo Park",
-        "age_policy": "All Ages",
-        "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": "Billboard Presents: The Stage at SXSW"
-      }
-    ],
-    "location": "AMSTERDAM, NETHERLANDS"
-  },
-  {
     "name": "Max Evasion",
     "genre": "Dance",
     "subgenre": "Avant / Experimental",
@@ -31696,23 +31787,6 @@
       }
     ],
     "location": "AUSTIN, TX"
-  },
-  {
-    "name": "Melly",
-    "genre": "Pop",
-    "subgenre": "Afro Pop",
-    "city": "Salvador",
-    "country": "Brazil",
-    "state": null,
-    "entity_id": 2262575,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2262575",
-    "thumbnail_url": null,
-    "announcement_date": "2026-03-09",
-    "source": "official",
-    "description": "The page you requested cannot be found. Check the URL, or contact techsupport@sxsw.com if you believe this page should be working.",
-    "links": {},
-    "events": [],
-    "location": "Salvador, Brazil"
   },
   {
     "name": "Mên An Tol",
@@ -37415,7 +37489,7 @@
     "entity_id": 2270263,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2270263",
     "thumbnail_url": "https://images.sxsw.com/_4FOGd1ixZGgOZ7QUkwdrf6e3dA=/450x450/images.sxsw.com/178/dd2a87ef-a1d3-3df9-1c45-1b44685f308f/artist-76535",
-    "announcement_date": "2026-03-05",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Born in Chihuahua, Chihuahua Mexico and raised in Rockford\n\nIllinois, Poe Leos grew up with a single mother in a Spanish-\n\nspeaking household that rang out with rancheras and salsa\n\nIn her teens she began listening to music in\n\nEnglish, spanning smooth R&B to iconic Latin superstars like\n\nRomeo Santos, and Beyonce. Because of this, the songstress\n\nrefers to her sound as “LATIN POP”\n\n. The 23-year-old artist first\n\ngained a following by singing at local birthday parties,\n\nquinceañeras, and Sweet 16's, one of which happened to be for\n\nthe daughter of a top music industry executive.\n\nmeeting encouraged Poe Leos to begin thinking seriously about\n\na career as an artist.\n\nShe quickly learned an array of necessary\n\nskills, learning both guitar and piano as well as how to write\n\nand produce her own music.\n\nPoe Leos is definitely going to be a\n\nworld renown star here in the near future",
     "links": {
@@ -38945,7 +39019,7 @@
     "entity_id": 2285746,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285746",
     "thumbnail_url": "https://images.sxsw.com/LUjO3w_GYS3hPB47Os4UNiuVHg4=/450x450/images.sxsw.com/178/ead47309-e2a7-3f1d-bfe3-53c8f0e91dd0/artist-76762",
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "Raúl Hernández Jr. es un cantante y acordeonista mexicano que está construyendo una carrera sólida en el género regional mexicano, con un estilo profundamente arraigado en la música norteña. Es originario de Monterrey, Nuevo León, México, y forma parte de una de las dinastías más respetadas del regional: la familia Hernández. Desde muy joven se vio inmerso en la música gracias al ejemplo de su padre, Raúl Hernández, conocido como “El Tigre Solitario” y ex integrante de los legendarios Los Tigres del Norte — banda que marcó profundamente el desarrollo del regional mexicano.\nSu acercamiento formal a la música comenzó desde niño, aprendiendo a tocar el acordeón —el primer instrumento que le regaló su padre— lo que fue clave para desarrollar su estilo vocal y musical desde temprana edad.\nRaúl Hernández Jr. representa una nueva generación de intérpretes norteños que respeta las raíces de su familia pero que busca evolucionar con su propio estilo. Con disciplina, una voz potente y una presencia escénica sólida, este joven artista sigue ganándose el corazón del público y grabando su camino en la historia del regional mexicano.",
     "links": {
@@ -38963,8 +39037,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:00",
+        "end_time": "22:30",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -47685,7 +47759,7 @@
     "entity_id": 2285914,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2285914",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-15",
     "source": "official",
     "description": "",
     "links": {
@@ -47700,8 +47774,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:30",
+        "end_time": "02:00",
         "presented_by": "Warner Music Latina"
       }
     ],
@@ -48643,7 +48717,7 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-15",
-        "start_time": "12:30",
+        "start_time": "00:30",
         "end_time": "02:00",
         "presented_by": "Floppy Disko"
       }
@@ -50731,7 +50805,7 @@
     "thumbnail_url": "https://images.sxsw.com/Yh2Efh3S_fe_E3YwfNG6dP_fChA=/450x450/images.sxsw.com/178/fba3b0d6-9652-cca8-471a-4b97402d0662/artist-76332",
     "announcement_date": "2026-02-26",
     "source": "official",
-    "description": "Yndent (pronounced like \"indent\") is a Dallas-based house DJ and producer known for his warm, uplifting energy and his joyful presence. His name (an “indented” version of his real name \"Jordyn Dent\") speaks to a commitment to authenticity, where the music he creates and the sets he plays showcase a true reflection of who he is and how music makes him feel; always with a huge smile to match.\n\nHis debut release as an artist, an official remix of Kelly Reverb & Chad LeMans’ track Speechless, dropped in June 2025 on Kelly's label \"Lone Star Records\" and was very well received by listeners and DJs worldwide, receiving 5000+ streams across all platforms, hundreds of radio spins in three different countries, and a top 3 ranking on the Beatport funky house release charts. With more unreleased projects on the way that are gaining early support from friends, DJs, and dance floors alike, Yndent is already carving out a well-deserved space for himself in the dance music world since he began producing in 2024.",
+    "description": "Yndent (pronounced like \"indent\") is a Dallas-based house DJ/producer known for his uplifting energy and joyful presence. His name (an “indented” version of his real name \"Jordyn Dent\") speaks to a commitment to authenticity, where the music he creates and the sets he plays showcase a true reflection of who he is and how music makes him feel; always with a huge smile to match.\n\nA regular fixture in the Dallas dance scene, Yndent has played venues across the city including flagships SILO and The Bomb Factory, with regular appearances at Boogies, Coba, Hampton House, and more. He has performed alongside artists such as NEIL FRANCES, Austin Millz, OFFAIAH, Ship Wrek, and many other leading artists in house music.\n\nSince 2024, Yndent has built a strong community through hosting shuffle meets for the DFW Shufflers; giving dancers and DJs a space to freely express themselves and unite through movement.\n\nHis debut release, an official remix of Kelly Reverb & Chad LeMans’ track Speechless, dropped in June 2025 and was very well received by listeners and DJs worldwide. With more unreleased projects on the way, Yndent is carving out a well-deserved space for himself in the dance music world.",
     "links": {
       "instagram": "https://www.instagram.com/yndented",
       "soundcloud": "https://soundcloud.com/yndent",
@@ -51326,7 +51400,7 @@
     "entity_id": 2253753,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2253753",
     "thumbnail_url": "https://images.sxsw.com/wTTZ2Z1440hTmMO_lE4SRgSp0HE=/450x450/images.sxsw.com/178/d25c91fd-23c2-0fc4-569b-70f9f2fcb60f/artist-76333",
-    "announcement_date": "2026-02-24",
+    "announcement_date": "2026-03-05",
     "source": "official",
     "description": "Zae France isn’t just making music, he’s redefining R&B. Blending nostalgia with innovation, his latest releases, including his\nelectrifying new single “RAX” and fan-favorite “Start 2 Finish,” have further solidified his status as one of the genre’s leading voices in\n2025.\n\nWith standout records like “Give It Up,” “Layin’ Low” with Ne-Yo, “Leg Day,” and “Whoa” featuring DaDa, Zae has amassed millions of streams, proving his ability to craft timeless hits that resonate.\n\nFresh off a highly successful 25-city tour with Eric Bellinger in 2024, he continues to captivate audiences with his smooth melodies, heartfelt lyricism, and undeniable\nstage presence. His influence extends beyond the music, with major media spotlights on Revolt TV, On The Radar Radio, and MajorStage’s Pink Room with Drea.\n\nBacked by industry heavyweights and a\nrapidly growing fanbase, Zae France isn’t\njust part of R&B’s new wave, he’s shaping\nits future, one timeless record at a time",
     "links": {
@@ -51361,8 +51435,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-15",
-        "start_time": "23:30",
-        "end_time": "23:55",
+        "start_time": "23:45",
+        "end_time": "00:10",
         "presented_by": "RnB Forever"
       }
     ],

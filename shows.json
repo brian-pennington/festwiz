@@ -72,13 +72,13 @@
     "notes": ""
   },
   {
-    "id": "official_2bygmarlow2026_03_1523_00",
+    "id": "official_2bygmarlow2026_03_1522_50",
     "artist_name": "2BYG",
     "entity_id": 2257125,
     "venue": "Marlow",
     "day": "2026-03-15",
-    "start_time": "23:00",
-    "end_time": "23:20",
+    "start_time": "22:50",
+    "end_time": "23:10",
     "source": "official",
     "showcase": "RnB Forever",
     "notes": ""
@@ -2944,6 +2944,18 @@
     "notes": ""
   },
   {
+    "id": "official_bruna_blackseven_grand2026_03_1722_00",
+    "artist_name": "Bruna Black",
+    "entity_id": 2289559,
+    "venue": "Seven Grand",
+    "day": "2026-03-17",
+    "start_time": "22:00",
+    "end_time": "23:00",
+    "source": "official",
+    "showcase": "Tropiclub",
+    "notes": ""
+  },
+  {
     "id": "official_bruno_calebmala_fama_rooftop2026_03_17",
     "artist_name": "Bruno Caleb",
     "entity_id": 2253639,
@@ -3953,18 +3965,6 @@
     "notes": ""
   },
   {
-    "id": "official_community_concert_at_lady_bird_lake_with_tune_yardsauditoriu",
-    "artist_name": "Community Concert at Lady Bird Lake with Tune-Yards",
-    "entity_id": 2285911,
-    "venue": "Auditorium Shores",
-    "day": "2026-03-15",
-    "start_time": "17:30",
-    "end_time": "20:00",
-    "source": "official",
-    "showcase": "",
-    "notes": ""
-  },
-  {
     "id": "official_confucius___freshlefty_s_brick_bar2026_03_1319_45",
     "artist_name": "Confucius & Fresh",
     "entity_id": 2280194,
@@ -4142,6 +4142,18 @@
     "end_time": "23:10",
     "source": "official",
     "showcase": "SXSW London",
+    "notes": ""
+  },
+  {
+    "id": "official_creature_canyonbrushy_street_commons2026_03_1700_15",
+    "artist_name": "Creature Canyon",
+    "entity_id": 2238745,
+    "venue": "Brushy Street Commons",
+    "day": "2026-03-17",
+    "start_time": "00:15",
+    "end_time": "01:00",
+    "source": "official",
+    "showcase": "Mint Talent Group",
     "notes": ""
   },
   {
@@ -4953,6 +4965,18 @@
     "notes": ""
   },
   {
+    "id": "official_dj_barataseven_grand2026_03_1719_00",
+    "artist_name": "DJ Barata",
+    "entity_id": 2289560,
+    "venue": "Seven Grand",
+    "day": "2026-03-17",
+    "start_time": "19:00",
+    "end_time": "20:00",
+    "source": "official",
+    "showcase": "Tropiclub",
+    "notes": ""
+  },
+  {
     "id": "official_dj_bayronmala_vida2026_03_1421_30",
     "artist_name": "DJ BAYRON",
     "entity_id": 2265596,
@@ -5302,12 +5326,12 @@
     "notes": ""
   },
   {
-    "id": "official_dj_kay_calimarlow2026_03_1500_30",
+    "id": "official_dj_kay_calimarlow2026_03_1500_15",
     "artist_name": "DJ Kay Cali",
     "entity_id": 2267097,
     "venue": "Marlow",
     "day": "2026-03-15",
-    "start_time": "00:30",
+    "start_time": "00:15",
     "end_time": "01:30",
     "source": "official",
     "showcase": "RnB Forever",
@@ -6035,6 +6059,18 @@
     "notes": ""
   },
   {
+    "id": "official_eddy__mx_mala_fama_rooftop2026_03_1521_00",
+    "artist_name": "EDDY (MX)",
+    "entity_id": 2289558,
+    "venue": "Mala Fama Rooftop",
+    "day": "2026-03-15",
+    "start_time": "21:00",
+    "end_time": "21:40",
+    "source": "official",
+    "showcase": "De Los",
+    "notes": ""
+  },
+  {
     "id": "official_eddyjaemohawk_outdoor2026_03_1412_35",
     "artist_name": "EddyJae",
     "entity_id": 2244472,
@@ -6252,17 +6288,16 @@
     "notes": ""
   },
   {
-    "id": "official_emjaymala_vida2026_03_15",
+    "id": "official_emjaymala_vida2026_03_1521_30",
     "artist_name": "Emjay",
     "entity_id": 2285818,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:30",
+    "end_time": "22:00",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_endearmentshotel_vegas_at_volstead2026_03_1422_15",
@@ -7347,13 +7382,13 @@
     "notes": ""
   },
   {
-    "id": "official_gogo_morrowmarlow2026_03_1522_30",
+    "id": "official_gogo_morrowmarlow2026_03_1522_25",
     "artist_name": "GoGo Morrow",
     "entity_id": 2284236,
     "venue": "Marlow",
     "day": "2026-03-15",
-    "start_time": "22:30",
-    "end_time": "22:50",
+    "start_time": "22:25",
+    "end_time": "22:45",
     "source": "official",
     "showcase": "RnB Block Party",
     "notes": ""
@@ -8958,13 +8993,13 @@
     "notes": ""
   },
   {
-    "id": "official_j__milltaco_n_maiz2026_03_1519_40",
+    "id": "official_j__milltaco_n_maiz2026_03_1520_20",
     "artist_name": "J. Mill",
     "entity_id": 2284970,
     "venue": "Taco n Maiz",
     "day": "2026-03-15",
-    "start_time": "19:40",
-    "end_time": "19:55",
+    "start_time": "20:20",
+    "end_time": "20:35",
     "source": "official",
     "showcase": "Future of Indie Showcase",
     "notes": ""
@@ -9063,6 +9098,18 @@
     "end_time": "21:50",
     "source": "official",
     "showcase": "Found on Nero",
+    "notes": ""
+  },
+  {
+    "id": "official_jad_fairhotel_vegas_at_volstead2026_03_1522_00",
+    "artist_name": "Jad Fair",
+    "entity_id": 2289555,
+    "venue": "Hotel Vegas at Volstead",
+    "day": "2026-03-15",
+    "start_time": "22:00",
+    "end_time": "22:40",
+    "source": "official",
+    "showcase": "Fire Records x Songbird x Anniversary",
     "notes": ""
   },
   {
@@ -9246,6 +9293,18 @@
     "notes": ""
   },
   {
+    "id": "official_jana_diabcentral_presbyterian_church2026_03_1723_10",
+    "artist_name": "Jana Diab",
+    "entity_id": 2240088,
+    "venue": "Central Presbyterian Church",
+    "day": "2026-03-17",
+    "start_time": "23:10",
+    "end_time": "00:00",
+    "source": "official",
+    "showcase": "",
+    "notes": ""
+  },
+  {
     "id": "official_jana_diabglobal_stage___downright_austin_backyard2026_03_152",
     "artist_name": "Jana Diab",
     "entity_id": 2240088,
@@ -9379,13 +9438,13 @@
     "notes": ""
   },
   {
-    "id": "official_jaxstaco_n_maiz2026_03_1520_00",
+    "id": "official_jaxstaco_n_maiz2026_03_1520_40",
     "artist_name": "Jaxs",
     "entity_id": 2241147,
     "venue": "Taco n Maiz",
     "day": "2026-03-15",
-    "start_time": "20:00",
-    "end_time": "20:15",
+    "start_time": "20:40",
+    "end_time": "20:55",
     "source": "official",
     "showcase": "Future of Indie Showcase",
     "notes": ""
@@ -9703,17 +9762,16 @@
     "notes": ""
   },
   {
-    "id": "official_joaco_burgosmala_vida2026_03_15",
+    "id": "official_joaco_burgosmala_vida2026_03_1521_00",
     "artist_name": "Joaco Burgos",
     "entity_id": 2285789,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_joe_harvey_whytehilton_grand_ballroom__salon_hjk_2026_03_131",
@@ -10005,17 +10063,16 @@
     "notes": ""
   },
   {
-    "id": "official_juan_duquemala_vida2026_03_15",
+    "id": "official_juan_duquemala_vida2026_03_1522_30",
     "artist_name": "Juan Duque",
     "entity_id": 2285777,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:30",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_jugg_mugg_da_jugganottshangri_la2026_03_1722_25",
@@ -10415,13 +10472,13 @@
     "notes": ""
   },
   {
-    "id": "official_kelsmarlow2026_03_1500_00",
+    "id": "official_kelsmarlow2026_03_1523_15",
     "artist_name": "KELS",
     "entity_id": 2248292,
     "venue": "Marlow",
     "day": "2026-03-15",
-    "start_time": "00:00",
-    "end_time": "00:30",
+    "start_time": "23:15",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "RnB Forever",
     "notes": ""
@@ -10970,17 +11027,16 @@
     "no_set_time": true
   },
   {
-    "id": "official_la_cruzmala_vida2026_03_15",
+    "id": "official_la_cruzmala_vida2026_03_1523_00",
     "artist_name": "LA CRUZ",
     "entity_id": 2285821,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:00",
+    "end_time": "23:30",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_la_nueva_ola_de_cumbiamala_fama_rooftop2026_03_18",
@@ -12652,19 +12708,6 @@
     "source": "official",
     "showcase": "Reggae Nite",
     "notes": ""
-  },
-  {
-    "id": "official_mau_pbillboard_presents_the_stage2026_03_15",
-    "artist_name": "Mau P",
-    "entity_id": 2262590,
-    "venue": "Billboard Presents The Stage",
-    "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
-    "source": "official",
-    "showcase": "Billboard Presents: The Stage at SXSW",
-    "notes": "",
-    "no_set_time": true
   },
   {
     "id": "official_max_evasionmohawk_indoor2026_03_1622_25",
@@ -15804,17 +15847,16 @@
     "notes": ""
   },
   {
-    "id": "official_ra_l_hern_ndez_jr_mala_vida2026_03_15",
+    "id": "official_ra_l_hern_ndez_jr_mala_vida2026_03_1522_00",
     "artist_name": "Ra\u00fal Hern\u00e1ndez Jr.",
     "entity_id": 2285746,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:00",
+    "end_time": "22:30",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_ray_vaughnthe_creek_and_the_cave2026_03_1823_40",
@@ -19215,17 +19257,16 @@
     "notes": ""
   },
   {
-    "id": "official_tumbaomala_vida2026_03_15",
+    "id": "official_tumbaomala_vida2026_03_1523_30",
     "artist_name": "TUMBAO",
     "entity_id": 2285914,
     "venue": "Mala Vida",
     "day": "2026-03-15",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:30",
+    "end_time": "02:00",
     "source": "official",
     "showcase": "Warner Music Latina",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_twitch4evaflamingo_cantina2026_03_1721_15",
@@ -19636,12 +19677,12 @@
     "notes": ""
   },
   {
-    "id": "official_victoria_segovianeon_grotto2026_03_1512_30",
+    "id": "official_victoria_segovianeon_grotto2026_03_1500_30",
     "artist_name": "Victoria Segovia",
     "entity_id": 2284964,
     "venue": "Neon Grotto",
     "day": "2026-03-15",
-    "start_time": "12:30",
+    "start_time": "00:30",
     "end_time": "02:00",
     "source": "official",
     "showcase": "Floppy Disko",
@@ -20696,13 +20737,13 @@
     "notes": ""
   },
   {
-    "id": "official_zae_francemarlow2026_03_1523_30",
+    "id": "official_zae_francemarlow2026_03_1523_45",
     "artist_name": "Zae France",
     "entity_id": 2253753,
     "venue": "Marlow",
     "day": "2026-03-15",
-    "start_time": "23:30",
-    "end_time": "23:55",
+    "start_time": "23:45",
+    "end_time": "00:10",
     "source": "official",
     "showcase": "RnB Forever",
     "notes": ""
