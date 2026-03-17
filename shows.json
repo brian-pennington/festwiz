@@ -120,13 +120,13 @@
     "notes": ""
   },
   {
-    "id": "official_2charmelysium2026_03_1623_00",
+    "id": "official_2charmelysium2026_03_1623_10",
     "artist_name": "2charm",
     "entity_id": 2240286,
     "venue": "Elysium",
     "day": "2026-03-16",
-    "start_time": "23:00",
-    "end_time": "23:30",
+    "start_time": "23:10",
+    "end_time": "23:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -477,18 +477,6 @@
     "end_time": "23:00",
     "source": "official",
     "showcase": "Czech House",
-    "notes": ""
-  },
-  {
-    "id": "official_aitchdubneon_grotto2026_03_1520_00",
-    "artist_name": "Aitchdub",
-    "entity_id": 2252568,
-    "venue": "Neon Grotto",
-    "day": "2026-03-15",
-    "start_time": "20:00",
-    "end_time": "21:30",
-    "source": "official",
-    "showcase": "Floppy Disko",
     "notes": ""
   },
   {
@@ -1357,13 +1345,13 @@
     "notes": ""
   },
   {
-    "id": "official_annabelle_chairlegshotel_vegas_patio2026_03_1619_20",
+    "id": "official_annabelle_chairlegshotel_vegas_patio2026_03_1620_15",
     "artist_name": "Annabelle Chairlegs",
     "entity_id": 2246021,
     "venue": "Hotel Vegas Patio",
     "day": "2026-03-16",
-    "start_time": "19:20",
-    "end_time": "19:55",
+    "start_time": "20:15",
+    "end_time": "20:50",
     "source": "official",
     "showcase": "rocknite",
     "notes": ""
@@ -4373,17 +4361,16 @@
     "notes": ""
   },
   {
-    "id": "official_danny_felixmala_fama_rooftop2026_03_18",
+    "id": "official_danny_felixmala_fama_rooftop2026_03_1823_15",
     "artist_name": "Danny Felix",
     "entity_id": 2251775,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "23:15",
+    "end_time": "23:45",
     "source": "official",
     "showcase": "M\u00fasica No Borders",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_dannyritmomala_vida2026_03_1220_00",
@@ -5182,8 +5169,8 @@
     "notes": ""
   },
   {
-    "id": "official_dj_evelynradio_day_stage___downright_austin_backyard2026_03_",
-    "artist_name": "DJ Evelyn",
+    "id": "official_dj_evelyn__sxsw_radio_day_stage___downright_austin_backyard2",
+    "artist_name": "DJ Evelyn (SXSW)",
     "entity_id": 2276918,
     "venue": "Radio Day Stage @ Downright Austin Backyard",
     "day": "2026-03-17",
@@ -5768,18 +5755,6 @@
     "end_time": "23:40",
     "source": "official",
     "showcase": "",
-    "notes": ""
-  },
-  {
-    "id": "official_dramoskingdom2026_03_1621_00",
-    "artist_name": "Dramos",
-    "entity_id": 2246481,
-    "venue": "Kingdom",
-    "day": "2026-03-16",
-    "start_time": "21:00",
-    "end_time": "22:00",
-    "source": "official",
-    "showcase": "SICKICK & Friends",
     "notes": ""
   },
   {
@@ -6937,6 +6912,30 @@
     "notes": ""
   },
   {
+    "id": "official_floppy_disko_kingdom2026_03_1621_00",
+    "artist_name": "Floppy Disko ",
+    "entity_id": 2252568,
+    "venue": "Kingdom",
+    "day": "2026-03-16",
+    "start_time": "21:00",
+    "end_time": "22:00",
+    "source": "official",
+    "showcase": "SICKICK & Friends",
+    "notes": ""
+  },
+  {
+    "id": "official_floppy_disko_neon_grotto2026_03_1520_00",
+    "artist_name": "Floppy Disko ",
+    "entity_id": 2252568,
+    "venue": "Neon Grotto",
+    "day": "2026-03-15",
+    "start_time": "20:00",
+    "end_time": "21:30",
+    "source": "official",
+    "showcase": "Floppy Disko",
+    "notes": ""
+  },
+  {
     "id": "official_flor_de_la_fronterahotel_vegas2026_03_18",
     "artist_name": "Flor de la Frontera",
     "entity_id": 2242675,
@@ -7199,6 +7198,18 @@
     "end_time": "21:45",
     "source": "official",
     "showcase": "Math Class Creative: Money In Motion",
+    "notes": ""
+  },
+  {
+    "id": "official_geordie_greepbritish_music_embassy___palm_door_on_sixth_pati",
+    "artist_name": "Geordie Greep",
+    "entity_id": 2277294,
+    "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+    "day": "2026-03-17",
+    "start_time": "23:20",
+    "end_time": "00:00",
+    "source": "official",
+    "showcase": "SXSW London",
     "notes": ""
   },
   {
@@ -11014,17 +11025,16 @@
     "notes": ""
   },
   {
-    "id": "official_la_corea_eramala_fama_rooftop2026_03_18",
+    "id": "official_la_corea_eramala_fama_rooftop2026_03_1822_30",
     "artist_name": "La Corea\u00f1era",
     "entity_id": 2251720,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "22:30",
+    "end_time": "23:00",
     "source": "official",
     "showcase": "M\u00fasica No Borders",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_la_cruzmala_vida2026_03_1523_00",
@@ -11039,17 +11049,16 @@
     "notes": ""
   },
   {
-    "id": "official_la_nueva_ola_de_cumbiamala_fama_rooftop2026_03_18",
+    "id": "official_la_nueva_ola_de_cumbiamala_fama_rooftop2026_03_1800_00",
     "artist_name": "La Nueva Ola de Cumbia",
     "entity_id": 2251719,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "00:00",
+    "end_time": "00:30",
     "source": "official",
     "showcase": "M\u00fasica No Borders",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_la_rosa_noirseven_grand2026_03_1720_00",
@@ -11112,17 +11121,16 @@
     "notes": ""
   },
   {
-    "id": "official_lainey_wilsonstubb_s2026_03_17",
+    "id": "official_lainey_wilsonstubb_s2026_03_1720_30",
     "artist_name": "Lainey Wilson",
     "entity_id": 2255131,
     "venue": "Stubb\u2019s",
     "day": "2026-03-17",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "20:30",
+    "end_time": "22:30",
     "source": "official",
     "showcase": "",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_lane_smithelysium2026_03_1320_00",
@@ -12109,13 +12117,13 @@
     "notes": ""
   },
   {
-    "id": "official_luna_lunataco_n_maiz2026_03_1601_00",
+    "id": "official_luna_lunataco_n_maiz2026_03_1600_00",
     "artist_name": "Luna Luna",
     "entity_id": 2262566,
     "venue": "Taco n Maiz",
     "day": "2026-03-16",
-    "start_time": "01:00",
-    "end_time": "01:50",
+    "start_time": "00:00",
+    "end_time": "00:40",
     "source": "official",
     "showcase": "",
     "notes": ""
@@ -12133,13 +12141,13 @@
     "notes": ""
   },
   {
-    "id": "official_lynnvenue_62026_03_1722_30",
+    "id": "official_lynnvenue_62026_03_1723_30",
     "artist_name": "Lynn",
     "entity_id": 2238764,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "22:30",
-    "end_time": "22:45",
+    "start_time": "23:30",
+    "end_time": "23:45",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -12795,12 +12803,12 @@
     "notes": ""
   },
   {
-    "id": "official_meekbritish_music_embassy___palm_door_on_sixth2026_03_1700_0",
+    "id": "official_meekbritish_music_embassy___palm_door_on_sixth2026_03_1700_1",
     "artist_name": "MEEK",
     "entity_id": 2240804,
     "venue": "British Music Embassy @ Palm Door on Sixth",
     "day": "2026-03-17",
-    "start_time": "00:00",
+    "start_time": "00:10",
     "end_time": "00:40",
     "source": "official",
     "showcase": "SXSW London",
@@ -13251,13 +13259,13 @@
     "notes": ""
   },
   {
-    "id": "official_modern_culthotel_vegas_at_volstead2026_03_1620_15",
+    "id": "official_modern_culthotel_vegas2026_03_1621_45",
     "artist_name": "Modern Cult",
     "entity_id": 2248646,
-    "venue": "Hotel Vegas at Volstead",
+    "venue": "Hotel Vegas",
     "day": "2026-03-16",
-    "start_time": "20:15",
-    "end_time": "20:50",
+    "start_time": "21:45",
+    "end_time": "22:20",
     "source": "official",
     "showcase": "rocknite",
     "notes": ""
@@ -13371,17 +13379,16 @@
     "notes": ""
   },
   {
-    "id": "official_moreno_x4mala_fama_rooftop2026_03_18",
+    "id": "official_moreno_x4mala_fama_rooftop2026_03_1821_00",
     "artist_name": "MORENO X4",
     "entity_id": 2251776,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:00",
+    "end_time": "21:30",
     "source": "official",
     "showcase": "M\u00fasica No Borders",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_morganglobal_stage___downright_austin_backyard2026_03_1219_5",
@@ -14526,12 +14533,12 @@
     "notes": ""
   },
   {
-    "id": "official_oseanflamingo_cantina2026_03_1711_00",
+    "id": "official_oseanflamingo_cantina2026_03_1723_00",
     "artist_name": "Osean",
     "entity_id": 2286685,
     "venue": "Flamingo Cantina",
     "day": "2026-03-17",
-    "start_time": "11:00",
+    "start_time": "23:00",
     "end_time": "23:30",
     "source": "official",
     "showcase": "Afrobeats Worldwide",
@@ -15511,13 +15518,13 @@
     "notes": ""
   },
   {
-    "id": "official_q_tha_herovenue_62026_03_1720_55",
+    "id": "official_q_tha_herovenue_62026_03_1721_00",
     "artist_name": "Q Tha Hero",
     "entity_id": 2240975,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "20:55",
-    "end_time": "21:05",
+    "start_time": "21:00",
+    "end_time": "21:15",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -15724,18 +15731,6 @@
     "end_time": "23:40",
     "source": "official",
     "showcase": "Tropiclub",
-    "notes": ""
-  },
-  {
-    "id": "official_rafa_parrataco_n_maiz2026_03_1623_00",
-    "artist_name": "Rafa Parra",
-    "entity_id": 2251463,
-    "venue": "Taco n Maiz",
-    "day": "2026-03-16",
-    "start_time": "23:00",
-    "end_time": "23:40",
-    "source": "official",
-    "showcase": "",
     "notes": ""
   },
   {
@@ -18933,6 +18928,18 @@
     "notes": ""
   },
   {
+    "id": "official_traffic_leevenue_62026_03_1722_20",
+    "artist_name": "Traffic Lee",
+    "entity_id": 2285737,
+    "venue": "Venue 6",
+    "day": "2026-03-17",
+    "start_time": "22:20",
+    "end_time": "22:35",
+    "source": "official",
+    "showcase": "ilL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
+    "notes": ""
+  },
+  {
     "id": "official_trap_sushiriviere2026_03_1421_05",
     "artist_name": "Trap Sushi",
     "entity_id": 2279540,
@@ -19101,13 +19108,13 @@
     "notes": ""
   },
   {
-    "id": "official_ttbbyvenue_62026_03_1721_15",
+    "id": "official_ttbbyvenue_62026_03_1722_40",
     "artist_name": "TTBBY",
     "entity_id": 2246962,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "21:15",
-    "end_time": "21:30",
+    "start_time": "22:40",
+    "end_time": "22:55",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -19317,13 +19324,13 @@
     "notes": ""
   },
   {
-    "id": "official_tyla_yawehvenue_62026_03_1723_00",
+    "id": "official_tyla_yawehvenue_62026_03_1723_05",
     "artist_name": "Tyla Yaweh",
     "entity_id": 2248084,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "23:00",
-    "end_time": "23:20",
+    "start_time": "23:05",
+    "end_time": "23:25",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -19701,13 +19708,13 @@
     "notes": ""
   },
   {
-    "id": "official_victorylandhotel_vegas2026_03_1621_45",
+    "id": "official_victorylandhotel_vegas_at_volstead2026_03_1620_15",
     "artist_name": "Victoryland",
     "entity_id": 2240767,
-    "venue": "Hotel Vegas",
+    "venue": "Hotel Vegas at Volstead",
     "day": "2026-03-16",
-    "start_time": "21:45",
-    "end_time": "22:20",
+    "start_time": "20:15",
+    "end_time": "20:50",
     "source": "official",
     "showcase": "rocknite",
     "notes": ""
@@ -19725,13 +19732,13 @@
     "notes": ""
   },
   {
-    "id": "official_villain_parkvenue_62026_03_1722_10",
+    "id": "official_villain_parkvenue_62026_03_1721_40",
     "artist_name": "Villain Park",
     "entity_id": 2256452,
     "venue": "Venue 6",
     "day": "2026-03-17",
-    "start_time": "22:10",
-    "end_time": "22:25",
+    "start_time": "21:40",
+    "end_time": "21:55",
     "source": "official",
     "showcase": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show",
     "notes": ""
@@ -19821,17 +19828,16 @@
     "notes": ""
   },
   {
-    "id": "official_vivir_quintanamala_fama_rooftop2026_03_18",
+    "id": "official_vivir_quintanamala_fama_rooftop2026_03_1821_45",
     "artist_name": "Vivir Quintana",
     "entity_id": 2251779,
     "venue": "Mala Fama Rooftop",
     "day": "2026-03-18",
-    "start_time": "",
-    "end_time": null,
+    "start_time": "21:45",
+    "end_time": "22:15",
     "source": "official",
     "showcase": "M\u00fasica No Borders",
-    "notes": "",
-    "no_set_time": true
+    "notes": ""
   },
   {
     "id": "official_v__a_2000las_perlas2026_03_1519_45",

@@ -250,8 +250,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-16",
-        "start_time": "23:00",
-        "end_time": "23:30",
+        "start_time": "23:10",
+        "end_time": "23:40",
         "presented_by": null
       }
     ]
@@ -1128,37 +1128,6 @@
         "start_time": "22:20",
         "end_time": "23:00",
         "presented_by": "Czech House"
-      }
-    ]
-  },
-  {
-    "name": "Aitchdub",
-    "genre": "DJ",
-    "subgenre": "House / Techno",
-    "city": "Austin",
-    "country": "United States",
-    "state": "TX",
-    "entity_id": 2252568,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2252568",
-    "thumbnail_url": "https://images.sxsw.com/TWd0mnUtoOC2E9pLmG2uNXdb1mE=/450x450/images.sxsw.com/178/3af401ea-020d-9e9d-9dc9-69015d16ba90/artist-76273",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "Hailing from Louisiana and shaped by the legendary club culture of the Bay Area, Aitchdub is a sonic nomad with a sound that defies borders. His sets are a high-energy concoction of Funk, Soul, and RnB, seamlessly laced with the tropical heat of Caribbean and Latin rhythms.\n\nAitchdub started his DJ career in college radio. He eventually found house music in the Nevada desert and the underground scenes of San Francisco Bay Area, Aitchdub now splits his time between the soulful roots of Austin and the rhythmic pulse of Medellín. This cross-continental lifestyle has refined his signature style: a \"Southern-rooted\" house sound infused with the live energy of Salsa, Reggae, and Cumbia.",
-    "links": {},
-    "events_raw": [],
-    "location": "AUSTIN, TX",
-    "events": [
-      {
-        "event_id": "MS64085",
-        "event_type": "showcase",
-        "venue": "Neon Grotto",
-        "venue_id": "V2100",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": "2026-03-15",
-        "start_time": "20:00",
-        "end_time": "21:30",
-        "presented_by": "Floppy Disko"
       }
     ]
   },
@@ -3232,8 +3201,8 @@
         "parent_venue": "Hotel Vegas",
         "age_policy": "21+",
         "day": "2026-03-16",
-        "start_time": "19:20",
-        "end_time": "19:55",
+        "start_time": "20:15",
+        "end_time": "20:50",
         "presented_by": "rocknite"
       }
     ]
@@ -10422,7 +10391,7 @@
     "entity_id": 2251775,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2251775",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-04",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "Danny Felix is more than a musician—he’s a producer, multi-instrumentalist, songwriter, and visionary. Effortlessly blending guitars with synths, corridos with R&B, and street grit with raw emotion, his sound has no limits because his creativity knows no boundaries. Rooted in a culture that breathes authenticity, Danny creates music that feels real—unfiltered, ambitious, and deeply personal. He doesn’t follow formulas; he breaks them.\n\nFusing corridos, R&B, and urban beats with honest storytelling, Danny connects with those who live on the edge—literally or emotionally. His presence reflects barrio soul, style, and quiet intensity, both on stage and online.\n\nHe produced early hits for Natanael Cano, including the Billboard-charting remix of “Soy El Diablo” with Bad Bunny, collaborated with Karol G on “200 Copas,” toured with Junior H, and performed at Belicofest 2025. His recent collaborations include tracks with Edgardo Nuñez, Tony Aguirre, Sahir Montoya, Oscar Ortiz, and more.",
     "links": {
@@ -10443,8 +10412,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:15",
+        "end_time": "23:45",
         "presented_by": "Música No Borders"
       }
     ]
@@ -12529,7 +12498,7 @@
     "location": "EL PASO, TX"
   },
   {
-    "name": "DJ Evelyn",
+    "name": "DJ Evelyn (SXSW)",
     "genre": "DJ",
     "subgenre": "Regional Mexican",
     "city": "Austin",
@@ -12538,7 +12507,7 @@
     "entity_id": 2276918,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2276918",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-09",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "",
     "links": {},
@@ -13924,18 +13893,6 @@
     "events_raw": [],
     "location": "JERSEY CITY, NJ",
     "events": [
-      {
-        "event_id": "MS64954",
-        "event_type": "showcase",
-        "venue": "Kingdom",
-        "venue_id": "V0599",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-16",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "presented_by": "SICKICK & Friends"
-      },
       {
         "event_id": "MS63759",
         "event_type": "showcase",
@@ -16780,6 +16737,49 @@
     "location": "AUSTIN, TX"
   },
   {
+    "name": "Floppy Disko ",
+    "genre": "DJ",
+    "subgenre": "House / Techno",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2252568,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2252568",
+    "thumbnail_url": "https://images.sxsw.com/TWd0mnUtoOC2E9pLmG2uNXdb1mE=/450x450/images.sxsw.com/178/3af401ea-020d-9e9d-9dc9-69015d16ba90/artist-76273",
+    "announcement_date": "2026-02-11",
+    "source": "official",
+    "description": "Hailing from Louisiana and shaped by the legendary club culture of the Bay Area, Aitchdub is a sonic nomad with a sound that defies borders. His sets are a high-energy concoction of Funk, Soul, and RnB, seamlessly laced with the tropical heat of Caribbean and Latin rhythms.\n\nAitchdub started his DJ career in college radio. He eventually found house music in the Nevada desert and the underground scenes of San Francisco Bay Area, Aitchdub now splits his time between the soulful roots of Austin and the rhythmic pulse of Medellín. This cross-continental lifestyle has refined his signature style: a \"Southern-rooted\" house sound infused with the live energy of Salsa, Reggae, and Cumbia.",
+    "links": {},
+    "events_raw": [],
+    "location": "AUSTIN, TX",
+    "events": [
+      {
+        "event_id": "MS65343",
+        "event_type": "showcase",
+        "venue": "Kingdom",
+        "venue_id": "V0599",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-16",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "presented_by": "SICKICK & Friends"
+      },
+      {
+        "event_id": "MS64085",
+        "event_type": "showcase",
+        "venue": "Neon Grotto",
+        "venue_id": "V2100",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-15",
+        "start_time": "20:00",
+        "end_time": "21:30",
+        "presented_by": "Floppy Disko"
+      }
+    ]
+  },
+  {
     "name": "Flor de la Frontera",
     "genre": "DJ",
     "subgenre": "Cumbia",
@@ -17550,6 +17550,44 @@
       }
     ],
     "location": "VIRGINIA BEACH, VA"
+  },
+  {
+    "name": "Geordie Greep",
+    "genre": "Rock",
+    "subgenre": "Avant / Experimental",
+    "city": "London",
+    "country": "United Kingdom, England",
+    "state": null,
+    "entity_id": 2277294,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2277294",
+    "thumbnail_url": "https://images.sxsw.com/r0hV5YyNv1ww551QMoBPIYIU7cw=/450x450/images.sxsw.com/178/7d37ca4b-1f18-96b8-7c26-1ac4311639d3/artist-76608",
+    "announcement_date": "2026-03-16",
+    "source": "official",
+    "description": "",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/holy-holy/1752102463?i=1752102926",
+      "bandcamp": "https://geordiegreep.bandcamp.com",
+      "instagram": "https://www.instagram.com/emperorgreep/",
+      "spotify": "https://open.spotify.com/track/4AiTTqrljm1r8zKr68cxPk?si=32fccf6df7a24840",
+      "tiktok": "https://www.tiktok.com/@vibogreep",
+      "website": "https://geordiegreep.com/",
+      "youtube": "https://youtu.be/A4EU_0vFzuU?si=R44DCdqqAA-R-cFi"
+    },
+    "events": [
+      {
+        "event_id": "MS64994",
+        "event_type": "showcase",
+        "venue": "British Music Embassy @ Palm Door on Sixth Patio",
+        "venue_id": "V0272",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "23:20",
+        "end_time": "00:00",
+        "presented_by": "SXSW London"
+      }
+    ],
+    "location": "LONDON, UNITED KINGDOM, ENGLAND"
   },
   {
     "name": "Georgia Webster",
@@ -26911,7 +26949,7 @@
     "entity_id": 2251720,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2251720",
     "thumbnail_url": "https://images.sxsw.com/8VDxtbEAcHdEAZDfGoxjj6QtPKY=/450x450/images.sxsw.com/178/70116cf4-c76d-0495-f9a5-abd7591bce89/artist-76239",
-    "announcement_date": "2026-03-04",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "Abigail Pak (born 2004, San Antonio, Texas) is a Korean-American musician who began studying classical piano at a young age and debuted as a soloist at Carnegie Hall in 2017 at 13, after winning competitions that earned her the honor. She received multiple national and international classical music awards in her teens. She later taught herself accordion and percussion, developing a strong connection to cumbia rhythms.\n\nNow a linguistics student at Dartmouth College (Class of 2026), she serves as principal percussionist in the university wind ensemble. As a teenager, she discovered cumbia sonidera, adopted the accordion as her main instrument, and began blending her classical training and Korean heritage with Mexican urban cumbia.\n\nUnder the name “La Coreañera,” she went viral in 2024 on TikTok and Instagram, gaining hundreds of thousands of followers. She has performed in Mexico, including closing the 3rd Maratón Sonidero at UNAM. In 2024, she signed with Universal Music México and GTS, securing campaigns with Netflix, Coca-Cola, and KFC. She has performed at Resuena 2025, UNAM’s Mega Ofrenda, and Mexico City’s Zócalo before 40,000 people, and will release her debut album in 2026.",
     "links": {
@@ -26933,8 +26971,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:30",
+        "end_time": "23:00",
         "presented_by": "Música No Borders"
       }
     ]
@@ -26984,7 +27022,7 @@
     "entity_id": 2251719,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2251719",
     "thumbnail_url": "https://images.sxsw.com/Vbo7oxbxg6gxdcuxLAKxvV4dT6Y=/450x450/images.sxsw.com/178/23be5b86-29d5-d139-34e9-2867aed924fb/artist-76241",
-    "announcement_date": "2026-03-04",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "From Latin America to the world, La Nueva Ola de Cumbia reinvents the biggest hits of the ’80s, ’90s, and 2000s with their unmistakable “cumbialized” style, blending rhythm, high energy, and humor into a vibrant show that connects with audiences of all ages. Formed by musicians from Mexico, Colombia, Peru, Nicaragua, and “Outer Space,” the band is quickly becoming one of the most innovative forces in today’s Latin music scene.\n\nAfter signing with Universal Music Mexico in 2024, they’ve continued to rise in 2025 with TV appearances in Mexico and the U.S., featured moments on La Casa de los Famosos México, major event closings during Latin Grammy Week, and sold-out performances like their show at the Mayan Theatre. Releases such as Viernes de Peligro, Cumbiando, and Mujeriego have made strong impact on audiences and Billboard rankings, which described them as “an innovative proposal, a musical madness.”",
     "links": {
@@ -27007,8 +27045,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "00:00",
+        "end_time": "00:30",
         "presented_by": "Música No Borders"
       }
     ]
@@ -27163,8 +27201,8 @@
         "parent_venue": "",
         "age_policy": "All Ages",
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:30",
+        "end_time": "22:30",
         "presented_by": null
       }
     ],
@@ -28412,7 +28450,7 @@
     "thumbnail_url": "https://images.sxsw.com/S-4zIR3J3OsWG1Qt-0p1j38BL3g=/450x450/images.sxsw.com/178/4617735e-dffa-bd58-8f60-fd978f0f7af9/artist-76704",
     "announcement_date": "2026-03-06",
     "source": "official",
-    "description": "",
+    "description": "What happens when you mix psychedelic blues with southern rock and sprinkle a little charm on top? You get Liquid Hips.\n\nLiquid Hips plays all of your favorite hits from artists such as Lynyrd Skynyrd, Pink Floyd, Dolly Parton, Jimi Hendrix and everyone in between. We aren’t just playing covers though! Our originals are soulful blues jams that will keep your toes tapping all night long.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/suzie-crowe/1829099273?i=1829099274",
       "facebook": "https://www.facebook.com/share/18R4GZTqRT/?mibextid=wwXIfr",
@@ -29771,7 +29809,7 @@
     "entity_id": 2262566,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2262566",
     "thumbnail_url": "https://images.sxsw.com/OGu0JWuaCj8_D-CCUCOL0VSgRtg=/450x450/images.sxsw.com/178/3de92a6e-a346-b175-25bf-514120ccda50/artist-76024",
-    "announcement_date": "2026-02-27",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "Luna Luna is the solo project of Colombian-American artist Kavvi, known for crafting a vibrant sound that blends his Spanish and English roots into one. Mixing nostalgic, feel-good synth-pop with a modern indie edge, Luna Luna has become a standout name in the alt-pop and Latin indie scenes.\nWhat started as a personal creative outlet has grown into a project that's earned serious recognition — including nods from Rolling Stone as one of “10 Latin Acts to Break Big” and from Variety as one of “8 Latin Indie Artists to Watch.” Luna Luna’s music has been featured by Billboard, PEOPLE, NPR, Paper, FLOOD, Earmilk, REMEZCLA, and more, while also landing on major Spotify playlists like New Music Friday, Lorem, and Mixto.\nKnown for dreamy live shows and an acclaimed Audiotree session, Luna Luna has built a devoted fanbase and a strong online presence, generating millions of views with over a quarter million followers across platforms. Brand collaborations with Jack Daniel's, Topo Chico, and Taco Bell highlight the project’s growing cultural impact — all while staying true to the emotional core that makes the music resonate so deeply.",
     "links": {
@@ -29795,8 +29833,8 @@
         "parent_venue": "",
         "age_policy": null,
         "day": "2026-03-16",
-        "start_time": "01:00",
-        "end_time": "01:50",
+        "start_time": "00:00",
+        "end_time": "00:40",
         "presented_by": null
       }
     ],
@@ -29868,8 +29906,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "22:30",
-        "end_time": "22:45",
+        "start_time": "23:30",
+        "end_time": "23:45",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       },
       {
@@ -31561,7 +31599,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "00:00",
+        "start_time": "00:10",
         "end_time": "00:40",
         "presented_by": "SXSW London"
       },
@@ -32710,13 +32748,13 @@
       {
         "event_id": "MS63875",
         "event_type": "showcase",
-        "venue": "Hotel Vegas at Volstead",
-        "venue_id": "V0262",
-        "parent_venue": "Hotel Vegas",
+        "venue": "Hotel Vegas",
+        "venue_id": "V0192",
+        "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-16",
-        "start_time": "20:15",
-        "end_time": "20:50",
+        "start_time": "21:45",
+        "end_time": "22:20",
         "presented_by": "rocknite"
       }
     ]
@@ -32987,7 +33025,7 @@
     "entity_id": 2251776,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2251776",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-04",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "Moreno x4 is one of the most authentic emerging voices in the new wave of Regional Mexican music. Born in Salt Lake City and raised in Sacramento, Jesús Moreno — better known as Moreno x4 — began writing songs at just 10 years old, inspired by his Mexican roots and urban surroundings. His talent and vision led him to found Grupo Diez 4Tro in 2020, where he stood out for creating a new subgenre: Drilla Corridos, a fusion of corridos alterados and urban sounds.\n\nToday, Moreno x4 begins a new chapter as a solo artist with a refreshed vision while staying true to his essence. His music reflects discipline, character, and a distinctive sound that honors the classics of Regional Mexican music while pushing the genre’s boundaries even further.",
     "links": {
@@ -33008,8 +33046,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:00",
+        "end_time": "21:30",
         "presented_by": "Música No Borders"
       }
     ]
@@ -34112,7 +34150,7 @@
     "thumbnail_url": "https://images.sxsw.com/-FfTWqHe3rvdTEOHtkVGKc1pMBo=/450x450/images.sxsw.com/178/4ac56745-6402-162c-6f0f-a630e0ec9572/artist-76550",
     "announcement_date": "2026-03-04",
     "source": "official",
-    "description": "Rising singer, rapper, song writer out of the Midwest. Known for my confident sound relatable lyrics & storytelling. Blending a healthy balance of R&B & HipHop!",
+    "description": "Neisha Neshae is a rapper, singer, and songwriter from Ypsilanti, Michigan known for blending soulful R&B melodies with hard-hitting trap energy. Earning her the nickname “Queen of R&B Trap.” She first gained national attention with her breakout single “On a Cloud,” which went viral online and introduced listeners to her hypnotic sound, fearless lyricism, and melodic versatility. Her now most popular single “Ima go crazy” continues to take tiktok by storm today.\nHer rising momentum led to touring nationally as a supporting act on Big Sean’s I Decided Tour, expanding her fanbase across major U.S. cities. Throughout her career, she has shared stages with artists such as Juice WRLD, Trina, J. Holiday, and Kash Doll, solidifying her reputation as a dynamic live performer.\nKnown for her confident delivery and emotional depth, Neisha continues to build a loyal audience with music rooted in resilience, empowerment, and authenticity while carving her own lane as an independent artist & multi talented actress.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/ima-go-crazy/1444860797?i=1444860804",
       "facebook": "https://www.facebook.com/share/188ij62LoD/?mibextid=wwXIfr",
@@ -35929,7 +35967,7 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "11:00",
+        "start_time": "23:00",
         "end_time": "23:30",
         "presented_by": "Afrobeats Worldwide"
       }
@@ -38294,8 +38332,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "20:55",
-        "end_time": "21:05",
+        "start_time": "21:00",
+        "end_time": "21:15",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       }
     ]
@@ -38734,13 +38772,13 @@
       {
         "event_id": "MS64020",
         "event_type": "showcase",
-        "venue": "Taco n Maiz",
-        "venue_id": "V2448",
+        "venue": "",
+        "venue_id": "",
         "parent_venue": "",
         "age_policy": null,
-        "day": "2026-03-16",
-        "start_time": "23:00",
-        "end_time": "23:40",
+        "day": null,
+        "start_time": "",
+        "end_time": "",
         "presented_by": null
       }
     ]
@@ -47053,6 +47091,42 @@
     "recommended": true
   },
   {
+    "name": "Traffic Lee",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2285737,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2285737",
+    "thumbnail_url": "https://images.sxsw.com/W0dasD7zUte51vlX01grN75RtbM=/450x450/images.sxsw.com/178/acd1f702-f9e6-f28e-b855-1541dbd5c9e4/artist-76753",
+    "announcement_date": "2026-03-16",
+    "source": "official",
+    "description": "Traffic Lee is a multi-talented recording artist who has been setting the music world alight with his scintillating bars and immaculate wordplay. Traffic Lee is creating authentic music that will inspire and convey real messages and emotions. His brand of hip-hop can be described as charismatic with a melodic style that is intricate and unique but still very accessible to people from all walks of life.\n\nThe enigma was heavily influenced by artists such as Pimp C, Bun B, Scarface, Fat Pat, Tupac, Ice Cube, Biggie, Jay-Z, Nas, and Eazy E. Having overcome adversity, Lee aims to become a beacon of hope for underprivileged people in his community.\n\nIn his upcoming projects, he wants his fans and listeners to experience a journey that will paint a vivid picture of survival and show the other side of the coin, essentially uncovering the truth that surrounds the underprivileged communities.",
+    "links": {
+      "apple_music": "https://music.apple.com/us/album/traffic-did-this/1874761478?i=1874761481",
+      "instagram": "https://www.instagram.com/traffic_lee?igsh=cTRtZnRlaWVwaWNm",
+      "spotify": "https://open.spotify.com/album/4SbKi7PyhkmA7MVgpuOWMk?si=0EwaBamtQWGNKYsjT_M8JQ",
+      "tiktok": "https://www.tiktok.com/@trafficleeow?_r=1&_t=ZT-94acBX20xgr",
+      "youtube": "https://youtu.be/ENiYFYZQ0zw?si=bkD0dXQeAmMMcyxV"
+    },
+    "events": [
+      {
+        "event_id": "MS65287",
+        "event_type": "showcase",
+        "venue": "Venue 6",
+        "venue_id": "V1843",
+        "parent_venue": "",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "22:20",
+        "end_time": "22:35",
+        "presented_by": "ilL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
+      }
+    ],
+    "location": "AUSTIN, TX"
+  },
+  {
     "name": "Trap Sushi",
     "genre": "Hip-Hop / Rap",
     "subgenre": "R & B",
@@ -47102,7 +47176,7 @@
     "thumbnail_url": "https://images.sxsw.com/RQK8WgwJNeVPQ5ROWp5nvX3csys=/450x450/images.sxsw.com/178/fbb6adb2-7573-f936-8ed2-e56b8c023078/artist-76657",
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "",
+    "description": "TreeGMusic is widely known in the Texas music industry as a versatile \"Vocal Imagineer\". She's an energy-driven professional with over 15 years of experience in vocal coaching and live music performance. Her career is defined by a commitment to elevating vocal excellence, spanning roles as a choir director, live band front for private/corporate events, festivals, host for poetry events, fashion shows and much more. Notably, she's a five time SXSW Official Artist, and has opened up for national recording artists and poets. Tree has acted in stage plays and broadway-style productions held by ACC Drama Department and Zilker Park to name a few. Additionally, she's written and appeared in commercials for Toyota and has lended her gift to causes such as Relay for Life, March of Dimes and Susan G. Komen.\n\nHer impact is deeply rooted in the communities she serves, particularly through her dedication to mentorship and cultural celebration. She has been a prominent figure in initiatives, not limited to :\nBlack Excellence Gala organized by Olympian Sanya Richards Ross and Aaron Ross\nParticipated in the \"HipHop 4 Flint\" Social Resource Awareness Campaign\nSang for the well-building initiative gala for Liberia\nActively sang at the demonstrations for George Floyd, Sandra Bland to emphasize solidarity and demand change for justice.\nTwo-year District-wide \"Songbird\" recognition\nOn a continuum, every February 20th, TreeGMusic Day is recognized in the \"Live Music Capitol of the World\". She uses her music to honor heritage and inspire local artists. She was coined the \"Romance of Austin\" for her sultry melodic style and witty serenades touching on the matters of the heart. To name few commercially released projects:\n\"I Need U\" (2026)\n\"Don't Came\" (2024)\n\"Feel Alright\" (2024)\n\"Don't Come\" Acapella (2024)\n\"Feel Alright\" Acapella (2024)\nLotus (9-5) ft. Tree G (2023)\nFreckled Faced Fantasies --EP (2020)\nU Don't Even Call --Album (2017)\nBeyond the stage, she is expanding her influence through the digital landscape with her podcast, \"Leaves with Tree\" where she fosters dialogue and connection within the creative community, plus \"After Hearty with TreeG\" with the foodie community. By offering both technical vocal training and \"dropping gems\" of wisdom through her TGM Vocal Mentorship Experience, TreeGMusic creates environments where individuals are encouraged to find their unique voices and achieve a sense of creative belonging.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/i-need-u-promo-version-treegmusic-com-single/1877004211",
       "bandcamp": "https://treegmusic.bandcamp.com",
@@ -47504,8 +47578,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "21:15",
-        "end_time": "21:30",
+        "start_time": "22:40",
+        "end_time": "22:55",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       }
     ]
@@ -47957,8 +48031,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "23:00",
-        "end_time": "23:20",
+        "start_time": "23:05",
+        "end_time": "23:25",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       },
       {
@@ -48762,13 +48836,13 @@
       {
         "event_id": "MS64285",
         "event_type": "showcase",
-        "venue": "Hotel Vegas",
-        "venue_id": "V0192",
-        "parent_venue": "",
+        "venue": "Hotel Vegas at Volstead",
+        "venue_id": "V0262",
+        "parent_venue": "Hotel Vegas",
         "age_policy": "21+",
         "day": "2026-03-16",
-        "start_time": "21:45",
-        "end_time": "22:20",
+        "start_time": "20:15",
+        "end_time": "20:50",
         "presented_by": "rocknite"
       },
       {
@@ -48813,8 +48887,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "22:10",
-        "end_time": "22:25",
+        "start_time": "21:40",
+        "end_time": "21:55",
         "presented_by": "iLL Manner x The Smoke Out ATX: FAT A$$ Rap Show"
       }
     ],
@@ -49037,7 +49111,7 @@
     "entity_id": 2251779,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2251779",
     "thumbnail_url": null,
-    "announcement_date": "2026-03-04",
+    "announcement_date": "2026-03-16",
     "source": "official",
     "description": "Vivir Quintana is a Mexican singer, composer, and women’s rights activist renowned for blending regional Mexican with different genders. She is widely considered one of Latin America's most powerful voices. Her landmark track, \"Canción sin miedo,\" has become a global feminist anthem against gender-based violence, translated and adapted worldwide.\n\nVivir was a student at the SACM composition workshop, in which she earned the María Grevers and FONCA scholarships and won the \"Éxito SACM 2021\" award for Best Independent Song. Forbes also recognized her as one of Mexico's 100 most creative people.\n\nShe has shared the stage with icons like Mon Laferte, Andrea Echeverri, Majo Aguilar and Rubén Albarrán.\n\nCurrently, she is promoting her second album under Universal Music Mexico, \"Cosas que sorprenden a la audiencia\" this is a powerful reinterpretation of the traditional Mexican corrido, transforming the genre into an instrument of social justice. The album features ten songs narrated in the first person, telling the true stories of women who were incarcerated or deprived of their physical liberty for defending themselves against gender-based violence and their abusers.",
     "links": {
@@ -49060,8 +49134,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-18",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "21:45",
+        "end_time": "22:15",
         "presented_by": "Música No Borders"
       }
     ]
