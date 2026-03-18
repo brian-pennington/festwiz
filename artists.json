@@ -2102,7 +2102,7 @@
     "entity_id": 2253323,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2253323",
     "thumbnail_url": "https://images.sxsw.com/lSEmp18UkbnzozhSiEw1tPSStjI=/450x450/images.sxsw.com/178/2825264b-4ae5-65d8-1989-ec981409e33d/artist-76301",
-    "announcement_date": "2026-03-12",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Alta Elegancia is a Regional Mexican music group founded in 2019 in Bridgeton, New Jersey by Rudy and Kevin, two artists with a shared dream of creating something bigger than themselves. What started as a vision between friends quickly grew into a movement rooted in passion, culture, and ambition.\n\nThe group gained recognition through collaborations with artists like DannyLux and by contributing music to the VGLY series on HBO. Although signing with a label briefly slowed their momentum, the experience only fueled their determination.\n\nToday, Alta Elegancia is entering a new chapter—hungrier, more focused, and committed to pushing a new wave in Regional Mexican music. With their roots in New Jersey and their hearts in the culture, they continue creating music not for fame, but for the love of the craft.",
     "links": {
@@ -2123,8 +2123,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:45",
+        "end_time": "00:30",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -3607,6 +3607,18 @@
       "youtube": "https://youtu.be/KVU4Lq0IIIc?si=J-EPZ5oL57ipl5HM"
     },
     "events": [
+      {
+        "event_id": "MS65350",
+        "event_type": "showcase",
+        "venue": "Mohawk Indoor",
+        "venue_id": "V0271",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "01:00",
+        "end_time": "02:00",
+        "presented_by": "ERA'S"
+      },
       {
         "event_id": "MS64388",
         "event_type": "showcase",
@@ -6989,42 +7001,6 @@
     "location": "TALLAHASSEE, FL"
   },
   {
-    "name": "Brodie Fresh",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Hip-Hop / Rap",
-    "city": "Elmont",
-    "country": "United States",
-    "state": "NY",
-    "entity_id": 2284707,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2284707",
-    "thumbnail_url": "https://images.sxsw.com/nodZ6aE8Oyig7_oe-CmrvhjI2RU=/450x450/images.sxsw.com/178/9fcf1492-f90e-df16-1d6a-80afb77237b5/artist-76737",
-    "announcement_date": "2026-03-10",
-    "source": "official",
-    "description": "For over a decade, Brodie Fresh has remained one of Hip-Hop’s most consistent underdogs, building a reputation through collaborations, cosigns, and relentless work ethic. Born in Queens, NY & raised in Elmont, Long Island, Brodie’s musical roots began in the church where he played drums in his father’s band. Although basketball was his first passion, his path shifted while attending the college, where financial challenges forced him to leave school & pursue music. In 2013, Brodie gained momentum with his single “Sound The Alarm,” featured on VH1 &, leading to tours with Cory Gunz & King Los. Big collaborations soon followed with Troy Ave & the late Chinx Drugz, expanding his regional buzz into a broader audience. Throughout his career, Brodie has toured alongside artists such as Nipsey Hussle, YFN Lucci, Mozzy, Conway, and Benny The Butcher. His catalog continued to grow with powerful releases like “We Black And We Proud” in 2022 and collaborations in 2024 with Jim Jones, Mozzy, Maxo Kream, and Boldy James. Known for making authentic “life music,” Brodie Fresh blends the realities of the streets, entrepreneurship, and personal struggle—proving his next chapter is just beginning.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/album/hard-knock-life/1764104173?i=1764104304",
-      "instagram": "https://www.instagram.com/brodiefresh",
-      "spotify": "https://open.spotify.com/track/0RVhnKaOFPaL2K7fNqeSz2",
-      "tiktok": "https://www.tiktok.com/@brodiefresh",
-      "twitter": "https://www.x.com/brodiefresh"
-    },
-    "events": [
-      {
-        "event_id": "MS65255",
-        "event_type": "showcase",
-        "venue": "Venue 6",
-        "venue_id": "V1843",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-16",
-        "start_time": "22:20",
-        "end_time": "22:40",
-        "presented_by": "Beer n Tacos"
-      }
-    ],
-    "location": "ELMONT, NY"
-  },
-  {
     "name": "Brodie Lane",
     "genre": "Singer-Songwriter",
     "subgenre": "Alternative",
@@ -7140,7 +7116,7 @@
     "entity_id": 2253639,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2253639",
     "thumbnail_url": "https://images.sxsw.com/i_lPDj9r4HeB0DCdUdN-_Fq0kRE=/450x450/images.sxsw.com/178/d1849629-36bf-833b-f57b-d446ba953c5c/artist-76323",
-    "announcement_date": "2026-03-12",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Bruno Caleb is a 16 year old emerging multifaceted artist from Reynosa, Tamaulipas, Mexico. At a very young age, the artist discovered he wanted to be a pop singer, drawing on his city’s signature música mexicana and making it his own through his personal passion for pop music.\nBorn to Mexican parents, Bruno Caleb is the first in his family to pursue a music career. With his family's full support, he began taking vocal classes at only six years old. Little did they know, less than a decade later, the young artist would already be seeing his seeds blossom. At only 14 years of age, the future musical promise is in SXSW\n\nInfluenced by the likes of Justin Bieber, and Sebastián Yatra, what makes Bruno Caleb different is that he pulls the pop stars’ way of storytelling and delivering a song full of emotion. In his preteen years, he began composing his own songs by jotting down ideas in his notebook. At 13 years old, after experiencing heartbreak, he crafted songs, including his most popular track to date, “Niño Bien,” which earned him his nickname “El Niño Bien.” Other people call him “El Niño de Oro [The Golden Boy],” betting on his musical promise.",
     "links": {
@@ -7162,8 +7138,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:05",
+        "end_time": "23:35",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -10548,44 +10524,6 @@
     ]
   },
   {
-    "name": "DARKOVIBES",
-    "genre": "Hip-Hop / Rap",
-    "subgenre": "Afrobeats",
-    "city": "Labadi",
-    "country": "Ghana",
-    "state": null,
-    "entity_id": 2240641,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2240641",
-    "thumbnail_url": "https://images.sxsw.com/s0b26lYmpcm9dbdbv71_Tej7GQY=/450x450/images.sxsw.com/178/5a81abec-0f78-65fc-57a4-8f2ae1a0cdcb/artist-75400",
-    "announcement_date": "2026-03-09",
-    "source": "official",
-    "description": "Darkovibes is a boundary-pushing Ghanaian singer, songwriter, and genre-bender whose sound blends Afrobeats, highlife, R&B, and alternative influences into a unique musical identity. A pivotal voice in the new wave of African music, he has collaborated with some of the continent’s biggest stars, including Wizkid, Davido, Shatta Wale, R2Bees, Sarkodie, Stonebwoy, Camidoh, King Promise, M.anifest, Mr. Eazi and Spinall. Known for his vibrant performances and versatility, Darkovibes has shared stages with many of these artists across Africa and beyond, captivating audiences with his infectious energy and bold creative vision. With a growing global fan base and a track record of innovative releases, Darkovibes continues to redefine contemporary African music and is poised to make a powerful impression at SXSW.",
-    "links": {
-      "apple_music": "https://music.apple.com/us/album/toffee/1826593225?i=1826593229",
-      "facebook": "https://www.facebook.com/darkovibes",
-      "instagram": "https://www.instagram.com/darkovibes?igsh=MXRhdWNsNWg3dXpjeA==",
-      "spotify": "https://open.spotify.com/track/4qncFa5abNWOljfJ6atPcZ?si=QP2OOy22Qa2aL3gBbGSOlw",
-      "tiktok": "https://www.tiktok.com/@darkovibes?_r=1&_t=ZM-91YlcIDenKW",
-      "youtube": "https://www.youtube.com/watch?v=3TgRMmJcBng"
-    },
-    "events_raw": [],
-    "location": "LABADI, GHANA",
-    "events": [
-      {
-        "event_id": "MS63341",
-        "event_type": "showcase",
-        "venue": "Flamingo Cantina",
-        "venue_id": "V0186",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "00:00",
-        "end_time": "00:30",
-        "presented_by": "Afrobeats Worldwide"
-      }
-    ]
-  },
-  {
     "name": "Dave Guy & Stro Elliot of THE ROOTS",
     "genre": "Jazz",
     "subgenre": "Hip-Hop / Rap",
@@ -10661,46 +10599,6 @@
         "start_time": "22:05",
         "end_time": "22:40",
         "presented_by": "Don Giovanni Records"
-      }
-    ]
-  },
-  {
-    "name": "Dayonthetrack",
-    "genre": "Singer-Songwriter",
-    "subgenre": "Afrobeat",
-    "city": "Accra",
-    "country": "Ghana",
-    "state": null,
-    "entity_id": 2252562,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2252562",
-    "thumbnail_url": "https://images.sxsw.com/hjILoutMHm3OwZgc5Z7nYHyQE-4=/450x450/images.sxsw.com/178/71d51637-af44-38e1-8796-7d6f81775d1d/artist-73161",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "Afroheart prodigy, Dayonthetrack was introduced to the world in November 2019, he featured on Groundup Chale tape titled “We Outside; Y3 W) Ab)nten vol 1” where he featured on three songs off the project.   After the EP, he made remarkable strides in songwriting. Writing back to back hits for including Baajo, Celebrate and toxic by Kwesi Arthur writing parts of Adekunle Gold’s lyrics on the latter. He also featured on two songs off the “Son Of Jacob” album which has been exceptional on streaming markets and gained nominations on prestigious events.   His debut EP -SOUNDS AND WAVES released in July 2023 have earned Dayonthetrack over two million streams on all platforms as a solo artist project and his \"Ashawo\" song off the project being his first solo hit song.",
-    "links": {
-      "apple_music": "https://music.apple.com/gh/artist/dayonthetrack/1477314167",
-      "instagram": "https://www.instagram.com/dayonthetrack?igsh=Z21mbHk5cnd4aHBr&utm_source=qr",
-      "soundcloud": "https://soundcloud.com/dayonthetrack",
-      "spotify": "https://open.spotify.com/artist/7vsaQwuPAG2PSWPVitnXrc?si=X82Qpu4vQgeldgDZLwaLdA",
-      "tiktok": "https://www.tiktok.com/@dayonthetrack?_t=8q9lBRZhX7O&_r=1",
-      "twitter": "https://x.com/dayonthetrack?s=21",
-      "website": "https://dayonthetrack.bareconnect.com",
-      "youtube": "https://www.youtube.com/@dayonthetrack"
-    },
-    "events_raw": [],
-    "location": "ACCRA, GHANA",
-    "events": [
-      {
-        "event_id": "MS64079",
-        "event_type": "showcase",
-        "venue": "Flamingo Cantina",
-        "venue_id": "V0186",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "20:15",
-        "end_time": "20:45",
-        "presented_by": "Afrobeats Worldwide"
       }
     ]
   },
@@ -10875,7 +10773,7 @@
     "entity_id": 2253157,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2253157",
     "thumbnail_url": "https://images.sxsw.com/UYFaWH2LO_K9wWCZ3rvMsEEGlkM=/450x450/images.sxsw.com/178/e50af118-cacb-8213-b304-c123443e6f17/artist-76293",
-    "announcement_date": "2026-03-12",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Delilah Cabrera, professionally known as Delilah, is a Mexican-American singer-songwriter and Interscope Records artist from Wenatchee, Washington. Raised in a bilingual household, she discovered her passion for music early, singing mariachi at school events and participating in choir—experiences that shaped her emotionally rich, culturally rooted sound.\nA multi-instrumentalist who plays piano, guitar, violin, and vihuela, Delilah blends traditional Mexican music with contemporary influences. Her career shifted after a viral performance caught the attention of Los CT Records, founded by Natanael Cano, leading to her signing as the label’s first female artist in its Mexican division through an Interscope partnership.\nShe has released singles including “Amor Perdido,” “Modelo,” “Entre la Maleza,” and “Butterfly,” collaborated with Becky G on “TODO,” and shared stages with Iván Cornejo. In 2025, she performed at the Selena Tribute Concert in Chicago. Her Interscope debut single, “SI DIOS LO QUERÍA,” was released in September 2025. Now 18, Delilah continues to emerge as a powerful new voice in Latin music.",
     "links": {
@@ -10897,8 +10795,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "22:20",
+        "end_time": "22:50",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -12657,6 +12555,18 @@
     "location": "AUSTIN, TX",
     "events": [
       {
+        "event_id": "MS65352",
+        "event_type": "showcase",
+        "venue": "Mohawk Indoor",
+        "venue_id": "V0271",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "presented_by": "ERA'S"
+      },
+      {
         "event_id": "MS63525",
         "event_type": "showcase",
         "venue": "Riviere",
@@ -13280,7 +13190,7 @@
     "entity_id": 2283492,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2283492",
     "thumbnail_url": "https://images.sxsw.com/1zTToMoC6_DI_5UnLr4DTT2yIuM=/450x450/images.sxsw.com/178/b47216ae-1136-2dc6-0079-0e5e6a65a189/artist-76723",
-    "announcement_date": "2026-03-09",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "DJADE is a Black, queer, non-binary DJ and multi-artist whose sound sits at the intersection of Latin America and the Black diaspora. Originally from the United States (East Coast), they spent five years living in Brazil, where they discovered DJing during the pandemic and began cultivating their multicultural approach to the dance floor playing at local bailes and LGBTQIA+ balls.\nA lifelong musician trained in trombone, drums, and percussion; rhythm sits at the core of DJADE’s sound. Their sets move fluidly across Brazilian funk, house, R&B, and other Black diasporic genres, weaving together global influences that invite movement, connection, and collective joy. Blending diasporic sounds with deep rhythmic sensibility, DJADE creates dance floors where music becomes a meeting place between cultures, bodies, and histories.",
     "links": {
@@ -13297,8 +13207,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "01:00",
-        "end_time": "01:50",
+        "start_time": "00:00",
+        "end_time": "00:50",
         "presented_by": "Tropiclub"
       }
     ],
@@ -14720,8 +14630,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "23:05",
+        "end_time": "23:35",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -15971,7 +15881,7 @@
     "entity_id": 2249513,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2249513",
     "thumbnail_url": "https://images.sxsw.com/uud0JKJhAYM-D07NdIgLp9PMjng=/450x450/images.sxsw.com/178/08e20241-d6a4-bac0-8dc7-01d5ec13a9d5/artist-75721",
-    "announcement_date": "2026-02-21",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Romar Daniel, known professionally as FATHER ROMAR—formerly Daddy Dinero and affectionately nicknamed “DAD”—is an American rapper, songwriter, and recording engineer based in Minneapolis, Minnesota. A distinctive voice in hip-hop, he first emerged as one-third of the influential group FREEWIFI, which signed to LA label Rostrum Records in 2016.\nFREEWIFI debuted with Connected, followed by FREEQUENCY, featuring Romar’s breakout single “1(800)-ASSS.” The track earned placements on BET Jams and REVOLT TV, helping solidify his reputation as a creative force. The group was also featured by outlets including Sway’s Universe, HipHopDX, and Pigeons & Planes. Their single “Rent’s Due” appeared in Season 2, Episode 2 of Showtime’s The Chi, expanding their reach to national TV audiences.\nMusically, ROMAR draws inspiration from Southern rap icons like Lil Wayne, Three 6 Mafia, Mike Jones, J-Kwon, Bone Thugs, and Ludacris. Known for his signature ad-libs—“AHHHHH” and “WHAAATTT”—he blends classic influence with modern innovation. Inspired by artists like A$AP Rocky, he brings bold self-expression through both music and fashion, continuing to evolve from “Daddy” into a boundary-pushing “FATHER.”",
     "links": {
@@ -15990,8 +15900,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-18",
-        "start_time": "22:50",
-        "end_time": "23:20",
+        "start_time": "23:10",
+        "end_time": "23:25",
         "presented_by": "Math Class Creative: Money In Motion"
       }
     ],
@@ -17106,7 +17016,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-11",
     "source": "official",
-    "description": "",
+    "description": "Fuego Base from Hartford, CT linked with Benny The Butcher and Black Soprano Family in 2022. Released his debut album Biggest Since Camby April 2020",
     "links": {
       "apple_music": "https://music.apple.com/us/artist/fuego-base/1449934797",
       "instagram": "https://www.instagram.com/fuegobase?igsh=MTczZW5nNmtsdTl2",
@@ -21233,7 +21143,7 @@
     "entity_id": 2248286,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2248286",
     "thumbnail_url": "https://images.sxsw.com/bINMl_CNztfpprp2ZxTrAaCs4JA=/450x450/images.sxsw.com/178/b45cb948-573b-68aa-5721-5bbe253aad51/artist-76149",
-    "announcement_date": "2026-03-12",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Ilusión is a trio formed by Fernando Soria Salmerón, Jesús Beltrán, and Carlos Mayo Jimenez; three friends who connected through their love for music and shared roots as first-generation Mexican-Americans living in Delaware. With family ties to Quiroga, Michoacán, Jiménez, Chihuahua, and Huehuetlán el Chico, Puebla, their songs carry the weight of two cultures, three journeys, and one voice that speaks from the heart.\n\nThey grew up listening to everything — from the romantic ballads their parents played at family gatherings to the raw, emotional sounds of corridos tumbados and alternative rock. That blend of influence shows up in their music, where traditional meets modern, and every lyric is grounded in real feeling. For Fernando, Jesús, and Carlos Ilusión is more than a name — it’s a reflection of their dreams, struggles, and everything they’ve felt along the way. Their sound isn’t boxed into one genre because they don’t live in just one world.",
     "links": {
@@ -21255,8 +21165,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:00",
+        "end_time": "20:30",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -22431,7 +22341,7 @@
     "thumbnail_url": null,
     "announcement_date": "2026-03-08",
     "source": "official",
-    "description": "\"Jai Bliss\" is a female artist from Perth Amboy, New Jersey located in Austin, TX. Her cadence, rhythm, and flow has been designed and influenced by the combined styles of old-school East Coast Hip-Hop, 2000s R&B, and Dirty South Rap. She was born and raised in New Jersey and later moved to Austin, TX as a young teen; traveling back and forth in between school semesters offered her new experiences, eclectic friend groups, and a constant dynamic in style, influence, and perspective.",
+    "description": "Jai Bliss is a rising force in Austin’s music scene, known for her high-energy performances, sharp lyricism, and infectious sound. She first hit the stage in 2022 with Underground Voices, quickly establishing herself as an artist to watch. By 2023, she gained momentum with a featured SXSW performance alongside The Smoke Out ATX, marking a major career milestone. Working with engineer Sam Hinds at ThreeHoundSounds, Bliss recorded her debut single, “I Really DFWA,” introducing her signature style—fast-paced flow, catchy hooks, and undeniable crowd control. Her sound blends old-school East Coast hip-hop, 2000s R&B, and Dirty South rap. In November 2023, she released her debut EP, \"In the Meantime\", featuring the standout track “Tokyo,” alongside her first official music video. She continued leveling up in 2025 with a performance at The Pre-Roll ATX, which led to an appearance on The Fat A$$ Rap Show and earned her status as an Official SXSW Artist. Now returning for the Kinky Curly Coily Festival’s all-women lineup, Jai Bliss continues to captivate audiences with her electrifying presence, dynamic delivery, and growing catalog—solidifying herself as an artist you don’t want to miss.",
     "links": {
       "apple_music": "https://music.apple.com/us/album/about-me-single/1758468674",
       "instagram": "https://www.instagram.com/jai.blisss/?hl=en",
@@ -27178,7 +27088,7 @@
     "entity_id": 2255131,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2255131",
     "thumbnail_url": "https://images.sxsw.com/-ZpurJL6zRmraNuWp3y1FrKCbrg=/450x450/images.sxsw.com/178/eee61b3c-17c1-c265-4d72-6d4c58430e98/artist-76350",
-    "announcement_date": "2026-03-12",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Lainey Wilson continues to captivate the world, capturing the hearts of fans and respect of her peers. Adding to her monumental rise, the 12x CMA, 16x ACM, Grammy winner and Grand Ole Opry member is the subject of a new in-depth Netflix documentary, Lainey Wilson: Keepin’ Country Cool, out April 22 after premiering at SXSW. Wilson will also make her film debut in Universal’s adaptation of Colleen Hoover’s Reminders of Him, headline Stagecoach 2026 and join Chris Stapleton for stadium shows this summer, after wrapping her Whirlwind World Tour. Last year, the 2x CMA and 2x ACM Entertainer of the Year hosted the 59th CMA Awards (the first solo female host since Reba McEntire in 1991) and released the deluxe version of her album Whirlwind, featuring the #1 single “Somewhere Over Laredo.” A sought-after songwriter, Wilson has nine #1s including “4x4xU,” “Watermelon Moonshine” and the 2x Platinum “Heart Like A Truck,” plus collaborations with Jelly Roll (“Save Me”) and HARDY (“wait in the truck”). Moreover, Wilson wrote “Out of Oklahoma” for Twisters, has worked with artists like Reba McEntire, Dolly Parton and Post Malone and made her acting debut in Paramount’s hit show Yellowstone.",
     "links": {
@@ -27201,8 +27111,8 @@
         "parent_venue": "",
         "age_policy": "All Ages",
         "day": "2026-03-17",
-        "start_time": "20:30",
-        "end_time": "22:30",
+        "start_time": "20:00",
+        "end_time": "22:00",
         "presented_by": null
       }
     ],
@@ -29974,6 +29884,36 @@
     "location": "ATLANTA, GA"
   },
   {
+    "name": "M3CCA",
+    "genre": "Soul",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Houston",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2291427,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2291427",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-17",
+    "source": "official",
+    "description": "M3CCA is an award-winning multi-disciplinary artist who focuses are singing, song writing, visual art, and performance art. Her personal mission is to reshape the way people perceive the connection between fine art and music.\n\nAs an experimental soul singer/emcee and design artist, she strives to combine all of her passions together in order to execute and express her visions, both sonically and visually. Hailing from Houston, she cites Lauryn Hill, Beyoncé, Left Eye, Nai Palm (of Hiatus Kaiyote) and Erykah Badu as her earliest influences. Using her stage as her spiritual outlet, she combines all of her talents with technical training to create “space gospel:” her own personal brand of thought provoking, rhythmic, emotional, experiential music, while challenging expectations every step of the way.",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65348",
+        "event_type": "showcase",
+        "venue": "The Pershing",
+        "venue_id": "V1724",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "23:20",
+        "end_time": "23:35",
+        "presented_by": "Kinky,Curly,Coily Showcase"
+      }
+    ],
+    "location": "HOUSTON, TX"
+  },
+  {
     "name": "Mac-K the K Baby",
     "genre": "Hip-Hop / Rap",
     "subgenre": "None",
@@ -29987,7 +29927,6 @@
     "source": "official",
     "description": "",
     "links": {
-      "apple_music": "https://music.apple.com/us/album/a-lot-on-my-mind/1857099359?i=1857099360",
       "instagram": "https://www.instagram.com/macdashk/",
       "pandora": "https://www.pandora.com/artist/mac-k-the-k-baby/ARwdbxpd47jb3zV",
       "soundcloud": "https://soundcloud.com/mackthekbaby",
@@ -29996,6 +29935,18 @@
       "youtube": "https://www.youtube.com/watch?v=5pX3zfarAJQ"
     },
     "events": [
+      {
+        "event_id": "MS65355",
+        "event_type": "showcase",
+        "venue": "Mohawk Indoor",
+        "venue_id": "V0271",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "00:00",
+        "end_time": "00:10",
+        "presented_by": "ERA'S"
+      },
       {
         "event_id": "MS64926",
         "event_type": "showcase",
@@ -35014,7 +34965,7 @@
     "entity_id": 2277129,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2277129",
     "thumbnail_url": "https://images.sxsw.com/SxG7iIwJk5-7JHmdvxI8wYK3gMc=/450x450/images.sxsw.com/178/e8ba7f6c-7918-232d-8a30-397ad3be3c1a/artist-75445",
-    "announcement_date": "2026-03-09",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Nonô is a Brazilian born, London/Miami based artist that mixes Latin and Brazilian sounds (baile funk, samba) with electronic/pop music. Selected as one of NME’s 100 and with over 500 million streams on Spotify and 120k followers on Instagram, she has reached fans and made collaborations with artists like Sofi Tukker, Charli XCX, Alok and others around the globe.\n\nHer latest EP +55, released in December 2024, received raving reviews including one from Dork magazine that rates the EP 4 stars and says: “Nonô’s +55 EP lands with the grace of someone who’s mastered the art of cultural collision”. +55 also landed her great sync placements; her tracks got on the soundtrack of two EA game staples: ALÔ on F124  and 'VEM' is on the soundtrack of FC25.\n\nIn 2025, she released “OLD SKOOL” which landed her a space in the 2025 F1 EA soundtrack and in June she released “PICK UP THE PHONE” with Sofi Tukker, bringing her Brazilian flare to the collab. By July, she supported Fatboy Slim on the MainStage of the Formula 1 British Grand Prix.\n\nAs NME puts it, she’s a \"rising talent ready to become your new favourite artist”. So, get your caipirinhas ready because the Brazilian heat is here to stay!'",
     "links": {
@@ -35035,8 +34986,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "00:00",
-        "end_time": "00:40",
+        "start_time": "23:00",
+        "end_time": "23:40",
         "presented_by": "Tropiclub"
       }
     ],
@@ -37754,6 +37705,38 @@
     ]
   },
   {
+    "name": "Pool Kids",
+    "genre": "Rock",
+    "subgenre": "Pop",
+    "city": "Tallahasse",
+    "country": "United States",
+    "state": "FL",
+    "entity_id": 2291426,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2291426",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-17",
+    "source": "official",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/6yoW6SfviQ5D4Wa5jGxh7f?si=BVOPMKa0SXWDo23szFF5uw"
+    },
+    "events": [
+      {
+        "event_id": "MS65346",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas Patio",
+        "venue_id": "V0263",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "23:45",
+        "end_time": "00:45",
+        "presented_by": "Smartpunk Records"
+      }
+    ],
+    "location": "TALLAHASSE, FL"
+  },
+  {
     "name": "Popstar Benny",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Hyperpop",
@@ -38720,68 +38703,6 @@
       }
     ],
     "recommended": true
-  },
-  {
-    "name": "Rafa Parra",
-    "genre": "Latin",
-    "subgenre": "Pop",
-    "city": "Mexico City",
-    "country": "Mexico",
-    "state": null,
-    "entity_id": 2251463,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2251463",
-    "thumbnail_url": "https://images.sxsw.com/mXikLwH7j2FJtONMqib-oYS5aK8=/450x450/images.sxsw.com/178/32ca93bc-f153-627b-8c55-9fbe47a62586/artist-76236",
-    "announcement_date": "2026-02-11",
-    "source": "official",
-    "description": "Rafa Parra, cantautor/productor originario de la Ciudad de México. Experimentando con nuevas formas de expresión dentro del pop urbano, mezclando letras románticas con ritmos irresistibles como el dembow y el merenguetón. Su estilo fresco y\nemocional invita tanto a bailar como a enamorarse.\nCon canciones como “A Besos Si” y “Olaya <3”, Rafa ha comenzado a llamar la atención por su forma única\nde contar historias de amor con flow, ritmo y mucha sensibilidad. Su música suena a momentos reales:\nmensajes no enviados, fiestas que terminan en confesiones y corazones que laten más fuerte.\nRafa crea canciones que se sienten cercanas, con hooks pegajosos y melodías que se quedan en la\ncabeza. Su propuesta es emocional y pensada para conectar con quienes viven el amor con intensidad,\nentre el reggaetón lento y las composiciones.",
-    "links": {
-      "apple_music": "https://music.apple.com/mx/album/olaya-3/1782068982?i=1782068986&l=en-GB",
-      "facebook": "https://www.facebook.com/profile.php?id=100069809839235",
-      "instagram": "https://www.instagram.com/rafaparra.wav/",
-      "spotify": "https://open.spotify.com/track/5q8naRfOKdghniAl8TNaYM?si=8d163ca610af4770",
-      "tiktok": "https://www.tiktok.com/@rafaparramusic",
-      "youtube": "https://youtu.be/LTXoCr-JHM4?si=F-7QDwXU5_JbtJYY"
-    },
-    "events_raw": [],
-    "location": "MEXICO CITY, MEXICO",
-    "events": [
-      {
-        "event_id": "MS64156",
-        "event_type": "showcase",
-        "venue": "Hotel Vegas at Volstead",
-        "venue_id": "V0262",
-        "parent_venue": "Hotel Vegas",
-        "age_policy": "21+",
-        "day": "2026-03-18",
-        "start_time": "20:45",
-        "end_time": "21:00",
-        "presented_by": "Cincodoce"
-      },
-      {
-        "event_id": "MS64078",
-        "event_type": "showcase",
-        "venue": "Seven Grand",
-        "venue_id": "V0597",
-        "parent_venue": "",
-        "age_policy": "21+",
-        "day": "2026-03-17",
-        "start_time": "23:00",
-        "end_time": "23:40",
-        "presented_by": "Tropiclub"
-      },
-      {
-        "event_id": "MS64020",
-        "event_type": "showcase",
-        "venue": "",
-        "venue_id": "",
-        "parent_venue": "",
-        "age_policy": null,
-        "day": null,
-        "start_time": "",
-        "end_time": "",
-        "presented_by": null
-      }
-    ]
   },
   {
     "name": "RAKEL",
@@ -39848,8 +39769,8 @@
         "parent_venue": "Hotel Vegas",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "23:45",
-        "end_time": "00:45",
+        "start_time": "",
+        "end_time": "",
         "presented_by": "Smartpunk Records"
       }
     ],
@@ -41453,6 +41374,36 @@
     ]
   },
   {
+    "name": "Sauce Gohan",
+    "genre": "Hip-Hop / Rap",
+    "subgenre": "Hip-Hop / Rap",
+    "city": "Chicago",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2291571,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2291571",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-18",
+    "source": "official",
+    "description": "",
+    "links": {},
+    "events": [
+      {
+        "event_id": "MS65347",
+        "event_type": "showcase",
+        "venue": "Mohawk Indoor",
+        "venue_id": "V0271",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "23:40",
+        "end_time": "23:50",
+        "presented_by": "ERA'S"
+      }
+    ],
+    "location": "CHICAGO, TX"
+  },
+  {
     "name": "Scuttino",
     "genre": "Hip-Hop / Rap",
     "subgenre": "Southern Hip-Hop",
@@ -41581,7 +41532,7 @@
     "entity_id": 2243222,
     "detail_url": "https://schedule.sxsw.com/2026/artists/2243222",
     "thumbnail_url": "https://images.sxsw.com/Qt-dq2gSYscgti4YCP_9Gehx2kU=/450x450/images.sxsw.com/178/6e3dbcd6-d0f9-735c-a202-ffc69d9e4bb2/artist-75982",
-    "announcement_date": "2026-03-11",
+    "announcement_date": "2026-03-17",
     "source": "official",
     "description": "Born and raised in the Bronx, with her roots reaching back to Puebla and Veracruz, Mexico. Selines Ruiz is a singer-songwriter and musician creating songs full of feelings. Selines was drawn to music at a very young age while seeing her cousins at guitar lessons. She uses her music to channel her emotions in poetry verses, accompanied by subtle guitar chords and a delicate voice “full of feelings,” as she describes her music. She admires other singer-songwriters like; Ed Maverick, Ivan Cornejo, and Natalia Lafourcade. Classical Music, Boleros like Los Panchos, and Jazz are some influences while creating music.",
     "links": {
@@ -41604,8 +41555,8 @@
         "parent_venue": "Mala Fama",
         "age_policy": null,
         "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
+        "start_time": "20:45",
+        "end_time": "21:15",
         "presented_by": "More Than Corridos"
       }
     ]
@@ -44953,8 +44904,8 @@
         "parent_venue": "",
         "age_policy": "21+",
         "day": "2026-03-17",
-        "start_time": "21:30",
-        "end_time": "21:45",
+        "start_time": "21:20",
+        "end_time": "21:35",
         "presented_by": "iLL Manner x The Smoke Out ATX: A Phat A$$ Rap Show"
       }
     ]
@@ -46619,6 +46570,38 @@
     ]
   },
   {
+    "name": "Tied Up",
+    "genre": "Rock",
+    "subgenre": "Metal",
+    "city": "Austin",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2291355,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2291355",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-17",
+    "source": "official",
+    "description": "",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/3jogLVWH2m0flVxNNEQUxa?si=aXUwPvmmQve5T5BYSxCFKw"
+    },
+    "events": [
+      {
+        "event_id": "MS65345",
+        "event_type": "showcase",
+        "venue": "Hotel Vegas Patio",
+        "venue_id": "V0263",
+        "parent_venue": "Hotel Vegas",
+        "age_policy": "21+",
+        "day": "2026-03-17",
+        "start_time": "19:15",
+        "end_time": "19:45",
+        "presented_by": "Smartpunk Records"
+      }
+    ],
+    "location": "AUSTIN, TX"
+  },
+  {
     "name": "Tiera Kennedy",
     "genre": "Country",
     "subgenre": "R & B",
@@ -46733,6 +46716,39 @@
     ]
   },
   {
+    "name": "Tinkshell",
+    "genre": "R & B",
+    "subgenre": "Alternative",
+    "city": "Buda",
+    "country": "United States",
+    "state": "TX",
+    "entity_id": 2291500,
+    "detail_url": "https://schedule.sxsw.com/2026/artists/2291500",
+    "thumbnail_url": null,
+    "announcement_date": "2026-03-17",
+    "source": "official",
+    "description": "Im a singer, songwriter, actress, vocal coach from Killeen Tx, now living in Buda Tx. I've been performing since I was 15. Im now 27 and have been putting out my alternative r&b music on all streaming platforms independently since 2019.\nI can't wait to share my gift, my love and the journey of life with the world!\nI want to inspire the creation of real music!",
+    "links": {
+      "spotify": "https://open.spotify.com/artist/0cE5uSdEgxUoaxagwzbdUE?si=As0s9xQzS2KLCk1exoxRmQ",
+      "website": "https://linkr.bio/-Tinkshell-"
+    },
+    "events": [
+      {
+        "event_id": "MS65349",
+        "event_type": "showcase",
+        "venue": "The Pershing",
+        "venue_id": "V1724",
+        "parent_venue": "",
+        "age_policy": null,
+        "day": "2026-03-17",
+        "start_time": "20:55",
+        "end_time": "21:10",
+        "presented_by": "Kinky,Curly,Coily Showcase"
+      }
+    ],
+    "location": "BUDA, TX"
+  },
+  {
     "name": "Tipa Tipo",
     "genre": "Latin",
     "subgenre": "Alternative",
@@ -46803,6 +46819,18 @@
       "youtube": "https://youtu.be/xRx9M91bMKw?si=b4vuUPOzT2_p3Fyf"
     },
     "events": [
+      {
+        "event_id": "MS65351",
+        "event_type": "showcase",
+        "venue": "Mohawk Indoor",
+        "venue_id": "V0271",
+        "parent_venue": "Mohawk",
+        "age_policy": "All Ages",
+        "day": "2026-03-18",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "presented_by": "ERA'S"
+      },
       {
         "event_id": "MS65203",
         "event_type": "showcase",
@@ -50900,43 +50928,6 @@
       }
     ],
     "location": "DALLAS, TX"
-  },
-  {
-    "name": "Yng Naz",
-    "genre": "Latin",
-    "subgenre": "Regional Mexican",
-    "city": "San Luis Rio Colorado",
-    "country": "Mexico",
-    "state": null,
-    "entity_id": 2242645,
-    "detail_url": "https://schedule.sxsw.com/2026/artists/2242645",
-    "thumbnail_url": null,
-    "announcement_date": "2026-03-11",
-    "source": "official",
-    "description": "",
-    "links": {
-      "apple_music": "https://music.apple.com/us/artist/yng-naz/1706696162",
-      "instagram": "https://instagram.com/yng.naz_",
-      "spotify": "https://open.spotify.com/artist/3pGStZwQq6wzCgCPjT8YOC",
-      "tiktok": "https://tiktok.com/@yng.naz_",
-      "youtube": "https://youtu.be/4GDxEgjxYtE?si=1-axDNXBpolJncC-"
-    },
-    "events_raw": [],
-    "location": "SAN LUIS RIO COLORADO, MEXICO",
-    "events": [
-      {
-        "event_id": "MS63585",
-        "event_type": "showcase",
-        "venue": "Mala Fama Rooftop",
-        "venue_id": "V2453",
-        "parent_venue": "Mala Fama",
-        "age_policy": null,
-        "day": "2026-03-17",
-        "start_time": "",
-        "end_time": "",
-        "presented_by": "More Than Corridos"
-      }
-    ]
   },
   {
     "name": "Yolanda Cruz and the Daydreamers",
