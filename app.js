@@ -1055,12 +1055,12 @@
           for (const type of LINK_ORDER) {
             if (linksObj[type]) { url = linksObj[type]; break; }
           }
-          return { name: a.name, url, rating: ratings[artistKey(a)] };
+          return { name: a.name, url, rating: ratings[artistKey(a)], description: notes[artistKey(a)] || '' };
         })
         .sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name));
 
-      const csvRows = [['Artist', 'URL']].concat(
-        shortlist.map(({ name, url }) => [name, url])
+      const csvRows = [['Artist', 'URL', 'Description']].concat(
+        shortlist.map(({ name, url, description }) => [name, url, description])
       );
       const csv = csvRows.map(row =>
         row.map(cell => {
