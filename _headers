@@ -1,0 +1,13 @@
+# Allow the ACTIVE app's service worker to claim the whole origin.
+#
+# The active app is served at "/" by the _redirects rewrite, but its
+# service-worker.js lives in a subdirectory, so its default scope would be that
+# subdirectory and it could not control the root page. This header raises the
+# allowed scope; the registration in index.html/schedule.html asks for it.
+#
+# RULE: only the app that is currently active at "/" gets this header and the
+# { scope: '/' } registration. The archived app registers with its default
+# (own-directory) scope. Two service workers cannot both own "/".
+
+/southbysouthwest/service-worker.js
+  Service-Worker-Allowed: /

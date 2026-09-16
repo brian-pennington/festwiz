@@ -211,7 +211,7 @@
   <script src="schedule.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/southbysouthwest/service-worker.js');
+      navigator.serviceWorker.register('/southbysouthwest/service-worker.js', { scope: '/' });
     }
   </script>
 </body>

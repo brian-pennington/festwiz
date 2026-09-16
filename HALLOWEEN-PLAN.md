@@ -84,6 +84,18 @@ Both keep the existing strategy: explicit `PRECACHE` list for the app shell,
 network-first for `.json` and `.css`, `CACHE_NAME` bumped every data push.
 All precache paths need the new directory prefix.
 
+**Service worker scope.** The active app is served at `/` by the rewrite but its
+`service-worker.js` lives in a subdirectory, so its default scope would be that
+subdirectory and it could **not** control the root page — root visitors would
+silently lose offline caching. A `_headers` entry sets `Service-Worker-Allowed: /`
+on the active app's worker, and its registration asks for `{ scope: '/' }`.
+
+**Rule: only the app currently active at `/` gets that header and that scope.**
+The archived app registers with its default own-directory scope. Two service
+workers cannot both own `/`, so the mode flip must move the header and the
+`{ scope: '/' }` registration from one app to the other — this is part of the
+Phase 4 and Phase 5 checklists, not an optional extra.
+
 **Existing PWA installs stay on the festival app** (decided). Mechanism: ship one final
 service worker at the *root* scope whose only job is to redirect its already
 registered clients to `/southbysouthwest/`. New visitors never registered it, so they get
@@ -370,11 +382,14 @@ Phase 3 can slip without losing the season.
 
 **Phase 4 — Go live**
 - Flip `_redirects` to Halloween mode
+- Move `Service-Worker-Allowed: /` in `_headers` to the Halloween worker, and move
+  the `{ scope: '/' }` registration with it; festival app reverts to default scope
 - Ship the root-scope redirect SW and the festival-page banner
 - Point About at `/southbysouthwest/`
 
 **Phase 5 — Revert (post-Halloween)**
 - Flip `_redirects` back; point About at `/halloween/`
+- Move the `_headers` scope grant and `{ scope: '/' }` registration back
 - Retire the root redirect SW
 - One commit, fully reversible
 
