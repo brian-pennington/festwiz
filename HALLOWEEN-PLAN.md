@@ -386,15 +386,29 @@ Phase 3 can slip without losing the season.
   the sheet's promo row.
 - **PWA installs stay on the festival app** after the mode flip.
 - **One service account** reads the feeder and writes the public sheet.
+- **No subdomain.** festwiz.biz already fronts festwiz.pages.dev; the path
+  rewrite is sufficient and needs no DNS work.
+- **2026 is a clean start.** Earlier years' spreadsheets stay available as a
+  resource but are not imported.
+
+### Abbreviation scrubbing — audited and complete
+
+The UI was already clean: page titles and `manifest.json` say only "FestWiz".
+Three code comments were the only safe changes and have been made. What remains,
+and why each stays:
+
+| Where | Count | Why it stays |
+|---|---|---|
+| `sxsw2026_*` localStorage keys | ~10 keys | Renaming silently erases every user's ratings, notes, tiers, agenda and theme. See below. |
+| `schedule.sxsw.com` / `images.sxsw.com` URLs | 3,478 | Real external URLs. |
+| Third-party event names in `shows.json` | ~66 | Other organizations' event titles — "Take Action x SXSW", "Billboard Presents: The Stage at SXSW", "SXSW London". Rewriting them would misname real events and break search. One artist bio quotes the abbreviation in their own copy. |
+
+**On the storage keys:** localStorage is scoped per *origin*, not per path, so the
+move into `southbysouthwest/` did not disturb existing user data. Renaming the keys
+would. The natural moment to change them is 2027 prep, when the `2026` suffix has to
+change anyway and there is no live data worth preserving — free then, risky now.
+A migration shim could do it sooner if wanted.
 
 ## Open Questions
 
-- **Prior years.** Several earlier spreadsheets exist. Worth importing them as an
-  archive view, or is 2026 a clean start?
-- **Abbreviation scrubbing.** The folder is now `southbysouthwest/`, but the
-  abbreviation still appears in the deployed app's UI text, `manifest.json`, the
-  page titles, and the public GitHub repo (`PROJECT.md` is gitignored, so it is not exposed). If the concern is
-  visibility to the organization, the folder name is the smallest of those. Say the
-  word and the scrub can extend to the user-facing strings.
-- **Domain.** Is `halloween.festwiz.biz` wanted, or is the path rewrite enough?
-  Path is simpler and needs no DNS.
+_(none currently open.)_
