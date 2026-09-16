@@ -240,7 +240,12 @@ screenshot.png
 .DS_Store
 
 # Halloween tracker — Google service account credentials. Never commit.
-halloween/credentials.json
+# Deny-by-default: ignore EVERY json under halloween/, then re-allow only the
+# specific files that are meant to be tracked. Google names downloaded keys
+# things like "project-name-37035ba1da3e.json", which no sensible pattern
+# catches, so an allowlist is the only safe shape here.
+halloween/*.json
+!halloween/config.json
 **/credentials.json
 *-service-account*.json
 client_secret*.json
