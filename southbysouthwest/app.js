@@ -218,7 +218,7 @@
     }
 
     // Migrate ratings from name_key → eid_key for artists that were unofficial
-    // when rated but have since been added to the official SXSW lineup.
+    // when rated but have since been added to the official festival lineup.
     let ratingsMigrated = false;
     for (const a of allArtists) {
       if (!a.entity_id) continue;
@@ -622,7 +622,7 @@
     const desc = artist.description || '';
     const descShort = desc.length > 200 ? desc.substring(0, 200) + '...' : desc;
 
-    // Build links HTML — include SXSW detail page link if available
+    // Build links HTML — include official festival detail page link if available
     const linksObj = { ...(artist.links || {}) };
     if (artist.detail_url) {
       linksObj.official = artist.detail_url;

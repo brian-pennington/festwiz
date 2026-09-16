@@ -1,0 +1,20 @@
+# FestWiz mode switch — see HALLOWEEN-PLAN.md
+#
+# Exactly one mode block is active at a time. The identity rule must stay
+# FIRST in the active block: it matches requests that already carry the app's
+# directory prefix and serves them as-is, which stops the wildcard below from
+# prefixing them a second time.
+#
+# VERIFY ON A PREVIEW DEPLOY BEFORE MERGING TO main. Cloudflare Pages'
+# precedence between 200-rewrites and existing static assets is the one piece
+# of this that has not been tested against the live platform.
+
+# ── FESTIVAL MODE (active) ────────────────────────────────────────────────
+/southbysouthwest/*  /southbysouthwest/:splat  200
+/*                   /southbysouthwest/:splat  200
+
+# ── HALLOWEEN MODE ────────────────────────────────────────────────────────
+# Comment out the block above, uncomment this one, and swap the About link.
+# /halloween/*         /halloween/:splat         200
+# /southbysouthwest/*  /southbysouthwest/:splat  200
+# /*                   /halloween/:splat         200

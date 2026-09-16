@@ -9,20 +9,21 @@
  * Bump CACHE_NAME after each data push to force precache refresh.
  */
 
-const CACHE_NAME = 'fw-v223';
+const CACHE_NAME = 'fw-sbsw-v225';
 
 const PRECACHE = [
   '/',
-  '/index.html',
-  '/schedule',
-  '/schedule.html',
-  '/app.js',
-  '/schedule.js',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/fest-wiz-trans.png',
-  '/collage-2-color.png',
+  '/southbysouthwest/',
+  '/southbysouthwest/index.html',
+  '/southbysouthwest/schedule',
+  '/southbysouthwest/schedule.html',
+  '/southbysouthwest/app.js',
+  '/southbysouthwest/schedule.js',
+  '/southbysouthwest/manifest.json',
+  '/southbysouthwest/icon-192.png',
+  '/southbysouthwest/icon-512.png',
+  '/southbysouthwest/fest-wiz-trans.png',
+  '/southbysouthwest/collage-2-color.png',
 ];
 
 // JSON data files AND CSS use network-first:
