@@ -27,6 +27,8 @@ from pathlib import Path
 
 FESTIVAL_YEAR = 2026
 HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+CREDENTIALS = REPO / "credentials" / "credentials.json"
 
 # A blank cell inherits; this marker means "genuinely empty, do not inherit".
 EXPLICIT_EMPTY = "-"
@@ -69,6 +71,66 @@ WEEKDAY_PREFIX = re.compile(
 
 class BuildError(Exception):
     """A problem that must stop the build."""
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Google Sheets
+# ─────────────────────────────────────────────────────────────────────────────
+
+SHEET_ID_RE = re.compile(r"/spreadsheets/d/([a-zA-Z0-9_-]+)")
+
+
+def sheet_id_from(ref):
+    """Accept a bare id or a full Sheets URL."""
+    m = SHEET_ID_RE.search(ref or "")
+    return m.group(1) if m else (ref or "").strip()
+
+
+def load_config():
+    cfg = HERE / "config.json"
+    if cfg.exists():
+        try:
+            return json.loads(cfg.read_text())
+        except json.JSONDecodeError as e:
+            raise BuildError(f"config.json is not valid JSON: {e}")
+    return {}
+
+
+def read_sheet(ref, tab=None):
+    """Read the feeder tab from Google Sheets. Returns a list of row lists."""
+    try:
+        import gspread
+        from google.oauth2.service_account import Credentials
+    except ImportError:
+        raise BuildError(
+            "gspread is not installed. Run:  pip install gspread google-auth\n"
+            "  (or pass --csv to read a downloaded export instead)"
+        )
+    if not CREDENTIALS.exists():
+        raise BuildError(
+            f"no service-account key at {CREDENTIALS}\n"
+            "  Download the JSON key from Google Cloud and save it there."
+        )
+    creds = Credentials.from_service_account_file(
+        str(CREDENTIALS),
+        scopes=["https://www.googleapis.com/auth/spreadsheets"],
+    )
+    client = gspread.authorize(creds)
+    sid = sheet_id_from(ref)
+    try:
+        book = client.open_by_key(sid)
+    except Exception as e:
+        email = "the service account"
+        try:
+            email = json.loads(CREDENTIALS.read_text()).get("client_email", email)
+        except Exception:
+            pass
+        raise BuildError(
+            f"could not open sheet {sid}: {e}\n"
+            f"  Is it shared with {email} (Viewer is enough)?"
+        )
+    ws = book.worksheet(tab) if tab else book.sheet1
+    return ws.get_all_values()
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -400,6 +462,8 @@ def report(occurrences, errors, warnings, tag_list, suspects, verbose):
 def main():
     ap = argparse.ArgumentParser(description="Halloween tracker ingest")
     ap.add_argument("--csv", help="read a CSV export instead of the live sheet")
+    ap.add_argument("--sheet", help="feeder sheet URL or id (overrides config.json)")
+    ap.add_argument("--tab", help="worksheet/tab name (default: the first tab)")
     ap.add_argument("--dry-run", action="store_true",
                     help="validate and print resolved rows; write nothing")
     ap.add_argument("--out", default=str(HERE),
@@ -408,22 +472,34 @@ def main():
                     help="skip the resolved-occurrence table")
     args = ap.parse_args()
 
-    if not args.csv:
-        print("Live Google Sheets reading is not wired up yet — it needs the "
-              "service-account credentials.\nFor now export the feeder tab and "
-              "pass --csv path/to/export.csv", file=sys.stderr)
+    try:
+        if args.csv:
+            src = Path(args.csv)
+            if not src.exists():
+                print(f"no such file: {src}", file=sys.stderr)
+                return 2
+            with src.open(newline="", encoding="utf-8-sig") as fh:
+                rows = list(csv.reader(fh))
+            origin = str(src)
+        else:
+            cfg = load_config()
+            ref = args.sheet or cfg.get("feeder_sheet")
+            if not ref:
+                print("no feeder sheet configured. Either pass --sheet <url|id>, "
+                      "set feeder_sheet in halloween/config.json, or use --csv.",
+                      file=sys.stderr)
+                return 2
+            tab = args.tab or cfg.get("feeder_tab")
+            rows = read_sheet(ref, tab)
+            origin = f"sheet {sheet_id_from(ref)}" + (f" tab {tab!r}" if tab else "")
+    except BuildError as e:
+        print(f"error: {e}", file=sys.stderr)
         return 2
 
-    src = Path(args.csv)
-    if not src.exists():
-        print(f"no such file: {src}", file=sys.stderr)
-        return 2
-
-    with src.open(newline="", encoding="utf-8-sig") as fh:
-        rows = list(csv.reader(fh))
     if not rows:
         print("feeder is empty", file=sys.stderr)
         return 2
+    print(f"read {len(rows) - 1} data row(s) from {origin}")
 
     try:
         mapping = map_columns(rows[0])
