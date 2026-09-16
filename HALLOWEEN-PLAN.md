@@ -213,7 +213,7 @@ Three tabs. Header row required; column order does not matter; unknown columns i
 | `time` | | Verbatim: `8pm` · `6-10pm` · `varies` · `6pm and 8pm`. |
 | `url` | | Link for the name cell. The thing CSV export loses. |
 | `description` | | The blurb. |
-| `tags` | | Comma-separated, from the `tags` tab. |
+| `tags` | | Comma-separated. Free-form — any new tag is created on ingestion. |
 | `status` | | `confirmed` (default) · `rumored` · `cancelled`. Cancelled rows are excluded from both exports but kept in the feeder. |
 | `notes` | | Private. **Never exported.** |
 
@@ -266,29 +266,53 @@ rather than loud, so:
 
 `--dry-run` prints every occurrence with all blanks **already resolved**, so the
 inherited values can be eyeballed before anything reaches the public sheet. It also
-reports: rows missing a date, tags absent from the `tags` tab, venues absent from the
-`venues` tab, and any block whose first row is missing a required field.
+reports: rows missing a date, the discovered tag list with counts and likely-typo
+warnings, venues absent from the `venues` tab, and any block whose first row is
+missing a required field.
 
-### Tab `tags` — controlled vocabulary
+### Tags — free-form, discovered at ingestion
 
-`tag`, `display_name`, `color`, `sort_order`. Drives both the web app filter chips
-and the sheet's conditional formatting, so the two cannot drift.
+**There is no predefined vocabulary.** Any value typed into a `tags` cell becomes a
+real tag. Invent one mid-October, type it on one event, and it exists: it gets a
+color, a filter chip, and a place in the web app on the next compile. Nothing has to
+be registered first.
 
-Starting vocabulary, derived from the 2025 descriptions (counts are how many of the
-167 unique 2025 events a keyword scan matched, as a rough sizing check):
+How `build.py` handles them:
 
-| Tag | 2025 | Tag | 2025 |
-|---|---|---|---|
-| `music` | 46 | `haunted` | 18 |
-| `film` | 36 | `food-drink` | 9 |
-| `drag-burlesque` | 34 | `comedy-theater` | 9 |
-| `costume` | 32 | `family` | 5 |
-| `market` | 25 | `literary` | — |
-| `art-craft` | 22 | `queer` | — |
+- **Discovery.** Tags are collected from every occurrence after fill-down resolution.
+  The full set is whatever appears in the sheet.
+- **Color.** Assigned deterministically from a stable hash of the tag name into a
+  fixed palette, so a given tag keeps the same color across rebuilds and across the
+  season. No configuration, no drift.
+- **Filter chips** in the web app are generated from the discovered set, ordered by
+  frequency, so the tags you actually use surface first.
 
-26 events matched nothing — immersive theater, storytelling, live podcast tapings,
-costume sales, a living-funeral ceremony — so `literary`, `immersive` and `misc`
-are likely additions. Worth finalizing against the real data rather than guessing.
+This costs nothing on the public-sheet side: the 2025 sheet colors **by date block**,
+not by tag, so free-form tags never need to be mirrored into conditional formatting
+rules. (That was the original reason for a controlled vocabulary; it does not apply.)
+
+#### The one real risk: silent typos
+
+Free-form means `haunted` and `hauntd` are both valid tags, and nothing complains.
+A typo does not error — it quietly creates a second tag with one event in it and
+splits a filter.
+
+So `--dry-run` prints the **full discovered tag list with counts**, most-used first,
+and flags likely duplicates as warnings: case variants (`Haunted` / `haunted`),
+singular-plural pairs (`market` / `markets`), and single-character edit-distance
+neighbours. Warnings never block the build — an intentional near-pair like `film` and
+`films` is your call, not the tool's. They just make the typo visible before the
+public sheet sees it.
+
+#### Optional `tags` tab — overrides only
+
+Not required, and empty by default. Add a row only to override what discovery
+guessed for a specific tag:
+
+`tag`, `display_name` (e.g. `drag-burlesque` → "Drag & Burlesque"), `color` (hex,
+to pin one you care about), `sort_order` (to force a tag to the front of the chips).
+
+Any tag absent from this tab behaves exactly as described above.
 
 ### Tab `venues`
 
@@ -354,19 +378,22 @@ Phase 3 can slip without losing the season.
 - Retire the root redirect SW
 - One commit, fully reversible
 
+## Decided
+
+- **Tags are free-form**, created on ingestion, no predefinition. See above.
+- **Branding: co-branded.** FestWiz logo and chrome; "Lite + Brite's Guide to ATX
+  Halloween" as the page title, with a newsletter subscribe link carried over from
+  the sheet's promo row.
+- **PWA installs stay on the festival app** after the mode flip.
+- **One service account** reads the feeder and writes the public sheet.
+
 ## Open Questions
 
-- **Tag vocabulary.** The draft above is keyword-derived from 2025 descriptions.
-  Needs a pass by someone who remembers the events.
-- **Branding.** The sheet is "Lite + Brite's Guide to ATX Halloween" — a newsletter
-  product. The web app sits on festwiz.biz under FestWiz branding. Is the Halloween
-  view FestWiz-branded, Lite + Brite-branded, or co-branded? This affects the header,
-  the logo, and the About copy.
 - **Prior years.** Several earlier spreadsheets exist. Worth importing them as an
   archive view, or is 2026 a clean start?
 - **Abbreviation scrubbing.** The folder is now `southbysouthwest/`, but the
   abbreviation still appears in the deployed app's UI text, `manifest.json`, the
-  page titles, `PROJECT.md`, and the public GitHub repo. If the concern is
+  page titles, and the public GitHub repo (`PROJECT.md` is gitignored, so it is not exposed). If the concern is
   visibility to the organization, the folder name is the smallest of those. Say the
   word and the scrub can extend to the user-facing strings.
 - **Domain.** Is `halloween.festwiz.biz` wanted, or is the path rewrite enough?
