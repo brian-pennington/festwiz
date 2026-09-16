@@ -238,3 +238,9 @@ screenshot.png
 
 # macOS
 .DS_Store
+
+# Halloween tracker — Google service account credentials. Never commit.
+halloween/credentials.json
+**/credentials.json
+*-service-account*.json
+client_secret*.json
