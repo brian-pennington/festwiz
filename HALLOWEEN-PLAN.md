@@ -3,7 +3,8 @@
 Plan of record for adding an Austin Halloween event tracker to FestWiz while
 preserving the 2026 South by Southwest app intact for reuse in 2027 prep.
 
-Status: **ready to build** — 2025 source format analyzed, schema derived.
+Status: **Phase 1 complete, pending preview-deploy verification.**
+2025 source format analyzed, schema derived.
 Written 2026-09-16.
 
 ## Goals
@@ -324,11 +325,13 @@ fill. This is the one piece of design worth prototyping before committing.
 Halloween 2026 is roughly six weeks out. Phase 2 is the part that must ship;
 Phase 3 can slip without losing the season.
 
-**Phase 1 — Freeze & restructure** (~half a day)
-- Tag `southbysouthwest-2026-final`
-- Move the app into `southbysouthwest/`; fix fetch paths, `PRECACHE`, `manifest.json`
-- Add `_redirects` in festival mode; verify the live site is unchanged
-- Deploy and confirm before writing any Halloween code
+**Phase 1 — Freeze & restructure** — ✅ done on branch `phase-1-restructure`
+- ✅ Tagged `southbysouthwest-2026-final` (local tag, pre-move state)
+- ✅ Moved all 21 deployed files into `southbysouthwest/` via `git mv`
+- ✅ Rewrote root-absolute refs; relative `fetch()` calls needed no change
+- ✅ `CACHE_NAME` `fw-v223` → `fw-sbsw-v224`
+- ✅ Added `_redirects`, festival mode active, Halloween mode commented
+- ⬜ **Verify on a Cloudflare preview deploy, then merge to `main`**
 
 **Phase 2 — Ingest & public sheet** (ships standalone)
 - Finalize the feeder schema against the 2025 sheet; create the feeder
