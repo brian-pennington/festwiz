@@ -1967,7 +1967,7 @@
     const admission = getAdmission(show);
     const searchParam = encodeURIComponent(show.artist_name);
     document.getElementById('detail-artist').innerHTML =
-      `${escHtml(show.artist_name)} <a href="/?search=${searchParam}" class="detail-artist-edit-link">(edit in artists)</a>`;
+      `${escHtml(show.artist_name)} <a href="/southbysouthwest/?search=${searchParam}" class="detail-artist-edit-link">(edit in artists)</a>`;
     if (hidePicks !== 'hide' && isRecommended(show)) {
       const pick = document.createElement('span');
       pick.className = 'artist-detail-badge--fw-pick';
@@ -2016,7 +2016,7 @@
       ratingEl.innerHTML = `<span class="detail-rating-label">Rating:</span> <span class="detail-rating-btn active-${rating}">${rating} ${labels[rating]}</span>`;
     } else {
       const searchParam = encodeURIComponent(show.artist_name);
-      ratingEl.innerHTML = `<span class="detail-rating-label">Rating:</span> <span style="color:var(--text-muted);font-size:13px;">Unrated — <a href="/?search=${searchParam}" class="detail-artist-link">go to Artist page</a> to rate</span>`;
+      ratingEl.innerHTML = `<span class="detail-rating-label">Rating:</span> <span style="color:var(--text-muted);font-size:13px;">Unrated — <a href="/southbysouthwest/?search=${searchParam}" class="detail-artist-link">go to Artist page</a> to rate</span>`;
     }
 
     // Link to SxSW page (official) or artist website (unofficial)
