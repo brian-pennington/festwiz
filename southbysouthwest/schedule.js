@@ -2019,7 +2019,7 @@
       ratingEl.innerHTML = `<span class="detail-rating-label">Rating:</span> <span style="color:var(--text-muted);font-size:13px;">Unrated — <a href="/southbysouthwest/?search=${searchParam}" class="detail-artist-link">go to Artist page</a> to rate</span>`;
     }
 
-    // Link to SxSW page (official) or artist website (unofficial)
+    // Link to the official festival page or artist website (unofficial)
     const linkEl = document.getElementById('detail-link');
     linkEl.innerHTML = '';
     if (show.source === 'official' && show.entity_id) {
