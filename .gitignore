@@ -251,3 +251,7 @@ halloween/venues.json
 halloween/tags.json
 # but keep the test fixture, despite the blanket *.csv rule above
 !halloween/sample_feeder.csv
+
+# Local asset archive — PSDs, screen recordings, exports. Never deployed,
+# and contains files far over GitHub's 100MB limit.
+Assets/
