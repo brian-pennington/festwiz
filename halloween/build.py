@@ -30,11 +30,18 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 CREDENTIALS = REPO / "credentials" / "credentials.json"
 
-# A blank cell inherits; this marker means "genuinely empty, do not inherit".
-EXPLICIT_EMPTY = "-"
+# Ditto markers: cells that mean "same as the row above".  A blank cell means
+# this too — typing nothing is the least effort — but people reach for a dash,
+# so both are accepted rather than having one of them silently do the wrong
+# thing.
+DITTO = {"", "-", "--", "\u2013", "\u2014", '"', "\u3003", "same", "ditto", "as above"}
+
+# Markers for "this field is genuinely empty, do not inherit".  Needs to be a
+# word, because every punctuation mark people reach for reads as ditto.
+EXPLICIT_EMPTY = {"none", "n/a", "na", "(none)", "(blank)", "nil"}
 
 # Columns that participate in fill-down.  `date` deliberately does not.
-INHERITABLE = ["venue", "price", "time", "url", "description", "tags"]
+INHERITABLE = ["venue", "price", "time", "end_time", "url", "description", "tags"]
 
 # Accepted spellings for each canonical column.  Order-independent, extra
 # columns ignored, so the feeder can carry working notes we do not read.
@@ -44,7 +51,8 @@ COLUMN_ALIASES = {
     "date":        ["date", "day", "dates"],
     "venue":       ["venue", "location", "place", "where"],
     "price":       ["price", "cost", "admission", "cover"],
-    "time":        ["time", "start", "start_time", "when"],
+    "time":        ["time", "start", "start_time", "when", "start time"],
+    "end_time":    ["end_time", "end time", "end", "until", "finish"],
     "url":         ["url", "link", "website", "event_url"],
     "description": ["description", "desc", "blurb", "details"],
     "tags":        ["tags", "tag", "categories", "category"],
@@ -262,6 +270,10 @@ def resolve(rows, mapping):
             continue
 
         name = cell(row, "name")
+        if name.strip().lower() in DITTO:
+            # A dash/quote/blank in the name column continues the event above.
+            # An event literally named "-" is not a real case.
+            name = ""
         if name:
             block_name = name
             block_start_line = line_no
@@ -289,17 +301,18 @@ def resolve(rows, mapping):
         resolved = {"name": block_name, "date": iso, "date_raw": raw_date}
         for col in INHERITABLE:
             raw = cell(row, col)
-            if raw == EXPLICIT_EMPTY:
+            low = raw.strip().lower()
+            if low in EXPLICIT_EMPTY:
                 resolved[col] = ""
                 carry[col] = ""
                 resolved.setdefault("_explicit", []).append(col)
-            elif raw:
-                resolved[col] = raw
-                carry[col] = raw
-            else:
+            elif low in DITTO:
                 resolved[col] = carry.get(col, "")
                 if col in carry:
                     resolved.setdefault("_inherited", []).append(col)
+            else:
+                resolved[col] = raw
+                carry[col] = raw
 
         status = (cell(row, "status") or "confirmed").strip().lower()
         resolved["status"] = status
@@ -358,7 +371,9 @@ def discover_tags(occurrences):
                 reason = "case variant"
             elif a.rstrip("s") == b.rstrip("s") and a != b:
                 reason = "singular/plural"
-            elif edit_distance_one(a, b):
+            elif (edit_distance_one(a, b)
+                  and min(len(a), len(b)) > 4
+                  and not any(ch.isdigit() for ch in a + b)):
                 reason = "one character apart"
             if reason:
                 suspects.append((a, counts[a], b, counts[b], reason))
@@ -387,6 +402,7 @@ def build_events(occurrences):
             "venue": o["venue"],
             "price": o["price"],
             "time": o["time"],
+            "end_time": o.get("end_time", ""),
             "url": o["url"],
             "description": o["description"],
             "tags": split_tags(o.get("tags")),

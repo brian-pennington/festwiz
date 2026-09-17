@@ -226,49 +226,52 @@ Three tabs. Header row required; column order does not matter; unknown columns i
 | `url` | | Link for the name cell. The thing CSV export loses. |
 | `description` | | The blurb. |
 | `tags` | | Comma-separated. Free-form — any new tag is created on ingestion. |
+| `end_time` | | Optional end time, kept verbatim. |
 | `status` | | `confirmed` (default) · `rumored` · `cancelled`. Cancelled rows are excluded from both exports but kept in the feeder. |
 | `notes` | | Private. **Never exported.** |
 
 ### Fill-down inheritance
 
-A blank cell means **"same as the last row above it that had a value."** This is the
-ditto convention the sheet already reads with visually, and it is the only recurrence
-mechanism — there is no separate series tab and no comma-separated date list.
+A cell that is **blank or holds a dash** means "same as the row above". This is
+the ditto convention the sheet already reads with visually, and it is the only
+recurrence mechanism — no separate series tab, no comma-separated date list.
+
+**Ditto markers** (any of these, case-insensitive): blank, `-`, `--`, en dash,
+em dash, `"`, `〃`, `same`, `ditto`, `as above`.
+
+**Genuinely-empty markers**: `none`, `n/a`, `na`, `(none)`, `(blank)`, `nil`.
+These have to be words. Every punctuation mark people actually reach for reads
+as ditto, so a symbol would be ambiguous.
 
 Resolution rules:
 
-1. **Blocks.** A row with a non-blank `name` starts a block. The block ends at the
-   next row with a non-blank `name`. **Inheritance never crosses a block boundary** —
-   without this, a blank venue on an unrelated event further down the sheet would
-   silently pick up a value from a different event.
-2. **Chaining.** Inheritance walks up to the nearest non-blank value in that column
-   within the block, not to the block's first row. So an event can change venue on
-   occurrence 2 and have occurrences 3 and 4 inherit *that* venue.
-3. **`date` is never inherited.** Every row carries its own date. A continuation row
-   with no date is a hard error, not a warning — otherwise a stray blank row is
-   indistinguishable from an occurrence.
-4. **Explicit empty.** A literal `-` means "this field is genuinely empty, do not
-   inherit." Needed because blank already means inherit — and real events do have no
-   price (20 of them in 2025, plus one literal `?`).
-5. `recurring` is informational and may be left blank on continuation rows. Block
-   structure is determined by the `name` column, not by this flag.
+1. **Blocks.** A row with a real `name` starts a block; it ends at the next row
+   with a real name. A ditto marker in the name column continues the block —
+   an event literally named `-` is not a real case. **Inheritance never crosses
+   a block boundary**, so a blank venue on an unrelated event further down the
+   sheet cannot pick up a value from a different event.
+2. **Chaining.** Inheritance walks up to the nearest non-ditto value in that
+   column within the block, not to the block's first row. An event can change
+   venue on occurrence 2 and have occurrences 3 and 4 inherit *that* venue.
+3. **`date` is never inherited.** Every row carries its own date. A row with no
+   date is a hard error — otherwise a stray blank row is indistinguishable from
+   an occurrence.
+4. **Explicit empty.** Needed because ditto is the default, and real events do
+   have no price — 20 of them in 2025, plus one literal `?`.
 
 Worked example, the hardest case from 2025 — venue *and* time change every date:
 
 ```
 name                  | date      | venue            | price | time
 Austin Witches Market | Sat 10/11 | Cosmic Saltillo  | free  | 6-10pm
-                      | Sun 10/12 | Radio East       |       | 12-4pm
-                      | Sat 10/18 | Brewtorium       |       |
-                      | Sat 10/25 | Drinks Backyard  |       | 6-10pm
-                      | Sun 10/26 | Far Out Lounge   |       |
+-                     | Sun 10/12 | Radio East       | -     | 12-4pm
+-                     | Sat 10/18 | Brewtorium       | -     | -
+-                     | Sat 10/25 | Drinks Backyard  | -     | 6-10pm
+-                     | Sun 10/26 | Far Out Lounge   | -     | -
 ```
 
-Row 3's blank time resolves to `12-4pm` (row 2), not `6-10pm` (row 1). Price and
-description are typed once and inherited by all five.
-
-Against the 2025 data this is ~23% fewer cells overall, but the saving is
-concentrated in the long ones: 166 descriptions written instead of 239.
+Row 3's dittoed time resolves to `12-4pm` (row 2), not `6-10pm` (row 1). Price
+and description are typed once and inherited by all five.
 
 ### Validating inherited values
 

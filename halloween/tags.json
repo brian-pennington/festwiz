@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "tag": "13+",
+    "count": 11,
+    "color": "#2f7d4f"
+  },
+  {
+    "tag": "all ages",
+    "count": 2,
+    "color": "#7d4e24"
+  },
+  {
+    "tag": "18+",
+    "count": 1,
+    "color": "#4a4a8c"
+  }
+]

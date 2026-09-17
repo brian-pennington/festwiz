@@ -1,1 +1,225 @@
-[]
+[
+  {
+    "id": "meow-lloween-2026-10-02-1",
+    "name": "Meow-lloween",
+    "date": "2026-10-02",
+    "venue": "Purrfecto Cat Lounge",
+    "price": "$43",
+    "time": "7:20 PM",
+    "end_time": "",
+    "url": "https://purrfectocatlounge.com/catx-perience",
+    "description": "",
+    "tags": [
+      "all ages"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-02-1",
+    "name": "Scare for a Cure",
+    "date": "2026-10-02",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-03-2",
+    "name": "Scare for a Cure",
+    "date": "2026-10-03",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "meow-lloween-2026-10-09-2",
+    "name": "Meow-lloween",
+    "date": "2026-10-09",
+    "venue": "Purrfecto Cat Lounge",
+    "price": "$43",
+    "time": "7:20 PM",
+    "end_time": "",
+    "url": "https://purrfectocatlounge.com/catx-perience",
+    "description": "",
+    "tags": [
+      "all ages"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-09-3",
+    "name": "Scare for a Cure",
+    "date": "2026-10-09",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-10-4",
+    "name": "Scare for a Cure",
+    "date": "2026-10-10",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "haunted-hoedown-2026-10-15-1",
+    "name": "Haunted Hoedown",
+    "date": "2026-10-15",
+    "venue": "Elysium",
+    "price": "$15",
+    "time": "8:00 PM",
+    "end_time": "12:00 AM",
+    "url": "https://www.instagram.com/p/DdUPpmQNiU-/",
+    "description": "",
+    "tags": [
+      "18+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-16-5",
+    "name": "Scare for a Cure",
+    "date": "2026-10-16",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "cobweb-cabaret-2026-10-17-1",
+    "name": "Cobweb Cabaret",
+    "date": "2026-10-17",
+    "venue": "The State Theatre",
+    "price": "$64-$70",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://tickets.austintheatre.org/14144",
+    "description": "",
+    "tags": [],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-17-6",
+    "name": "Scare for a Cure",
+    "date": "2026-10-17",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-22-7",
+    "name": "Scare for a Cure",
+    "date": "2026-10-22",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-23-8",
+    "name": "Scare for a Cure",
+    "date": "2026-10-23",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-24-9",
+    "name": "Scare for a Cure",
+    "date": "2026-10-24",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-29-10",
+    "name": "Scare for a Cure",
+    "date": "2026-10-29",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  },
+  {
+    "id": "scare-for-a-cure-2026-10-30-11",
+    "name": "Scare for a Cure",
+    "date": "2026-10-30",
+    "venue": "Ghost Town Manor Market",
+    "price": "$40-$50",
+    "time": "various",
+    "end_time": "",
+    "url": "https://scareforacure.org/",
+    "description": "",
+    "tags": [
+      "13+"
+    ],
+    "status": "confirmed"
+  }
+]

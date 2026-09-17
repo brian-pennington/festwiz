@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "venue": "Elysium",
+    "count": 1
+  },
+  {
+    "venue": "Ghost Town Manor Market",
+    "count": 11
+  },
+  {
+    "venue": "Purrfecto Cat Lounge",
+    "count": 2
+  },
+  {
+    "venue": "The State Theatre",
+    "count": 1
+  }
+]
