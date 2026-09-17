@@ -1,7 +1,8 @@
 {
-  "_comment": "Sheet IDs are not secrets \u2014 access is granted by sharing each sheet with the service account. The key itself lives in ../credentials/.",
+  "_comment": "Sheet ids are not secrets \u2014 access comes from sharing each sheet with the service account. The key itself lives in ../credentials/. 'year' is assumed for dates written without one.",
   "feeder_sheet": "1hRLqlgToTPBTqKi2qssly0YONhkw6RR9UISWEZMuhuA",
   "feeder_tab": null,
   "public_sheet": "1JJlnBhnhkEWf5-cQyvAUNqIahYUhcjGTuTca3u8a9Yw",
-  "public_tab": "Halloween Events by Date"
+  "public_tab": "Halloween Events by Date",
+  "year": 2026
 }

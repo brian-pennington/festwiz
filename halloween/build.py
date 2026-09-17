@@ -25,20 +25,17 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
-FESTIVAL_YEAR = 2026
+FESTIVAL_YEAR = 2026   # overridden by "year" in halloween/config.json
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 CREDENTIALS = REPO / "credentials" / "credentials.json"
 
-# Ditto markers: cells that mean "same as the row above".  A blank cell means
-# this too — typing nothing is the least effort — but people reach for a dash,
-# so both are accepted rather than having one of them silently do the wrong
-# thing.
-DITTO = {"", "-", "--", "\u2013", "\u2014", '"', "\u3003", "same", "ditto", "as above"}
-
-# Markers for "this field is genuinely empty, do not inherit".  Needs to be a
-# word, because every punctuation mark people reach for reads as ditto.
-EXPLICIT_EMPTY = {"none", "n/a", "na", "(none)", "(blank)", "nil"}
+# Ditto markers: cells that mean "same as the row above".  Repeating a value
+# requires an explicit mark — a BLANK cell is simply empty and inherits
+# nothing.  That way a field left out by accident shows up as a visible gap
+# instead of silently carrying the previous row's data forward, which would
+# look correct and be wrong.
+DITTO = {"-", "--", "\u2013", "\u2014", '"', "\u3003", "same", "ditto", "as above"}
 
 # Columns that participate in fill-down.  `date` deliberately does not.
 INHERITABLE = ["venue", "price", "time", "end_time", "url", "description", "tags"]
@@ -271,9 +268,14 @@ def resolve(rows, mapping):
 
         name = cell(row, "name")
         if name.strip().lower() in DITTO:
-            # A dash/quote/blank in the name column continues the event above.
-            # An event literally named "-" is not a real case.
+            # A dash in the name column continues the event above.
             name = ""
+        elif not name and any((c or "").strip() for c in row):
+            errors.append(
+                f"line {line_no}: row has data but no event name. Use '-' in the "
+                f"name column to repeat the event above."
+            )
+            continue
         if name:
             block_name = name
             block_start_line = line_no
@@ -301,16 +303,12 @@ def resolve(rows, mapping):
         resolved = {"name": block_name, "date": iso, "date_raw": raw_date}
         for col in INHERITABLE:
             raw = cell(row, col)
-            low = raw.strip().lower()
-            if low in EXPLICIT_EMPTY:
-                resolved[col] = ""
-                carry[col] = ""
-                resolved.setdefault("_explicit", []).append(col)
-            elif low in DITTO:
+            if raw.strip().lower() in DITTO:
                 resolved[col] = carry.get(col, "")
                 if col in carry:
                     resolved.setdefault("_inherited", []).append(col)
             else:
+                # Blank included: an empty cell is empty, not inherited.
                 resolved[col] = raw
                 carry[col] = raw
 
@@ -506,6 +504,8 @@ def main():
                       file=sys.stderr)
                 return 2
             tab = args.tab or cfg.get("feeder_tab")
+            if cfg.get("year"):
+                globals()["FESTIVAL_YEAR"] = int(cfg["year"])
             rows = read_sheet(ref, tab)
             origin = f"sheet {sheet_id_from(ref)}" + (f" tab {tab!r}" if tab else "")
     except BuildError as e:

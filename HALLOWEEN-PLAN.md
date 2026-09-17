@@ -232,16 +232,16 @@ Three tabs. Header row required; column order does not matter; unknown columns i
 
 ### Fill-down inheritance
 
-A cell that is **blank or holds a dash** means "same as the row above". This is
-the ditto convention the sheet already reads with visually, and it is the only
-recurrence mechanism — no separate series tab, no comma-separated date list.
+A cell holding a **dash** means "same as the row above". A **blank cell is
+simply empty** and inherits nothing.
 
-**Ditto markers** (any of these, case-insensitive): blank, `-`, `--`, en dash,
-em dash, `"`, `〃`, `same`, `ditto`, `as above`.
+Repeating requires an explicit mark, deliberately. A field left out by accident
+then shows up as a visible gap rather than silently carrying the previous row's
+price or venue forward — which would look correct and be wrong. Intent to repeat
+has to be stated.
 
-**Genuinely-empty markers**: `none`, `n/a`, `na`, `(none)`, `(blank)`, `nil`.
-These have to be words. Every punctuation mark people actually reach for reads
-as ditto, so a symbol would be ambiguous.
+**Ditto markers** (case-insensitive): `-`, `--`, en dash, em dash, `"`, `〃`,
+`same`, `ditto`, `as above`.
 
 Resolution rules:
 
@@ -256,8 +256,12 @@ Resolution rules:
 3. **`date` is never inherited.** Every row carries its own date. A row with no
    date is a hard error — otherwise a stray blank row is indistinguishable from
    an occurrence.
-4. **Explicit empty.** Needed because ditto is the default, and real events do
-   have no price — 20 of them in 2025, plus one literal `?`.
+4. **Blank is empty.** No marker needed for a genuinely absent value — 20 events
+   in 2025 had no price. A row with data but no name and no dash is an error,
+   since it is ambiguous whether a new event or a repeat was meant.
+5. **Year** comes from `year` in `halloween/config.json` (2026), so dates can be
+   written `10/25` with no year. Changing season is a config edit, not a code
+   edit.
 
 Worked example, the hardest case from 2025 — venue *and* time change every date:
 
