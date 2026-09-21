@@ -431,6 +431,61 @@ would. The natural moment to change them is 2027 prep, when the `2026` suffix ha
 change anyway and there is no live data worth preserving — free then, risky now.
 A migration shim could do it sooner if wanted.
 
+## Where things stand (2026-09-21)
+
+**Done and live.** Phase 1 merged to `main` and deployed. The festival app runs
+at `/southbysouthwest/`, served at `/` by the `_redirects` rewrite, with the
+`_headers` service-worker scope grant. Verified on a preview deploy and then in
+production; Brian confirmed festwiz.biz resolves and his ratings survived the
+move. Tag `southbysouthwest-2026-final` is pushed to GitHub.
+
+**Ingest works end to end (read half).** `halloween/build.py` reads the feeder
+sheet live via gspread, resolves ditto inheritance, validates, and writes
+`events.json` / `venues.json` / `tags.json`.
+
+```bash
+python3 halloween/build.py --dry-run          # validate, write nothing
+python3 halloween/build.py                    # write the JSON
+python3 halloween/build.py --csv <file>       # read an export instead
+```
+
+Validated two ways: the live feeder's 15 test rows resolve correctly (4 events,
+2 recurring), and a fixture generated from the 2025 guide reconstructs all 239
+occurrences exactly, field for field.
+
+**Feeder columns**, all mapping: Event name, URL, Date, Start time, End time,
+Location, Price, Tags, Description, Status, Notes.
+
+**Credentials** live in `credentials/` (gitignored). Service account is
+`agent-380@l-and-b-halloween-2026.iam.gserviceaccount.com`. Both sheets are
+shared with it — feeder as Viewer, public sheet as Editor. Sheet ids are in
+`halloween/config.json`.
+
+### Next, in order
+
+1. **Read the public sheet's formatting.** Access is confirmed (360 rows read).
+   Still unexamined: the rotating pastel-per-date fills, black section banners,
+   frozen panes, and the hyperlinks on event names — CSV export flattens all of
+   it. This determines whether the writer can be values-only against a template
+   with conditional-formatting rules, or has to emit cell formatting itself.
+   The open sub-question is the 34 date-section banner rows: since the script
+   regenerates the whole value range each compile, they cannot be hand-formatted
+   per row.
+2. **Write half of the pipeline** — push resolved occurrences to the public sheet.
+3. **Phase 3, the web app** — `halloween/index.html` reading `events.json`.
+
+### Undecided
+
+- **Age as its own column vs. a tag.** Brian currently tags `13+`, `18+`,
+  `all ages`. Recommendation on the table: a dedicated column, because age is
+  ordinal and tags are not — a column supports "suitable for a 14-year-old"
+  (everything at or below a threshold), enforces one value per event, keeps the
+  tag chips about event *kind*, and can be validated. Cheap now, expensive once
+  the feeder has 200 rows. Awaiting Brian's call.
+- **`halloween/build.py` is tracked**, so in Halloween mode the rewrite would
+  serve it at `/build.py`. No secrets in it, but it could move to a `tools/`
+  directory that 404s in both modes.
+
 ## Open Questions
 
 _(none currently open.)_
