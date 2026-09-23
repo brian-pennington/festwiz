@@ -375,6 +375,20 @@ def resolve(rows, mapping):
             )
         occurrences.append(resolved)
 
+    # A dash on both date and time makes a row an exact copy of the one above.
+    # Nothing else catches it, so flag it rather than emit a silent duplicate.
+    seen = {}
+    for o in occurrences:
+        key = (o["name"], o["date"], o["time"])
+        if key in seen:
+            warnings.append(
+                f"line {o['line']}: identical to line {seen[key]} — same event, "
+                f"date and time ({o['date']} {o['time'] or 'no time'}). "
+                f"Did a '-' repeat a date that should have been new?"
+            )
+        else:
+            seen[key] = o["line"]
+
     return occurrences, errors, warnings
 
 
