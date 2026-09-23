@@ -35,8 +35,18 @@ PROMO_URL = "https://liteandbriteatx.com/"
 
 HEADERS = ["Name", "Location", "Price", "Time", "Description"]
 
-# Section fills, cycling in this order. Taken from the 2025 sheet.
-PALETTE = ["#f4cccc", "#f6b674", "#d0e0e3", "#d9d2e9", "#b6d7a8", "#cccccc"]
+# One Halloween-themed fill per day, cycling through five. Taken from the 2025
+# sheet, minus its sixth colour (a neutral grey, #cccccc, which read as filler
+# rather than part of the theme).
+#
+# "All Month Long" is a day like any other and takes the first colour.
+PALETTE = [
+    "#f4cccc",   # blood
+    "#f6b674",   # pumpkin
+    "#d9d2e9",   # witch
+    "#b6d7a8",   # slime
+    "#d0e0e3",   # moonlight
+]
 
 TITLE_BG = "#e69138"
 BANNER_BG = "#000000"
