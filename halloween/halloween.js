@@ -278,6 +278,9 @@
     els.count.hidden = active === 0;
     els.count.textContent = active;
     els.clear.hidden = active === 0;
+    els.result.textContent = active
+      ? shown.length + ' of ' + state.events.length + ' events'
+      : state.events.length + ' events';
 
     if (!shown.length) {
       els.status.hidden = false;
@@ -302,58 +305,112 @@
     return d[d.length - 1];
   }
 
-  /* ── chips ────────────────────────────────────────────────────────── */
+  /* ── filter dropdowns ─────────────────────────────────────────────── */
 
-  function chip(label, pressed, cls) {
-    return '<button type="button" class="chip' + (cls ? ' ' + cls : '') +
-      '" aria-pressed="' + (pressed ? 'true' : 'false') +
-      '" data-value="' + esc(label) + '">' + esc(label) + '</button>';
+  var TICK = '<svg class="opt__tick" viewBox="0 0 24 24" fill="none" ' +
+    'stroke="currentColor" stroke-width="3" stroke-linecap="round" ' +
+    'stroke-linejoin="round" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>';
+
+  function opt(label, value, pressed, cls, count) {
+    return '<button type="button" class="opt' + (cls ? ' ' + cls : '') + '"' +
+      ' aria-pressed="' + (pressed ? 'true' : 'false') + '"' +
+      ' data-value="' + esc(value) + '">' +
+      (cls ? '' : (pressed ? TICK : '<span class="opt__tick"></span>')) +
+      '<span>' + esc(label) + '</span>' +
+      (count != null ? ' <span class="opt__count">' + count + '</span>' : '') +
+      '</button>';
   }
 
-  function buildChips() {
-    els.when.innerHTML =
-      chip('All dates', state.when === 'all') +
-      chip('Today', state.when === 'today') +
-      chip('This weekend', state.when === 'weekend');
-
-    var tagCounts = {};
+  function tagCounts() {
+    var counts = {};
     state.events.forEach(function (e) {
-      e.tags.forEach(function (t) { tagCounts[t] = (tagCounts[t] || 0) + 1; });
+      e.tags.forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
     });
-    var tags = Object.keys(tagCounts).sort(function (a, b) {
-      return tagCounts[b] - tagCounts[a] || a.localeCompare(b);
-    });
-    els.tags.innerHTML = tags.map(function (t) {
-      return chip(t, state.tags.indexOf(t) !== -1, 'chip--tag');
-    }).join('') || '<span class="status">No tags yet.</span>';
+    return counts;
+  }
 
-    // Ordinal: picking 13 shows everything admitting a 13-year-old.
-    var ages = [];
+  function ageValues() {
+    var seen = [];
     state.events.forEach(function (e) {
-      if (e.age_min !== null && ages.indexOf(e.age_min) === -1) ages.push(e.age_min);
+      if (e.age_min !== null && seen.indexOf(e.age_min) === -1) seen.push(e.age_min);
     });
-    ages.sort(function (a, b) { return a - b; });
-    els.age.innerHTML = chip('Any age', state.maxAge === null) +
-      ages.map(function (a) {
-        return chip(a === 0 ? 'All ages' : a + '+', state.maxAge === a);
+    return seen.sort(function (a, b) { return a - b; });
+  }
+
+  function ageLabel(a) { return a === 0 ? 'All ages' : a + '+'; }
+
+  function buildPanels() {
+    els.panelWhen.innerHTML =
+      opt('All dates', 'all', state.when === 'all') +
+      opt('Today', 'today', state.when === 'today') +
+      opt('This weekend', 'weekend', state.when === 'weekend');
+
+    var counts = tagCounts();
+    var tags = Object.keys(counts).sort(function (a, b) {
+      return counts[b] - counts[a] || a.localeCompare(b);
+    });
+    els.panelTags.innerHTML = tags.length
+      ? tags.map(function (t) {
+          return opt(t, t, state.tags.indexOf(t) !== -1, 'opt--tag', counts[t]);
+        }).join('')
+      : '<span class="filters__result">No tags yet.</span>';
+
+    els.panelAge.innerHTML = opt('Any age', 'any', state.maxAge === null) +
+      ageValues().map(function (a) {
+        return opt(ageLabel(a), String(a), state.maxAge === a);
       }).join('');
+
+    syncLabels();
   }
 
-  function onChipClick(group, e) {
-    var btn = e.target.closest('.chip');
-    if (!btn) return;
-    var v = btn.getAttribute('data-value');
+  function syncLabels() {
+    els.valWhen.textContent =
+      state.when === 'today' ? 'Today'
+      : state.when === 'weekend' ? 'This weekend'
+      : 'All dates';
+    els.dropWhen.classList.toggle('is-set', state.when !== 'all');
 
-    if (group === 'when') {
-      state.when = v === 'Today' ? 'today' : v === 'This weekend' ? 'weekend' : 'all';
-    } else if (group === 'tags') {
-      var i = state.tags.indexOf(v);
-      if (i === -1) state.tags.push(v); else state.tags.splice(i, 1);
-    } else {
-      state.maxAge = v === 'Any age' ? null : (v === 'All ages' ? 0 : parseInt(v, 10));
-    }
-    buildChips();
-    render();
+    els.valTags.textContent =
+      state.tags.length === 0 ? 'Any'
+      : state.tags.length === 1 ? state.tags[0]
+      : state.tags.length + ' selected';
+    els.dropTags.classList.toggle('is-set', state.tags.length > 0);
+
+    els.valAge.textContent = state.maxAge === null ? 'Any age' : ageLabel(state.maxAge);
+    els.dropAge.classList.toggle('is-set', state.maxAge !== null);
+  }
+
+  function closeAllDrops(except) {
+    [els.dropWhen, els.dropTags, els.dropAge].forEach(function (d) {
+      if (d === except) return;
+      d.classList.remove('is-open');
+      d.querySelector('.fdrop__btn').setAttribute('aria-expanded', 'false');
+      d.querySelector('.fdrop__panel').hidden = true;
+    });
+  }
+
+  function toggleDrop(drop) {
+    var open = !drop.classList.contains('is-open');
+    closeAllDrops(open ? drop : null);
+    drop.classList.toggle('is-open', open);
+    drop.querySelector('.fdrop__btn').setAttribute('aria-expanded', String(open));
+    drop.querySelector('.fdrop__panel').hidden = !open;
+  }
+
+  function wireDrop(drop, onPick, closeOnPick) {
+    drop.querySelector('.fdrop__btn').addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleDrop(drop);
+    });
+    drop.querySelector('.fdrop__panel').addEventListener('click', function (e) {
+      var btn = e.target.closest('.opt');
+      if (!btn) return;
+      e.stopPropagation();
+      onPick(btn.getAttribute('data-value'));
+      buildPanels();
+      render();
+      if (closeOnPick) toggleDrop(drop);
+    });
   }
 
   function setView(view) {
@@ -371,7 +428,10 @@
   function init() {
     els = {
       sub: $('masthead-sub'), status: $('status'), results: $('results'),
-      when: $('chips-when'), tags: $('chips-tags'), age: $('chips-age'),
+      dropWhen: $('drop-when'), dropTags: $('drop-tags'), dropAge: $('drop-age'),
+      panelWhen: $('panel-when'), panelTags: $('panel-tags'), panelAge: $('panel-age'),
+      valWhen: $('val-when'), valTags: $('val-tags'), valAge: $('val-age'),
+      result: $('filters-result'),
       search: $('filter-search'), clear: $('btn-clear'), count: $('filters-count'),
       cardsBtn: $('btn-view-cards'), tableBtn: $('btn-view-table'),
       filters: $('filters'), filtersBtn: $('btn-filters')
@@ -382,9 +442,20 @@
       if (saved === 'table' || saved === 'cards') state.view = saved;
     } catch (err) { /* private mode: keep the default */ }
 
-    els.when.addEventListener('click', onChipClick.bind(null, 'when'));
-    els.tags.addEventListener('click', onChipClick.bind(null, 'tags'));
-    els.age.addEventListener('click', onChipClick.bind(null, 'age'));
+    wireDrop(els.dropWhen, function (v) { state.when = v; }, true);
+    wireDrop(els.dropTags, function (v) {
+      var i = state.tags.indexOf(v);
+      if (i === -1) state.tags.push(v); else state.tags.splice(i, 1);
+    }, false);
+    wireDrop(els.dropAge, function (v) {
+      state.maxAge = v === 'any' ? null : parseInt(v, 10);
+    }, true);
+
+    // Click-away and Escape close whichever panel is open.
+    document.addEventListener('click', function () { closeAllDrops(null); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeAllDrops(null);
+    });
     els.cardsBtn.addEventListener('click', function () { setView('cards'); });
     els.tableBtn.addEventListener('click', function () { setView('table'); });
 
@@ -400,7 +471,7 @@
     els.clear.addEventListener('click', function () {
       state.when = 'all'; state.tags = []; state.maxAge = null; state.search = '';
       els.search.value = '';
-      buildChips(); render();
+      buildPanels(); render();
     });
 
     els.filtersBtn.addEventListener('click', function () {
@@ -416,7 +487,7 @@
       .then(function (data) {
         state.events = data.filter(function (e) { return e.status !== 'cancelled'; });
         setView(state.view);
-        buildChips();
+        buildPanels();
         render();
       })
       .catch(function (err) {
