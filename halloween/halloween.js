@@ -452,8 +452,17 @@
     // must not be counted in the sticky offset.
     var stuck = filters && getComputedStyle(filters).position === 'sticky'
       ? filters.getBoundingClientRect().height : 0;
-    root.style.setProperty('--masthead-h', Math.round(mh) + 'px');
-    root.style.setProperty('--sticky-top', Math.round(mh + stuck) + 'px');
+
+    // Always round DOWN and take another pixel off, so each sticky bar
+    // OVERLAPS the one above it instead of leaving a seam. Rounding to
+    // nearest can round up on a fractional height, which parks the bar a
+    // pixel low and lets rows scroll visibly through the gap. The overlap
+    // is hidden because the bars stack by z-index: masthead 30 > filters
+    // 20 > table header 10.
+    var mastTop = Math.max(0, Math.floor(mh) - 1);
+    root.style.setProperty('--masthead-h', mastTop + 'px');
+    root.style.setProperty('--sticky-top',
+      Math.max(0, mastTop + Math.floor(stuck) - 1) + 'px');
   }
 
   /* ── boot ─────────────────────────────────────────────────────────── */

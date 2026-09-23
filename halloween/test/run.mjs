@@ -103,8 +103,9 @@ console.log('\nSTICKY OFFSETS');
   boot();
   await new Promise(r => setTimeout(r, 60));
   const p = globalThis.__styleProps;
-  is('--masthead-h is measured, not assumed', p['--masthead-h'], '78px');
-  is('--sticky-top stacks masthead + filters', p['--sticky-top'], '156px');
+  // Stub heights are 78 each; each bar overlaps the one above by 1px.
+  is('--masthead-h overlaps the masthead by 1px', p['--masthead-h'], '77px');
+  is('--sticky-top overlaps the filter bar by 1px', p['--sticky-top'], '154px');
 }
 
 console.log(failures ? `\n${failures} FAILURE(S)\n` : '\nall checks passed\n');
