@@ -49,6 +49,13 @@
 
   --gutter: 40px;
 
+  /* Diagonal hatch behind the cards. The SVG is used as a MASK, so its own
+     fill is irrelevant and these two control the look entirely — change the
+     colour and the strength here, no need to touch the file. */
+  --texture-color: #ffffff;
+  --texture-opacity: 0.05;
+  --texture-size: 6px;
+
   /* Measured at runtime by halloween.js — the masthead's height and the
      masthead+filters stack. Hardcoding these left the sticky table header
      parked below the filter bar with a strip of page showing through, and
@@ -296,7 +303,31 @@ a:hover { color: #ffc46b; }
 
 /* ── layout ───────────────────────────────────────────────────────────── */
 
-main { padding: 0 var(--gutter) 48px; }
+main { padding: 0 var(--gutter) 48px; position: relative; }
+
+/* Texture sits on the panel itself. Cards have a solid background so they
+   read as lying on top of it; the day headings are transparent, so the hatch
+   runs straight through them and ties the sections together.
+   Table view opts out — half its rows are unstriped, so the hatch would show
+   through every other row and fight the data. */
+body[data-view="cards"] main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-color: var(--texture-color);
+  opacity: var(--texture-opacity);
+  -webkit-mask-image: url("assets/diagonal-lines.svg");
+  mask-image: url("assets/diagonal-lines.svg");
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  -webkit-mask-size: var(--texture-size) var(--texture-size);
+  mask-size: var(--texture-size) var(--texture-size);
+}
+
+/* Lift the content above the texture layer. */
+main > * { position: relative; z-index: 1; }
 
 .status { color: var(--text-4); font-size: 14px; padding: 28px 0; }
 

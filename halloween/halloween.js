@@ -430,6 +430,8 @@
 
   function setView(view) {
     state.view = view;
+    // Drives the card-view-only background texture in the stylesheet.
+    document.body.setAttribute('data-view', view);
     els.cardsBtn.classList.toggle('is-active', view === 'cards');
     els.tableBtn.classList.toggle('is-active', view === 'table');
     els.cardsBtn.setAttribute('aria-pressed', String(view === 'cards'));

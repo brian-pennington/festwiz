@@ -35,6 +35,7 @@ export function boot({ at = null, events = null } = {}) {
       style: { setProperty(k, v) { styleProps[k] = v; } },
     },
     addEventListener() {},
+    body: mkEl('body'),
   };
   globalThis.__styleProps = styleProps;
   globalThis.getComputedStyle = () => ({ position: 'sticky' });
