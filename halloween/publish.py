@@ -321,9 +321,15 @@ def main():
     sh = gc.open_by_key(cfg["public_sheet"])
     ws = sh.worksheet(cfg["public_tab"])
 
-    need = len(rows) + 20
-    if ws.row_count < need:
-        ws.add_rows(need - ws.row_count)
+    # The grid has to be big enough before anything is written. Adding a
+    # column to the schema is otherwise silent: values land nowhere and the
+    # new headers simply do not appear.
+    need_rows = len(rows) + 20
+    if ws.row_count < need_rows:
+        ws.add_rows(need_rows - ws.row_count)
+    if ws.col_count < N_COLS:
+        ws.add_cols(N_COLS - ws.col_count)
+        print(f"widened sheet to {N_COLS} columns")
     ws.clear()
     # TEXT format must land before the values, or Sheets parses them on the way in.
     sh.batch_update({"requests": text_format_requests(ws.id, len(rows))})
