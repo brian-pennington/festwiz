@@ -53,10 +53,17 @@ console.log('\nFILTERS');
   s.tags = [];
   s.maxAge = 0;  const a0 = n();
   s.maxAge = 13; const a13 = n();
+  s.maxAge = 18; const a18 = n();
   s.maxAge = 21; const a21 = n();
-  is('age filter is ordinal (0 <= 13 <= 21)', a0 <= a13 && a13 <= a21, true);
+  is('age filter is ordinal', a0 <= a13 && a13 <= a18 && a18 <= a21, true);
   is('age=21 admits everything', a21, data.length);
+
+  // Unlisted ages count as 21+, so anything below 21 must hide them all.
+  const noAge = data.filter(e => e.age_min === null).length;
+  is('unlisted ages are hidden below 21', a18 <= data.length - noAge, true);
+  is('unlisted ages reappear at 21', a21 - a18 >= noAge, true);
   s.maxAge = null;
+  is('Any age shows everything', n(), data.length);
   s.search = 'vortex'; is('search matches venue', n() > 0, true);
   s.search = 'zzzznope'; is('search with no hits', n(), 0);
 }

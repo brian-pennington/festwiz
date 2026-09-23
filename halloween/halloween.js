@@ -16,6 +16,12 @@
   var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   var DAY_COLOURS = 6;
 
+  // An event with no stated age policy is treated as 21+, so picking 18+ or
+  // lower hides it. Most unlisted events here are bar shows; assuming they
+  // admit children would be the more misleading guess. The card still shows
+  // no age rather than claiming 21+, because we do not actually know.
+  var UNKNOWN_AGE = 21;
+
   var state = {
     events: [],
     view: 'cards',
@@ -96,9 +102,10 @@
       if (!hit) return false;
     }
 
-    // An event with no stated age policy is never excluded — we do not know
-    // that it bars anyone, and hiding it would lose real events.
-    if (state.maxAge !== null && ev.age_min !== null && ev.age_min > state.maxAge) return false;
+    if (state.maxAge !== null) {
+      var min = ev.age_min === null ? UNKNOWN_AGE : ev.age_min;
+      if (min > state.maxAge) return false;
+    }
 
     if (state.search) {
       var hay = (ev.name + ' ' + ev.venue + ' ' + ev.description + ' ' + ev.tags.join(' ')).toLowerCase();
@@ -330,7 +337,9 @@
   }
 
   function ageValues() {
-    var seen = [];
+    // UNKNOWN_AGE is always offered: without it there would be no way back to
+    // seeing the events that have no stated policy.
+    var seen = [UNKNOWN_AGE];
     state.events.forEach(function (e) {
       if (e.age_min !== null && seen.indexOf(e.age_min) === -1) seen.push(e.age_min);
     });
@@ -358,7 +367,9 @@
     els.panelAge.innerHTML = opt('Any age', 'any', state.maxAge === null) +
       ageValues().map(function (a) {
         return opt(ageLabel(a), String(a), state.maxAge === a);
-      }).join('');
+      }).join('') +
+      '<p class="fdrop__note">Events with no listed age are treated as ' +
+      UNKNOWN_AGE + '+.</p>';
 
     syncLabels();
   }

@@ -251,6 +251,12 @@ a:hover { color: #ffc46b; }
 .opt__count { color: var(--text-4); font-size: 12px; font-weight: 400; }
 .opt--tag[aria-pressed="true"] .opt__count { color: #3d1b0e; }
 
+.fdrop__note {
+  margin: 6px 3px 1px; padding-top: 7px;
+  border-top: 1px solid #3a3229;
+  font-size: 12px; line-height: 1.35; color: var(--text-4);
+}
+
 .filters__search { flex: 1 1 200px; min-width: 160px; display: flex; }
 .filters__search input {
   flex: 1 1 auto; min-height: 36px;
