@@ -53,7 +53,7 @@
      fill is irrelevant and these two control the look entirely — change the
      colour and the strength here, no need to touch the file. */
   --texture-color: #ffffff;
-  --texture-opacity: 0.1;
+  --texture-opacity: 0.25;
   --texture-size: 6px;
 
   /* Measured at runtime by halloween.js — the masthead's height and the
@@ -445,6 +445,11 @@ main > * { position: relative; z-index: 1; }
   background: #e69138; color: #14120f;
   border-top: 12px solid #000;
 }
+
+/* In card view the hatch already separates the panel from the footer, so the
+   heavy rule is redundant. Table view keeps it: there it echoes the closing
+   black rule of the printed guide. */
+body[data-view="cards"] .sitefoot { border-top: 0; }
 /* Full width: the longest line is ~132 characters, about 845px at this size,
    so each sits on one row on any desktop and wraps naturally below that.
    A measure cap would be better for long-form reading, but these are four
