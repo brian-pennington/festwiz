@@ -3,6 +3,8 @@
  * Forked from the festival app's design language (teal nav, crimson accent)
  * but its own file: see HALLOWEEN-PLAN.md on why these are not shared.
  *
+ * Dark only, by design — see the note on <html> below.
+ *
  * The six day colours come from the printed guide. There they are page
  * backgrounds with black text; here they are headings, rules and borders,
  * because those pastels behind light text on a dark ground fail contrast
@@ -22,9 +24,8 @@
   --text-3: #9a9086;
   --text-4: #8d8275;
 
-  /* The masthead is a fixed dark teal surface in BOTH themes, so its own
-     colours must not flip with the theme — doing that turned the title and
-     the active toggle dark-on-dark in light mode. These five are constants. */
+  /* The masthead is a fixed dark teal bar, lighter than the page behind it,
+     so its text is set here rather than reusing the body text tokens. */
   --nav-bg: #0f3934;
   --nav-line: #2d5f57;
   --nav-text: #9fb8b2;
@@ -53,7 +54,11 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+/* Dark is the only theme. Declaring it means native controls, scrollbars and
+   the search field's clear button render dark instead of light-on-dark.
+   A light theme was built and removed: it doubled what needed checking on
+   every change, and a Halloween guide wants to be dark. */
+html { -webkit-text-size-adjust: 100%; color-scheme: dark; }
 
 body {
   margin: 0;
@@ -152,28 +157,13 @@ a:hover { color: #ffc46b; }
   border: 0; padding: 6px 15px; border-radius: 2px; cursor: pointer;
 }
 .viewtoggle__btn:hover { color: var(--nav-fg); }
-/* Fixed light pill on the fixed dark bar — never theme tokens. */
+/* Light pill on the dark bar. */
 .viewtoggle__btn.is-active { color: #0b2b27; background: #ffffff; font-weight: 700; }
-
-/* ── theme toggle ─────────────────────────────────────────────────────── */
-
-.themetoggle {
-  display: flex; flex: none; gap: 2px; padding: 2px;
-  background: #14463f; border: 1px solid var(--nav-line); border-radius: 3px;
-}
-.themetoggle__btn {
-  min-width: 34px; height: 28px;
-  font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 0.4px;
-  color: var(--nav-fg-dim); background: transparent;
-  border: 0; border-radius: 2px; cursor: pointer;
-}
-.themetoggle__btn:hover { color: var(--nav-fg); }
-.themetoggle__btn[aria-pressed="true"] { color: #0b2b27; background: #ffffff; font-weight: 700; }
 
 /* Six columns cannot work at phone width without horizontal scrolling, and a
    scrolling table is worse than either view, so below this the toggle goes. */
 @media (max-width: 860px) {
-  .viewtoggle, .masthead__cta, .masthead__divider, .themetoggle { display: none; }
+  .viewtoggle, .masthead__cta, .masthead__divider { display: none; }
   .masthead__filters-btn { display: flex; }
   .masthead__title { font-size: 19px; }
   .masthead__logo { width: 86px; }
@@ -358,60 +348,3 @@ main { padding: 0 var(--gutter) 48px; }
 .sitefoot__meta a:hover { color: #000; }
 
 /* ── light mode ───────────────────────────────────────────────────────── */
-
-/* Explicit dark: same values as :root, restated so data-theme="dark" beats a
-   light system preference. */
-:root[data-theme="dark"] {
-  --bg: #14120f; --bg-raised: #1c1915; --bg-card: #1e1a16;
-  --line: #332c24; --line-soft: #241f1a;
-  --text: #ece6dc; --text-2: #b9ada0; --text-3: #9a9086; --text-4: #8d8275;
-  --amber: #f2a541; --money: #7dd3a0; --tag: #c86a4a;
-  --day-1: #e8a3a3; --day-2: #efb27a; --day-3: #9ec6d0;
-  --day-4: #c3b3de; --day-5: #a3c894; --day-6: #bdb5ab;
-}
-
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --bg: #faf7f2;
-    --bg-raised: #f1ece3;
-    --bg-card: #fff;
-    --line: #ded4c6;
-    --line-soft: #ebe3d7;
-    --text: #221d18;
-    --text-2: #5a5148;
-    --text-3: #6b6258;
-    --text-4: #857b70;
-    --amber: #a8620d;
-    --money: #1f7a4d;
-    --tag: #a84526;
-    --day-1: #b4595c;
-    --day-2: #a86a24;
-    --day-3: #3d6f82;
-    --day-4: #6b58a0;
-    --day-5: #3f7a3a;
-    --day-6: #6f6659;
-  }
-  /* Nothing in .masthead is themed — it keeps its constants above. */
-  :root:not([data-theme="dark"]) .chip { background: #fff; border-color: var(--line); }
-  :root:not([data-theme="dark"]) .filters__search input { background: #fff; border-color: var(--line); }
-  :root:not([data-theme="dark"]) .card__name a { color: #221d18; }
-  :root:not([data-theme="dark"]) .dtable tbody tr:nth-child(odd) td { background: #f5f0e8; }
-  :root:not([data-theme="dark"]) .dtable a { color: #221d18; }
-  :root:not([data-theme="dark"]) .dtable__day td { color: #14120f; }
-}
-
-/* Explicit light, independent of the system preference. */
-:root[data-theme="light"] {
-  --bg: #faf7f2; --bg-raised: #f1ece3; --bg-card: #fff;
-  --line: #ded4c6; --line-soft: #ebe3d7;
-  --text: #221d18; --text-2: #5a5148; --text-3: #6b6258; --text-4: #857b70;
-  --amber: #a8620d; --money: #1f7a4d; --tag: #a84526;
-  --day-1: #b4595c; --day-2: #a86a24; --day-3: #3d6f82;
-  --day-4: #6b58a0; --day-5: #3f7a3a; --day-6: #6f6659;
-}
-:root[data-theme="light"] .chip,
-:root[data-theme="light"] .filters__search input { background: #fff; border-color: var(--line); }
-:root[data-theme="light"] .card__name a,
-:root[data-theme="light"] .dtable a { color: #221d18; }
-:root[data-theme="light"] .dtable tbody tr:nth-child(odd) td { background: #f5f0e8; }
-:root[data-theme="light"] .dtable__day td { color: #14120f; }
