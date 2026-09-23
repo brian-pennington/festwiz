@@ -1,17 +1,37 @@
 [
   {
-    "tag": "13+",
-    "count": 11,
-    "color": "#2f7d4f"
+    "tag": "film",
+    "count": 41,
+    "color": "#1d6a5f"
   },
   {
-    "tag": "all ages",
-    "count": 2,
-    "color": "#7d4e24"
+    "tag": "haunted house",
+    "count": 27,
+    "color": "#8c1f3d"
   },
   {
-    "tag": "18+",
+    "tag": "burlesque",
+    "count": 7,
+    "color": "#b03a2e"
+  },
+  {
+    "tag": "shopping",
+    "count": 4,
+    "color": "#6e2472"
+  },
+  {
+    "tag": "drag",
+    "count": 3,
+    "color": "#6e2472"
+  },
+  {
+    "tag": "animals",
     "count": 1,
-    "color": "#4a4a8c"
+    "color": "#0f3934"
+  },
+  {
+    "tag": "live music",
+    "count": 1,
+    "color": "#6e2472"
   }
 ]

@@ -1,6 +1,62 @@
 [
   {
+    "venue": "14101 South Turnersville Road, Buda",
+    "count": 16
+  },
+  {
+    "venue": "29th St. Ballroom",
+    "count": 4
+  },
+  {
+    "venue": "4th St. + Congress Ave.",
+    "count": 1
+  },
+  {
+    "venue": "Ani's Day and Night",
+    "count": 1
+  },
+  {
+    "venue": "Austin Playhouse",
+    "count": 2
+  },
+  {
+    "venue": "Austin Public Library Ruiz Branch",
+    "count": 1
+  },
+  {
+    "venue": "Bass Concert Hall",
+    "count": 1
+  },
+  {
+    "venue": "BookPeople",
+    "count": 2
+  },
+  {
+    "venue": "Central Machine Works",
+    "count": 1
+  },
+  {
+    "venue": "Chateau Bellevue",
+    "count": 6
+  },
+  {
+    "venue": "Chess Club",
+    "count": 1
+  },
+  {
+    "venue": "Come and Take It Live",
+    "count": 2
+  },
+  {
+    "venue": "ESB MACC",
+    "count": 1
+  },
+  {
     "venue": "Elysium",
+    "count": 3
+  },
+  {
+    "venue": "Femme Rock",
     "count": 1
   },
   {
@@ -8,11 +64,115 @@
     "count": 11
   },
   {
+    "venue": "Healing with Horses Ranch",
+    "count": 1
+  },
+  {
+    "venue": "Hill Country Castle",
+    "count": 1
+  },
+  {
+    "venue": "Hotel Vegas",
+    "count": 1
+  },
+  {
+    "venue": "Hyperreal Film Club",
+    "count": 20
+  },
+  {
+    "venue": "Jester King",
+    "count": 1
+  },
+  {
+    "venue": "Jo's Coffee - Red River",
+    "count": 1
+  },
+  {
+    "venue": "Line Hotel",
+    "count": 1
+  },
+  {
+    "venue": "Nocturna",
+    "count": 3
+  },
+  {
+    "venue": "Oakwood Cemetery",
+    "count": 1
+  },
+  {
+    "venue": "Oddwood Brewing",
+    "count": 1
+  },
+  {
+    "venue": "Pan Am Park",
+    "count": 1
+  },
+  {
+    "venue": "Pioneer Farms",
+    "count": 1
+  },
+  {
     "venue": "Purrfecto Cat Lounge",
     "count": 2
   },
   {
-    "venue": "The State Theatre",
+    "venue": "SquareRut Kava Bar - Oak Hill",
     "count": 1
+  },
+  {
+    "venue": "Stargazer",
+    "count": 1
+  },
+  {
+    "venue": "Sterling Stage",
+    "count": 4
+  },
+  {
+    "venue": "The 13th Floor",
+    "count": 1
+  },
+  {
+    "venue": "The Boggy Creek Greenbelt",
+    "count": 1
+  },
+  {
+    "venue": "The Bullock",
+    "count": 2
+  },
+  {
+    "venue": "The Commune",
+    "count": 1
+  },
+  {
+    "venue": "The Copperhead Club",
+    "count": 1
+  },
+  {
+    "venue": "The Far Out Lounge",
+    "count": 1
+  },
+  {
+    "venue": "The Hive",
+    "count": 1
+  },
+  {
+    "venue": "The State Theatre",
+    "count": 11
+  },
+  {
+    "venue": "The Vortex",
+    "count": 11
+  },
+  {
+    "venue": "Tiger Den",
+    "count": 1
+  },
+  {
+    "venue": "Violet Crown Cinema",
+    "count": 3
+  },
+  {
+    "venue": "We Luv Video",
+    "count": 8
   }
 ]

@@ -227,6 +227,7 @@ Three tabs. Header row required; column order does not matter; unknown columns i
 | `description` | | The blurb. |
 | `tags` | | Comma-separated. Free-form — any new tag is created on ingestion. |
 | `end_time` | | Optional end time, kept verbatim. |
+| `age` | | Age range: `all ages`, `6+`, `13+`, `18+`, `21+`. Ranked to a minimum age so the filter can answer "suitable for a 14-year-old"; unrecognised values are kept as display text and shown at every threshold. |
 | `status` | | `confirmed` (default) · `rumored` · `cancelled`. Cancelled rows are excluded from both exports but kept in the feeder. |
 | `notes` | | Private. **Never exported.** |
 
@@ -245,17 +246,18 @@ has to be stated.
 
 Resolution rules:
 
-1. **Blocks.** A row with a real `name` starts a block; it ends at the next row
-   with a real name. A ditto marker in the name column continues the block —
-   an event literally named `-` is not a real case. **Inheritance never crosses
-   a block boundary**, so a blank venue on an unrelated event further down the
-   sheet cannot pick up a value from a different event.
-2. **Chaining.** Inheritance walks up to the nearest non-ditto value in that
-   column within the block, not to the block's first row. An event can change
-   venue on occurrence 2 and have occurrences 3 and 4 inherit *that* venue.
-3. **`date` is never inherited.** Every row carries its own date. A row with no
-   date is a hard error — otherwise a stray blank row is indistinguishable from
-   an occurrence.
+1. **Blocks.** A row with a real `name` starts a new event; it ends at the next
+   row with a real name. A ditto marker in the name column continues the event
+   above — an event literally named `-` is not a real case.
+2. **Chaining.** A dash means "the value in the row directly above", walking up
+   to the nearest non-ditto value in that column. This **does** cross event
+   boundaries: a dash on the first row of a new event picks up the previous
+   row's value, which is how a run of events at one venue is written. Earlier
+   drafts blocked this to stop blanks bleeding between events, but blanks no
+   longer inherit at all, so a dash is always deliberate.
+3. **`date` accepts a dash**, meaning the same day as the row above — normally a
+   second showtime. A row with a blank date is still a hard error, since it is
+   indistinguishable from a stray empty row.
 4. **Blank is empty.** No marker needed for a genuinely absent value — 20 events
    in 2025 had no price. A row with data but no name and no dash is an error,
    since it is ambiguous whether a new event or a repeat was meant.

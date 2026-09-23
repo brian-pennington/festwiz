@@ -38,7 +38,8 @@ CREDENTIALS = REPO / "credentials" / "credentials.json"
 DITTO = {"-", "--", "\u2013", "\u2014", '"', "\u3003", "same", "ditto", "as above"}
 
 # Columns that participate in fill-down.  `date` deliberately does not.
-INHERITABLE = ["venue", "price", "time", "end_time", "url", "description", "tags"]
+INHERITABLE = ["venue", "price", "time", "end_time", "url", "description",
+               "tags", "age"]
 
 # Accepted spellings for each canonical column.  Order-independent, extra
 # columns ignored, so the feeder can carry working notes we do not read.
@@ -53,6 +54,8 @@ COLUMN_ALIASES = {
     "url":         ["url", "link", "website", "event_url"],
     "description": ["description", "desc", "blurb", "details"],
     "tags":        ["tags", "tag", "categories", "category"],
+    "age":         ["age", "age range", "age_range", "ages", "age policy",
+                    "age_policy", "age limit", "restriction"],
     "status":      ["status", "state"],
     "notes":       ["notes", "note", "internal", "private"],
 }
@@ -64,6 +67,35 @@ TAG_PALETTE = [
     "#8c1f3d", "#3b5ea8", "#a8551f", "#2f7d4f", "#6e2472",
     "#b03a2e", "#17605b", "#7d4e24", "#4a4a8c", "#8a2f5e",
 ]
+
+# Age is ordinal, which is the whole reason it is a column and not a tag: a
+# filter can then answer "suitable for a 14-year-old" by returning everything
+# at or below a threshold.  parse_age returns the minimum admitted age, or
+# None for a value we cannot rank (kept as display-only text so an unusual
+# policy degrades to "always shown" rather than breaking the filter).
+AGE_WORDS = {
+    "all ages": 0, "all-ages": 0, "any age": 0, "everyone": 0,
+    "family": 0, "family friendly": 0, "family-friendly": 0, "kids": 0,
+}
+
+
+def parse_age(raw):
+    s = (raw or "").strip().lower()
+    if not s:
+        return None
+    if s in AGE_WORDS:
+        return AGE_WORDS[s]
+    m = re.match(r"^(\d{1,2})\s*\+$", s)
+    if m:
+        return int(m.group(1))
+    m = re.match(r"^(?:ages?\s*)?(\d{1,2})\s*(?:and|&)\s*(?:up|over|older)$", s)
+    if m:
+        return int(m.group(1))
+    m = re.match(r"^under\s*(\d{1,2})$", s)
+    if m:
+        return 0
+    return None
+
 
 MONTHS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -279,7 +311,11 @@ def resolve(rows, mapping):
         if name:
             block_name = name
             block_start_line = line_no
-            carry = {}                               # boundary: nothing carries in
+            # carry is deliberately NOT reset here.  A dash always means "the
+            # value from the row above", including on the first row of a new
+            # event.  The old boundary reset guarded against blanks bleeding
+            # between events, but blanks no longer inherit at all, so a dash is
+            # always a deliberate instruction.
 
         if block_name is None:
             warnings.append(
@@ -288,19 +324,33 @@ def resolve(rows, mapping):
             continue
 
         raw_date = cell(row, "date")
-        if not raw_date:
+        if raw_date.strip().lower() in DITTO and raw_date.strip():
+            # Same day as the row above — a second showtime, typically.
+            iso = carry.get("date")
+            if iso is None:
+                errors.append(
+                    f"line {line_no}: date is '-' but no date appears above it."
+                )
+                continue
+            resolved_inherit_date = True
+        elif not raw_date:
             errors.append(
-                f"line {line_no}: no date. Every occurrence needs its own date "
-                f"(dates are never inherited). Event: {block_name!r}"
+                f"line {line_no}: no date. Every occurrence needs a date, or "
+                f"'-' to repeat the date above. Event: {block_name!r}"
             )
             continue
-        try:
-            iso = parse_date(raw_date)
-        except BuildError as e:
-            errors.append(f"line {line_no}: {e}")
-            continue
+        else:
+            try:
+                iso = parse_date(raw_date)
+            except BuildError as e:
+                errors.append(f"line {line_no}: {e}")
+                continue
+            resolved_inherit_date = False
+        carry["date"] = iso
 
         resolved = {"name": block_name, "date": iso, "date_raw": raw_date}
+        if resolved_inherit_date:
+            resolved.setdefault("_inherited", []).append("date")
         for col in INHERITABLE:
             raw = cell(row, col)
             if raw.strip().lower() in DITTO:
@@ -404,6 +454,8 @@ def build_events(occurrences):
             "url": o["url"],
             "description": o["description"],
             "tags": split_tags(o.get("tags")),
+            "age": o.get("age", ""),
+            "age_min": parse_age(o.get("age")),
             "status": o["status"],
         })
     events.sort(key=lambda e: (e["date"] != "all-month", e["date"], e["name"]))
@@ -452,6 +504,15 @@ def report(occurrences, errors, warnings, tag_list, suspects, verbose):
     else:
         print("\n── tags discovered ────────────────────────────────────────")
         print("  (none yet — the tags column is empty)")
+
+    ages = Counter(o.get("age", "").strip() for o in occurrences if o.get("age", "").strip())
+    if ages:
+        print("\n── age ranges ─────────────────────────────────────────────")
+        for v, n in sorted(ages.items(), key=lambda kv: (parse_age(kv[0]) is None,
+                                                         parse_age(kv[0]) or 0)):
+            rank = parse_age(v)
+            note = f"min age {rank}" if rank is not None else "unranked — shown in every age filter"
+            print(f"  {n:4}  {v:12} {note}")
 
     if suspects:
         print("\n── possible tag typos (warnings, not errors) ──────────────")

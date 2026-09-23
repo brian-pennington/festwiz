@@ -1,5 +1,40 @@
 [
   {
+    "id": "bat-city-scaregrounds-2026-10-02-1",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-02",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "goth-brooks-2026-10-02-1",
+    "name": "Goth Brooks",
+    "date": "2026-10-02",
+    "venue": "Sterling Stage",
+    "price": "$18",
+    "time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "url": "https://tickets.holdmyticket.com/tickets/466725?tc=hmt",
+    "description": "",
+    "tags": [
+      "burlesque",
+      "drag"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
     "id": "meow-lloween-2026-10-02-1",
     "name": "Meow-lloween",
     "date": "2026-10-02",
@@ -10,8 +45,27 @@
     "url": "https://purrfectocatlounge.com/catx-perience",
     "description": "",
     "tags": [
-      "all ages"
+      "film"
     ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-02-1",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-02",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -25,8 +79,107 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-sweeney-todd-drag-shadow-cast-2026-10-02-1",
+    "name": "The Sweeney Todd Drag Shadow Cast",
+    "date": "2026-10-02",
+    "venue": "The Vortex",
+    "price": "$15",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf000004EbwfMAC",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-03-2",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-03",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "ghost-tour-2026-10-03-1",
+    "name": "Ghost Tour",
+    "date": "2026-10-03",
+    "venue": "Pioneer Farms",
+    "price": "$45",
+    "time": "7:00 PM",
+    "end_time": "9:30 PM",
+    "url": "https://www.pioneerfarms.org/event-tickets/p/austin-ghost-tours",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "goth-brooks-2026-10-03-2",
+    "name": "Goth Brooks",
+    "date": "2026-10-03",
+    "venue": "Sterling Stage",
+    "price": "$23",
+    "time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "url": "https://tickets.holdmyticket.com/tickets/467054?tc=hmt",
+    "description": "",
+    "tags": [
+      "burlesque",
+      "drag"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-toon-time-2026-10-03-1",
+    "name": "Halloween Toon Time",
+    "date": "2026-10-03",
+    "venue": "We Luv Video",
+    "price": "free",
+    "time": "12:00 PM",
+    "end_time": "2:00 PM",
+    "url": "https://store.weluvvideo.org/events/toon-time-2-copy",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-03-2",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-03",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -40,8 +193,174 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-jigglewatts-burlesque-revue-the-bewitching-hour-2026-10-03-1",
+    "name": "The Jigglewatts Burlesque Revue: The Bewitching Hour",
+    "date": "2026-10-03",
+    "venue": "29th St. Ballroom",
+    "price": "$19",
+    "time": "7:00 PM",
+    "end_time": "9:30 PM",
+    "url": "https://www.eventbrite.com/e/the-jigglewatts-burlesque-revue-oct-3-tickets-1998644367104",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "status": "confirmed"
+  },
+  {
+    "id": "trinket-girl-market-2026-10-03-1",
+    "name": "Trinket Girl Market",
+    "date": "2026-10-03",
+    "venue": "The Hive",
+    "price": "free",
+    "time": "6:00 PM",
+    "end_time": "10:00 PM",
+    "url": "https://www.instagram.com/p/DdC8fZ5RkQ2/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-05-1",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-05",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-06-3",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-06",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-07-2",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-07",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-07-4",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-07",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-08-3",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-08",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-09-3",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-09",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-09-4",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-09",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloweird-2026-10-09-1",
+    "name": "Halloweird",
+    "date": "2026-10-09",
+    "venue": "Austin Public Library Ruiz Branch",
+    "price": "free",
+    "time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "url": "https://www.eventbrite.com/e/halloweird-tickets-1995969998997?aff=eprofsaved",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
     "status": "confirmed"
   },
   {
@@ -55,8 +374,27 @@
     "url": "https://purrfectocatlounge.com/catx-perience",
     "description": "",
     "tags": [
-      "all ages"
+      "film"
     ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "noxx-s-nightshade-horrorween-ii-2026-10-09-1",
+    "name": "Noxx's Nightshade: Horrorween II",
+    "date": "2026-10-09",
+    "venue": "Tiger Den",
+    "price": "$31",
+    "time": "8:30 PM",
+    "end_time": "10:00 PM",
+    "url": "https://www.eventbrite.com/e/horrorween-ii-tickets-1999718118724?aff=eprofsaved",
+    "description": "",
+    "tags": [
+      "burlesque"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -70,8 +408,74 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "atx-theatre-halloween-costume-thrift-sale-2026-10-10-1",
+    "name": "ATX Theatre Halloween Costume + Thrift Sale",
+    "date": "2026-10-10",
+    "venue": "Sterling Stage",
+    "price": "free",
+    "time": "12:00 PM",
+    "end_time": "5:00 PM",
+    "url": "https://tickets.atxtheatre.org/events/halloween-costume-thrift-sale",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-10-1",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-10",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-10-4",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-10",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "los-muertos-2026-10-10-1",
+    "name": "Los Muertos",
+    "date": "2026-10-10",
+    "venue": "Elysium",
+    "price": "$10",
+    "time": "9:30 PM",
+    "end_time": "2:00 AM",
+    "url": "https://www.eventbrite.com/e/los-muertos-goth-en-espanol-tickets-1993267187816?aff=eprofsaved",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
     "status": "confirmed"
   },
   {
@@ -85,8 +489,242 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "scary-movie-2026-10-10-1",
+    "name": "Scary Movie",
+    "date": "2026-10-10",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/scary-movie-q-a",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "atx-theatre-halloween-costume-thrift-sale-2026-10-11-2",
+    "name": "ATX Theatre Halloween Costume + Thrift Sale",
+    "date": "2026-10-11",
+    "venue": "Sterling Stage",
+    "price": "free",
+    "time": "10:00 AM",
+    "end_time": "5:00 PM",
+    "url": "https://tickets.atxtheatre.org/events/halloween-costume-thrift-sale",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-11-5",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-11",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-11-9",
+    "name": "The Austin Séance",
+    "date": "2026-10-11",
+    "venue": "Hyperreal Film Club",
+    "price": "$38",
+    "time": "2:30 PM",
+    "end_time": "3:45 PM",
+    "url": "https://www.eventbrite.com/e/the-sunday-matinee-seance-presented-by-the-serpent-tattoo-occult-shop-tickets-1996405646029?aff=erelpanelorg",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "grapes-of-death-2026-10-12-1",
+    "name": "Grapes of Death",
+    "date": "2026-10-12",
+    "venue": "Oddwood Brewing",
+    "price": "$13",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/goremet-cinema-gang-presents-grapes-of-death-tickets-1996061263973?aff=eprofsaved",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-12-5",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-12",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "ju-on-2026-10-12-1",
+    "name": "Ju-on",
+    "date": "2026-10-12",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/ju-on-the-grudge-3",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-13-6",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-13",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "wnuf-halloween-special-2026-10-13-1",
+    "name": "WNUF Halloween Special",
+    "date": "2026-10-13",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/oddworld",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-14-7",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-14",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-14-5",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-14",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-horror-film-festival-2026-10-15-1",
+    "name": "Austin Horror Film Festival",
+    "date": "2026-10-15",
+    "venue": "29th St. Ballroom",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.austinhorrorfilmfestival.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-15-6",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-15",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-15-8",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-15",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -99,9 +737,137 @@
     "end_time": "12:00 AM",
     "url": "https://www.instagram.com/p/DdUPpmQNiU-/",
     "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "holistic-horrors-2026-10-15-1",
+    "name": "Holistic Horrors",
+    "date": "2026-10-15",
+    "venue": "Hill Country Castle",
+    "price": "$166",
+    "time": "10:00 AM",
+    "end_time": "12:00 AM",
+    "url": "https://www.afterlife-oddities.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "magic-2026-10-15-1",
+    "name": "Magic",
+    "date": "2026-10-15",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/clerks-programming-spotlight",
+    "description": "",
     "tags": [
-      "18+"
+      "film"
     ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-15-6",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-15",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-horror-film-festival-2026-10-16-2",
+    "name": "Austin Horror Film Festival",
+    "date": "2026-10-16",
+    "venue": "29th St. Ballroom",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.austinhorrorfilmfestival.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-16-2",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-16",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-16-7",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-16",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "ethereal-horror-fest-2026-10-16-1",
+    "name": "Ethereal Horror Fest",
+    "date": "2026-10-16",
+    "venue": "Violet Crown Cinema",
+    "price": "$25",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.etherealhorrorfest.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-16-9",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-16",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -115,8 +881,57 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-horror-film-festival-2026-10-17-3",
+    "name": "Austin Horror Film Festival",
+    "date": "2026-10-17",
+    "venue": "29th St. Ballroom",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.austinhorrorfilmfestival.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-17-3",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-17",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-17-8",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-17",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$39",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
     "status": "confirmed"
   },
   {
@@ -129,7 +944,26 @@
     "end_time": "",
     "url": "https://tickets.austintheatre.org/14144",
     "description": "",
+    "tags": [
+      "burlesque"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "ethereal-horror-fest-2026-10-17-2",
+    "name": "Ethereal Horror Fest",
+    "date": "2026-10-17",
+    "venue": "Violet Crown Cinema",
+    "price": "$25",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.etherealhorrorfest.com/",
+    "description": "",
     "tags": [],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -143,8 +977,208 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-haunted-carnival-2026-10-17-1",
+    "name": "The Haunted Carnival",
+    "date": "2026-10-17",
+    "venue": "The Copperhead Club",
+    "price": "free",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.afterlife-oddities.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-bake-club-goosebumps-2026-10-18-1",
+    "name": "Austin Bake Club: Goosebumps",
+    "date": "2026-10-18",
+    "venue": "The Commune",
+    "price": "",
+    "time": "12:00 PM",
+    "end_time": "2:00 PM",
+    "url": "https://www.eventbrite.com/e/austin-bake-club-goosebumps-tickets-2001272870027?aff=eprofsaved",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-18-9",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-18",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "ethereal-horror-fest-2026-10-18-3",
+    "name": "Ethereal Horror Fest",
+    "date": "2026-10-18",
+    "venue": "Violet Crown Cinema",
+    "price": "$25",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.etherealhorrorfest.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-18-7",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-18",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "3:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-18-8",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-18",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-19-10",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-19",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-20-11",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-20",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-21-12",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-21",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-21-9",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-21",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-22-10",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-22",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-22-13",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-22",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -158,8 +1192,140 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-23-4",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-23",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-bombshells-tits-or-treats-2026-10-23-1",
+    "name": "Bat City Bombshells: Tits or Treats",
+    "date": "2026-10-23",
+    "venue": "Come and Take It Live",
+    "price": "$25",
+    "time": "9:00 PM",
+    "end_time": "11:30 PM",
+    "url": "https://www.zeffy.com/en-US/ticketing/17th-annual-tits-or-treats-burlesque-show",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-23-11",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-23",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$33",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "erotiqueer-burlesque-carnival-of-carnal-desires-2026-10-23-1",
+    "name": "ErotiQueer Burlesque: Carnival of Carnal Desires",
+    "date": "2026-10-23",
+    "venue": "Austin Playhouse",
+    "price": "$32",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://events.ticketleap.com/tickets/erotiqueer-burlesque/carnival-of-carnal-desires",
+    "description": "",
+    "tags": [
+      "burlesque"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-23-14",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-23",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "horror-film-dance-party-2026-10-23-1",
+    "name": "Horror Film Dance Party",
+    "date": "2026-10-23",
+    "venue": "Ani's Day and Night",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DcdywH2uILu/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-23-10",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-23",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-23-11",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-23",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -173,8 +1339,155 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "ticks-2026-10-23-1",
+    "name": "Ticks",
+    "date": "2026-10-23",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/ticks",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-vampire-ball-the-vampire-lestat-2026-10-24-1",
+    "name": "Austin Vampire Ball: The Vampire Lestat",
+    "date": "2026-10-24",
+    "venue": "Elysium",
+    "price": "$29",
+    "time": "9:30 PM",
+    "end_time": "2:00 AM",
+    "url": "https://www.eventbrite.com/e/austin-vampire-ball-the-vampire-lestat-tickets-1992526110233?aff=eprofsaved",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-24-5",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-24",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-24-12",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-24",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$39",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "bonerween-2026-10-24-1",
+    "name": "Bonerween",
+    "date": "2026-10-24",
+    "venue": "Come and Take It Live",
+    "price": "$37",
+    "time": "9:00 PM",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/bonerween-a-tribute-to-john-carpenter-tickets-1998508624093?aff=eprofsaved",
+    "description": "",
+    "tags": [
+      "burlesque"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "erotiqueer-burlesque-carnival-of-carnal-desires-2026-10-24-2",
+    "name": "ErotiQueer Burlesque: Carnival of Carnal Desires",
+    "date": "2026-10-24",
+    "venue": "Austin Playhouse",
+    "price": "$32",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://events.ticketleap.com/tickets/erotiqueer-burlesque/carnival-of-carnal-desires",
+    "description": "",
+    "tags": [
+      "burlesque"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "hairpins-halloween-2026-10-24-1",
+    "name": "Hairpins Halloween",
+    "date": "2026-10-24",
+    "venue": "Stargazer",
+    "price": "$17",
+    "time": "9:00 PM",
+    "end_time": "1:00 AM",
+    "url": "https://www.instagram.com/p/DcmKbUCvV7a/",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "status": "confirmed"
+  },
+  {
+    "id": "murder-mayhem-misadventure-cemetery-tour-2026-10-24-1",
+    "name": "Murder, Mayhem, + Misadventure Cemetery Tour",
+    "date": "2026-10-24",
+    "venue": "Oakwood Cemetery",
+    "price": "free",
+    "time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "url": "https://www.sachome.org/calendar/murder-mayhem-and-misadventure-tour-3serz",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-24-12",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-24",
+    "venue": "The State Theatre",
+    "price": "$15",
+    "time": "2:30 PM",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -188,8 +1501,332 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-24-1",
+    "name": "The Austin Séance",
+    "date": "2026-10-24",
+    "venue": "Nocturna",
+    "price": "$37",
+    "time": "6:00 PM",
+    "end_time": "7:45 PM",
+    "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-at-nocturna-early-seating",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-24-2",
+    "name": "The Austin Séance",
+    "date": "2026-10-24",
+    "venue": "Nocturna",
+    "price": "$37",
+    "time": "8:15 PM",
+    "end_time": "9:45 PM",
+    "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-at-nocturna-late-seating",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-bloody-ball-creatures-of-the-night-2026-10-24-1",
+    "name": "The Bloody Ball: Creatures of the Night",
+    "date": "2026-10-24",
+    "venue": "The Vortex",
+    "price": "$35-$45",
+    "time": "8:00 PM",
+    "end_time": "1:00 AM",
+    "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049IGLMA2",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "viva-la-vida-2026-10-24-1",
+    "name": "Viva la Vida",
+    "date": "2026-10-24",
+    "venue": "4th St. + Congress Ave.",
+    "price": "free",
+    "time": "12:00 PM",
+    "end_time": "6:00 PM",
+    "url": "https://mexic-artemuseum.org/event/43rd-annual-viva-la-vida-festival-parade",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "art-in-atx-halloween-market-2026-10-25-1",
+    "name": "Art in ATX Halloween Market",
+    "date": "2026-10-25",
+    "venue": "Central Machine Works",
+    "price": "free",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.facebook.com/reel/1047309391451647",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-25-13",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-25",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "boook-bash-tattoo-flash-2026-10-25-1",
+    "name": "Boook Bash + Tattoo Flash",
+    "date": "2026-10-25",
+    "venue": "BookPeople",
+    "price": "free",
+    "time": "11:00 AM",
+    "end_time": "7:00 PM",
+    "url": "https://www.eventbrite.com/e/bookpeople-presents-boook-bash-tattoo-flash-tickets-2000521275989?aff=ebdsoporgprofile",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "jo-s-9th-annual-ugly-dog-contest-2026-10-25-1",
+    "name": "Jo's 9th Annual Ugly Dog Contest",
+    "date": "2026-10-25",
+    "venue": "Jo's Coffee - Red River",
+    "price": "free",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdCBFMZDQrp/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "ouija-board-workshop-2026-10-25-1",
+    "name": "Ouija Board Workshop",
+    "date": "2026-10-25",
+    "venue": "Nocturna",
+    "price": "$27",
+    "time": "11:30 AM",
+    "end_time": "1:00 PM",
+    "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-ouija-board-workshop-at-nocturna",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "room-temperature-2026-10-25-1",
+    "name": "Room Temperature",
+    "date": "2026-10-25",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/sungays",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-26-15",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-26",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-27-16",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-27",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "behind-the-scream-2026-10-28-1",
+    "name": "Behind the Scream",
+    "date": "2026-10-28",
+    "venue": "Bass Concert Hall",
+    "price": "$45-$75",
+    "time": "7:00 PM",
+    "end_time": "",
+    "url": "https://tickets.austintheatre.org/14118",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-28-17",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-28",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "supernatural-machines-2026-10-28-1",
+    "name": "Supernatural Machines",
+    "date": "2026-10-28",
+    "venue": "SquareRut Kava Bar - Oak Hill",
+    "price": "free",
+    "time": "18:30",
+    "end_time": "9:30 PM",
+    "url": "https://www.thenightowlpodcast.com/events-1/supernatural-machines-book-release-signing-party-1",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-rocky-horror-drag-show-2026-10-28-1",
+    "name": "The Rocky Horror Drag Show",
+    "date": "2026-10-28",
+    "venue": "Hotel Vegas",
+    "price": "$16",
+    "time": "7pm + 10pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdRoE17kUqY/?img_index=1",
+    "description": "",
+    "tags": [
+      "drag"
+    ],
+    "age": "21+",
+    "age_min": 21,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-29-14",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-29",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$28",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "blood-feast-2026-10-29-1",
+    "name": "Blood Feast",
+    "date": "2026-10-29",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/bloodshed-theater",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-29-19",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-29",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "6:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "malum-malus-samhain-2026-10-29-1",
+    "name": "Malum Malus: Samhain",
+    "date": "2026-10-29",
+    "venue": "The Vortex",
+    "price": "$15",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -203,8 +1840,89 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-29-3",
+    "name": "The Austin Séance",
+    "date": "2026-10-29",
+    "venue": "The Vortex",
+    "price": "$38",
+    "time": "7:30 PM",
+    "end_time": "9:00 PM",
+    "url": "https://www.eventbrite.com/e/seance-at-the-vortex-in-the-pony-shed-tickets-1995206519409",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "austin-s-haunted-mansions-tour-2026-10-30-6",
+    "name": "Austin's Haunted Mansions Tour",
+    "date": "2026-10-30",
+    "venue": "Chateau Bellevue",
+    "price": "$45",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://austinghosttours.com/austins-haunted-mansions/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-30-15",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-30",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$39",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-horror-movie-series-2026-10-30-18",
+    "name": "Halloween + Horror Movie Series",
+    "date": "2026-10-30",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "malum-malus-samhain-2026-10-30-2",
+    "name": "Malum Malus: Samhain",
+    "date": "2026-10-30",
+    "venue": "The Vortex",
+    "price": "",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   },
   {
@@ -218,8 +1936,288 @@
     "url": "https://scareforacure.org/",
     "description": "",
     "tags": [
-      "13+"
+      "haunted house"
     ],
+    "age": "13+",
+    "age_min": 13,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-30-4",
+    "name": "The Austin Séance",
+    "date": "2026-10-30",
+    "venue": "The Vortex",
+    "price": "$38",
+    "time": "7:30 PM",
+    "end_time": "9:00 PM",
+    "url": "https://www.eventbrite.com/e/seance-at-the-vortex-early-sitting-in-the-pony-shed-tickets-1995207528427?keep_tld=true",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-30-5",
+    "name": "The Austin Séance",
+    "date": "2026-10-30",
+    "venue": "The Vortex",
+    "price": "$38",
+    "time": "21:30",
+    "end_time": "11:00 PM",
+    "url": "https://www.eventbrite.com/e/seance-at-the-vortex-late-sitting-in-the-pony-shed-tickets-1995207669850?keep_tld=true",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-english-channels-and-bloody-capes-2026-10-30-1",
+    "name": "The English Channels and Bloody Capes",
+    "date": "2026-10-30",
+    "venue": "The 13th Floor",
+    "price": "$18",
+    "time": "9:00 PM",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Ddh9RD3xgvg/",
+    "description": "",
+    "tags": [
+      "live music"
+    ],
+    "age": "21+",
+    "age_min": 21,
+    "status": "confirmed"
+  },
+  {
+    "id": "trick-or-treat-on-the-trail-2026-10-30-1",
+    "name": "Trick or Treat on the Trail",
+    "date": "2026-10-30",
+    "venue": "The Boggy Creek Greenbelt",
+    "price": "free",
+    "time": "6:00 PM",
+    "end_time": "8:00 PM",
+    "url": "https://www.eventbrite.com/e/trick-or-treat-on-the-trail-austin-tickets-1996256191005?aff=eprofsaved",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-scaregrounds-2026-10-31-16",
+    "name": "Bat City Scaregrounds",
+    "date": "2026-10-31",
+    "venue": "14101 South Turnersville Road, Buda",
+    "price": "$39",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.batcityscaregrounds.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "status": "confirmed"
+  },
+  {
+    "id": "femme-rock-halloween-house-party-2026-10-31-1",
+    "name": "Femme Rock Halloween House Party",
+    "date": "2026-10-31",
+    "venue": "Femme Rock",
+    "price": "$10",
+    "time": "6:00 PM",
+    "end_time": "1:00 AM",
+    "url": "https://www.instagram.com/p/DdWxOfPPoK0/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-fall-market-2026-10-31-1",
+    "name": "Halloween Fall Market",
+    "date": "2026-10-31",
+    "venue": "Jester King",
+    "price": "free",
+    "time": "1:00 PM",
+    "end_time": "8:00 PM",
+    "url": "https://www.eventbrite.com/e/halloween-fall-market-tickets-2001939730625?aff=ebdsoporgprofile",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-w-the-jesus-and-mary-chain-protomartyr-holy-wave-daiistar-blushing-commercial-breaks-and-dj-tropicana-joe-2026-10-31-1",
+    "name": "Halloween w/ The Jesus and Mary Chain, Protomartyr, Holy Wave, DAIISTAR, Blushing, Commercial Breaks, and DJ Tropicana Joe",
+    "date": "2026-10-31",
+    "venue": "The Far Out Lounge",
+    "price": "$67",
+    "time": "5:00 PM",
+    "end_time": "12:00 AM",
+    "url": "https://tickets.thefaroutaustin.com/events/thefaroutloungestage/2284272",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "malum-malus-samhain-2026-10-31-3",
+    "name": "Malum Malus: Samhain",
+    "date": "2026-10-31",
+    "venue": "The Vortex",
+    "price": "",
+    "time": "8:00 PM",
+    "end_time": "",
+    "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "park-scream-2026-10-31-1",
+    "name": "Park + Scream",
+    "date": "2026-10-31",
+    "venue": "Line Hotel",
+    "price": "",
+    "time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "url": "https://www.instagram.com/p/DcjPzP1EUJ7/?img_index=1",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-31-6",
+    "name": "The Austin Séance",
+    "date": "2026-10-31",
+    "venue": "The Vortex",
+    "price": "$38",
+    "time": "7:30 PM",
+    "end_time": "9:00 PM",
+    "url": "https://www.eventbrite.com/e/halloween-seance-at-the-vortex-early-sitting-in-the-pony-shed-tickets-1995207732036?keep_tld=true",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-10-31-7",
+    "name": "The Austin Séance",
+    "date": "2026-10-31",
+    "venue": "The Vortex",
+    "price": "$38",
+    "time": "9:30 PM",
+    "end_time": "11:00 PM",
+    "url": "https://www.eventbrite.com/e/halloween-seance-at-the-vortex-late-sitting-in-the-pony-shed-tickets-1995207856408?keep_tld=true",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-gravest-show-on-earth-2026-10-31-1",
+    "name": "The Gravest Show on Earth",
+    "date": "2026-10-31",
+    "venue": "Pan Am Park",
+    "price": "free",
+    "time": "7:30 PM",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DddS4SrRv0S/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "trick-or-treat-trail-2026-10-31-1",
+    "name": "Trick or Treat Trail",
+    "date": "2026-10-31",
+    "venue": "Healing with Horses Ranch",
+    "price": "free",
+    "time": "3:00 PM",
+    "end_time": "5:00 PM",
+    "url": "https://www.instagram.com/p/DdXZeJiJ2Zc/",
+    "description": "",
+    "tags": [
+      "animals"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "trick-or-read-2026-10-31-1",
+    "name": "Trick-or-Read",
+    "date": "2026-10-31",
+    "venue": "BookPeople",
+    "price": "free",
+    "time": "2:00 PM",
+    "end_time": "4:00 PM",
+    "url": "https://www.eventbrite.com/e/bookpeople-presents-trick-or-read-2026-tickets-2001414138565?aff=ebdsoporgprofile",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "whiplash-halloween-bash-2026-10-31-1",
+    "name": "Whiplash Halloween Bash",
+    "date": "2026-10-31",
+    "venue": "Chess Club",
+    "price": "$20",
+    "time": "9:00 PM",
+    "end_time": "2:00 AM",
+    "url": "https://www.instagram.com/p/DcwfxyHphx5/",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "status": "confirmed"
+  },
+  {
+    "id": "dia-de-los-muertos-2026-11-01-1",
+    "name": "Dia de los Muertos",
+    "date": "2026-11-01",
+    "venue": "ESB MACC",
+    "price": "free",
+    "time": "1:00 PM",
+    "end_time": "6:00 PM",
+    "url": "https://www.austintexas.gov/macc/events/esb-macc-dia-de-los-muertos",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-austin-seance-2026-11-01-8",
+    "name": "The Austin Séance",
+    "date": "2026-11-01",
+    "venue": "The Vortex",
+    "price": "",
+    "time": "7:30 PM",
+    "end_time": "9:00 PM",
+    "url": "https://austinseance.com/events-2/tickets/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
     "status": "confirmed"
   }
 ]
