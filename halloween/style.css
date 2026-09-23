@@ -271,7 +271,10 @@ a:hover { color: #ffc46b; }
   border: 1px solid #3a3229; padding: 5px 11px;
 }
 .opt--tag[aria-pressed="true"] {
-  color: #14120f; background: var(--tag); border-color: var(--tag); font-weight: 600;
+  color: #14120f;
+  background: var(--tag-bg, var(--tag));
+  border-color: var(--tag-bg, var(--tag));
+  font-weight: 600;
 }
 .opt__count { color: var(--text-4); font-size: 12px; font-weight: 400; }
 .opt--tag[aria-pressed="true"] .opt__count { color: #3d1b0e; }
@@ -454,9 +457,14 @@ main > * { position: relative; z-index: 1; }
   border: 0; line-height: 1.4;
 }
 
-/* Tags are buttons that filter to themselves — see tagButton() in the JS. */
+/* Tags are buttons that filter to themselves — see tagButton() in the JS.
+   Each carries its own --tag-bg, one of the six day colours, assigned by the
+   tag's position in the dropdown so a tag keeps one colour throughout. The
+   colour arrives as a custom property rather than an inline background, so
+   the hover and pressed rules below can still win. */
 .badge--tag {
-  color: #14120f; background: var(--tag);
+  color: #14120f;
+  background: var(--tag-bg, var(--tag));
   cursor: pointer;
 }
 .badge--tag:hover,
@@ -511,8 +519,9 @@ main > * { position: relative; z-index: 1; }
 }
 .dtable__day-count { float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
 
-/* .badge is shared with the cards, so the table's copy is bumped here only. */
-.dtable .badge { font-size: 13px; }
+/* .badge is shared with the cards, so the table's copy is adjusted here only.
+   The bottom margin keeps stacked tags from clumping when a cell wraps. */
+.dtable .badge { font-size: 13px; margin-bottom: 2px; }
 
 .t-time  { color: var(--amber); white-space: nowrap; }
 .t-money { color: var(--money); white-space: nowrap; }

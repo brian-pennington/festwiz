@@ -197,6 +197,7 @@
   function tagButton(tag) {
     var on = state.tags.length === 1 && state.tags[0] === tag;
     return '<button type="button" class="badge badge--tag" data-tag="' + esc(tag) + '"' +
+      ' style="--tag-bg:' + tagColourVar(tag) + '"' +
       ' aria-pressed="' + (on ? 'true' : 'false') + '"' +
       ' title="' + (on ? 'Clear this filter' : 'Show only ' + esc(tag) + ' events') + '">' +
       esc(tag) + '</button>';
@@ -332,14 +333,32 @@
     'stroke="currentColor" stroke-width="3" stroke-linecap="round" ' +
     'stroke-linejoin="round" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>';
 
-  function opt(label, value, pressed, cls, count) {
+  function opt(label, value, pressed, cls, count, style) {
     return '<button type="button" class="opt' + (cls ? ' ' + cls : '') + '"' +
+      (style ? ' style="' + style + '"' : '') +
       ' aria-pressed="' + (pressed ? 'true' : 'false') + '"' +
       ' data-value="' + esc(value) + '">' +
       (cls ? '' : (pressed ? TICK : '<span class="opt__tick"></span>')) +
       '<span>' + esc(label) + '</span>' +
       (count != null ? ' <span class="opt__count">' + count + '</span>' : '') +
       '</button>';
+  }
+
+  // Tag -> colour index, fixed by the order the tags appear in the dropdown
+  // (most used first). Computed from ALL events, never the filtered set, so a
+  // tag keeps its colour no matter what is on screen.
+  var tagOrder = [];
+
+  function computeTagOrder() {
+    var counts = tagCounts();
+    tagOrder = Object.keys(counts).sort(function (a, b) {
+      return counts[b] - counts[a] || a.localeCompare(b);
+    });
+  }
+
+  function tagColourVar(tag) {
+    var i = tagOrder.indexOf(tag);
+    return i === -1 ? 'var(--tag)' : 'var(--day-' + ((i % DAY_COLOURS) + 1) + ')';
   }
 
   function tagCounts() {
@@ -363,6 +382,8 @@
   function ageLabel(a) { return a === 0 ? 'All ages' : a + '+'; }
 
   function buildPanels() {
+    if (!tagOrder.length) computeTagOrder();
+
     els.panelWhen.innerHTML =
       opt('All dates', 'all', state.when === 'all') +
       opt('Today', 'today', state.when === 'today') +
@@ -374,7 +395,8 @@
     });
     els.panelTags.innerHTML = tags.length
       ? tags.map(function (t) {
-          return opt(t, t, state.tags.indexOf(t) !== -1, 'opt--tag', counts[t]);
+          return opt(t, t, state.tags.indexOf(t) !== -1, 'opt--tag', counts[t],
+                     '--tag-bg:' + tagColourVar(t));
         }).join('')
       : '<span class="filters__result">No tags yet.</span>';
 
@@ -566,6 +588,7 @@
       })
       .then(function (data) {
         state.events = data.filter(function (e) { return e.status !== 'cancelled'; });
+        computeTagOrder();
         setView(state.view);
         buildPanels();
         render();

@@ -107,6 +107,19 @@ console.log('\nCARD CONTENT');
     api.orderedDays(api.groupByDay(data.filter(api.matches))));
   is('active tag marked pressed', count(filtered, /aria-pressed="true"/g) > 0, true);
   api.state.tags = [];
+
+  // Each tag keeps one colour from the six-colour rotation, everywhere.
+  const pairs = [...html.matchAll(/data-tag="([^"]+)" style="--tag-bg:var\(--day-(\d)\)"/g)];
+  const byTag = new Map();
+  let stable = true;
+  for (const [, tag, n] of pairs) {
+    if (byTag.has(tag) && byTag.get(tag) !== n) stable = false;
+    byTag.set(tag, n);
+  }
+  is('every tag has a colour', byTag.size, new Set(data.flatMap(e => e.tags)).size);
+  is('a tag keeps the same colour throughout', stable, true);
+  is('colours come from the six-colour set',
+     [...byTag.values()].every(n => +n >= 1 && +n <= 6), true);
 }
 
 console.log('\nDROPDOWN OPEN/CLOSE STATE');
