@@ -414,7 +414,11 @@ main { padding: 0 var(--gutter) 48px; }
   background: #e69138; color: #14120f;
   border-top: 12px solid #000;
 }
-.sitefoot p { margin: 0 0 6px; font-size: 13px; max-width: 74ch; }
+/* Full width: the longest line is ~132 characters, about 845px at this size,
+   so each sits on one row on any desktop and wraps naturally below that.
+   A measure cap would be better for long-form reading, but these are four
+   short standalone lines, not a paragraph to read down. */
+.sitefoot p { margin: 0 0 6px; font-size: 13px; }
 .sitefoot__cta {
   display: inline-block; margin-bottom: 10px;
   font-size: 17px; color: #14120f; font-weight: 600;
