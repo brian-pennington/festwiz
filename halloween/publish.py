@@ -158,10 +158,12 @@ def build_rows(events, include_empty_dates=True):
     title = blank()
     title[0], title[1] = TITLE[0], TITLE[1]
     rows = [title, HEADERS[:], blank()]
+    spans_spacer = 2          # the empty row between the header and day one
     # (row, column) -> url. The title phrase spans A1 and B1, and the 2025
     # sheet linked both halves, so the whole sentence is clickable.
     links = {(0, 0): SUBSCRIBE_URL, (0, 1): SUBSCRIBE_URL}
-    spans = {"title": 0, "header": 1, "banners": [], "promos": [], "bodies": []}
+    spans = {"title": 0, "header": 1, "spacer": spans_spacer,
+             "banners": [], "promos": [], "bodies": []}
 
     for n, iso in enumerate(sections):
         spans["banners"].append(len(rows))
@@ -245,6 +247,13 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
             "textFormat": {"fontSize": 14, "bold": True,
                            "foregroundColor": rgb(WHITE)}},
            "userEnteredFormat(backgroundColor,textFormat)")
+
+    # The spacer row under the frozen header reads as part of the header bar,
+    # so it is black too. No deliberately written row on this sheet is white —
+    # the white wipe above exists only to clear stale fills below the content.
+    repeat(spans["spacer"], spans["spacer"] + 1,
+           {"backgroundColor": rgb(BANNER_BG)},
+           "userEnteredFormat.backgroundColor")
 
     for r in spans["banners"]:
         repeat(r, r + 1,
