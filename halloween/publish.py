@@ -19,7 +19,8 @@ import argparse
 import json
 import re
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -48,6 +49,17 @@ FOOTER_TEXT = [
     "are plenty of other excellent resources for those.",
 ]
 FOOTER_RULE_PX = 89          # height of the closing black rule
+
+# A day is not "past" until this hour the NEXT morning, so a show that runs
+# to 1am is still listed under the night it belongs to.
+DAY_ROLLOVER_HOUR = 2
+
+# Events are Austin events, so the rollover follows Austin's clock no matter
+# where the script is run from.
+LOCAL_TZ = "America/Chicago"
+
+PAST_HEADING = "Past Events"
+TODAY_SUFFIX = " (Today)"
 
 HEADERS = ["Name", "Location", "Price", "Time", "Age", "Tags", "Description"]
 N_COLS = len(HEADERS)
@@ -134,15 +146,29 @@ def link_requests(sheet_id, rows, links):
     return req
 
 
-def section_label(iso):
+def effective_today(now=None):
+    """
+    The date the sheet should treat as today. Before DAY_ROLLOVER_HOUR the
+    previous day is still current, so events that ran past midnight have not
+    yet been shunted into Past Events.
+    """
+    now = now or datetime.now(ZoneInfo(LOCAL_TZ))
+    d = now.date()
+    return d - timedelta(days=1) if now.hour < DAY_ROLLOVER_HOUR else d
+
+
+def section_label(iso, today=None):
     if iso == "all-month":
         return "All Month Long"
     y, m, d = (int(x) for x in iso.split("-"))
     dt = date(y, m, d)
-    return f"{WEEKDAYS[dt.weekday()]} {dt.month}/{dt.day}"
+    label = f"{WEEKDAYS[dt.weekday()]} {dt.month}/{dt.day}"
+    if today is not None and dt == today:
+        label += TODAY_SUFFIX
+    return label
 
 
-def build_rows(events, include_empty_dates=True):
+def build_rows(events, include_empty_dates=True, today=None):
     """
     Returns (rows, spans) where rows is a list of 5-cell lists and spans
     records which row indices are banners, promos and section bodies, so
@@ -153,18 +179,27 @@ def build_rows(events, include_empty_dates=True):
         by_date.setdefault(e["date"], []).append(e)
 
     dated = sorted(d for d in by_date if d != "all-month")
-    sections = []
-    if "all-month" in by_date:
-        sections.append("all-month")
+    all_days = []
     if dated and include_empty_dates:
-        first = date.fromisoformat(dated[0])
-        last = date.fromisoformat(dated[-1])
-        cur = first
+        cur, last = date.fromisoformat(dated[0]), date.fromisoformat(dated[-1])
         while cur <= last:
-            sections.append(cur.isoformat())
+            all_days.append(cur.isoformat())
             cur += timedelta(days=1)
     else:
-        sections.extend(dated)
+        all_days = list(dated)
+
+    if today is None:
+        today = effective_today()
+
+    # Elapsed days move to a Past Events block at the foot of the sheet, so
+    # the top of the sheet is always what is still to come.
+    upcoming = [d for d in all_days if date.fromisoformat(d) >= today]
+    past = [d for d in all_days if date.fromisoformat(d) < today]
+
+    sections = []
+    if "all-month" in by_date:
+        sections.append("all-month")        # ongoing, never past
+    sections.extend(upcoming)
 
     def blank():
         return [""] * N_COLS
@@ -179,10 +214,10 @@ def build_rows(events, include_empty_dates=True):
     spans = {"title": 0, "header": 1, "spacer": spans_spacer,
              "banners": [], "promos": [], "bodies": []}
 
-    for n, iso in enumerate(sections):
+    def emit_section(iso, n):
         spans["banners"].append(len(rows))
         banner = blank()
-        banner[0] = section_label(iso)
+        banner[0] = section_label(iso, today)
         rows.append(banner)
 
         body_start = len(rows)
@@ -207,6 +242,23 @@ def build_rows(events, include_empty_dates=True):
         promo[0] = PROMO
         rows.append(promo)
         spans["bodies"].append((body_start, len(rows), PALETTE[n % len(PALETTE)]))
+
+    n = 0
+    for iso in sections:
+        emit_section(iso, n)
+        n += 1
+
+    spans["past_heading"] = None
+    if past:
+        spans["past_rule"] = len(rows)
+        rows.append(blank())                      # black rule before the block
+        spans["past_heading"] = len(rows)
+        heading = blank()
+        heading[0] = PAST_HEADING
+        rows.append(heading)
+        for iso in past:
+            emit_section(iso, n)
+            n += 1
 
     # ── footer ───────────────────────────────────────────────────────────
     spans["footer_rule_top"] = len(rows)
@@ -312,6 +364,18 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
             "cell": {"userEnteredFormat": {"textFormat": {"fontSize": 10}}},
             "fields": "userEnteredFormat.textFormat.fontSize"}})
 
+    # Past Events: a black rule, then a heading styled like a day banner.
+    if spans.get("past_heading") is not None:
+        r = spans["past_rule"]
+        repeat(r, r + 1, {"backgroundColor": rgb(BANNER_BG)},
+               "userEnteredFormat.backgroundColor")
+        h = spans["past_heading"]
+        repeat(h, h + 1,
+               {"backgroundColor": rgb(BANNER_BG),
+                "textFormat": {"fontSize": 18, "bold": False,
+                               "foregroundColor": rgb(WHITE)}},
+               "userEnteredFormat(backgroundColor,textFormat)")
+
     # Footer: black rule, orange block, thick black rule.
     for key in ("footer_rule_top", "footer_rule_bottom"):
         r = spans[key]
@@ -354,6 +418,10 @@ def main():
     ap.add_argument("--yes", action="store_true", help="skip the confirmation")
     ap.add_argument("--no-empty-dates", action="store_true",
                     help="omit banners for dates with no events")
+    ap.add_argument("--today", metavar="YYYY-MM-DD",
+                    help="pretend it is this date (for testing the Past "
+                         "Events split); default is Austin's current date, "
+                         f"rolling over at {DAY_ROLLOVER_HOUR}am")
     args = ap.parse_args()
 
     cfg = json.loads((HERE / "config.json").read_text())
@@ -362,10 +430,18 @@ def main():
         print("events.json is empty — run build.py first.", file=sys.stderr)
         return 2
 
-    rows, spans = build_rows(events, include_empty_dates=not args.no_empty_dates)
+    today = date.fromisoformat(args.today) if args.today else effective_today()
+    rows, spans = build_rows(events,
+                             include_empty_dates=not args.no_empty_dates,
+                             today=today)
     n_sections = len(spans["banners"])
-    print(f"{len(events)} occurrences · {n_sections} sections · "
-          f"{len(rows)} rows · {len(spans['links'])} links")
+    n_past = sum(1 for b in spans["banners"]
+                 if spans.get("past_heading") is not None
+                 and b > spans["past_heading"])
+    print(f"{len(events)} occurrences · {n_sections} sections "
+          f"({n_past} past) · {len(rows)} rows · {len(spans['links'])} links")
+    print(f"treating {today.isoformat()} as today "
+          f"(Austin time, rolls over at {DAY_ROLLOVER_HOUR}am)")
 
     if args.preview:
         print("\n── preview (first 30 rows; * = hyperlinked) ────────────")
