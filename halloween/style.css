@@ -521,7 +521,7 @@ main > * { position: relative; z-index: 1; }
 
 /* .badge is shared with the cards, so the table's copy is adjusted here only.
    The bottom margin keeps stacked tags from clumping when a cell wraps. */
-.dtable .badge { font-size: 13px; margin-bottom: 2px; }
+.dtable .badge { font-size: 13px; margin-bottom: 2px; padding-bottom: 5px; }
 
 .t-time  { color: var(--amber); white-space: nowrap; }
 .t-money { color: var(--money); white-space: nowrap; }

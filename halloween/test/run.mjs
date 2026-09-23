@@ -64,6 +64,19 @@ console.log('\nFILTERS');
   is('unlisted ages reappear at 21', a21 - a18 >= noAge, true);
   s.maxAge = null;
   is('Any age shows everything', n(), data.length);
+
+  // Price tiers are cumulative ceilings; a range uses its first number.
+  s.maxPrice = 0;  const p0 = n();
+  s.maxPrice = 10; const p10 = n();
+  s.maxPrice = 20; const p20 = n();
+  s.maxPrice = 50; const p50 = n();
+  is('price tiers are cumulative', p0 <= p10 && p10 <= p20 && p20 <= p50, true);
+  const noPrice = data.filter(e => e.price_min === null).length;
+  is('unpriced events excluded by any tier', p50 <= data.length - noPrice, true);
+  s.maxPrice = null;
+  is('All price shows everything', n(), data.length);
+  is('a range uses its first number',
+     data.find(e => e.price === '$40-$50').price_min, 40);
   s.search = 'vortex'; is('search matches venue', n() > 0, true);
   s.search = 'zzzznope'; is('search with no hits', n(), 0);
 }

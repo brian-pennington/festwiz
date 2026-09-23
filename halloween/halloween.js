@@ -22,12 +22,22 @@
   // no age rather than claiming 21+, because we do not actually know.
   var UNKNOWN_AGE = 21;
 
+  // Price tiers, cheapest first. null = All, which is the default.
+  var PRICE_TIERS = [
+    { label: 'All',            max: null },
+    { label: 'Free',           max: 0 },
+    { label: '$10 and under',  max: 10 },
+    { label: '$20 and under',  max: 20 },
+    { label: '$50 and under',  max: 50 }
+  ];
+
   var state = {
     events: [],
     view: 'cards',
     when: 'all',          // all | today | weekend
     tags: [],             // OR within tags
     maxAge: null,         // show events admitting someone of this age
+    maxPrice: null,       // show events costing no more than this
     search: ''
   };
 
@@ -105,6 +115,13 @@
     if (state.maxAge !== null) {
       var min = ev.age_min === null ? UNKNOWN_AGE : ev.age_min;
       if (min > state.maxAge) return false;
+    }
+
+    // A stated price only. An event with no price is not known to be cheap,
+    // so a ceiling excludes it — the same rule as the age filter: a tier
+    // lists what we have confirmed, not what might qualify.
+    if (state.maxPrice !== null) {
+      if (ev.price_min === null || ev.price_min > state.maxPrice) return false;
     }
 
     if (state.search) {
@@ -296,6 +313,7 @@
       (state.events.length ? dayLabel(minDate()) + ' – ' + dayLabel(maxDate()) : '');
 
     var active = (state.when !== 'all' ? 1 : 0) + state.tags.length +
+                 (state.maxPrice !== null ? 1 : 0) +
                  (state.maxAge !== null ? 1 : 0) + (state.search ? 1 : 0);
     els.count.hidden = active === 0;
     els.count.textContent = active;
@@ -400,6 +418,13 @@
         }).join('')
       : '<span class="filters__result">No tags yet.</span>';
 
+    els.panelPrice.innerHTML = PRICE_TIERS.map(function (t) {
+      return opt(t.label, t.max === null ? 'any' : String(t.max),
+                 state.maxPrice === t.max);
+    }).join('') +
+      '<p class="fdrop__note">Events with no listed price are only shown ' +
+      'under&nbsp;All.</p>';
+
     els.panelAge.innerHTML = opt('Any age', 'any', state.maxAge === null) +
       ageValues().map(function (a) {
         return opt(ageLabel(a), String(a), state.maxAge === a);
@@ -423,6 +448,13 @@
       : state.tags.length + ' selected';
     els.dropTags.classList.toggle('is-set', state.tags.length > 0);
 
+    var tier = null;
+    for (var i = 0; i < PRICE_TIERS.length; i++) {
+      if (PRICE_TIERS[i].max === state.maxPrice) { tier = PRICE_TIERS[i]; break; }
+    }
+    els.valPrice.textContent = tier ? tier.label : 'All';
+    els.dropPrice.classList.toggle('is-set', state.maxPrice !== null);
+
     els.valAge.textContent = state.maxAge === null ? 'Any age' : ageLabel(state.maxAge);
     els.dropAge.classList.toggle('is-set', state.maxAge !== null);
   }
@@ -434,7 +466,7 @@
   }
 
   function closeAllDrops(except) {
-    [els.dropWhen, els.dropTags, els.dropAge].forEach(function (d) {
+    [els.dropWhen, els.dropTags, els.dropPrice, els.dropAge].forEach(function (d) {
       if (d !== except) setDrop(d, false);
     });
   }
@@ -507,9 +539,12 @@
   function init() {
     els = {
       sub: $('masthead-sub'), status: $('status'), results: $('results'),
-      dropWhen: $('drop-when'), dropTags: $('drop-tags'), dropAge: $('drop-age'),
-      panelWhen: $('panel-when'), panelTags: $('panel-tags'), panelAge: $('panel-age'),
-      valWhen: $('val-when'), valTags: $('val-tags'), valAge: $('val-age'),
+      dropWhen: $('drop-when'), dropTags: $('drop-tags'),
+      dropPrice: $('drop-price'), dropAge: $('drop-age'),
+      panelWhen: $('panel-when'), panelTags: $('panel-tags'),
+      panelPrice: $('panel-price'), panelAge: $('panel-age'),
+      valWhen: $('val-when'), valTags: $('val-tags'),
+      valPrice: $('val-price'), valAge: $('val-age'),
       result: $('filters-result'),
       search: $('filter-search'), clear: $('btn-clear'), count: $('filters-count'),
       cardsBtn: $('btn-view-cards'), tableBtn: $('btn-view-table'),
@@ -527,6 +562,9 @@
       var i = state.tags.indexOf(v);
       if (i === -1) state.tags.push(v); else state.tags.splice(i, 1);
     }, false);
+    wireDrop(els.dropPrice, function (v) {
+      state.maxPrice = v === 'any' ? null : parseFloat(v);
+    }, true);
     wireDrop(els.dropAge, function (v) {
       state.maxAge = v === 'any' ? null : parseInt(v, 10);
     }, true);
@@ -563,7 +601,8 @@
     });
 
     els.clear.addEventListener('click', function () {
-      state.when = 'all'; state.tags = []; state.maxAge = null; state.search = '';
+      state.when = 'all'; state.tags = []; state.maxPrice = null;
+      state.maxAge = null; state.search = '';
       els.search.value = '';
       buildPanels(); render();
     });

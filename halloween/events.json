@@ -14,6 +14,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -32,6 +33,7 @@
     ],
     "age": "18+",
     "age_min": 18,
+    "price_min": 18.0,
     "status": "confirmed"
   },
   {
@@ -49,6 +51,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 43.0,
     "status": "confirmed"
   },
   {
@@ -66,6 +69,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -83,6 +87,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -98,6 +103,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -115,6 +121,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -130,6 +137,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -148,6 +156,7 @@
     ],
     "age": "18+",
     "age_min": 18,
+    "price_min": 23.0,
     "status": "confirmed"
   },
   {
@@ -163,6 +172,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -180,6 +190,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -197,6 +208,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -212,6 +224,7 @@
     "tags": [],
     "age": "21+",
     "age_min": 21,
+    "price_min": 19.0,
     "status": "confirmed"
   },
   {
@@ -227,6 +240,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -244,6 +258,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -261,6 +276,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -278,6 +294,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -295,6 +312,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -312,6 +330,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -329,6 +348,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -346,6 +366,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -361,6 +382,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -378,6 +400,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 43.0,
     "status": "confirmed"
   },
   {
@@ -395,6 +418,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 31.0,
     "status": "confirmed"
   },
   {
@@ -412,6 +436,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -429,6 +454,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -444,6 +470,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -461,6 +488,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -476,6 +504,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 10.0,
     "status": "confirmed"
   },
   {
@@ -493,6 +522,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -510,6 +540,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -527,6 +558,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -544,6 +576,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -559,6 +592,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -576,6 +610,7 @@
     ],
     "age": "18+",
     "age_min": 18,
+    "price_min": 13.0,
     "status": "confirmed"
   },
   {
@@ -593,6 +628,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -610,6 +646,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -627,6 +664,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -642,6 +680,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -659,6 +698,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -676,6 +716,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -691,6 +732,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -708,6 +750,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -725,6 +768,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -740,6 +784,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -755,6 +800,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 166.0,
     "status": "confirmed"
   },
   {
@@ -772,6 +818,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -789,6 +836,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -804,6 +852,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -819,6 +868,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -836,6 +886,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -851,6 +902,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -868,6 +920,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -885,6 +938,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -900,6 +954,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -915,6 +970,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -932,6 +988,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 39.0,
     "status": "confirmed"
   },
   {
@@ -949,6 +1006,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 64.0,
     "status": "confirmed"
   },
   {
@@ -964,6 +1022,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -981,6 +1040,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -996,6 +1056,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1011,6 +1072,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1028,6 +1090,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -1043,6 +1106,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -1060,6 +1124,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1077,6 +1142,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1094,6 +1160,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1111,6 +1178,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1128,6 +1196,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1145,6 +1214,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1162,6 +1232,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -1179,6 +1250,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1196,6 +1268,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -1211,6 +1284,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -1226,6 +1300,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -1243,6 +1318,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 33.0,
     "status": "confirmed"
   },
   {
@@ -1260,6 +1336,7 @@
     ],
     "age": "18+",
     "age_min": 18,
+    "price_min": 32.0,
     "status": "confirmed"
   },
   {
@@ -1277,6 +1354,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1292,6 +1370,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1309,6 +1388,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1326,6 +1406,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1343,6 +1424,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -1360,6 +1442,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -1375,6 +1458,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 29.0,
     "status": "confirmed"
   },
   {
@@ -1390,6 +1474,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -1407,6 +1492,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 39.0,
     "status": "confirmed"
   },
   {
@@ -1424,6 +1510,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 37.0,
     "status": "confirmed"
   },
   {
@@ -1441,6 +1528,7 @@
     ],
     "age": "18+",
     "age_min": 18,
+    "price_min": 32.0,
     "status": "confirmed"
   },
   {
@@ -1456,6 +1544,7 @@
     "tags": [],
     "age": "21+",
     "age_min": 21,
+    "price_min": 17.0,
     "status": "confirmed"
   },
   {
@@ -1471,6 +1560,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1488,6 +1578,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1505,6 +1596,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -1520,6 +1612,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 37.0,
     "status": "confirmed"
   },
   {
@@ -1535,6 +1628,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 37.0,
     "status": "confirmed"
   },
   {
@@ -1550,6 +1644,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -1565,6 +1660,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1582,6 +1678,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1599,6 +1696,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -1614,6 +1712,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1629,6 +1728,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1644,6 +1744,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 27.0,
     "status": "confirmed"
   },
   {
@@ -1661,6 +1762,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -1678,6 +1780,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1695,6 +1798,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1712,6 +1816,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -1729,6 +1834,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1744,6 +1850,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1761,6 +1868,7 @@
     ],
     "age": "21+",
     "age_min": 21,
+    "price_min": 16.0,
     "status": "confirmed"
   },
   {
@@ -1778,6 +1886,7 @@
     ],
     "age": "21+",
     "age_min": 21,
+    "price_min": 16.0,
     "status": "confirmed"
   },
   {
@@ -1795,6 +1904,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 28.0,
     "status": "confirmed"
   },
   {
@@ -1812,6 +1922,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -1829,6 +1940,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1844,6 +1956,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1861,6 +1974,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -1876,6 +1990,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -1891,6 +2006,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 45.0,
     "status": "confirmed"
   },
   {
@@ -1908,6 +2024,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 39.0,
     "status": "confirmed"
   },
   {
@@ -1925,6 +2042,7 @@
     ],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1940,6 +2058,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -1957,6 +2076,7 @@
     ],
     "age": "13+",
     "age_min": 13,
+    "price_min": 40.0,
     "status": "confirmed"
   },
   {
@@ -1972,6 +2092,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -1987,6 +2108,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -2004,6 +2126,7 @@
     ],
     "age": "21+",
     "age_min": 21,
+    "price_min": 18.0,
     "status": "confirmed"
   },
   {
@@ -2019,6 +2142,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2036,6 +2160,7 @@
     ],
     "age": "6+",
     "age_min": 6,
+    "price_min": 39.0,
     "status": "confirmed"
   },
   {
@@ -2051,6 +2176,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 10.0,
     "status": "confirmed"
   },
   {
@@ -2068,6 +2194,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2083,6 +2210,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 67.0,
     "status": "confirmed"
   },
   {
@@ -2098,6 +2226,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -2113,6 +2242,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -2128,6 +2258,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -2143,6 +2274,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 38.0,
     "status": "confirmed"
   },
   {
@@ -2158,6 +2290,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2175,6 +2308,7 @@
     ],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2190,6 +2324,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2205,6 +2340,7 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 20.0,
     "status": "confirmed"
   },
   {
@@ -2220,6 +2356,7 @@
     "tags": [],
     "age": "all ages",
     "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2235,6 +2372,7 @@
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   }
 ]

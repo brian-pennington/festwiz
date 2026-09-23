@@ -79,6 +79,24 @@ AGE_WORDS = {
 }
 
 
+def parse_price(raw):
+    """
+    Lowest number a ticket can cost, for the price filter.
+
+    "free" -> 0 · "$15" -> 15 · "$40-$50" -> 40 (the first number; the top of
+    a range is what you might pay, the bottom is what it can cost) ·
+    "$20+" -> 20.  Returns None when no price is stated, which the filter
+    treats as unknown rather than free.
+    """
+    s = (raw or "").strip().lower()
+    if not s:
+        return None
+    if s in ("free", "no cover", "donation", "free!", "$0"):
+        return 0
+    m = re.search(r"\$?\s*(\d+(?:\.\d{1,2})?)", s)
+    return float(m.group(1)) if m else None
+
+
 def parse_age(raw):
     s = (raw or "").strip().lower()
     if not s:
@@ -535,6 +553,7 @@ def build_events(occurrences):
             "tags": split_tags(o.get("tags")),
             "age": o.get("age", ""),
             "age_min": parse_age(o.get("age")),
+            "price_min": parse_price(o.get("price")),
             "status": o["status"],
         })
     events.sort(key=lambda e: (e["date"] != "all-month", e["date"], e["name"]))
