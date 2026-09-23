@@ -15,7 +15,8 @@
 <body>
 
 <header class="masthead">
-  <a class="masthead__brand" href="/halloween/" aria-label="FestWiz home">
+  <button type="button" class="masthead__brand" id="btn-about"
+          aria-haspopup="dialog" aria-label="About this guide">
     <svg class="masthead__logo" aria-hidden="true" focusable="false" viewBox="0 0 139 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M118.82 19.5V16.25H122.07V19.5H118.82ZM131.82 29.25H135.07V32.5H131.82H128.57H125.32H122.07H118.82V29.25H122.07V26H125.32V22.75V19.5H128.57V16.25H125.32H122.07V13H125.32H128.57H131.82H135.07V16.25V19.5H131.82V22.75V26H128.57V29.25H131.82ZM135.07 29.25V26H138.32V29.25H135.07Z" fill="currentColor"/>
 <path d="M112.32 32.5H109.07V29.25H105.82V26V22.75V19.5V16.25H109.07V13H112.32V16.25V19.5V22.75V26V29.25H115.57V32.5H112.32ZM109.07 13H105.82V9.75V6.5H109.07V3.25H112.32V6.5V9.75H109.07V13Z" fill="currentColor"/>
@@ -25,7 +26,7 @@
 <path d="M27.82 29.25H31.07V32.5H27.82H24.57H21.32V29.25H18.07V26V22.75V19.5H21.32V16.25H24.57V19.5V22.75H27.82V26H24.57V29.25H27.82ZM31.07 29.25V26H34.32V29.25H31.07ZM27.82 22.75V19.5V16.25H24.57V13H27.82H31.07H34.32V16.25V19.5H31.07V22.75H27.82Z" fill="currentColor"/>
 <path d="M3.25 35.75V32.5V29.25V26V22.75V19.5H0V16.25H3.25V13V9.75V6.5H0V3.25H3.25H6.5H9.75V0H13H16.25V3.25H19.5V6.5V9.75H16.25V6.5H13V9.75H9.75V13H13H16.25V16.25H13V19.5H9.75V22.75V26V29.25V32.5H6.5V35.75H3.25Z" fill="currentColor"/>
 </svg>
-  </a>
+  </button>
   <div class="masthead__divider" aria-hidden="true"></div>
   <div class="masthead__titles">
     <h1 class="masthead__title">Lite + Brite&rsquo;s Guide to ATX Halloween</h1>
@@ -110,6 +111,46 @@
     Built with <a href="/southbysouthwest/">FestWiz</a>.
   </p>
 </footer>
+
+<div class="modal-overlay" id="modal-about" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="about-title">
+    <h2 class="modal__title" id="about-title">About this guide</h2>
+    <div class="modal__body">
+      <p>Every Halloween event we could find in Austin &mdash; haunted houses, horror
+         screenings, drag and burlesque, markets, and whatever else is strange enough
+         to be worth your night. Compiled by hand by
+         <a href="https://liteandbriteatx.beehiiv.com/" target="_blank" rel="noopener">Lite&nbsp;+&nbsp;Brite</a>,
+         a weekly newsletter of offbeat Austin events.</p>
+
+      <p>Use the filters to narrow by date, tag, price or age. Clicking a tag on any
+         event filters to just that tag. Today&rsquo;s events sit at the top; once a
+         night is over it moves down to <strong>Past Events</strong>.</p>
+
+      <p>A note on the filters: they list only what we&rsquo;ve confirmed. An event
+         with no listed age is treated as 21+, and an event with no listed price only
+         appears under <em>All</em>. If something looks missing, that&rsquo;s usually
+         why &mdash; and it usually means we haven&rsquo;t pinned the detail down yet.</p>
+
+      <p>The same listings are also kept as a
+         <a href="https://docs.google.com/spreadsheets/d/1JJlnBhnhkEWf5-cQyvAUNqIahYUhcjGTuTca3u8a9Yw/edit" target="_blank" rel="noopener">public Google&nbsp;Sheet</a>,
+         if you&rsquo;d rather sort it yourself.</p>
+
+      <p>This runs on <strong>FestWiz</strong>, which I built to plan my way through
+         South&nbsp;by&nbsp;Southwest. That version &mdash; rate every band, then find
+         them on a schedule grid &mdash; is still up at
+         <a href="/southbysouthwest/">festwiz.biz/southbysouthwest</a>.</p>
+
+      <p>Free to use. If you want to do something supportive, you could
+         <a href="https://liteandbriteatx.beehiiv.com/?modal=signup" target="_blank" rel="noopener">subscribe to the newsletter</a>
+         or tell a friend. Thanks for clicking on things and reading things.</p>
+
+      <p class="modal__sig">&mdash; Brian</p>
+    </div>
+    <div class="modal__foot">
+      <button type="button" class="btn-zap" id="btn-close-about">ZAP!</button>
+    </div>
+  </div>
+</div>
 
 <script src="halloween.js"></script>
 <script>

@@ -148,6 +148,21 @@ console.log('\nDROPDOWN OPEN/CLOSE STATE');
   is('no drop starts open', made['drop-when']._cls.has('is-open'), false);
 }
 
+console.log('\nABOUT MODAL (markup)');
+{
+  // A stub DOM does not parse HTML, so assert on the file itself.
+  const fs = await import('fs');
+  const html = fs.readFileSync('halloween/index.html', 'utf8');
+  is('overlay starts hidden', /id="modal-about" hidden/.test(html), true);
+  is('has a dialog role', /role="dialog"/.test(html), true);
+  is('dialog is modal', /aria-modal="true"/.test(html), true);
+  is('dialog is labelled', /aria-labelledby="about-title"/.test(html), true);
+  is('logo is a button, not a link', /class="masthead__brand" id="btn-about"/.test(html), true);
+  is('trigger declares a dialog', /aria-haspopup="dialog"/.test(html), true);
+  is('links to the festival app', html.includes('/southbysouthwest/'), true);
+  is('no stale logo link', /<a class="masthead__brand"/.test(html), false);
+}
+
 console.log('\nSTICKY OFFSETS');
 {
   boot();

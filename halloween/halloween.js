@@ -507,6 +507,26 @@
     render();
   }
 
+  /* ── about modal ──────────────────────────────────────────────────── */
+
+  var lastFocus = null;
+
+  function openAbout() {
+    lastFocus = document.activeElement;
+    els.about.hidden = false;
+    els.aboutClose.focus();
+  }
+
+  function closeAbout() {
+    els.about.hidden = true;
+    // Send focus back where it came from, or the modal leaves keyboard users
+    // stranded at the top of the document.
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+    lastFocus = null;
+  }
+
+  function aboutIsOpen() { return els.about && !els.about.hidden; }
+
   /* ── sticky offsets ───────────────────────────────────────────────── */
 
   // The table's sticky header has to sit exactly under the masthead and the
@@ -546,6 +566,8 @@
       valWhen: $('val-when'), valTags: $('val-tags'),
       valPrice: $('val-price'), valAge: $('val-age'),
       result: $('filters-result'),
+      about: $('modal-about'), aboutBtn: $('btn-about'),
+      aboutClose: $('btn-close-about'),
       search: $('filter-search'), clear: $('btn-clear'), count: $('filters-count'),
       cardsBtn: $('btn-view-cards'), tableBtn: $('btn-view-table'),
       filters: $('filters'), filtersBtn: $('btn-filters')
@@ -583,10 +605,20 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
+    els.aboutBtn.addEventListener('click', openAbout);
+    els.aboutClose.addEventListener('click', closeAbout);
+    // Backdrop only — a click inside the dialog must not close it.
+    els.about.addEventListener('click', function (e) {
+      if (e.target === els.about) closeAbout();
+    });
+
     // Click-away and Escape close whichever panel is open.
     document.addEventListener('click', function () { closeAllDrops(null); });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeAllDrops(null);
+      if (e.key !== 'Escape') return;
+      // The modal sits above everything, so it takes Escape first.
+      if (aboutIsOpen()) closeAbout();
+      else closeAllDrops(null);
     });
     els.cardsBtn.addEventListener('click', function () { setView('cards'); });
     els.tableBtn.addEventListener('click', function () { setView('table'); });
