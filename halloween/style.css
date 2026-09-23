@@ -305,12 +305,11 @@ a:hover { color: #ffc46b; }
 
 main { padding: 0 var(--gutter) 48px; position: relative; }
 
-/* Texture sits on the panel itself. Cards have a solid background so they
-   read as lying on top of it; the day headings are transparent, so the hatch
-   runs straight through them and ties the sections together.
-   Table view opts out — half its rows are unstriped, so the hatch would show
-   through every other row and fight the data. */
-body[data-view="cards"] main::before {
+/* Texture sits on the panel itself, in BOTH views, so they read as the same
+   page. Cards and striped table rows have solid backgrounds and lie on top of
+   it; day headings and unstriped rows are transparent, so the hatch runs
+   through them. */
+main::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -406,7 +405,10 @@ main > * { position: relative; z-index: 1; }
 .tablewrap { margin-top: 0; }
 .tablewrap + .tablewrap { margin-top: 0; }
 
-.dtable { width: 100%; border-collapse: collapse; font-size: 13px; }
+/* Transparent on purpose: the panel behind it is --bg (#14120f) carrying the
+   hatch, and the table reads as laid over that rather than masking it. The
+   striped rows below are the opaque ones. */
+.dtable { width: 100%; border-collapse: collapse; font-size: 13px; background-color: transparent; }
 .dtable th {
   font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.3px;
   text-transform: uppercase; text-align: left; color: #fff; background: #000;
@@ -443,13 +445,7 @@ main > * { position: relative; z-index: 1; }
 .sitefoot {
   padding: 26px var(--gutter) 40px;
   background: #e69138; color: #14120f;
-  border-top: 12px solid #000;
 }
-
-/* In card view the hatch already separates the panel from the footer, so the
-   heavy rule is redundant. Table view keeps it: there it echoes the closing
-   black rule of the printed guide. */
-body[data-view="cards"] .sitefoot { border-top: 0; }
 /* Full width: the longest line is ~132 characters, about 845px at this size,
    so each sits on one row on any desktop and wraps naturally below that.
    A measure cap would be better for long-form reading, but these are four
