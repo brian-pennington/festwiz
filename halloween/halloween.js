@@ -517,12 +517,25 @@
     els.aboutClose.focus();
   }
 
+  // Plain dismissal — backdrop click or Escape. No animation.
   function closeAbout() {
     els.about.hidden = true;
+    els.about.classList.remove('zapping');
     // Send focus back where it came from, or the modal leaves keyboard users
     // stranded at the top of the document.
     if (lastFocus && lastFocus.focus) lastFocus.focus();
     lastFocus = null;
+  }
+
+  // ZAP! — the festival app's dismissal: run the 700ms animation, then hide.
+  function zapAbout() {
+    els.about.classList.add('zapping');
+    setTimeout(function () {
+      els.about.hidden = true;
+      els.about.classList.remove('zapping');
+      if (lastFocus && lastFocus.focus) lastFocus.focus();
+      lastFocus = null;
+    }, 700);
   }
 
   function aboutIsOpen() { return els.about && !els.about.hidden; }
@@ -606,7 +619,7 @@
     });
 
     els.aboutBtn.addEventListener('click', openAbout);
-    els.aboutClose.addEventListener('click', closeAbout);
+    els.aboutClose.addEventListener('click', zapAbout);
     // Backdrop only — a click inside the dialog must not close it.
     els.about.addEventListener('click', function (e) {
       if (e.target === els.about) closeAbout();

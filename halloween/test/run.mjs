@@ -161,6 +161,27 @@ console.log('\nABOUT MODAL (markup)');
   is('trigger declares a dialog', /aria-haspopup="dialog"/.test(html), true);
   is('links to the festival app', html.includes('/southbysouthwest/'), true);
   is('no stale logo link', /<a class="masthead__brand"/.test(html), false);
+
+  // The ZAP! dismissal must match the festival app exactly.
+  const fsx = await import('fs');
+  const norm = (t) => t.replace(/\s+/g, ' ');
+  const kf = (src, name) => {
+    const i = src.indexOf('@keyframes ' + name);
+    let d = 0, j = i;
+    for (; j < src.length; j++) {
+      if (src[j] === '{') d++;
+      else if (src[j] === '}' && --d === 0) break;
+    }
+    return norm(src.slice(i, j + 1));
+  };
+  const sx = fsx.readFileSync('southbysouthwest/style.css', 'utf8');
+  const hw = fsx.readFileSync('halloween/style.css', 'utf8');
+  is('zap-screen-flash matches the festival app',
+     kf(hw, 'zap-screen-flash'), kf(sx, 'zap-screen-flash'));
+  is('zap-modal-shrink matches the festival app',
+     kf(hw, 'zap-modal-shrink'), kf(sx, 'zap-modal-shrink'));
+  const js = fsx.readFileSync('halloween/halloween.js', 'utf8');
+  is('zap runs for 700ms like the festival app', /\}, 700\);/.test(js), true);
 }
 
 console.log('\nSTICKY OFFSETS');

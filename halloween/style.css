@@ -395,6 +395,42 @@ main > * { position: relative; z-index: 1; }
    stylesheet's [hidden], so restate it at higher specificity. */
 .modal-overlay[hidden] { display: none; }
 
+/* ZAP! — lifted verbatim from the festival app so the two behave identically.
+   The overlay flashes while the dialog shrinks, spins and blows out to white,
+   then the JS removes it after 700ms. */
+@keyframes zap-screen-flash {
+  0%   { background: rgba(0,0,0,0.55); }
+  10%  { background: rgba(255,240,60,0.75); }
+  22%  { background: rgba(255,255,255,0.97); }
+  35%  { background: rgba(255,220,30,0.55); }
+  50%  { background: rgba(255,255,180,0.8); }
+  65%  { background: rgba(200,180,0,0.3); }
+  100% { background: rgba(0,0,0,0); }
+}
+
+@keyframes zap-modal-shrink {
+  0%   { transform: scale(1)    rotate(0deg);   filter: brightness(1);          opacity: 1; }
+  12%  { transform: scale(1.07) rotate(-2deg);  filter: brightness(5);          opacity: 1; }
+  28%  { transform: scale(0.92) rotate(3deg);   filter: brightness(2);          opacity: 1; }
+  50%  { transform: scale(0.55) rotate(-6deg);  filter: brightness(10) blur(2px); opacity: 0.85; }
+  100% { transform: scale(0.04) rotate(18deg);  filter: brightness(25) blur(8px); opacity: 0; }
+}
+
+.modal-overlay.zapping {
+  animation: zap-screen-flash 0.7s ease-out forwards;
+  pointer-events: none;
+}
+
+.modal-overlay.zapping .modal {
+  animation: zap-modal-shrink 0.7s cubic-bezier(0.4, 0, 1, 1) forwards;
+}
+
+/* A hard strobe is exactly what some people cannot safely be shown. */
+@media (prefers-reduced-motion: reduce) {
+  .modal-overlay.zapping,
+  .modal-overlay.zapping .modal { animation: none; }
+}
+
 .modal {
   width: min(620px, 100%);
   max-height: min(78vh, 780px);
