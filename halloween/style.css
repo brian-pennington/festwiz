@@ -53,7 +53,7 @@
      fill is irrelevant and these two control the look entirely — change the
      colour and the strength here, no need to touch the file. */
   --texture-color: #ffffff;
-  --texture-opacity: 0.05;
+  --texture-opacity: 0.1;
   --texture-size: 6px;
 
   /* Measured at runtime by halloween.js — the masthead's height and the
