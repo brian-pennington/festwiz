@@ -343,7 +343,7 @@ main { padding: 0 var(--gutter) 48px; }
 }
 
 .card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-.card__name { font-size: 17px; font-weight: 600; line-height: 1.25; margin: 0; }
+.card__name { font-size: 21px; font-weight: 600; line-height: 1.22; margin: 0; }
 .card__name a { color: #fff; text-decoration: none; border-bottom: 1px solid #4a423a; }
 .card__name a:hover { color: var(--amber); border-bottom-color: var(--amber); }
 
@@ -354,7 +354,7 @@ main { padding: 0 var(--gutter) 48px; }
 .card__time--tba { font-size: 15px; color: var(--text-4); }
 
 .card__venue { font-size: 13px; color: var(--text-2); }
-.card__desc  { font-size: 13px; color: var(--text-3); line-height: 1.5; }
+.card__desc  { font-size: 13px; color: var(--text-3); line-height: 1.5; font-style: italic; }
 
 .card__meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-top: auto; padding-top: 4px; }
 .card__price { font-size: 12px; font-weight: 600; color: var(--money); }
@@ -395,7 +395,8 @@ main { padding: 0 var(--gutter) 48px; }
 .t-time  { color: var(--amber); white-space: nowrap; }
 .t-money { color: var(--money); white-space: nowrap; }
 .t-none  { color: var(--text-4); }
-.t-desc  { color: var(--text-3); font-size: 12px; line-height: 1.45; }
+.t-name  { font-size: 17px; line-height: 1.25; }
+.t-desc  { color: var(--text-3); font-size: 12px; line-height: 1.45; font-style: italic; margin-top: 2px; }
 
 /* ── footer ───────────────────────────────────────────────────────────── */
 

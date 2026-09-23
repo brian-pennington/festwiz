@@ -179,7 +179,8 @@
                : '<td class="t-none">&mdash;</td>';
     }
     return '<tr>' +
-      '<td>' + name + (ev.description ? '<div class="t-desc">' + esc(ev.description) + '</div>' : '') + '</td>' +
+      '<td class="t-name">' + name +
+        (ev.description ? '<div class="t-desc">' + esc(ev.description) + '</div>' : '') + '</td>' +
       cell(ev.venue, '') +
       cell(ev.time, 't-time') +
       cell(ev.price, 't-money') +
