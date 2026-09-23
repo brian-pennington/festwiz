@@ -264,7 +264,9 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
     # Wipe formatting across the whole written range first, so a shorter
     # rebuild cannot leave last run's colours stranded below the new content.
     #
-    repeat(0, max(len(rows), 400),
+    # Reset across exactly the written range. The grid is trimmed to the same
+    # length afterwards, so there is nothing below this to leave stranded.
+    repeat(0, len(rows),
            {"backgroundColor": rgb("#ffffff"),
             "textFormat": {"bold": False, "fontSize": 11,
                            "foregroundColor": rgb("#000000")}},
@@ -400,9 +402,9 @@ def main():
     # The grid has to be big enough before anything is written. Adding a
     # column to the schema is otherwise silent: values land nowhere and the
     # new headers simply do not appear.
-    need_rows = len(rows) + 20
-    if ws.row_count < need_rows:
-        ws.add_rows(need_rows - ws.row_count)
+    # Grow first if needed; the grid is trimmed to the exact length at the end.
+    if ws.row_count < len(rows):
+        ws.add_rows(len(rows) - ws.row_count)
     if ws.col_count < N_COLS:
         ws.add_cols(N_COLS - ws.col_count)
         print(f"widened sheet to {N_COLS} columns")
@@ -415,6 +417,13 @@ def main():
     lreq = link_requests(ws.id, rows, spans["links"])
     for i in range(0, len(lreq), 200):
         sh.batch_update({"requests": lreq[i:i + 200]})
+
+    # Trim the grid to the content. Without this the sheet keeps whatever rows
+    # a previous, longer run left behind, showing as blank white lines under
+    # the footer.
+    if ws.row_count != len(rows) or ws.col_count != N_COLS:
+        ws.resize(rows=len(rows), cols=N_COLS)
+        print(f"trimmed grid to {len(rows)} x {N_COLS}")
     print(f"wrote {len(rows)} rows and {len(lreq)} links to {cfg['public_tab']!r}")
     return 0
 
