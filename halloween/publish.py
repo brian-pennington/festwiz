@@ -35,7 +35,8 @@ TITLE = ("This spreadsheet compiled w/love ",
 
 PROMO = "Subscribe to the Lite + Brite newsletter for more Austin events"
 
-HEADERS = ["Name", "Location", "Price", "Time", "Description"]
+HEADERS = ["Name", "Location", "Price", "Time", "Age", "Tags", "Description"]
+N_COLS = len(HEADERS)
 
 # One Halloween-themed fill per day, cycling through six, as in the 2025 sheet.
 # "All Month Long" is a day like any other and takes the first colour.
@@ -83,15 +84,35 @@ def rgb(hex_color):
             "blue": int(h[4:6], 16) / 255}
 
 
-def esc(s):
-    return (s or "").replace('"', '""')
+def link_requests(sheet_id, rows, links):
+    """
+    Real inserted hyperlinks, written as a textFormatRun on the cell.
 
+    This is what the 2025 sheet used. A =HYPERLINK() formula renders a link
+    too, but it leaves formula markup in the cell, exports as a formula, and
+    depends on recalculation. A textFormatRun link is an ordinary Sheets
+    hyperlink: underlined, clickable, and plain text when exported.
 
-def link(url, text):
-    """A HYPERLINK formula — regenerates cleanly on every rewrite."""
-    if not url:
-        return text or ""
-    return f'=HYPERLINK("{esc(url)}","{esc(text)}")'
+    Must be applied AFTER the colour passes — repeatCell writing textFormat
+    would otherwise clobber these runs.
+    """
+    req = []
+    for row_idx, url in sorted(links.items()):
+        text = rows[row_idx][0]
+        if not text:
+            continue
+        req.append({"updateCells": {
+            "range": {"sheetId": sheet_id, "startRowIndex": row_idx,
+                      "endRowIndex": row_idx + 1,
+                      "startColumnIndex": 0, "endColumnIndex": 1},
+            "rows": [{"values": [{
+                "userEnteredValue": {"stringValue": text},
+                "textFormatRuns": [{"startIndex": 0,
+                                    "format": {"link": {"uri": url},
+                                               "underline": True}}],
+            }]}],
+            "fields": "userEnteredValue,textFormatRuns"}})
+    return req
 
 
 def section_label(iso):
@@ -126,37 +147,49 @@ def build_rows(events, include_empty_dates=True):
     else:
         sections.extend(dated)
 
-    rows = [
-        [link(SUBSCRIBE_URL, TITLE[0]), link(SUBSCRIBE_URL, TITLE[1]), "", "", ""],
-        HEADERS[:],
-        ["", "", "", "", ""],
-    ]
+    def blank():
+        return [""] * N_COLS
+
+    title = blank()
+    title[0], title[1] = TITLE[0], TITLE[1]
+    rows = [title, HEADERS[:], blank()]
+    links = {0: SUBSCRIBE_URL}          # row index -> url for column A
     spans = {"title": 0, "header": 1, "banners": [], "promos": [], "bodies": []}
 
     for n, iso in enumerate(sections):
         spans["banners"].append(len(rows))
-        rows.append([section_label(iso), "", "", "", ""])
+        banner = blank()
+        banner[0] = section_label(iso)
+        rows.append(banner)
 
         body_start = len(rows)
         for e in sorted(by_date.get(iso, []),
                         key=lambda x: (time_key(x.get("time", "")),
                                        x["name"].lower())):
+            if e.get("url"):
+                links[len(rows)] = e["url"]
             rows.append([
-                link(e.get("url"), e["name"]),
+                e["name"],
                 e.get("venue", ""),
                 e.get("price", ""),
                 e.get("time", ""),
+                e.get("age", ""),
+                ", ".join(e.get("tags", [])),
                 e.get("description", ""),
             ])
-        rows.append(["", "", "", "", ""])          # blank row inside the fill
+        rows.append(blank())                      # blank row inside the fill
         spans["promos"].append(len(rows))
-        rows.append([link(SUBSCRIBE_URL, PROMO), "", "", "", ""])
+        links[len(rows)] = SUBSCRIBE_URL
+        promo = blank()
+        promo[0] = PROMO
+        rows.append(promo)
         spans["bodies"].append((body_start, len(rows), PALETTE[n % len(PALETTE)]))
 
+    spans["links"] = links
     return rows, spans
 
 
-def text_format_requests(sheet_id, n_rows, n_cols=5):
+def text_format_requests(sheet_id, n_rows, n_cols=N_COLS):
     """
     Force columns B-E to TEXT *before* any values are written.
 
@@ -164,8 +197,7 @@ def text_format_requests(sheet_id, n_rows, n_cols=5):
     format from a previous sheet re-coerces "7:30pm" into "7:30 PM" on write.
     Prices like "$15" would likewise parse as currency. TEXT stops both.
 
-    Column A is deliberately left alone: it holds =HYPERLINK() formulas, and a
-    TEXT-formatted cell stores a formula as literal text instead of running it.
+    Column A is left alone so its hyperlink runs are not disturbed.
     """
     return [{"repeatCell": {
         "range": {"sheetId": sheet_id, "startRowIndex": 0,
@@ -175,7 +207,7 @@ def text_format_requests(sheet_id, n_rows, n_cols=5):
         "fields": "userEnteredFormat.numberFormat"}}]
 
 
-def format_requests(sheet_id, rows, spans, n_cols=5):
+def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
     """batchUpdate requests recreating the 2025 look."""
     req = []
 
@@ -254,23 +286,22 @@ def main():
 
     rows, spans = build_rows(events, include_empty_dates=not args.no_empty_dates)
     n_sections = len(spans["banners"])
-    n_events = sum(1 for r in rows
-                   if r[0] and not r[0].startswith(f'=HYPERLINK("{SUBSCRIBE_URL}"')
-                   and r[0] not in HEADERS and r[0] != TITLE[0]
-                   and r != ["", "", "", "", ""]) - n_sections
-
-    print(f"{len(events)} occurrences · {n_sections} sections · {len(rows)} rows")
+    print(f"{len(events)} occurrences · {n_sections} sections · "
+          f"{len(rows)} rows · {len(spans['links'])} links")
 
     if args.preview:
-        print("\n── preview (first 30 rows) ─────────────────────────────")
+        print("\n── preview (first 30 rows; * = hyperlinked) ────────────")
+        print(f"      {'kind':7} {'name':36} {'venue':18} {'time':8} "
+              f"{'age':9} tags")
         for i, r in enumerate(rows[:30], start=1):
             kind = ("TITLE" if i - 1 == spans["title"] else
                     "HEADER" if i - 1 == spans["header"] else
                     "BANNER" if i - 1 in spans["banners"] else
                     "PROMO" if i - 1 in spans["promos"] else
                     "")
-            cell = r[0][:46]
-            print(f"  {i:3} {kind:7} {cell:48} {r[1][:20]:20} {r[3][:9]}")
+            mark = "*" if (i - 1) in spans["links"] else " "
+            print(f"  {i:3} {kind:7}{mark}{r[0][:34]:36} {r[1][:18]:18} "
+                  f"{r[3][:8]:8} {r[4][:9]:9} {r[5][:18]}")
         print(f"\n  ... {len(rows) - 30} more rows")
         print("\npreview only — nothing written.")
         return 0
@@ -298,7 +329,11 @@ def main():
     sh.batch_update({"requests": text_format_requests(ws.id, len(rows))})
     ws.update(rows, "A1", value_input_option="USER_ENTERED")
     sh.batch_update({"requests": format_requests(ws.id, rows, spans)})
-    print(f"wrote {len(rows)} rows to {cfg['public_tab']!r}")
+    # Links last: the colour passes above would overwrite the text runs.
+    lreq = link_requests(ws.id, rows, spans["links"])
+    for i in range(0, len(lreq), 200):
+        sh.batch_update({"requests": lreq[i:i + 200]})
+    print(f"wrote {len(rows)} rows and {len(lreq)} links to {cfg['public_tab']!r}")
     return 0
 
 
