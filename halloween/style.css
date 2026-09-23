@@ -56,6 +56,8 @@
   --texture-opacity: 0.25;
   --texture-size: 6px;
 
+  --row-stripe: 26, 23, 19;   /* #1a1713, as channels so rows can be translucent */
+
   /* Measured at runtime by halloween.js — the masthead's height and the
      masthead+filters stack. Hardcoding these left the sticky table header
      parked below the filter bar with a strip of page showing through, and
@@ -309,6 +311,11 @@ main { padding: 0 var(--gutter) 48px; position: relative; }
    page. Cards and striped table rows have solid backgrounds and lie on top of
    it; day headings and unstriped rows are transparent, so the hatch runs
    through them. */
+/* Table view runs the hatch harder: the rows cover most of it, so it reads
+   mainly down the gutters and below the last row. The rows themselves damp
+   it back down — see the translucent stripe below. */
+body[data-view="table"] { --texture-opacity: 0.5; }
+
 main::before {
   content: "";
   position: absolute;
@@ -415,7 +422,12 @@ main > * { position: relative; z-index: 1; }
   padding: 9px 12px; position: sticky; top: var(--sticky-top); z-index: 10;
 }
 .dtable td { padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
-.dtable tbody tr:nth-child(odd) td { background: #1a1713; }
+/* Striped rows are opaque; the others are the SAME colour, translucent.
+   0.85 rather than 0.5: at half opacity a description sitting on a hatch line
+   measures 2.6:1, which is why they were competing. 0.85 still lets the
+   texture read through the row and brings descriptions back to 4.7:1. */
+.dtable tbody tr:nth-child(odd) td { background: rgb(var(--row-stripe)); }
+.dtable tbody tr:nth-child(even) td { background: rgba(var(--row-stripe), 0.85); }
 .dtable a { color: var(--text); text-decoration: none; border-bottom: 1px solid #4a423a; }
 .dtable a:hover { color: var(--amber); border-bottom-color: var(--amber); }
 
