@@ -97,6 +97,48 @@ def parse_age(raw):
     return None
 
 
+# Google Sheets sometimes reformats a typed "6:30 PM" into 24-hour "18:30",
+# depending on the cell's locale setting.  Nothing in a US listing should ever
+# display 24-hour, so recognised times are normalised on the way through.
+# Free-text values ("various", "doors at 7") are left exactly as written.
+TIME_24H = re.compile(r"^([01]?\d|2[0-3]):([0-5]\d)(?::[0-5]\d)?$")
+TIME_12H = re.compile(r"^(\d{1,2})(?::([0-5]\d))?\s*([ap])\.?m\.?$", re.I)
+
+
+def normalize_time(raw):
+    """
+    Return (display_time, was_changed).
+
+    "18:30" -> "6:30 PM".  "7pm" -> "7:00 PM".  Anything unrecognised comes
+    back untouched, because times are free text by design.
+    """
+    s = (raw or "").strip()
+    if not s:
+        return "", False
+
+    m = TIME_24H.match(s)
+    if m:
+        h, mi = int(m.group(1)), int(m.group(2))
+        if h == 0 or h >= 13:
+            # Unambiguously 24-hour: no 12-hour clock has these hours.
+            suffix = "AM" if h < 12 else "PM"
+            return f"{h % 12 or 12}:{mi:02d} {suffix}", True
+        # 1:00-12:59 with no meridiem is ambiguous. For an evening-heavy
+        # listing a bare "9:30" almost certainly means PM, but guessing gets
+        # it silently wrong half the time, so leave it and say so.
+        return s, "ambiguous"
+
+    m = TIME_12H.match(s)
+    if m:
+        h = int(m.group(1))
+        mi = int(m.group(2) or 0)
+        suffix = "AM" if m.group(3).lower() == "a" else "PM"
+        if 1 <= h <= 12:
+            out = f"{h}:{mi:02d} {suffix}"
+            return out, out != s
+    return s, False
+
+
 MONTHS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
     "jul": 7, "aug": 8, "sep": 9, "sept": 9, "oct": 10, "nov": 11, "dec": 12,
@@ -362,6 +404,20 @@ def resolve(rows, mapping):
                 resolved[col] = raw
                 carry[col] = raw
 
+        for tcol in ("time", "end_time"):
+            original = resolved.get(tcol, "")
+            fixed, changed = normalize_time(original)
+            if changed == "ambiguous":
+                warnings.append(
+                    f"line {line_no}: {tcol} {original!r} has no AM/PM. Left as "
+                    f"written — add a meridiem so it is not read as morning."
+                )
+            elif changed:
+                resolved.setdefault("_normalized", []).append(
+                    f"{tcol}: {original!r} -> {fixed!r}"
+                )
+            resolved[tcol] = fixed
+
         status = (cell(row, "status") or "confirmed").strip().lower()
         resolved["status"] = status
         resolved["line"] = line_no
@@ -518,6 +574,14 @@ def report(occurrences, errors, warnings, tag_list, suspects, verbose):
     else:
         print("\n── tags discovered ────────────────────────────────────────")
         print("  (none yet — the tags column is empty)")
+
+    norm = [(o["line"], n) for o in occurrences for n in o.get("_normalized", [])]
+    if norm:
+        print(f"\n── times normalised ({len(norm)}) ───────────────────────────")
+        for line_no, what in norm[:20]:
+            print(f"  line {line_no}: {what}")
+        if len(norm) > 20:
+            print(f"  ... and {len(norm) - 20} more")
 
     ages = Counter(o.get("age", "").strip() for o in occurrences if o.get("age", "").strip())
     if ages:
