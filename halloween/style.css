@@ -445,8 +445,29 @@ main > * { position: relative; z-index: 1; }
 
 .card__meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-top: auto; padding-top: 4px; }
 .card__price { font-size: 12px; font-weight: 600; color: var(--money); }
-.badge { font-size: 11px; color: var(--text); background: var(--line); padding: 3px 8px; border-radius: 2px; }
-.badge--tag { color: #14120f; background: var(--tag); }
+/* Bold: these sit at 11-13px on a mid-tone fill, where regular weight is the
+   first thing to go. */
+.badge {
+  font-family: var(--serif); font-size: 11px; font-weight: 600;
+  color: var(--text); background: var(--line);
+  padding: 3px 8px; border-radius: 2px;
+  border: 0; line-height: 1.4;
+}
+
+/* Tags are buttons that filter to themselves — see tagButton() in the JS. */
+.badge--tag {
+  color: #14120f; background: var(--tag);
+  cursor: pointer;
+}
+.badge--tag:hover,
+.badge--tag:focus-visible { background: var(--amber); }
+.badge--tag[aria-pressed="true"] {
+  background: var(--amber);
+  box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--amber);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .badge--tag { transition: background-color 200ms ease; }
+}
 
 /* ── table ────────────────────────────────────────────────────────────── */
 

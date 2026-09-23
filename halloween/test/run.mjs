@@ -95,6 +95,18 @@ console.log('\nCARD CONTENT');
   is('no price placeholder', count(html, /price TBA/g), 0);
   is('no empty meta rows', count(html, /<div class="card__meta"><\/div>/g), 0);
   is('every event still rendered', count(html, /<article/g), data.length);
+
+  const tagged = data.reduce((n, e) => n + e.tags.length, 0);
+  is('tags render as buttons', count(html, /class="badge badge--tag"/g), tagged);
+  is('tag buttons carry their value', count(html, /data-tag="/g), tagged);
+  is('none pressed with no filter', count(html, /class="badge badge--tag" data-tag="[^"]*" aria-pressed="true"/g), 0);
+
+  api.state.tags = ['film'];
+  const filtered = api.renderCards(
+    api.groupByDay(data.filter(api.matches)),
+    api.orderedDays(api.groupByDay(data.filter(api.matches))));
+  is('active tag marked pressed', count(filtered, /aria-pressed="true"/g) > 0, true);
+  api.state.tags = [];
 }
 
 console.log('\nDROPDOWN OPEN/CLOSE STATE');

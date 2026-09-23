@@ -158,9 +158,7 @@
       : '';
     var badges = '';
     if (ev.age) badges += '<span class="badge">' + esc(ev.age) + '</span>';
-    ev.tags.forEach(function (tg) {
-      badges += '<span class="badge badge--tag">' + esc(tg) + '</span>';
-    });
+    ev.tags.forEach(function (tg) { badges += tagButton(tg); });
 
     return '<article class="card">' +
       '<div class="card__top"><h3 class="card__name">' + name + '</h3>' + time + '</div>' +
@@ -177,7 +175,7 @@
       ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
       : esc(ev.name);
     var tags = ev.tags.length
-      ? ev.tags.map(function (tg) { return '<span class="badge badge--tag">' + esc(tg) + '</span>'; }).join(' ')
+      ? ev.tags.map(tagButton).join(' ')
       : '<span class="t-none">&mdash;</span>';
     function cell(v, cls) {
       return v ? '<td class="' + cls + '">' + esc(v) + '</td>'
@@ -192,6 +190,16 @@
       cell(ev.age, '') +
       '<td>' + tags + '</td>' +
       '</tr>';
+  }
+
+  // Tags on an event are buttons, not labels: clicking one filters to it.
+  // A real <button> so it is reachable by keyboard and announced as a control.
+  function tagButton(tag) {
+    var on = state.tags.length === 1 && state.tags[0] === tag;
+    return '<button type="button" class="badge badge--tag" data-tag="' + esc(tag) + '"' +
+      ' aria-pressed="' + (on ? 'true' : 'false') + '"' +
+      ' title="' + (on ? 'Clear this filter' : 'Show only ' + esc(tag) + ' events') + '">' +
+      esc(tag) + '</button>';
   }
 
   function dayHeadHTML(iso, n, colourIndex, isToday) {
@@ -500,6 +508,20 @@
     wireDrop(els.dropAge, function (v) {
       state.maxAge = v === 'any' ? null : parseInt(v, 10);
     }, true);
+
+    // Clicking a tag on an event filters to just that tag; clicking the same
+    // one again clears it. Replacing rather than adding matches what the tag
+    // looks like it promises — "show me the drag events".
+    els.results.addEventListener('click', function (e) {
+      var btn = e.target.closest('.badge--tag');
+      if (!btn) return;
+      var tag = btn.getAttribute('data-tag');
+      var onlyThis = state.tags.length === 1 && state.tags[0] === tag;
+      state.tags = onlyThis ? [] : [tag];
+      buildPanels();
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
     // Click-away and Escape close whichever panel is open.
     document.addEventListener('click', function () { closeAllDrops(null); });
