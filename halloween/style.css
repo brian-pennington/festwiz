@@ -377,6 +377,34 @@ main > * { position: relative; z-index: 1; }
 .past-head p { margin: 0; font-size: 12px; color: var(--text-4); }
 .is-past { opacity: 0.62; }
 
+/* ── event links ──────────────────────────────────────────────────────── */
+
+/* A quiet underline at rest so links are identifiable without relying on
+   colour; on hover the whole word takes an amber ground with black text,
+   which reads as clickable far more plainly than a colour change.
+   The padding is always present, with matching negative margin, so the
+   highlight has room without the text shifting when it appears. */
+.card__name a,
+.dtable a {
+  text-decoration: none;
+  border-bottom: 1px solid #4a423a;
+  padding: 1px 4px;
+  margin: 0 -4px;
+  border-radius: 2px;
+  /* A wrapped link gets the padding and background on every line. */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card__name a, .dtable a { transition: background-color 120ms ease, color 120ms ease; }
+}
+
+.card__name a:hover, .card__name a:focus-visible,
+.dtable a:hover, .dtable a:focus-visible {
+  background: var(--amber);
+  border-bottom-color: var(--amber);
+}
+
 /* ── cards ────────────────────────────────────────────────────────────── */
 
 .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
@@ -397,8 +425,8 @@ main > * { position: relative; z-index: 1; }
 
 .card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
 .card__name { font-size: 21px; font-weight: 600; line-height: 1.22; margin: 0; }
-.card__name a { color: #fff; text-decoration: none; border-bottom: 1px solid #4a423a; }
-.card__name a:hover { color: var(--amber); border-bottom-color: var(--amber); }
+.card__name a { color: #fff; }
+.card__name a:hover, .card__name a:focus-visible { color: #14120f; }
 
 .card__time {
   flex: none; font-family: var(--cond); font-size: 18px; font-weight: 600;
@@ -439,8 +467,8 @@ main > * { position: relative; z-index: 1; }
    #b0a598: on a hatch line inside this row the old grey fell to 3.9:1. */
 .dtable tbody tr:nth-child(odd) td { background: rgb(var(--row-stripe)); }
 .dtable tbody tr:nth-child(even) td { background: rgba(var(--row-alt), 0.85); }
-.dtable a { color: var(--text); text-decoration: none; border-bottom: 1px solid #4a423a; }
-.dtable a:hover { color: var(--amber); border-bottom-color: var(--amber); }
+.dtable a { color: var(--text); }
+.dtable a:hover, .dtable a:focus-visible { color: #14120f; }
 
 .dtable__day td {
   background: var(--day, var(--day-1)) !important;
