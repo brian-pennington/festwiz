@@ -50,6 +50,7 @@ PALETTE = [
 ]
 
 TITLE_BG = "#e69138"
+LINK_FG = "#000000"      # link text colour; Sheets would default to blue
 BANNER_BG = "#000000"
 WHITE = "#ffffff"
 
@@ -97,19 +98,23 @@ def link_requests(sheet_id, rows, links):
     would otherwise clobber these runs.
     """
     req = []
-    for row_idx, url in sorted(links.items()):
-        text = rows[row_idx][0]
+    for (row_idx, col_idx), url in sorted(links.items()):
+        text = rows[row_idx][col_idx]
         if not text:
             continue
         req.append({"updateCells": {
             "range": {"sheetId": sheet_id, "startRowIndex": row_idx,
                       "endRowIndex": row_idx + 1,
-                      "startColumnIndex": 0, "endColumnIndex": 1},
+                      "startColumnIndex": col_idx, "endColumnIndex": col_idx + 1},
             "rows": [{"values": [{
                 "userEnteredValue": {"stringValue": text},
+                # Sheets renders link text blue unless the run says otherwise.
+                # The 2025 guide used black, which reads better against the
+                # pastel day fills.
                 "textFormatRuns": [{"startIndex": 0,
                                     "format": {"link": {"uri": url},
-                                               "underline": True}}],
+                                               "underline": True,
+                                               "foregroundColor": rgb(LINK_FG)}}],
             }]}],
             "fields": "userEnteredValue,textFormatRuns"}})
     return req
@@ -153,7 +158,9 @@ def build_rows(events, include_empty_dates=True):
     title = blank()
     title[0], title[1] = TITLE[0], TITLE[1]
     rows = [title, HEADERS[:], blank()]
-    links = {0: SUBSCRIBE_URL}          # row index -> url for column A
+    # (row, column) -> url. The title phrase spans A1 and B1, and the 2025
+    # sheet linked both halves, so the whole sentence is clickable.
+    links = {(0, 0): SUBSCRIBE_URL, (0, 1): SUBSCRIBE_URL}
     spans = {"title": 0, "header": 1, "banners": [], "promos": [], "bodies": []}
 
     for n, iso in enumerate(sections):
@@ -167,7 +174,7 @@ def build_rows(events, include_empty_dates=True):
                         key=lambda x: (time_key(x.get("time", "")),
                                        x["name"].lower())):
             if e.get("url"):
-                links[len(rows)] = e["url"]
+                links[(len(rows), 0)] = e["url"]
             rows.append([
                 e["name"],
                 e.get("venue", ""),
@@ -179,7 +186,7 @@ def build_rows(events, include_empty_dates=True):
             ])
         rows.append(blank())                      # blank row inside the fill
         spans["promos"].append(len(rows))
-        links[len(rows)] = SUBSCRIBE_URL
+        links[(len(rows), 0)] = SUBSCRIBE_URL
         promo = blank()
         promo[0] = PROMO
         rows.append(promo)
@@ -299,7 +306,7 @@ def main():
                     "BANNER" if i - 1 in spans["banners"] else
                     "PROMO" if i - 1 in spans["promos"] else
                     "")
-            mark = "*" if (i - 1) in spans["links"] else " "
+            mark = "*" if any(r0 == i - 1 for r0, _ in spans["links"]) else " "
             print(f"  {i:3} {kind:7}{mark}{r[0][:34]:36} {r[1][:18]:18} "
                   f"{r[3][:8]:8} {r[4][:9]:9} {r[5][:18]}")
         print(f"\n  ... {len(rows) - 30} more rows")
