@@ -26,26 +26,27 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 CREDENTIALS = REPO / "credentials" / "credentials.json"
 
+# Every subscribe link on the sheet points here. The 2025 sheet still used the
+# old Mailchimp eepurl address in all 36 places; this is the single source now.
+SUBSCRIBE_URL = ("https://magic.beehiiv.com/v1/"
+                 "906dd212-f249-426e-9745-af7f2a40604c?email=%7B%7Bemail%7D%7D")
+
 TITLE = ("This spreadsheet compiled w/love ",
          "by Lite + Brite, a weekly email newsletter of Austin events")
-TITLE_URL = "https://liteandbriteatx.com/"
 
 PROMO = "Subscribe to the Lite + Brite newsletter for more Austin events"
-PROMO_URL = "https://liteandbriteatx.com/"
 
 HEADERS = ["Name", "Location", "Price", "Time", "Description"]
 
-# One Halloween-themed fill per day, cycling through five. Taken from the 2025
-# sheet, minus its sixth colour (a neutral grey, #cccccc, which read as filler
-# rather than part of the theme).
-#
+# One Halloween-themed fill per day, cycling through six, as in the 2025 sheet.
 # "All Month Long" is a day like any other and takes the first colour.
 PALETTE = [
     "#f4cccc",   # blood
     "#f6b674",   # pumpkin
+    "#d0e0e3",   # moonlight
     "#d9d2e9",   # witch
     "#b6d7a8",   # slime
-    "#d0e0e3",   # moonlight
+    "#cccccc",   # tombstone
 ]
 
 TITLE_BG = "#e69138"
@@ -127,7 +128,7 @@ def build_rows(events, include_empty_dates=True):
         sections.extend(dated)
 
     rows = [
-        [TITLE[0], TITLE[1], "", "", ""],
+        [link(SUBSCRIBE_URL, TITLE[0]), link(SUBSCRIBE_URL, TITLE[1]), "", "", ""],
         HEADERS[:],
         ["", "", "", "", ""],
     ]
@@ -150,7 +151,7 @@ def build_rows(events, include_empty_dates=True):
             ])
         rows.append(["", "", "", "", ""])          # blank row inside the fill
         spans["promos"].append(len(rows))
-        rows.append([link(PROMO_URL, PROMO), "", "", "", ""])
+        rows.append([link(SUBSCRIBE_URL, PROMO), "", "", "", ""])
         spans["bodies"].append((body_start, len(rows), PALETTE[n % len(PALETTE)]))
 
     return rows, spans
@@ -235,7 +236,7 @@ def main():
     rows, spans = build_rows(events, include_empty_dates=not args.no_empty_dates)
     n_sections = len(spans["banners"])
     n_events = sum(1 for r in rows
-                   if r[0] and not r[0].startswith("=HYPERLINK(\"https://liteandbrite")
+                   if r[0] and not r[0].startswith(f'=HYPERLINK("{SUBSCRIBE_URL}"')
                    and r[0] not in HEADERS and r[0] != TITLE[0]
                    and r != ["", "", "", "", ""]) - n_sections
 
