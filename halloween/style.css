@@ -21,7 +21,7 @@
 
   --text: #ece6dc;
   --text-2: #b9ada0;
-  --text-3: #9a9086;
+  --text-3: #b0a598;   /* descriptions — see the note on the table rows */
   --text-4: #8d8275;
 
   /* The masthead is a fixed dark teal bar, lighter than the page behind it,
@@ -56,7 +56,9 @@
   --texture-opacity: 0.25;
   --texture-size: 6px;
 
-  --row-stripe: 26, 23, 19;   /* #1a1713, as channels so rows can be translucent */
+  --row-stripe: 26, 23, 19;   /* #1a1713 — the opaque stripe */
+  --row-alt:    41, 38, 33;   /* #292621 — the translucent one, lighter so the
+                                 alternation reads even through the hatch */
 
   /* Measured at runtime by halloween.js — the masthead's height and the
      masthead+filters stack. Hardcoding these left the sticky table header
@@ -422,12 +424,14 @@ main > * { position: relative; z-index: 1; }
   padding: 9px 12px; position: sticky; top: var(--sticky-top); z-index: 10;
 }
 .dtable td { padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
-/* Striped rows are opaque; the others are the SAME colour, translucent.
-   0.85 rather than 0.5: at half opacity a description sitting on a hatch line
-   measures 2.6:1, which is why they were competing. 0.85 still lets the
-   texture read through the row and brings descriptions back to 4.7:1. */
+/* Alternating rows: one opaque and dark, one lighter and translucent at 0.85
+   so the hatch still reads through it. 0.85 rather than 0.5 — at half opacity
+   a description sitting on a hatch line measures 2.6:1, which is why they
+   were competing with the texture.
+   The lighter alt row also needed --text-3 brightened from #9a9086 to
+   #b0a598: on a hatch line inside this row the old grey fell to 3.9:1. */
 .dtable tbody tr:nth-child(odd) td { background: rgb(var(--row-stripe)); }
-.dtable tbody tr:nth-child(even) td { background: rgba(var(--row-stripe), 0.85); }
+.dtable tbody tr:nth-child(even) td { background: rgba(var(--row-alt), 0.85); }
 .dtable a { color: var(--text); text-decoration: none; border-bottom: 1px solid #4a423a; }
 .dtable a:hover { color: var(--amber); border-bottom-color: var(--amber); }
 
