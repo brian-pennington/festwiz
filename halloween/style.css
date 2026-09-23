@@ -108,7 +108,14 @@ a:hover { color: #ffc46b; }
   border-bottom: 3px solid var(--accent);
 }
 
-.masthead__brand { display: flex; align-items: center; color: var(--accent); }
+/* Amber by default — the crimson is dark against the teal bar and hard to
+   read; it becomes the hover state instead. The logotype's paths are
+   currentColor, so this one property recolours the mark. */
+.masthead__brand { display: flex; align-items: center; color: var(--amber); }
+.masthead__brand:hover { color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) {
+  .masthead__brand { transition: color 220ms ease; }
+}
 .masthead__logo {
   display: block; width: 116px; height: auto;
   /* Two shadows: a tight one for definition, a wide one for the halo. */
