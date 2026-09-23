@@ -48,6 +48,13 @@
   --cond: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
 
   --gutter: 40px;
+
+  /* Measured at runtime by halloween.js — the masthead's height and the
+     masthead+filters stack. Hardcoding these left the sticky table header
+     parked below the filter bar with a strip of page showing through, and
+     they change with the font, the breakpoint and the filter drawer. */
+  --masthead-h: 78px;
+  --sticky-top: 135px;
 }
 
 @media (max-width: 720px) { :root { --gutter: 16px; } }
@@ -177,7 +184,7 @@ a:hover { color: #ffc46b; }
    panel on click. */
 
 .filters {
-  position: sticky; top: 71px; z-index: 20;
+  position: sticky; top: var(--masthead-h); z-index: 20;
   padding: 10px var(--gutter);
   background: var(--bg-raised);
   border-bottom: 1px solid #2b2620;
@@ -293,7 +300,7 @@ main { padding: 0 var(--gutter) 48px; }
 
 .status { color: var(--text-4); font-size: 14px; padding: 28px 0; }
 
-.day { scroll-margin-top: 150px; }
+.day { scroll-margin-top: calc(var(--sticky-top) + 12px); }
 
 .day__head {
   display: flex; align-items: baseline; gap: 14px;
@@ -364,13 +371,15 @@ main { padding: 0 var(--gutter) 48px; }
 
 /* ── table ────────────────────────────────────────────────────────────── */
 
-.tablewrap { margin-top: 4px; }
+/* No top margin: the black header sits flush against the filter bar. */
+.tablewrap { margin-top: 0; }
+.tablewrap + .tablewrap { margin-top: 0; }
 
 .dtable { width: 100%; border-collapse: collapse; font-size: 13px; }
 .dtable th {
   font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.3px;
   text-transform: uppercase; text-align: left; color: #fff; background: #000;
-  padding: 9px 12px; position: sticky; top: 148px; z-index: 10;
+  padding: 9px 12px; position: sticky; top: var(--sticky-top); z-index: 10;
 }
 .dtable td { padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
 .dtable tbody tr:nth-child(odd) td { background: #1a1713; }

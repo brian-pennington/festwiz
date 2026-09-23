@@ -438,6 +438,24 @@
     render();
   }
 
+  /* ── sticky offsets ───────────────────────────────────────────────── */
+
+  // The table's sticky header has to sit exactly under the masthead and the
+  // filter bar. Those heights depend on the font, the breakpoint and whether
+  // the filter drawer is open, so measure rather than hardcode.
+  function measureStick() {
+    var root = document.documentElement;
+    var mast = document.querySelector('.masthead');
+    var filters = els.filters;
+    var mh = mast ? mast.getBoundingClientRect().height : 0;
+    // A statically-positioned filter bar (phone drawer) scrolls away, so it
+    // must not be counted in the sticky offset.
+    var stuck = filters && getComputedStyle(filters).position === 'sticky'
+      ? filters.getBoundingClientRect().height : 0;
+    root.style.setProperty('--masthead-h', Math.round(mh) + 'px');
+    root.style.setProperty('--sticky-top', Math.round(mh + stuck) + 'px');
+  }
+
   /* ── boot ─────────────────────────────────────────────────────────── */
 
   function init() {
@@ -493,7 +511,15 @@
     els.filtersBtn.addEventListener('click', function () {
       var open = els.filters.classList.toggle('is-open');
       els.filtersBtn.setAttribute('aria-expanded', String(open));
+      measureStick();
     });
+
+    measureStick();
+    window.addEventListener('resize', measureStick);
+    if (document.fonts && document.fonts.ready) {
+      // Barlow Condensed changes the masthead's height once it loads.
+      document.fonts.ready.then(measureStick);
+    }
 
     fetch('events.json', { cache: 'no-cache' })
       .then(function (r) {
