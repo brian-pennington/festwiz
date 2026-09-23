@@ -398,7 +398,10 @@ main > * { position: relative; z-index: 1; }
   box-decoration-break: clone;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .card__name a, .dtable a { transition: background-color 120ms ease, color 120ms ease; }
+  .card__name a, .dtable a {
+    transition: background-color 200ms ease, color 200ms ease,
+                box-shadow 200ms ease, border-color 200ms ease;
+  }
 }
 
 .card__name a:hover, .card__name a:focus-visible,
@@ -442,7 +445,6 @@ main > * { position: relative; z-index: 1; }
 
 .card__meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-top: auto; padding-top: 4px; }
 .card__price { font-size: 12px; font-weight: 600; color: var(--money); }
-.card__price--tba { font-weight: 400; color: var(--text-4); }
 .badge { font-size: 11px; color: var(--text); background: var(--line); padding: 3px 8px; border-radius: 2px; }
 .badge--tag { color: #14120f; background: var(--tag); }
 

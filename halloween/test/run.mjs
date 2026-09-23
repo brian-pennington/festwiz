@@ -85,6 +85,18 @@ console.log('\nFILTER PANELS');
   is('when label follows selection', made['val-when'].textContent, 'This weekend');
 }
 
+console.log('\nCARD CONTENT');
+{
+  const { api, data } = boot();
+  await new Promise(r => setTimeout(r, 60));
+  api.state.events = data;
+  const map = api.groupByDay(data), order = api.orderedDays(map);
+  const html = api.renderCards(map, order);
+  is('no price placeholder', count(html, /price TBA/g), 0);
+  is('no empty meta rows', count(html, /<div class="card__meta"><\/div>/g), 0);
+  is('every event still rendered', count(html, /<article/g), data.length);
+}
+
 console.log('\nDROPDOWN OPEN/CLOSE STATE');
 {
   const { made } = boot();

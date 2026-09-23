@@ -150,9 +150,12 @@
     var name = ev.url
       ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
       : esc(ev.name);
+    // No price stated: show nothing rather than a placeholder. Most of these
+    // are free or door-price events; announcing "TBA" implies we are waiting
+    // on a number that may never exist.
     var price = ev.price
       ? '<span class="card__price">' + esc(ev.price) + '</span>'
-      : '<span class="card__price card__price--tba">price TBA</span>';
+      : '';
     var badges = '';
     if (ev.age) badges += '<span class="badge">' + esc(ev.age) + '</span>';
     ev.tags.forEach(function (tg) {
@@ -163,7 +166,9 @@
       '<div class="card__top"><h3 class="card__name">' + name + '</h3>' + time + '</div>' +
       (ev.venue ? '<div class="card__venue">' + esc(ev.venue) + '</div>' : '') +
       (ev.description ? '<p class="card__desc">' + esc(ev.description) + '</p>' : '') +
-      '<div class="card__meta">' + price + badges + '</div>' +
+      // Skip the meta row entirely when there is nothing to put in it, so an
+      // empty strip of padding does not hang off the bottom of the card.
+      (price || badges ? '<div class="card__meta">' + price + badges + '</div>' : '') +
       '</article>';
   }
 
