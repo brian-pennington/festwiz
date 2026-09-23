@@ -78,5 +78,18 @@ console.log('\nFILTER PANELS');
   is('when label follows selection', made['val-when'].textContent, 'This weekend');
 }
 
+console.log('\nDROPDOWN OPEN/CLOSE STATE');
+{
+  const { made } = boot();
+  await new Promise(r => setTimeout(r, 60));
+  const panel = (id) => made[id].querySelector('.fdrop__panel');
+  const btn = (id) => made[id].querySelector('.fdrop__btn');
+  is('when panel starts hidden', panel('drop-when').hidden, true);
+  is('tags panel starts hidden', panel('drop-tags').hidden, true);
+  is('age panel starts hidden', panel('drop-age').hidden, true);
+  is('when button starts collapsed', btn('drop-when').getAttribute('aria-expanded'), 'false');
+  is('no drop starts open', made['drop-when']._cls.has('is-open'), false);
+}
+
 console.log(failures ? `\n${failures} FAILURE(S)\n` : '\nall checks passed\n');
 process.exit(failures ? 1 : 0);

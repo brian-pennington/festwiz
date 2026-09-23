@@ -214,6 +214,12 @@ a:hover { color: #ffc46b; }
 @media (prefers-reduced-motion: reduce) { .fdrop__chev { transition: none; } }
 .fdrop.is-open .fdrop__chev { transform: rotate(180deg); }
 
+/* The [hidden] attribute only hides things via the UA stylesheet's
+   display:none, which ANY author display rule outranks — so .fdrop__panel's
+   own display:flex made the panels render open whatever the attribute said.
+   This restates it at class+attribute specificity, which wins. */
+.fdrop__panel[hidden] { display: none; }
+
 .fdrop__panel {
   position: absolute; top: calc(100% + 5px); left: 0; z-index: 40;
   min-width: 190px; padding: 8px;

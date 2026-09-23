@@ -380,21 +380,22 @@
     els.dropAge.classList.toggle('is-set', state.maxAge !== null);
   }
 
+  function setDrop(drop, open) {
+    drop.classList.toggle('is-open', open);
+    drop.querySelector('.fdrop__btn').setAttribute('aria-expanded', String(open));
+    drop.querySelector('.fdrop__panel').hidden = !open;
+  }
+
   function closeAllDrops(except) {
     [els.dropWhen, els.dropTags, els.dropAge].forEach(function (d) {
-      if (d === except) return;
-      d.classList.remove('is-open');
-      d.querySelector('.fdrop__btn').setAttribute('aria-expanded', 'false');
-      d.querySelector('.fdrop__panel').hidden = true;
+      if (d !== except) setDrop(d, false);
     });
   }
 
   function toggleDrop(drop) {
     var open = !drop.classList.contains('is-open');
-    closeAllDrops(open ? drop : null);
-    drop.classList.toggle('is-open', open);
-    drop.querySelector('.fdrop__btn').setAttribute('aria-expanded', String(open));
-    drop.querySelector('.fdrop__panel').hidden = !open;
+    closeAllDrops(drop);
+    setDrop(drop, open);
   }
 
   function wireDrop(drop, onPick, closeOnPick) {
@@ -409,7 +410,9 @@
       onPick(btn.getAttribute('data-value'));
       buildPanels();
       render();
-      if (closeOnPick) toggleDrop(drop);
+      // Close explicitly rather than toggling, so a picked option can never
+      // reopen a panel because the open flag drifted out of sync.
+      if (closeOnPick) setDrop(drop, false);
     });
   }
 
@@ -442,6 +445,7 @@
       if (saved === 'table' || saved === 'cards') state.view = saved;
     } catch (err) { /* private mode: keep the default */ }
 
+    closeAllDrops(null);   // hidden by default, whatever the markup says
     wireDrop(els.dropWhen, function (v) { state.when = v; }, true);
     wireDrop(els.dropTags, function (v) {
       var i = state.tags.indexOf(v);
