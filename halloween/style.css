@@ -417,13 +417,13 @@ main > * { position: relative; z-index: 1; }
 /* Transparent on purpose: the panel behind it is --bg (#14120f) carrying the
    hatch, and the table reads as laid over that rather than masking it. The
    striped rows below are the opaque ones. */
-.dtable { width: 100%; border-collapse: collapse; font-size: 13px; background-color: transparent; }
+.dtable { width: 100%; border-collapse: collapse; font-size: 15px; background-color: transparent; }
 .dtable th {
-  font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.3px;
+  font-family: var(--cond); font-size: 16px; font-weight: 600; letter-spacing: 1.3px;
   text-transform: uppercase; text-align: left; color: #fff; background: #000;
   padding: 9px 12px; position: sticky; top: var(--sticky-top); z-index: 10;
 }
-.dtable td { padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+.dtable td { padding: 10px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
 /* Alternating rows: one opaque and dark, one lighter and translucent at 0.85
    so the hatch still reads through it. 0.85 rather than 0.5 — at half opacity
    a description sitting on a hatch line measures 2.6:1, which is why they
@@ -440,21 +440,24 @@ main > * { position: relative; z-index: 1; }
   padding: 7px 12px;
 }
 .dtable__day-name {
-  font-family: var(--cond); font-size: 22px; font-weight: 700;
+  font-family: var(--cond); font-size: 24px; font-weight: 700;
   letter-spacing: 0.6px; text-transform: uppercase; color: #14120f;
 }
 .dtable__day-today {
-  font-family: var(--cond); font-size: 12px; font-weight: 700; letter-spacing: 1.3px;
+  font-family: var(--cond); font-size: 14px; font-weight: 700; letter-spacing: 1.3px;
   color: var(--day, var(--day-1)); background: #14120f;
   padding: 2px 8px; border-radius: 2px; margin-left: 10px;
 }
-.dtable__day-count { float: right; font-size: 11px; color: #4a3a30; padding-top: 6px; }
+.dtable__day-count { float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
+
+/* .badge is shared with the cards, so the table's copy is bumped here only. */
+.dtable .badge { font-size: 13px; }
 
 .t-time  { color: var(--amber); white-space: nowrap; }
 .t-money { color: var(--money); white-space: nowrap; }
 .t-none  { color: var(--text-4); }
-.t-name  { font-size: 17px; line-height: 1.25; }
-.t-desc  { color: var(--text-3); font-size: 12px; line-height: 1.45; font-style: italic; margin-top: 2px; }
+.t-name  { font-size: 19px; line-height: 1.25; }
+.t-desc  { color: var(--text-3); font-size: 14px; line-height: 1.45; font-style: italic; margin-top: 2px; }
 
 /* ── footer ───────────────────────────────────────────────────────────── */
 
