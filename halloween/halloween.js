@@ -13,6 +13,7 @@
 
   var DAY_ROLLOVER_HOUR = 2;
   var VIEW_KEY = 'halloween2026_view';
+  var THEME_KEY = 'halloween2026_theme';
   var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   var DAY_COLOURS = 6;
 
@@ -356,6 +357,18 @@
     render();
   }
 
+  function setTheme(mode) {
+    var root = document.documentElement;
+    if (mode === 'auto') root.removeAttribute('data-theme');
+    else root.setAttribute('data-theme', mode);
+    var btns = document.querySelectorAll('.themetoggle__btn');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].setAttribute('aria-pressed',
+        String(btns[i].getAttribute('data-theme-set') === mode));
+    }
+    try { localStorage.setItem(THEME_KEY, mode); } catch (err) { /* private mode */ }
+  }
+
   function setView(view) {
     state.view = view;
     els.cardsBtn.classList.toggle('is-active', view === 'cards');
@@ -385,6 +398,16 @@
     els.when.addEventListener('click', onChipClick.bind(null, 'when'));
     els.tags.addEventListener('click', onChipClick.bind(null, 'tags'));
     els.age.addEventListener('click', onChipClick.bind(null, 'age'));
+    var themeBtns = document.querySelectorAll('.themetoggle__btn');
+    for (var i = 0; i < themeBtns.length; i++) {
+      themeBtns[i].addEventListener('click', function (e) {
+        setTheme(e.currentTarget.getAttribute('data-theme-set'));
+      });
+    }
+    var savedTheme = 'auto';
+    try { savedTheme = localStorage.getItem(THEME_KEY) || 'auto'; } catch (err) { /* private mode */ }
+    setTheme(savedTheme);
+
     els.cardsBtn.addEventListener('click', function () { setView('cards'); });
     els.tableBtn.addEventListener('click', function () { setView('table'); });
 

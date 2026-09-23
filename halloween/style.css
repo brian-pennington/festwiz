@@ -22,10 +22,16 @@
   --text-3: #9a9086;
   --text-4: #8d8275;
 
+  /* The masthead is a fixed dark teal surface in BOTH themes, so its own
+     colours must not flip with the theme — doing that turned the title and
+     the active toggle dark-on-dark in light mode. These five are constants. */
   --nav-bg: #0f3934;
   --nav-line: #2d5f57;
   --nav-text: #9fb8b2;
+  --nav-fg: #ffffff;
+  --nav-fg-dim: #cfe0dc;
   --accent: #bb124d;
+  --glow: #a855f7;
   --amber: #f2a541;
   --money: #7dd3a0;
   --tag: #c86a4a;
@@ -80,7 +86,19 @@ a:hover { color: #ffc46b; }
 }
 
 .masthead__brand { display: flex; align-items: center; color: var(--accent); }
-.masthead__logo { display: block; width: 116px; height: auto; }
+.masthead__logo {
+  display: block; width: 116px; height: auto;
+  /* Two shadows: a tight one for definition, a wide one for the halo. */
+  filter: drop-shadow(0 0 4px rgba(168, 85, 247, 0.9))
+          drop-shadow(0 0 14px rgba(168, 85, 247, 0.55));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .masthead__logo { transition: filter 220ms ease; }
+  .masthead__brand:hover .masthead__logo {
+    filter: drop-shadow(0 0 5px rgba(168, 85, 247, 1))
+            drop-shadow(0 0 20px rgba(168, 85, 247, 0.75));
+  }
+}
 
 .masthead__divider { width: 1px; height: 26px; background: var(--nav-line); }
 
@@ -90,10 +108,10 @@ a:hover { color: #ffc46b; }
   margin: 0;
   font-family: var(--cond);
   font-size: 25px; font-weight: 600; letter-spacing: 0.4px;
-  color: var(--text); line-height: 1.1;
+  color: var(--nav-fg); line-height: 1.1;
 }
 
-.masthead__sub { margin: 2px 0 0; font-size: 12px; color: var(--nav-text); }
+.masthead__sub { margin: 2px 0 0; font-size: 12px; color: var(--nav-fg-dim); }
 
 .masthead__cta {
   flex: none;
@@ -112,7 +130,7 @@ a:hover { color: #ffc46b; }
   background: #14463f; border: 1px solid var(--nav-line);
   border-radius: 3px; cursor: pointer;
 }
-.masthead__filters-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--text); stroke-width: 2; stroke-linecap: round; }
+.masthead__filters-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--nav-fg); stroke-width: 2; stroke-linecap: round; }
 .masthead__filters-count {
   position: absolute; top: -6px; right: -6px;
   min-width: 18px; height: 18px; padding: 0 5px;
@@ -130,15 +148,32 @@ a:hover { color: #ffc46b; }
   font-family: var(--cond);
   font-size: 15px; font-weight: 600; letter-spacing: 0.6px;
   text-transform: uppercase;
-  color: var(--nav-text); background: transparent;
+  color: var(--nav-fg-dim); background: transparent;
   border: 0; padding: 6px 15px; border-radius: 2px; cursor: pointer;
 }
-.viewtoggle__btn.is-active { color: var(--nav-bg); background: var(--text); }
+.viewtoggle__btn:hover { color: var(--nav-fg); }
+/* Fixed light pill on the fixed dark bar — never theme tokens. */
+.viewtoggle__btn.is-active { color: #0b2b27; background: #ffffff; font-weight: 700; }
+
+/* ── theme toggle ─────────────────────────────────────────────────────── */
+
+.themetoggle {
+  display: flex; flex: none; gap: 2px; padding: 2px;
+  background: #14463f; border: 1px solid var(--nav-line); border-radius: 3px;
+}
+.themetoggle__btn {
+  min-width: 34px; height: 28px;
+  font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 0.4px;
+  color: var(--nav-fg-dim); background: transparent;
+  border: 0; border-radius: 2px; cursor: pointer;
+}
+.themetoggle__btn:hover { color: var(--nav-fg); }
+.themetoggle__btn[aria-pressed="true"] { color: #0b2b27; background: #ffffff; font-weight: 700; }
 
 /* Six columns cannot work at phone width without horizontal scrolling, and a
    scrolling table is worse than either view, so below this the toggle goes. */
 @media (max-width: 860px) {
-  .viewtoggle, .masthead__cta, .masthead__divider { display: none; }
+  .viewtoggle, .masthead__cta, .masthead__divider, .themetoggle { display: none; }
   .masthead__filters-btn { display: flex; }
   .masthead__title { font-size: 19px; }
   .masthead__logo { width: 86px; }
@@ -324,6 +359,17 @@ main { padding: 0 var(--gutter) 48px; }
 
 /* ── light mode ───────────────────────────────────────────────────────── */
 
+/* Explicit dark: same values as :root, restated so data-theme="dark" beats a
+   light system preference. */
+:root[data-theme="dark"] {
+  --bg: #14120f; --bg-raised: #1c1915; --bg-card: #1e1a16;
+  --line: #332c24; --line-soft: #241f1a;
+  --text: #ece6dc; --text-2: #b9ada0; --text-3: #9a9086; --text-4: #8d8275;
+  --amber: #f2a541; --money: #7dd3a0; --tag: #c86a4a;
+  --day-1: #e8a3a3; --day-2: #efb27a; --day-3: #9ec6d0;
+  --day-4: #c3b3de; --day-5: #a3c894; --day-6: #bdb5ab;
+}
+
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
     --bg: #faf7f2;
@@ -345,6 +391,7 @@ main { padding: 0 var(--gutter) 48px; }
     --day-5: #3f7a3a;
     --day-6: #6f6659;
   }
+  /* Nothing in .masthead is themed — it keeps its constants above. */
   :root:not([data-theme="dark"]) .chip { background: #fff; border-color: var(--line); }
   :root:not([data-theme="dark"]) .filters__search input { background: #fff; border-color: var(--line); }
   :root:not([data-theme="dark"]) .card__name a { color: #221d18; }
@@ -352,3 +399,19 @@ main { padding: 0 var(--gutter) 48px; }
   :root:not([data-theme="dark"]) .dtable a { color: #221d18; }
   :root:not([data-theme="dark"]) .dtable__day td { color: #14120f; }
 }
+
+/* Explicit light, independent of the system preference. */
+:root[data-theme="light"] {
+  --bg: #faf7f2; --bg-raised: #f1ece3; --bg-card: #fff;
+  --line: #ded4c6; --line-soft: #ebe3d7;
+  --text: #221d18; --text-2: #5a5148; --text-3: #6b6258; --text-4: #857b70;
+  --amber: #a8620d; --money: #1f7a4d; --tag: #a84526;
+  --day-1: #b4595c; --day-2: #a86a24; --day-3: #3d6f82;
+  --day-4: #6b58a0; --day-5: #3f7a3a; --day-6: #6f6659;
+}
+:root[data-theme="light"] .chip,
+:root[data-theme="light"] .filters__search input { background: #fff; border-color: var(--line); }
+:root[data-theme="light"] .card__name a,
+:root[data-theme="light"] .dtable a { color: #221d18; }
+:root[data-theme="light"] .dtable tbody tr:nth-child(odd) td { background: #f5f0e8; }
+:root[data-theme="light"] .dtable__day td { color: #14120f; }
