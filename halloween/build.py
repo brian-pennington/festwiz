@@ -97,10 +97,13 @@ def parse_age(raw):
     return None
 
 
-# Google Sheets sometimes reformats a typed "6:30 PM" into 24-hour "18:30",
-# depending on the cell's locale setting.  Nothing in a US listing should ever
-# display 24-hour, so recognised times are normalised on the way through.
-# Free-text values ("various", "doors at 7") are left exactly as written.
+# Times are normalised to the compact form the printed guide uses: "7pm",
+# "7:30pm", "10am".  Lowercase, no space, and ":00" dropped on the hour —
+# easier to scan in a narrow column than "7:00 PM".
+#
+# Google Sheets also reformats typed times into 24-hour depending on the
+# cell's locale, and nothing in a US listing should display 24-hour, so those
+# are converted here too.  Free text ("various", "doors at 7") is untouched.
 TIME_24H = re.compile(r"^([01]?\d|2[0-3]):([0-5]\d)(?::[0-5]\d)?$")
 TIME_12H = re.compile(r"^(\d{1,2})(?::([0-5]\d))?\s*([ap])\.?m\.?$", re.I)
 
@@ -109,7 +112,7 @@ def normalize_time(raw):
     """
     Return (display_time, was_changed).
 
-    "18:30" -> "6:30 PM".  "7pm" -> "7:00 PM".  Anything unrecognised comes
+    "18:30" -> "6:30pm".  "7:00 PM" -> "7pm".  Anything unrecognised comes
     back untouched, because times are free text by design.
     """
     s = (raw or "").strip()
@@ -121,8 +124,7 @@ def normalize_time(raw):
         h, mi = int(m.group(1)), int(m.group(2))
         if h == 0 or h >= 13:
             # Unambiguously 24-hour: no 12-hour clock has these hours.
-            suffix = "AM" if h < 12 else "PM"
-            return f"{h % 12 or 12}:{mi:02d} {suffix}", True
+            return compact(h % 12 or 12, mi, "am" if h < 12 else "pm"), True
         # 1:00-12:59 with no meridiem is ambiguous. For an evening-heavy
         # listing a bare "9:30" almost certainly means PM, but guessing gets
         # it silently wrong half the time, so leave it and say so.
@@ -132,11 +134,16 @@ def normalize_time(raw):
     if m:
         h = int(m.group(1))
         mi = int(m.group(2) or 0)
-        suffix = "AM" if m.group(3).lower() == "a" else "PM"
+        suffix = "am" if m.group(3).lower() == "a" else "pm"
         if 1 <= h <= 12:
-            out = f"{h}:{mi:02d} {suffix}"
+            out = compact(h, mi, suffix)
             return out, out != s
     return s, False
+
+
+def compact(h, mi, suffix):
+    """7, 0, 'pm' -> '7pm'   ·   7, 30, 'pm' -> '7:30pm'"""
+    return f"{h}{suffix}" if mi == 0 else f"{h}:{mi:02d}{suffix}"
 
 
 MONTHS = {
@@ -296,7 +303,9 @@ def _iso(y, mo, d, raw):
 def split_tags(raw):
     if not raw:
         return []
-    parts = re.split(r"[,;/]+", raw)
+    # Commas and semicolons separate tags. Not slashes — "sci-fi/horror" is
+    # one tag, not two.
+    parts = re.split(r"[,;]+", raw)
     return [p.strip().lower() for p in parts if p.strip()]
 
 

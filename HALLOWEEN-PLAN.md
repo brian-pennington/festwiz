@@ -222,10 +222,10 @@ Three tabs. Header row required; column order does not matter; unknown columns i
 | `date` | ✅ **every row** | `10/25` · `Fri 10/31` · `all month`. Never inheritable. |
 | `venue` | | Display name, resolved via the `venues` tab. |
 | `price` | | Verbatim: `$15` · `$13-$83+` · `free` · `donation`. |
-| `time` | | Verbatim: `8pm` · `6-10pm` · `varies` · `6pm and 8pm`. |
+| `time` | | Normalised to the compact printed style: `8pm`, `7:30pm`, `10am`. 24-hour values from Sheets' locale reformatting are converted (`18:30` → `6:30pm`). Free text (`various`, `6-10pm`, `doors at 7`) passes through untouched. A bare `9:30` with no meridiem is ambiguous — left as written and warned about. |
 | `url` | | Link for the name cell. The thing CSV export loses. |
 | `description` | | The blurb. |
-| `tags` | | Comma-separated. Free-form — any new tag is created on ingestion. |
+| `tags` | | Comma-separated (semicolons also work; slashes do not split, so `sci-fi/horror` is one tag). Spaces never split, so `haunted house` is one tag and `haunted house, film` is two. Free-form — any new tag is created on ingestion. |
 | `end_time` | | Optional end time, kept verbatim. |
 | `age` | | Age range: `all ages`, `6+`, `13+`, `18+`, `21+`. Ranked to a minimum age so the filter can answer "suitable for a 14-year-old"; unrecognised values are kept as display text and shown at every threshold. |
 | `status` | | `confirmed` (default) · `rumored` · `cancelled`. Cancelled rows are excluded from both exports but kept in the feeder. |
