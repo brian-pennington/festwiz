@@ -35,6 +35,20 @@ TITLE = ("This spreadsheet compiled w/love ",
 
 PROMO = "Subscribe to the Lite + Brite newsletter for more Austin events"
 
+# Footer, reproduced from the 2025 guide: a black rule, the sign-up line and
+# three lines of blurb on the same orange as the title bar, then a thick black
+# rule closing the sheet.
+FOOTER_SIGNUP = "Sign up for our weekly newsletter for more Austin events"
+FOOTER_TEXT = [
+    "This spreadsheet is compiled by Lite & Brite. We do a weekly newsletter "
+    "full of event listings and dance parties in Austin. ",
+    "We're here to tell you about Austin's nontraditional spaces, art "
+    "happenings, and anything else that's just weird enough to seem fun.",
+    "We don't include normal concerts, movie times, or happy hours, as there "
+    "are plenty of other excellent resources for those.",
+]
+FOOTER_RULE_PX = 89          # height of the closing black rule
+
 HEADERS = ["Name", "Location", "Price", "Time", "Age", "Tags", "Description"]
 N_COLS = len(HEADERS)
 
@@ -194,6 +208,25 @@ def build_rows(events, include_empty_dates=True):
         rows.append(promo)
         spans["bodies"].append((body_start, len(rows), PALETTE[n % len(PALETTE)]))
 
+    # ── footer ───────────────────────────────────────────────────────────
+    spans["footer_rule_top"] = len(rows)
+    rows.append(blank())                              # black rule
+
+    spans["footer_signup"] = len(rows)
+    signup = blank()
+    signup[1] = FOOTER_SIGNUP
+    links[(len(rows), 1)] = SUBSCRIBE_URL
+    rows.append(signup)
+
+    spans["footer_body"] = (len(rows), len(rows) + len(FOOTER_TEXT))
+    for line in FOOTER_TEXT:
+        r = blank()
+        r[1] = line
+        rows.append(r)
+
+    spans["footer_rule_bottom"] = len(rows)
+    rows.append(blank())                              # thick black rule
+
     spans["links"] = links
     return rows, spans
 
@@ -276,6 +309,33 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
                       "startColumnIndex": 0, "endColumnIndex": n_cols},
             "cell": {"userEnteredFormat": {"textFormat": {"fontSize": 10}}},
             "fields": "userEnteredFormat.textFormat.fontSize"}})
+
+    # Footer: black rule, orange block, thick black rule.
+    for key in ("footer_rule_top", "footer_rule_bottom"):
+        r = spans[key]
+        repeat(r, r + 1, {"backgroundColor": rgb(BANNER_BG)},
+               "userEnteredFormat.backgroundColor")
+
+    r = spans["footer_signup"]
+    repeat(r, r + 1,
+           {"backgroundColor": rgb(TITLE_BG),
+            "textFormat": {"fontSize": 16, "bold": False,
+                           "foregroundColor": rgb("#000000")}},
+           "userEnteredFormat(backgroundColor,textFormat)")
+
+    fb_start, fb_end = spans["footer_body"]
+    repeat(fb_start, fb_end,
+           {"backgroundColor": rgb(TITLE_BG),
+            "textFormat": {"fontSize": 10, "bold": False,
+                           "foregroundColor": rgb("#000000")}},
+           "userEnteredFormat(backgroundColor,textFormat)")
+
+    req.append({"updateDimensionProperties": {
+        "range": {"sheetId": sheet_id, "dimension": "ROWS",
+                  "startIndex": spans["footer_rule_bottom"],
+                  "endIndex": spans["footer_rule_bottom"] + 1},
+        "properties": {"pixelSize": FOOTER_RULE_PX},
+        "fields": "pixelSize"}})
 
     req.append({"updateSheetProperties": {
         "properties": {"sheetId": sheet_id,
