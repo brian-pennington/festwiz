@@ -382,16 +382,18 @@ main > * { position: relative; z-index: 1; }
 /* A quiet underline at rest so links are identifiable without relying on
    colour; on hover the whole word takes an amber ground with black text,
    which reads as clickable far more plainly than a colour change.
-   The padding is always present, with matching negative margin, so the
-   highlight has room without the text shifting when it appears. */
+   
+   The horizontal breathing room comes from a box-shadow spread, NOT padding:
+   padding plus a negative margin made the inline box wider than its
+   container, and with overflow-wrap: break-word on <body> that broke names
+   mid-word ("Halloweir/d"). A shadow paints outside the box and takes no
+   part in layout, so nothing can reflow. */
 .card__name a,
 .dtable a {
   text-decoration: none;
   border-bottom: 1px solid #4a423a;
-  padding: 1px 4px;
-  margin: 0 -4px;
   border-radius: 2px;
-  /* A wrapped link gets the padding and background on every line. */
+  /* A wrapped link keeps its background on every line. */
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
@@ -403,6 +405,7 @@ main > * { position: relative; z-index: 1; }
 .dtable a:hover, .dtable a:focus-visible {
   background: var(--amber);
   border-bottom-color: var(--amber);
+  box-shadow: 0 0 0 3px var(--amber);
 }
 
 /* ── cards ────────────────────────────────────────────────────────────── */
