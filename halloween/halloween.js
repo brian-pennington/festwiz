@@ -507,6 +507,62 @@
     render();
   }
 
+  /* ── easter egg ───────────────────────────────────────────────────── */
+
+  // Rest the cursor on the logotype for this long and it starts to bleed.
+  var BLOOD_DELAY = 20000;
+
+  function setupBlood() {
+    var brand = els.aboutBtn;
+    if (!brand) return;
+    if (window.matchMedia &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var timer = null;
+    var blood = null;
+
+    function bleed() {
+      if (blood) return;
+      blood = document.createElement('span');
+      blood.className = 'brand-blood';
+      blood.setAttribute('aria-hidden', 'true');
+
+      var n = 7 + Math.floor(Math.random() * 4);
+      var html = '';
+      for (var i = 0; i < n; i++) {
+        var w = 3 + Math.random() * 4;
+        html += '<i class="drip" style="' +
+          'left:' + (Math.random() * 94) + '%;' +
+          '--w:' + w.toFixed(1) + 'px;' +
+          '--len:' + (10 + Math.random() * 26).toFixed(0) + 'px;' +
+          '--dur:' + (2 + Math.random() * 2.5).toFixed(2) + 's;' +
+          '--delay:' + (Math.random() * 1.8).toFixed(2) + 's"></i>';
+      }
+      blood.innerHTML = html;
+      brand.appendChild(blood);
+    }
+
+    function dry() {
+      clearTimeout(timer);
+      timer = null;
+      if (!blood) return;
+      var going = blood;
+      blood = null;
+      going.classList.add('is-drying');
+      setTimeout(function () {
+        if (going.parentNode) going.parentNode.removeChild(going);
+      }, 800);
+    }
+
+    brand.addEventListener('mouseenter', function () {
+      clearTimeout(timer);
+      timer = setTimeout(bleed, BLOOD_DELAY);
+    });
+    brand.addEventListener('mouseleave', dry);
+    // Opening the About dialog ends it too, or drips hang over the overlay.
+    brand.addEventListener('click', dry);
+  }
+
   /* ── about modal ──────────────────────────────────────────────────── */
 
   var lastFocus = null;
@@ -657,6 +713,8 @@
       els.filtersBtn.setAttribute('aria-expanded', String(open));
       measureStick();
     });
+
+    setupBlood();
 
     measureStick();
     window.addEventListener('resize', measureStick);

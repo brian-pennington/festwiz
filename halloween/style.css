@@ -112,6 +112,7 @@ a:hover { color: #ffc46b; }
    read; it becomes the hover state instead. The logotype's paths are
    currentColor, so this one property recolours the mark. */
 .masthead__brand {
+  position: relative;
   display: flex; align-items: center; color: var(--amber);
   background: none; border: 0; padding: 0; cursor: pointer;
 }
@@ -169,6 +170,67 @@ a:hover { color: #ffc46b; }
   min-width: 18px; height: 18px; padding: 0 5px;
   font-family: var(--cond); font-size: 12px; font-weight: 700; line-height: 18px;
   color: #fff; background: var(--accent); border-radius: 9px;
+}
+
+/* ── easter egg: the logo bleeds ──────────────────────────────────────── */
+
+/* Hold the cursor on the logotype for 20 seconds and it starts to drip.
+   Purely decorative, aria-hidden, and skipped entirely for anyone who has
+   asked for reduced motion. */
+
+.brand-blood {
+  position: absolute;
+  left: 0; right: 0; top: 100%;
+  height: 0;
+  pointer-events: none;
+}
+
+.drip {
+  position: absolute;
+  top: -2px;
+  width: var(--w, 4px);
+  height: 0;
+  background: linear-gradient(#8f0a2f, #bb124d 60%, #d4194f);
+  border-radius: 0 0 var(--w, 4px) var(--w, 4px);
+  animation: drip-grow var(--dur, 2.6s) ease-in var(--delay, 0s) forwards;
+}
+
+/* The bead that lets go at the bottom of the run. */
+.drip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: calc(var(--w, 4px) * 1.6);
+  height: calc(var(--w, 4px) * 1.9);
+  margin-left: calc(var(--w, 4px) * -0.8);
+  background: #bb124d;
+  border-radius: 50% 50% 55% 55%;
+  opacity: 0;
+  animation: drip-fall calc(var(--dur, 2.6s) * 1.5) ease-in
+             calc(var(--delay, 0s) + var(--dur, 2.6s) * 0.75) infinite;
+}
+
+@keyframes drip-grow {
+  0%   { height: 0; }
+  100% { height: var(--len, 20px); }
+}
+
+@keyframes drip-fall {
+  0%   { opacity: 0; transform: translateY(0) scale(0.6); }
+  15%  { opacity: 1; transform: translateY(2px) scale(1); }
+  100% { opacity: 0; transform: translateY(34px) scale(0.75); }
+}
+
+.brand-blood.is-drying .drip {
+  animation: none;
+  height: 0;
+  transition: height 700ms ease-in-out;
+}
+.brand-blood.is-drying .drip::after { animation: none; opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-blood { display: none; }
 }
 
 /* ── view toggle ──────────────────────────────────────────────────────── */

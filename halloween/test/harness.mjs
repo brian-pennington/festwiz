@@ -39,7 +39,11 @@ export function boot({ at = null, events = null } = {}) {
   };
   globalThis.__styleProps = styleProps;
   globalThis.getComputedStyle = () => ({ position: 'sticky' });
-  globalThis.window = { addEventListener() {}, scrollTo() {} };
+  globalThis.window = {
+    addEventListener() {}, scrollTo() {},
+    matchMedia: () => ({ matches: false }),
+  };
+  globalThis.document.createElement = () => mkEl('created');
   const data = events || JSON.parse(fs.readFileSync('halloween/events.json', 'utf8'));
   globalThis.fetch = async () => ({ ok: true, json: async () => data });
 
