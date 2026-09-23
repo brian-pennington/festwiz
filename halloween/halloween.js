@@ -510,7 +510,8 @@
   /* ── easter egg ───────────────────────────────────────────────────── */
 
   // Rest the cursor on the logotype for this long and it starts to bleed.
-  var BLOOD_DELAY = 20000;
+  // Long enough that nobody trips it reaching for the About dialog.
+  var BLOOD_DELAY = 10000;
 
   function setupBlood() {
     var brand = els.aboutBtn;

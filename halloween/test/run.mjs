@@ -189,7 +189,7 @@ console.log('\nEASTER EGG');
   const fs = await import('fs');
   const js = fs.readFileSync('halloween/halloween.js', 'utf8');
   const css = fs.readFileSync('halloween/style.css', 'utf8');
-  is('20 second hover', /BLOOD_DELAY = 20000/.test(js), true);
+  is('10 second hover', /BLOOD_DELAY = 10000/.test(js), true);
   is('respects reduced motion (js)', /prefers-reduced-motion: reduce/.test(js), true);
   is('respects reduced motion (css)', /@media \(prefers-reduced-motion: reduce\) \{\s*\.brand-blood/.test(css), true);
   is('drips are aria-hidden', /setAttribute\('aria-hidden', 'true'\)/.test(js), true);
