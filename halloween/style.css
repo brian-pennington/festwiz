@@ -456,6 +456,13 @@ main > * { position: relative; z-index: 1; }
 .modal__body p { margin: 0 0 13px; }
 .modal__body strong { color: var(--text); }
 .modal__sig { color: var(--text-4); font-style: italic; }
+.modal__colophon {
+  margin-top: 16px; padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 12px; color: var(--text-4);
+}
+.modal__body a { color: var(--amber); }
+.modal__body a:hover { color: #ffc46b; }
 
 .modal__foot {
   padding: 14px 24px 18px;
