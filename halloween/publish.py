@@ -156,6 +156,25 @@ def build_rows(events, include_empty_dates=True):
     return rows, spans
 
 
+def text_format_requests(sheet_id, n_rows, n_cols=5):
+    """
+    Force columns B-E to TEXT *before* any values are written.
+
+    ws.clear() removes values but not formats, so a cell still carrying a time
+    format from a previous sheet re-coerces "7:30pm" into "7:30 PM" on write.
+    Prices like "$15" would likewise parse as currency. TEXT stops both.
+
+    Column A is deliberately left alone: it holds =HYPERLINK() formulas, and a
+    TEXT-formatted cell stores a formula as literal text instead of running it.
+    """
+    return [{"repeatCell": {
+        "range": {"sheetId": sheet_id, "startRowIndex": 0,
+                  "endRowIndex": max(n_rows, 400),
+                  "startColumnIndex": 1, "endColumnIndex": n_cols},
+        "cell": {"userEnteredFormat": {"numberFormat": {"type": "TEXT"}}},
+        "fields": "userEnteredFormat.numberFormat"}}]
+
+
 def format_requests(sheet_id, rows, spans, n_cols=5):
     """batchUpdate requests recreating the 2025 look."""
     req = []
@@ -170,6 +189,7 @@ def format_requests(sheet_id, rows, spans, n_cols=5):
 
     # Wipe formatting across the whole written range first, so a shorter
     # rebuild cannot leave last run's colours stranded below the new content.
+    #
     repeat(0, max(len(rows), 400),
            {"backgroundColor": rgb("#ffffff"),
             "textFormat": {"bold": False, "fontSize": 11,
@@ -274,6 +294,8 @@ def main():
     if ws.row_count < need:
         ws.add_rows(need - ws.row_count)
     ws.clear()
+    # TEXT format must land before the values, or Sheets parses them on the way in.
+    sh.batch_update({"requests": text_format_requests(ws.id, len(rows))})
     ws.update(rows, "A1", value_input_option="USER_ENTERED")
     sh.batch_update({"requests": format_requests(ws.id, rows, spans)})
     print(f"wrote {len(rows)} rows to {cfg['public_tab']!r}")
