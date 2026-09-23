@@ -1,0 +1,354 @@
+/* FestWiz — Halloween tracker
+ *
+ * Forked from the festival app's design language (teal nav, crimson accent)
+ * but its own file: see HALLOWEEN-PLAN.md on why these are not shared.
+ *
+ * The six day colours come from the printed guide. There they are page
+ * backgrounds with black text; here they are headings, rules and borders,
+ * because those pastels behind light text on a dark ground fail contrast
+ * badly. Table view puts them back as fills with black text, where they can
+ * behave as they do on paper.
+ */
+
+:root {
+  --bg: #14120f;
+  --bg-raised: #1c1915;
+  --bg-card: #1e1a16;
+  --line: #332c24;
+  --line-soft: #241f1a;
+
+  --text: #ece6dc;
+  --text-2: #b9ada0;
+  --text-3: #9a9086;
+  --text-4: #8d8275;
+
+  --nav-bg: #0f3934;
+  --nav-line: #2d5f57;
+  --nav-text: #9fb8b2;
+  --accent: #bb124d;
+  --amber: #f2a541;
+  --money: #7dd3a0;
+  --tag: #c86a4a;
+
+  --day-1: #e8a3a3;
+  --day-2: #efb27a;
+  --day-3: #9ec6d0;
+  --day-4: #c3b3de;
+  --day-5: #a3c894;
+  --day-6: #bdb5ab;
+
+  --serif: Bitter, Georgia, "Times New Roman", serif;
+  --cond: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+
+  --gutter: 40px;
+}
+
+@media (max-width: 720px) { :root { --gutter: 16px; } }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+a { color: var(--amber); }
+a:hover { color: #ffc46b; }
+
+.u-visually-hidden {
+  position: absolute; width: 1px; height: 1px; margin: -1px;
+  padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+
+/* ── masthead ─────────────────────────────────────────────────────────── */
+
+.masthead {
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; gap: 18px;
+  padding: 14px var(--gutter);
+  background: var(--nav-bg);
+  border-bottom: 3px solid var(--accent);
+}
+
+.masthead__brand { display: flex; align-items: center; color: var(--accent); }
+.masthead__logo { display: block; width: 116px; height: auto; }
+
+.masthead__divider { width: 1px; height: 26px; background: var(--nav-line); }
+
+.masthead__titles { flex: 1 1 auto; min-width: 0; }
+
+.masthead__title {
+  margin: 0;
+  font-family: var(--cond);
+  font-size: 25px; font-weight: 600; letter-spacing: 0.4px;
+  color: var(--text); line-height: 1.1;
+}
+
+.masthead__sub { margin: 2px 0 0; font-size: 12px; color: var(--nav-text); }
+
+.masthead__cta {
+  flex: none;
+  font-family: var(--cond);
+  font-size: 16px; font-weight: 600; letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #14120f; background: var(--amber);
+  padding: 9px 18px; border-radius: 3px;
+}
+.masthead__cta:hover { color: #14120f; background: #ffc46b; }
+
+.masthead__filters-btn {
+  display: none; position: relative;
+  width: 44px; height: 40px; flex: none;
+  align-items: center; justify-content: center;
+  background: #14463f; border: 1px solid var(--nav-line);
+  border-radius: 3px; cursor: pointer;
+}
+.masthead__filters-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--text); stroke-width: 2; stroke-linecap: round; }
+.masthead__filters-count {
+  position: absolute; top: -6px; right: -6px;
+  min-width: 18px; height: 18px; padding: 0 5px;
+  font-family: var(--cond); font-size: 12px; font-weight: 700; line-height: 18px;
+  color: #fff; background: var(--accent); border-radius: 9px;
+}
+
+/* ── view toggle ──────────────────────────────────────────────────────── */
+
+.viewtoggle {
+  display: flex; flex: none; gap: 2px; padding: 2px;
+  background: #14463f; border: 1px solid var(--nav-line); border-radius: 3px;
+}
+.viewtoggle__btn {
+  font-family: var(--cond);
+  font-size: 15px; font-weight: 600; letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--nav-text); background: transparent;
+  border: 0; padding: 6px 15px; border-radius: 2px; cursor: pointer;
+}
+.viewtoggle__btn.is-active { color: var(--nav-bg); background: var(--text); }
+
+/* Six columns cannot work at phone width without horizontal scrolling, and a
+   scrolling table is worse than either view, so below this the toggle goes. */
+@media (max-width: 860px) {
+  .viewtoggle, .masthead__cta, .masthead__divider { display: none; }
+  .masthead__filters-btn { display: flex; }
+  .masthead__title { font-size: 19px; }
+  .masthead__logo { width: 86px; }
+}
+
+/* ── filters ──────────────────────────────────────────────────────────── */
+
+.filters {
+  position: sticky; top: 71px; z-index: 20;
+  padding: 12px var(--gutter);
+  background: var(--bg-raised);
+  border-bottom: 1px solid #2b2620;
+  display: flex; flex-direction: column; gap: 9px;
+}
+
+.filters__row { display: flex; align-items: baseline; gap: 12px; }
+
+.filters__label {
+  flex: none; width: 46px;
+  font-family: var(--cond); font-size: 13px; letter-spacing: 1.2px;
+  text-transform: uppercase; color: var(--text-4);
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 7px; }
+
+.chip {
+  font-family: var(--serif); font-size: 13px;
+  color: var(--text); background: #262019;
+  border: 1px solid #3a3229; padding: 5px 13px;
+  border-radius: 3px; cursor: pointer;
+}
+.chip:hover { border-color: #55493c; }
+.chip[aria-pressed="true"] { color: #14120f; background: var(--amber); border-color: var(--amber); font-weight: 600; }
+.chip--tag[aria-pressed="true"] { background: var(--tag); border-color: var(--tag); }
+
+.filters__search { display: flex; gap: 8px; align-items: center; flex: 1 1 auto; }
+.filters__search input {
+  flex: 1 1 auto; max-width: 320px;
+  font-family: var(--serif); font-size: 13px;
+  color: var(--text); background: #262019;
+  border: 1px solid #3a3229; border-radius: 3px; padding: 6px 11px;
+}
+.filters__clear {
+  font-family: var(--serif); font-size: 13px; color: var(--text-4);
+  background: none; border: 0; cursor: pointer; text-decoration: underline;
+}
+.filters__clear:hover { color: var(--text); }
+
+@media (max-width: 860px) {
+  .filters { position: static; display: none; }
+  .filters.is-open { display: flex; }
+  .filters__row { flex-direction: column; align-items: stretch; gap: 6px; }
+  .filters__label { width: auto; }
+  .filters__search input { max-width: none; }
+}
+
+/* ── layout ───────────────────────────────────────────────────────────── */
+
+main { padding: 0 var(--gutter) 48px; }
+
+.status { color: var(--text-4); font-size: 14px; padding: 28px 0; }
+
+.day { scroll-margin-top: 150px; }
+
+.day__head {
+  display: flex; align-items: baseline; gap: 14px;
+  padding: 26px 0 5px; margin-bottom: 18px;
+  border-bottom: 2px solid var(--day, var(--day-1));
+}
+.day__name {
+  font-family: var(--cond); font-size: 32px; font-weight: 700;
+  letter-spacing: 0.5px; color: var(--day, var(--day-1));
+  text-transform: uppercase;
+}
+.day__today {
+  font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.4px;
+  color: #14120f; background: var(--day, var(--day-1));
+  padding: 3px 9px; border-radius: 2px;
+}
+.day__count { margin-left: auto; font-size: 12px; color: var(--text-4); }
+
+.past-head {
+  display: flex; align-items: baseline; gap: 14px;
+  margin: 46px 0 0; padding: 14px 0 12px;
+  border-top: 3px solid var(--line); border-bottom: 1px solid var(--line);
+}
+.past-head h2 {
+  margin: 0; font-family: var(--cond); font-size: 26px; font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase; color: var(--text-4);
+}
+.past-head p { margin: 0; font-size: 12px; color: var(--text-4); }
+.is-past { opacity: 0.62; }
+
+/* ── cards ────────────────────────────────────────────────────────────── */
+
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 1100px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px)  { .cards { grid-template-columns: 1fr; } }
+
+.card {
+  display: flex; flex-direction: column; gap: 9px;
+  padding: 15px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--day, var(--day-1));
+  border-radius: 4px;
+}
+@media (max-width: 720px) {
+  .card { border-top: 1px solid var(--line); border-left: 3px solid var(--day, var(--day-1)); }
+}
+
+.card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.card__name { font-size: 17px; font-weight: 600; line-height: 1.25; margin: 0; }
+.card__name a { color: #fff; text-decoration: none; border-bottom: 1px solid #4a423a; }
+.card__name a:hover { color: var(--amber); border-bottom-color: var(--amber); }
+
+.card__time {
+  flex: none; font-family: var(--cond); font-size: 18px; font-weight: 600;
+  color: var(--amber); white-space: nowrap;
+}
+.card__time--tba { font-size: 15px; color: var(--text-4); }
+
+.card__venue { font-size: 13px; color: var(--text-2); }
+.card__desc  { font-size: 13px; color: var(--text-3); line-height: 1.5; }
+
+.card__meta { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-top: auto; padding-top: 4px; }
+.card__price { font-size: 12px; font-weight: 600; color: var(--money); }
+.card__price--tba { font-weight: 400; color: var(--text-4); }
+.badge { font-size: 11px; color: var(--text); background: var(--line); padding: 3px 8px; border-radius: 2px; }
+.badge--tag { color: #14120f; background: var(--tag); }
+
+/* ── table ────────────────────────────────────────────────────────────── */
+
+.tablewrap { margin-top: 4px; }
+
+.dtable { width: 100%; border-collapse: collapse; font-size: 13px; }
+.dtable th {
+  font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.3px;
+  text-transform: uppercase; text-align: left; color: #fff; background: #000;
+  padding: 9px 12px; position: sticky; top: 148px; z-index: 10;
+}
+.dtable td { padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+.dtable tbody tr:nth-child(odd) td { background: #1a1713; }
+.dtable a { color: var(--text); text-decoration: none; border-bottom: 1px solid #4a423a; }
+.dtable a:hover { color: var(--amber); border-bottom-color: var(--amber); }
+
+.dtable__day td {
+  background: var(--day, var(--day-1)) !important;
+  padding: 7px 12px;
+}
+.dtable__day-name {
+  font-family: var(--cond); font-size: 22px; font-weight: 700;
+  letter-spacing: 0.6px; text-transform: uppercase; color: #14120f;
+}
+.dtable__day-today {
+  font-family: var(--cond); font-size: 12px; font-weight: 700; letter-spacing: 1.3px;
+  color: var(--day, var(--day-1)); background: #14120f;
+  padding: 2px 8px; border-radius: 2px; margin-left: 10px;
+}
+.dtable__day-count { float: right; font-size: 11px; color: #4a3a30; padding-top: 6px; }
+
+.t-time  { color: var(--amber); white-space: nowrap; }
+.t-money { color: var(--money); white-space: nowrap; }
+.t-none  { color: var(--text-4); }
+.t-desc  { color: var(--text-3); font-size: 12px; line-height: 1.45; }
+
+/* ── footer ───────────────────────────────────────────────────────────── */
+
+.sitefoot {
+  padding: 26px var(--gutter) 40px;
+  background: #e69138; color: #14120f;
+  border-top: 12px solid #000;
+}
+.sitefoot p { margin: 0 0 6px; font-size: 13px; max-width: 74ch; }
+.sitefoot__cta {
+  display: inline-block; margin-bottom: 10px;
+  font-size: 17px; color: #14120f; font-weight: 600;
+}
+.sitefoot__cta:hover { color: #000; }
+.sitefoot__meta { margin-top: 14px; font-size: 12px; }
+.sitefoot__meta a { color: #14120f; }
+.sitefoot__meta a:hover { color: #000; }
+
+/* ── light mode ───────────────────────────────────────────────────────── */
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #faf7f2;
+    --bg-raised: #f1ece3;
+    --bg-card: #fff;
+    --line: #ded4c6;
+    --line-soft: #ebe3d7;
+    --text: #221d18;
+    --text-2: #5a5148;
+    --text-3: #6b6258;
+    --text-4: #857b70;
+    --amber: #a8620d;
+    --money: #1f7a4d;
+    --tag: #a84526;
+    --day-1: #b4595c;
+    --day-2: #a86a24;
+    --day-3: #3d6f82;
+    --day-4: #6b58a0;
+    --day-5: #3f7a3a;
+    --day-6: #6f6659;
+  }
+  :root:not([data-theme="dark"]) .chip { background: #fff; border-color: var(--line); }
+  :root:not([data-theme="dark"]) .filters__search input { background: #fff; border-color: var(--line); }
+  :root:not([data-theme="dark"]) .card__name a { color: #221d18; }
+  :root:not([data-theme="dark"]) .dtable tbody tr:nth-child(odd) td { background: #f5f0e8; }
+  :root:not([data-theme="dark"]) .dtable a { color: #221d18; }
+  :root:not([data-theme="dark"]) .dtable__day td { color: #14120f; }
+}

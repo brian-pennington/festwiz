@@ -1,0 +1,433 @@
+/* FestWiz — Halloween tracker
+ *
+ * Reads events.json (written by build.py from the feeder sheet) and renders
+ * it as either cards or a table, filtered by date, tag, age and free text.
+ *
+ * Today and Past Events are computed in the BROWSER from the visitor's own
+ * clock, not baked in at build time, so the page stays correct between
+ * publishes. The 2am rollover matches publish.py: a night's events stay
+ * current until 2am the next morning.
+ */
+(function () {
+  'use strict';
+
+  var DAY_ROLLOVER_HOUR = 2;
+  var VIEW_KEY = 'halloween2026_view';
+  var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var DAY_COLOURS = 6;
+
+  var state = {
+    events: [],
+    view: 'cards',
+    when: 'all',          // all | today | weekend
+    tags: [],             // OR within tags
+    maxAge: null,         // show events admitting someone of this age
+    search: ''
+  };
+
+  var els = {};
+
+  /* ── helpers ──────────────────────────────────────────────────────── */
+
+  function $(id) { return document.getElementById(id); }
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // Parse 'YYYY-MM-DD' as a LOCAL date. new Date('2026-10-17') is parsed as
+  // UTC and lands on the 16th in US timezones, which would shift every
+  // weekday label and break the Today match.
+  function parseISO(iso) {
+    var p = iso.split('-');
+    return new Date(+p[0], +p[1] - 1, +p[2]);
+  }
+
+  function today() {
+    var now = new Date();
+    if (now.getHours() < DAY_ROLLOVER_HOUR) {
+      now = new Date(now.getTime() - 24 * 3600 * 1000);
+    }
+    return new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  }
+
+  function dayLabel(iso) {
+    if (iso === 'all-month') return 'All Month Long';
+    var d = parseISO(iso);
+    return DAYS[d.getDay()] + ' ' + (d.getMonth() + 1) + '/' + d.getDate();
+  }
+
+  // Free-text times ("various", "") sort to the top of a day, as they do in
+  // the printed guide; anything after midnight belongs to the night before.
+  function timeKey(t) {
+    var m = /(\d{1,2})(?::([0-5]\d))?\s*(am|pm)/i.exec(t || '');
+    if (!m) return -1;
+    var h = (+m[1]) % 12;
+    if (m[3].toLowerCase() === 'pm') h += 12;
+    var mins = h * 60 + (+(m[2] || 0));
+    return mins < 6 * 60 ? mins + 24 * 60 : mins;
+  }
+
+  function isWeekend(iso) {
+    if (iso === 'all-month') return true;
+    var d = parseISO(iso).getDay();
+    return d === 5 || d === 6 || d === 0;
+  }
+
+  /* ── filtering ────────────────────────────────────────────────────── */
+
+  function matches(ev) {
+    var t = today();
+
+    if (state.when === 'today') {
+      if (ev.date !== 'all-month' && parseISO(ev.date).getTime() !== t.getTime()) return false;
+    } else if (state.when === 'weekend') {
+      if (!isWeekend(ev.date)) return false;
+      if (ev.date !== 'all-month' && parseISO(ev.date) < t) return false;
+    }
+
+    if (state.tags.length) {
+      var hit = false;
+      for (var i = 0; i < state.tags.length; i++) {
+        if (ev.tags.indexOf(state.tags[i]) !== -1) { hit = true; break; }
+      }
+      if (!hit) return false;
+    }
+
+    // An event with no stated age policy is never excluded — we do not know
+    // that it bars anyone, and hiding it would lose real events.
+    if (state.maxAge !== null && ev.age_min !== null && ev.age_min > state.maxAge) return false;
+
+    if (state.search) {
+      var hay = (ev.name + ' ' + ev.venue + ' ' + ev.description + ' ' + ev.tags.join(' ')).toLowerCase();
+      if (hay.indexOf(state.search) === -1) return false;
+    }
+    return true;
+  }
+
+  function groupByDay(list) {
+    var map = {};
+    list.forEach(function (ev) {
+      (map[ev.date] = map[ev.date] || []).push(ev);
+    });
+    Object.keys(map).forEach(function (k) {
+      map[k].sort(function (a, b) {
+        var d = timeKey(a.time) - timeKey(b.time);
+        return d || a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+      });
+    });
+    return map;
+  }
+
+  function orderedDays(map) {
+    var t = today();
+    var dated = Object.keys(map).filter(function (k) { return k !== 'all-month'; }).sort();
+    var upcoming = [], past = [];
+    dated.forEach(function (k) {
+      (parseISO(k) < t ? past : upcoming).push(k);
+    });
+    var head = map['all-month'] ? ['all-month'] : [];
+    return { upcoming: head.concat(upcoming), past: past };
+  }
+
+  /* ── rendering ────────────────────────────────────────────────────── */
+
+  function dayVar(index) { return 'var(--day-' + ((index % DAY_COLOURS) + 1) + ')'; }
+
+  function cardHTML(ev) {
+    var time = ev.time
+      ? '<div class="card__time">' + esc(ev.time) + '</div>'
+      : '<div class="card__time card__time--tba">time TBA</div>';
+    var name = ev.url
+      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
+      : esc(ev.name);
+    var price = ev.price
+      ? '<span class="card__price">' + esc(ev.price) + '</span>'
+      : '<span class="card__price card__price--tba">price TBA</span>';
+    var badges = '';
+    if (ev.age) badges += '<span class="badge">' + esc(ev.age) + '</span>';
+    ev.tags.forEach(function (tg) {
+      badges += '<span class="badge badge--tag">' + esc(tg) + '</span>';
+    });
+
+    return '<article class="card">' +
+      '<div class="card__top"><h3 class="card__name">' + name + '</h3>' + time + '</div>' +
+      (ev.venue ? '<div class="card__venue">' + esc(ev.venue) + '</div>' : '') +
+      (ev.description ? '<p class="card__desc">' + esc(ev.description) + '</p>' : '') +
+      '<div class="card__meta">' + price + badges + '</div>' +
+      '</article>';
+  }
+
+  function rowHTML(ev) {
+    var name = ev.url
+      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
+      : esc(ev.name);
+    var tags = ev.tags.length
+      ? ev.tags.map(function (tg) { return '<span class="badge badge--tag">' + esc(tg) + '</span>'; }).join(' ')
+      : '<span class="t-none">&mdash;</span>';
+    function cell(v, cls) {
+      return v ? '<td class="' + cls + '">' + esc(v) + '</td>'
+               : '<td class="t-none">&mdash;</td>';
+    }
+    return '<tr>' +
+      '<td>' + name + (ev.description ? '<div class="t-desc">' + esc(ev.description) + '</div>' : '') + '</td>' +
+      cell(ev.venue, '') +
+      cell(ev.time, 't-time') +
+      cell(ev.price, 't-money') +
+      cell(ev.age, '') +
+      '<td>' + tags + '</td>' +
+      '</tr>';
+  }
+
+  function dayHeadHTML(iso, n, colourIndex, isToday) {
+    return '<div class="day__head" style="--day:' + dayVar(colourIndex) + '">' +
+      '<span class="day__name">' + esc(dayLabel(iso)) + '</span>' +
+      (isToday ? '<span class="day__today">Today</span>' : '') +
+      '<span class="day__count">' + n + ' event' + (n === 1 ? '' : 's') + '</span>' +
+      '</div>';
+  }
+
+  function renderCards(map, order) {
+    var t = today(), html = '', i = 0;
+    function block(days, past) {
+      days.forEach(function (iso) {
+        var evs = map[iso];
+        var isToday = iso !== 'all-month' && parseISO(iso).getTime() === t.getTime();
+        html += '<section class="day' + (past ? ' is-past' : '') + '" style="--day:' + dayVar(i) + '">' +
+          dayHeadHTML(iso, evs.length, i, isToday) +
+          '<div class="cards">' + evs.map(cardHTML).join('') + '</div></section>';
+        i++;
+      });
+    }
+    block(order.upcoming, false);
+    if (order.past.length) {
+      html += pastHeadHTML(order.past, map);
+      block(order.past, true);
+    }
+    return html;
+  }
+
+  function renderTable(map, order) {
+    var t = today(), i = 0;
+    var head = '<table class="dtable"><thead><tr>' +
+      '<th>Name</th><th>Location</th><th>Time</th><th>Price</th><th>Age</th><th>Tags</th>' +
+      '</tr></thead>';
+    var body = '';
+    function block(days, past) {
+      days.forEach(function (iso) {
+        var evs = map[iso];
+        var isToday = iso !== 'all-month' && parseISO(iso).getTime() === t.getTime();
+        body += '<tbody' + (past ? ' class="is-past"' : '') + ' style="--day:' + dayVar(i) + '">' +
+          '<tr class="dtable__day"><td colspan="6">' +
+            '<span class="dtable__day-name">' + esc(dayLabel(iso)) + '</span>' +
+            (isToday ? '<span class="dtable__day-today">Today</span>' : '') +
+            '<span class="dtable__day-count">' + evs.length + '</span>' +
+          '</td></tr>' +
+          evs.map(rowHTML).join('') +
+          '</tbody>';
+        i++;
+      });
+    }
+    block(order.upcoming, false);
+
+    // Past days are NOT emitted here — pastTableBody renders them into their
+    // own table below the heading. Calling block() for them as well would
+    // list every elapsed day twice.
+    var past = order.past.length ? pastHeadHTML(order.past, map) : '';
+
+    // The heading sits outside the table so it is not a stray row.
+    return '<div class="tablewrap">' + head + body + '</table></div>' +
+      (past ? past + '<div class="tablewrap"><table class="dtable">' +
+              pastTableBody(map, order, t) + '</table></div>' : '');
+  }
+
+  // Past days render as their own table so the heading can sit between them.
+  function pastTableBody(map, order, t) {
+    var i = order.upcoming.length, body = '';
+    order.past.forEach(function (iso) {
+      var evs = map[iso];
+      body += '<tbody class="is-past" style="--day:' + dayVar(i) + '">' +
+        '<tr class="dtable__day"><td colspan="6">' +
+          '<span class="dtable__day-name">' + esc(dayLabel(iso)) + '</span>' +
+          '<span class="dtable__day-count">' + evs.length + '</span>' +
+        '</td></tr>' + evs.map(rowHTML).join('') + '</tbody>';
+      i++;
+    });
+    return body;
+  }
+
+  function pastHeadHTML(past, map) {
+    var n = past.reduce(function (sum, k) { return sum + map[k].length; }, 0);
+    return '<div class="past-head"><h2>Past Events</h2>' +
+      '<p>' + n + ' event' + (n === 1 ? '' : 's') + ' on ' + past.length +
+      ' day' + (past.length === 1 ? '' : 's') + ' already gone</p></div>';
+  }
+
+  function render() {
+    var shown = state.events.filter(matches);
+    var map = groupByDay(shown);
+    var order = orderedDays(map);
+
+    els.sub.textContent = state.events.length + ' events · ' +
+      (state.events.length ? dayLabel(minDate()) + ' – ' + dayLabel(maxDate()) : '');
+
+    var active = (state.when !== 'all' ? 1 : 0) + state.tags.length +
+                 (state.maxAge !== null ? 1 : 0) + (state.search ? 1 : 0);
+    els.count.hidden = active === 0;
+    els.count.textContent = active;
+    els.clear.hidden = active === 0;
+
+    if (!shown.length) {
+      els.status.hidden = false;
+      els.status.textContent = 'No events match those filters.';
+      els.results.innerHTML = '';
+      return;
+    }
+
+    els.status.hidden = true;
+    els.results.innerHTML = state.view === 'table'
+      ? renderTable(map, order)
+      : renderCards(map, order);
+  }
+
+  function minDate() {
+    return state.events.map(function (e) { return e.date; })
+      .filter(function (d) { return d !== 'all-month'; }).sort()[0];
+  }
+  function maxDate() {
+    var d = state.events.map(function (e) { return e.date; })
+      .filter(function (x) { return x !== 'all-month'; }).sort();
+    return d[d.length - 1];
+  }
+
+  /* ── chips ────────────────────────────────────────────────────────── */
+
+  function chip(label, pressed, cls) {
+    return '<button type="button" class="chip' + (cls ? ' ' + cls : '') +
+      '" aria-pressed="' + (pressed ? 'true' : 'false') +
+      '" data-value="' + esc(label) + '">' + esc(label) + '</button>';
+  }
+
+  function buildChips() {
+    els.when.innerHTML =
+      chip('All dates', state.when === 'all') +
+      chip('Today', state.when === 'today') +
+      chip('This weekend', state.when === 'weekend');
+
+    var tagCounts = {};
+    state.events.forEach(function (e) {
+      e.tags.forEach(function (t) { tagCounts[t] = (tagCounts[t] || 0) + 1; });
+    });
+    var tags = Object.keys(tagCounts).sort(function (a, b) {
+      return tagCounts[b] - tagCounts[a] || a.localeCompare(b);
+    });
+    els.tags.innerHTML = tags.map(function (t) {
+      return chip(t, state.tags.indexOf(t) !== -1, 'chip--tag');
+    }).join('') || '<span class="status">No tags yet.</span>';
+
+    // Ordinal: picking 13 shows everything admitting a 13-year-old.
+    var ages = [];
+    state.events.forEach(function (e) {
+      if (e.age_min !== null && ages.indexOf(e.age_min) === -1) ages.push(e.age_min);
+    });
+    ages.sort(function (a, b) { return a - b; });
+    els.age.innerHTML = chip('Any age', state.maxAge === null) +
+      ages.map(function (a) {
+        return chip(a === 0 ? 'All ages' : a + '+', state.maxAge === a);
+      }).join('');
+  }
+
+  function onChipClick(group, e) {
+    var btn = e.target.closest('.chip');
+    if (!btn) return;
+    var v = btn.getAttribute('data-value');
+
+    if (group === 'when') {
+      state.when = v === 'Today' ? 'today' : v === 'This weekend' ? 'weekend' : 'all';
+    } else if (group === 'tags') {
+      var i = state.tags.indexOf(v);
+      if (i === -1) state.tags.push(v); else state.tags.splice(i, 1);
+    } else {
+      state.maxAge = v === 'Any age' ? null : (v === 'All ages' ? 0 : parseInt(v, 10));
+    }
+    buildChips();
+    render();
+  }
+
+  function setView(view) {
+    state.view = view;
+    els.cardsBtn.classList.toggle('is-active', view === 'cards');
+    els.tableBtn.classList.toggle('is-active', view === 'table');
+    els.cardsBtn.setAttribute('aria-pressed', String(view === 'cards'));
+    els.tableBtn.setAttribute('aria-pressed', String(view === 'table'));
+    try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* private mode */ }
+    render();
+  }
+
+  /* ── boot ─────────────────────────────────────────────────────────── */
+
+  function init() {
+    els = {
+      sub: $('masthead-sub'), status: $('status'), results: $('results'),
+      when: $('chips-when'), tags: $('chips-tags'), age: $('chips-age'),
+      search: $('filter-search'), clear: $('btn-clear'), count: $('filters-count'),
+      cardsBtn: $('btn-view-cards'), tableBtn: $('btn-view-table'),
+      filters: $('filters'), filtersBtn: $('btn-filters')
+    };
+
+    try {
+      var saved = localStorage.getItem(VIEW_KEY);
+      if (saved === 'table' || saved === 'cards') state.view = saved;
+    } catch (err) { /* private mode: keep the default */ }
+
+    els.when.addEventListener('click', onChipClick.bind(null, 'when'));
+    els.tags.addEventListener('click', onChipClick.bind(null, 'tags'));
+    els.age.addEventListener('click', onChipClick.bind(null, 'age'));
+    els.cardsBtn.addEventListener('click', function () { setView('cards'); });
+    els.tableBtn.addEventListener('click', function () { setView('table'); });
+
+    var timer;
+    els.search.addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        state.search = els.search.value.trim().toLowerCase();
+        render();
+      }, 120);
+    });
+
+    els.clear.addEventListener('click', function () {
+      state.when = 'all'; state.tags = []; state.maxAge = null; state.search = '';
+      els.search.value = '';
+      buildChips(); render();
+    });
+
+    els.filtersBtn.addEventListener('click', function () {
+      var open = els.filters.classList.toggle('is-open');
+      els.filtersBtn.setAttribute('aria-expanded', String(open));
+    });
+
+    fetch('events.json', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        state.events = data.filter(function (e) { return e.status !== 'cancelled'; });
+        setView(state.view);
+        buildChips();
+        render();
+      })
+      .catch(function (err) {
+        els.status.hidden = false;
+        els.status.textContent = 'Could not load the event list. ' + err.message;
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
