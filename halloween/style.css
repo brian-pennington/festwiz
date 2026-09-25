@@ -577,7 +577,7 @@ main > * { position: relative; z-index: 1; }
    mid-word ("Halloweir/d"). A shadow paints outside the box and takes no
    part in layout, so nothing can reflow. */
 .card__name a,
-.dtable a {
+.dtable .t-name a {
   text-decoration: none;
   border-bottom: 1px solid #4a423a;
   border-radius: 2px;
@@ -586,14 +586,14 @@ main > * { position: relative; z-index: 1; }
   box-decoration-break: clone;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .card__name a, .dtable a {
+  .card__name a, .dtable .t-name a {
     transition: background-color 200ms ease, color 200ms ease,
                 box-shadow 200ms ease, border-color 200ms ease;
   }
 }
 
 .card__name a:hover, .card__name a:focus-visible,
-.dtable a:hover, .dtable a:focus-visible {
+.dtable .t-name a:hover, .dtable .t-name a:focus-visible {
   background: var(--amber);
   border-bottom-color: var(--amber);
   box-shadow: 0 0 0 3px var(--amber);
@@ -686,8 +686,8 @@ main > * { position: relative; z-index: 1; }
    #b0a598: on a hatch line inside this row the old grey fell to 3.9:1. */
 .dtable tbody tr:nth-child(odd) td { background: rgb(var(--row-stripe)); }
 .dtable tbody tr:nth-child(even) td { background: rgba(var(--row-alt), 0.85); }
-.dtable a { color: var(--text); }
-.dtable a:hover, .dtable a:focus-visible { color: #14120f; }
+.dtable .t-name a { color: var(--text); }
+.dtable .t-name a:hover, .dtable .t-name a:focus-visible { color: #14120f; }
 
 .dtable__day td {
   background: var(--day, var(--day-1)) !important;
