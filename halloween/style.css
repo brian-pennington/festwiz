@@ -53,7 +53,7 @@
      Intensity and tile size are set here; the COLOUR is the fill inside that
      file (currently white), because a tiled background cannot take a CSS
      variable for its colour the way a mask could. */
-  --texture-opacity: 0.1;
+  --texture-opacity: 0.15;
   --texture-size: 6px;
 
   --row-stripe: 26, 23, 19;   /* #1a1713 — the opaque stripe */
