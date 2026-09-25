@@ -1,11 +1,11 @@
 /* FestWiz — Halloween tracker
  *
- * Reads events.json (written by build.py from the feeder sheet) and renders
+ * Reads events.json (written by build-web.py from the feeder sheet) and renders
  * it as either cards or a table, filtered by date, tag, age and free text.
  *
  * Today and Past Events are computed in the BROWSER from the visitor's own
  * clock, not baked in at build time, so the page stays correct between
- * publishes. The 2am rollover matches publish.py: a night's events stay
+ * publishes. The 2am rollover matches publish-sheets.py: a night's events stay
  * current until 2am the next morning.
  */
 (function () {

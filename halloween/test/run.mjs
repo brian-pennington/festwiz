@@ -46,10 +46,18 @@ console.log('\nFILTERS');
   const s = api.state; s.events = data;
   const n = () => data.filter(api.matches).length;
   is('no filters', n(), data.length);
-  s.when = 'today';   is('when=today', n(), 7);
+  // Counts are derived from the data, never hardcoded — the feeder grows.
+  const onDay = (iso) => data.filter(e => e.date === iso).length;
+  const todayISO = api.today().toISOString().slice(0, 10);
+  s.when = 'today';   is('when=today matches that day', n(), onDay(todayISO));
   s.when = 'all';
-  s.tags = ['film'];  is('tag=film', n(), 41);
-  s.tags = ['film', 'haunted house']; is('tags OR', n(), 68);
+  const withTag = (t) => data.filter(e => e.tags.includes(t)).length;
+  const withEither = (a, b) =>
+    data.filter(e => e.tags.includes(a) || e.tags.includes(b)).length;
+  const tagA = [...new Set(data.flatMap(e => e.tags))][0];
+  const tagB = [...new Set(data.flatMap(e => e.tags))][1];
+  s.tags = [tagA];        is(`tag=${tagA}`, n(), withTag(tagA));
+  s.tags = [tagA, tagB];  is('tags OR', n(), withEither(tagA, tagB));
   s.tags = [];
   s.maxAge = 0;  const a0 = n();
   s.maxAge = 13; const a13 = n();
@@ -75,8 +83,11 @@ console.log('\nFILTERS');
   is('unpriced events excluded by any tier', p50 <= data.length - noPrice, true);
   s.maxPrice = null;
   is('All price shows everything', n(), data.length);
-  is('a range uses its first number',
-     data.find(e => e.price === '$40-$50').price_min, 40);
+  const range = data.find(e => /^\$\d+\s*-/.test(e.price || ''));
+  if (range) {
+    is('a range uses its first number',
+       range.price_min, parseFloat(range.price.replace(/[^\d.]/, '').match(/^[\d.]+/)[0]));
+  }
   s.search = 'vortex'; is('search matches venue', n() > 0, true);
   s.search = 'zzzznope'; is('search with no hits', n(), 0);
 }

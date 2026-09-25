@@ -18,6 +18,22 @@
     "status": "confirmed"
   },
   {
+    "id": "cvnty-vampires-2026-10-02-1",
+    "name": "Cvnty Vampires",
+    "date": "2026-10-02",
+    "venue": "Fallout",
+    "price": "$22",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 22.0,
+    "status": "confirmed"
+  },
+  {
     "id": "goth-brooks-2026-10-02-1",
     "name": "Goth Brooks",
     "date": "2026-10-02",
@@ -88,6 +104,22 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "spooky-scary-skeletons-night-2026-10-02-1",
+    "name": "Spooky Scary Skeletons Night",
+    "date": "2026-10-02",
+    "venue": "Tiny Minotaur",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-03538f1a-cb27-40ef-8b61-706d886b312d",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
     "status": "confirmed"
   },
   {
@@ -352,6 +384,22 @@
     "status": "confirmed"
   },
   {
+    "id": "cvnty-vampires-2026-10-09-2",
+    "name": "Cvnty Vampires",
+    "date": "2026-10-09",
+    "venue": "Fallout",
+    "price": "$22",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 22.0,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-horror-movie-series-2026-10-09-4",
     "name": "Halloween + Horror Movie Series",
     "date": "2026-10-09",
@@ -544,6 +592,38 @@
     "status": "confirmed"
   },
   {
+    "id": "spooky-babes-swap-market-2026-10-10-1",
+    "name": "Spooky Babes Swap + Market",
+    "date": "2026-10-10",
+    "venue": "Open House Austin",
+    "price": "$19",
+    "time": "11am",
+    "end_time": "2pm",
+    "url": "https://www.eventbrite.com/e/spooky-babes-swap-market-tickets-1999416883722",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 19.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "underground-terror-classic-horror-movie-night-2026-10-10-1",
+    "name": "Underground Terror: Classic Horror Movie Night",
+    "date": "2026-10-10",
+    "venue": "Inner Space Cavern",
+    "price": "$35",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "atx-theatre-halloween-costume-thrift-sale-2026-10-11-2",
     "name": "ATX Theatre Halloween Costume + Thrift Sale",
     "date": "2026-10-11",
@@ -577,6 +657,22 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "terror-terrace-2026-10-11-1",
+    "name": "Terror Terrace",
+    "date": "2026-10-11",
+    "venue": "Fallout",
+    "price": "$20",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdkIBjTMuv_/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
     "status": "confirmed"
   },
   {
@@ -668,6 +764,24 @@
     "status": "confirmed"
   },
   {
+    "id": "panic-at-the-paramount-2026-10-13-5",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-13",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
     "id": "wnuf-halloween-special-2026-10-13-1",
     "name": "WNUF Halloween Special",
     "date": "2026-10-13",
@@ -702,10 +816,26 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-14-5",
+    "id": "improv-against-humanity-halloween-special-2026-10-14-1",
+    "name": "Improv Against Humanity Halloween Special",
+    "date": "2026-10-14",
+    "venue": "Fallout",
+    "price": "$16",
+    "time": "8:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/improv-against-humanity-presents-halloween-tickets-2000994390086",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 16.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-14-6",
     "name": "Panic at the Paramount",
     "date": "2026-10-14",
-    "venue": "The State Theatre",
+    "venue": "The Bullock",
     "price": "$15",
     "time": "7pm",
     "end_time": "",
@@ -717,6 +847,22 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "underground-terror-classic-horror-movie-night-2026-10-14-2",
+    "name": "Underground Terror: Classic Horror Movie Night",
+    "date": "2026-10-14",
+    "venue": "Inner Space Cavern",
+    "price": "$35",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -822,10 +968,10 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-15-6",
+    "id": "panic-at-the-paramount-2026-10-15-7",
     "name": "Panic at the Paramount",
     "date": "2026-10-15",
-    "venue": "The State Theatre",
+    "venue": "The Bullock",
     "price": "$15",
     "time": "7:30pm",
     "end_time": "",
@@ -890,6 +1036,22 @@
     "status": "confirmed"
   },
   {
+    "id": "cvnty-vampires-2026-10-16-3",
+    "name": "Cvnty Vampires",
+    "date": "2026-10-16",
+    "venue": "Fallout",
+    "price": "$22",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 22.0,
+    "status": "confirmed"
+  },
+  {
     "id": "ethereal-horror-fest-2026-10-16-1",
     "name": "Ethereal Horror Fest",
     "date": "2026-10-16",
@@ -924,6 +1086,22 @@
     "status": "confirmed"
   },
   {
+    "id": "moss-market-2026-10-16-1",
+    "name": "Moss Market",
+    "date": "2026-10-16",
+    "venue": "Ani's Day + Night",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Ddmauoti6Ce/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
     "id": "scare-for-a-cure-2026-10-16-5",
     "name": "Scare for a Cure",
     "date": "2026-10-16",
@@ -939,6 +1117,22 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "vampire-murder-mystery-ball-2026-10-16-1",
+    "name": "Vampire Murder Mystery Ball",
+    "date": "2026-10-16",
+    "venue": "Nocturna",
+    "price": "$72",
+    "time": "9pm",
+    "end_time": "",
+    "url": "https://events.ticketleap.com/tickets/nocturna/vampiremysteryball",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 72.0,
     "status": "confirmed"
   },
   {
@@ -1060,6 +1254,24 @@
     "status": "confirmed"
   },
   {
+    "id": "11th-annual-vintage-handmade-costume-sale-2026-10-18-1",
+    "name": "11th Annual Vintage + Handmade Costume Sale",
+    "date": "2026-10-18",
+    "venue": "Coco Coquette",
+    "price": "",
+    "time": "12pm",
+    "end_time": "5pm",
+    "url": "https://www.instagram.com/p/DdmBLmBkQhL/?img_index=2",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
     "id": "austin-bake-club-goosebumps-2026-10-18-1",
     "name": "Austin Bake Club: Goosebumps",
     "date": "2026-10-18",
@@ -1110,10 +1322,10 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-18-7",
+    "id": "panic-at-the-paramount-2026-10-18-8",
     "name": "Panic at the Paramount",
     "date": "2026-10-18",
-    "venue": "The State Theatre",
+    "venue": "The Bullock",
     "price": "$15",
     "time": "3:30pm",
     "end_time": "",
@@ -1128,10 +1340,10 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-18-8",
+    "id": "panic-at-the-paramount-2026-10-18-9",
     "name": "Panic at the Paramount",
     "date": "2026-10-18",
-    "venue": "The State Theatre",
+    "venue": "The Bullock",
     "price": "$15",
     "time": "7pm",
     "end_time": "",
@@ -1182,6 +1394,24 @@
     "status": "confirmed"
   },
   {
+    "id": "panic-at-the-paramount-2026-10-20-10",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-20",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-horror-movie-series-2026-10-21-12",
     "name": "Halloween + Horror Movie Series",
     "date": "2026-10-21",
@@ -1200,10 +1430,10 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-21-9",
+    "id": "panic-at-the-paramount-2026-10-21-11",
     "name": "Panic at the Paramount",
     "date": "2026-10-21",
-    "venue": "The State Theatre",
+    "venue": "The Bullock",
     "price": "$15",
     "time": "7:30pm",
     "end_time": "",
@@ -1272,6 +1502,22 @@
     "status": "confirmed"
   },
   {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-22-1",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-22",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "austin-s-haunted-mansions-tour-2026-10-23-4",
     "name": "Austin's Haunted Mansions Tour",
     "date": "2026-10-23",
@@ -1319,6 +1565,22 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "cvnty-vampires-2026-10-23-4",
+    "name": "Cvnty Vampires",
+    "date": "2026-10-23",
+    "venue": "Fallout",
+    "price": "$22",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 22.0,
     "status": "confirmed"
   },
   {
@@ -1374,7 +1636,23 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-23-10",
+    "id": "moss-market-2026-10-23-2",
+    "name": "Moss Market",
+    "date": "2026-10-23",
+    "venue": "Ani's Day + Night",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Ddmauoti6Ce/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-23-12",
     "name": "Panic at the Paramount",
     "date": "2026-10-23",
     "venue": "The Bullock",
@@ -1392,7 +1670,7 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-23-11",
+    "id": "panic-at-the-paramount-2026-10-23-13",
     "name": "Panic at the Paramount",
     "date": "2026-10-23",
     "venue": "The State Theatre",
@@ -1443,6 +1721,38 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "underground-terror-classic-horror-movie-night-2026-10-23-3",
+    "name": "Underground Terror: Classic Horror Movie Night",
+    "date": "2026-10-23",
+    "venue": "Inner Space Cavern",
+    "price": "$35",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-23-2",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-23",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -1564,7 +1874,7 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-24-12",
+    "id": "panic-at-the-paramount-2026-10-24-14",
     "name": "Panic at the Paramount",
     "date": "2026-10-24",
     "venue": "The State Theatre",
@@ -1644,6 +1954,38 @@
     "tags": [],
     "age": "18+",
     "age_min": 18,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-24-3",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-24",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-24-4",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-24",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "8:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
     "price_min": 35.0,
     "status": "confirmed"
   },
@@ -1748,6 +2090,24 @@
     "status": "confirmed"
   },
   {
+    "id": "panic-at-the-paramount-2026-10-25-15",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-25",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
     "id": "room-temperature-2026-10-25-1",
     "name": "Room Temperature",
     "date": "2026-10-25",
@@ -1766,6 +2126,22 @@
     "status": "confirmed"
   },
   {
+    "id": "strawfest-2026-10-25-1",
+    "name": "Strawfest",
+    "date": "2026-10-25",
+    "venue": "Umlauf",
+    "price": "free",
+    "time": "11am",
+    "end_time": "4pm",
+    "url": "umlaufsculpture.org/strawfest",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-horror-movie-series-2026-10-26-15",
     "name": "Halloween + Horror Movie Series",
     "date": "2026-10-26",
@@ -1781,6 +2157,24 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "panic-at-the-paramount-2026-10-26-16",
+    "name": "Panic at the Paramount",
+    "date": "2026-10-26",
+    "venue": "The Bullock",
+    "price": "$15",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.austintheatre.org/events/panic/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1890,6 +2284,22 @@
     "status": "confirmed"
   },
   {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-28-5",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-28",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "bat-city-scaregrounds-2026-10-29-14",
     "name": "Bat City Scaregrounds",
     "date": "2026-10-29",
@@ -1978,6 +2388,22 @@
     "status": "confirmed"
   },
   {
+    "id": "terror-terrace-2026-10-29-2",
+    "name": "Terror Terrace",
+    "date": "2026-10-29",
+    "venue": "Fallout",
+    "price": "$20",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdkIBjTMuv_/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
+    "status": "confirmed"
+  },
+  {
     "id": "the-austin-seance-2026-10-29-3",
     "name": "The Austin Séance",
     "date": "2026-10-29",
@@ -1991,6 +2417,22 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-29-6",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-29",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -2025,6 +2467,38 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "better-off-alone-2026-10-30-1",
+    "name": "Better Off Alone",
+    "date": "2026-10-30",
+    "venue": "29th St. Ballroom",
+    "price": "",
+    "time": "10:30pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Ddo54_BjCiZ/",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "cvnty-vampires-2026-10-30-5",
+    "name": "Cvnty Vampires",
+    "date": "2026-10-30",
+    "venue": "Fallout",
+    "price": "$22",
+    "time": "11:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 22.0,
     "status": "confirmed"
   },
   {
@@ -2077,6 +2551,22 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "terror-terrace-2026-10-30-3",
+    "name": "Terror Terrace",
+    "date": "2026-10-30",
+    "venue": "Fallout",
+    "price": "$20",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdkIBjTMuv_/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
     "status": "confirmed"
   },
   {
@@ -2146,6 +2636,38 @@
     "status": "confirmed"
   },
   {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-30-7",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-30",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "a-night-of-a-thousand-screams-2026-10-31-1",
+    "name": "A Night of a Thousand Screams",
+    "date": "2026-10-31",
+    "venue": "Sterling Stage",
+    "price": "$29",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/a-night-of-a-thousand-screams-tickets-2002156564180",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 29.0,
+    "status": "confirmed"
+  },
+  {
     "id": "bat-city-scaregrounds-2026-10-31-16",
     "name": "Bat City Scaregrounds",
     "date": "2026-10-31",
@@ -2161,6 +2683,22 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "daft-disko-halloween-2026-10-31-1",
+    "name": "Daft Disko Halloween",
+    "date": "2026-10-31",
+    "venue": "Inn Cahoots",
+    "price": "$25",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://dice.fm/event/3obw8x-daft-disko-halloween-austin-31st-oct-inn-cahoots-austin-tickets",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -2230,6 +2768,22 @@
     "status": "confirmed"
   },
   {
+    "id": "north-loop-halloween-house-party-2026-10-31-1",
+    "name": "North Loop Halloween House Party",
+    "date": "2026-10-31",
+    "venue": "(secret)",
+    "price": "$10",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://partiful.com/e/g4UcA4udX0lg9jnxa6XF",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "park-scream-2026-10-31-1",
     "name": "Park + Scream",
     "date": "2026-10-31",
@@ -2243,6 +2797,54 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "scary-stories-to-tell-at-the-tunnels-2026-10-31-1",
+    "name": "Scary Stories to Tell at the Tunnels",
+    "date": "2026-10-31",
+    "venue": "ATX Tunnels",
+    "price": "",
+    "time": "10pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdohzDJHFTu/?img_index=1",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "tails-from-the-crypt-2026-10-31-1",
+    "name": "Tails from the Crypt",
+    "date": "2026-10-31",
+    "venue": "Ani's Day + Night",
+    "price": "$11-$21",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://events.ticketleap.com/tickets/up-in-smoke-cabaret-productions/up-in-smoke-cabaret-presents-tails-from-the-crypt",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 11.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "terror-terrace-2026-10-31-4",
+    "name": "Terror Terrace",
+    "date": "2026-10-31",
+    "venue": "Fallout",
+    "price": "$20",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdkIBjTMuv_/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
     "status": "confirmed"
   },
   {
@@ -2328,6 +2930,22 @@
     "status": "confirmed"
   },
   {
+    "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-31-8",
+    "name": "Ventana Ballet: Undead Haunted House of Dances",
+    "date": "2026-10-31",
+    "venue": "East Side Performing Arts",
+    "price": "$35",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
+    "description": "",
+    "tags": [],
+    "age": "16+",
+    "age_min": 16,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "whiplash-halloween-bash-2026-10-31-1",
     "name": "Whiplash Halloween Bash",
     "date": "2026-10-31",
@@ -2360,6 +2978,38 @@
     "status": "confirmed"
   },
   {
+    "id": "dia-de-los-muertos-2026-11-01-2",
+    "name": "Dia de los Muertos",
+    "date": "2026-11-01",
+    "venue": "Moody Amphitheater",
+    "price": "free",
+    "time": "4pm",
+    "end_time": "8pm",
+    "url": "https://waterloogreenway.org/events/dia-de-los-muertos-3/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "terror-terrace-2026-11-01-5",
+    "name": "Terror Terrace",
+    "date": "2026-11-01",
+    "venue": "Fallout",
+    "price": "$20",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdkIBjTMuv_/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
+    "status": "confirmed"
+  },
+  {
     "id": "the-austin-seance-2026-11-01-8",
     "name": "The Austin Séance",
     "date": "2026-11-01",
@@ -2367,7 +3017,7 @@
     "price": "",
     "time": "7:30pm",
     "end_time": "9pm",
-    "url": "https://austinseance.com/events-2/tickets/",
+    "url": "https://www.eventbrite.com/e/seance-at-the-vortex-benefitting-koop-radio-and-graveside-service-tickets-2002156552144?aff=eprofsaved",
     "description": "Take part in a Victorian-style séance + learn about their history",
     "tags": [],
     "age": "",

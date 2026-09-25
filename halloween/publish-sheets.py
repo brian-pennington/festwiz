@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-publish.py — write the public Halloween sheet
+publish-sheets.py — write the public Halloween sheet
 
-Reads events.json (produced by build.py) and rewrites the public sheet to
+Reads events.json (produced by build-web.py) and rewrites the public sheet to
 match the layout of the 2025 guide: a title bar, a frozen header, then one
 section per date — black banner, event rows on a rotating pastel, a blank
 row, and the newsletter promo row.
 
-    python3 halloween/publish.py --preview    # print what would be written
-    python3 halloween/publish.py              # write it (asks first)
-    python3 halloween/publish.py --yes        # write without asking
+    python3 halloween/publish-sheets.py --preview    # print what would be written
+    python3 halloween/publish-sheets.py              # write it (asks first)
+    python3 halloween/publish-sheets.py --yes        # write without asking
 
 The 2025 sheet carries no conditional-formatting rules — every fill is
 applied directly to cells — so this writes formatting as well as values.
@@ -427,7 +427,7 @@ def main():
     cfg = json.loads((HERE / "config.json").read_text())
     events = json.loads((HERE / "events.json").read_text())
     if not events:
-        print("events.json is empty — run build.py first.", file=sys.stderr)
+        print("events.json is empty — run build-web.py first.", file=sys.stderr)
         return 2
 
     today = date.fromisoformat(args.today) if args.today else effective_today()

@@ -1,7 +1,7 @@
 [
   {
     "tag": "film",
-    "count": 41,
+    "count": 45,
     "color": "#1d6a5f"
   },
   {
@@ -15,12 +15,12 @@
     "color": "#b03a2e"
   },
   {
-    "tag": "drag",
-    "count": 4,
+    "tag": "shopping",
+    "count": 5,
     "color": "#6e2472"
   },
   {
-    "tag": "shopping",
+    "tag": "drag",
     "count": 4,
     "color": "#6e2472"
   },

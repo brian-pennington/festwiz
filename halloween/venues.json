@@ -1,15 +1,27 @@
 [
   {
+    "venue": "(secret)",
+    "count": 1
+  },
+  {
     "venue": "14101 South Turnersville Road, Buda",
     "count": 16
   },
   {
     "venue": "29th St. Ballroom",
-    "count": 3
+    "count": 4
   },
   {
     "venue": "4th St. + Congress Ave.",
     "count": 1
+  },
+  {
+    "venue": "ATX Tunnels",
+    "count": 1
+  },
+  {
+    "venue": "Ani's Day + Night",
+    "count": 3
   },
   {
     "venue": "Ani's Day and Night",
@@ -44,6 +56,10 @@
     "count": 1
   },
   {
+    "venue": "Coco Coquette",
+    "count": 1
+  },
+  {
     "venue": "Come and Take It Live",
     "count": 2
   },
@@ -52,8 +68,16 @@
     "count": 1
   },
   {
+    "venue": "East Side Performing Arts",
+    "count": 8
+  },
+  {
     "venue": "Elysium",
     "count": 3
+  },
+  {
+    "venue": "Fallout",
+    "count": 11
   },
   {
     "venue": "Femme Rock",
@@ -80,6 +104,14 @@
     "count": 20
   },
   {
+    "venue": "Inn Cahoots",
+    "count": 1
+  },
+  {
+    "venue": "Inner Space Cavern",
+    "count": 3
+  },
+  {
     "venue": "Jester King",
     "count": 1
   },
@@ -92,8 +124,12 @@
     "count": 1
   },
   {
+    "venue": "Moody Amphitheater",
+    "count": 1
+  },
+  {
     "venue": "Nocturna",
-    "count": 3
+    "count": 4
   },
   {
     "venue": "Oakwood Cemetery",
@@ -101,6 +137,10 @@
   },
   {
     "venue": "Oddwood Brewing",
+    "count": 1
+  },
+  {
+    "venue": "Open House Austin",
     "count": 1
   },
   {
@@ -125,7 +165,7 @@
   },
   {
     "venue": "Sterling Stage",
-    "count": 4
+    "count": 5
   },
   {
     "venue": "The 13th Floor",
@@ -137,7 +177,7 @@
   },
   {
     "venue": "The Bullock",
-    "count": 2
+    "count": 11
   },
   {
     "venue": "The Commune",
@@ -157,7 +197,7 @@
   },
   {
     "venue": "The State Theatre",
-    "count": 11
+    "count": 6
   },
   {
     "venue": "The Vortex",
@@ -168,7 +208,15 @@
     "count": 1
   },
   {
+    "venue": "Tiny Minotaur",
+    "count": 1
+  },
+  {
     "venue": "Tweedy's",
+    "count": 1
+  },
+  {
+    "venue": "Umlauf",
     "count": 1
   },
   {

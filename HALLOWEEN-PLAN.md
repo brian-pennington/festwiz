@@ -38,7 +38,7 @@ festwiz/
   halloween/            ← new app, forked from southbysouthwest/
     index.html  halloween.js  style.css
     service-worker.js  manifest.json
-    build.py            ← Sheets in, Sheets + JSON out
+    build-web.py            ← Sheets in, Sheets + JSON out
     events.json  venues.json  tags.json   ← generated, committed
   shared/
     brand.css           ← color tokens only
@@ -109,7 +109,7 @@ the festival page rather than trying to distinguish them.
 ## The pipeline
 
 ```
-Feeder Sheet ──read──> halloween/build.py ──> events.json / venues.json / tags.json
+Feeder Sheet ──read──> halloween/build-web.py ──> events.json / venues.json / tags.json
   (private)                   │                            │
                               └──write──> Public Sheet      └──> festwiz.biz grid
 ```
@@ -117,9 +117,9 @@ Feeder Sheet ──read──> halloween/build.py ──> events.json / venues.j
 One command does everything:
 
 ```bash
-python3 halloween/build.py           # read feeder, write JSON + public sheet
-python3 halloween/build.py --dry-run # validate and report, write nothing
-python3 halloween/build.py --no-sheet # JSON only, skip the Sheets write
+python3 halloween/build-web.py           # read feeder, write JSON + public sheet
+python3 halloween/build-web.py --dry-run # validate and report, write nothing
+python3 halloween/build-web.py --no-sheet # JSON only, skip the Sheets write
 ```
 
 This is `build_unofficial.py` grown up: same forgiving date/time parsing, same
@@ -157,7 +157,7 @@ recolor everything automatically.
 
 The alternative — generating formatting via `batchUpdate` — is a few hundred
 lines of brittle API calls, and every visual tweak becomes a code change. With
-rules, the sheet is restyled in the Sheets UI and `build.py` never changes.
+rules, the sheet is restyled in the Sheets UI and `build-web.py` never changes.
 
 ## Source format: the 2025 sheet
 
@@ -298,7 +298,7 @@ real tag. Invent one mid-October, type it on one event, and it exists: it gets a
 color, a filter chip, and a place in the web app on the next compile. Nothing has to
 be registered first.
 
-How `build.py` handles them:
+How `build-web.py` handles them:
 
 - **Discovery.** Tags are collected from every occurrence after fill-down resolution.
   The full set is whatever appears in the sheet.
@@ -381,7 +381,7 @@ Phase 3 can slip without losing the season.
 **Phase 2 — Ingest & public sheet** (ships standalone)
 - Finalize the feeder schema against the 2025 sheet; create the feeder
 - Service account setup
-- `build.py`: read → validate → `events.json` → write public sheet
+- `build-web.py`: read → validate → `events.json` → write public sheet
 - Build the public sheet template and its conditional formatting rules
 
 **Phase 3 — Web app**
@@ -441,14 +441,14 @@ at `/southbysouthwest/`, served at `/` by the `_redirects` rewrite, with the
 production; Brian confirmed festwiz.biz resolves and his ratings survived the
 move. Tag `southbysouthwest-2026-final` is pushed to GitHub.
 
-**Ingest works end to end (read half).** `halloween/build.py` reads the feeder
+**Ingest works end to end (read half).** `halloween/build-web.py` reads the feeder
 sheet live via gspread, resolves ditto inheritance, validates, and writes
 `events.json` / `venues.json` / `tags.json`.
 
 ```bash
-python3 halloween/build.py --dry-run          # validate, write nothing
-python3 halloween/build.py                    # write the JSON
-python3 halloween/build.py --csv <file>       # read an export instead
+python3 halloween/build-web.py --dry-run          # validate, write nothing
+python3 halloween/build-web.py                    # write the JSON
+python3 halloween/build-web.py --csv <file>       # read an export instead
 ```
 
 Validated two ways: the live feeder's 15 test rows resolve correctly (4 events,
@@ -484,8 +484,8 @@ shared with it — feeder as Viewer, public sheet as Editor. Sheet ids are in
   (everything at or below a threshold), enforces one value per event, keeps the
   tag chips about event *kind*, and can be validated. Cheap now, expensive once
   the feeder has 200 rows. Awaiting Brian's call.
-- **`halloween/build.py` is tracked**, so in Halloween mode the rewrite would
-  serve it at `/build.py`. No secrets in it, but it could move to a `tools/`
+- **`halloween/build-web.py` is tracked**, so in Halloween mode the rewrite would
+  serve it at `/build-web.py`. No secrets in it, but it could move to a `tools/`
   directory that 404s in both modes.
 
 ## Open Questions

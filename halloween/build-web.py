@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build.py — Halloween tracker ingest
+build-web.py — Halloween tracker ingest
 
 Reads the feeder sheet (Google Sheets, or a CSV export), resolves fill-down
 inheritance, validates, and emits events.json / venues.json / tags.json for the
@@ -8,9 +8,9 @@ web app.  Writing the public output sheet is a separate step, added once the
 service-account credentials exist.
 
 Usage:
-    python3 halloween/build.py --csv halloween/sample_feeder.csv --dry-run
-    python3 halloween/build.py --csv path/to/export.csv
-    python3 halloween/build.py                      # reads the feeder sheet (needs credentials)
+    python3 halloween/build-web.py --csv halloween/sample_feeder.csv --dry-run
+    python3 halloween/build-web.py --csv path/to/export.csv
+    python3 halloween/build-web.py                      # reads the feeder sheet (needs credentials)
 
 See HALLOWEEN-PLAN.md for the schema and the reasoning behind it.
 """
