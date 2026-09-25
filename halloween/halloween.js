@@ -234,7 +234,10 @@
   }
 
   var SUBSCRIBE_URL = 'https://liteandbriteatx.com/';
-  var SUBSCRIBE_TEXT = 'Subscribe to the Lite + Brite newsletter for more Austin events';
+  // Shorter than the Google Sheet's version of this line: it repeats once per
+  // day here and has to share a header with the date. The sheet keeps the
+  // long form — see PROMO in publish-sheets.py.
+  var SUBSCRIBE_TEXT = 'Subscribe to Lite+Brite for more Austin events';
 
   // The banner row that opens each day in table view. Shared by the upcoming
   // and past tables so the two cannot drift.
