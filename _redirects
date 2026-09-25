@@ -13,6 +13,24 @@
 /southbysouthwest/*   /southbysouthwest/:splat  200
 /halloween/*          /halloween/:splat         200
 
+# Legacy root asset paths. A browser still holding the pre-move festival HTML
+# at "/" asks for these relatively; without these rules the wildcard below
+# hands it Halloween's stylesheet, which renders that old markup as an
+# illegible page with a stuck-open dialog. Point them at the app they belong
+# to so a stale page stays coherent until its service worker updates.
+/style.css            /southbysouthwest/style.css            200
+/app.js               /southbysouthwest/app.js               200
+/schedule.js          /southbysouthwest/schedule.js          200
+/schedule.html        /southbysouthwest/schedule.html        200
+/artists.json         /southbysouthwest/artists.json         200
+/shows.json           /southbysouthwest/shows.json           200
+/unofficial_shows.json    /southbysouthwest/unofficial_shows.json    200
+/unofficial_artists.json  /southbysouthwest/unofficial_artists.json  200
+/recommended.json     /southbysouthwest/recommended.json     200
+/venues.json          /southbysouthwest/venues.json          200
+/venue_coords.json    /southbysouthwest/venue_coords.json    200
+/announcements.json   /southbysouthwest/announcements.json   200
+
 # ── HALLOWEEN MODE (active) ───────────────────────────────────────────────
 /*                    /halloween/:splat         200
 

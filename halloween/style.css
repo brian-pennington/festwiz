@@ -402,8 +402,8 @@ main::before {
   z-index: 0;
   background-color: var(--texture-color);
   opacity: var(--texture-opacity);
-  -webkit-mask-image: url("assets/diagonal-lines.svg");
-  mask-image: url("assets/diagonal-lines.svg");
+  -webkit-mask-image: url("/halloween/assets/diagonal-lines.svg");
+  mask-image: url("/halloween/assets/diagonal-lines.svg");
   -webkit-mask-repeat: repeat;
   mask-repeat: repeat;
   -webkit-mask-size: var(--texture-size) var(--texture-size);

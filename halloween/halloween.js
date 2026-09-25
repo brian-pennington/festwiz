@@ -738,7 +738,7 @@
       document.fonts.ready.then(measureStick);
     }
 
-    fetch('events.json', { cache: 'no-cache' })
+    fetch('/halloween/events.json', { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();

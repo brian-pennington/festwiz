@@ -16,7 +16,7 @@
  * slower load) is much cheaper than shipping an update nobody receives.
  */
 
-const CACHE_NAME = 'fw-hw-v3';
+const CACHE_NAME = 'fw-hw-v4';
 
 // Warmed on install so a first-visit-then-offline still works. Nothing is
 // ever served from here while the network is reachable.
@@ -42,13 +42,24 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys()
-      .then(keys => Promise.all(
-        keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
-      ))
-      .then(() => self.clients.claim())
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    const stale = keys.filter(k => k !== CACHE_NAME);
+    await Promise.all(stale.map(k => caches.delete(k)));
+    await self.clients.claim();
+
+    // If this worker replaced an older one, the page on screen was very
+    // likely rendered from that worker's cache — possibly the festival app's
+    // HTML wearing this app's stylesheet. Reload it once so it comes back
+    // correct. Only when a stale cache actually existed, so this can never
+    // loop on a clean install.
+    if (stale.length) {
+      const windows = await self.clients.matchAll({ type: 'window' });
+      for (const client of windows) {
+        try { await client.navigate(client.url); } catch (e) { /* not allowed */ }
+      }
+    }
+  })());
 });
 
 self.addEventListener('fetch', event => {
