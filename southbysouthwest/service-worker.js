@@ -9,7 +9,7 @@
  * Bump CACHE_NAME after each data push to force precache refresh.
  */
 
-const CACHE_NAME = 'fw-sbsw-v226';
+const CACHE_NAME = 'fw-sbsw-v227';
 
 const PRECACHE = [
   '/southbysouthwest/',
@@ -39,6 +39,21 @@ self.addEventListener('install', event => {
   );
 });
 
+// A registration created before the mode flip has scope "/" even though this
+// script now lives in a subdirectory. It must not keep answering for the root
+// page — Halloween serves that now. Stand down so the Halloween worker, which
+// registers at scope "/", can take over.
+async function standDownIfRootScoped() {
+  const scope = new URL(self.registration.scope);
+  if (scope.pathname !== '/') return false;
+  await self.registration.unregister();
+  const windows = await self.clients.matchAll({ type: 'window' });
+  for (const client of windows) {
+    try { await client.navigate(client.url); } catch (e) { /* not allowed */ }
+  }
+  return true;
+}
+
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
@@ -46,6 +61,7 @@ self.addEventListener('activate', event => {
         keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
       ))
       .then(() => self.clients.claim())
+      .then(() => standDownIfRootScoped())
   );
 });
 

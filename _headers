@@ -13,3 +13,12 @@
 
 /halloween/service-worker.js
   Service-Worker-Allowed: /
+
+# The festival worker keeps this too, even though it no longer serves "/".
+# Phase 1 registered it AT scope "/", and that scope is re-validated on every
+# update check — drop the header and those registrations can never update,
+# leaving the device pinned to a cache-first worker still serving the old
+# root page. With the header they can update, and the new version stands
+# down (see its activate handler).
+/southbysouthwest/service-worker.js
+  Service-Worker-Allowed: /
