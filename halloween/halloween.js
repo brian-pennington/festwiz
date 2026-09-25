@@ -770,6 +770,8 @@
       document.fonts.ready.then(measureStick);
     }
 
+    // The filter drawer and view toggle are already wired above, so they work
+    // while this is in flight — the page is usable before the data lands.
     fetch('/halloween/events.json', { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);

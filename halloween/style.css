@@ -426,14 +426,16 @@ main::before {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  background-color: var(--texture-color);
   opacity: var(--texture-opacity);
-  -webkit-mask-image: url("/halloween/assets/diagonal-lines.svg");
-  mask-image: url("/halloween/assets/diagonal-lines.svg");
-  -webkit-mask-repeat: repeat;
-  mask-repeat: repeat;
-  -webkit-mask-size: var(--texture-size) var(--texture-size);
-  mask-size: var(--texture-size) var(--texture-size);
+  /* A repeating gradient rather than a masked SVG. The mask had to composite
+     across the entire page height — tens of thousands of pixels with this
+     many events — which is slow on a phone. This draws the same 6px hatch
+     as assets/diagonal-lines.svg at a fraction of the cost. */
+  background-image: repeating-linear-gradient(
+    135deg,
+    var(--texture-color) 0 1px,
+    transparent 1px var(--texture-size)
+  );
 }
 
 /* Lift the content above the texture layer. */
@@ -441,7 +443,21 @@ main > * { position: relative; z-index: 1; }
 
 .status { color: var(--text-4); font-size: 14px; padding: 28px 0; }
 
-.day { scroll-margin-top: calc(var(--sticky-top) + 12px); }
+/* 178 events is ~3,500 elements. Laying out and painting all of them on load
+   blocks the main thread long enough that taps on the filter button are
+   ignored. content-visibility lets the browser skip layout and paint for
+   sections that are off screen, and contain-intrinsic-size gives it a size
+   to assume for them so the scrollbar does not jump as they are reached. */
+.day {
+  scroll-margin-top: calc(var(--sticky-top) + 12px);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 520px;
+}
+
+.dtable tbody {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
+}
 
 .day__head {
   display: flex; align-items: baseline; gap: 14px;
