@@ -29,7 +29,7 @@ CREDENTIALS = REPO / "credentials" / "credentials.json"
 
 # Every subscribe link on the sheet points here. The 2025 sheet still used the
 # old Mailchimp eepurl address in all 36 places; this is the single source now.
-SUBSCRIBE_URL = "https://liteandbriteatx.beehiiv.com/?modal=signup"
+SUBSCRIBE_URL = "https://liteandbriteatx.com/"
 
 TITLE = ("This spreadsheet compiled w/love ",
          "by Lite + Brite, a weekly email newsletter of Austin events")
