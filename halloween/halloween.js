@@ -241,6 +241,9 @@
     return '<div class="day__head" style="--day:' + dayVar(colourIndex) + '">' +
       '<span class="day__name">' + esc(dayLabel(iso)) + '</span>' +
       (isToday ? '<span class="day__today">Today</span>' : '') +
+      '<a class="day__sub" href="' + SUBSCRIBE_URL + '"' +
+        ' target="_blank" rel="noopener">' + esc(SUBSCRIBE_TEXT) + '</a>' +
+      // Kept, currently hidden in CSS — same as the table view's count.
       '<span class="day__count">' + n + ' event' + (n === 1 ? '' : 's') + '</span>' +
       '</div>';
   }

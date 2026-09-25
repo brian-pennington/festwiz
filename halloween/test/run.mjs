@@ -27,6 +27,8 @@ console.log('\nRENDER — 17 Oct 2026, 8pm');
   const nDays = Object.keys(map).length;
   is('a subscribe link per day banner', count(table, /dtable__day-sub/g), nDays);
   is('the count is kept in the markup', count(table, /dtable__day-count/g), nDays);
+  is('cards: a subscribe link per day header', count(cards, /day__sub/g), nDays);
+  is('cards: the count is kept too', count(cards, /day__count/g), nDays);
 }
 
 console.log('\nRENDER — 23 Sep 2026 (before the season)');
