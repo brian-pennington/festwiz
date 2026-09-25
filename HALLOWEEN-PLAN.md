@@ -441,19 +441,27 @@ at `/southbysouthwest/`, served at `/` by the `_redirects` rewrite, with the
 production; Brian confirmed festwiz.biz resolves and his ratings survived the
 move. Tag `southbysouthwest-2026-final` is pushed to GitHub.
 
-**Ingest works end to end (read half).** `halloween/build-web.py` reads the feeder
-sheet live via gspread, resolves ditto inheritance, validates, and writes
-`events.json` / `venues.json` / `tags.json`.
+**Publishing is one command.**
 
 ```bash
-python3 halloween/build-web.py --dry-run          # validate, write nothing
-python3 halloween/build-web.py                    # write the JSON
-python3 halloween/build-web.py --csv <file>       # read an export instead
+python3 halloween/deploy.py            # summary, confirm, then do it all
+python3 halloween/deploy.py --check    # summary only, changes nothing
+python3 halloween/deploy.py --yes      # no prompt
 ```
 
-Validated two ways: the live feeder's 15 test rows resolve correctly (4 events,
-2 recurring), and a fixture generated from the 2025 guide reconstructs all 239
-occurrences exactly, field for field.
+It reads the feeder, validates, then writes the JSON the web app reads,
+rewrites the public Google Sheet, and commits and pushes — which is what
+makes the site live. Errors stop everything before anything is written;
+warnings are shown and you decide.
+
+`--no-sheet` and `--no-push` skip those steps. The individual scripts still
+exist when only one side is wanted:
+
+```bash
+python3 halloween/build-web.py         # feeder -> events/venues/tags.json
+python3 halloween/publish-sheets.py    # events.json -> the public Sheet
+node halloween/test/run.mjs            # regression checks for the web app
+```
 
 **Feeder columns**, all mapping: Event name, URL, Date, Start time, End time,
 Location, Price, Tags, Description, Status, Notes.

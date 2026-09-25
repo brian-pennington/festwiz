@@ -411,6 +411,45 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
     return req
 
 
+def write_sheet(events, include_empty_dates=True, today=None):
+    """
+    Rewrite the public sheet from an events list. Returns (rows, links).
+
+    Split out of main() so deploy.py can call it directly instead of
+    shelling out to this file and losing the exit status.
+    """
+    cfg = json.loads((HERE / "config.json").read_text())
+    if today is None:
+        today = effective_today()
+    rows, spans = build_rows(events, include_empty_dates=include_empty_dates,
+                             today=today)
+
+    import gspread
+    from google.oauth2.service_account import Credentials
+    creds = Credentials.from_service_account_file(
+        str(CREDENTIALS), scopes=["https://www.googleapis.com/auth/spreadsheets"])
+    gc = gspread.authorize(creds)
+    sh = gc.open_by_key(cfg["public_sheet"])
+    ws = sh.worksheet(cfg["public_tab"])
+
+    if ws.row_count < len(rows):
+        ws.add_rows(len(rows) - ws.row_count)
+    if ws.col_count < N_COLS:
+        ws.add_cols(N_COLS - ws.col_count)
+    ws.clear()
+    sh.batch_update({"requests": text_format_requests(ws.id, len(rows))})
+    ws.update(rows, "A1", value_input_option="USER_ENTERED")
+    sh.batch_update({"requests": format_requests(ws.id, rows, spans)})
+
+    lreq = link_requests(ws.id, rows, spans["links"])
+    for i in range(0, len(lreq), 200):
+        sh.batch_update({"requests": lreq[i:i + 200]})
+
+    if ws.row_count != len(rows) or ws.col_count != N_COLS:
+        ws.resize(rows=len(rows), cols=N_COLS)
+    return rows, lreq
+
+
 def main():
     ap = argparse.ArgumentParser(description="Write the public Halloween sheet")
     ap.add_argument("--preview", action="store_true",
