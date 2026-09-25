@@ -714,8 +714,13 @@ main > * { position: relative; z-index: 1; }
   text-decoration: none;
   border-bottom: 1px solid transparent;
 }
+/* colour must be stated: without it the global `a:hover { color: #ffc46b }`
+   takes over and the link goes pale amber on the pastel fill. */
 .dtable__day-sub:hover,
-.dtable__day-sub:focus-visible { border-bottom-color: #14120f; }
+.dtable__day-sub:focus-visible {
+  color: #000;
+  border-bottom-color: #000;
+}
 
 /* .badge is shared with the cards, so the table's copy is adjusted here only.
    The bottom margin keeps stacked tags from clumping when a cell wraps. */
