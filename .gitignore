@@ -256,4 +256,8 @@ client_secret*.json
 
 # Local asset archive — PSDs, screen recordings, exports. Never deployed,
 # and contains files far over GitHub's 100MB limit.
-Assets/
+#
+# Anchored with a leading slash so it matches ONLY the folder at the repo
+# root. Unanchored it matched halloween/assets/ too — git is case-insensitive
+# on macOS — which silently kept the texture SVG out of every deploy.
+/Assets/
