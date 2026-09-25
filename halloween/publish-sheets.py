@@ -77,6 +77,8 @@ PALETTE = [
 
 TITLE_BG = "#e69138"
 LINK_FG = "#000000"      # link text colour; Sheets would default to blue
+PROMO_LINK_FG = "#990000"  # Google Sheets "dark red 2", for the per-day promo
+                           # rows only. The title bar and footer keep black.
 BANNER_BG = "#000000"
 WHITE = "#ffffff"
 
@@ -124,7 +126,8 @@ def link_requests(sheet_id, rows, links):
     would otherwise clobber these runs.
     """
     req = []
-    for (row_idx, col_idx), url in sorted(links.items()):
+    for (row_idx, col_idx), spec in sorted(links.items()):
+        url, colour = spec if isinstance(spec, tuple) else (spec, LINK_FG)
         text = rows[row_idx][col_idx]
         if not text:
             continue
@@ -140,7 +143,7 @@ def link_requests(sheet_id, rows, links):
                 "textFormatRuns": [{"startIndex": 0,
                                     "format": {"link": {"uri": url},
                                                "underline": True,
-                                               "foregroundColor": rgb(LINK_FG)}}],
+                                               "foregroundColor": rgb(colour)}}],
             }]}],
             "fields": "userEnteredValue,textFormatRuns"}})
     return req
@@ -208,9 +211,11 @@ def build_rows(events, include_empty_dates=True, today=None):
     title[0], title[1] = TITLE[0], TITLE[1]
     rows = [title, HEADERS[:], blank()]
     spans_spacer = 2          # the empty row between the header and day one
-    # (row, column) -> url. The title phrase spans A1 and B1, and the 2025
-    # sheet linked both halves, so the whole sentence is clickable.
-    links = {(0, 0): SUBSCRIBE_URL, (0, 1): SUBSCRIBE_URL}
+    # (row, column) -> (url, text colour). The title phrase spans A1 and B1,
+    # and the 2025 sheet linked both halves, so the whole sentence is
+    # clickable. Title and footer stay black; the per-day promo rows are red.
+    links = {(0, 0): (SUBSCRIBE_URL, LINK_FG),
+             (0, 1): (SUBSCRIBE_URL, LINK_FG)}
     spans = {"title": 0, "header": 1, "spacer": spans_spacer,
              "banners": [], "promos": [], "bodies": []}
 
@@ -225,7 +230,7 @@ def build_rows(events, include_empty_dates=True, today=None):
                         key=lambda x: (time_key(x.get("time", "")),
                                        x["name"].lower())):
             if e.get("url"):
-                links[(len(rows), 0)] = e["url"]
+                links[(len(rows), 0)] = (e["url"], LINK_FG)
             rows.append([
                 e["name"],
                 e.get("venue", ""),
@@ -237,7 +242,7 @@ def build_rows(events, include_empty_dates=True, today=None):
             ])
         rows.append(blank())                      # blank row inside the fill
         spans["promos"].append(len(rows))
-        links[(len(rows), 0)] = SUBSCRIBE_URL
+        links[(len(rows), 0)] = (SUBSCRIBE_URL, PROMO_LINK_FG)
         promo = blank()
         promo[0] = PROMO
         rows.append(promo)
@@ -267,7 +272,7 @@ def build_rows(events, include_empty_dates=True, today=None):
     spans["footer_signup"] = len(rows)
     signup = blank()
     signup[1] = FOOTER_SIGNUP
-    links[(len(rows), 1)] = SUBSCRIBE_URL
+    links[(len(rows), 1)] = (SUBSCRIBE_URL, LINK_FG)
     rows.append(signup)
 
     spans["footer_body"] = (len(rows), len(rows) + len(FOOTER_TEXT))
