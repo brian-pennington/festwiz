@@ -687,20 +687,18 @@ main > * { position: relative; z-index: 1; }
    the guide is full enough for the number to mean something. */
 .dtable__day-count { display: none; float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
 
-/* Sits where the count was — same size and position, in a dark red so it
-   reads as a link against every day fill.
-   Not the sheet's #990000: the web app's day colours are more saturated than
-   the printed palette, and that red measures 4.33:1 on day-1 and 4.40:1 on
-   day-6, both under AA. #800000 clears 5.3:1 on all six. */
+/* Sits where the count was, matching it exactly: same face, size, colour and
+   position. Clears 5.3:1 on every day fill.
+   No resting underline, to match the number it replaced — the affordance
+   arrives on hover and focus instead. */
 .dtable__day-sub {
   float: right;
   font-family: var(--serif);
   font-size: 13px;
-  font-style: italic;
-  color: #800000;
+  color: #4a3a30;
   padding-top: 6px;
   text-decoration: none;
-  border-bottom: 1px solid rgba(128, 0, 0, 0.45);
+  border-bottom: 1px solid transparent;
 }
 .dtable__day-sub:hover,
 .dtable__day-sub:focus-visible {
