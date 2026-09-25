@@ -41,7 +41,7 @@ export function boot({ at = null, events = null } = {}) {
   globalThis.getComputedStyle = () => ({ position: 'sticky' });
   globalThis.window = {
     addEventListener() {}, scrollTo() {},
-    matchMedia: () => ({ matches: false }),
+    matchMedia: (q) => ({ matches: !!globalThis.__phone && /max-width: 720px/.test(q) }),
   };
   globalThis.document.createElement = () => mkEl('created');
   const data = events || JSON.parse(fs.readFileSync('halloween/events.json', 'utf8'));

@@ -668,6 +668,11 @@ main > * { position: relative; z-index: 1; }
   .day__name { font-size: 25px; line-height: 1; padding-top: 2px; }
   .day__today { font-size: 12px; padding: 2px 7px; }
   .day__sub { font-size: 11px; }
+
+  /* No table view on a phone: six columns either crush or scroll sideways,
+     and both are worse than the cards. The JS forces cards at this width, so
+     hiding the toggle leaves no way to reach a view that does not work. */
+  .filterbar__view { display: none; }
 }
 
 .card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }

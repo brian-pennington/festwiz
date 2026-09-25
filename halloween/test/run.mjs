@@ -151,6 +151,21 @@ console.log('\nCARD CONTENT');
      [...byTag.values()].every(n => +n >= 1 && +n <= 6), true);
 }
 
+console.log('\nPHONE FORCES CARD VIEW');
+{
+  globalThis.__phone = true;
+  const { api, data, made } = boot();
+  await new Promise(r => setTimeout(r, 60));
+  api.state.events = data;
+  api.state.view = 'table';          // as if chosen earlier on a desktop
+  api.render();
+  const html = made['results'].innerHTML;
+  is('renders cards despite the stored preference', count(html, /<article/g) > 0, true);
+  is('renders no table', count(html, /<table/g), 0);
+  is('stored preference is untouched', api.state.view, 'table');
+  globalThis.__phone = false;
+}
+
 console.log('\nDROPDOWN OPEN/CLOSE STATE');
 {
   const { made } = boot();

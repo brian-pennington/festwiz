@@ -22,6 +22,19 @@
   // no age rather than claiming 21+, because we do not actually know.
   var UNKNOWN_AGE = 21;
 
+  // Below this the table is not offered: six columns cannot work at phone
+  // width. The stored preference is left alone, so a phone visit does not
+  // reset what someone chose on a desktop.
+  var PHONE = '(max-width: 720px)';
+
+  function isPhone() {
+    return !!(window.matchMedia && window.matchMedia(PHONE).matches);
+  }
+
+  function effectiveView() {
+    return isPhone() ? 'cards' : state.view;
+  }
+
   // Price tiers, cheapest first. null = All, which is the default.
   var PRICE_TIERS = [
     { label: 'All',            max: null },
@@ -344,7 +357,9 @@
     }
 
     els.status.hidden = true;
-    els.results.innerHTML = state.view === 'table'
+    var view = effectiveView();
+    document.body.setAttribute('data-view', view);
+    els.results.innerHTML = view === 'table'
       ? renderTable(map, order)
       : renderCards(map, order);
   }
@@ -512,7 +527,7 @@
   function setView(view) {
     state.view = view;
     // Drives the card-view-only background texture in the stylesheet.
-    document.body.setAttribute('data-view', view);
+    document.body.setAttribute('data-view', effectiveView());
     // There are two toggles — one in the masthead, one in the phone drawer.
     // Drive both from the same place so they can never disagree.
     var btns = document.querySelectorAll('[data-view-set]');
@@ -744,6 +759,12 @@
 
     measureStick();
     window.addEventListener('resize', measureStick);
+
+    // Crossing the phone breakpoint changes which view is shown, so re-render.
+    var wasPhone = isPhone();
+    window.addEventListener('resize', function () {
+      if (isPhone() !== wasPhone) { wasPhone = isPhone(); render(); }
+    });
     if (document.fonts && document.fonts.ready) {
       // Barlow Condensed changes the masthead's height once it loads.
       document.fonts.ready.then(measureStick);
