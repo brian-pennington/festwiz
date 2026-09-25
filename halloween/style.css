@@ -689,8 +689,8 @@ main > * { position: relative; z-index: 1; }
 
 /* Sits where the count was, matching it exactly: same face, size, colour and
    position. Clears 5.3:1 on every day fill.
-   No resting underline, to match the number it replaced — the affordance
-   arrives on hover and focus instead. */
+   Underlined, unlike the number it replaced, so it reads as a link without
+   needing to be hovered. */
 .dtable__day-sub {
   float: right;
   font-family: var(--serif);
@@ -698,7 +698,7 @@ main > * { position: relative; z-index: 1; }
   color: #4a3a30;
   padding-top: 6px;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid rgba(74, 58, 48, 0.55);
 }
 .dtable__day-sub:hover,
 .dtable__day-sub:focus-visible {
