@@ -422,12 +422,18 @@ main > * { position: relative; z-index: 1; }
   padding: 26px 0 5px; margin-bottom: 18px;
   border-bottom: 2px solid var(--day, var(--day-1));
 }
+/* The date never wraps and never shrinks: it is the thing you scan for.
+   flex: none stops the subscribe link's length from squeezing it, and
+   nowrap stops "SAT 10/17" breaking across two lines. */
 .day__name {
+  flex: none;
+  white-space: nowrap;
   font-family: var(--cond); font-size: 32px; font-weight: 700;
   letter-spacing: 0.5px; color: var(--day, var(--day-1));
   text-transform: uppercase;
 }
 .day__today {
+  flex: none; white-space: nowrap;
   font-family: var(--cond); font-size: 14px; font-weight: 600; letter-spacing: 1.4px;
   color: #14120f; background: var(--day, var(--day-1));
   padding: 3px 9px; border-radius: 2px;
@@ -437,9 +443,15 @@ main > * { position: relative; z-index: 1; }
 
 /* Sits where the count was, in the same colour as the date beside it — the
    day's own colour. No underline; the affordance arrives on hover. */
+/* Takes whatever is left and wraps inside it. min-width:0 is what actually
+   lets a flex item shrink below its content width. */
 .day__sub {
   margin-left: auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  text-align: right;
   font-size: 12px;
+  line-height: 1.3;
   color: var(--day, var(--day-1));
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -613,6 +625,13 @@ main > * { position: relative; z-index: 1; }
 }
 @media (max-width: 720px) {
   .card { border-top: 1px solid var(--line); border-left: 3px solid var(--day, var(--day-1)); }
+
+  /* Give the date room by taking it from the type size and the gap, not from
+     the date's own line count. */
+  .day__head { gap: 10px; padding-top: 20px; }
+  .day__name { font-size: 25px; }
+  .day__today { font-size: 12px; padding: 2px 7px; }
+  .day__sub { font-size: 11px; }
 }
 
 .card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
