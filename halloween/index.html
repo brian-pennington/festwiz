@@ -161,7 +161,7 @@
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-      navigator.serviceWorker.register('/halloween/service-worker.js');
+      navigator.serviceWorker.register('/halloween/service-worker.js', { scope: '/' });
     });
   }
 </script>

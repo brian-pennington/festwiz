@@ -1,18 +1,22 @@
 # FestWiz mode switch — see HALLOWEEN-PLAN.md
 #
-# Rules are tried in order, first match wins. The two passthroughs come
-# first so each app is always reachable at its own path; the single wildcard
-# after them decides what "/" serves, and that is the whole mode switch.
+# Rules are tried in order, first match wins.
+#
+#   1. bare app paths get their trailing slash, or the wildcard below would
+#      rewrite /halloween into /halloween/halloween and 404
+#   2. each app is served at its own path, in either mode
+#   3. one wildcard decides what "/" serves — that line IS the mode switch
 
-# Identity passthroughs. Both apps stay reachable at their own paths in
-# either mode; only the LAST rule decides what "/" serves. Without a
-# passthrough an app's own path is swallowed by the wildcard below it.
-/southbysouthwest/*  /southbysouthwest/:splat  200
-/halloween/*         /halloween/:splat         200
+/halloween            /halloween/               301
+/southbysouthwest     /southbysouthwest/        301
 
-# ── FESTIVAL MODE (active) ────────────────────────────────────────────────
-/*                   /southbysouthwest/:splat  200
+/southbysouthwest/*   /southbysouthwest/:splat  200
+/halloween/*          /halloween/:splat         200
 
-# ── HALLOWEEN MODE ────────────────────────────────────────────────────────
-# Comment out the one rule above, uncomment this one. The passthroughs stay.
-# /*                   /halloween/:splat         200
+# ── HALLOWEEN MODE (active) ───────────────────────────────────────────────
+/*                    /halloween/:splat         200
+
+# ── FESTIVAL MODE ─────────────────────────────────────────────────────────
+# After Halloween: comment the line above, uncomment this one, and move the
+# service-worker root scope back (see _headers).
+# /*                  /southbysouthwest/:splat  200

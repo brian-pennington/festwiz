@@ -16,11 +16,12 @@
  * slower load) is much cheaper than shipping an update nobody receives.
  */
 
-const CACHE_NAME = 'fw-hw-v2';
+const CACHE_NAME = 'fw-hw-v3';
 
 // Warmed on install so a first-visit-then-offline still works. Nothing is
 // ever served from here while the network is reachable.
 const WARM = [
+  '/',
   '/halloween/',
   '/halloween/index.html',
   '/halloween/style.css',
@@ -53,7 +54,13 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   const { request } = event;
   if (request.method !== 'GET') return;
-  if (new URL(request.url).origin !== self.location.origin) return;
+
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+
+  // This worker's scope is "/", so it sees the festival app's requests too.
+  // That app has its own worker at its own scope; leave its paths alone.
+  if (url.pathname.startsWith('/southbysouthwest/')) return;
 
   event.respondWith(
     fetch(request)
