@@ -654,8 +654,18 @@ main > * { position: relative; z-index: 1; }
 
   /* Give the date room by taking it from the type size and the gap, not from
      the date's own line count. */
-  .day__head { gap: 10px; padding-top: 20px; }
-  .day__name { font-size: 25px; }
+  .day__head {
+    gap: 10px;
+    padding-top: 20px;
+    /* Tops, not baselines: the link wraps to two lines here, and baseline
+       alignment would hang the date off the link's FIRST baseline, leaving
+       the date sitting high above the block. */
+    align-items: flex-start;
+  }
+  /* line-height 1 removes the half-leading above the glyphs, so the date's
+     box top is its cap top and squares with the link's first line. The 2px
+     is the link's own half-leading at 11px/1.3. */
+  .day__name { font-size: 25px; line-height: 1; padding-top: 2px; }
   .day__today { font-size: 12px; padding: 2px 7px; }
   .day__sub { font-size: 11px; }
 }
