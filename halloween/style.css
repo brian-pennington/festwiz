@@ -434,17 +434,14 @@ main > * { position: relative; z-index: 1; }
 /* Hidden for now, not removed — same as the table view's count. */
 .day__count { display: none; margin-left: auto; font-size: 12px; color: var(--text-4); }
 
-/* Sits where the count was: same size and position, underlined so it reads
-   as a link.
-   NOT --text-4, which the count used: the day header is transparent over the
-   hatched panel, and a mid grey on a hatch line measures 2.2:1. This lighter
-   tone clears 5.1:1 against the lightest the background gets. */
+/* Sits where the count was, in the same colour as the date beside it — the
+   day's own colour. No underline; the affordance arrives on hover. */
 .day__sub {
   margin-left: auto;
   font-size: 12px;
-  color: #d4c8b9;
+  color: var(--day, var(--day-1));
   text-decoration: none;
-  border-bottom: 1px solid rgba(212, 200, 185, 0.5);
+  border-bottom: 1px solid transparent;
 }
 .day__sub:hover,
 .day__sub:focus-visible {
@@ -706,24 +703,19 @@ main > * { position: relative; z-index: 1; }
    the guide is full enough for the number to mean something. */
 .dtable__day-count { display: none; float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
 
-/* Sits where the count was, matching it exactly: same face, size, colour and
-   position. Clears 5.3:1 on every day fill.
-   Underlined, unlike the number it replaced, so it reads as a link without
-   needing to be hovered. */
+/* Sits where the count was, in the same colour as the date beside it.
+   No underline; the affordance arrives on hover and focus. */
 .dtable__day-sub {
   float: right;
   font-family: var(--serif);
   font-size: 13px;
-  color: #4a3a30;
+  color: #14120f;
   padding-top: 6px;
   text-decoration: none;
-  border-bottom: 1px solid rgba(74, 58, 48, 0.55);
+  border-bottom: 1px solid transparent;
 }
 .dtable__day-sub:hover,
-.dtable__day-sub:focus-visible {
-  color: #14120f;
-  border-bottom-color: #14120f;
-}
+.dtable__day-sub:focus-visible { border-bottom-color: #14120f; }
 
 /* .badge is shared with the cards, so the table's copy is adjusted here only.
    The bottom margin keeps stacked tags from clumping when a cell wraps. */
