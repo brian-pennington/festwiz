@@ -414,6 +414,13 @@ Phase 3 can slip without losing the season.
   rewrite is sufficient and needs no DNS work.
 - **2026 is a clean start.** Earlier years' spreadsheets stay available as a
   resource but are not imported.
+- **The web app's data ships with the site**, committed by `deploy.py`, rather
+  than being fetched live from a published Sheet tab. The commit is automated
+  and invisible, and it buys a version history — `git log halloween/events.json`
+  restores any previous state after a bad edit. The cost is a Cloudflare build
+  between deploying and the site being current. Fetching live would remove that
+  wait but add a runtime dependency on Google and give up the history.
+  (The festival app worked the same way: every data update was a commit.)
 
 ### Abbreviation scrubbing — audited and complete
 
