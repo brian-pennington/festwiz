@@ -34,8 +34,8 @@
   </div>
 
   <div class="viewtoggle" role="group" aria-label="View">
-    <button type="button" class="viewtoggle__btn is-active" id="btn-view-cards" aria-pressed="true">Cards</button>
-    <button type="button" class="viewtoggle__btn" id="btn-view-table" aria-pressed="false">Table</button>
+    <button type="button" class="viewtoggle__btn is-active" id="btn-view-cards" data-view-set="cards" aria-pressed="true">Cards</button>
+    <button type="button" class="viewtoggle__btn" id="btn-view-table" data-view-set="table" aria-pressed="false">Table</button>
   </div>
 
   <a class="masthead__cta" href="https://liteandbriteatx.com/" target="_blank" rel="noopener">Subscribe to Lite+Brite</a>
@@ -89,6 +89,13 @@
     <div class="filters__search">
       <label class="u-visually-hidden" for="filter-search">Search events</label>
       <input type="search" id="filter-search" placeholder="Search events or venues&hellip;" autocomplete="off">
+    </div>
+
+    <div class="filterbar__view" role="group" aria-label="View">
+      <button type="button" class="viewtoggle__btn is-active"
+              data-view-set="cards" aria-pressed="true">Cards</button>
+      <button type="button" class="viewtoggle__btn"
+              data-view-set="table" aria-pressed="false">Table</button>
     </div>
 
     <button type="button" class="filters__clear" id="btn-clear" hidden>Clear all</button>

@@ -369,10 +369,36 @@ a:hover { color: #ffc46b; }
 
 .filters__result { font-size: 12px; color: var(--text-4); margin-left: auto; }
 
+/* The drawer's own copy of the view toggle. Hidden on desktop, where the
+   masthead already has one. */
+.filterbar__view { display: none; gap: 2px; padding: 2px;
+  background: #262019; border: 1px solid #3a3229; border-radius: 3px; }
+
 @media (max-width: 860px) {
-  .filters { position: static; display: none; }
-  .filters.is-open { display: block; }
+  /* The drawer is FIXED under the masthead, not static. Static put it at its
+     place in the document flow, so opening it while scrolled down toggled
+     something off-screen and looked like a dead button. */
+  .filters { display: none; }
+  .filters.is-open {
+    display: block;
+    position: fixed;
+    top: var(--masthead-h);
+    left: 0; right: 0;
+    z-index: 25;
+    max-height: calc(100vh - var(--masthead-h) - 8px);
+    overflow-y: auto;
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.55);
+    border-bottom: 1px solid var(--line);
+  }
   .filterbar { gap: 8px; }
+  .filterbar__view { display: flex; align-self: flex-start; }
+  .filterbar__view .viewtoggle__btn { color: var(--text); }
+  .filterbar__view .viewtoggle__btn.is-active { color: #14120f; background: var(--amber); }
+
+  /* Six columns cannot fit a phone, so let the table scroll sideways rather
+     than crushing every column. */
+  .tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .dtable { min-width: 680px; }
   .fdrop, .fdrop__btn { width: 100%; }
   .fdrop__btn { justify-content: space-between; }
   .fdrop__panel { width: 100%; min-width: 0; }

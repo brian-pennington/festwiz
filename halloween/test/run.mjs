@@ -177,6 +177,7 @@ console.log('\nABOUT MODAL (markup)');
   is('trigger declares a dialog', /aria-haspopup="dialog"/.test(html), true);
   is('links to the festival app', html.includes('/southbysouthwest/'), true);
   is('no stale logo link', /<a class="masthead__brand"/.test(html), false);
+  is('two view toggles, both tagged', (html.match(/data-view-set=/g) || []).length, 4);
 
   // The ZAP! dismissal must match the festival app exactly.
   const fsx = await import('fs');

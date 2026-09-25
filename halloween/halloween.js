@@ -513,10 +513,14 @@
     state.view = view;
     // Drives the card-view-only background texture in the stylesheet.
     document.body.setAttribute('data-view', view);
-    els.cardsBtn.classList.toggle('is-active', view === 'cards');
-    els.tableBtn.classList.toggle('is-active', view === 'table');
-    els.cardsBtn.setAttribute('aria-pressed', String(view === 'cards'));
-    els.tableBtn.setAttribute('aria-pressed', String(view === 'table'));
+    // There are two toggles — one in the masthead, one in the phone drawer.
+    // Drive both from the same place so they can never disagree.
+    var btns = document.querySelectorAll('[data-view-set]');
+    for (var i = 0; i < btns.length; i++) {
+      var on = btns[i].getAttribute('data-view-set') === view;
+      btns[i].classList.toggle('is-active', on);
+      btns[i].setAttribute('aria-pressed', String(on));
+    }
     try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* private mode */ }
     render();
   }
@@ -623,6 +627,9 @@
     var mh = mast ? mast.getBoundingClientRect().height : 0;
     // A statically-positioned filter bar (phone drawer) scrolls away, so it
     // must not be counted in the sticky offset.
+    // Only a STICKY filter bar stacks under the masthead. On phones the
+    // drawer is fixed and overlays the page, so it must not push the table
+    // header down by its own height.
     var stuck = filters && getComputedStyle(filters).position === 'sticky'
       ? filters.getBoundingClientRect().height : 0;
 
@@ -704,8 +711,12 @@
       if (aboutIsOpen()) closeAbout();
       else closeAllDrops(null);
     });
-    els.cardsBtn.addEventListener('click', function () { setView('cards'); });
-    els.tableBtn.addEventListener('click', function () { setView('table'); });
+    var viewBtns = document.querySelectorAll('[data-view-set]');
+    for (var v = 0; v < viewBtns.length; v++) {
+      viewBtns[v].addEventListener('click', function (e) {
+        setView(e.currentTarget.getAttribute('data-view-set'));
+      });
+    }
 
     var timer;
     els.search.addEventListener('input', function () {
