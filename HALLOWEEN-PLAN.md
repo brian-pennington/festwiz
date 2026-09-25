@@ -444,9 +444,11 @@ move. Tag `southbysouthwest-2026-final` is pushed to GitHub.
 **Publishing is one command.**
 
 ```bash
-python3 halloween/deploy.py            # summary, confirm, then do it all
-python3 halloween/deploy.py --check    # summary only, changes nothing
-python3 halloween/deploy.py --yes      # no prompt
+python3 halloween/deploy.py                # summary, confirm, do it all
+python3 halloween/deploy.py --check        # summary only, changes nothing
+python3 halloween/deploy.py --web-only     # site only, leave the Sheet alone
+python3 halloween/deploy.py --sheets-only  # Sheet only, no JSON, no commit
+python3 halloween/deploy.py --yes          # no prompt
 ```
 
 It reads the feeder, validates, then writes the JSON the web app reads,
@@ -454,8 +456,8 @@ rewrites the public Google Sheet, and commits and pushes — which is what
 makes the site live. Errors stop everything before anything is written;
 warnings are shown and you decide.
 
-`--no-sheet` and `--no-push` skip those steps. The individual scripts still
-exist when only one side is wanted:
+`--web-only` and `--sheets-only` run one half; `--no-push` commits without
+pushing. The underlying scripts are still there too:
 
 ```bash
 python3 halloween/build-web.py         # feeder -> events/venues/tags.json

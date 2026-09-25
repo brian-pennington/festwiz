@@ -2,9 +2,11 @@
 """
 deploy.py — one command to publish everything Halloween
 
-    python3 halloween/deploy.py            # summary, confirm, then do it all
-    python3 halloween/deploy.py --check    # summary only, change nothing
-    python3 halloween/deploy.py --yes      # no prompt (for a cron or an alias)
+    python3 halloween/deploy.py                # summary, confirm, do it all
+    python3 halloween/deploy.py --check        # summary only, change nothing
+    python3 halloween/deploy.py --web-only     # site only, leave the Sheet
+    python3 halloween/deploy.py --sheets-only  # Sheet only, no commit
+    python3 halloween/deploy.py --yes          # no prompt
 
 It reads the feeder sheet, validates, and then:
 
@@ -16,7 +18,8 @@ Errors stop everything before anything is written. Warnings are shown and
 you decide — most of them are things you already know about, like a venue
 that is deliberately vague.
 
-Individual steps still exist if you want one without the other:
+Either half can run alone with --web-only or --sheets-only. The underlying
+scripts are still there too, if you want their own flags:
     python3 halloween/build-web.py
     python3 halloween/publish-sheets.py
 """
@@ -55,11 +58,19 @@ def main():
     ap.add_argument("--check", action="store_true",
                     help="summary only; write nothing, touch nothing")
     ap.add_argument("--yes", action="store_true", help="skip the confirmation")
-    ap.add_argument("--no-sheet", action="store_true",
-                    help="skip the public Google Sheet")
+    only = ap.add_mutually_exclusive_group()
+    only.add_argument("--web-only", action="store_true",
+                      help="site only: write the JSON, commit and push; "
+                           "leave the public Sheet alone")
+    only.add_argument("--sheets-only", action="store_true",
+                      help="Sheet only: rewrite the public Sheet; write no "
+                           "JSON, make no commit")
     ap.add_argument("--no-push", action="store_true",
-                    help="build and commit, but do not push")
+                    help="write and commit, but do not push")
     args = ap.parse_args()
+
+    do_web = not args.sheets_only
+    do_sheet = not args.web_only
 
     build = load("build_web", "build-web.py")
     publish = load("publish_sheets", "publish-sheets.py")
@@ -105,14 +116,21 @@ def main():
     sheet_rows, _ = publish.build_rows(events)
 
     rule("WILL")
-    print(f"  write {', '.join(DATA_FILES)}")
-    if not args.no_sheet:
+    branch = git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
+
+    if do_web:
+        print(f"  write {', '.join(DATA_FILES)}")
+    else:
+        print("  leave the JSON alone (--sheets-only)")
+
+    if do_sheet:
         print(f"  rewrite the public Sheet ({len(sheet_rows)} rows)")
     else:
-        print("  skip the public Sheet (--no-sheet)")
+        print("  leave the public Sheet alone (--web-only)")
 
-    branch = git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip()
-    if args.no_push:
+    if not do_web:
+        print("  make no commit (--sheets-only)")
+    elif args.no_push:
         print(f"  commit on {branch}, no push (--no-push)")
     else:
         print(f"  commit + push {branch} → live site")
@@ -132,22 +150,28 @@ def main():
 
     # ── write ────────────────────────────────────────────────────────────
     rule("WRITING")
-    build.write_json(HERE / "events.json", events)
-    build.write_json(HERE / "venues.json", build.build_venues(occurrences))
-    build.write_json(HERE / "tags.json", tag_list)
-    print(f"  ✓ {', '.join(DATA_FILES)}")
+    if do_web:
+        build.write_json(HERE / "events.json", events)
+        build.write_json(HERE / "venues.json", build.build_venues(occurrences))
+        build.write_json(HERE / "tags.json", tag_list)
+        print(f"  ✓ {', '.join(DATA_FILES)}")
 
-    if not args.no_sheet:
+    if do_sheet:
         try:
             written, links = publish.write_sheet(events)
         except Exception as e:
             print(f"  ✗ public Sheet failed: {e}", file=sys.stderr)
-            print("    The JSON was written, so --no-sheet would still ship "
-                  "the site.", file=sys.stderr)
+            if do_web:
+                print("    The JSON was written, so --web-only would still "
+                      "ship the site.", file=sys.stderr)
             return 1
         print(f"  ✓ public Sheet ({len(written)} rows, {len(links)} links)")
 
     # ── ship ─────────────────────────────────────────────────────────────
+    if not do_web:
+        print("\nSheet only — nothing committed.")
+        return 0
+
     paths = [f"halloween/{f}" for f in DATA_FILES]
     git("add", *paths, capture=True)
     staged = git("diff", "--cached", "--name-only").stdout.split()
