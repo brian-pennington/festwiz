@@ -220,6 +220,23 @@
       esc(tag) + '</button>';
   }
 
+  var SUBSCRIBE_URL = 'https://liteandbriteatx.com/';
+  var SUBSCRIBE_TEXT = 'Subscribe to the Lite + Brite newsletter for more Austin events';
+
+  // The banner row that opens each day in table view. Shared by the upcoming
+  // and past tables so the two cannot drift.
+  function dayBannerHTML(iso, n, isToday) {
+    return '<tr class="dtable__day"><td colspan="6">' +
+      '<span class="dtable__day-name">' + esc(dayLabel(iso)) + '</span>' +
+      (isToday ? '<span class="dtable__day-today">Today</span>' : '') +
+      '<a class="dtable__day-sub" href="' + SUBSCRIBE_URL + '"' +
+        ' target="_blank" rel="noopener">' + esc(SUBSCRIBE_TEXT) + '</a>' +
+      // Kept, currently hidden in CSS — worth showing again once the guide
+      // is full enough that a per-day count means something.
+      '<span class="dtable__day-count">' + n + '</span>' +
+      '</td></tr>';
+  }
+
   function dayHeadHTML(iso, n, colourIndex, isToday) {
     return '<div class="day__head" style="--day:' + dayVar(colourIndex) + '">' +
       '<span class="day__name">' + esc(dayLabel(iso)) + '</span>' +
@@ -259,11 +276,7 @@
         var evs = map[iso];
         var isToday = iso !== 'all-month' && parseISO(iso).getTime() === t.getTime();
         body += '<tbody' + (past ? ' class="is-past"' : '') + ' style="--day:' + dayVar(i) + '">' +
-          '<tr class="dtable__day"><td colspan="6">' +
-            '<span class="dtable__day-name">' + esc(dayLabel(iso)) + '</span>' +
-            (isToday ? '<span class="dtable__day-today">Today</span>' : '') +
-            '<span class="dtable__day-count">' + evs.length + '</span>' +
-          '</td></tr>' +
+          dayBannerHTML(iso, evs.length, isToday) +
           evs.map(rowHTML).join('') +
           '</tbody>';
         i++;
@@ -288,10 +301,8 @@
     order.past.forEach(function (iso) {
       var evs = map[iso];
       body += '<tbody class="is-past" style="--day:' + dayVar(i) + '">' +
-        '<tr class="dtable__day"><td colspan="6">' +
-          '<span class="dtable__day-name">' + esc(dayLabel(iso)) + '</span>' +
-          '<span class="dtable__day-count">' + evs.length + '</span>' +
-        '</td></tr>' + evs.map(rowHTML).join('') + '</tbody>';
+        dayBannerHTML(iso, evs.length, false) +
+        evs.map(rowHTML).join('') + '</tbody>';
       i++;
     });
     return body;

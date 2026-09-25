@@ -24,6 +24,9 @@ console.log('\nRENDER — 17 Oct 2026, 8pm');
   is('table: one Past Events heading', count(table, /Past Events/g), 1);
   is('cards: one Today badge', count(cards, /day__today/g), 1);
   is('table: one Today badge', count(table, /dtable__day-today/g), 1);
+  const nDays = Object.keys(map).length;
+  is('a subscribe link per day banner', count(table, /dtable__day-sub/g), nDays);
+  is('the count is kept in the markup', count(table, /dtable__day-count/g), nDays);
 }
 
 console.log('\nRENDER — 23 Sep 2026 (before the season)');

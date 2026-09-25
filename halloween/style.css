@@ -683,7 +683,27 @@ main > * { position: relative; z-index: 1; }
   color: var(--day, var(--day-1)); background: #14120f;
   padding: 2px 8px; border-radius: 2px; margin-left: 10px;
 }
-.dtable__day-count { float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
+/* Hidden for now, not removed: a per-day count is worth showing again once
+   the guide is full enough for the number to mean something. */
+.dtable__day-count { display: none; float: right; font-size: 13px; color: #4a3a30; padding-top: 6px; }
+
+/* Sits where the count was — same size and position, in the sheet's dark red
+   so it reads as a link against every day fill. */
+.dtable__day-sub {
+  float: right;
+  font-family: var(--serif);
+  font-size: 13px;
+  font-style: italic;
+  color: #990000;
+  padding-top: 6px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(153, 0, 0, 0.45);
+}
+.dtable__day-sub:hover,
+.dtable__day-sub:focus-visible {
+  color: #14120f;
+  border-bottom-color: #14120f;
+}
 
 /* .badge is shared with the cards, so the table's copy is adjusted here only.
    The bottom margin keeps stacked tags from clumping when a cell wraps. */
