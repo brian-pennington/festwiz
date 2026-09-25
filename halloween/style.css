@@ -49,10 +49,10 @@
 
   --gutter: 40px;
 
-  /* Diagonal hatch behind the cards. The SVG is used as a MASK, so its own
-     fill is irrelevant and these two control the look entirely — change the
-     colour and the strength here, no need to touch the file. */
-  --texture-color: #ffffff;
+  /* Diagonal hatch behind the cards, from assets/diagonal-lines.svg.
+     Intensity and tile size are set here; the COLOUR is the fill inside that
+     file (currently white), because a tiled background cannot take a CSS
+     variable for its colour the way a mask could. */
   --texture-opacity: 0.25;
   --texture-size: 6px;
 
@@ -427,15 +427,16 @@ main::before {
   pointer-events: none;
   z-index: 0;
   opacity: var(--texture-opacity);
-  /* A repeating gradient rather than a masked SVG. The mask had to composite
-     across the entire page height — tens of thousands of pixels with this
-     many events — which is slow on a phone. This draws the same 6px hatch
-     as assets/diagonal-lines.svg at a fraction of the cost. */
-  background-image: repeating-linear-gradient(
-    135deg,
-    var(--texture-color) 0 1px,
-    transparent 1px var(--texture-size)
-  );
+  /* Brian's diagonal-lines.svg, tiled as a background-image.
+     It was briefly a mask, so the hue could be a CSS variable —
+     but a mask composites across the whole page height, which with this many
+     events is tens of thousands of pixels and slow on a phone. A tiled
+     background is rasterised once and repeated, which is cheap.
+     The trade: the colour now lives in the SVG's fill rather than in a
+     variable here. --texture-opacity still sets the intensity. */
+  background-image: url("/halloween/assets/diagonal-lines.svg");
+  background-repeat: repeat;
+  background-size: var(--texture-size) var(--texture-size);
 }
 
 /* Lift the content above the texture layer. */
