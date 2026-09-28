@@ -9,7 +9,7 @@
   },
   {
     "venue": "29th St. Ballroom",
-    "count": 4
+    "count": 5
   },
   {
     "venue": "4th St. + Congress Ave.",
@@ -40,6 +40,10 @@
     "count": 1
   },
   {
+    "venue": "Bolm Arts",
+    "count": 1
+  },
+  {
     "venue": "BookPeople",
     "count": 2
   },
@@ -57,7 +61,7 @@
   },
   {
     "venue": "Coco Coquette",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Come and Take It Live",
@@ -120,7 +124,19 @@
     "count": 1
   },
   {
+    "venue": "Lefty's Day + Night",
+    "count": 1
+  },
+  {
     "venue": "Line Hotel",
+    "count": 1
+  },
+  {
+    "venue": "Meanwhile Brewing",
+    "count": 6
+  },
+  {
+    "venue": "Metz Neighborhood Park",
     "count": 1
   },
   {
@@ -148,12 +164,16 @@
     "count": 1
   },
   {
+    "venue": "Penfold Theater",
+    "count": 4
+  },
+  {
     "venue": "Pioneer Farms",
     "count": 1
   },
   {
     "venue": "Purrfecto Cat Lounge",
-    "count": 2
+    "count": 4
   },
   {
     "venue": "SquareRut Kava Bar - Oak Hill",
@@ -161,7 +181,7 @@
   },
   {
     "venue": "Stargazer",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Sterling Stage",
@@ -169,7 +189,7 @@
   },
   {
     "venue": "The 13th Floor",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "The Boggy Creek Greenbelt",
@@ -209,7 +229,7 @@
   },
   {
     "venue": "Tiny Minotaur",
-    "count": 1
+    "count": 9
   },
   {
     "venue": "Tweedy's",
@@ -226,5 +246,9 @@
   {
     "venue": "We Luv Video",
     "count": 8
+  },
+  {
+    "venue": "William C. Powers Student Activity Center",
+    "count": 4
   }
 ]

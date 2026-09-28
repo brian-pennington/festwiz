@@ -1,5 +1,21 @@
 [
   {
+    "id": "halloween-movie-nights-2026-10-01-1",
+    "name": "Halloween Movie Nights",
+    "date": "2026-10-01",
+    "venue": "Meanwhile Brewing",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "bat-city-scaregrounds-2026-10-02-1",
     "name": "Bat City Scaregrounds",
     "date": "2026-10-02",
@@ -42,7 +58,7 @@
     "time": "8pm",
     "end_time": "11pm",
     "url": "https://tickets.holdmyticket.com/tickets/466725?tc=hmt",
-    "description": "",
+    "description": "\"Burlesque, drag, dance, + theatrics\" inspired by westerns, country, + Halloween",
     "tags": [
       "burlesque",
       "drag"
@@ -50,24 +66,6 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 18.0,
-    "status": "confirmed"
-  },
-  {
-    "id": "meow-lloween-2026-10-02-1",
-    "name": "Meow-lloween",
-    "date": "2026-10-02",
-    "venue": "Purrfecto Cat Lounge",
-    "price": "$43",
-    "time": "7:20pm",
-    "end_time": "",
-    "url": "https://purrfectocatlounge.com/catx-perience",
-    "description": "",
-    "tags": [
-      "film"
-    ],
-    "age": "all ages",
-    "age_min": 0,
-    "price_min": 43.0,
     "status": "confirmed"
   },
   {
@@ -115,7 +113,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-03538f1a-cb27-40ef-8b61-706d886b312d",
-    "description": "",
+    "description": "Dress up as a skelly but \"please do not remove all of the flesh from your body + play your ribs like a xylophone\"",
     "tags": [],
     "age": "21+",
     "age_min": 21,
@@ -131,7 +129,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf000004EbwfMAC",
-    "description": "",
+    "description": "“Drag King & Gender Diverse Troupe” re-envision the bloody musical",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -181,7 +179,7 @@
     "time": "8pm",
     "end_time": "11pm",
     "url": "https://tickets.holdmyticket.com/tickets/467054?tc=hmt",
-    "description": "",
+    "description": "\"Burlesque, drag, dance, + theatrics\" inspired by westerns, country, + Halloween",
     "tags": [
       "burlesque",
       "drag"
@@ -330,6 +328,22 @@
     "status": "confirmed"
   },
   {
+    "id": "mini-haunted-houses-2026-10-07-1",
+    "name": "Mini Haunted Houses",
+    "date": "2026-10-07",
+    "venue": "Lefty's Day + Night",
+    "price": "$34",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/mini-haunted-houses-leftys-day-night-tickets-2000996886553",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 34.0,
+    "status": "confirmed"
+  },
+  {
     "id": "panic-at-the-paramount-2026-10-07-4",
     "name": "Panic at the Paramount",
     "date": "2026-10-07",
@@ -363,6 +377,22 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-movie-nights-2026-10-08-2",
+    "name": "Halloween Movie Nights",
+    "date": "2026-10-08",
+    "venue": "Meanwhile Brewing",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -434,7 +464,23 @@
     "status": "confirmed"
   },
   {
-    "id": "meow-lloween-2026-10-09-2",
+    "id": "hotel-transylvania-2026-10-09-1",
+    "name": "Hotel Transylvania",
+    "date": "2026-10-09",
+    "venue": "Metz Neighborhood Park",
+    "price": "free",
+    "time": "7:15pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DduJt5Vk2sP/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "meow-lloween-2026-10-09-1",
     "name": "Meow-lloween",
     "date": "2026-10-09",
     "venue": "Purrfecto Cat Lounge",
@@ -446,8 +492,8 @@
     "tags": [
       "film"
     ],
-    "age": "all ages",
-    "age_min": 0,
+    "age": "6+",
+    "age_min": 6,
     "price_min": 43.0,
     "status": "confirmed"
   },
@@ -574,6 +620,22 @@
     "status": "confirmed"
   },
   {
+    "id": "scary-clown-time-2026-10-10-1",
+    "name": "Scary Clown Time",
+    "date": "2026-10-10",
+    "venue": "Tiny Minotaur",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-e6b5f6f9-f84d-4660-aadd-8f062cb991a3",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "scary-movie-2026-10-10-1",
     "name": "Scary Movie",
     "date": "2026-10-10",
@@ -657,6 +719,22 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "clown-makeup-workshop-halloween-edition-2026-10-11-1",
+    "name": "Clown Makeup Workshop: Halloween Edition",
+    "date": "2026-10-11",
+    "venue": "Coco Coquette",
+    "price": "$65",
+    "time": "5pm",
+    "end_time": "7pm",
+    "url": "https://www.coco-coquette.com/products/clown-makeup-workshop-halloween-edition?_pos=3&_sid=a151b90ee&_ss=r&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacZ9bSxkyvmf5LNrKj7QY-IHsi7BYBJ7oycyF_j-_EuUj8R-mYxkFzpRE1dtQ_aem_Msd1FoMBK0Gc6m7wHBvzHA",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 65.0,
     "status": "confirmed"
   },
   {
@@ -918,6 +996,22 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-movie-nights-2026-10-15-3",
+    "name": "Halloween Movie Nights",
+    "date": "2026-10-15",
+    "venue": "Meanwhile Brewing",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "haunted-hoedown-2026-10-15-1",
     "name": "Haunted Hoedown",
     "date": "2026-10-15",
@@ -1086,6 +1180,24 @@
     "status": "confirmed"
   },
   {
+    "id": "meow-lloween-2026-10-16-2",
+    "name": "Meow-lloween",
+    "date": "2026-10-16",
+    "venue": "Purrfecto Cat Lounge",
+    "price": "$43",
+    "time": "7:20pm",
+    "end_time": "",
+    "url": "https://purrfectocatlounge.com/catx-perience",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "6+",
+    "age_min": 6,
+    "price_min": 43.0,
+    "status": "confirmed"
+  },
+  {
     "id": "moss-market-2026-10-16-1",
     "name": "Moss Market",
     "date": "2026-10-16",
@@ -1220,6 +1332,22 @@
     "status": "confirmed"
   },
   {
+    "id": "night-parade-of-one-hundred-demons-2026-10-17-1",
+    "name": "Night Parade of One Hundred Demons",
+    "date": "2026-10-17",
+    "venue": "Tiny Minotaur",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-0ad00697-0200-4843-835b-a310dc34dce8",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "scare-for-a-cure-2026-10-17-6",
     "name": "Scare for a Cure",
     "date": "2026-10-17",
@@ -1269,6 +1397,22 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "arsenic-and-an-old-mace-2026-10-18-1",
+    "name": "Arsenic and an Old Mace",
+    "date": "2026-10-18",
+    "venue": "Tiny Minotaur",
+    "price": "$30",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-d7416987-f7e8-4768-a774-26d9a426c1b4",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 30.0,
     "status": "confirmed"
   },
   {
@@ -1448,6 +1592,22 @@
     "status": "confirmed"
   },
   {
+    "id": "the-haunting-of-nightingale-manor-a-horror-escape-room-2026-10-21-1",
+    "name": "The Haunting of Nightingale Manor: A Horror Escape Room",
+    "date": "2026-10-21",
+    "venue": "William C. Powers Student Activity Center",
+    "price": "$15",
+    "time": "various",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
+    "description": "",
+    "tags": [],
+    "age": "12+",
+    "age_min": 12,
+    "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
     "id": "bat-city-scaregrounds-2026-10-22-10",
     "name": "Bat City Scaregrounds",
     "date": "2026-10-22",
@@ -1484,6 +1644,22 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-movie-nights-2026-10-22-4",
+    "name": "Halloween Movie Nights",
+    "date": "2026-10-22",
+    "venue": "Meanwhile Brewing",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "scare-for-a-cure-2026-10-22-7",
     "name": "Scare for a Cure",
     "date": "2026-10-22",
@@ -1499,6 +1675,22 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-haunting-of-nightingale-manor-a-horror-escape-room-2026-10-22-2",
+    "name": "The Haunting of Nightingale Manor: A Horror Escape Room",
+    "date": "2026-10-22",
+    "venue": "William C. Powers Student Activity Center",
+    "price": "$15",
+    "time": "various",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
+    "description": "",
+    "tags": [],
+    "age": "12+",
+    "age_min": 12,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1620,6 +1812,22 @@
     "status": "confirmed"
   },
   {
+    "id": "hellmouth-o-ween-buffy-the-vampire-slayer-costume-night-2026-10-23-1",
+    "name": "Hellmouth-O-Ween: Buffy The Vampire Slayer Costume Night",
+    "date": "2026-10-23",
+    "venue": "Tiny Minotaur",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-3b238ad6-1fdb-4e2f-a1c2-5fa37d7e622c",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "horror-film-dance-party-2026-10-23-1",
     "name": "Horror Film Dance Party",
     "date": "2026-10-23",
@@ -1633,6 +1841,24 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "meow-lloween-2026-10-23-3",
+    "name": "Meow-lloween",
+    "date": "2026-10-23",
+    "venue": "Purrfecto Cat Lounge",
+    "price": "$43",
+    "time": "7:20pm",
+    "end_time": "",
+    "url": "https://purrfectocatlounge.com/catx-perience",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "13+",
+    "age_min": 13,
+    "price_min": 43.0,
     "status": "confirmed"
   },
   {
@@ -1703,6 +1929,22 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-haunting-of-nightingale-manor-a-horror-escape-room-2026-10-23-3",
+    "name": "The Haunting of Nightingale Manor: A Horror Escape Room",
+    "date": "2026-10-23",
+    "venue": "William C. Powers Student Activity Center",
+    "price": "$15",
+    "time": "various",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
+    "description": "",
+    "tags": [],
+    "age": "12+",
+    "age_min": 12,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -1842,6 +2084,22 @@
     "status": "confirmed"
   },
   {
+    "id": "goblintown-2-the-gobbelining-2026-10-24-1",
+    "name": "Goblintown 2: The Gobbelining",
+    "date": "2026-10-24",
+    "venue": "Tiny Minotaur",
+    "price": "$13",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-8042f03e-99ca-4039-bd98-9f3a7b958528",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 13.0,
+    "status": "confirmed"
+  },
+  {
     "id": "hairpins-halloween-2026-10-24-1",
     "name": "Hairpins Halloween",
     "date": "2026-10-24",
@@ -1955,6 +2213,22 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-haunting-of-nightingale-manor-a-horror-escape-room-2026-10-24-4",
+    "name": "The Haunting of Nightingale Manor: A Horror Escape Room",
+    "date": "2026-10-24",
+    "venue": "William C. Powers Student Activity Center",
+    "price": "$15",
+    "time": "various",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
+    "description": "",
+    "tags": [],
+    "age": "12+",
+    "age_min": 12,
+    "price_min": 15.0,
     "status": "confirmed"
   },
   {
@@ -2133,7 +2407,7 @@
     "price": "free",
     "time": "11am",
     "end_time": "4pm",
-    "url": "umlaufsculpture.org/strawfest",
+    "url": "https://www.umlaufsculpture.org/strawfest",
     "description": "",
     "tags": [],
     "age": "all ages",
@@ -2229,6 +2503,38 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-dog-pawrty-costume-contest-2026-10-28-1",
+    "name": "Halloween Dog Pawrty & Costume Contest",
+    "date": "2026-10-28",
+    "venue": "Meanwhile Brewing",
+    "price": "",
+    "time": "6pm",
+    "end_time": "10pm",
+    "url": "https://www.prekindle.com/event/17733-halloween-dog-pawrty-and-costume-contest-austin",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "houdini-speaks-to-the-living-2026-10-28-1",
+    "name": "Houdini Speaks to the Living",
+    "date": "2026-10-28",
+    "venue": "Penfold Theater",
+    "price": "$35",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://hiddenroomtheatre.com/what-will-be/",
+    "description": "",
+    "tags": [],
+    "age": "10+",
+    "age_min": 10,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -2354,6 +2660,38 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-movie-nights-2026-10-29-5",
+    "name": "Halloween Movie Nights",
+    "date": "2026-10-29",
+    "venue": "Meanwhile Brewing",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "houdini-speaks-to-the-living-2026-10-29-2",
+    "name": "Houdini Speaks to the Living",
+    "date": "2026-10-29",
+    "venue": "Penfold Theater",
+    "price": "$35",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://hiddenroomtheatre.com/what-will-be/",
+    "description": "",
+    "tags": [],
+    "age": "10+",
+    "age_min": 10,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "malum-malus-samhain-2026-10-29-1",
     "name": "Malum Malus: Samhain",
     "date": "2026-10-29",
@@ -2470,8 +2808,8 @@
     "status": "confirmed"
   },
   {
-    "id": "better-off-alone-2026-10-30-1",
-    "name": "Better Off Alone",
+    "id": "better-off-alone-a-90s-00s-rave-dance-party-2026-10-30-1",
+    "name": "Better Off Alone: A 90s/00s Rave Dance Party",
     "date": "2026-10-30",
     "venue": "29th St. Ballroom",
     "price": "",
@@ -2520,6 +2858,22 @@
     "status": "confirmed"
   },
   {
+    "id": "houdini-speaks-to-the-living-2026-10-30-3",
+    "name": "Houdini Speaks to the Living",
+    "date": "2026-10-30",
+    "venue": "Penfold Theater",
+    "price": "$35",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://hiddenroomtheatre.com/what-will-be/",
+    "description": "",
+    "tags": [],
+    "age": "10+",
+    "age_min": 10,
+    "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
     "id": "malum-malus-samhain-2026-10-30-2",
     "name": "Malum Malus: Samhain",
     "date": "2026-10-30",
@@ -2533,6 +2887,40 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "meow-lloween-2026-10-30-4",
+    "name": "Meow-lloween",
+    "date": "2026-10-30",
+    "venue": "Purrfecto Cat Lounge",
+    "price": "$43",
+    "time": "7:20pm",
+    "end_time": "",
+    "url": "https://purrfectocatlounge.com/catx-perience",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 43.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "mimic-night-2026-10-30-1",
+    "name": "Mimic Night",
+    "date": "2026-10-30",
+    "venue": "Tiny Minotaur",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-ccded303-089a-41d9-a362-e28ff6921652",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
     "status": "confirmed"
   },
   {
@@ -2702,6 +3090,22 @@
     "status": "confirmed"
   },
   {
+    "id": "drag-me-to-the-tavern-halloween-edition-2026-10-31-1",
+    "name": "Drag Me to the Tavern: Halloween Edition",
+    "date": "2026-10-31",
+    "venue": "Tiny Minotaur",
+    "price": "$15",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-m24uc8i4",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
     "id": "femme-rock-halloween-house-party-2026-10-31-1",
     "name": "Femme Rock Halloween House Party",
     "date": "2026-10-31",
@@ -2715,6 +3119,38 @@
     "age": "",
     "age_min": null,
     "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "freak-show-on-fruth-street-2026-10-31-1",
+    "name": "Freak Show on Fruth Street",
+    "date": "2026-10-31",
+    "venue": "29th St. Ballroom",
+    "price": "$19",
+    "time": "8pm",
+    "end_time": "2am",
+    "url": "https://www.etix.com/ticket/p/32754948/freakshow-on-fruth-street-austin-29th-street-ballroom",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 19.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "grown-folks-club-halloween-edition-2026-10-31-1",
+    "name": "Grown Folks Club: Halloween Edition",
+    "date": "2026-10-31",
+    "venue": "Stargazer",
+    "price": "free",
+    "time": "7pm",
+    "end_time": "10pm",
+    "url": "https://partiful.com/e/EFGOMMACbeGjrMHt7Iah",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2736,6 +3172,22 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-masquerade-2026-10-31-1",
+    "name": "Halloween Masquerade",
+    "date": "2026-10-31",
+    "venue": "Bolm Arts",
+    "price": "",
+    "time": "7pm",
+    "end_time": "10pm",
+    "url": "https://www.instagram.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-w-the-jesus-and-mary-chain-protomartyr-holy-wave-daiistar-blushing-commercial-breaks-and-dj-tropicana-joe-2026-10-31-1",
     "name": "Halloween w/ The Jesus and Mary Chain, Protomartyr, Holy Wave, DAIISTAR, Blushing, Commercial Breaks, and DJ Tropicana Joe",
     "date": "2026-10-31",
@@ -2749,6 +3201,22 @@
     "age": "",
     "age_min": null,
     "price_min": 67.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "houdini-speaks-to-the-living-2026-10-31-4",
+    "name": "Houdini Speaks to the Living",
+    "date": "2026-10-31",
+    "venue": "Penfold Theater",
+    "price": "$35",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://hiddenroomtheatre.com/what-will-be/",
+    "description": "",
+    "tags": [],
+    "age": "10+",
+    "age_min": 10,
+    "price_min": 35.0,
     "status": "confirmed"
   },
   {
@@ -2768,6 +3236,22 @@
     "status": "confirmed"
   },
   {
+    "id": "monsters-of-rock-tribute-2026-10-31-1",
+    "name": "Monsters of Rock Tribute",
+    "date": "2026-10-31",
+    "venue": "The 13th Floor",
+    "price": "$17",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://dice.fm/partner/tickets/event/3ob87l-halloween-w-the-hot-rockers-monsters-of-rock-tribute-to-ozzy-osbourne-iron-maiden-black-sabbath-dj-tinita-turn-up-31st-oct-the-13th-floor-austin-tickets?dice_id=10576088&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=352306664070117354&utm_source=web&utm_campaign=DICE&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Q9LtTCzSDKwMLU0SbOvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQBNIyL8OwAAAA%3D%3D",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 17.0,
+    "status": "confirmed"
+  },
+  {
     "id": "north-loop-halloween-house-party-2026-10-31-1",
     "name": "North Loop Halloween House Party",
     "date": "2026-10-31",
@@ -2781,6 +3265,22 @@
     "age": "",
     "age_min": null,
     "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "over-the-garden-wall-halloween-book-faire-2026-10-31-1",
+    "name": "Over The Garden Wall Halloween Book Faire",
+    "date": "2026-10-31",
+    "venue": "Tiny Minotaur",
+    "price": "free",
+    "time": "12pm",
+    "end_time": "5pm",
+    "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-8cc3e328-7ea3-4ea2-8e69-5abe260f91da",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
