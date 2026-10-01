@@ -200,6 +200,78 @@ def load_config():
     return {}
 
 
+def html_escape(s):
+    return (str(s or "")
+            .replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def runs_to_html(text, runs):
+    """
+    Turn a cell's text plus its Google Sheets textFormatRuns into HTML with
+    <em> around the italic stretches. Film titles are italicised inside an
+    event name — "Horror Movie Series: Suspiria" — and plain text loses that.
+
+    Runs give a start index and the format that applies from there on, so the
+    segments are the gaps between consecutive start indexes.
+    """
+    if not runs:
+        return html_escape(text)
+
+    marks = []
+    for r in runs:
+        marks.append((int(r.get("startIndex", 0)),
+                      bool(r.get("format", {}).get("italic"))))
+    marks.sort()
+    if not marks or marks[0][0] != 0:
+        marks.insert(0, (0, False))
+
+    out = []
+    for i, (start, italic) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(text)
+        chunk = html_escape(text[start:end])
+        if not chunk:
+            continue
+        out.append(f"<em>{chunk}</em>" if italic else chunk)
+    return "".join(out)
+
+
+def read_sheet_rich(ref, tab=None, column=0):
+    """
+    Rich text for one column: {row number -> textFormatRuns}.
+
+    get_all_values() returns plain strings, so italics in the feeder were
+    being dropped. This is a second, narrow read for the formatting only.
+    """
+    try:
+        import gspread
+        from google.oauth2.service_account import Credentials
+    except ImportError:
+        return {}
+    if not CREDENTIALS.exists():
+        return {}
+    creds = Credentials.from_service_account_file(
+        str(CREDENTIALS), scopes=["https://www.googleapis.com/auth/spreadsheets"])
+    client = gspread.authorize(creds)
+    book = client.open_by_key(sheet_id_from(ref))
+    ws = book.worksheet(tab) if tab else book.sheet1
+    letter = chr(ord("A") + column)
+    meta = book.fetch_sheet_metadata(params={
+        "includeGridData": True,
+        "ranges": [f"'{ws.title}'!{letter}1:{letter}"],
+    })
+    data = meta["sheets"][0].get("data", [{}])[0]
+    rich = {}
+    for i, row in enumerate(data.get("rowData", []), start=1):
+        cells = row.get("values", [])
+        if not cells:
+            continue
+        runs = cells[0].get("textFormatRuns")
+        if runs:
+            rich[i] = runs
+    return rich
+
+
 def read_sheet(ref, tab=None):
     """Read the feeder tab from Google Sheets. Returns a list of row lists."""
     try:
@@ -534,15 +606,26 @@ def discover_tags(occurrences):
 # Output
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_events(occurrences):
+def build_events(occurrences, name_rich=None, name_text=None):
     events = []
     seen = Counter()
     for o in occurrences:
         base = slugify(o["name"])
         seen[base] += 1
+
+        # Italics come from the row the NAME was typed on, which for a dittoed
+        # occurrence is the first row of its block, not this row.
+        html = None
+        if name_rich:
+            src = o.get("block_start")
+            if src in name_rich:
+                html = runs_to_html(
+                    (name_text or {}).get(src, o["name"]), name_rich[src])
+
         events.append({
             "id": f"{base}-{o['date']}-{seen[base]}",
             "name": o["name"],
+            "name_html": html,
             "date": o["date"],
             "venue": o["venue"],
             "price": o["price"],
@@ -654,6 +737,7 @@ def main():
     args = ap.parse_args()
 
     try:
+        name_rich, name_text = {}, {}
         if args.csv:
             src = Path(args.csv)
             if not src.exists():
@@ -675,6 +759,10 @@ def main():
                 globals()["FESTIVAL_YEAR"] = int(cfg["year"])
             rows = read_sheet(ref, tab)
             origin = f"sheet {sheet_id_from(ref)}" + (f" tab {tab!r}" if tab else "")
+            name_col = map_columns(rows[0]).get("name", 0)
+            name_rich = read_sheet_rich(ref, tab, name_col)
+            name_text = {i: (r[name_col] if len(r) > name_col else "")
+                         for i, r in enumerate(rows, start=1)}
     except BuildError as e:
         print(f"error: {e}", file=sys.stderr)
         return 2
@@ -706,11 +794,16 @@ def main():
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    write_json(out / "events.json", build_events(occurrences))
+    write_json(out / "events.json",
+               build_events(occurrences, name_rich, name_text))
     write_json(out / "venues.json", build_venues(occurrences))
     write_json(out / "tags.json", tag_list)
+    n_em = sum(1 for e in build_events(occurrences, name_rich, name_text)
+               if e.get("name_html") and "<em>" in e["name_html"])
     print(f"\nwrote events.json ({len(occurrences)}), venues.json, tags.json "
           f"to {out}")
+    if n_em:
+        print(f"  {n_em} event name(s) carry italics from the feeder")
     return 0
 
 

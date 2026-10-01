@@ -82,13 +82,18 @@ def main():
     try:
         rows = build.read_sheet(cfg["feeder_sheet"], cfg.get("feeder_tab"))
         mapping = build.map_columns(rows[0])
+        name_col = mapping.get("name", 0)
+        name_rich = build.read_sheet_rich(cfg["feeder_sheet"],
+                                          cfg.get("feeder_tab"), name_col)
+        name_text = {i: (r[name_col] if len(r) > name_col else "")
+                     for i, r in enumerate(rows, start=1)}
     except build.BuildError as e:
         print(f"error: {e}", file=sys.stderr)
         return 2
 
     occurrences, errors, warnings = build.resolve(rows[1:], mapping)
     tag_list, suspects = build.discover_tags(occurrences)
-    events = build.build_events(occurrences)
+    events = build.build_events(occurrences, name_rich, name_text)
 
     days = sorted({e["date"] for e in events if e["date"] != "all-month"})
     names = {e["name"] for e in events}

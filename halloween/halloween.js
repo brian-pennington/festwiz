@@ -60,6 +60,13 @@
 
   function $(id) { return document.getElementById(id); }
 
+  // The event name, with italics from the feeder preserved. name_html is
+  // built and escaped by build-web.py and contains only <em>, so it is safe
+  // to insert; anything else falls back to the escaped plain name.
+  function nameHTML(ev) {
+    return ev.name_html || esc(ev.name);
+  }
+
   function esc(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -178,8 +185,8 @@
       ? '<div class="card__time">' + esc(ev.time) + '</div>'
       : '<div class="card__time card__time--tba">time TBA</div>';
     var name = ev.url
-      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
-      : esc(ev.name);
+      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + nameHTML(ev) + '</a>'
+      : nameHTML(ev);
     // No price stated: show nothing rather than a placeholder. Most of these
     // are free or door-price events; announcing "TBA" implies we are waiting
     // on a number that may never exist.
@@ -202,8 +209,8 @@
 
   function rowHTML(ev) {
     var name = ev.url
-      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + esc(ev.name) + '</a>'
-      : esc(ev.name);
+      ? '<a href="' + esc(ev.url) + '" target="_blank" rel="noopener">' + nameHTML(ev) + '</a>'
+      : nameHTML(ev);
     var tags = ev.tags.length
       ? ev.tags.map(tagButton).join(' ')
       : '<span class="t-none">&mdash;</span>';

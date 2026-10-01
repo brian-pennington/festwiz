@@ -694,6 +694,9 @@ main > * { position: relative; z-index: 1; }
 
 .card__top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
 .card__name { font-size: 21px; font-weight: 600; line-height: 1.22; margin: 0; }
+/* Film titles inside an event name. Bitter's italic is loaded; this is only
+   here so the emphasis is unmistakably slanted at small sizes. */
+.card__name em, .t-name em { font-style: italic; }
 .card__name a { color: #fff; }
 .card__name a:hover, .card__name a:focus-visible { color: #14120f; }
 

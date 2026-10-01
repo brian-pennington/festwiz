@@ -29,6 +29,14 @@ console.log('\nRENDER — 17 Oct 2026, 8pm');
   is('the count is kept in the markup', count(table, /dtable__day-count/g), nDays);
   is('cards: a subscribe link per day header', count(cards, /day__sub/g), nDays);
   is('cards: the count is kept too', count(cards, /day__count/g), nDays);
+
+  // Italics typed in the feeder survive into both views.
+  const withEm = data.filter(e => e.name_html && e.name_html.includes('<em>')).length;
+  is('cards keep feeder italics', count(cards, /<em>/g), withEm);
+  is('table keeps feeder italics', count(table, /<em>/g), withEm);
+  is('only <em> is injected, nothing else',
+     data.every(e => !e.name_html ||
+       /^(?:[^<]|<\/?em>)*$/.test(e.name_html)), true);
 }
 
 console.log('\nRENDER — 23 Sep 2026 (before the season)');
