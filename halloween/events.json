@@ -169,8 +169,10 @@
     "time": "7pm",
     "end_time": "9:30pm",
     "url": "https://www.pioneerfarms.org/event-tickets/p/austin-ghost-tours",
-    "description": "",
-    "tags": [],
+    "description": "A haunted hike through 19th century farm buildings",
+    "tags": [
+      "haunted house"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 45.0,
@@ -204,8 +206,10 @@
     "time": "12pm",
     "end_time": "2pm",
     "url": "https://store.weluvvideo.org/events/toon-time-2-copy",
-    "description": "",
-    "tags": [],
+    "description": "Watch some spookily appropriate family-friendly classic cartoons",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -274,8 +278,10 @@
     "time": "6pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/Dd1_kE4v3Rf/",
-    "description": "",
-    "tags": [],
+    "description": "Vendors + get shiny for \"Twilight look alike contest\" / costume contest",
+    "tags": [
+      "shopping"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -290,7 +296,7 @@
     "time": "12pm",
     "end_time": "6pm",
     "url": "https://www.instagram.com/p/Ddu6kaWD8Ae/?img_index=1",
-    "description": "",
+    "description": "Witchy vendors, \"free treats\" (no tricks I guess), giveaways, + tarot",
     "tags": [
       "shopping"
     ],
@@ -308,7 +314,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/haxan-w-live-score",
-    "description": "",
+    "description": "Watch classic 1920s silent horror film about witchcraft w/live musical score",
     "tags": [
       "film"
     ],
@@ -327,22 +333,24 @@
     "end_time": "4pm",
     "url": "https://www.eventbrite.com/e/i-scream-social-day-at-the-park-fall-tickets-2000732975187?aff=ebdsoporgprofile",
     "description": "Pumpkin painting, writing workshop, “spooky” adult spelling bee + vendors",
-    "tags": [],
+    "tags": [
+      "shopping"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-05-1",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-let-s-scare-jessica-to-death-2026-10-05-1",
+    "name": "Halloween + Horror Movie Series: Let's Scare Jessica to Death",
     "date": "2026-10-05",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -370,15 +378,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-07-2",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-halloweentown-2026-10-07-1",
+    "name": "Halloween + Horror Movie Series: Halloweentown",
     "date": "2026-10-07",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Watch the beloved 90s cheeseball Disney Channel Original Movie",
     "tags": [
       "film"
     ],
@@ -422,15 +430,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-08-3",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-may-2026-10-08-1",
+    "name": "Halloween + Horror Movie Series: May",
     "date": "2026-10-08",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -492,15 +500,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-09-4",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-the-faculty-2026-10-09-1",
+    "name": "Halloween + Horror Movie Series: The Faculty",
     "date": "2026-10-09",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -858,13 +866,29 @@
     "time": "12pm",
     "end_time": "6pm",
     "url": "https://www.instagram.com/p/DdzLZFRETf5/?img_index=1",
-    "description": "",
-    "tags": [
-      "shopping"
-    ],
+    "description": "BYO witchy items to trade for new-to-you reused witchy goods",
+    "tags": [],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "feminist-horror-week-jennifer-s-body-2026-10-12-1",
+    "name": "Feminist Horror Week: Jennifer's Body",
+    "date": "2026-10-12",
+    "venue": "Hyperreal Film Club",
+    "price": "",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
+    "description": "Is anything more terrifying than the patriarchy?",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -886,24 +910,6 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-12-5",
-    "name": "Halloween + Horror Movie Series",
-    "date": "2026-10-12",
-    "venue": "Hyperreal Film Club",
-    "price": "",
-    "time": "7:30pm",
-    "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
-    "tags": [
-      "film"
-    ],
-    "age": "",
-    "age_min": null,
-    "price_min": null,
-    "status": "confirmed"
-  },
-  {
     "id": "ju-on-2026-10-12-1",
     "name": "Ju-on",
     "date": "2026-10-12",
@@ -922,15 +928,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-13-6",
-    "name": "Halloween + Horror Movie Series",
+    "id": "feminist-horror-week-a-girl-walks-home-alone-at-night-2026-10-13-1",
+    "name": "Feminist Horror Week: A Girl Walks Home Alone at Night",
     "date": "2026-10-13",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Is anything more terrifying than the patriarchy?",
     "tags": [
       "film"
     ],
@@ -974,15 +980,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-14-7",
-    "name": "Halloween + Horror Movie Series",
+    "id": "feminist-horror-week-huesera-the-bone-woman-2026-10-14-1",
+    "name": "Feminist Horror Week: Huesera: the Bone Woman",
     "date": "2026-10-14",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Is anything more terrifying than the patriarchy?",
     "tags": [
       "film"
     ],
@@ -1076,15 +1082,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-15-8",
-    "name": "Halloween + Horror Movie Series",
+    "id": "feminist-horror-week-feminist-horror-shorts-2026-10-15-1",
+    "name": "Feminist Horror Week: Feminist Horror Shorts",
     "date": "2026-10-15",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Is anything more terrifying than the patriarchy?",
     "tags": [
       "film"
     ],
@@ -1264,15 +1270,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-16-9",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-teeth-2026-10-16-1",
+    "name": "Halloween + Horror Movie Series: Teeth",
     "date": "2026-10-16",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
     "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -1454,6 +1460,24 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-horror-movie-series-the-dead-keep-dying-2026-10-17-1",
+    "name": "Halloween + Horror Movie Series: The Dead Keep Dying",
+    "date": "2026-10-17",
+    "venue": "Hyperreal Film Club",
+    "price": "Free",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "",
+    "description": "Watch a dark comedy \"brewed in the streets of Austin\" w/director Q+A",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "night-parade-of-one-hundred-demons-2026-10-17-1",
     "name": "Night Parade of One Hundred Demons",
     "date": "2026-10-17",
@@ -1626,15 +1650,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-19-10",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-magic-2026-10-19-1",
+    "name": "Halloween + Horror Movie Series: Magic",
     "date": "2026-10-19",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -1644,15 +1668,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-20-11",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-suspiria-2026-10-20-1",
+    "name": "Halloween + Horror Movie Series: Suspiria",
     "date": "2026-10-20",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch what might be the most beloved giallo film about a coven of European ballet witches",
     "tags": [
       "film"
     ],
@@ -1680,15 +1704,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-21-12",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-pieces-2026-10-21-1",
+    "name": "Halloween + Horror Movie Series: Pieces",
     "date": "2026-10-21",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -1750,15 +1774,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-22-13",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-steven-soderbergh-s-psychos-2026-10-22-1",
+    "name": "Halloween + Horror Movie Series: Steven Soderbergh's Psychos",
     "date": "2026-10-22",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -1920,15 +1944,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-23-14",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-elvira-mistress-of-the-dark-2026-10-23-1",
+    "name": "Halloween + Horror Movie Series: Elvira: Mistress of the Dark",
     "date": "2026-10-23",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film about the hostess with the mostest",
     "tags": [
       "film"
     ],
@@ -2486,7 +2510,7 @@
     "time": "12pm",
     "end_time": "6pm",
     "url": "https://www.instagram.com/p/Ddu6kaWD8Ae/?img_index=2",
-    "description": "",
+    "description": "Witchy vendors, \"free treats\" (no tricks I guess), giveaways, + tarot",
     "tags": [
       "shopping"
     ],
@@ -2616,15 +2640,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-26-15",
+    "id": "halloween-horror-movie-series-2026-10-26-1",
     "name": "Halloween + Horror Movie Series",
     "date": "2026-10-26",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -2686,15 +2710,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-27-16",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-the-wailing-2026-10-27-1",
+    "name": "Halloween + Horror Movie Series: The Wailing",
     "date": "2026-10-27",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
@@ -2722,15 +2746,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-28-17",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-nope-2026-10-28-1",
+    "name": "Halloween + Horror Movie Series: Nope",
     "date": "2026-10-28",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a modern classic horror film about a guy who loves horses",
     "tags": [
       "film"
     ],
@@ -2876,15 +2900,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-29-19",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-spookies-2026-10-29-1",
+    "name": "Halloween + Horror Movie Series: Spookies",
     "date": "2026-10-29",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "6:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated cult classic horror film",
     "tags": [
       "film"
     ],
@@ -3126,15 +3150,15 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-horror-movie-series-2026-10-30-18",
-    "name": "Halloween + Horror Movie Series",
+    "id": "halloween-horror-movie-series-the-conjuring-2026-10-30-1",
+    "name": "Halloween + Horror Movie Series: The Conjuring",
     "date": "2026-10-30",
     "venue": "Hyperreal Film Club",
     "price": "",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://hyperrealfilm.club/events?view=calendar&month=10-2026",
-    "description": "",
+    "url": "",
+    "description": "Watch a curated classic horror film",
     "tags": [
       "film"
     ],
