@@ -18,7 +18,7 @@ console.log('\nRENDER — 17 Oct 2026, 8pm');
   const cards = api.renderCards(map, order), table = api.renderTable(map, order);
 
   is('cards: one article per event', count(cards, /<article/g), data.length);
-  is('table: one row per event', count(table, /<tr>/g) - count(table, /<thead>/g), data.length);
+  is('table: one row per event', count(table, /<td class="t-name"/g), data.length);
   is('table: one banner per day', count(table, /dtable__day"/g), Object.keys(map).length);
   is('cards: one Past Events heading', count(cards, /Past Events/g), 1);
   is('table: one Past Events heading', count(table, /Past Events/g), 1);
@@ -56,7 +56,7 @@ console.log('\nRENDER — 23 Sep 2026 (before the season)');
   const map = api.groupByDay(data), order = api.orderedDays(map);
   const cards = api.renderCards(map, order), table = api.renderTable(map, order);
   is('cards: every event shown', count(cards, /<article/g), data.length);
-  is('table: every event shown', count(table, /<tr>/g) - count(table, /<thead>/g), data.length);
+  is('table: every event shown', count(table, /<td class="t-name"/g), data.length);
   is('no Past Events heading', count(cards, /Past Events/g) + count(table, /Past Events/g), 0);
   is('no Today badge', count(cards, /day__today/g), 0);
 }
@@ -112,6 +112,33 @@ console.log('\nFILTERS');
   }
   s.search = 'vortex'; is('search matches venue', n() > 0, true);
   s.search = 'zzzznope'; is('search with no hits', n(), 0);
+}
+
+console.log('\nSOLD OUT');
+{
+  const { api, data } = boot();
+  await new Promise(r => setTimeout(r, 60));
+  const sold = { ...data[0], id: 'sold-test', name: 'Sold Out Test',
+                 price: 'Sold out', price_min: null, sold_out: true,
+                 name_html: null, name_italics: null, tags: [] };
+  const set = [...data, sold];
+  api.state.events = set;
+  const n = () => set.filter(api.matches).length;
+
+  api.state.maxPrice = null;
+  is('shows under All price', set.filter(api.matches).some(e => e.sold_out), true);
+  for (const tier of [0, 10, 20, 50]) {
+    api.state.maxPrice = tier;
+    is(`hidden by the \$${tier} tier`,
+       set.filter(api.matches).some(e => e.sold_out), false);
+  }
+  api.state.maxPrice = null;
+
+  const map = api.groupByDay([sold]);
+  const order = api.orderedDays(map);
+  is('card carries is-soldout', /class="card is-soldout"/.test(api.renderCards(map, order)), true);
+  is('row carries is-soldout', /<tr class="is-soldout">/.test(api.renderTable(map, order)), true);
+  is('price still reads Sold out', /Sold out/.test(api.renderCards(map, order)), true);
 }
 
 console.log('\nFILTER PANELS');

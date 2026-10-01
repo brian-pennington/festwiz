@@ -197,7 +197,7 @@
     if (ev.age) badges += '<span class="badge">' + esc(ev.age) + '</span>';
     ev.tags.forEach(function (tg) { badges += tagButton(tg); });
 
-    return '<article class="card">' +
+    return '<article class="card' + (ev.sold_out ? ' is-soldout' : '') + '">' +
       '<div class="card__top"><h3 class="card__name">' + name + '</h3>' + time + '</div>' +
       (ev.venue ? '<div class="card__venue">' + esc(ev.venue) + '</div>' : '') +
       (ev.description ? '<p class="card__desc">' + esc(ev.description) + '</p>' : '') +
@@ -218,7 +218,7 @@
       return v ? '<td class="' + cls + '">' + esc(v) + '</td>'
                : '<td class="t-none">&mdash;</td>';
     }
-    return '<tr>' +
+    return '<tr' + (ev.sold_out ? ' class="is-soldout"' : '') + '>' +
       '<td class="t-name">' + name +
         (ev.description ? '<div class="t-desc">' + esc(ev.description) + '</div>' : '') + '</td>' +
       cell(ev.venue, '') +

@@ -697,6 +697,31 @@ main > * { position: relative; z-index: 1; }
 /* Film titles inside an event name. Bitter's italic is loaded; this is only
    here so the emphasis is unmistakably slanted at small sizes. */
 .card__name em, .t-name em { font-style: italic; }
+
+/* ── sold out ─────────────────────────────────────────────────────────── */
+
+/* Struck through, not hidden or dimmed: there may be a waiting list, and the
+   venue, time and description are still worth reading. The strike says
+   "you cannot buy a ticket", not "ignore this".
+   On the title only — striking the whole card would make the details that
+   are still useful look cancelled too. */
+.is-soldout .card__name a,
+.is-soldout .card__name,
+.is-soldout .t-name a {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--accent);
+}
+.is-soldout .card__name a:hover,
+.is-soldout .t-name a:hover { text-decoration-color: #14120f; }
+
+/* The price cell reads "Sold out", so give it the weight of a status. */
+.is-soldout .card__price,
+.is-soldout .t-money {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
 .card__name a { color: #fff; }
 .card__name a:hover, .card__name a:focus-visible { color: #14120f; }
 

@@ -23,6 +23,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -43,6 +44,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -61,6 +63,7 @@
     "age": "",
     "age_min": null,
     "price_min": 22.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -82,6 +85,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 18.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -102,6 +106,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -122,6 +127,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -142,6 +148,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -162,6 +169,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -182,6 +190,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -202,6 +211,7 @@
     "age": "",
     "age_min": null,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -223,6 +233,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 23.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -243,6 +254,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -263,6 +275,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -283,6 +296,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -303,6 +317,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 19.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -323,6 +338,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -343,6 +359,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -368,6 +385,7 @@
     "age": "",
     "age_min": null,
     "price_min": 8.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -388,6 +406,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -413,6 +432,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -433,6 +453,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -458,6 +479,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -476,6 +498,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 34.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -496,6 +519,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -521,6 +545,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -541,6 +566,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -561,6 +587,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -579,6 +606,7 @@
     "age": "",
     "age_min": null,
     "price_min": 22.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -604,6 +632,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -622,6 +651,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -648,6 +678,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -668,6 +699,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 43.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -688,6 +720,7 @@
     "age": "",
     "age_min": null,
     "price_min": 31.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -708,6 +741,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -728,6 +762,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -746,6 +781,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -766,6 +802,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -786,6 +823,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -804,6 +842,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -824,6 +863,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -842,6 +882,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -867,6 +908,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -885,6 +927,7 @@
     "age": "",
     "age_min": null,
     "price_min": 19.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -894,15 +937,16 @@
     "name_italics": null,
     "date": "2026-10-10",
     "venue": "Inner Space Cavern",
-    "price": "$35",
+    "price": "Sold out",
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
-    "description": "",
+    "description": "Watch the classic film about zombies rising from their graves while yourself in an underground chamber",
     "tags": [],
     "age": "",
     "age_min": null,
-    "price_min": 35.0,
+    "price_min": null,
+    "sold_out": true,
     "status": "confirmed"
   },
   {
@@ -923,6 +967,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -943,6 +988,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -961,6 +1007,7 @@
     "age": "",
     "age_min": null,
     "price_min": 65.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -979,6 +1026,7 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -997,6 +1045,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1015,6 +1064,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1040,6 +1090,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1060,6 +1111,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 13.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1085,6 +1137,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1110,6 +1163,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1130,6 +1184,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1148,6 +1203,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1173,6 +1229,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1191,6 +1248,7 @@
     "age": "",
     "age_min": null,
     "price_min": 16.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1211,6 +1269,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1220,15 +1279,16 @@
     "name_italics": null,
     "date": "2026-10-14",
     "venue": "Inner Space Cavern",
-    "price": "$35",
+    "price": "Sold out",
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
-    "description": "",
+    "description": "Watch the classic film about zombies rising from their graves while yourself in an underground chamber",
     "tags": [],
     "age": "",
     "age_min": null,
-    "price_min": 35.0,
+    "price_min": null,
+    "sold_out": true,
     "status": "confirmed"
   },
   {
@@ -1247,6 +1307,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1267,6 +1328,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1287,6 +1349,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1307,6 +1370,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1325,6 +1389,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1343,6 +1408,7 @@
     "age": "",
     "age_min": null,
     "price_min": 166.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1368,6 +1434,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1388,6 +1455,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1406,6 +1474,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1424,6 +1493,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1444,6 +1514,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1462,6 +1533,7 @@
     "age": "",
     "age_min": null,
     "price_min": 22.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1482,6 +1554,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1507,6 +1580,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1527,6 +1601,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 43.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1545,6 +1620,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1565,6 +1641,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1583,6 +1660,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 72.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1603,6 +1681,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1621,6 +1700,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1639,6 +1719,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1659,6 +1740,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1679,6 +1761,7 @@
     "age": "",
     "age_min": null,
     "price_min": 64.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1699,6 +1782,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1724,6 +1808,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1742,6 +1827,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1762,6 +1848,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1780,6 +1867,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1800,6 +1888,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1818,6 +1907,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 30.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1836,6 +1926,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1856,6 +1947,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1876,6 +1968,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1896,6 +1989,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1916,6 +2010,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1941,6 +2036,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1966,6 +2062,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -1986,6 +2083,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2011,6 +2109,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2031,6 +2130,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2049,6 +2149,7 @@
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2069,6 +2170,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2094,6 +2196,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2115,6 +2218,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2135,6 +2239,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2153,6 +2258,7 @@
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2171,6 +2277,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2189,6 +2296,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2207,6 +2315,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2227,6 +2336,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2245,6 +2355,7 @@
     "age": "",
     "age_min": null,
     "price_min": 22.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2265,6 +2376,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 32.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2290,6 +2402,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2308,6 +2421,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2326,6 +2440,7 @@
     "age": "",
     "age_min": null,
     "price_min": 30.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2344,6 +2459,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2364,6 +2480,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 43.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2382,6 +2499,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2403,6 +2521,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2423,6 +2542,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2443,6 +2563,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2463,6 +2584,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2481,6 +2603,7 @@
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2506,6 +2629,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2515,15 +2639,16 @@
     "name_italics": null,
     "date": "2026-10-23",
     "venue": "Inner Space Cavern",
-    "price": "$35",
+    "price": "Sold out",
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/underground-terror-classic-horror-movie-night-in-inner-space-cavern-tickets-1991958013039",
-    "description": "",
+    "description": "Watch the classic film about zombies rising from their graves while yourself in an underground chamber",
     "tags": [],
     "age": "",
     "age_min": null,
-    "price_min": 35.0,
+    "price_min": null,
+    "sold_out": true,
     "status": "confirmed"
   },
   {
@@ -2542,6 +2667,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2563,6 +2689,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 29.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2581,6 +2708,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2601,6 +2729,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2621,6 +2750,7 @@
     "age": "",
     "age_min": null,
     "price_min": 37.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2641,6 +2771,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 32.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2659,6 +2790,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 13.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2677,6 +2809,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 17.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2695,6 +2828,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2715,6 +2849,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2735,6 +2870,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2755,6 +2891,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2773,6 +2910,7 @@
     "age": "",
     "age_min": null,
     "price_min": 37.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2791,6 +2929,7 @@
     "age": "",
     "age_min": null,
     "price_min": 37.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2809,6 +2948,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2827,6 +2967,7 @@
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2845,6 +2986,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2863,6 +3005,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2881,6 +3024,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2899,6 +3043,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2919,6 +3064,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2939,6 +3085,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2959,6 +3106,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2977,6 +3125,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -2997,6 +3146,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3015,6 +3165,7 @@
     "age": "",
     "age_min": null,
     "price_min": 27.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3040,6 +3191,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3058,6 +3210,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3078,6 +3231,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3096,6 +3250,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3116,6 +3271,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3141,6 +3297,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3166,6 +3323,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3186,6 +3344,7 @@
     "age": "",
     "age_min": null,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3211,6 +3370,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3229,6 +3389,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3247,6 +3408,7 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3265,6 +3427,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3285,6 +3448,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 16.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3305,6 +3469,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 16.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3323,6 +3488,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3343,6 +3509,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3368,6 +3535,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3393,6 +3561,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3414,6 +3583,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3432,6 +3602,7 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3450,6 +3621,7 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3470,6 +3642,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3488,6 +3661,7 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3506,6 +3680,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3524,6 +3699,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3542,6 +3718,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3560,6 +3737,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3578,6 +3756,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3598,6 +3777,7 @@
     "age": "",
     "age_min": null,
     "price_min": 13.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3618,6 +3798,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3636,6 +3817,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3654,6 +3836,7 @@
     "age": "",
     "age_min": null,
     "price_min": 22.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3679,6 +3862,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3697,6 +3881,7 @@
     "age": "",
     "age_min": null,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3722,6 +3907,7 @@
     "age": "",
     "age_min": null,
     "price_min": 5.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3740,6 +3926,7 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3758,6 +3945,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3778,6 +3966,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 43.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3796,6 +3985,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3816,6 +4006,7 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3834,6 +4025,7 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3854,6 +4046,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3872,6 +4065,7 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3890,6 +4084,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3908,6 +4103,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3928,6 +4124,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 18.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3948,6 +4145,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 13.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3966,6 +4164,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -3984,6 +4183,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4002,6 +4202,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 29.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4022,6 +4223,7 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4040,6 +4242,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 25.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4058,6 +4261,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 15.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4076,6 +4280,7 @@
     "age": "",
     "age_min": null,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4094,6 +4299,7 @@
     "age": "",
     "age_min": null,
     "price_min": 19.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4112,6 +4318,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4132,6 +4339,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4150,6 +4358,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4168,6 +4377,7 @@
     "age": "",
     "age_min": null,
     "price_min": 67.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4186,6 +4396,7 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4207,6 +4418,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4225,6 +4437,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4243,6 +4456,7 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 17.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4261,6 +4475,7 @@
     "age": "",
     "age_min": null,
     "price_min": 10.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4279,6 +4494,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4297,6 +4513,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4315,6 +4532,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4333,6 +4551,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 11.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4351,6 +4570,7 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4369,6 +4589,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4387,6 +4608,7 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4405,6 +4627,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4425,6 +4648,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4443,6 +4667,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4464,6 +4689,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4482,6 +4708,7 @@
     "age": "16+",
     "age_min": 16,
     "price_min": 35.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4500,6 +4727,7 @@
     "age": "18+",
     "age_min": 18,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4518,6 +4746,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4536,6 +4765,7 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4557,6 +4787,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4578,6 +4809,7 @@
     "age": "",
     "age_min": null,
     "price_min": 41.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4596,6 +4828,7 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
     "status": "confirmed"
   },
   {
@@ -4614,6 +4847,7 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "sold_out": false,
     "status": "confirmed"
   }
 ]

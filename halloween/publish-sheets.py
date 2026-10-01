@@ -140,6 +140,8 @@ def link_requests(sheet_id, rows, links):
         # before it, only from the cell's own format.
         base = {"link": {"uri": url}, "underline": True,
                 "foregroundColor": rgb(colour)}
+        if len(spec) > 3 and spec[3]:
+            base["strikethrough"] = True
 
         if italics:
             cuts = sorted({0, len(text)} |
@@ -247,9 +249,10 @@ def build_rows(events, include_empty_dates=True, today=None):
                         key=lambda x: (time_key(x.get("time", "")),
                                        x["name"].lower())):
             # Carry the feeder's italics onto the name cell as well.
-            if e.get("url") or e.get("name_italics"):
+            if e.get("url") or e.get("name_italics") or e.get("sold_out"):
                 links[(len(rows), 0)] = (e.get("url") or "", LINK_FG,
-                                         e.get("name_italics"))
+                                         e.get("name_italics"),
+                                         bool(e.get("sold_out")))
             rows.append([
                 e["name"],
                 e.get("venue", ""),

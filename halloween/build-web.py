@@ -79,6 +79,16 @@ AGE_WORDS = {
 }
 
 
+# A sold-out event still earns a listing — there may be a waiting list, and
+# people want the details either way — but it is not a price, so it has no
+# place in a price tier.
+SOLD_OUT = {"sold out", "soldout", "sold-out", "sold", "at capacity", "full"}
+
+
+def is_sold_out(raw):
+    return (raw or "").strip().lower() in SOLD_OUT
+
+
 def parse_price(raw):
     """
     Lowest number a ticket can cost, for the price filter.
@@ -90,6 +100,10 @@ def parse_price(raw):
     """
     s = (raw or "").strip().lower()
     if not s:
+        return None
+    if s in SOLD_OUT:
+        # No number, so every price tier excludes it — the same rule that
+        # already applies to an event with no stated price.
         return None
     if s in ("free", "no cover", "donation", "free!", "$0"):
         return 0
@@ -673,6 +687,7 @@ def build_events(occurrences, name_rich=None, name_text=None):
             "age": o.get("age", ""),
             "age_min": parse_age(o.get("age")),
             "price_min": parse_price(o.get("price")),
+            "sold_out": is_sold_out(o.get("price")),
             "status": o["status"],
         })
     events.sort(key=lambda e: (e["date"] != "all-month", e["date"], e["name"]))
