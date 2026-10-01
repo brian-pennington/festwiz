@@ -127,23 +127,40 @@ def link_requests(sheet_id, rows, links):
     """
     req = []
     for (row_idx, col_idx), spec in sorted(links.items()):
-        url, colour = spec if isinstance(spec, tuple) else (spec, LINK_FG)
+        spec = spec if isinstance(spec, tuple) else (spec, LINK_FG)
+        url, colour = spec[0], spec[1]
+        italics = spec[2] if len(spec) > 2 else None
         text = rows[row_idx][col_idx]
         if not text:
             continue
+
+        # Sheets renders link text blue unless the run says otherwise; the
+        # 2025 guide used black against the pastel day fills. Each run has to
+        # restate the link and colour — a run does not inherit from the one
+        # before it, only from the cell's own format.
+        base = {"link": {"uri": url}, "underline": True,
+                "foregroundColor": rgb(colour)}
+
+        if italics:
+            cuts = sorted({0, len(text)} |
+                          {i for span in italics for i in span if 0 <= i <= len(text)})
+            runs = []
+            for start, end in zip(cuts, cuts[1:]):
+                mid = (start + end) / 2
+                em = any(a <= mid < b for a, b in italics)
+                fmt = dict(base)
+                fmt["italic"] = em
+                runs.append({"startIndex": start, "format": fmt})
+        else:
+            runs = [{"startIndex": 0, "format": base}]
+
         req.append({"updateCells": {
             "range": {"sheetId": sheet_id, "startRowIndex": row_idx,
                       "endRowIndex": row_idx + 1,
                       "startColumnIndex": col_idx, "endColumnIndex": col_idx + 1},
             "rows": [{"values": [{
                 "userEnteredValue": {"stringValue": text},
-                # Sheets renders link text blue unless the run says otherwise.
-                # The 2025 guide used black, which reads better against the
-                # pastel day fills.
-                "textFormatRuns": [{"startIndex": 0,
-                                    "format": {"link": {"uri": url},
-                                               "underline": True,
-                                               "foregroundColor": rgb(colour)}}],
+                "textFormatRuns": runs,
             }]}],
             "fields": "userEnteredValue,textFormatRuns"}})
     return req
@@ -229,8 +246,10 @@ def build_rows(events, include_empty_dates=True, today=None):
         for e in sorted(by_date.get(iso, []),
                         key=lambda x: (time_key(x.get("time", "")),
                                        x["name"].lower())):
-            if e.get("url"):
-                links[(len(rows), 0)] = (e["url"], LINK_FG)
+            # Carry the feeder's italics onto the name cell as well.
+            if e.get("url") or e.get("name_italics"):
+                links[(len(rows), 0)] = (e.get("url") or "", LINK_FG,
+                                         e.get("name_italics"))
             rows.append([
                 e["name"],
                 e.get("venue", ""),

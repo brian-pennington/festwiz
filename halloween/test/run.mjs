@@ -37,6 +37,15 @@ console.log('\nRENDER — 17 Oct 2026, 8pm');
   is('only <em> is injected, nothing else',
      data.every(e => !e.name_html ||
        /^(?:[^<]|<\/?em>)*$/.test(e.name_html)), true);
+
+  // An italic that starts at character 0 is the case Sheets expresses via the
+  // cell default rather than a run, and it was being dropped.
+  const leading = data.filter(e => e.name_italics &&
+                                   e.name_italics.some(([a]) => a === 0));
+  is('italics starting at character 0 survive', leading.length > 0, true);
+  is('their spans line up with the plain name',
+     leading.every(e => e.name_italics.every(([a, b]) =>
+       b > a && b <= e.name.length)), true);
 }
 
 console.log('\nRENDER — 23 Sep 2026 (before the season)');

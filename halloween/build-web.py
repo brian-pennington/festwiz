@@ -206,25 +206,37 @@ def html_escape(s):
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 
-def runs_to_html(text, runs):
+def runs_to_html(text, rich):
     """
-    Turn a cell's text plus its Google Sheets textFormatRuns into HTML with
-    <em> around the italic stretches. Film titles are italicised inside an
-    event name — "Horror Movie Series: Suspiria" — and plain text loses that.
+    Turn a cell's text plus its formatting into HTML with <em> around the
+    italic stretches. Film titles are italicised inside an event name —
+    "Horror Movie Series: Suspiria" — and plain text loses that.
 
-    Runs give a start index and the format that applies from there on, so the
-    segments are the gaps between consecutive start indexes.
+    rich is {"runs": [...], "italic": bool}, where "italic" is the CELL's
+    default. That default matters: a run carrying an empty format inherits
+    it rather than meaning "not italic". Sheets uses exactly that shape when
+    the italic starts at character 0 —
+
+        "Suspiria"  default italic False, run at 33 sets italic true
+        "Häxan"     default italic TRUE,  run at 6  sets italic false
+
+    — so reading a missing key as False silently dropped every italic that
+    began a title.
     """
+    runs = (rich or {}).get("runs") or []
+    cell_italic = bool((rich or {}).get("italic"))
+
     if not runs:
-        return html_escape(text)
+        return f"<em>{html_escape(text)}</em>" if cell_italic else html_escape(text)
 
     marks = []
     for r in runs:
-        marks.append((int(r.get("startIndex", 0)),
-                      bool(r.get("format", {}).get("italic"))))
+        fmt = r.get("format", {})
+        italic = fmt["italic"] if "italic" in fmt else cell_italic
+        marks.append((int(r.get("startIndex", 0)), bool(italic)))
     marks.sort()
     if not marks or marks[0][0] != 0:
-        marks.insert(0, (0, False))
+        marks.insert(0, (0, cell_italic))
 
     out = []
     for i, (start, italic) in enumerate(marks):
@@ -234,6 +246,24 @@ def runs_to_html(text, runs):
             continue
         out.append(f"<em>{chunk}</em>" if italic else chunk)
     return "".join(out)
+
+
+def em_spans(html):
+    """[(start, end)] character spans of the <em> parts, over the PLAIN text."""
+    if not html or "<em>" not in html:
+        return None
+    import html as _h
+    spans, pos, out = [], 0, []
+    for piece in re.split(r"(<em>|</em>)", html):
+        if piece == "<em>":
+            out.append(("open", pos))
+            continue
+        if piece == "</em>":
+            start = out.pop()[1]
+            spans.append([start, pos])
+            continue
+        pos += len(_h.unescape(piece))
+    return spans or None
 
 
 def read_sheet_rich(ref, tab=None, column=0):
@@ -267,8 +297,9 @@ def read_sheet_rich(ref, tab=None, column=0):
         if not cells:
             continue
         runs = cells[0].get("textFormatRuns")
-        if runs:
-            rich[i] = runs
+        italic = cells[0].get("effectiveFormat", {}).get("textFormat", {}).get("italic")
+        if runs or italic:
+            rich[i] = {"runs": runs or [], "italic": bool(italic)}
     return rich
 
 
@@ -616,16 +647,21 @@ def build_events(occurrences, name_rich=None, name_text=None):
         # Italics come from the row the NAME was typed on, which for a dittoed
         # occurrence is the first row of its block, not this row.
         html = None
+        italics = None
         if name_rich:
             src = o.get("block_start")
             if src in name_rich:
                 html = runs_to_html(
                     (name_text or {}).get(src, o["name"]), name_rich[src])
+                # Character spans, so the Sheet writer can rebuild the same
+                # emphasis without re-reading the feeder.
+                italics = em_spans(html)
 
         events.append({
             "id": f"{base}-{o['date']}-{seen[base]}",
             "name": o["name"],
             "name_html": html,
+            "name_italics": italics,
             "date": o["date"],
             "venue": o["venue"],
             "price": o["price"],
