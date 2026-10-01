@@ -79,7 +79,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header classic horror flick + contemporary horror flick combo",
     "tags": [
       "film"
     ],
@@ -220,7 +220,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header classic horror flick + contemporary horror flick combo",
     "tags": [
       "film"
     ],
@@ -360,7 +360,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a curated recent horror flick on IMAX",
     "tags": [
       "film"
     ],
@@ -412,7 +412,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header classic horror flick + contemporary horror flick combo",
     "tags": [
       "film"
     ],
@@ -948,7 +948,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a curated recent horror flick on IMAX",
     "tags": [
       "film"
     ],
@@ -1016,7 +1016,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header of two classic horror flicks",
     "tags": [
       "film"
     ],
@@ -1170,7 +1170,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Comedians skewer the 80s vampire classic the Lost Boys, MST3k-style",
     "tags": [
       "film"
     ],
@@ -1598,7 +1598,7 @@
     "time": "3:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a kid-friendly Halloween flick from the 00s",
     "tags": [
       "film"
     ],
@@ -1616,7 +1616,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header classic horror flick + contemporary horror flick combo",
     "tags": [
       "film"
     ],
@@ -1670,7 +1670,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a curated recent horror flick on IMAX",
     "tags": [
       "film"
     ],
@@ -1706,7 +1706,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Celebrate 40 years of Little Shop of Horrors by watching the director's cut on the big screen",
     "tags": [
       "film"
     ],
@@ -2047,7 +2047,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a curated recent horror flick on IMAX",
     "tags": [
       "film"
     ],
@@ -2065,7 +2065,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a double header classic horror flick + contemporary horror flick combo",
     "tags": [
       "film"
     ],
@@ -2322,7 +2322,7 @@
     "time": "2:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch the Disney Channel Original Movie Halloweentown on the big screen + craft along",
     "tags": [
       "film"
     ],
@@ -2582,24 +2582,6 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-25-15",
-    "name": "Panic at the Paramount",
-    "date": "2026-10-25",
-    "venue": "The Bullock",
-    "price": "$15",
-    "time": "7:30pm",
-    "end_time": "",
-    "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
-    "tags": [
-      "film"
-    ],
-    "age": "",
-    "age_min": null,
-    "price_min": 15.0,
-    "status": "confirmed"
-  },
-  {
     "id": "room-temperature-2026-10-25-1",
     "name": "Room Temperature",
     "date": "2026-10-25",
@@ -2668,15 +2650,15 @@
     "status": "confirmed"
   },
   {
-    "id": "panic-at-the-paramount-2026-10-26-16",
+    "id": "panic-at-the-paramount-2026-10-26-15",
     "name": "Panic at the Paramount",
     "date": "2026-10-26",
-    "venue": "The Bullock",
+    "venue": "The State Theatre",
     "price": "$15",
-    "time": "7:30pm",
+    "time": "2:30pm",
     "end_time": "",
     "url": "https://www.austintheatre.org/events/panic/",
-    "description": "",
+    "description": "Watch a curated recent horror flick on IMAX",
     "tags": [
       "film"
     ],
@@ -2730,7 +2712,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://tickets.austintheatre.org/14118",
-    "description": "",
+    "description": "Watch the 90s horror favorite film w/David Arquette Q+A",
     "tags": [
       "film"
     ],
