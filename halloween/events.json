@@ -8,8 +8,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
-    "description": "",
-    "tags": [],
+    "description": "Outdoor screening of family-friendly Halloween flicks",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -42,7 +44,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "",
+    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -95,7 +97,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -114,7 +116,9 @@
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-03538f1a-cb27-40ef-8b61-706d886b312d",
     "description": "Dress up as a skelly but \"please do not remove all of the flesh from your body + play your ribs like a xylophone\"",
-    "tags": [],
+    "tags": [
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
@@ -130,7 +134,9 @@
     "end_time": "",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf000004EbwfMAC",
     "description": "“Drag King & Gender Diverse Troupe” re-envision the bloody musical",
-    "tags": [],
+    "tags": [
+      "drag"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 15.0,
@@ -232,7 +238,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -251,22 +257,76 @@
     "end_time": "9:30pm",
     "url": "https://www.eventbrite.com/e/the-jigglewatts-burlesque-revue-oct-3-tickets-1998644367104",
     "description": "",
-    "tags": [],
+    "tags": [
+      "burlesque"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 19.0,
     "status": "confirmed"
   },
   {
-    "id": "trinket-girl-market-2026-10-03-1",
-    "name": "Trinket Girl Market",
+    "id": "trinket-girl-market-twilight-lookalike-competition-2026-10-03-1",
+    "name": "Trinket Girl Market: Twilight Lookalike Competition",
     "date": "2026-10-03",
     "venue": "The Hive",
     "price": "free",
     "time": "6pm",
     "end_time": "10pm",
-    "url": "https://www.instagram.com/p/DdC8fZ5RkQ2/",
+    "url": "https://www.instagram.com/p/Dd1_kE4v3Rf/",
     "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "2-5-year-anniversary-2026-10-04-1",
+    "name": "2.5 Year Anniversary",
+    "date": "2026-10-04",
+    "venue": "Yarrow and Sage South",
+    "price": "free",
+    "time": "12pm",
+    "end_time": "6pm",
+    "url": "https://www.instagram.com/p/Ddu6kaWD8Ae/?img_index=1",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "haxan-w-live-score-2026-10-04-1",
+    "name": "Häxan w/live score",
+    "date": "2026-10-04",
+    "venue": "We Luv Video",
+    "price": "$8",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/haxan-w-live-score",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 8.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "i-scream-social-2026-10-04-1",
+    "name": "I Scream Social",
+    "date": "2026-10-04",
+    "venue": "Sparky Pocket Park",
+    "price": "free",
+    "time": "12pm",
+    "end_time": "4pm",
+    "url": "https://www.eventbrite.com/e/i-scream-social-day-at-the-park-fall-tickets-2000732975187?aff=ebdsoporgprofile",
+    "description": "Pumpkin painting, writing workshop, “spooky” adult spelling bee + vendors",
     "tags": [],
     "age": "all ages",
     "age_min": 0,
@@ -388,8 +448,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
-    "description": "",
-    "tags": [],
+    "description": "Outdoor screening of teen angst-inducing Halloween flicks",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -422,7 +484,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "",
+    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -524,7 +586,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -586,6 +648,24 @@
     "status": "confirmed"
   },
   {
+    "id": "cool-witches-harvest-bazaar-2026-10-10-1",
+    "name": "Cool Witches Harvest Bazaar",
+    "date": "2026-10-10",
+    "venue": "Nature's Treasures",
+    "price": "free",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd13bISoGbG/?img_index=1",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
     "id": "los-muertos-2026-10-10-1",
     "name": "Los Muertos",
     "date": "2026-10-10",
@@ -610,7 +690,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -767,6 +847,24 @@
     "age": "",
     "age_min": null,
     "price_min": 38.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "witch-swap-2026-10-11-1",
+    "name": "Witch Swap",
+    "date": "2026-10-11",
+    "venue": "Yarrow and Sage South",
+    "price": "free",
+    "time": "12pm",
+    "end_time": "6pm",
+    "url": "https://www.instagram.com/p/DdzLZFRETf5/?img_index=1",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -1004,8 +1102,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
-    "description": "",
-    "tags": [],
+    "description": "Outdoor screening of two 90s spooky flicks",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -1138,7 +1238,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "",
+    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -1154,8 +1254,10 @@
     "time": "",
     "end_time": "",
     "url": "https://www.etherealhorrorfest.com/",
-    "description": "",
-    "tags": [],
+    "description": "Film fest w/horror screenings + industry panels",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -1222,7 +1324,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -1245,6 +1347,24 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 72.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "witch-fest-fire-fortune-2026-10-16-1",
+    "name": "Witch Fest: Fire + Fortune",
+    "date": "2026-10-16",
+    "venue": "Ani's Day and Night",
+    "price": "$5",
+    "time": "7pm",
+    "end_time": "11pm",
+    "url": "https://posh.vip/e/witch-fest-fire-fortune",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -1324,8 +1444,10 @@
     "time": "",
     "end_time": "",
     "url": "https://www.etherealhorrorfest.com/",
-    "description": "",
-    "tags": [],
+    "description": "Film fest w/horror screenings + industry panels",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -1356,7 +1478,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -1458,8 +1580,10 @@
     "time": "",
     "end_time": "",
     "url": "https://www.etherealhorrorfest.com/",
-    "description": "",
-    "tags": [],
+    "description": "Film fest w/horror screenings + industry panels",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -1652,8 +1776,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
-    "description": "",
-    "tags": [],
+    "description": "Outdoor screening of family-friendly Halloween flicks",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -1668,7 +1794,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -1768,7 +1894,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "",
+    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -1828,6 +1954,22 @@
     "status": "confirmed"
   },
   {
+    "id": "horror-de-camara-2026-10-23-1",
+    "name": "Horror De Cámara",
+    "date": "2026-10-23",
+    "venue": "KMFA Studios",
+    "price": "$30",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://horrordecamara.planningpod.com/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 30.0,
+    "status": "confirmed"
+  },
+  {
     "id": "horror-film-dance-party-2026-10-23-1",
     "name": "Horror Film Dance Party",
     "date": "2026-10-23",
@@ -1878,6 +2020,25 @@
     "status": "confirmed"
   },
   {
+    "id": "night-of-1000-elviras-2026-10-23-1",
+    "name": "Night of 1000 Elviras",
+    "date": "2026-10-23",
+    "venue": "Elysium",
+    "price": "$10",
+    "time": "9:30pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd47PgBpPEf/",
+    "description": "",
+    "tags": [
+      "drag",
+      "costumes"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "panic-at-the-paramount-2026-10-23-12",
     "name": "Panic at the Paramount",
     "date": "2026-10-23",
@@ -1922,7 +2083,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -2007,7 +2168,10 @@
     "end_time": "2am",
     "url": "https://www.eventbrite.com/e/austin-vampire-ball-the-vampire-lestat-tickets-1992526110233?aff=eprofsaved",
     "description": "Vampire ball w/vampire drag performers, DJs spinning vampiric tunes, vendors, photo booth",
-    "tags": [],
+    "tags": [
+      "drag",
+      "dance party"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": 29.0,
@@ -2124,10 +2288,28 @@
     "time": "6pm",
     "end_time": "9pm",
     "url": "https://www.sachome.org/calendar/murder-mayhem-and-misadventure-tour-3serz",
-    "description": "",
+    "description": "Guided tour of the graves of Texas revolutionary figures w/guides in period attire",
     "tags": [],
     "age": "",
     "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "nature-festival-spooktacular-2026-10-24-1",
+    "name": "Nature Festival + Spooktacular",
+    "date": "2026-10-24",
+    "venue": "North Austin Community Garden",
+    "price": "free",
+    "time": "3pm",
+    "end_time": "7pm",
+    "url": "https://library.austintexas.gov/event/nature-and-environment/nature-festival-spooktacular-7786592",
+    "description": "Treeclimbing, facepainting, butterfly release, + family-friendly spooky activities",
+    "tags": [
+      "family-friendly"
+    ],
+    "age": "all ages",
+    "age_min": 0,
     "price_min": 0,
     "status": "confirmed"
   },
@@ -2158,7 +2340,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -2208,7 +2390,7 @@
     "time": "8pm",
     "end_time": "1am",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049IGLMA2",
-    "description": "",
+    "description": "“Dark carnival fundraiser” w/immersive performers, live music, + Blade rave",
     "tags": [],
     "age": "18+",
     "age_min": 18,
@@ -2229,6 +2411,22 @@
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "trail-of-treats-2026-10-24-1",
+    "name": "Trail of Treats",
+    "date": "2026-10-24",
+    "venue": "Dottie Jordan Recreation Center",
+    "price": "free",
+    "time": "5pm",
+    "end_time": "7pm",
+    "url": "https://www.eventbrite.com/e/dottie-jordan-recreation-center-trail-of-treats-tickets-2001065393459",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
     "status": "confirmed"
   },
   {
@@ -2274,6 +2472,24 @@
     "url": "https://mexic-artemuseum.org/event/43rd-annual-viva-la-vida-festival-parade",
     "description": "Celebrate Día de los Muertos with parade, street fest, ofrenda, vendors, traditional food + dance",
     "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "8-year-anniversary-2026-10-25-1",
+    "name": "8 Year Anniversary",
+    "date": "2026-10-25",
+    "venue": "Yarrow and Sage North",
+    "price": "free",
+    "time": "12pm",
+    "end_time": "6pm",
+    "url": "https://www.instagram.com/p/Ddu6kaWD8Ae/?img_index=2",
+    "description": "",
+    "tags": [
+      "shopping"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -2340,8 +2556,10 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DdCBFMZDQrp/",
-    "description": "",
-    "tags": [],
+    "description": "Crown the ugliest costumed pooch in town, proceeds support vet services",
+    "tags": [
+      "pet costumes"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -2434,6 +2652,22 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-classic-2026-10-26-1",
+    "name": "Halloween Classic",
+    "date": "2026-10-26",
+    "venue": "Kinda Tropical",
+    "price": "",
+    "time": "7pm",
+    "end_time": "10pm",
+    "url": "https://www.instagram.com/p/DcMGKXDkc5m/?img_index=1",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
     "id": "panic-at-the-paramount-2026-10-26-16",
     "name": "Panic at the Paramount",
     "date": "2026-10-26",
@@ -2449,6 +2683,24 @@
     "age": "",
     "age_min": null,
     "price_min": 15.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-vampires-of-new-orleans-2026-10-26-1",
+    "name": "The Vampires of New Orleans",
+    "date": "2026-10-26",
+    "venue": "We Luv Video",
+    "price": "$25",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://events.humanitix.com/the-vampires-of-new-orleans-we-luv-video",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 25.0,
     "status": "confirmed"
   },
   {
@@ -2669,7 +2921,9 @@
     "end_time": "",
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
     "description": "",
-    "tags": [],
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -2716,7 +2970,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
@@ -2758,6 +3012,22 @@
     "status": "confirmed"
   },
   {
+    "id": "thee-hobogobbelin-hoe-down-2026-10-29-1",
+    "name": "Thee HoboGobbelin Hoe-down",
+    "date": "2026-10-29",
+    "venue": "Ani's Day and Night",
+    "price": "$10",
+    "time": "7pm",
+    "end_time": "11pm",
+    "url": "https://www.instagram.com/p/DdzKOYgvRZ_/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 10.0,
+    "status": "confirmed"
+  },
+  {
     "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-29-6",
     "name": "Ventana Ballet: Undead Haunted House of Dances",
     "date": "2026-10-29",
@@ -2787,6 +3057,40 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 45.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "b-scene-monster-ball-2026-10-30-1",
+    "name": "B Scene: Monster Ball",
+    "date": "2026-10-30",
+    "venue": "The Blanton",
+    "price": "",
+    "time": "7pm",
+    "end_time": "11pm",
+    "url": "https://blantonmuseum.org/programs/b-scene/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "bat-city-cinema-halloween-horror-show-2026-10-30-1",
+    "name": "Bat City Cinema: Halloween Horror Show",
+    "date": "2026-10-30",
+    "venue": "Eastside Cinema",
+    "price": "$13",
+    "time": "7pm",
+    "end_time": "10pm",
+    "url": "https://www.instagram.com/p/Dd1ePEcqobP/",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 13.0,
     "status": "confirmed"
   },
   {
@@ -2832,7 +3136,7 @@
     "time": "11:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "",
+    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -2855,6 +3159,40 @@
     "age": "",
     "age_min": null,
     "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloweird-2026-10-30-2",
+    "name": "Halloweird",
+    "date": "2026-10-30",
+    "venue": "Half Step",
+    "price": "free",
+    "time": "3pm",
+    "end_time": "12am",
+    "url": "https://www.instagram.com/p/Ddzci6NlEXV/?img_index=1",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "hauntedween-2026-10-30-1",
+    "name": "Hauntedween",
+    "date": "2026-10-30",
+    "venue": "We Luv Video",
+    "price": "$5",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://store.weluvvideo.org/events/vinegar-syndrome-hauntedween",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 5.0,
     "status": "confirmed"
   },
   {
@@ -2932,13 +3270,47 @@
     "time": "various",
     "end_time": "",
     "url": "https://scareforacure.org/",
-    "description": "",
+    "description": "Raise money for good causes by exploring a haunted toymaker's house",
     "tags": [
       "haunted house"
     ],
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "sober-social-halloween-costume-party-2026-10-30-1",
+    "name": "Sober Social: Halloween Costume Party",
+    "date": "2026-10-30",
+    "venue": "Sans Bar",
+    "price": "$25",
+    "time": "7:30pm",
+    "end_time": "",
+    "url": "https://sweatpals.com/event/sober-social-halloween-costume-party/2026-10-30",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 25.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "t-virus-a-resident-evil-drag-show-2026-10-30-1",
+    "name": "T-Virus: A Resident Evil Drag Show",
+    "date": "2026-10-30",
+    "venue": "Valhalla",
+    "price": "$10",
+    "time": "10pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd2HfykJSGe/",
+    "description": "",
+    "tags": [
+      "drag"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 10.0,
     "status": "confirmed"
   },
   {
@@ -3005,6 +3377,24 @@
     "age": "21+",
     "age_min": 21,
     "price_min": 18.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "the-rocky-horror-puppet-show-2026-10-30-1",
+    "name": "The Rocky Horror Puppet Show",
+    "date": "2026-10-30",
+    "venue": "Coldtowne",
+    "price": "$13",
+    "time": "10pm",
+    "end_time": "",
+    "url": "https://coldtownetheater.com/show/the-rocky-horror-puppet-show/",
+    "description": "Experience the campy 70s sensation as told by felt puppets",
+    "tags": [
+      "puppets"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 13.0,
     "status": "confirmed"
   },
   {
@@ -3179,7 +3569,7 @@
     "price": "",
     "time": "7pm",
     "end_time": "10pm",
-    "url": "https://www.instagram.com/",
+    "url": "https://www.instagram.com/p/DdujEVmCeh1/?img_index=1",
     "description": "",
     "tags": [],
     "age": "",
@@ -3217,6 +3607,25 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
+    "status": "confirmed"
+  },
+  {
+    "id": "invincible-czars-2026-10-31-1",
+    "name": "Invincible Czars",
+    "date": "2026-10-31",
+    "venue": "Alamo Mueller",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://invincibleczars.com/",
+    "description": "",
+    "tags": [
+      "film",
+      "live music"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -3388,7 +3797,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DddS4SrRv0S/",
-    "description": "",
+    "description": "Sinister circus promises “clown alley” + “skelephant”",
     "tags": [],
     "age": "all ages",
     "age_min": 0,
@@ -3427,6 +3836,25 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "up-in-smoke-cabaret-tails-from-the-crypt-2026-10-31-1",
+    "name": "Up in Smoke Cabaret: Tails from the Crypt",
+    "date": "2026-10-31",
+    "venue": "Ani's Day and Night",
+    "price": "",
+    "time": "6:30pm",
+    "end_time": "",
+    "url": "https://events.ticketleap.com/tickets/up-in-smoke-cabaret-productions/up-in-smoke-cabaret-presents-tails-from-the-crypt",
+    "description": "",
+    "tags": [
+      "burlesque",
+      "costumes"
+    ],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": null,
     "status": "confirmed"
   },
   {
@@ -3491,6 +3919,44 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "status": "confirmed"
+  },
+  {
+    "id": "invincible-czars-2026-11-01-2",
+    "name": "Invincible Czars",
+    "date": "2026-11-01",
+    "venue": "Alamo Mueller",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://invincibleczars.com/",
+    "description": "",
+    "tags": [
+      "film",
+      "live music"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "status": "confirmed"
+  },
+  {
+    "id": "jim-henson-s-labyrinth-in-concert-2026-11-01-1",
+    "name": "Jim Henson's Labyrinth in Concert",
+    "date": "2026-11-01",
+    "venue": "ACL Live",
+    "price": "$41",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://www.acllive.com/event/2026-11-01-jim-hensons-labyrinth-in-concert-40th-anniversary-at-8-pm",
+    "description": "",
+    "tags": [
+      "film",
+      "live music"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 41.0,
     "status": "confirmed"
   },
   {

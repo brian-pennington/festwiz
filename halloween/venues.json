@@ -16,8 +16,16 @@
     "count": 1
   },
   {
+    "venue": "ACL Live",
+    "count": 1
+  },
+  {
     "venue": "ATX Tunnels",
     "count": 1
+  },
+  {
+    "venue": "Alamo Mueller",
+    "count": 2
   },
   {
     "venue": "Ani's Day + Night",
@@ -25,7 +33,7 @@
   },
   {
     "venue": "Ani's Day and Night",
-    "count": 1
+    "count": 4
   },
   {
     "venue": "Austin Playhouse",
@@ -64,8 +72,16 @@
     "count": 2
   },
   {
+    "venue": "Coldtowne",
+    "count": 1
+  },
+  {
     "venue": "Come and Take It Live",
     "count": 2
+  },
+  {
+    "venue": "Dottie Jordan Recreation Center",
+    "count": 1
   },
   {
     "venue": "ESB MACC",
@@ -76,8 +92,12 @@
     "count": 8
   },
   {
+    "venue": "Eastside Cinema",
+    "count": 1
+  },
+  {
     "venue": "Elysium",
-    "count": 3
+    "count": 4
   },
   {
     "venue": "Fallout",
@@ -90,6 +110,10 @@
   {
     "venue": "Ghost Town Manor Market",
     "count": 11
+  },
+  {
+    "venue": "Half Step",
+    "count": 1
   },
   {
     "venue": "Healing with Horses Ranch",
@@ -124,6 +148,14 @@
     "count": 1
   },
   {
+    "venue": "KMFA Studios",
+    "count": 1
+  },
+  {
+    "venue": "Kinda Tropical",
+    "count": 1
+  },
+  {
     "venue": "Lefty's Day + Night",
     "count": 1
   },
@@ -144,8 +176,16 @@
     "count": 1
   },
   {
+    "venue": "Nature's Treasures",
+    "count": 1
+  },
+  {
     "venue": "Nocturna",
     "count": 4
+  },
+  {
+    "venue": "North Austin Community Garden",
+    "count": 1
   },
   {
     "venue": "Oakwood Cemetery",
@@ -176,6 +216,14 @@
     "count": 4
   },
   {
+    "venue": "Sans Bar",
+    "count": 1
+  },
+  {
+    "venue": "Sparky Pocket Park",
+    "count": 1
+  },
+  {
     "venue": "SquareRut Kava Bar - Oak Hill",
     "count": 1
   },
@@ -190,6 +238,10 @@
   {
     "venue": "The 13th Floor",
     "count": 2
+  },
+  {
+    "venue": "The Blanton",
+    "count": 1
   },
   {
     "venue": "The Boggy Creek Greenbelt",
@@ -240,15 +292,27 @@
     "count": 1
   },
   {
+    "venue": "Valhalla",
+    "count": 1
+  },
+  {
     "venue": "Violet Crown Cinema",
     "count": 3
   },
   {
     "venue": "We Luv Video",
-    "count": 8
+    "count": 11
   },
   {
     "venue": "William C. Powers Student Activity Center",
     "count": 4
+  },
+  {
+    "venue": "Yarrow and Sage North",
+    "count": 1
+  },
+  {
+    "venue": "Yarrow and Sage South",
+    "count": 2
   }
 ]
