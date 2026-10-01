@@ -1,7 +1,7 @@
 [
   {
-    "id": "halloween-movie-nights-2026-10-01-1",
-    "name": "Halloween Movie Nights",
+    "id": "halloween-movie-nights-charlie-brown-over-the-garden-wall-2026-10-01-1",
+    "name": "Halloween Movie Nights: Charlie Brown + Over the Garden Wall",
     "date": "2026-10-01",
     "venue": "Meanwhile Brewing",
     "price": "free",
@@ -10,7 +10,8 @@
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
     "description": "Outdoor screening of family-friendly Halloween flicks",
     "tags": [
-      "film"
+      "film",
+      "family-friendly"
     ],
     "age": "",
     "age_min": null,
@@ -260,7 +261,7 @@
     "time": "7pm",
     "end_time": "9:30pm",
     "url": "https://www.eventbrite.com/e/the-jigglewatts-burlesque-revue-oct-3-tickets-1998644367104",
-    "description": "",
+    "description": "\"Spooky, seductive\" classic burlesque show from the \"longest continuously running burlesque show in the U.S.A.\"",
     "tags": [
       "burlesque"
     ],
@@ -404,7 +405,7 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/mini-haunted-houses-leftys-day-night-tickets-2000996886553",
-    "description": "",
+    "description": "\"Decorate your own mini haunted house\" + watch classic Halloween film",
     "tags": [],
     "age": "21+",
     "age_min": 21,
@@ -448,7 +449,7 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-movie-nights-2026-10-08-2",
+    "id": "halloween-movie-nights-2026-10-08-1",
     "name": "Halloween Movie Nights",
     "date": "2026-10-08",
     "venue": "Meanwhile Brewing",
@@ -526,7 +527,7 @@
     "time": "6pm",
     "end_time": "9pm",
     "url": "https://www.eventbrite.com/e/halloweird-tickets-1995969998997?aff=eprofsaved",
-    "description": "",
+    "description": "Spooky decoration crafting, horror trivia, + learn about writing short stories",
     "tags": [],
     "age": "18+",
     "age_min": 18,
@@ -542,8 +543,11 @@
     "time": "7:15pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DduJt5Vk2sP/",
-    "description": "",
-    "tags": [],
+    "description": "Watch outdoor screening of a family-friendly Halloween flick",
+    "tags": [
+      "film",
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -558,7 +562,7 @@
     "time": "7:20pm",
     "end_time": "",
     "url": "https://purrfectocatlounge.com/catx-perience",
-    "description": "",
+    "description": "Watch a Hallowen film \"surrounded by our adoptable kitties\"",
     "tags": [
       "film"
     ],
@@ -1100,7 +1104,7 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-movie-nights-2026-10-15-3",
+    "id": "halloween-movie-nights-2026-10-15-2",
     "name": "Halloween Movie Nights",
     "date": "2026-10-15",
     "venue": "Meanwhile Brewing",
@@ -1296,7 +1300,7 @@
     "time": "7:20pm",
     "end_time": "",
     "url": "https://purrfectocatlounge.com/catx-perience",
-    "description": "",
+    "description": "Watch a Hallowen film \"surrounded by our adoptable kitties\"",
     "tags": [
       "film"
     ],
@@ -1792,7 +1796,7 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-movie-nights-2026-10-22-4",
+    "id": "halloween-movie-nights-2026-10-22-3",
     "name": "Halloween Movie Nights",
     "date": "2026-10-22",
     "venue": "Meanwhile Brewing",
@@ -1802,7 +1806,8 @@
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
     "description": "Outdoor screening of family-friendly Halloween flicks",
     "tags": [
-      "film"
+      "film",
+      "family-friendly"
     ],
     "age": "",
     "age_min": null,
@@ -2018,7 +2023,7 @@
     "time": "7:20pm",
     "end_time": "",
     "url": "https://purrfectocatlounge.com/catx-perience",
-    "description": "",
+    "description": "Watch a Hallowen film \"surrounded by our adoptable kitties\"",
     "tags": [
       "film"
     ],
@@ -2918,7 +2923,7 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-movie-nights-2026-10-29-5",
+    "id": "halloween-movie-nights-2026-10-29-4",
     "name": "Halloween Movie Nights",
     "date": "2026-10-29",
     "venue": "Meanwhile Brewing",
@@ -2928,7 +2933,8 @@
     "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
     "description": "",
     "tags": [
-      "film"
+      "film",
+      "family-friendly"
     ],
     "age": "",
     "age_min": null,
@@ -3242,7 +3248,7 @@
     "time": "7:20pm",
     "end_time": "",
     "url": "https://purrfectocatlounge.com/catx-perience",
-    "description": "",
+    "description": "Watch a Hallowen film \"surrounded by our adoptable kitties\"",
     "tags": [
       "film"
     ],
