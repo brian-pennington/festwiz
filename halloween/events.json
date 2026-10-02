@@ -58,8 +58,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
-    "tags": [],
+    "description": "\"A queer majority improv show about messy vampires and their lives & loves\"",
+    "tags": [
+      "improv"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 22.0,
@@ -190,6 +192,27 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 33.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "creepy-cryptid-powerpoint-night-2026-10-03-1",
+    "name": "Creepy Cryptid Powerpoint Night",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-03",
+    "venue": "The Vortex",
+    "price": "free",
+    "time": "5pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DeAL4QyDTDv/",
+    "description": "Dress up as your fave cryptid + give a presentation on why you love them",
+    "tags": [
+      "costumes"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -378,7 +401,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/haxan-w-live-score",
-    "description": "Watch classic 1920s silent horror film about witchcraft w/live musical score",
+    "description": "Watch classic 1920s silent horror film about witchcraft w/live heavy metal score",
     "tags": [
       "film"
     ],
@@ -523,6 +546,32 @@
     "status": "confirmed"
   },
   {
+    "id": "abbott-and-costello-meet-frankenstein-evil-quartet-2026-10-08-1",
+    "name": "Abbott and Costello Meet Frankenstein + Evil Quartet",
+    "name_html": "<em>Abbott and Costello Meet Frankenstein</em> + Evil Quartet",
+    "name_italics": [
+      [
+        0,
+        37
+      ]
+    ],
+    "date": "2026-10-08",
+    "venue": "ATX Tunnels",
+    "price": "",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd39lGYEdMp/?img_index=1",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-horror-movie-series-may-2026-10-08-1",
     "name": "Halloween + Horror Movie Series: May",
     "name_html": "Halloween + Horror Movie Series: <em>May</em>",
@@ -601,8 +650,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
-    "tags": [],
+    "description": "\"A queer majority improv show about messy vampires and their lives & loves\"",
+    "tags": [
+      "improv"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 22.0,
@@ -713,7 +764,7 @@
     "time": "8:30pm",
     "end_time": "10pm",
     "url": "https://www.eventbrite.com/e/horrorween-ii-tickets-1999718118724?aff=eprofsaved",
-    "description": "",
+    "description": "“Horror inspired cosplay burlesque” covering things that go bump in the night",
     "tags": [
       "burlesque"
     ],
@@ -867,8 +918,8 @@
     "status": "confirmed"
   },
   {
-    "id": "scary-clown-time-2026-10-10-1",
-    "name": "Scary Clown Time",
+    "id": "scary-clown-time-a-comedy-of-terrors-2026-10-10-1",
+    "name": "Scary Clown Time: A Comedy of Terrors",
     "name_html": null,
     "name_italics": null,
     "date": "2026-10-10",
@@ -1007,6 +1058,25 @@
     "age": "",
     "age_min": null,
     "price_min": 65.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "hecate-s-bazaar-2026-10-11-1",
+    "name": "Hecate's Bazaar",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-11",
+    "venue": "Fortune Teller",
+    "price": "",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd4-g3GyVRL/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -1459,6 +1529,44 @@
     "status": "confirmed"
   },
   {
+    "id": "queer-film-theory-horror-2026-10-15-1",
+    "name": "Queer Film Theory: Horror",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-15",
+    "venue": "The Highball",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd9rlfJANcu/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "sipping-sapphic-bite-a-dyke-2026-10-15-1",
+    "name": "Sipping Sapphic: Bite a Dyke",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-15",
+    "venue": "Flower Shop",
+    "price": "$15",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://pools.events/event/yGam6fLm/sipping-sapphic-bite-a-dyke/",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "austin-horror-film-festival-2026-10-16-2",
     "name": "Austin Horror Film Festival",
     "name_html": null,
@@ -1528,8 +1636,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
-    "tags": [],
+    "description": "\"A queer majority improv show about messy vampires and their lives & loves\"",
+    "tags": [
+      "improv"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 22.0,
@@ -2350,8 +2460,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
-    "tags": [],
+    "description": "\"A queer majority improv show about messy vampires and their lives & loves\"",
+    "tags": [
+      "improv"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 22.0,
@@ -3129,6 +3241,25 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-carnival-2026-10-25-1",
+    "name": "Halloween Carnival",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-25",
+    "venue": "Neill-Cochran House Museum",
+    "price": "free",
+    "time": "11am",
+    "end_time": "3pm",
+    "url": "https://www.nchmuseum.org/nchm-events/halloween-2026",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "jo-s-9th-annual-ugly-dog-contest-2026-10-25-1",
     "name": "Jo's 9th Annual Ugly Dog Contest",
     "name_html": null,
@@ -3831,8 +3962,10 @@
     "time": "11:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/cvnty-vampiresan-improv-show-about-the-messiest-immortals-around-tickets-2002178578024",
-    "description": "\"A queer majority show about messy vampires and their lives & loves\"",
-    "tags": [],
+    "description": "\"A queer majority improv show about messy vampires and their lives & loves\"",
+    "tags": [
+      "improv"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 22.0,
@@ -3989,6 +4122,25 @@
     "status": "confirmed"
   },
   {
+    "id": "monster-romance-bash-2026-10-30-1",
+    "name": "Monster (Romance) Bash",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-30",
+    "venue": "Finney's Books",
+    "price": "$25",
+    "time": "8pm",
+    "end_time": "11pm",
+    "url": "https://www.finneysbooks.com/event/1192",
+    "description": "",
+    "tags": [],
+    "age": "18+",
+    "age_min": 18,
+    "price_min": 25.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "scare-for-a-cure-2026-10-30-11",
     "name": "Scare for a Cure",
     "name_html": null,
@@ -4006,6 +4158,27 @@
     "age": "13+",
     "age_min": 13,
     "price_min": 40.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "sister-fisters-bitchcraft-2026-10-30-1",
+    "name": "Sister Fisters: Bitchcraft",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-30",
+    "venue": "Swan Drive",
+    "price": "$10",
+    "time": "9:30pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd96yuABQPL/",
+    "description": "",
+    "tags": [
+      "drag"
+    ],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 10.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -4149,6 +4322,33 @@
     "status": "confirmed"
   },
   {
+    "id": "the-vvitch-2026-10-30-1",
+    "name": "The VVitch",
+    "name_html": "<em>The VVitch</em>",
+    "name_italics": [
+      [
+        0,
+        10
+      ]
+    ],
+    "date": "2026-10-30",
+    "venue": "Jester King",
+    "price": "$22",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://jesterkingbrewery.com/events#id=the-vvitch-outdoor-movie-screening-inside-the-goat-pen",
+    "description": "",
+    "tags": [
+      "film",
+      "animals"
+    ],
+    "age": "17+",
+    "age_min": 17,
+    "price_min": 22.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "trick-or-treat-on-the-trail-2026-10-30-1",
     "name": "Trick or Treat on the Trail",
     "name_html": null,
@@ -4223,6 +4423,25 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 39.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "blade-rave-2026-10-31-1",
+    "name": "Blade Rave",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "Mohawk",
+    "price": "$26",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd_-JNZjMxg/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 26.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -4348,7 +4567,7 @@
     "name_html": null,
     "name_italics": null,
     "date": "2026-10-31",
-    "venue": "Bolm Arts",
+    "venue": "$21+",
     "price": "",
     "time": "7pm",
     "end_time": "10pm",
