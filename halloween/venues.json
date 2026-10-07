@@ -56,6 +56,10 @@
     "count": 2
   },
   {
+    "venue": "Carver Museum",
+    "count": 2
+  },
+  {
     "venue": "Central Machine Works",
     "count": 1
   },
@@ -112,6 +116,10 @@
     "count": 1
   },
   {
+    "venue": "Flower Hill Center",
+    "count": 1
+  },
+  {
     "venue": "Flower Shop",
     "count": 1
   },
@@ -122,6 +130,10 @@
   {
     "venue": "Ghost Town Manor Market",
     "count": 11
+  },
+  {
+    "venue": "Ground Floor Theatre",
+    "count": 5
   },
   {
     "venue": "Half Step",
@@ -236,11 +248,23 @@
     "count": 4
   },
   {
+    "venue": "Rain on 4th",
+    "count": 1
+  },
+  {
     "venue": "Sans Bar",
     "count": 1
   },
   {
+    "venue": "Shangri-La",
+    "count": 1
+  },
+  {
     "venue": "Sparky Pocket Park",
+    "count": 1
+  },
+  {
+    "venue": "SquareRut Kava Bar",
     "count": 1
   },
   {
@@ -293,6 +317,14 @@
   },
   {
     "venue": "The Hive",
+    "count": 1
+  },
+  {
+    "venue": "The Museum of Human Achievement",
+    "count": 1
+  },
+  {
+    "venue": "The Natural Gardener",
     "count": 1
   },
   {

@@ -1,16 +1,21 @@
 [
   {
     "tag": "film",
-    "count": 65,
+    "count": 70,
     "color": "#1d6a5f"
   },
   {
     "tag": "haunted house",
-    "count": 28,
+    "count": 34,
     "color": "#8c1f3d"
   },
   {
     "tag": "shopping",
+    "count": 12,
+    "color": "#6e2472"
+  },
+  {
+    "tag": "drag",
     "count": 11,
     "color": "#6e2472"
   },
@@ -18,11 +23,6 @@
     "tag": "burlesque",
     "count": 9,
     "color": "#b03a2e"
-  },
-  {
-    "tag": "drag",
-    "count": 9,
-    "color": "#6e2472"
   },
   {
     "tag": "family-friendly",
@@ -51,7 +51,7 @@
   },
   {
     "tag": "dance party",
-    "count": 1,
+    "count": 2,
     "color": "#8c1f3d"
   },
   {
