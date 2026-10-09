@@ -24,6 +24,10 @@
     "count": 1
   },
   {
+    "venue": "AFS",
+    "count": 2
+  },
+  {
     "venue": "ATX Tunnels",
     "count": 2
   },
@@ -33,11 +37,15 @@
   },
   {
     "venue": "Ani's Day + Night",
-    "count": 3
+    "count": 4
   },
   {
     "venue": "Ani's Day and Night",
     "count": 4
+  },
+  {
+    "venue": "Austin Farm Sanctuary",
+    "count": 1
   },
   {
     "venue": "Austin Playhouse",
@@ -48,12 +56,28 @@
     "count": 1
   },
   {
+    "venue": "Barrett's Too",
+    "count": 1
+  },
+  {
     "venue": "Bass Concert Hall",
+    "count": 1
+  },
+  {
+    "venue": "Batch Craft Beer & Kolaches",
+    "count": 1
+  },
+  {
+    "venue": "Bolm Arts",
     "count": 1
   },
   {
     "venue": "BookPeople",
     "count": 2
+  },
+  {
+    "venue": "Capt. Quack's Soundspace",
+    "count": 1
   },
   {
     "venue": "Carver Museum",
@@ -68,8 +92,12 @@
     "count": 6
   },
   {
+    "venue": "Cheer Up Charlies",
+    "count": 4
+  },
+  {
     "venue": "Chess Club",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Coco Coquette",
@@ -77,7 +105,7 @@
   },
   {
     "venue": "Coldtowne",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Come and Take It Live",
@@ -104,8 +132,16 @@
     "count": 4
   },
   {
+    "venue": "Esther's Follies",
+    "count": 3
+  },
+  {
     "venue": "Fallout",
-    "count": 11
+    "count": 12
+  },
+  {
+    "venue": "Far Out Lounge",
+    "count": 1
   },
   {
     "venue": "Femme Rock",
@@ -125,7 +161,7 @@
   },
   {
     "venue": "Fortune Teller",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Ghost Town Manor Market",
@@ -134,6 +170,10 @@
   {
     "venue": "Ground Floor Theatre",
     "count": 5
+  },
+  {
+    "venue": "HArtyard",
+    "count": 1
   },
   {
     "venue": "Half Step",
@@ -145,6 +185,14 @@
   },
   {
     "venue": "Hill Country Castle",
+    "count": 1
+  },
+  {
+    "venue": "Hive",
+    "count": 1
+  },
+  {
+    "venue": "Hole in the Wall",
     "count": 1
   },
   {
@@ -180,7 +228,15 @@
     "count": 1
   },
   {
+    "venue": "King Bee",
+    "count": 1
+  },
+  {
     "venue": "Lefty's Day + Night",
+    "count": 1
+  },
+  {
+    "venue": "Leona Botanical Cafe",
     "count": 1
   },
   {
@@ -248,6 +304,10 @@
     "count": 4
   },
   {
+    "venue": "Radio Rosewood",
+    "count": 1
+  },
+  {
     "venue": "Rain on 4th",
     "count": 1
   },
@@ -256,7 +316,15 @@
     "count": 1
   },
   {
+    "venue": "Sekrit Theater",
+    "count": 1
+  },
+  {
     "venue": "Shangri-La",
+    "count": 1
+  },
+  {
+    "venue": "Sign Bar",
     "count": 1
   },
   {
@@ -288,6 +356,10 @@
     "count": 2
   },
   {
+    "venue": "The Antique Mule",
+    "count": 2
+  },
+  {
     "venue": "The Blanton",
     "count": 1
   },
@@ -300,11 +372,23 @@
     "count": 9
   },
   {
+    "venue": "The Cathedral",
+    "count": 2
+  },
+  {
+    "venue": "The Cavalier",
+    "count": 1
+  },
+  {
     "venue": "The Commune",
     "count": 1
   },
   {
     "venue": "The Copperhead Club",
+    "count": 2
+  },
+  {
+    "venue": "The Driskill",
     "count": 1
   },
   {
@@ -313,10 +397,18 @@
   },
   {
     "venue": "The Highball",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "The Hive",
+    "count": 2
+  },
+  {
+    "venue": "The Jackalope South Shore",
+    "count": 1
+  },
+  {
+    "venue": "The Little Gay Shop",
     "count": 1
   },
   {
@@ -342,6 +434,10 @@
   {
     "venue": "Tiny Minotaur",
     "count": 9
+  },
+  {
+    "venue": "Trinkets ATX",
+    "count": 1
   },
   {
     "venue": "Tweedy's",
@@ -374,5 +470,9 @@
   {
     "venue": "Yarrow and Sage South",
     "count": 2
+  },
+  {
+    "venue": "private home",
+    "count": 1
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "tag": "film",
-    "count": 70,
+    "count": 82,
     "color": "#1d6a5f"
   },
   {
@@ -11,18 +11,33 @@
   },
   {
     "tag": "shopping",
-    "count": 12,
+    "count": 17,
     "color": "#6e2472"
   },
   {
     "tag": "drag",
-    "count": 11,
+    "count": 13,
     "color": "#6e2472"
   },
   {
     "tag": "burlesque",
-    "count": 9,
+    "count": 11,
     "color": "#b03a2e"
+  },
+  {
+    "tag": "animals",
+    "count": 9,
+    "color": "#0f3934"
+  },
+  {
+    "tag": "costumes",
+    "count": 8,
+    "color": "#0f3934"
+  },
+  {
+    "tag": "improv",
+    "count": 7,
+    "color": "#6e2472"
   },
   {
     "tag": "family-friendly",
@@ -30,28 +45,18 @@
     "color": "#3b5ea8"
   },
   {
-    "tag": "improv",
+    "tag": "live music",
     "count": 5,
     "color": "#6e2472"
   },
   {
-    "tag": "live music",
-    "count": 4,
-    "color": "#6e2472"
-  },
-  {
-    "tag": "costumes",
-    "count": 4,
-    "color": "#0f3934"
-  },
-  {
-    "tag": "animals",
-    "count": 2,
-    "color": "#0f3934"
+    "tag": "comedy",
+    "count": 5,
+    "color": "#17605b"
   },
   {
     "tag": "dance party",
-    "count": 2,
+    "count": 3,
     "color": "#8c1f3d"
   },
   {
@@ -63,5 +68,10 @@
     "tag": "puppets",
     "count": 1,
     "color": "#7d4e24"
+  },
+  {
+    "tag": "bar takeover",
+    "count": 1,
+    "color": "#0f3934"
   }
 ]
