@@ -1469,7 +1469,9 @@
     "end_time": "3:45pm",
     "url": "https://www.eventbrite.com/e/the-sunday-matinee-seance-presented-by-the-serpent-tattoo-occult-shop-tickets-1996405646029?aff=erelpanelorg",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -2714,7 +2716,8 @@
     "url": "https://www.goatshenanigans.com/event-details/spooky-goat-cuddles-and-coffee-austin-the-hive",
     "description": "Frolic outdoors with costumed goats",
     "tags": [
-      "animals"
+      "animals",
+      "film"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -3431,7 +3434,9 @@
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/DeIVpLmNTdb/",
     "description": "Attend a séance + learn about the history of Ouija + related topics",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -3722,7 +3727,7 @@
     "time": "9pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/bonerween-a-tribute-to-john-carpenter-tickets-1998508624093?aff=eprofsaved",
-    "description": "",
+    "description": "Spooky-themed \"perverse, grotesque, + socially unacceptable\" burlesque, fire breathing, aerials, + sideshow acts",
     "tags": [
       "burlesque"
     ],
@@ -3743,8 +3748,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeMFAKtRL3bc-LLVX9F8-8Q0BFSUZUHpq_TQu80/",
-    "description": "",
-    "tags": [],
+    "description": "\"Come in disguise\" for a puppet show + live music performance",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -3762,7 +3769,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://events.ticketleap.com/tickets/erotiqueer-burlesque/carnival-of-carnal-desires",
-    "description": "",
+    "description": "Freak-show inspired burlesque performances \"from the Human Spider to the Bearded Lady\"",
     "tags": [
       "burlesque"
     ],
@@ -3805,7 +3812,7 @@
     "time": "2pm",
     "end_time": "5pm",
     "url": "https://partiful.com/e/lgUFVJjC6QrEoue5Bktc",
-    "description": "",
+    "description": "Tarot reading-inspired group photography shoot + photo gallery",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -3824,8 +3831,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-8042f03e-99ca-4039-bd98-9f3a7b958528",
-    "description": "",
-    "tags": [],
+    "description": "Goblin live band, “goblin beauty advice,” games, fortunes, quests, + rituals",
+    "tags": [
+      "live music"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 13.0,
@@ -3843,8 +3852,11 @@
     "time": "9pm",
     "end_time": "1am",
     "url": "https://www.instagram.com/p/DcmKbUCvV7a/",
-    "description": "",
-    "tags": [],
+    "description": "Vinyl DJs playing spooky tunes + costume contests in multiple categories",
+    "tags": [
+      "dance party",
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 17.0,
@@ -3944,9 +3956,10 @@
     "time": "12pm",
     "end_time": "1:30pm",
     "url": "https://www.goatshenanigans.com/event-details/spooky-goat-cuddles-bubbles-radio-rosewood-austin",
-    "description": "",
+    "description": "Frolic outdoors with costumed goats",
     "tags": [
-      "animals"
+      "animals",
+      "film"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -3965,7 +3978,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd9ueqaGWDf/",
-    "description": "",
+    "description": "Sing a song (about ghosts/ghosting) + talk about it. Basically DIY VH1 Storytellers",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -4026,7 +4039,9 @@
     "end_time": "7:45pm",
     "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-at-nocturna-early-seating",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 37.0,
@@ -4045,7 +4060,9 @@
     "end_time": "9:45pm",
     "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-at-nocturna-late-seating",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 37.0,
@@ -4103,8 +4120,10 @@
     "time": "5pm",
     "end_time": "7pm",
     "url": "https://www.eventbrite.com/e/dottie-jordan-recreation-center-trail-of-treats-tickets-2001065393459",
-    "description": "",
-    "tags": [],
+    "description": "Trick-or-treat along a spooky trail",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4242,8 +4261,10 @@
     "time": "11am",
     "end_time": "7pm",
     "url": "https://www.eventbrite.com/e/bookpeople-presents-boook-bash-tattoo-flash-tickets-2000521275989?aff=ebdsoporgprofile",
-    "description": "",
-    "tags": [],
+    "description": "Themed drinks, tattoos, book vendor, + horror book sale",
+    "tags": [
+      "shopping"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4287,9 +4308,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.goatshenanigans.com/event-details/goatflix-and-craft-spooky-movie-screening-of-hocus-pocus-austin-trinkets-craft-social",
-    "description": "",
+    "description": "Watch a witchy film + make magical crafts surrounded by baby goats",
     "tags": [
-      "animals"
+      "animals",
+      "film"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -4308,8 +4330,10 @@
     "time": "11am",
     "end_time": "3pm",
     "url": "https://www.nchmuseum.org/nchm-events/halloween-2026",
-    "description": "",
-    "tags": [],
+    "description": "Trick-or-treat, games, scavenger hunt, + family-friendly crafting",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4348,8 +4372,11 @@
     "time": "11am",
     "end_time": "4pm",
     "url": "https://www.instagram.com/p/DeGCvOqoK-v/?img_index=1",
-    "description": "",
-    "tags": [],
+    "description": "Pumpkin carving, crafting, + vendors",
+    "tags": [
+      "shopping",
+      "pumpkins"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4367,8 +4394,10 @@
     "time": "11:30am",
     "end_time": "1pm",
     "url": "https://events.ticketleap.com/tickets/nocturna/the-austin-seance-ouija-board-workshop-at-nocturna",
-    "description": "",
-    "tags": [],
+    "description": "Get a workshop on how to Ouija + learn about their history",
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 27.0,
@@ -4391,7 +4420,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/sungays",
-    "description": "",
+    "description": "Watch an arthouse film about a family's annual, possibly haunted, haunted house traditions",
     "tags": [
       "film"
     ],
@@ -4433,8 +4462,10 @@
     "time": "11am",
     "end_time": "4pm",
     "url": "https://www.umlaufsculpture.org/strawfest",
-    "description": "",
-    "tags": [],
+    "description": "Pumpkin decorating, family-friendly games, magician, photobooth, \"raptors + reptiles show\"",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4495,8 +4526,10 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/DcMGKXDkc5m/?img_index=1",
-    "description": "",
-    "tags": [],
+    "description": "Classic car show, Halloween costume contest, DJ, live music, + vendors",
+    "tags": [
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -4540,7 +4573,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://events.humanitix.com/the-vampires-of-new-orleans-we-luv-video",
-    "description": "",
+    "description": "Watch a film drametizing \"Southern Gothic terror\" + New Orleans folklore plus Q+A w/producer",
     "tags": [
       "film"
     ],
@@ -4617,7 +4650,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeN3jPDFZC3/",
-    "description": "",
+    "description": "See two black & white classic films w/live Nosferatu score",
     "tags": [
       "film"
     ],
@@ -4664,8 +4697,10 @@
     "time": "6pm",
     "end_time": "10pm",
     "url": "https://www.prekindle.com/event/17733-halloween-dog-pawrty-and-costume-contest-austin",
-    "description": "",
-    "tags": [],
+    "description": "Raffles for dogs, vendors for dogs, + a costume contest for dogs w/dog celebrity judges",
+    "tags": [
+      "animals"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -4683,7 +4718,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
-    "description": "",
+    "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
     "tags": [],
     "age": "10+",
     "age_min": 10,
@@ -4702,8 +4737,10 @@
     "time": "6:30pm",
     "end_time": "9:30pm",
     "url": "https://www.thenightowlpodcast.com/events-1/supernatural-machines-book-release-signing-party-1",
-    "description": "",
-    "tags": [],
+    "description": "Launch party for a new book about the history of \"spirit communication devices\"",
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -4763,7 +4800,7 @@
     "time": "10pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeAX2wJKmo6/",
-    "description": "",
+    "description": "Drag performers inspired by \"Horror Icons Reimagined\"",
     "tags": [
       "drag"
     ],
@@ -4949,7 +4986,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
-    "description": "",
+    "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
     "tags": [],
     "age": "10+",
     "age_min": 10,
@@ -4990,7 +5027,9 @@
     "end_time": "",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
     "description": "Samhain-themed \"occult-based burlesque performance art\"",
-    "tags": [],
+    "tags": [
+      "burlesque"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 15.0,
@@ -5070,7 +5109,9 @@
     "end_time": "9pm",
     "url": "https://www.eventbrite.com/e/seance-at-the-vortex-in-the-pony-shed-tickets-1995206519409",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -5395,7 +5436,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
-    "description": "",
+    "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
     "tags": [],
     "age": "10+",
     "age_min": 10,
@@ -5415,7 +5456,9 @@
     "end_time": "",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
     "description": "Samhain-themed \"occult-based burlesque performance art\"",
-    "tags": [],
+    "tags": [
+      "burlesque"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -5513,7 +5556,7 @@
     "time": "9:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd96yuABQPL/",
-    "description": "",
+    "description": "Trick-or-treat, games, scavenger hunt, + family-friendly crafting",
     "tags": [
       "drag"
     ],
@@ -5637,7 +5680,9 @@
     "end_time": "9pm",
     "url": "https://www.eventbrite.com/e/seance-at-the-vortex-early-sitting-in-the-pony-shed-tickets-1995207528427?keep_tld=true",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -5656,7 +5701,9 @@
     "end_time": "11pm",
     "url": "https://www.eventbrite.com/e/seance-at-the-vortex-late-sitting-in-the-pony-shed-tickets-1995207669850?keep_tld=true",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -6072,7 +6119,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
-    "description": "",
+    "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
     "tags": [],
     "age": "10+",
     "age_min": 10,
@@ -6114,7 +6161,9 @@
     "end_time": "",
     "url": "https://the-vortex.my.salesforce-sites.com/ticket/?acode=7c3b2b7ff056255c16977a7b1b7d3f2e&%23%2Fevents%2Fa0SUf000004IgRVMA0&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadhvFBuJfaOIS0FQTQcxW3Z3JXwgMGwGPo_GyQVTEHhhnyzHwxV2A0Kd9XYfA_aem_h_Q6fEPcliAsQPOfm4DJpQ&utm_id=97760_v0_s00_e0_tv3#/events/a0SUf0000049ZgzMAE",
     "description": "Samhain-themed \"occult-based burlesque performance art\"",
-    "tags": [],
+    "tags": [
+      "burlesque"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -6330,7 +6379,9 @@
     "end_time": "9pm",
     "url": "https://www.eventbrite.com/e/halloween-seance-at-the-vortex-early-sitting-in-the-pony-shed-tickets-1995207732036?keep_tld=true",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -6349,7 +6400,9 @@
     "end_time": "11pm",
     "url": "https://www.eventbrite.com/e/halloween-seance-at-the-vortex-late-sitting-in-the-pony-shed-tickets-1995207856408?keep_tld=true",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 38.0,
@@ -6679,7 +6732,9 @@
     "end_time": "9pm",
     "url": "https://www.eventbrite.com/e/seance-at-the-vortex-benefitting-koop-radio-and-graveside-service-tickets-2002156552144?aff=eprofsaved",
     "description": "Take part in a Victorian-style séance + learn about their history",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,

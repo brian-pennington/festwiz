@@ -1,7 +1,7 @@
 [
   {
     "tag": "film",
-    "count": 83,
+    "count": 86,
     "color": "#1d6a5f"
   },
   {
@@ -11,8 +11,13 @@
   },
   {
     "tag": "shopping",
-    "count": 17,
+    "count": 19,
     "color": "#6e2472"
+  },
+  {
+    "tag": "family-friendly",
+    "count": 17,
+    "color": "#3b5ea8"
   },
   {
     "tag": "drag",
@@ -20,33 +25,33 @@
     "color": "#6e2472"
   },
   {
-    "tag": "family-friendly",
+    "tag": "burlesque",
     "count": 14,
-    "color": "#3b5ea8"
+    "color": "#b03a2e"
   },
   {
     "tag": "pumpkins",
-    "count": 13,
+    "count": 14,
     "color": "#b03a2e"
   },
   {
     "tag": "costumes",
-    "count": 12,
+    "count": 14,
     "color": "#0f3934"
   },
   {
-    "tag": "burlesque",
-    "count": 11,
-    "color": "#b03a2e"
+    "tag": "seance",
+    "count": 12,
+    "color": "#2f7d4f"
   },
   {
     "tag": "live music",
-    "count": 10,
+    "count": 12,
     "color": "#6e2472"
   },
   {
     "tag": "animals",
-    "count": 9,
+    "count": 10,
     "color": "#0f3934"
   },
   {
@@ -60,14 +65,14 @@
     "color": "#6e2472"
   },
   {
+    "tag": "dance party",
+    "count": 5,
+    "color": "#8c1f3d"
+  },
+  {
     "tag": "comedy",
     "count": 5,
     "color": "#17605b"
-  },
-  {
-    "tag": "dance party",
-    "count": 4,
-    "color": "#8c1f3d"
   },
   {
     "tag": "pet costumes",
