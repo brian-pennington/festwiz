@@ -32,7 +32,30 @@
     "end_time": "",
     "url": "https://www.instagram.com/p/DcwJjC0AN4e/",
     "description": "Bar transformed into a haunted carnival complete w/\"haunted clown maze\" + photo ops",
-    "tags": [],
+    "tags": [
+      "bar takeover"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "frankenstein-s-lab-all-month-1",
+    "name": "Frankenstein's Lab",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "Wanderlust Wine Co.",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdxptUKNcq9/",
+    "description": "",
+    "tags": [
+      "bar takeover"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -51,7 +74,154 @@
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd6YJtHAY6_/",
     "description": "Bar transformed into Sleepy Hollow w/themed specials all month long",
+    "tags": [
+      "bar takeover"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "halloween-takeover-all-month-1",
+    "name": "Halloween Takeover",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "The Wheel South",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd9LnrTAgh5/",
+    "description": "",
+    "tags": [
+      "bar takeover"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "haunted-shores-all-month-1",
+    "name": "Haunted Shores",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "Volente Beach",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.beachsidebillys.com/hauntedshores",
+    "description": "",
     "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "house-of-torment-all-month-1",
+    "name": "House of Torment",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "House of Torment",
+    "price": "$20+",
+    "time": "",
+    "end_time": "",
+    "url": "https://houseoftorment.com/",
+    "description": "",
+    "tags": [
+      "haunted house"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "moe-s-tavern-all-month-1",
+    "name": "Moe's Tavern",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "Nickel City",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dd901cFx0Jl/",
+    "description": "",
+    "tags": [
+      "bar takeover"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "pumpkin-nights-all-month-1",
+    "name": "Pumpkin Nights",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "Pioneer Farms",
+    "price": "$10",
+    "time": "6pm",
+    "end_time": "11pm",
+    "url": "https://www.pumpkinnights.com/austin",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 10.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "trail-of-terror-all-month-1",
+    "name": "Trail of Terror",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "The Fieldhouse",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Dcwk8jODOa-/",
+    "description": "",
+    "tags": [
+      "bar takeover"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "twisted-carnival-all-month-1",
+    "name": "Twisted Carnival",
+    "name_html": null,
+    "name_italics": null,
+    "date": "all-month",
+    "venue": "Gibson Street Bar",
+    "price": "",
+    "time": "",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DdaScwsRuBT/",
+    "description": "",
+    "tags": [
+      "bar takeover"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -996,7 +1166,7 @@
     "tags": [
       "live music"
     ],
-    "age": "all-ages",
+    "age": "all ages",
     "age_min": 0,
     "price_min": 0,
     "sold_out": false,
@@ -2344,6 +2514,27 @@
     "status": "confirmed"
   },
   {
+    "id": "texas-pumpkin-fest-2026-10-17-1",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-17",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "the-haunted-carnival-2026-10-17-1",
     "name": "The Haunted Carnival",
     "name_html": null,
@@ -2394,8 +2585,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-d7416987-f7e8-4768-a774-26d9a426c1b4",
-    "description": "",
-    "tags": [],
+    "description": "Murder mystery + irreverent fantasy LARPing meet in \"interactive theater experience\"",
+    "tags": [
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 30.0,
@@ -2542,6 +2735,27 @@
     "age": "",
     "age_min": null,
     "price_min": 30.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "texas-pumpkin-fest-2026-10-18-2",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-18",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -2699,7 +2913,7 @@
     "time": "10pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd9VqKbK7eU/",
-    "description": "",
+    "description": "Horror drag ghoul competition judging on qualities like filth, glamor, + witchcraft",
     "tags": [
       "drag"
     ],
@@ -2720,8 +2934,10 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "",
-    "tags": [],
+    "description": "Haunted house-themed escape room",
+    "tags": [
+      "haunted house"
+    ],
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
@@ -2848,8 +3064,10 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "",
-    "tags": [],
+    "description": "Haunted house-themed escape room",
+    "tags": [
+      "haunted house"
+    ],
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
@@ -2867,7 +3085,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -2999,6 +3217,25 @@
     "age": "",
     "age_min": null,
     "price_min": 10.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "dante-s-inferno-2026-10-23-2",
+    "name": "Dante's Inferno",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-23",
+    "venue": "Ani's Day + Night",
+    "price": "",
+    "time": "7pm",
+    "end_time": "11pm",
+    "url": "https://www.instagram.com/p/DeaCA2QPj7h/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -3341,8 +3578,10 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "",
-    "tags": [],
+    "description": "Haunted house-themed escape room",
+    "tags": [
+      "haunted house"
+    ],
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
@@ -3407,7 +3646,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -3761,6 +4000,27 @@
     "status": "confirmed"
   },
   {
+    "id": "texas-pumpkin-fest-2026-10-24-3",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-24",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "the-austin-seance-2026-10-24-1",
     "name": "The Austin Séance",
     "name_html": null,
@@ -3828,8 +4088,10 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "",
-    "tags": [],
+    "description": "Haunted house-themed escape room",
+    "tags": [
+      "haunted house"
+    ],
     "age": "12+",
     "age_min": 12,
     "price_min": 15.0,
@@ -3866,7 +4128,7 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -3885,7 +4147,7 @@
     "time": "8:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -4180,6 +4442,27 @@
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "texas-pumpkin-fest-2026-10-25-4",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-25",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -4504,7 +4787,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -4827,7 +5110,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -4952,6 +5235,25 @@
     "age": "18+",
     "age_min": 18,
     "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "buffy-the-vampire-slayer-party-2026-10-30-1",
+    "name": "Buffy the Vampire Slayer Party",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-30",
+    "venue": "St. Elmo Springdale",
+    "price": "free",
+    "time": "6pm",
+    "end_time": "10pm",
+    "url": "https://www.eventbrite.com/e/buffy-the-vampire-slayer-party-tickets-2003303638109",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -5305,6 +5607,27 @@
     "status": "confirmed"
   },
   {
+    "id": "texas-pumpkin-fest-2026-10-30-5",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-30",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "the-austin-seance-2026-10-30-4",
     "name": "The Austin Séance",
     "name_html": null,
@@ -5460,7 +5783,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -5644,6 +5967,25 @@
     "status": "confirmed"
   },
   {
+    "id": "halloween-carnival-2026-10-31-2",
+    "name": "Halloween Carnival",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "Meanwhile Brewing",
+    "price": "",
+    "time": "12pm",
+    "end_time": "4pm",
+    "url": "https://www.instagram.com/p/DePNMajl8sV/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "halloween-fall-market-2026-10-31-1",
     "name": "Halloween Fall Market",
     "name_html": null,
@@ -5670,7 +6012,7 @@
     "name_html": null,
     "name_italics": null,
     "date": "2026-10-31",
-    "venue": "$21+",
+    "venue": "Bolm Arts",
     "price": "",
     "time": "7pm",
     "end_time": "10pm",
@@ -5957,6 +6299,27 @@
     "status": "confirmed"
   },
   {
+    "id": "texas-pumpkin-fest-2026-10-31-6",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "the-austin-seance-2026-10-31-6",
     "name": "The Austin Séance",
     "name_html": null,
@@ -6108,7 +6471,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/undead-haunted-house-of-dances-tickets-2002182848798",
-    "description": "",
+    "description": "\"Immersive, adults-only\" ballet inspired by Dracula + \"classic Halloween creatures\"",
     "tags": [],
     "age": "16+",
     "age_min": 16,
@@ -6155,6 +6518,25 @@
     "tags": [
       "film"
     ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "day-of-the-dead-community-altar-exhibit-celebration-2026-11-01-1",
+    "name": "Day of the Dead Community Altar Exhibit & Celebration",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-11-01",
+    "venue": "allgo",
+    "price": "free",
+    "time": "5pm",
+    "end_time": "7:30pm",
+    "url": "https://www.eventbrite.com/e/allgos-day-of-the-dead-community-altar-exhibit-celebration-2026-tickets-2003273557136",
+    "description": "",
+    "tags": [],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -6261,6 +6643,27 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "texas-pumpkin-fest-2026-11-01-7",
+    "name": "Texas Pumpkin Fest",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-11-01",
+    "venue": "Texas Pumpkin Fest",
+    "price": "$15",
+    "time": "10am",
+    "end_time": "9pm",
+    "url": "https://texaspumpkinfest.com/",
+    "description": "",
+    "tags": [
+      "pumpkins"
+    ],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 15.0,
     "sold_out": false,
     "status": "confirmed"
   },

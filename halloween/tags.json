@@ -6,7 +6,7 @@
   },
   {
     "tag": "haunted house",
-    "count": 34,
+    "count": 39,
     "color": "#8c1f3d"
   },
   {
@@ -20,18 +20,28 @@
     "color": "#6e2472"
   },
   {
+    "tag": "pumpkins",
+    "count": 13,
+    "color": "#b03a2e"
+  },
+  {
     "tag": "burlesque",
     "count": 11,
     "color": "#b03a2e"
   },
   {
     "tag": "costumes",
-    "count": 10,
+    "count": 11,
     "color": "#0f3934"
   },
   {
     "tag": "animals",
     "count": 9,
+    "color": "#0f3934"
+  },
+  {
+    "tag": "bar takeover",
+    "count": 8,
     "color": "#0f3934"
   },
   {
@@ -48,11 +58,6 @@
     "tag": "improv",
     "count": 7,
     "color": "#6e2472"
-  },
-  {
-    "tag": "pumpkins",
-    "count": 5,
-    "color": "#b03a2e"
   },
   {
     "tag": "comedy",
@@ -73,10 +78,5 @@
     "tag": "puppets",
     "count": 1,
     "color": "#7d4e24"
-  },
-  {
-    "tag": "bar takeover",
-    "count": 1,
-    "color": "#0f3934"
   }
 ]

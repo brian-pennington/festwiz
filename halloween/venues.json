@@ -1,9 +1,5 @@
 [
   {
-    "venue": "$21+",
-    "count": 1
-  },
-  {
     "venue": "(secret)",
     "count": 1
   },
@@ -37,7 +33,7 @@
   },
   {
     "venue": "Ani's Day + Night",
-    "count": 4
+    "count": 5
   },
   {
     "venue": "Ani's Day and Night",
@@ -69,7 +65,7 @@
   },
   {
     "venue": "Bolm Arts",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "BookPeople",
@@ -168,6 +164,10 @@
     "count": 11
   },
   {
+    "venue": "Gibson Street Bar",
+    "count": 1
+  },
+  {
     "venue": "Ground Floor Theatre",
     "count": 5
   },
@@ -198,6 +198,10 @@
   {
     "venue": "Hotel Vegas",
     "count": 2
+  },
+  {
+    "venue": "House of Torment",
+    "count": 1
   },
   {
     "venue": "Hyperreal Film Club",
@@ -245,7 +249,7 @@
   },
   {
     "venue": "Meanwhile Brewing",
-    "count": 6
+    "count": 7
   },
   {
     "venue": "Metz Neighborhood Park",
@@ -265,6 +269,10 @@
   },
   {
     "venue": "Neill-Cochran House Museum",
+    "count": 1
+  },
+  {
+    "venue": "Nickel City",
     "count": 1
   },
   {
@@ -297,7 +305,7 @@
   },
   {
     "venue": "Pioneer Farms",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Purrfecto Cat Lounge",
@@ -340,6 +348,10 @@
     "count": 1
   },
   {
+    "venue": "St. Elmo Springdale",
+    "count": 1
+  },
+  {
     "venue": "Stargazer",
     "count": 2
   },
@@ -350,6 +362,10 @@
   {
     "venue": "Swan Drive",
     "count": 1
+  },
+  {
+    "venue": "Texas Pumpkin Fest",
+    "count": 7
   },
   {
     "venue": "The 13th Floor",
@@ -396,6 +412,10 @@
     "count": 1
   },
   {
+    "venue": "The Fieldhouse",
+    "count": 1
+  },
+  {
     "venue": "The Highball",
     "count": 2
   },
@@ -428,6 +448,10 @@
     "count": 12
   },
   {
+    "venue": "The Wheel South",
+    "count": 1
+  },
+  {
     "venue": "Tiger Den",
     "count": 1
   },
@@ -456,6 +480,14 @@
     "count": 3
   },
   {
+    "venue": "Volente Beach",
+    "count": 1
+  },
+  {
+    "venue": "Wanderlust Wine Co.",
+    "count": 1
+  },
+  {
     "venue": "We Luv Video",
     "count": 11
   },
@@ -470,6 +502,10 @@
   {
     "venue": "Yarrow and Sage South",
     "count": 2
+  },
+  {
+    "venue": "allgo",
+    "count": 1
   },
   {
     "venue": "private home",
