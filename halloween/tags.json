@@ -16,7 +16,7 @@
   },
   {
     "tag": "drag",
-    "count": 13,
+    "count": 15,
     "color": "#6e2472"
   },
   {
@@ -25,14 +25,24 @@
     "color": "#b03a2e"
   },
   {
+    "tag": "costumes",
+    "count": 10,
+    "color": "#0f3934"
+  },
+  {
     "tag": "animals",
     "count": 9,
     "color": "#0f3934"
   },
   {
-    "tag": "costumes",
-    "count": 8,
-    "color": "#0f3934"
+    "tag": "family-friendly",
+    "count": 7,
+    "color": "#3b5ea8"
+  },
+  {
+    "tag": "live music",
+    "count": 7,
+    "color": "#6e2472"
   },
   {
     "tag": "improv",
@@ -40,14 +50,9 @@
     "color": "#6e2472"
   },
   {
-    "tag": "family-friendly",
-    "count": 6,
-    "color": "#3b5ea8"
-  },
-  {
-    "tag": "live music",
+    "tag": "pumpkins",
     "count": 5,
-    "color": "#6e2472"
+    "color": "#b03a2e"
   },
   {
     "tag": "comedy",
@@ -56,7 +61,7 @@
   },
   {
     "tag": "dance party",
-    "count": 3,
+    "count": 4,
     "color": "#8c1f3d"
   },
   {

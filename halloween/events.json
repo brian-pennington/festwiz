@@ -10,7 +10,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeNgqKkkY3B/?img_index=1",
-    "description": "",
+    "description": "Bar gets a haunted tiki makeover for Halloween w/lots of Halloween-themed events all month long",
     "tags": [
       "bar takeover"
     ],
@@ -31,7 +31,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DcwJjC0AN4e/",
-    "description": "",
+    "description": "Bar transformed into a haunted carnival complete w/\"haunted clown maze\" + photo ops",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -50,7 +50,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd6YJtHAY6_/",
-    "description": "",
+    "description": "Bar transformed into Sleepy Hollow w/themed specials all month long",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -483,7 +483,8 @@
     "url": "https://www.eventbrite.com/e/i-scream-social-day-at-the-park-fall-tickets-2000732975187?aff=ebdsoporgprofile",
     "description": "Pumpkin painting, writing workshop, “spooky” adult spelling bee + vendors",
     "tags": [
-      "shopping"
+      "shopping",
+      "pumpkins"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -1965,9 +1966,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.austincamerata.com/nosferatu",
-    "description": "",
+    "description": "Watch the silent horror classic w/live score performed by string musicians from Austin Camerata",
     "tags": [
-      "film"
+      "film",
+      "live music"
     ],
     "age": "12+",
     "age_min": 12,
@@ -1986,8 +1988,10 @@
     "time": "6:30pm",
     "end_time": "8:30pm",
     "url": "https://thelittlegayshop.com/products/pumpkin-carving-night-with-queer-craft-night-2026",
-    "description": "",
-    "tags": [],
+    "description": "BYO pumpkin for buy one for carving craft night",
+    "tags": [
+      "pumpkins"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 15.0,
@@ -2026,8 +2030,11 @@
     "time": "7:30pm",
     "end_time": "10pm",
     "url": "https://www.simpletix.com/e/thriller-an-80s-halloween-party-drag-show-tickets-296798",
-    "description": "",
-    "tags": [],
+    "description": "Thriller/80s-themed drag performers, cocktails, + menu. Costumes encouraged",
+    "tags": [
+      "drag",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 15.0,
@@ -2219,7 +2226,7 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/haunted-vintage-bingo-tickets-2002640560827",
-    "description": "",
+    "description": "Haunted \"extremely cozy, very haunted\" space hosts bingo for prizes hosted by ghost podcaster",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -2285,9 +2292,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.austincamerata.com/nosferatu",
-    "description": "",
+    "description": "Watch the silent horror classic w/live score performed by string musicians from Austin Camerata",
     "tags": [
-      "film"
+      "film",
+      "live music"
     ],
     "age": "12+",
     "age_min": 12,
@@ -2365,7 +2373,7 @@
     "time": "12pm",
     "end_time": "5pm",
     "url": "https://www.instagram.com/p/DdmBLmBkQhL/?img_index=2",
-    "description": "",
+    "description": "Vendor market for vintage + handmade costumes",
     "tags": [
       "shopping"
     ],
@@ -2405,7 +2413,7 @@
     "time": "12pm",
     "end_time": "2pm",
     "url": "https://www.eventbrite.com/e/austin-bake-club-goosebumps-tickets-2001272870027?aff=eprofsaved",
-    "description": "",
+    "description": "Share Goosebumps-themed homemade baked goods + try what others cooked up",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -2508,7 +2516,7 @@
     "time": "2pm",
     "end_time": "3:30pm",
     "url": "https://www.goatshenanigans.com/event-details/spooky-goat-cuddles-and-coffee-austin-the-hive",
-    "description": "",
+    "description": "Frolic outdoors with costumed goats",
     "tags": [
       "animals"
     ],
@@ -2600,8 +2608,12 @@
     "time": "9pm",
     "end_time": "2am",
     "url": "https://www.instagram.com/p/Dd9LSWKR6I6/",
-    "description": "",
-    "tags": [],
+    "description": "Indie dance party w/DJ, drag performers, + costume contest",
+    "tags": [
+      "dance party",
+      "drag",
+      "costumes"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": null,
@@ -3540,7 +3552,10 @@
     "end_time": "1pm",
     "url": "https://tngaustin.com/events/tng-fall-market-day/",
     "description": "Family-friendly pumpkin crafting + scarecrow contest w/categories including \"most elaborate\" and \"spookiest\"",
-    "tags": [],
+    "tags": [
+      "pumpkins",
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -5854,7 +5869,9 @@
     "end_time": "3pm",
     "url": "https://www.eventbrite.com/e/pumpkin-carver-2026-tickets-2002838462757",
     "description": "",
-    "tags": [],
+    "tags": [
+      "pumpkins"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -6030,7 +6047,8 @@
     "url": "https://www.instagram.com/p/DdXZeJiJ2Zc/",
     "description": "Meet some friendly horses in costumes while you trick-or-treat w/vendors + pumpkin decorating",
     "tags": [
-      "animals"
+      "animals",
+      "pumpkins"
     ],
     "age": "all ages",
     "age_min": 0,
