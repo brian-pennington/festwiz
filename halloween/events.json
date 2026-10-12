@@ -52,7 +52,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DdxptUKNcq9/",
-    "description": "",
+    "description": "Frankenstein-themed decorations, tarot + mad science-themed cocktails",
     "tags": [
       "bar takeover"
     ],
@@ -94,7 +94,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd9LnrTAgh5/",
-    "description": "",
+    "description": "Bicycle-themed bar becomes a Halloween-themed bar for October w/Halloween menu",
     "tags": [
       "bar takeover"
     ],
@@ -115,8 +115,10 @@
     "time": "",
     "end_time": "",
     "url": "https://www.beachsidebillys.com/hauntedshores",
-    "description": "",
-    "tags": [],
+    "description": "Nautical halloween decorations all over the place. Ride a spooky barge + tour a sunken ship",
+    "tags": [
+      "haunted house"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -134,7 +136,7 @@
     "time": "",
     "end_time": "",
     "url": "https://houseoftorment.com/",
-    "description": "",
+    "description": "High production value haunted house plus axe throwing, escape room, \"zombie simulation\"",
     "tags": [
       "haunted house"
     ],
@@ -155,7 +157,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd901cFx0Jl/",
-    "description": "",
+    "description": "An Austin tradition! Nickel City has into Homer's favorite haunt complete w/themed food + Simpsons arcade games",
     "tags": [
       "bar takeover"
     ],
@@ -176,7 +178,7 @@
     "time": "6pm",
     "end_time": "11pm",
     "url": "https://www.pumpkinnights.com/austin",
-    "description": "",
+    "description": "Tour large glowing sculptures made of thousands of pumpkins. Kilopumpkins?",
     "tags": [
       "pumpkins"
     ],
@@ -197,7 +199,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dcwk8jODOa-/",
-    "description": "",
+    "description": "\"Scare actors\" on a haunted trail w/photo ops, tarot, vendors, + cocktails",
     "tags": [
       "bar takeover"
     ],
@@ -218,7 +220,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DdaScwsRuBT/",
-    "description": "",
+    "description": "Twisted carnival/circus theemd bar takeover w/photo ops + themed cocktails",
     "tags": [
       "bar takeover"
     ],
@@ -2243,8 +2245,8 @@
     "price": "$5",
     "time": "7pm",
     "end_time": "11pm",
-    "url": "https://posh.vip/e/witch-fest-fire-fortune",
-    "description": "",
+    "url": "https://www.instagram.com/p/DeSMZIUCie5/",
+    "description": "Witchy vendors, live music, + bellydancing",
     "tags": [
       "shopping"
     ],
@@ -2524,9 +2526,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -2749,9 +2752,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -3170,7 +3174,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.flowerhillcenter.org/event-details-registration/movie-night-clue-2",
-    "description": "",
+    "description": "Watch the classic Tim Curry murder mystery in costume on a lawn",
     "tags": [
       "film"
     ],
@@ -3212,30 +3216,13 @@
     "time": "7pm",
     "end_time": "11pm",
     "url": "https://www.instagram.com/p/DeAjkmdvCBm/",
-    "description": "",
-    "tags": [],
+    "description": "\"Immersive horror movie experience\" w/live music, vendors, + motorcycle meetup",
+    "tags": [
+      "film"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 10.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "dante-s-inferno-2026-10-23-2",
-    "name": "Dante's Inferno",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-23",
-    "venue": "Ani's Day + Night",
-    "price": "",
-    "time": "7pm",
-    "end_time": "11pm",
-    "url": "https://www.instagram.com/p/DeaCA2QPj7h/",
-    "description": "",
-    "tags": [],
-    "age": "",
-    "age_min": null,
-    "price_min": null,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -3250,7 +3237,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://events.ticketleap.com/tickets/erotiqueer-burlesque/carnival-of-carnal-desires",
-    "description": "",
+    "description": "Freak-show inspired burlesque performances \"from the Human Spider to the Bearded Lady\"",
     "tags": [
       "burlesque"
     ],
@@ -3297,8 +3284,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-3b238ad6-1fdb-4e2f-a1c2-5fa37d7e622c",
-    "description": "",
-    "tags": [],
+    "description": "Dress up as your favorite Buffy character for trivia + 90s vibes",
+    "tags": [
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
@@ -3316,8 +3305,10 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://horrordecamara.planningpod.com/",
-    "description": "",
-    "tags": [],
+    "description": "\"Terrifying chamber music\" in an intimate setting from Mexican + Texan composers",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 30.0,
@@ -3416,8 +3407,8 @@
     "price": "$10",
     "time": "9:30pm",
     "end_time": "",
-    "url": "https://www.instagram.com/p/Dd47PgBpPEf/",
-    "description": "",
+    "url": "https://www.instagram.com/p/DeHwoBJpdm4/",
+    "description": "Drag performers pay tribute to the queen of schlocky horror movies w/Dj + livew music",
     "tags": [
       "drag",
       "costumes"
@@ -3439,7 +3430,7 @@
     "time": "6pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/DeIVpLmNTdb/",
-    "description": "",
+    "description": "Attend a séance + learn about the history of Ouija + related topics",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -3500,8 +3491,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.oraapp.com/e/sacra-et-profana",
-    "description": "",
-    "tags": [],
+    "description": "Choral + ballet performances inspired by Frankenstein + catholic mass in a church",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -3559,7 +3552,7 @@
     "time": "10pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-hannah-and-spencer-end-homophobia-halloween-special-tickets-2002629973159?aff=ebdssbdestsearch&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0DMTAwAHBkb2YCc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnO2ipb8YdQtE_oARsbrrgqT2O2tmZKZqe59Nt_DSSVvYNfev7ksWCSXbG9Qg_aem_D1Sd7qECIvUFWNbq5nzFlA",
-    "description": "",
+    "description": "Comedy show offers evidence that \"Halloween is the gayest holiday ever\"",
     "tags": [],
     "age": "18+",
     "age_min": 18,
@@ -3604,7 +3597,7 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/ticks",
-    "description": "",
+    "description": "Watch a film about bloodsucking arachnids made gigantic by \"toxic sludge from a local marijana plant\"",
     "tags": [
       "film"
     ],
@@ -4010,9 +4003,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -4418,8 +4412,10 @@
     "time": "4pm",
     "end_time": "",
     "url": "https://www.oraapp.com/e/sacra-et-profana",
-    "description": "",
-    "tags": [],
+    "description": "Choral + ballet performances inspired by Frankenstein + catholic mass in a church",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -4456,9 +4452,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -4971,7 +4968,7 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeNgqKkkY3B/?img_index=5",
-    "description": "",
+    "description": "Dog costume contest for prizes w/lots of categories",
     "tags": [
       "animals"
     ],
@@ -5575,7 +5572,7 @@
     "time": "10pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd2HfykJSGe/",
-    "description": "",
+    "description": "\"Terrifying chamber music\" in an intimate setting from Mexican + Texan composers",
     "tags": [
       "drag"
     ],
@@ -5617,9 +5614,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -6309,9 +6307,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -6657,9 +6656,10 @@
     "time": "10am",
     "end_time": "9pm",
     "url": "https://texaspumpkinfest.com/",
-    "description": "",
+    "description": "\"No one has more pumpkins.\" Vendors, photo ops, petting zoo, rides, + magic shows, pro wrestling",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
