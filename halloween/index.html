@@ -38,12 +38,14 @@
     <p class="masthead__sub" id="masthead-sub">Loading events&hellip;</p>
   </div>
 
-  <div class="viewtoggle" role="group" aria-label="View">
-    <button type="button" class="viewtoggle__btn is-active" id="btn-view-cards" data-view-set="cards" aria-pressed="true">Cards</button>
-    <button type="button" class="viewtoggle__btn" id="btn-view-table" data-view-set="table" aria-pressed="false">Table</button>
+  <div class="masthead__actions">
+    <div class="viewtoggle" role="group" aria-label="View">
+      <button type="button" class="viewtoggle__btn is-active" id="btn-view-table" data-view-set="table" aria-pressed="true">Table</button>
+      <button type="button" class="viewtoggle__btn" id="btn-view-cards" data-view-set="cards" aria-pressed="false">Cards</button>
+    </div>
+    <a class="masthead__cta masthead__cta--secondary" href="https://docs.google.com/spreadsheets/d/1JJlnBhnhkEWf5-cQyvAUNqIahYUhcjGTuTca3u8a9Yw/edit?pli=1&amp;gid=1857198146#gid=1857198146" target="_blank" rel="noopener">Spreadsheet</a>
+    <a class="masthead__cta" href="https://liteandbriteatx.com/" target="_blank" rel="noopener">Subscribe to Lite+Brite</a>
   </div>
-
-  <a class="masthead__cta" href="https://liteandbriteatx.com/" target="_blank" rel="noopener">Subscribe to Lite+Brite</a>
 
   <button type="button" class="masthead__filters-btn" id="btn-filters" aria-expanded="false" aria-controls="filters">
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 6h18M7 12h10M10 18h4"/></svg>
@@ -98,9 +100,9 @@
 
     <div class="filterbar__view" role="group" aria-label="View">
       <button type="button" class="viewtoggle__btn is-active"
-              data-view-set="cards" aria-pressed="true">Cards</button>
+              data-view-set="table" aria-pressed="true">Table</button>
       <button type="button" class="viewtoggle__btn"
-              data-view-set="table" aria-pressed="false">Table</button>
+              data-view-set="cards" aria-pressed="false">Cards</button>
     </div>
 
     <button type="button" class="filters__clear" id="btn-clear" hidden>Clear all</button>

@@ -12,7 +12,10 @@
   'use strict';
 
   var DAY_ROLLOVER_HOUR = 2;
-  var VIEW_KEY = 'halloween2026_view';
+  // v2: earlier builds saved the view on every load, so nearly every returning
+  // visitor has 'cards' stored without ever choosing it. A fresh key lets the
+  // table default reach them.
+  var VIEW_KEY = 'halloween2026_view_v2';
   var DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   var DAY_COLOURS = 6;
 
@@ -46,7 +49,7 @@
 
   var state = {
     events: [],
-    view: 'cards',
+    view: 'table',
     when: 'all',          // all | today | weekend
     tags: [],             // OR within tags
     maxAge: null,         // show events admitting someone of this age
@@ -534,7 +537,7 @@
     });
   }
 
-  function setView(view) {
+  function setView(view, remember) {
     state.view = view;
     // Drives the card-view-only background texture in the stylesheet.
     document.body.setAttribute('data-view', effectiveView());
@@ -546,7 +549,10 @@
       btns[i].classList.toggle('is-active', on);
       btns[i].setAttribute('aria-pressed', String(on));
     }
-    try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* private mode */ }
+    // Only an explicit click is remembered, so a later default change still lands.
+    if (remember) {
+      try { localStorage.setItem(VIEW_KEY, view); } catch (err) { /* private mode */ }
+    }
     render();
   }
 
@@ -739,7 +745,7 @@
     var viewBtns = document.querySelectorAll('[data-view-set]');
     for (var v = 0; v < viewBtns.length; v++) {
       viewBtns[v].addEventListener('click', function (e) {
-        setView(e.currentTarget.getAttribute('data-view-set'));
+        setView(e.currentTarget.getAttribute('data-view-set'), true);
       });
     }
 

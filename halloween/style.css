@@ -47,7 +47,7 @@
   --serif: Bitter, Georgia, "Times New Roman", serif;
   --cond: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
 
-  --gutter: 40px;
+  --gutter: 16px;
 
   /* Diagonal hatch behind the cards, from assets/diagonal-lines.svg.
      Intensity and tile size are set here; the COLOUR is the fill inside that
@@ -68,7 +68,6 @@
   --sticky-top: 135px;
 }
 
-@media (max-width: 720px) { :root { --gutter: 16px; } }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -147,6 +146,13 @@ a:hover { color: #ffc46b; }
 
 .masthead__sub { margin: 2px 0 0; font-size: 12px; color: var(--nav-fg-dim); }
 
+/* Toggle and both buttons sit closer together than the rest of the bar, and
+   stretch to one height. The CTAs have no vertical padding, so the toggle is
+   the tallest item and sets that height. */
+.masthead__actions {
+  display: flex; flex: none; align-items: stretch; gap: 8px;
+}
+
 .masthead__cta {
   flex: none;
   white-space: nowrap;
@@ -154,9 +160,16 @@ a:hover { color: #ffc46b; }
   font-size: 16px; font-weight: 600; letter-spacing: 0.5px;
   text-decoration: none;
   color: #14120f; background: var(--amber);
-  padding: 9px 18px; border-radius: 3px;
+  display: flex; align-items: center;
+  padding: 0 18px; border-radius: 3px;
 }
 .masthead__cta:hover { color: #14120f; background: #ffc46b; }
+/* Outlined, so Subscribe stays the one filled call to action in the bar. */
+.masthead__cta--secondary {
+  color: var(--amber); background: transparent;
+  box-shadow: inset 0 0 0 1px var(--amber);
+}
+.masthead__cta--secondary:hover { color: #14120f; background: var(--amber); }
 
 .masthead__filters-btn {
   display: none; position: relative;
@@ -254,7 +267,7 @@ a:hover { color: #ffc46b; }
 /* Six columns cannot work at phone width without horizontal scrolling, and a
    scrolling table is worse than either view, so below this the toggle goes. */
 @media (max-width: 860px) {
-  .viewtoggle, .masthead__cta, .masthead__divider { display: none; }
+  .masthead__actions, .masthead__divider { display: none; }
   .masthead__filters-btn { display: flex; }
   .masthead__title { font-size: 19px; }
   .masthead__logo { width: 86px; }
