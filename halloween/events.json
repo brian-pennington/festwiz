@@ -1363,7 +1363,7 @@
     "time": "5:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeFrDQHiZl4/",
-    "description": "",
+    "description": "Watch horror anthology + discuss how horror is \"a welcoming home for the queer, the strange, + the socially unacceptable\"",
     "tags": [
       "film"
     ],
@@ -3340,7 +3340,7 @@
     "status": "confirmed"
   },
   {
-    "id": "howl-o-ween-2026-10-23-2",
+    "id": "howl-o-ween-2026-10-23-1",
     "name": "Howl-o-ween",
     "name_html": null,
     "name_italics": null,
@@ -3350,7 +3350,7 @@
     "time": "4pm",
     "end_time": "6pm",
     "url": "https://www.instagram.com/p/DeHQTSAFigu/?img_index=8",
-    "description": "",
+    "description": "Dog costume contest for prizes w/lots of categories",
     "tags": [
       "animals"
     ],
@@ -4289,7 +4289,7 @@
     "time": "5:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeFrDQHiZl4/",
-    "description": "",
+    "description": "Singalong to the best film about man eating plants, discuss \"queer camp + gender performance\" + bingo, raffles",
     "tags": [
       "film"
     ],
@@ -4911,6 +4911,27 @@
     "status": "confirmed"
   },
   {
+    "id": "dia-de-los-perros-howl-oween-party-2026-10-29-1",
+    "name": "Dia de los Perros Howl-oween Party",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-29",
+    "venue": "The Jackalope South Shore",
+    "price": "",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/DeNgqKkkY3B/?img_index=5",
+    "description": "Dog costume contest, pet vendors, pet portraits, + \"beloved pets ofrenda\"",
+    "tags": [
+      "animals"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "fiasco-halloween-2026-10-29-1",
     "name": "Fiasco Halloween",
     "name_html": null,
@@ -5001,27 +5022,6 @@
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "howl-o-ween-2026-10-29-1",
-    "name": "Howl-o-ween",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-29",
-    "venue": "The Jackalope South Shore",
-    "price": "",
-    "time": "6pm",
-    "end_time": "",
-    "url": "https://www.instagram.com/p/DeNgqKkkY3B/?img_index=5",
-    "description": "Dog costume contest for prizes w/lots of categories",
-    "tags": [
-      "animals"
-    ],
-    "age": "",
-    "age_min": null,
-    "price_min": null,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6652,7 +6652,7 @@
     "time": "5:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeFrDQHiZl4/",
-    "description": "",
+    "description": "Watch a Hitchcock film about murder + \"dig into queer subtext, censorship\" + other topics",
     "tags": [
       "film"
     ],
@@ -6673,7 +6673,7 @@
     "time": "5pm",
     "end_time": "7:30pm",
     "url": "https://www.eventbrite.com/e/allgos-day-of-the-dead-community-altar-exhibit-celebration-2026-tickets-2003273557136",
-    "description": "",
+    "description": "Ofrendas + food, connecting with \"QTBIPOC folks + allies\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -6692,8 +6692,10 @@
     "time": "1pm",
     "end_time": "6pm",
     "url": "https://www.austintexas.gov/macc/events/esb-macc-dia-de-los-muertos",
-    "description": "",
-    "tags": [],
+    "description": "Ofrendas, art installations, + activities",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -6711,8 +6713,10 @@
     "time": "4pm",
     "end_time": "8pm",
     "url": "https://waterloogreenway.org/events/dia-de-los-muertos-3/",
-    "description": "",
-    "tags": [],
+    "description": "Vendors, ofrendas for departed loved ones + pets, traditional music + dance, face painting",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -6757,7 +6761,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.acllive.com/event/2026-11-01-jim-hensons-labyrinth-in-concert-40th-anniversary-at-8-pm",
-    "description": "",
+    "description": "Watch the spooky Bowie-led 80s masterpiece w/live soundtrack",
     "tags": [
       "film",
       "live music"
