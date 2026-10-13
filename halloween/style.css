@@ -47,7 +47,7 @@
   --serif: Bitter, Georgia, "Times New Roman", serif;
   --cond: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
 
-  --gutter: 16px;
+  --gutter: 40px;
 
   /* Diagonal hatch behind the cards, from assets/diagonal-lines.svg.
      Intensity and tile size are set here; the COLOUR is the fill inside that
@@ -96,6 +96,9 @@ a:hover { color: #ffc46b; }
 }
 
 :focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+
+/* Up to an iPad in landscape, the 40px gutter costs too much width. */
+@media (max-width: 1024px) { :root { --gutter: 16px; } }
 
 /* ── masthead ─────────────────────────────────────────────────────────── */
 
