@@ -4870,7 +4870,7 @@
     "time": "6:30pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/thats-my-face-black-horror-movie-showcase-tickets-2002839734561",
-    "description": "",
+    "description": "Watch two films \"showcasing Black women in horror and southern gothic films\"",
     "tags": [
       "film"
     ],
@@ -4896,7 +4896,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/bloodshed-theater",
-    "description": "",
+    "description": "Watch what very well might be the bloodiest horrror film of the 1960s",
     "tags": [
       "film"
     ],
@@ -4917,7 +4917,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeACZctoJwY/?img_index=1",
-    "description": "",
+    "description": "\"Haunting drag,\" pole, + go go from all star cast",
     "tags": [
       "drag"
     ],
@@ -4954,20 +4954,24 @@
     "status": "confirmed"
   },
   {
-    "id": "halloween-movie-nights-2026-10-29-4",
-    "name": "Halloween Movie Nights",
-    "name_html": null,
-    "name_italics": null,
+    "id": "halloween-movie-nights-frankenweenie-young-frankenstein-2026-10-29-1",
+    "name": "Halloween Movie Nights: Frankenweenie / Young Frankenstein",
+    "name_html": "Halloween Movie Nights: <em>Frankenweenie / Young Frankenstein</em>",
+    "name_italics": [
+      [
+        24,
+        58
+      ]
+    ],
     "date": "2026-10-29",
     "venue": "Meanwhile Brewing",
     "price": "free",
     "time": "6pm",
     "end_time": "",
-    "url": "https://www.meanwhilebeer.com/events/halloween-movie-nights-its-the-great-pumpkin-charlie-brown-over-the-garden-wall",
-    "description": "",
+    "url": "https://www.prekindle.com/event/13631-halloween-movie-nights-frankenweenie-young-frankenstein-austin",
+    "description": "Outdoor screening of two irreverent Frankenstein-inspired films",
     "tags": [
-      "film",
-      "family-friendly"
+      "film"
     ],
     "age": "",
     "age_min": null,
@@ -5068,7 +5072,7 @@
     "time": "9pm",
     "end_time": "",
     "url": "https://www.esthersfollies.com/skinny-dip",
-    "description": "",
+    "description": "Comedy variety show that is \"darker, dirtier, stranger, + definitely not for the faint of heart\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -5129,8 +5133,12 @@
     "time": "7pm",
     "end_time": "11pm",
     "url": "https://www.instagram.com/p/DdzKOYgvRZ_/",
-    "description": "",
-    "tags": [],
+    "description": "\"Live goblin band\" w/goblin games, costume contest, + vendors",
+    "tags": [
+      "live music",
+      "shopping",
+      "costumes"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 10.0,
@@ -5167,8 +5175,11 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://www.facebook.com/events/2412783249549037/",
-    "description": "",
-    "tags": [],
+    "description": "Support the arts by entering a costume contest, hearing live jazz, + participating in an auction",
+    "tags": [
+      "live music",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 20.0,
@@ -5207,8 +5218,11 @@
     "time": "7pm",
     "end_time": "11pm",
     "url": "https://blantonmuseum.org/programs/b-scene/",
-    "description": "",
-    "tags": [],
+    "description": "Live music, art exhibition, scavenger hunt, \"monster origami\" + costume contest",
+    "tags": [
+      "live music",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -5226,7 +5240,7 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/Dd1ePEcqobP/",
-    "description": "",
+    "description": "Watch a vintage slasher flick on 16mm film",
     "tags": [
       "film"
     ],
@@ -5268,8 +5282,10 @@
     "time": "10:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Ddo54_BjCiZ/",
-    "description": "",
-    "tags": [],
+    "description": "\"Come haunt the dance floor\" filled with 90s/00s rave tunes",
+    "tags": [
+      "dance party"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": null,
@@ -5287,8 +5303,10 @@
     "time": "6pm",
     "end_time": "10pm",
     "url": "https://www.eventbrite.com/e/buffy-the-vampire-slayer-party-tickets-2003303638109",
-    "description": "",
-    "tags": [],
+    "description": "Buffy-inspired costume contest + photo ops plus 90s vinyl DJ sets",
+    "tags": [
+      "costumes"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -5327,8 +5345,10 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://strangeextraordinaryfest.thundertix.com/events/272329?only_one=true",
-    "description": "",
-    "tags": [],
+    "description": "Engage in a coversation w/the departed in one of Austin's most historic spaces, plus lecture, cocktails",
+    "tags": [
+      "seance"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 250.0,
@@ -5372,30 +5392,13 @@
     "time": "6pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/DeAbvt2NAAR/",
-    "description": "",
-    "tags": [],
+    "description": "Vendor market, trivia, + \"free beer\"",
+    "tags": [
+      "shopping"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "halloweird-2026-10-30-2",
-    "name": "Halloweird",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-30",
-    "venue": "Half Step",
-    "price": "free",
-    "time": "3pm",
-    "end_time": "12am",
-    "url": "https://www.instagram.com/p/Ddzci6NlEXV/?img_index=1",
-    "description": "",
-    "tags": [],
-    "age": "",
-    "age_min": null,
-    "price_min": 0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -5415,7 +5418,7 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://store.weluvvideo.org/events/vinegar-syndrome-hauntedween",
-    "description": "",
+    "description": "Watch \"gory, Funhouse-flavored Kentucky slasher\" flick newly restored to 4K",
     "tags": [
       "film"
     ],
@@ -5497,8 +5500,11 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-ccded303-089a-41d9-a362-e28ff6921652",
-    "description": "",
-    "tags": [],
+    "description": "Dress up in costumes creatively inspired by the dungeon trickster: the Mimic, + live dungeon synth",
+    "tags": [
+      "live music",
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
@@ -5516,8 +5522,10 @@
     "time": "8pm",
     "end_time": "11pm",
     "url": "https://www.finneysbooks.com/event/1192",
-    "description": "",
-    "tags": [],
+    "description": "Monster/romance hybrid costumes, photo booth, + \"deliciously disgusting snacks\"",
+    "tags": [
+      "costumes"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": 25.0,
@@ -5577,7 +5585,7 @@
     "time": "11pm",
     "end_time": "",
     "url": "https://www.esthersfollies.com/skinny-dip",
-    "description": "",
+    "description": "Comedy variety show that is \"darker, dirtier, stranger, + definitely not for the faint of heart\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -5596,8 +5604,10 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://sweatpals.com/event/sober-social-halloween-costume-party/2026-10-30",
-    "description": "",
-    "tags": [],
+    "description": "Dress up in costume for an evening of non-alcoholic libations",
+    "tags": [
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 25.0,
@@ -5721,8 +5731,11 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd9qY9QvmCG/",
-    "description": "",
-    "tags": [],
+    "description": "Bands paying tribute to various sinister musical groups, costume contest, puppers, + \"scream batttle\"",
+    "tags": [
+      "live music",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 10.0,
@@ -5739,8 +5752,8 @@
     "price": "$18",
     "time": "9pm",
     "end_time": "",
-    "url": "https://www.instagram.com/p/Ddh9RD3xgvg/",
-    "description": "",
+    "url": "https://www.instagram.com/p/DeX7NlrAUU8/",
+    "description": "Tribute bands perform as topically spooky groups the Cure + Deftones",
     "tags": [
       "live music"
     ],
@@ -5787,7 +5800,7 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://jesterkingbrewery.com/events#id=the-vvitch-outdoor-movie-screening-inside-the-goat-pen",
-    "description": "",
+    "description": "\"Join a herd of 72 goats\" in watching what we presume is a goat's favorite Halloween film, the VVitch",
     "tags": [
       "film",
       "animals"
@@ -5984,8 +5997,12 @@
     "time": "8pm",
     "end_time": "2am",
     "url": "https://www.etix.com/ticket/p/32754948/freakshow-on-fruth-street-austin-29th-street-ballroom",
-    "description": "",
-    "tags": [],
+    "description": "Local + touring live bands, pole arts, DJs, costume contest, vendors, + haunted house",
+    "tags": [
+      "live music",
+      "shopping",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 19.0,
@@ -6090,6 +6107,29 @@
     "status": "confirmed"
   },
   {
+    "id": "halloweird-2026-10-31-2",
+    "name": "Halloweird",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "Half Step",
+    "price": "free",
+    "time": "3pm",
+    "end_time": "12am",
+    "url": "https://www.instagram.com/p/Ddzci6NlEXV/?img_index=1",
+    "description": "Live music, ofrenda, costume contest, + vendor market",
+    "tags": [
+      "live music",
+      "shopping",
+      "costumes"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "haunted-honky-honk-2026-10-31-1",
     "name": "Haunted Honky Honk",
     "name_html": null,
@@ -6181,8 +6221,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://dice.fm/partner/tickets/event/3ob87l-halloween-w-the-hot-rockers-monsters-of-rock-tribute-to-ozzy-osbourne-iron-maiden-black-sabbath-dj-tinita-turn-up-31st-oct-the-13th-floor-austin-tickets?dice_id=10576088&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=352306664070117354&utm_source=web&utm_campaign=DICE&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1Q9LtTCzSDKwMLU0SbOvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQBNIyL8OwAAAA%3D%3D",
-    "description": "",
-    "tags": [],
+    "description": "Tribute bands dress up for covers of some classic metal acts",
+    "tags": [
+      "live music"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 17.0,
@@ -6200,8 +6242,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://partiful.com/e/g4UcA4udX0lg9jnxa6XF",
-    "description": "",
-    "tags": [],
+    "description": "Hear live music in a secret location w/karaoke afterward",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 10.0,
@@ -6278,8 +6322,10 @@
     "time": "10pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DdohzDJHFTu/?img_index=1",
-    "description": "",
-    "tags": [],
+    "description": "If you're watching a scary flick + someone goes into a tunnel to see a bunch of bands, you know what's about to happen",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -6297,7 +6343,7 @@
     "time": "9pm",
     "end_time": "",
     "url": "https://www.esthersfollies.com/skinny-dip",
-    "description": "",
+    "description": "Comedy variety show that is \"darker, dirtier, stranger, + definitely not for the faint of heart\"",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -6439,7 +6485,7 @@
     "time": "8:30pm",
     "end_time": "",
     "url": "https://coldtownetheater.com/show/the-improvised-twilight-zone/",
-    "description": "",
+    "description": "Improv comedians inspired by the classic black & white horror tv show",
     "tags": [
       "improv"
     ],
@@ -6542,8 +6588,10 @@
     "time": "9pm",
     "end_time": "2am",
     "url": "https://www.instagram.com/p/DcwfxyHphx5/",
-    "description": "",
-    "tags": [],
+    "description": "Live darkwave + industrial acts + DJ w/drag host + accompanying pole performances",
+    "tags": [
+      "live music"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": 20.0,
