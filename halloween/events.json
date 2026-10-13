@@ -1490,7 +1490,9 @@
     "end_time": "6pm",
     "url": "https://www.instagram.com/p/DdzLZFRETf5/?img_index=1",
     "description": "BYO witchy items to trade for new-to-you reused witchy goods",
-    "tags": [],
+    "tags": [
+      "shopping"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -4719,7 +4721,9 @@
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
     "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
@@ -4991,7 +4995,9 @@
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
     "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
@@ -5214,7 +5220,7 @@
     "name_italics": null,
     "date": "2026-10-30",
     "venue": "The Blanton",
-    "price": "",
+    "price": "$25",
     "time": "7pm",
     "end_time": "11pm",
     "url": "https://blantonmuseum.org/programs/b-scene/",
@@ -5225,7 +5231,7 @@
     ],
     "age": "",
     "age_min": null,
-    "price_min": null,
+    "price_min": 25.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -5440,7 +5446,9 @@
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
     "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
@@ -5860,8 +5868,11 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/a-night-of-a-thousand-screams-tickets-2002156564180",
-    "description": "",
-    "tags": [],
+    "description": "\"All-Black burlesque show\" w/costume contest + raffle",
+    "tags": [
+      "burlesque",
+      "costumes"
+    ],
     "age": "18+",
     "age_min": 18,
     "price_min": 29.0,
@@ -5900,8 +5911,11 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd_-JNZjMxg/",
-    "description": "",
-    "tags": [],
+    "description": "Recreate Blade's epic blood rave scene complete w/blood sprinklers",
+    "tags": [
+      "dance party",
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 26.0,
@@ -5919,9 +5933,10 @@
     "time": "4pm",
     "end_time": "9pm",
     "url": "https://www.austinfarmsanctuary.org/events",
-    "description": "",
+    "description": "Meet rescue farm animals, trick-or-treating, \"family movie\" + pumpkin smashing",
     "tags": [
-      "animals"
+      "animals",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -5940,8 +5955,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://dice.fm/event/3obw8x-daft-disko-halloween-austin-31st-oct-inn-cahoots-austin-tickets",
-    "description": "",
-    "tags": [],
+    "description": "Dance party featuring music by French house greats",
+    "tags": [
+      "dance party"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 25.0,
@@ -5959,8 +5976,10 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-m24uc8i4",
-    "description": "",
-    "tags": [],
+    "description": "Fantasy drag night embraces Halloween inspirations",
+    "tags": [
+      "drag"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 15.0,
@@ -5978,8 +5997,10 @@
     "time": "6pm",
     "end_time": "1am",
     "url": "https://www.instagram.com/p/DdWxOfPPoK0/",
-    "description": "",
-    "tags": [],
+    "description": "All-femme lineup of bands + DJs, plus tattoos + tarot",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 10.0,
@@ -6020,8 +6041,11 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://partiful.com/e/EFGOMMACbeGjrMHt7Iah",
-    "description": "",
-    "tags": [],
+    "description": "DJs spinning 70s+80s vinyl, 70s costumes, + promises to be \"nowhere near downtown\"",
+    "tags": [
+      "dance party",
+      "costumes"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 0,
@@ -6039,8 +6063,11 @@
     "time": "12pm",
     "end_time": "4pm",
     "url": "https://www.instagram.com/p/DePNMajl8sV/",
-    "description": "",
-    "tags": [],
+    "description": "Carnival-themed party w/kids' costume contest, puppet show, face painting, + \"princesses\"",
+    "tags": [
+      "family-friendly",
+      "costumes"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": null,
@@ -6058,32 +6085,14 @@
     "time": "1pm",
     "end_time": "8pm",
     "url": "https://www.eventbrite.com/e/halloween-fall-market-tickets-2001939730625?aff=ebdsoporgprofile",
-    "description": "",
+    "description": "Craft beer, vending from artists + makers",
     "tags": [
-      "shopping"
+      "shopping",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "halloween-masquerade-2026-10-31-1",
-    "name": "Halloween Masquerade",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-31",
-    "venue": "Bolm Arts",
-    "price": "",
-    "time": "7pm",
-    "end_time": "10pm",
-    "url": "https://www.instagram.com/p/DdujEVmCeh1/?img_index=1",
-    "description": "",
-    "tags": [],
-    "age": "",
-    "age_min": null,
-    "price_min": null,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6098,8 +6107,10 @@
     "time": "5pm",
     "end_time": "12am",
     "url": "https://tickets.thefaroutaustin.com/events/thefaroutloungestage/2284272",
-    "description": "",
-    "tags": [],
+    "description": "If you wanna see a stacked lineup of bands for Halloween, this is the event for you",
+    "tags": [
+      "live music"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 67.0,
@@ -6140,8 +6151,10 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/Dd5OVzEq9gu/",
-    "description": "",
-    "tags": [],
+    "description": "Details are vague but there will be costumes, games, + we anticipate fire spinning",
+    "tags": [
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -6160,7 +6173,9 @@
     "end_time": "",
     "url": "https://hiddenroomtheatre.com/what-will-be/",
     "description": "See a play about Houdini's life on the 100th anniversary of his shuffling off this mortal coil",
-    "tags": [],
+    "tags": [
+      "seance"
+    ],
     "age": "10+",
     "age_min": 10,
     "price_min": 35.0,
@@ -6168,24 +6183,56 @@
     "status": "confirmed"
   },
   {
-    "id": "invincible-czars-2026-10-31-1",
-    "name": "Invincible Czars",
-    "name_html": null,
-    "name_italics": null,
+    "id": "invisible-czars-faust-2026-10-31-1",
+    "name": "Invisible Czars: Faust",
+    "name_html": "Invisible Czars: <em>Faust</em>",
+    "name_italics": [
+      [
+        17,
+        22
+      ]
+    ],
     "date": "2026-10-31",
     "venue": "Alamo Mueller",
-    "price": "",
-    "time": "",
+    "price": "$25",
+    "time": "9:15pm",
     "end_time": "",
     "url": "https://invincibleczars.com/",
-    "description": "",
+    "description": "Watch silent film involving devils + plagues live scored by a soundtrack band",
     "tags": [
       "film",
       "live music"
     ],
     "age": "",
     "age_min": null,
-    "price_min": null,
+    "price_min": 25.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "invisible-czars-nosferatu-2026-10-31-1",
+    "name": "Invisible Czars: Nosferatu",
+    "name_html": "Invisible Czars: <em>Nosferatu</em>",
+    "name_italics": [
+      [
+        17,
+        26
+      ]
+    ],
+    "date": "2026-10-31",
+    "venue": "Alamo Mueller",
+    "price": "$25",
+    "time": "6pm",
+    "end_time": "",
+    "url": "https://invincibleczars.com/",
+    "description": "Watch the classic 1920s vampire film live scored by a soundtrack band",
+    "tags": [
+      "film",
+      "live music"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 25.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6263,8 +6310,11 @@
     "time": "12pm",
     "end_time": "5pm",
     "url": "https://www-tinyminotaur-com.filesusr.com/html/e571ad_cb0c26d69530fe76c47d635c31497f0c.html#calendar-9c32086f-bcda-48ba-86a9-7e2d26998e7a-event-8cc3e328-7ea3-4ea2-8e69-5abe260f91da",
-    "description": "",
-    "tags": [],
+    "description": "Book fair w/local booksellers, Over the Garden Wall-inspired costumes",
+    "tags": [
+      "shopping",
+      "costumes"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -6282,8 +6332,10 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://www.instagram.com/p/DcjPzP1EUJ7/?img_index=1",
-    "description": "",
-    "tags": [],
+    "description": "Check out fancy automobiles in costume",
+    "tags": [
+      "costumes"
+    ],
     "age": "",
     "age_min": null,
     "price_min": null,
@@ -6301,9 +6353,11 @@
     "time": "12pm",
     "end_time": "3pm",
     "url": "https://www.eventbrite.com/e/pumpkin-carver-2026-tickets-2002838462757",
-    "description": "",
+    "description": "Pumpkin carving, costume contest, vendors, petting zoo, \"carnival-style food,\" + \"haunted maze\"",
     "tags": [
-      "pumpkins"
+      "pumpkins",
+      "costumes",
+      "family-friendly"
     ],
     "age": "all ages",
     "age_min": 0,
@@ -6348,25 +6402,6 @@
     "age": "",
     "age_min": null,
     "price_min": 26.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "tails-from-the-crypt-2026-10-31-1",
-    "name": "Tails from the Crypt",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-31",
-    "venue": "Ani's Day + Night",
-    "price": "$11-$21",
-    "time": "7:30pm",
-    "end_time": "",
-    "url": "https://events.ticketleap.com/tickets/up-in-smoke-cabaret-productions/up-in-smoke-cabaret-presents-tails-from-the-crypt",
-    "description": "",
-    "tags": [],
-    "age": "18+",
-    "age_min": 18,
-    "price_min": 11.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6528,8 +6563,10 @@
     "time": "2pm",
     "end_time": "4pm",
     "url": "https://www.eventbrite.com/e/bookpeople-presents-trick-or-read-2026-tickets-2001414138565?aff=ebdsoporgprofile",
-    "description": "",
-    "tags": [],
+    "description": "Free books, storytime, trick-or-treating at book stations, + free ice cream",
+    "tags": [
+      "family-friendly"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,
@@ -6547,10 +6584,11 @@
     "time": "6:30pm",
     "end_time": "",
     "url": "https://events.ticketleap.com/tickets/up-in-smoke-cabaret-productions/up-in-smoke-cabaret-presents-tails-from-the-crypt",
-    "description": "",
+    "description": "Halloween-themed drag + burlesque, trivia, raffles, costume contest, + DJ",
     "tags": [
       "burlesque",
-      "costumes"
+      "costumes",
+      "dance party"
     ],
     "age": "18+",
     "age_min": 18,
@@ -6682,24 +6720,29 @@
     "status": "confirmed"
   },
   {
-    "id": "invincible-czars-2026-11-01-2",
-    "name": "Invincible Czars",
-    "name_html": null,
-    "name_italics": null,
+    "id": "invisible-czars-cabinet-of-dr-cagliari-2026-11-01-1",
+    "name": "Invisible Czars: Cabinet of Dr. Cagliari",
+    "name_html": "Invisible Czars: <em>Cabinet of Dr. Cagliari</em>",
+    "name_italics": [
+      [
+        17,
+        40
+      ]
+    ],
     "date": "2026-11-01",
     "venue": "Alamo Mueller",
-    "price": "",
-    "time": "",
+    "price": "$25",
+    "time": "7pm",
     "end_time": "",
     "url": "https://invincibleczars.com/",
-    "description": "",
+    "description": "Watch classic 1920s silent horror film live scored by a soundtrack band",
     "tags": [
       "film",
       "live music"
     ],
     "age": "",
     "age_min": null,
-    "price_min": null,
+    "price_min": 25.0,
     "sold_out": false,
     "status": "confirmed"
   },
