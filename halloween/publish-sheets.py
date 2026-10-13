@@ -423,6 +423,14 @@ def format_requests(sheet_id, rows, spans, n_cols=N_COLS):
                            "foregroundColor": rgb("#000000")}},
            "userEnteredFormat(backgroundColor,textFormat)")
 
+    # Re-fit every row before pinning the footer rule. ws.clear() leaves row
+    # heights alone, and add_rows copies the last row's height — so a longer
+    # rebuild would otherwise stretch every row past the previous run's
+    # footer to FOOTER_RULE_PX.
+    req.append({"autoResizeDimensions": {
+        "dimensions": {"sheetId": sheet_id, "dimension": "ROWS",
+                       "startIndex": 0, "endIndex": len(rows)}}})
+
     req.append({"updateDimensionProperties": {
         "range": {"sheetId": sheet_id, "dimension": "ROWS",
                   "startIndex": spans["footer_rule_bottom"],
