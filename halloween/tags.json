@@ -11,17 +11,17 @@
   },
   {
     "tag": "costumes",
-    "count": 32,
+    "count": 33,
     "color": "#0f3934"
   },
   {
-    "tag": "live music",
+    "tag": "shopping",
     "count": 26,
     "color": "#6e2472"
   },
   {
-    "tag": "shopping",
-    "count": 25,
+    "tag": "live music",
+    "count": 26,
     "color": "#6e2472"
   },
   {
@@ -30,18 +30,18 @@
     "color": "#3b5ea8"
   },
   {
+    "tag": "drag",
+    "count": 17,
+    "color": "#6e2472"
+  },
+  {
     "tag": "seance",
     "count": 17,
     "color": "#2f7d4f"
   },
   {
-    "tag": "drag",
-    "count": 16,
-    "color": "#6e2472"
-  },
-  {
     "tag": "burlesque",
-    "count": 15,
+    "count": 16,
     "color": "#b03a2e"
   },
   {

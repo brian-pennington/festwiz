@@ -2552,8 +2552,13 @@
     "time": "7pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DeDedkOCdHw/",
-    "description": "",
-    "tags": [],
+    "description": "Aerialists, pole, burlesque, + drag performers, DJ, costume contest, plus artist + wellness vendors",
+    "tags": [
+      "costumes",
+      "shopping",
+      "drag",
+      "burlesque"
+    ],
     "age": "",
     "age_min": null,
     "price_min": 0,
@@ -3321,25 +3326,6 @@
     "status": "confirmed"
   },
   {
-    "id": "horror-film-dance-party-2026-10-23-1",
-    "name": "Horror Film Dance Party",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-23",
-    "venue": "Ani's Day and Night",
-    "price": "",
-    "time": "",
-    "end_time": "",
-    "url": "https://www.instagram.com/p/DcdywH2uILu/",
-    "description": "",
-    "tags": [],
-    "age": "",
-    "age_min": null,
-    "price_min": null,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
     "id": "howl-o-ween-2026-10-23-1",
     "name": "Howl-o-ween",
     "name_html": null,
@@ -3392,7 +3378,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.instagram.com/p/Ddmauoti6Ce/",
-    "description": "",
+    "description": "Vendor market w/live music, fire performers, + \"spells\"",
     "tags": [
       "shopping"
     ],
@@ -4221,7 +4207,7 @@
     "time": "",
     "end_time": "",
     "url": "https://www.facebook.com/reel/1047309391451647",
-    "description": "",
+    "description": "Spooky-themed art vendors",
     "tags": [
       "shopping"
     ],
