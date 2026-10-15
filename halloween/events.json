@@ -2196,28 +2196,6 @@
     "status": "confirmed"
   },
   {
-    "id": "thriller-2026-10-16-1",
-    "name": "Thriller",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-16",
-    "venue": "Hive",
-    "price": "$15",
-    "time": "7:30pm",
-    "end_time": "10pm",
-    "url": "https://www.simpletix.com/e/thriller-an-80s-halloween-party-drag-show-tickets-296798",
-    "description": "Thriller/80s-themed drag performers, cocktails, + menu. Costumes encouraged",
-    "tags": [
-      "drag",
-      "costumes"
-    ],
-    "age": "",
-    "age_min": null,
-    "price_min": 15.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
     "id": "vampire-murder-mystery-ball-2026-10-16-1",
     "name": "Vampire Murder Mystery Ball",
     "name_html": null,
@@ -2421,7 +2399,7 @@
     "time": "7pm",
     "end_time": "10pm",
     "url": "https://moha.wiki/Third_Saturday_at_MoHA_(October_2026)",
-    "description": "Craft some trinkets, listen to live experimental electronic group, + trinket crafting",
+    "description": "Craft some trinkets, apply clown makeup blindfolded, listen to live experimental electronic group, + costume contest",
     "tags": [
       "shopping"
     ],
@@ -2948,7 +2926,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "Haunted house-themed escape room",
+    "description": "Haunted house-themed escape room created by Texas Theme Park Engineering and Design students",
     "tags": [
       "haunted house"
     ],
@@ -2976,6 +2954,27 @@
     "age": "6+",
     "age_min": 6,
     "price_min": 28.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "bride-of-frankenstein-2026-10-22-1",
+    "name": "Bride of Frankenstein",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-22",
+    "venue": "Dougherty Arts Center",
+    "price": "free",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://www.eventbrite.com/e/dac-nights-the-bride-of-frankenstein-tickets-2002757377228?aff=eprofsaved",
+    "description": "",
+    "tags": [
+      "film"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -3078,7 +3077,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "Haunted house-themed escape room",
+    "description": "Haunted house-themed escape room created by Texas Theme Park Engineering and Design students",
     "tags": [
       "haunted house"
     ],
@@ -3564,7 +3563,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "Haunted house-themed escape room",
+    "description": "Haunted house-themed escape room created by Texas Theme Park Engineering and Design students",
     "tags": [
       "haunted house"
     ],
@@ -3852,6 +3851,25 @@
     "status": "confirmed"
   },
   {
+    "id": "hallowzine-party-2026-10-24-1",
+    "name": "Hallowzine Party",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-24",
+    "venue": "Sherwood Forest Zine Library",
+    "price": "free",
+    "time": "2pm",
+    "end_time": "6pm",
+    "url": "https://www.sherwoodforestzinelibrary.org/",
+    "description": "",
+    "tags": [],
+    "age": "all ages",
+    "age_min": 0,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "murder-mayhem-misadventure-cemetery-tour-2026-10-24-1",
     "name": "Murder, Mayhem, + Misadventure Cemetery Tour",
     "name_html": null,
@@ -4087,7 +4105,7 @@
     "time": "various",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/the-haunting-of-nightingale-manor-a-horror-escape-room-tickets-2002183347289?aff=erelexpmlt",
-    "description": "Haunted house-themed escape room",
+    "description": "Haunted house-themed escape room created by Texas Theme Park Engineering and Design students",
     "tags": [
       "haunted house"
     ],
@@ -4820,6 +4838,25 @@
     "status": "confirmed"
   },
   {
+    "id": "wicked-wednesday-2026-10-28-1",
+    "name": "Wicked Wednesday",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-28",
+    "venue": "Tweedy's",
+    "price": "free",
+    "time": "10pm",
+    "end_time": "1am",
+    "url": "https://www.instagram.com/p/DeepLS7oWS4/",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "bat-city-scaregrounds-2026-10-29-14",
     "name": "Bat City Scaregrounds",
     "name_html": null,
@@ -5138,6 +5175,28 @@
     "status": "confirmed"
   },
   {
+    "id": "thriller-2026-10-29-1",
+    "name": "Thriller",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-29",
+    "venue": "The Hive",
+    "price": "$15",
+    "time": "7:30pm",
+    "end_time": "10pm",
+    "url": "https://www.simpletix.com/e/thriller-an-80s-halloween-party-drag-show-tickets-296798",
+    "description": "Thriller/80s-themed drag performers, cocktails, + menu. Costumes encouraged",
+    "tags": [
+      "drag",
+      "costumes"
+    ],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "ventana-ballet-undead-haunted-house-of-dances-2026-10-29-6",
     "name": "Ventana Ballet: Undead Haunted House of Dances",
     "name_html": null,
@@ -5175,6 +5234,25 @@
     "age": "",
     "age_min": null,
     "price_min": 20.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "all-hallows-swing-2026-10-30-1",
+    "name": "All Hallows Swing",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-30",
+    "venue": "Ani's Day and Night",
+    "price": "$15",
+    "time": "6pm",
+    "end_time": "10pm",
+    "url": "https://www.instagram.com/p/DeaHyfruboh/",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 15.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6308,6 +6386,25 @@
     "status": "confirmed"
   },
   {
+    "id": "paradise-lost-2026-10-31-1",
+    "name": "Paradise Lost",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "RichesArt",
+    "price": "$35",
+    "time": "8pm",
+    "end_time": "1am",
+    "url": "https://posh.vip/e/the-fall-doomsday-debauchery",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 35.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "park-scream-2026-10-31-1",
     "name": "Park + Scream",
     "name_html": null,
@@ -6477,6 +6574,25 @@
     "status": "confirmed"
   },
   {
+    "id": "the-curse-of-the-flower-shop-2026-10-31-1",
+    "name": "The Curse of the Flower Shop",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "The Flower Shop",
+    "price": "free",
+    "time": "8pm",
+    "end_time": "",
+    "url": "https://www.instagram.com/p/Defg8anR5sV/",
+    "description": "",
+    "tags": [],
+    "age": "21+",
+    "age_min": 21,
+    "price_min": 0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "the-gravest-show-on-earth-2026-10-31-1",
     "name": "The Gravest Show on Earth",
     "name_html": null,
@@ -6487,8 +6603,10 @@
     "time": "7:30pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DddS4SrRv0S/",
-    "description": "Sinister circus promises “clown alley” + “skelephant”",
-    "tags": [],
+    "description": "Mardi Gras krewe offers sinister circus w/“clown alley” + “skelephant,” plus afterparty",
+    "tags": [
+      "parade"
+    ],
     "age": "all ages",
     "age_min": 0,
     "price_min": 0,

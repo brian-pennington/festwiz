@@ -37,7 +37,7 @@
   },
   {
     "venue": "Ani's Day and Night",
-    "count": 3
+    "count": 4
   },
   {
     "venue": "Austin Farm Sanctuary",
@@ -109,6 +109,10 @@
   },
   {
     "venue": "Dottie Jordan Recreation Center",
+    "count": 1
+  },
+  {
+    "venue": "Dougherty Arts Center",
     "count": 1
   },
   {
@@ -185,10 +189,6 @@
   },
   {
     "venue": "Hill Country Castle",
-    "count": 1
-  },
-  {
-    "venue": "Hive",
     "count": 1
   },
   {
@@ -320,6 +320,10 @@
     "count": 1
   },
   {
+    "venue": "RichesArt",
+    "count": 1
+  },
+  {
     "venue": "Sans Bar",
     "count": 1
   },
@@ -329,6 +333,10 @@
   },
   {
     "venue": "Shangri-La",
+    "count": 1
+  },
+  {
+    "venue": "Sherwood Forest Zine Library",
     "count": 1
   },
   {
@@ -416,12 +424,16 @@
     "count": 1
   },
   {
+    "venue": "The Flower Shop",
+    "count": 1
+  },
+  {
     "venue": "The Highball",
     "count": 2
   },
   {
     "venue": "The Hive",
-    "count": 2
+    "count": 3
   },
   {
     "venue": "The Jackalope South Shore",
@@ -465,7 +477,7 @@
   },
   {
     "venue": "Tweedy's",
-    "count": 1
+    "count": 2
   },
   {
     "venue": "Umlauf",
