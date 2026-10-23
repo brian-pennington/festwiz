@@ -1,7 +1,7 @@
 [
   {
     "tag": "film",
-    "count": 88,
+    "count": 89,
     "color": "#1d6a5f"
   },
   {
@@ -50,14 +50,14 @@
     "color": "#b03a2e"
   },
   {
+    "tag": "animals",
+    "count": 12,
+    "color": "#0f3934"
+  },
+  {
     "tag": "dance party",
     "count": 10,
     "color": "#8c1f3d"
-  },
-  {
-    "tag": "animals",
-    "count": 10,
-    "color": "#0f3934"
   },
   {
     "tag": "bar takeover",
