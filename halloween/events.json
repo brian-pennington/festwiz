@@ -5648,7 +5648,7 @@
     "time": "9:30pm",
     "end_time": "",
     "url": "https://bbdancecollective.com/performances",
-    "description": "",
+    "description": "“Folk horror ballet” explores Hipsanic + Latin American folklore",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -6102,6 +6102,25 @@
     "status": "confirmed"
   },
   {
+    "id": "behind-the-mask-closing-party-2026-10-31-1",
+    "name": "Behind the Mask Closing Party",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-10-31",
+    "venue": "Bolm Arts",
+    "price": "",
+    "time": "7pm",
+    "end_time": "10pm",
+    "url": "https://www.bolmarts.org/event-details/behind-the-mask-masquerade-closing",
+    "description": "Closing party + masquerade closing for mask-themed art exhibition",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": null,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
     "id": "blade-rave-2026-10-31-1",
     "name": "Blade Rave",
     "name_html": null,
@@ -6370,8 +6389,8 @@
     "price": "",
     "time": "8pm",
     "end_time": "",
-    "url": "https://www.instagram.com/p/Dd5OVzEq9gu/",
-    "description": "Details are vague but there will be costumes, games, + we anticipate fire spinning",
+    "url": "https://partiful.com/e/s8H5NLInwslyfsJ2r9Er",
+    "description": "“Human petting zoo,” line dance, speed dating, variety show, + clown burlesque",
     "tags": [
       "costumes"
     ],
@@ -6403,13 +6422,13 @@
     "status": "confirmed"
   },
   {
-    "id": "invisible-czars-faust-2026-10-31-1",
-    "name": "Invisible Czars: Faust",
-    "name_html": "Invisible Czars: <em>Faust</em>",
+    "id": "invincible-czars-faust-2026-10-31-1",
+    "name": "Invincible Czars: Faust",
+    "name_html": "Invincible Czars: <em>Faust</em>",
     "name_italics": [
       [
-        17,
-        22
+        18,
+        23
       ]
     ],
     "date": "2026-10-31",
@@ -6430,13 +6449,13 @@
     "status": "confirmed"
   },
   {
-    "id": "invisible-czars-nosferatu-2026-10-31-1",
-    "name": "Invisible Czars: Nosferatu",
-    "name_html": "Invisible Czars: <em>Nosferatu</em>",
+    "id": "invincible-czars-nosferatu-2026-10-31-1",
+    "name": "Invincible Czars: Nosferatu",
+    "name_html": "Invincible Czars: <em>Nosferatu</em>",
     "name_italics": [
       [
-        17,
-        26
+        18,
+        27
       ]
     ],
     "date": "2026-10-31",
@@ -6453,25 +6472,6 @@
     "age": "",
     "age_min": null,
     "price_min": 25.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
-    "id": "la-llorona-2026-10-31-2",
-    "name": "La Llorona",
-    "name_html": null,
-    "name_italics": null,
-    "date": "2026-10-31",
-    "venue": "Penfold Theater",
-    "price": "$20",
-    "time": "7pm",
-    "end_time": "",
-    "url": "https://bbdancecollective.com/performances",
-    "description": "",
-    "tags": [],
-    "age": "",
-    "age_min": null,
-    "price_min": 20.0,
     "sold_out": false,
     "status": "confirmed"
   },
@@ -6528,7 +6528,7 @@
     "time": "10:30am",
     "end_time": "",
     "url": "https://www.eventbrite.com/e/no-tricks-all-treats-halloween-pumpkin-smash-and-fall-festival-tickets-2003557091194",
-    "description": "",
+    "description": "Instead of getting treats, deliver them to rescue pigs in the form of pumpkins",
     "tags": [
       "animals"
     ],
@@ -6878,8 +6878,8 @@
     "price": "$33",
     "time": "7:30pm",
     "end_time": "",
-    "url": "https://tickets.monksjazz.com/",
-    "description": "",
+    "url": "https://tickets.monksjazz.com/shows/13619/2026-10-31",
+    "description": "“Austin’s spookiest jazz quartet” performs the soundtracks of Danny Elfman w/costume contest",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -6898,7 +6898,7 @@
     "time": "6pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DexZsP6JW2h/",
-    "description": "",
+    "description": "Live music + DJs across sinister genres w/tarot, caricatures, + art installation",
     "tags": [],
     "age": "",
     "age_min": null,
@@ -6960,8 +6960,12 @@
     "time": "8pm",
     "end_time": "",
     "url": "https://www.instagram.com/p/DehOxr5Osnf/",
-    "description": "",
-    "tags": [],
+    "description": "Twin Peaks-themed live pedal steel, DJ, + costume contest",
+    "tags": [
+      "costumes",
+      "dance party",
+      "live music"
+    ],
     "age": "21+",
     "age_min": 21,
     "price_min": 10.0,
@@ -7119,33 +7123,6 @@
     "status": "confirmed"
   },
   {
-    "id": "invisible-czars-cabinet-of-dr-cagliari-2026-11-01-1",
-    "name": "Invisible Czars: Cabinet of Dr. Cagliari",
-    "name_html": "Invisible Czars: <em>Cabinet of Dr. Cagliari</em>",
-    "name_italics": [
-      [
-        17,
-        40
-      ]
-    ],
-    "date": "2026-11-01",
-    "venue": "Alamo Mueller",
-    "price": "$25",
-    "time": "7pm",
-    "end_time": "",
-    "url": "https://invincibleczars.com/",
-    "description": "Watch classic 1920s silent horror film live scored by a soundtrack band",
-    "tags": [
-      "film",
-      "live music"
-    ],
-    "age": "",
-    "age_min": null,
-    "price_min": 25.0,
-    "sold_out": false,
-    "status": "confirmed"
-  },
-  {
     "id": "jim-henson-s-labyrinth-in-concert-2026-11-01-1",
     "name": "Jim Henson's Labyrinth in Concert",
     "name_html": null,
@@ -7164,6 +7141,25 @@
     "age": "",
     "age_min": null,
     "price_min": 41.0,
+    "sold_out": false,
+    "status": "confirmed"
+  },
+  {
+    "id": "la-llorona-2026-11-01-2",
+    "name": "La Llorona",
+    "name_html": null,
+    "name_italics": null,
+    "date": "2026-11-01",
+    "venue": "Penfold Theater",
+    "price": "$20",
+    "time": "7pm",
+    "end_time": "",
+    "url": "https://bbdancecollective.com/performances",
+    "description": "",
+    "tags": [],
+    "age": "",
+    "age_min": null,
+    "price_min": 20.0,
     "sold_out": false,
     "status": "confirmed"
   },
